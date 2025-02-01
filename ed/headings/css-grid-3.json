@@ -43,74 +43,235 @@
       "number": "1.1"
     },
     {
+      "id": "waterfall",
+      "href": "https://drafts.csswg.org/css-grid-3/#waterfall",
+      "level": 4,
+      "title": "Waterfall Layout with Auto-placed Items",
+      "number": "1.1.1"
+    },
+    {
+      "id": "collapse",
+      "href": "https://drafts.csswg.org/css-grid-3/#collapse",
+      "level": 4,
+      "title": "One-dimensional Grid Layout",
+      "number": "1.1.2"
+    },
+    {
+      "id": "alternative-proposals",
+      "href": "https://drafts.csswg.org/css-grid-3/#alternative-proposals",
+      "level": 3,
+      "title": "Alternative Syntax Proposals",
+      "number": "1.2"
+    },
+    {
       "id": "values",
       "href": "https://drafts.csswg.org/css-grid-3/#values",
       "level": 3,
       "title": "Value Definitions",
-      "number": "1.2"
+      "number": "1.3"
     },
     {
-      "id": "masonry-layout",
-      "href": "https://drafts.csswg.org/css-grid-3/#masonry-layout",
+      "id": "masonry-model",
+      "href": "https://drafts.csswg.org/css-grid-3/#masonry-model",
       "level": 2,
-      "title": "Masonry Layout",
+      "title": "Masonry Layout Model",
       "number": "2"
     },
     {
-      "id": "line-name-resolution",
-      "href": "https://drafts.csswg.org/css-grid-3/#line-name-resolution",
+      "id": "order-accessibility",
+      "href": "https://drafts.csswg.org/css-grid-3/#order-accessibility",
       "level": 3,
-      "title": "Line Name Resolution",
+      "title": "Reordering and Accessibility",
       "number": "2.1"
     },
     {
-      "id": "grid-item-placement",
-      "href": "https://drafts.csswg.org/css-grid-3/#grid-item-placement",
+      "id": "masonry-model-grid-option",
+      "href": "https://drafts.csswg.org/css-grid-3/#masonry-model-grid-option",
       "level": 3,
-      "title": "Grid Item Placement",
+      "title": "Grid-integrated Option: Establishing Masonry Layout",
       "number": "2.2"
     },
     {
-      "id": "track-sizing",
-      "href": "https://drafts.csswg.org/css-grid-3/#track-sizing",
+      "id": "grid-template-masonry",
+      "href": "https://drafts.csswg.org/css-grid-3/#grid-template-masonry",
+      "level": 4,
+      "title": "Indicating the stacking axis: the masonry keyword for grid-template-columns/grid-template-rows",
+      "number": "2.2.1"
+    },
+    {
+      "id": "grid-auto-flow",
+      "href": "https://drafts.csswg.org/css-grid-3/#grid-auto-flow",
+      "level": 4,
+      "title": "Auto Flow Directions: the grid-auto-flow property",
+      "number": "2.2.2"
+    },
+    {
+      "id": "masonry-model-masonry-option",
+      "href": "https://drafts.csswg.org/css-grid-3/#masonry-model-masonry-option",
       "level": 3,
-      "title": "Grid Axis Track Sizing",
+      "title": "Grid-independent Option: Establishing Masonry Layout",
       "number": "2.3"
+    },
+    {
+      "id": "masonry-display",
+      "href": "https://drafts.csswg.org/css-grid-3/#masonry-display",
+      "level": 4,
+      "title": "Establishing Masonry Containers: the masonry and inline-masonry display values",
+      "number": "2.3.1"
+    },
+    {
+      "id": "masonry-direction",
+      "href": "https://drafts.csswg.org/css-grid-3/#masonry-direction",
+      "level": 4,
+      "title": "Masonry Track Direction: the masonry-direction property",
+      "number": "2.3.2"
+    },
+    {
+      "id": "masonry-fill",
+      "href": "https://drafts.csswg.org/css-grid-3/#masonry-fill",
+      "level": 4,
+      "title": "Masonry Cross Direction: the masonry-fill property",
+      "number": "2.3.3"
+    },
+    {
+      "id": "masonry-flow",
+      "href": "https://drafts.csswg.org/css-grid-3/#masonry-flow",
+      "level": 4,
+      "title": "Masonry Flow Directions: the masonry-flow shorthand",
+      "number": "2.3.4"
+    },
+    {
+      "id": "masonry-shorthand",
+      "href": "https://drafts.csswg.org/css-grid-3/#masonry-shorthand",
+      "level": 4,
+      "title": "Masonry Definition Shorthand: the masonry property",
+      "number": "2.3.5"
+    },
+    {
+      "id": "masonry-track-templates",
+      "href": "https://drafts.csswg.org/css-grid-3/#masonry-track-templates",
+      "level": 2,
+      "title": "Masonry Track Specification",
+      "number": "3"
+    },
+    {
+      "id": "masonry-track-grid-option",
+      "href": "https://drafts.csswg.org/css-grid-3/#masonry-track-grid-option",
+      "level": 3,
+      "title": "Grid-integrated Option: Declaring Masonry Track Templates: the grid-template-* properties",
+      "number": "3.1"
+    },
+    {
+      "id": "masonry-track-masonry-option",
+      "href": "https://drafts.csswg.org/css-grid-3/#masonry-track-masonry-option",
+      "level": 3,
+      "title": "Grid-independent Option: Declaring Masonry Track Templates: the masonry-template-* properties",
+      "number": "3.2"
+    },
+    {
+      "id": "masonry-intrinsic-repeat",
+      "href": "https://drafts.csswg.org/css-grid-3/#masonry-intrinsic-repeat",
+      "level": 4,
+      "title": "Intrinsic Tracks and repeat()",
+      "number": "3.2.1"
+    },
+    {
+      "id": "subgrids",
+      "href": "https://drafts.csswg.org/css-grid-3/#subgrids",
+      "level": 3,
+      "title": "Subgrids",
+      "number": "3.3"
+    },
+    {
+      "id": "repeat-notation",
+      "href": "https://drafts.csswg.org/css-grid-3/#repeat-notation",
+      "level": 3,
+      "title": "Track Repetition: the repeat() notation",
+      "number": "3.4"
+    },
+    {
+      "id": "repeat-auto-areas",
+      "href": "https://drafts.csswg.org/css-grid-3/#repeat-auto-areas",
+      "level": 4,
+      "title": "repeat(auto-areas)",
+      "number": "3.4.1"
     },
     {
       "id": "repeat-auto-fit",
       "href": "https://drafts.csswg.org/css-grid-3/#repeat-auto-fit",
       "level": 4,
       "title": "repeat(auto-fit)",
-      "number": "2.3.1"
+      "number": "3.4.2"
+    },
+    {
+      "id": "track-sizing",
+      "href": "https://drafts.csswg.org/css-grid-3/#track-sizing",
+      "level": 3,
+      "title": "Grid Axis Track Sizing",
+      "number": "3.5"
+    },
+    {
+      "id": "track-sizing-subgrid",
+      "href": "https://drafts.csswg.org/css-grid-3/#track-sizing-subgrid",
+      "level": 4,
+      "title": "Subgrid Item Contributions",
+      "number": "3.5.1"
+    },
+    {
+      "id": "track-sizing-performance",
+      "href": "https://drafts.csswg.org/css-grid-3/#track-sizing-performance",
+      "level": 4,
+      "title": "Optimized Track Sizing",
+      "number": "3.5.2"
+    },
+    {
+      "id": "masonry-track-placement",
+      "href": "https://drafts.csswg.org/css-grid-3/#masonry-track-placement",
+      "level": 2,
+      "title": "Masonry Placement",
+      "number": "4"
+    },
+    {
+      "id": "masonry-placement-grid-option",
+      "href": "https://drafts.csswg.org/css-grid-3/#masonry-placement-grid-option",
+      "level": 3,
+      "title": "Grid-integrated Option: Specifying Masonry Item Placement: the grid-column-* and grid-row-* properties",
+      "number": "4.1"
+    },
+    {
+      "id": "masonry-placement-masonry-option",
+      "href": "https://drafts.csswg.org/css-grid-3/#masonry-placement-masonry-option",
+      "level": 3,
+      "title": "Grid-independent Option: Specifying Masonry Item Placement: the masonry-track-* properties",
+      "number": "4.2"
+    },
+    {
+      "id": "masonry-slack",
+      "href": "https://drafts.csswg.org/css-grid-3/#masonry-slack",
+      "level": 3,
+      "title": "Placement Precision: the masonry-slack property",
+      "number": "4.3"
     },
     {
       "id": "masonry-layout-algorithm",
       "href": "https://drafts.csswg.org/css-grid-3/#masonry-layout-algorithm",
       "level": 3,
-      "title": "Masonry Layout Algorithm",
-      "number": "2.4"
-    },
-    {
-      "id": "masonry-auto-flow",
-      "href": "https://drafts.csswg.org/css-grid-3/#masonry-auto-flow",
-      "level": 3,
-      "title": "The masonry-auto-flow Property",
-      "number": "2.5"
+      "title": "Masonry Layout and Placement Algorithm",
+      "number": "4.4"
     },
     {
       "id": "containing-block",
       "href": "https://drafts.csswg.org/css-grid-3/#containing-block",
-      "level": 2,
+      "level": 4,
       "title": "Containing Block",
-      "number": "3"
+      "number": "4.4.1"
     },
     {
-      "id": "implicit-grid",
-      "href": "https://drafts.csswg.org/css-grid-3/#implicit-grid",
-      "level": 2,
-      "title": "The Implicit Grid",
-      "number": "4"
+      "id": "rtl-example",
+      "href": "https://drafts.csswg.org/css-grid-3/#rtl-example",
+      "level": 4,
+      "title": "Placement and Writing Modes",
+      "number": "4.4.2"
     },
     {
       "id": "intrinsic-sizes",
@@ -127,32 +288,11 @@
       "number": "6"
     },
     {
-      "id": "tracks-alignment",
-      "href": "https://drafts.csswg.org/css-grid-3/#tracks-alignment",
-      "level": 3,
-      "title": "The align-tracks and justify-tracks Properties",
-      "number": "6.1"
-    },
-    {
-      "id": "masonry-axis-stretch-alignment",
-      "href": "https://drafts.csswg.org/css-grid-3/#masonry-axis-stretch-alignment",
-      "level": 3,
-      "title": "Stretch Alignment in the Masonry Axis",
-      "number": "6.2"
-    },
-    {
-      "id": "masonry-axis-alignment",
-      "href": "https://drafts.csswg.org/css-grid-3/#masonry-axis-alignment",
-      "level": 3,
-      "title": "Individual Track Alignment in the Masonry Axis",
-      "number": "6.3"
-    },
-    {
       "id": "masonry-axis-baseline-alignment",
       "href": "https://drafts.csswg.org/css-grid-3/#masonry-axis-baseline-alignment",
       "level": 3,
-      "title": "Baseline Alignment in the Masonry Axis",
-      "number": "6.4"
+      "title": "Baseline Alignment in the stacking axis",
+      "number": "6.1"
     },
     {
       "id": "pagination",
@@ -165,7 +305,7 @@
       "id": "masonry-axis-pagination",
       "href": "https://drafts.csswg.org/css-grid-3/#masonry-axis-pagination",
       "level": 3,
-      "title": "Fragmentation in the Masonry Axis",
+      "title": "Fragmentation in the stacking axis",
       "number": "7.1"
     },
     {
@@ -176,36 +316,54 @@
       "number": "7.2"
     },
     {
-      "id": "subgrids",
-      "href": "https://drafts.csswg.org/css-grid-3/#subgrids",
-      "level": 2,
-      "title": "Subgrids",
-      "number": "8"
-    },
-    {
       "id": "abspos",
       "href": "https://drafts.csswg.org/css-grid-3/#abspos",
       "level": 2,
       "title": "Absolute Positioning",
-      "number": "9"
-    },
-    {
-      "id": "performance-notes",
-      "href": "https://drafts.csswg.org/css-grid-3/#performance-notes",
-      "level": 2,
-      "title": "10. Performance Notes"
+      "number": "8"
     },
     {
       "id": "graceful-degradation",
       "href": "https://drafts.csswg.org/css-grid-3/#graceful-degradation",
       "level": 2,
-      "title": "11. Graceful Degradation"
+      "title": "Graceful Degradation",
+      "number": "9"
     },
     {
       "id": "acknowledgements",
       "href": "https://drafts.csswg.org/css-grid-3/#acknowledgements",
       "level": 2,
-      "title": "12. Acknowledgements"
+      "title": "10. Acknowledgements"
+    },
+    {
+      "id": "security",
+      "href": "https://drafts.csswg.org/css-grid-3/#security",
+      "level": 2,
+      "title": "11. Security Considerations"
+    },
+    {
+      "id": "privacy",
+      "href": "https://drafts.csswg.org/css-grid-3/#privacy",
+      "level": 2,
+      "title": "12. Privacy Considerations"
+    },
+    {
+      "id": "changes",
+      "href": "https://drafts.csswg.org/css-grid-3/#changes",
+      "level": 2,
+      "title": "Changes"
+    },
+    {
+      "id": "changes-3",
+      "href": "https://drafts.csswg.org/css-grid-3/#changes-3",
+      "level": 3,
+      "title": "Additions Since Level 2"
+    },
+    {
+      "id": "recent-changes",
+      "href": "https://drafts.csswg.org/css-grid-3/#recent-changes",
+      "level": 3,
+      "title": "Recent Changes"
     },
     {
       "id": "w3c-conformance",

@@ -63,6 +63,25 @@
       "definedIn": "prose"
     },
     {
+      "id": "absolute-positioning-containing-block",
+      "href": "https://www.w3.org/TR/css-position-3/#absolute-positioning-containing-block",
+      "linkingText": [
+        "absolute positioning containing block"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-property",
+        "href": "https://www.w3.org/TR/css-position-3/#position-property",
+        "title": "Choosing A Positioning Scheme: position property",
+        "number": "2"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "valdef-position-static",
       "href": "https://www.w3.org/TR/css-position-3/#valdef-position-static",
       "linkingText": [
@@ -265,25 +284,6 @@
       "definedIn": "prose"
     },
     {
-      "id": "absolute-positioning-containing-block",
-      "href": "https://www.w3.org/TR/css-position-3/#absolute-positioning-containing-block",
-      "linkingText": [
-        "absolute positioning containing block"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "def-cb",
-        "href": "https://www.w3.org/TR/css-position-3/#def-cb",
-        "title": "Containing Blocks of Positioned Boxes",
-        "number": "2.1"
-      },
-      "definedIn": "prose"
-    },
-    {
       "id": "fixed-positioning-containing-block",
       "href": "https://www.w3.org/TR/css-position-3/#fixed-positioning-containing-block",
       "linkingText": [
@@ -299,6 +299,25 @@
         "href": "https://www.w3.org/TR/css-position-3/#def-cb",
         "title": "Containing Blocks of Positioned Boxes",
         "number": "2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "original-containing-block",
+      "href": "https://www.w3.org/TR/css-position-3/#original-containing-block",
+      "linkingText": [
+        "original containing block"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "original-cb",
+        "href": "https://www.w3.org/TR/css-position-3/#original-cb",
+        "title": "Further Adjustments to the Containing Block",
+        "number": "2.1.1"
       },
       "definedIn": "prose"
     },
@@ -662,6 +681,44 @@
       "definedIn": "prose"
     },
     {
+      "id": "inset-modified-containing-block",
+      "href": "https://www.w3.org/TR/css-position-3/#inset-modified-containing-block",
+      "linkingText": [
+        "inset-modified containing block"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "abspos-insets",
+        "href": "https://www.w3.org/TR/css-position-3/#abspos-insets",
+        "title": "Absolute (and Fixed) Positioning",
+        "number": "3.5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "absolute-position-containing-block",
+      "href": "https://www.w3.org/TR/css-position-3/#absolute-position-containing-block",
+      "linkingText": [
+        "absolute-position containing block"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "abspos-insets",
+        "href": "https://www.w3.org/TR/css-position-3/#abspos-insets",
+        "title": "Absolute (and Fixed) Positioning",
+        "number": "3.5"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "weaker-inset",
       "href": "https://www.w3.org/TR/css-position-3/#weaker-inset",
       "linkingText": [
@@ -673,31 +730,12 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "abspos-insets",
-        "href": "https://www.w3.org/TR/css-position-3/#abspos-insets",
-        "title": "Absolute (and Fixed) Positioning",
-        "number": "3.5"
+        "id": "resolving-insets",
+        "href": "https://www.w3.org/TR/css-position-3/#resolving-insets",
+        "title": "Resolvings Insets: the “Inset-Modified Containing Block”",
+        "number": "3.5.1"
       },
       "definedIn": "prose"
-    },
-    {
-      "id": "inset-modified-containing-block",
-      "href": "https://www.w3.org/TR/css-position-3/#inset-modified-containing-block",
-      "linkingText": [
-        "inset-modified containing block"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": true,
-      "heading": {
-        "id": "abspos-insets",
-        "href": "https://www.w3.org/TR/css-position-3/#abspos-insets",
-        "title": "Absolute (and Fixed) Positioning",
-        "number": "3.5"
-      },
-      "definedIn": "note"
     },
     {
       "id": "static-position",
@@ -708,13 +746,13 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "staticpos-rect",
         "href": "https://www.w3.org/TR/css-position-3/#staticpos-rect",
-        "title": "Resolving Automatic Insets: the “Static Position Rectangle”",
-        "number": "3.5.1"
+        "title": "Calculating the Static Position and the “Static-Position Rectangle”",
+        "number": "3.5.2"
       },
       "definedIn": "prose"
     },
@@ -727,13 +765,32 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "staticpos-rect",
         "href": "https://www.w3.org/TR/css-position-3/#staticpos-rect",
-        "title": "Resolving Automatic Insets: the “Static Position Rectangle”",
-        "number": "3.5.1"
+        "title": "Calculating the Static Position and the “Static-Position Rectangle”",
+        "number": "3.5.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "static-position-containing-block",
+      "href": "https://www.w3.org/TR/css-position-3/#static-position-containing-block",
+      "linkingText": [
+        "static-position containing block"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "staticpos-rect",
+        "href": "https://www.w3.org/TR/css-position-3/#staticpos-rect",
+        "title": "Calculating the Static Position and the “Static-Position Rectangle”",
+        "number": "3.5.2"
       },
       "definedIn": "prose"
     },

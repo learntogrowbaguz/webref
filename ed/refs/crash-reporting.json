@@ -6,12 +6,20 @@
   "refs": {
     "normative": [
       {
-        "name": "REPORTING",
-        "url": "https://www.w3.org/TR/reporting-1/"
+        "name": "DOCUMENT-POLICY",
+        "url": "https://wicg.github.io/document-policy/"
       },
       {
-        "name": "WebIDL",
-        "url": "https://heycam.github.io/webidl/"
+        "name": "DOM",
+        "url": "https://dom.spec.whatwg.org/"
+      },
+      {
+        "name": "REPORTING",
+        "url": "https://w3c.github.io/reporting/"
+      },
+      {
+        "name": "WEBIDL",
+        "url": "https://webidl.spec.whatwg.org/"
       }
     ],
     "informative": []

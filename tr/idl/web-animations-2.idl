@@ -1,10 +1,11 @@
 // GENERATED CONTENT - DO NOT EDIT
 // Content was automatically extracted by Reffy into webref
 // (https://github.com/w3c/webref)
-// Source: Web Animations Level 2 (https://drafts.csswg.org/web-animations-2/)
+// Source: Web Animations Level 2 (https://www.w3.org/TR/web-animations-2/)
 
 [Exposed=Window]
 partial interface AnimationTimeline {
+    readonly attribute CSSNumberish? currentTime;
     readonly attribute CSSNumberish? duration;
     Animation play (optional AnimationEffect? effect = null);
 };

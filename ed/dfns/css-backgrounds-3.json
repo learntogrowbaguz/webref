@@ -5,6 +5,27 @@
   },
   "dfns": [
     {
+      "id": "background-image-layer",
+      "href": "https://drafts.csswg.org/css-backgrounds-3/#background-image-layer",
+      "linkingText": [
+        "background image layer"
+      ],
+      "localLinkingText": [
+        "layer"
+      ],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "layering",
+        "href": "https://drafts.csswg.org/css-backgrounds-3/#layering",
+        "title": "Layering Multiple Background Images",
+        "number": "2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "propdef-background-color",
       "href": "https://drafts.csswg.org/css-backgrounds-3/#propdef-background-color",
       "linkingText": [
@@ -24,6 +45,25 @@
       "definedIn": "table"
     },
     {
+      "id": "background-color-layer",
+      "href": "https://drafts.csswg.org/css-backgrounds-3/#background-color-layer",
+      "linkingText": [
+        "background color"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "background-color",
+        "href": "https://drafts.csswg.org/css-backgrounds-3/#background-color",
+        "title": "Base Color: the background-color property",
+        "number": "2.2"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "propdef-background-image",
       "href": "https://drafts.csswg.org/css-backgrounds-3/#propdef-background-image",
       "linkingText": [
@@ -41,6 +81,27 @@
         "number": "2.3"
       },
       "definedIn": "table"
+    },
+    {
+      "id": "background-images",
+      "href": "https://drafts.csswg.org/css-backgrounds-3/#background-images",
+      "linkingText": [
+        "background image"
+      ],
+      "localLinkingText": [
+        "image"
+      ],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "background-image",
+        "href": "https://drafts.csswg.org/css-backgrounds-3/#background-image",
+        "title": "Image Sources: the background-image property",
+        "number": "2.3"
+      },
+      "definedIn": "prose"
     },
     {
       "id": "typedef-bg-image",
@@ -518,25 +579,6 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "background-clip",
-        "href": "https://drafts.csswg.org/css-backgrounds-3/#background-clip",
-        "title": "Painting Area: the background-clip property",
-        "number": "2.7"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "typedef-box",
-      "href": "https://drafts.csswg.org/css-backgrounds-3/#typedef-box",
-      "linkingText": [
-        "<box>"
-      ],
-      "localLinkingText": [],
-      "type": "type",
-      "for": [],
       "access": "public",
       "informative": false,
       "heading": {
@@ -545,7 +587,7 @@
         "title": "Painting Area: the background-clip property",
         "number": "2.7"
       },
-      "definedIn": "pre"
+      "definedIn": "prose"
     },
     {
       "id": "valdef-background-clip-border-box",
@@ -638,7 +680,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "background-origin",
@@ -1003,6 +1045,25 @@
       "definedIn": "table"
     },
     {
+      "id": "border-color-dfn",
+      "href": "https://drafts.csswg.org/css-backgrounds-3/#border-color-dfn",
+      "linkingText": [
+        "border color"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "border-color",
+        "href": "https://drafts.csswg.org/css-backgrounds-3/#border-color",
+        "title": "Line Colors: the border-color properties",
+        "number": "3.1"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "propdef-border-top-style",
       "href": "https://drafts.csswg.org/css-backgrounds-3/#propdef-border-top-style",
       "linkingText": [
@@ -1096,6 +1157,25 @@
         "number": "3.2"
       },
       "definedIn": "table"
+    },
+    {
+      "id": "border-style-dfn",
+      "href": "https://drafts.csswg.org/css-backgrounds-3/#border-style-dfn",
+      "linkingText": [
+        "border style"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "border-style",
+        "href": "https://drafts.csswg.org/css-backgrounds-3/#border-style",
+        "title": "Line Patterns: the border-style properties",
+        "number": "3.2"
+      },
+      "definedIn": "prose"
     },
     {
       "id": "typedef-line-style",
@@ -1482,6 +1562,25 @@
       "definedIn": "table"
     },
     {
+      "id": "border-width-dfn",
+      "href": "https://drafts.csswg.org/css-backgrounds-3/#border-width-dfn",
+      "linkingText": [
+        "border width"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "border-width",
+        "href": "https://drafts.csswg.org/css-backgrounds-3/#border-width",
+        "title": "Line Thickness: the border-width properties",
+        "number": "3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "typedef-line-width",
       "href": "https://drafts.csswg.org/css-backgrounds-3/#typedef-line-width",
       "linkingText": [
@@ -1810,6 +1909,25 @@
       "definedIn": "table"
     },
     {
+      "id": "border-image-dfn",
+      "href": "https://drafts.csswg.org/css-backgrounds-3/#border-image-dfn",
+      "linkingText": [
+        "border image"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "border-image-source",
+        "href": "https://drafts.csswg.org/css-backgrounds-3/#border-image-source",
+        "title": "Image Source: the border-image-source property",
+        "number": "5.1"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "propdef-border-image-slice",
       "href": "https://drafts.csswg.org/css-backgrounds-3/#propdef-border-image-slice",
       "linkingText": [
@@ -1877,7 +1995,28 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "border-image-width",
+        "href": "https://drafts.csswg.org/css-backgrounds-3/#border-image-width",
+        "title": "Drawing Areas: the border-image-width property",
+        "number": "5.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "border-image-region",
+      "href": "https://drafts.csswg.org/css-backgrounds-3/#border-image-region",
+      "linkingText": [
+        "border image region"
+      ],
+      "localLinkingText": [
+        "region"
+      ],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "border-image-width",
@@ -2116,7 +2255,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "box-shadow"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -2128,15 +2269,17 @@
       "definedIn": "dt"
     },
     {
-      "id": "horizontal-offset",
-      "href": "https://drafts.csswg.org/css-backgrounds-3/#horizontal-offset",
+      "id": "box-shadow-horizontal-offset",
+      "href": "https://drafts.csswg.org/css-backgrounds-3/#box-shadow-horizontal-offset",
       "linkingText": [
         "horizontal offset"
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
-      "access": "private",
+      "for": [
+        "box-shadow"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "box-shadow",
@@ -2154,7 +2297,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "box-shadow"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -2166,15 +2311,17 @@
       "definedIn": "dt"
     },
     {
-      "id": "vertical-offset",
-      "href": "https://drafts.csswg.org/css-backgrounds-3/#vertical-offset",
+      "id": "box-shadow-vertical-offset",
+      "href": "https://drafts.csswg.org/css-backgrounds-3/#box-shadow-vertical-offset",
       "linkingText": [
         "vertical offset"
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
-      "access": "private",
+      "for": [
+        "box-shadow"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "box-shadow",
@@ -2192,7 +2339,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "box-shadow"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -2204,15 +2353,17 @@
       "definedIn": "dt"
     },
     {
-      "id": "blur-radius",
-      "href": "https://drafts.csswg.org/css-backgrounds-3/#blur-radius",
+      "id": "box-shadow-blur-radius",
+      "href": "https://drafts.csswg.org/css-backgrounds-3/#box-shadow-blur-radius",
       "linkingText": [
         "blur radius"
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
-      "access": "private",
+      "for": [
+        "box-shadow"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "box-shadow",
@@ -2230,7 +2381,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "box-shadow"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -2242,15 +2395,17 @@
       "definedIn": "dt"
     },
     {
-      "id": "spread-distance",
-      "href": "https://drafts.csswg.org/css-backgrounds-3/#spread-distance",
+      "id": "box-shadow-spread-distance",
+      "href": "https://drafts.csswg.org/css-backgrounds-3/#box-shadow-spread-distance",
       "linkingText": [
         "spread distance"
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
-      "access": "private",
+      "for": [
+        "box-shadow"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "box-shadow",
@@ -2271,6 +2426,29 @@
       "for": [
         "box-shadow"
       ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "box-shadow",
+        "href": "https://drafts.csswg.org/css-backgrounds-3/#box-shadow",
+        "title": "Drop Shadows: the box-shadow property",
+        "number": "6.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "box-shadow-outer-box-shadow",
+      "href": "https://drafts.csswg.org/css-backgrounds-3/#box-shadow-outer-box-shadow",
+      "linkingText": [
+        "outer box-shadow"
+      ],
+      "localLinkingText": [
+        "outer shadow"
+      ],
+      "type": "dfn",
+      "for": [
+        "box-shadow"
+      ],
       "access": "public",
       "informative": false,
       "heading": {
@@ -2279,32 +2457,11 @@
         "title": "Drop Shadows: the box-shadow property",
         "number": "6.1"
       },
-      "definedIn": "dt"
-    },
-    {
-      "id": "outer-box-shadow",
-      "href": "https://drafts.csswg.org/css-backgrounds-3/#outer-box-shadow",
-      "linkingText": [
-        "outer box-shadow"
-      ],
-      "localLinkingText": [
-        "outer shadow"
-      ],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "box-shadow",
-        "href": "https://drafts.csswg.org/css-backgrounds-3/#box-shadow",
-        "title": "Drop Shadows: the box-shadow property",
-        "number": "6.1"
-      },
       "definedIn": "prose"
     },
     {
-      "id": "inner-box-shadow",
-      "href": "https://drafts.csswg.org/css-backgrounds-3/#inner-box-shadow",
+      "id": "box-shadow-inner-box-shadow",
+      "href": "https://drafts.csswg.org/css-backgrounds-3/#box-shadow-inner-box-shadow",
       "linkingText": [
         "inner box-shadow"
       ],
@@ -2312,8 +2469,10 @@
         "inner shadow"
       ],
       "type": "dfn",
-      "for": [],
-      "access": "private",
+      "for": [
+        "box-shadow"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "box-shadow",
@@ -2322,82 +2481,6 @@
         "number": "6.1"
       },
       "definedIn": "prose"
-    },
-    {
-      "id": "ua",
-      "href": "https://drafts.csswg.org/css-backgrounds-3/#ua",
-      "linkingText": [
-        "UA"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "glossary",
-        "href": "https://drafts.csswg.org/css-backgrounds-3/#glossary",
-        "title": "Glossary",
-        "number": "7.1"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "user-agent",
-      "href": "https://drafts.csswg.org/css-backgrounds-3/#user-agent",
-      "linkingText": [
-        "user agent"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "glossary",
-        "href": "https://drafts.csswg.org/css-backgrounds-3/#glossary",
-        "title": "Glossary",
-        "number": "7.1"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "document",
-      "href": "https://drafts.csswg.org/css-backgrounds-3/#document",
-      "linkingText": [
-        "document"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "glossary",
-        "href": "https://drafts.csswg.org/css-backgrounds-3/#glossary",
-        "title": "Glossary",
-        "number": "7.1"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "style-sheet",
-      "href": "https://drafts.csswg.org/css-backgrounds-3/#style-sheet",
-      "linkingText": [
-        "style sheet"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "glossary",
-        "href": "https://drafts.csswg.org/css-backgrounds-3/#glossary",
-        "title": "Glossary",
-        "number": "7.1"
-      },
-      "definedIn": "dt"
     }
   ]
 }

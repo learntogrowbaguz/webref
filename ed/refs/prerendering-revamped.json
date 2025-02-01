@@ -34,7 +34,7 @@
         "url": "https://dom.spec.whatwg.org/"
       },
       {
-        "name": "ENCRYPTED-MEDIA",
+        "name": "ENCRYPTED-MEDIA-2",
         "url": "https://w3c.github.io/encrypted-media/"
       },
       {
@@ -59,7 +59,7 @@
       },
       {
         "name": "GEOLOCATION",
-        "url": "https://w3c.github.io/geolocation-api/"
+        "url": "https://w3c.github.io/geolocation/"
       },
       {
         "name": "HR-TIME-3",
@@ -90,11 +90,15 @@
         "url": "https://w3c.github.io/navigation-timing/"
       },
       {
+        "name": "NO-VARY-SEARCH",
+        "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-no-vary-search"
+      },
+      {
         "name": "NOTIFICATIONS",
         "url": "https://notifications.spec.whatwg.org/"
       },
       {
-        "name": "PAYMENT-REQUEST-1.1",
+        "name": "PAYMENT-REQUEST",
         "url": "https://w3c.github.io/payment-request/"
       },
       {
@@ -114,16 +118,12 @@
         "url": "https://w3c.github.io/push-api/"
       },
       {
-        "name": "RDF11-MT",
-        "url": "https://www.w3.org/TR/rdf11-mt/"
-      },
-      {
         "name": "REFERRER-POLICY",
         "url": "https://w3c.github.io/webappsec-referrer-policy/"
       },
       {
         "name": "RFC8941",
-        "url": "https://www.rfc-editor.org/rfc/rfc8941"
+        "url": "https://httpwg.org/specs/rfc8941.html"
       },
       {
         "name": "SCREEN-CAPTURE",
@@ -147,7 +147,7 @@
       },
       {
         "name": "SPEECH-API",
-        "url": "https://wicg.github.io/speech-api/"
+        "url": "https://webaudio.github.io/web-speech-api/"
       },
       {
         "name": "STORAGE",
@@ -172,6 +172,10 @@
       {
         "name": "WEB-SHARE",
         "url": "https://w3c.github.io/web-share/"
+      },
+      {
+        "name": "WEBAUDIO-1.0",
+        "url": "https://webaudio.github.io/web-audio-api/"
       },
       {
         "name": "WebCryptoAPI",
@@ -203,10 +207,6 @@
       }
     ],
     "informative": [
-      {
-        "name": "PAYMENT-REQUEST",
-        "url": "https://w3c.github.io/payment-request/"
-      },
       {
         "name": "POINTERLOCK",
         "url": "https://w3c.github.io/pointerlock/"

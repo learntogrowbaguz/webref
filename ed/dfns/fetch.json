@@ -343,7 +343,7 @@
       "for": [
         "fetch controller"
       ],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "infrastructure",
@@ -406,7 +406,7 @@
       "for": [
         "fetch controller"
       ],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "infrastructure",
@@ -530,7 +530,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "infrastructure",
@@ -749,6 +749,27 @@
       "definedIn": "dt"
     },
     {
+      "id": "fetch-timing-info-first-interim-network-response-start-time",
+      "href": "https://fetch.spec.whatwg.org/#fetch-timing-info-first-interim-network-response-start-time",
+      "linkingText": [
+        "first interim network-response start time"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fetch timing info"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "infrastructure",
+        "href": "https://fetch.spec.whatwg.org/#infrastructure",
+        "title": "Infrastructure",
+        "number": "2"
+      },
+      "definedIn": "dt"
+    },
+    {
       "id": "fetch-timing-info-final-network-response-start-time",
       "href": "https://fetch.spec.whatwg.org/#fetch-timing-info-final-network-response-start-time",
       "linkingText": [
@@ -898,6 +919,27 @@
       "href": "https://fetch.spec.whatwg.org/#fetch-timing-info-decoded-body-size",
       "linkingText": [
         "decoded size"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "response body info"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "infrastructure",
+        "href": "https://fetch.spec.whatwg.org/#infrastructure",
+        "title": "Infrastructure",
+        "number": "2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "response-body-info-content-type",
+      "href": "https://fetch.spec.whatwg.org/#response-body-info-content-type",
+      "linkingText": [
+        "content type"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1873,6 +1915,25 @@
       "type": "dfn",
       "for": [],
       "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "terminology-headers",
+        "href": "https://fetch.spec.whatwg.org/#terminology-headers",
+        "title": "Headers",
+        "number": "2.2.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "build-a-content-range",
+      "href": "https://fetch.spec.whatwg.org/#build-a-content-range",
+      "linkingText": [
+        "build a content range"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "terminology-headers",
@@ -4529,10 +4590,10 @@
       "definedIn": "prose"
     },
     {
-      "id": "obtain-a-connection-http3only",
-      "href": "https://fetch.spec.whatwg.org/#obtain-a-connection-http3only",
+      "id": "obtain-a-connection-requireunreliable",
+      "href": "https://fetch.spec.whatwg.org/#obtain-a-connection-requireunreliable",
       "linkingText": [
-        "http3Only"
+        "requireUnreliable"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -4596,7 +4657,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "network-partition-keys",
@@ -4705,7 +4766,7 @@
     },
     {
       "id": "should-response-to-request-be-blocked-due-to-mime-type?",
-      "href": "https://fetch.spec.whatwg.org/#should-response-to-request-be-blocked-due-to-mime-type?",
+      "href": "https://fetch.spec.whatwg.org/#should-response-to-request-be-blocked-due-to-mime-type%3F",
       "linkingText": [
         "should response to request be blocked due to mime type"
       ],
@@ -4716,7 +4777,7 @@
       "informative": false,
       "heading": {
         "id": "should-response-to-request-be-blocked-due-to-mime-type?",
-        "href": "https://fetch.spec.whatwg.org/#should-response-to-request-be-blocked-due-to-mime-type?",
+        "href": "https://fetch.spec.whatwg.org/#should-response-to-request-be-blocked-due-to-mime-type%3F",
         "title": "Should response to request be blocked due to its MIME type?",
         "number": "2.10"
       },
@@ -5072,7 +5133,7 @@
     },
     {
       "id": "should-response-to-request-be-blocked-due-to-nosniff?",
-      "href": "https://fetch.spec.whatwg.org/#should-response-to-request-be-blocked-due-to-nosniff?",
+      "href": "https://fetch.spec.whatwg.org/#should-response-to-request-be-blocked-due-to-nosniff%3F",
       "linkingText": [
         "should response to request be blocked due to nosniff"
       ],
@@ -5083,7 +5144,7 @@
       "informative": false,
       "heading": {
         "id": "should-response-to-request-be-blocked-due-to-nosniff?",
-        "href": "https://fetch.spec.whatwg.org/#should-response-to-request-be-blocked-due-to-nosniff?",
+        "href": "https://fetch.spec.whatwg.org/#should-response-to-request-be-blocked-due-to-nosniff%3F",
         "title": "Should response to request be blocked due to nosniff?",
         "number": "3.5.1"
       },
@@ -5393,6 +5454,25 @@
       "definedIn": "prose"
     },
     {
+      "id": "populate-request-from-client",
+      "href": "https://fetch.spec.whatwg.org/#populate-request-from-client",
+      "linkingText": [
+        "populate request from client"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fetching",
+        "href": "https://fetch.spec.whatwg.org/#fetching",
+        "title": "Fetching",
+        "number": "4"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "concept-main-fetch",
       "href": "https://fetch.spec.whatwg.org/#concept-main-fetch",
       "linkingText": [
@@ -5439,6 +5519,27 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "scheme-fetch",
+        "href": "https://fetch.spec.whatwg.org/#scheme-fetch",
+        "title": "Scheme fetch",
+        "number": "4.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "request-determine-the-environment",
+      "href": "https://fetch.spec.whatwg.org/#request-determine-the-environment",
+      "linkingText": [
+        "determine the environment"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "request"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -6304,6 +6405,27 @@
       "definedIn": "prose"
     },
     {
+      "id": "dom-headers-getsetcookie",
+      "href": "https://fetch.spec.whatwg.org/#dom-headers-getsetcookie",
+      "linkingText": [
+        "getSetCookie()"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "Headers"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "headers-class",
+        "href": "https://fetch.spec.whatwg.org/#headers-class",
+        "title": "Headers class",
+        "number": "5.1"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "dom-headers-has",
       "href": "https://fetch.spec.whatwg.org/#dom-headers-has",
       "linkingText": [
@@ -6466,27 +6588,6 @@
       "definedIn": "pre"
     },
     {
-      "id": "concept-body-mime-type",
-      "href": "https://fetch.spec.whatwg.org/#concept-body-mime-type",
-      "linkingText": [
-        "MIME type"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "Body"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "body-mixin",
-        "href": "https://fetch.spec.whatwg.org/#body-mixin",
-        "title": "Body mixin",
-        "number": "5.3"
-      },
-      "definedIn": "prose"
-    },
-    {
       "id": "concept-body-body",
       "href": "https://fetch.spec.whatwg.org/#concept-body-body",
       "linkingText": [
@@ -6519,6 +6620,27 @@
         "Body"
       ],
       "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "body-mixin",
+        "href": "https://fetch.spec.whatwg.org/#body-mixin",
+        "title": "Body mixin",
+        "number": "5.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "concept-body-mime-type",
+      "href": "https://fetch.spec.whatwg.org/#concept-body-mime-type",
+      "linkingText": [
+        "get the MIME type"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Body"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "body-mixin",
@@ -6617,6 +6739,27 @@
       "href": "https://fetch.spec.whatwg.org/#dom-body-blob",
       "linkingText": [
         "blob()"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "Body"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "body-mixin",
+        "href": "https://fetch.spec.whatwg.org/#body-mixin",
+        "title": "Body mixin",
+        "number": "5.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-body-bytes",
+      "href": "https://fetch.spec.whatwg.org/#dom-body-bytes",
+      "linkingText": [
+        "bytes()"
       ],
       "localLinkingText": [],
       "type": "method",
@@ -7308,6 +7451,27 @@
       "href": "https://fetch.spec.whatwg.org/#dom-requestdestination-image",
       "linkingText": [
         "\"image\""
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "RequestDestination"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "request-class",
+        "href": "https://fetch.spec.whatwg.org/#request-class",
+        "title": "Request class",
+        "number": "5.4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-requestdestination-json",
+      "href": "https://fetch.spec.whatwg.org/#dom-requestdestination-json",
+      "linkingText": [
+        "\"json\""
       ],
       "localLinkingText": [],
       "type": "enum-value",

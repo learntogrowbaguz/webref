@@ -8,13 +8,7 @@
       "id": "title",
       "href": "https://www.w3.org/TR/css-multicol-1/#title",
       "level": 1,
-      "title": "133 TestsCSS Multi-column Layout Module Level 1"
-    },
-    {
-      "id": "profile-and-date",
-      "href": "https://www.w3.org/TR/css-multicol-1/#profile-and-date",
-      "level": 2,
-      "title": "W3C Candidate Recommendation Snapshot, 12 October 2021"
+      "title": "CSS Multi-column Layout Module Level 1"
     },
     {
       "id": "abstract",
@@ -23,8 +17,8 @@
       "title": "Abstract"
     },
     {
-      "id": "status",
-      "href": "https://www.w3.org/TR/css-multicol-1/#status",
+      "id": "sotd",
+      "href": "https://www.w3.org/TR/css-multicol-1/#sotd",
       "level": 2,
       "title": "Status of this document"
     },
@@ -206,7 +200,14 @@
       "id": "changes",
       "href": "https://www.w3.org/TR/css-multicol-1/#changes",
       "level": 2,
-      "title": "Appendix B. Changes"
+      "title": "Changes",
+      "number": "B"
+    },
+    {
+      "id": "changes-from-20211012",
+      "href": "https://www.w3.org/TR/css-multicol-1/#changes-from-20211012",
+      "level": 3,
+      "title": "Changes from the Candidate Recommendation (CR) of 12 October 2021"
     },
     {
       "id": "changes-from-20210212",

@@ -1,0 +1,138 @@
+{
+  "spec": {
+    "title": "Writing Assistance APIs",
+    "url": "https://webmachinelearning.github.io/writing-assistance-apis/"
+  },
+  "headings": [
+    {
+      "id": "title",
+      "href": "https://webmachinelearning.github.io/writing-assistance-apis/#title",
+      "level": 1,
+      "title": "Writing Assistance APIs"
+    },
+    {
+      "id": "abstract",
+      "href": "https://webmachinelearning.github.io/writing-assistance-apis/#abstract",
+      "level": 2,
+      "title": "Abstract"
+    },
+    {
+      "id": "sotd",
+      "href": "https://webmachinelearning.github.io/writing-assistance-apis/#sotd",
+      "level": 2,
+      "title": "Status of this document"
+    },
+    {
+      "id": "toc",
+      "href": "https://webmachinelearning.github.io/writing-assistance-apis/#toc",
+      "level": 2,
+      "title": "Table of Contents"
+    },
+    {
+      "id": "intro",
+      "href": "https://webmachinelearning.github.io/writing-assistance-apis/#intro",
+      "level": 2,
+      "title": "Introduction",
+      "number": "1"
+    },
+    {
+      "id": "shared-ai-api",
+      "href": "https://webmachinelearning.github.io/writing-assistance-apis/#shared-ai-api",
+      "level": 2,
+      "title": "Shared AI APIs and infrastructure",
+      "number": "2"
+    },
+    {
+      "id": "summarizer-api",
+      "href": "https://webmachinelearning.github.io/writing-assistance-apis/#summarizer-api",
+      "level": 2,
+      "title": "The summarizer API",
+      "number": "3"
+    },
+    {
+      "id": "summarizer-creation",
+      "href": "https://webmachinelearning.github.io/writing-assistance-apis/#summarizer-creation",
+      "level": 3,
+      "title": "Creation",
+      "number": "3.1"
+    },
+    {
+      "id": "summarizer-availability",
+      "href": "https://webmachinelearning.github.io/writing-assistance-apis/#summarizer-availability",
+      "level": 3,
+      "title": "Availability",
+      "number": "3.2"
+    },
+    {
+      "id": "the-aisummarizer-class",
+      "href": "https://webmachinelearning.github.io/writing-assistance-apis/#the-aisummarizer-class",
+      "level": 3,
+      "title": "The AISummarizer class",
+      "number": "3.3"
+    },
+    {
+      "id": "summarizer-options",
+      "href": "https://webmachinelearning.github.io/writing-assistance-apis/#summarizer-options",
+      "level": 3,
+      "title": "Options",
+      "number": "3.4"
+    },
+    {
+      "id": "summarizer-errors",
+      "href": "https://webmachinelearning.github.io/writing-assistance-apis/#summarizer-errors",
+      "level": 3,
+      "title": "Errors",
+      "number": "3.5"
+    },
+    {
+      "id": "writer-api",
+      "href": "https://webmachinelearning.github.io/writing-assistance-apis/#writer-api",
+      "level": 2,
+      "title": "The writer API",
+      "number": "4"
+    },
+    {
+      "id": "rewriter-api",
+      "href": "https://webmachinelearning.github.io/writing-assistance-apis/#rewriter-api",
+      "level": 2,
+      "title": "The rewriter API",
+      "number": "5"
+    },
+    {
+      "id": "index",
+      "href": "https://webmachinelearning.github.io/writing-assistance-apis/#index",
+      "level": 2,
+      "title": "Index"
+    },
+    {
+      "id": "index-defined-here",
+      "href": "https://webmachinelearning.github.io/writing-assistance-apis/#index-defined-here",
+      "level": 3,
+      "title": "Terms defined by this specification"
+    },
+    {
+      "id": "index-defined-elsewhere",
+      "href": "https://webmachinelearning.github.io/writing-assistance-apis/#index-defined-elsewhere",
+      "level": 3,
+      "title": "Terms defined by reference"
+    },
+    {
+      "id": "references",
+      "href": "https://webmachinelearning.github.io/writing-assistance-apis/#references",
+      "level": 2,
+      "title": "References"
+    },
+    {
+      "id": "normative",
+      "href": "https://webmachinelearning.github.io/writing-assistance-apis/#normative",
+      "level": 3,
+      "title": "Normative References"
+    },
+    {
+      "id": "idl-index",
+      "href": "https://webmachinelearning.github.io/writing-assistance-apis/#idl-index",
+      "level": 2,
+      "title": "IDL Index"
+    }
+  ]
+}

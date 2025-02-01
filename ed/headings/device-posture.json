@@ -24,15 +24,15 @@
       "number": "1"
     },
     {
-      "id": "internal-slots",
-      "href": "https://w3c.github.io/device-posture/#internal-slots",
+      "id": "extensions-to-the-document-interface",
+      "href": "https://w3c.github.io/device-posture/#extensions-to-the-document-interface",
       "level": 2,
-      "title": "Internal slots",
+      "title": "Extensions to the Document interface",
       "number": "2"
     },
     {
-      "id": "extensions-to-the-navigator-interface",
-      "href": "https://w3c.github.io/device-posture/#extensions-to-the-navigator-interface",
+      "id": "extensions-to-the-navigator-interface-0",
+      "href": "https://w3c.github.io/device-posture/#extensions-to-the-navigator-interface-0",
       "level": 2,
       "title": "Extensions to the Navigator interface",
       "number": "3"
@@ -76,7 +76,7 @@
       "id": "the-device-posture-media-feature",
       "href": "https://w3c.github.io/device-posture/#the-device-posture-media-feature",
       "level": 3,
-      "title": "The 'device-posture' media feature",
+      "title": "The device-posture media feature",
       "number": "6.1"
     },
     {
@@ -108,10 +108,10 @@
       "number": "8"
     },
     {
-      "id": "updating-the-device-posture-information",
-      "href": "https://w3c.github.io/device-posture/#updating-the-device-posture-information",
+      "id": "calculating-the-device-posture-information",
+      "href": "https://w3c.github.io/device-posture/#calculating-the-device-posture-information",
       "level": 3,
-      "title": "Updating the device posture information",
+      "title": "Calculating the device posture information",
       "number": "8.1"
     },
     {
@@ -122,85 +122,139 @@
       "number": "8.2"
     },
     {
-      "id": "security-and-privacy-considerations",
-      "href": "https://w3c.github.io/device-posture/#security-and-privacy-considerations",
+      "id": "security-considerations",
+      "href": "https://w3c.github.io/device-posture/#security-considerations",
       "level": 2,
-      "title": "Security and Privacy considerations",
+      "title": "Security considerations",
       "number": "9"
     },
     {
-      "id": "types-of-security-and-privacy-threats",
-      "href": "https://w3c.github.io/device-posture/#types-of-security-and-privacy-threats",
+      "id": "privacy-considerations",
+      "href": "https://w3c.github.io/device-posture/#privacy-considerations",
+      "level": 2,
+      "title": "10. Privacy considerations"
+    },
+    {
+      "id": "types-of-privacy-threats",
+      "href": "https://w3c.github.io/device-posture/#types-of-privacy-threats",
       "level": 3,
-      "title": "Types of security and privacy threats",
-      "number": "9.1"
+      "title": "Types of privacy threats",
+      "number": "10.1"
+    },
+    {
+      "id": "identifying-users-across-contexts-0",
+      "href": "https://w3c.github.io/device-posture/#identifying-users-across-contexts-0",
+      "level": 4,
+      "title": "Identifying users across contexts",
+      "number": "10.1.1"
+    },
+    {
+      "id": "cross-origin-iframes",
+      "href": "https://w3c.github.io/device-posture/#cross-origin-iframes",
+      "level": 4,
+      "title": "Cross-origin iframes",
+      "number": "10.1.2"
+    },
+    {
+      "id": "malicious-script-injection-for-advertising-or-exploitation",
+      "href": "https://w3c.github.io/device-posture/#malicious-script-injection-for-advertising-or-exploitation",
+      "level": 4,
+      "title": "Malicious script injection (for advertising or exploitation)",
+      "number": "10.1.3"
     },
     {
       "id": "mitigation-strategies",
       "href": "https://w3c.github.io/device-posture/#mitigation-strategies",
       "level": 3,
-      "title": "Mitigation Strategies",
-      "number": "9.2"
+      "title": "Mitigation strategies",
+      "number": "10.2"
     },
     {
-      "id": "secure-context",
-      "href": "https://w3c.github.io/device-posture/#secure-context",
+      "id": "data-minimization-0",
+      "href": "https://w3c.github.io/device-posture/#data-minimization-0",
       "level": 4,
-      "title": "Secure Context",
-      "number": "9.2.1"
+      "title": "Data minimization",
+      "number": "10.2.1"
     },
     {
-      "id": "focused-area",
-      "href": "https://w3c.github.io/device-posture/#focused-area",
+      "id": "user-attention-0",
+      "href": "https://w3c.github.io/device-posture/#user-attention-0",
       "level": 4,
-      "title": "Focused Area",
-      "number": "9.2.2"
+      "title": "User attention",
+      "number": "10.2.2"
     },
     {
-      "id": "visibility-state",
-      "href": "https://w3c.github.io/device-posture/#visibility-state",
+      "id": "user-mediated-action-0",
+      "href": "https://w3c.github.io/device-posture/#user-mediated-action-0",
       "level": 4,
-      "title": "Visibility State",
-      "number": "9.2.3"
+      "title": "User-mediated action",
+      "number": "10.2.3"
+    },
+    {
+      "id": "accessibility-considerations",
+      "href": "https://w3c.github.io/device-posture/#accessibility-considerations",
+      "level": 2,
+      "title": "11. Accessibility considerations"
+    },
+    {
+      "id": "automation",
+      "href": "https://w3c.github.io/device-posture/#automation",
+      "level": 2,
+      "title": "12. Automation"
+    },
+    {
+      "id": "extension-commands",
+      "href": "https://w3c.github.io/device-posture/#extension-commands",
+      "level": 3,
+      "title": "Extension Commands",
+      "number": "12.1"
+    },
+    {
+      "id": "set-device-posture",
+      "href": "https://w3c.github.io/device-posture/#set-device-posture",
+      "level": 4,
+      "title": "Set device posture",
+      "number": "12.1.1"
+    },
+    {
+      "id": "clear-device-posture",
+      "href": "https://w3c.github.io/device-posture/#clear-device-posture",
+      "level": 4,
+      "title": "Clear device posture",
+      "number": "12.1.2"
     },
     {
       "id": "examples",
       "href": "https://w3c.github.io/device-posture/#examples",
       "level": 2,
-      "title": "10. Examples"
+      "title": "13. Examples"
     },
     {
       "id": "example-1-posture-data",
       "href": "https://w3c.github.io/device-posture/#example-1-posture-data",
       "level": 3,
       "title": "Example 1: Posture data",
-      "number": "10.1"
+      "number": "13.1"
     },
     {
       "id": "example-2-device-posture",
       "href": "https://w3c.github.io/device-posture/#example-2-device-posture",
       "level": 3,
       "title": "Example 2: device-posture",
-      "number": "10.2"
+      "number": "13.2"
     },
     {
       "id": "example-3-feature-detection-of-device-posture-media-feature",
       "href": "https://w3c.github.io/device-posture/#example-3-feature-detection-of-device-posture-media-feature",
       "level": 3,
       "title": "Example 3: Feature detection of device-posture media feature",
-      "number": "10.3"
-    },
-    {
-      "id": "dependencies",
-      "href": "https://w3c.github.io/device-posture/#dependencies",
-      "level": 2,
-      "title": "11. Dependencies"
+      "number": "13.3"
     },
     {
       "id": "conformance",
       "href": "https://w3c.github.io/device-posture/#conformance",
       "level": 2,
-      "title": "12. Conformance"
+      "title": "14. Conformance"
     },
     {
       "id": "idl-index",
@@ -217,18 +271,39 @@
       "number": "B"
     },
     {
+      "id": "substantive-changes-summary",
+      "href": "https://w3c.github.io/device-posture/#substantive-changes-summary",
+      "level": 2,
+      "title": "Summary of substantive changes",
+      "number": "C"
+    },
+    {
+      "id": "substantive-changes-summary-fpwd",
+      "href": "https://w3c.github.io/device-posture/#substantive-changes-summary-fpwd",
+      "level": 3,
+      "title": "Changes since the First Public Working Draft (2020/12/17)",
+      "number": "C.1"
+    },
+    {
       "id": "references",
       "href": "https://w3c.github.io/device-posture/#references",
       "level": 2,
       "title": "References",
-      "number": "C"
+      "number": "D"
     },
     {
       "id": "normative-references",
       "href": "https://w3c.github.io/device-posture/#normative-references",
       "level": 3,
       "title": "Normative references",
-      "number": "C.1"
+      "number": "D.1"
+    },
+    {
+      "id": "informative-references",
+      "href": "https://w3c.github.io/device-posture/#informative-references",
+      "level": 3,
+      "title": "Informative references",
+      "number": "D.2"
     }
   ]
 }

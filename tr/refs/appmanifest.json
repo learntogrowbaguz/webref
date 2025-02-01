@@ -14,10 +14,6 @@
         "url": "https://www.rfc-editor.org/rfc/rfc5646"
       },
       {
-        "name": "BIDI",
-        "url": "https://www.unicode.org/reports/tr9/tr9-46.html"
-      },
-      {
         "name": "CSP3",
         "url": "https://www.w3.org/TR/CSP3/"
       },
@@ -94,6 +90,10 @@
         "url": "https://www.w3.org/TR/screen-orientation/"
       },
       {
+        "name": "UAX9",
+        "url": "https://www.unicode.org/reports/tr9/tr9-50.html"
+      },
+      {
         "name": "UNICODE",
         "url": "https://www.unicode.org/versions/latest/"
       },
@@ -104,9 +104,21 @@
       {
         "name": "URL",
         "url": "https://url.spec.whatwg.org/"
+      },
+      {
+        "name": "UTS55",
+        "url": "https://www.unicode.org/reports/tr55/tr55-5.html"
       }
     ],
     "informative": [
+      {
+        "name": "FULLSCREEN",
+        "url": "https://fullscreen.spec.whatwg.org/"
+      },
+      {
+        "name": "i18n-glossary",
+        "url": "https://www.w3.org/TR/i18n-glossary/"
+      },
       {
         "name": "manifest-app-info",
         "url": "https://www.w3.org/TR/manifest-app-info/"
@@ -120,8 +132,8 @@
         "url": "https://www.rfc-editor.org/rfc/rfc7258"
       },
       {
-        "name": "RFC7540",
-        "url": "https://httpwg.org/specs/rfc7540.html"
+        "name": "RFC9110",
+        "url": "https://httpwg.org/specs/rfc9110.html"
       },
       {
         "name": "SERVICE-WORKERS-1",

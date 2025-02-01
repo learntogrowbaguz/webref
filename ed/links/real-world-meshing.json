@@ -1,0 +1,67 @@
+{
+  "spec": {
+    "title": "WebXR Mesh Detection Module",
+    "url": "https://immersive-web.github.io/real-world-meshing/"
+  },
+  "links": {
+    "rawlinks": {
+      "https://datatracker.ietf.org/doc/html/rfc2119": {},
+      "https://immersive-web.github.io/anchors/": {
+        "anchors": [
+          "native-anchor",
+          "privacy-security"
+        ]
+      },
+      "https://immersive-web.github.io/webxr/": {
+        "anchors": [
+          "security"
+        ]
+      },
+      "https://w3c.github.io/hr-time/": {},
+      "https://webidl.spec.whatwg.org/": {}
+    },
+    "autolinks": {
+      "https://immersive-web.github.io/anchors/": {
+        "anchors": [
+          "xr-anchor"
+        ]
+      },
+      "https://immersive-web.github.io/webxr/": {
+        "anchors": [
+          "feature-descriptor",
+          "capable-of-supporting",
+          "inline-xr-device",
+          "xrsession-list-of-frame-updates",
+          "xrspace",
+          "xrspace-native-origin",
+          "dom-xrframe-getpose",
+          "xrframe",
+          "xrframe-active",
+          "xrsession",
+          "dom-xrframe-session",
+          "xrsession-xr-device",
+          "xrframe-time",
+          "xrspace-session",
+          "rounding",
+          "quantization"
+        ]
+      },
+      "https://w3c.github.io/hr-time/": {
+        "anchors": [
+          "dom-domhighrestimestamp"
+        ]
+      },
+      "https://webidl.spec.whatwg.org/": {
+        "anchors": [
+          "Exposed",
+          "SameObject",
+          "idl-frozen-array",
+          "idl-Float32Array",
+          "idl-Uint32Array",
+          "idl-DOMString",
+          "invalidstateerror"
+        ]
+      }
+    }
+  }
+}

@@ -1,115 +1,108 @@
 {
   "spec": {
     "title": "Badging API",
-    "url": "https://w3c.github.io/badging/"
+    "url": "https://www.w3.org/TR/badging/"
   },
   "headings": [
     {
       "id": "title",
-      "href": "https://w3c.github.io/badging/#title",
+      "href": "https://www.w3.org/TR/badging/#title",
       "level": 1,
       "title": "Badging API"
     },
     {
       "id": "toc",
-      "href": "https://w3c.github.io/badging/#toc",
+      "href": "https://www.w3.org/TR/badging/#toc",
       "level": 2,
       "title": "Table of Contents"
     },
     {
       "id": "usage-examples",
-      "href": "https://w3c.github.io/badging/#usage-examples",
+      "href": "https://www.w3.org/TR/badging/#usage-examples",
       "level": 2,
       "title": "Usage examples",
       "number": "1"
     },
     {
-      "id": "badge-model",
-      "href": "https://w3c.github.io/badging/#badge-model",
+      "id": "model",
+      "href": "https://www.w3.org/TR/badging/#model",
       "level": 2,
-      "title": "Badge model",
+      "title": "Model",
       "number": "2"
     },
     {
-      "id": "badge-display",
-      "href": "https://w3c.github.io/badging/#badge-display",
+      "id": "presentation",
+      "href": "https://www.w3.org/TR/badging/#presentation",
       "level": 2,
-      "title": "Badge display",
+      "title": "Displaying a badge",
       "number": "3"
     },
     {
       "id": "extensions-to-the-navigator-and-workernavigator-interfaces",
-      "href": "https://w3c.github.io/badging/#extensions-to-the-navigator-and-workernavigator-interfaces",
+      "href": "https://www.w3.org/TR/badging/#extensions-to-the-navigator-and-workernavigator-interfaces",
       "level": 2,
       "title": "Extensions to the Navigator and WorkerNavigator interfaces",
       "number": "4"
     },
     {
-      "id": "setclientbadge-method",
-      "href": "https://w3c.github.io/badging/#setclientbadge-method",
+      "id": "setappbadge-method",
+      "href": "https://www.w3.org/TR/badging/#setappbadge-method",
       "level": 3,
-      "title": "setClientBadge() method",
+      "title": "setAppBadge() method",
       "number": "4.1"
     },
     {
-      "id": "clearclientbadge-method",
-      "href": "https://w3c.github.io/badging/#clearclientbadge-method",
+      "id": "clearappbadge-method",
+      "href": "https://www.w3.org/TR/badging/#clearappbadge-method",
       "level": 3,
-      "title": "clearClientBadge() method",
+      "title": "clearAppBadge() method",
       "number": "4.2"
     },
     {
-      "id": "setappbadge-method",
-      "href": "https://w3c.github.io/badging/#setappbadge-method",
-      "level": 3,
-      "title": "setAppBadge() method",
-      "number": "4.3"
-    },
-    {
-      "id": "clearappbadge-method",
-      "href": "https://w3c.github.io/badging/#clearappbadge-method",
-      "level": 3,
-      "title": "clearAppBadge() method",
-      "number": "4.4"
-    },
-    {
-      "id": "determining-the-set-of-matching-applications",
-      "href": "https://w3c.github.io/badging/#determining-the-set-of-matching-applications",
-      "level": 3,
-      "title": "Determining the set of matching applications",
-      "number": "4.5"
-    },
-    {
-      "id": "security-and-privacy-considerations",
-      "href": "https://w3c.github.io/badging/#security-and-privacy-considerations",
+      "id": "setting-the-application-badge",
+      "href": "https://www.w3.org/TR/badging/#setting-the-application-badge",
       "level": 2,
-      "title": "Security and privacy considerations",
+      "title": "Setting the application badge",
       "number": "5"
     },
     {
-      "id": "accessibility-considerations",
-      "href": "https://w3c.github.io/badging/#accessibility-considerations",
+      "id": "privacy-considerations",
+      "href": "https://www.w3.org/TR/badging/#privacy-considerations",
       "level": 2,
-      "title": "Accessibility considerations",
+      "title": "Privacy considerations",
       "number": "6"
     },
     {
-      "id": "conformance",
-      "href": "https://w3c.github.io/badging/#conformance",
+      "id": "security-considerations",
+      "href": "https://www.w3.org/TR/badging/#security-considerations",
       "level": 2,
-      "title": "Conformance",
+      "title": "Security considerations",
       "number": "7"
     },
     {
+      "id": "accessibility-considerations",
+      "href": "https://www.w3.org/TR/badging/#accessibility-considerations",
+      "level": 2,
+      "title": "Accessibility considerations",
+      "number": "8"
+    },
+    {
+      "id": "conformance",
+      "href": "https://www.w3.org/TR/badging/#conformance",
+      "level": 2,
+      "title": "Conformance",
+      "number": "9"
+    },
+    {
       "id": "references",
-      "href": "https://w3c.github.io/badging/#references",
+      "href": "https://www.w3.org/TR/badging/#references",
       "level": 2,
       "title": "References",
       "number": "A"
     },
     {
       "id": "normative-references",
-      "href": "https://w3c.github.io/badging/#normative-references",
+      "href": "https://www.w3.org/TR/badging/#normative-references",
       "level": 3,
       "title": "Normative references",
       "number": "A.1"

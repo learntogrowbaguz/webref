@@ -62,8 +62,8 @@
       "definedIn": "prose"
     },
     {
-      "id": "dfn-unsafe-current-time-0",
-      "href": "https://www.w3.org/TR/hr-time-3/#dfn-unsafe-current-time-0",
+      "id": "wall-clock-unsafe-current-time",
+      "href": "https://www.w3.org/TR/hr-time-3/#wall-clock-unsafe-current-time",
       "linkingText": [
         "unsafe current time"
       ],
@@ -102,8 +102,8 @@
       "definedIn": "prose"
     },
     {
-      "id": "dfn-unsafe-current-time-1",
-      "href": "https://www.w3.org/TR/hr-time-3/#dfn-unsafe-current-time-1",
+      "id": "monotonic-clock-unsafe-current-time",
+      "href": "https://www.w3.org/TR/hr-time-3/#monotonic-clock-unsafe-current-time",
       "linkingText": [
         "unsafe current time"
       ],
@@ -263,6 +263,25 @@
     {
       "id": "dfn-current-wall-time",
       "href": "https://www.w3.org/TR/hr-time-3/#dfn-current-wall-time",
+      "linkingText": [
+        "current coarsened wall time"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-tools",
+        "href": "https://www.w3.org/TR/hr-time-3/#sec-tools",
+        "title": "Tools for Specification Authors",
+        "number": "3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-eso-current-wall-time",
+      "href": "https://www.w3.org/TR/hr-time-3/#dfn-eso-current-wall-time",
       "linkingText": [
         "current wall time"
       ],
@@ -438,25 +457,6 @@
       "href": "https://www.w3.org/TR/hr-time-3/#dfn-unsafe-shared-current-time",
       "linkingText": [
         "unsafe shared current time"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "sec-time-origin",
-        "href": "https://www.w3.org/TR/hr-time-3/#sec-time-origin",
-        "title": "Time Origin",
-        "number": "4"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-epoch-relative-timestamp",
-      "href": "https://www.w3.org/TR/hr-time-3/#dfn-epoch-relative-timestamp",
-      "linkingText": [
-        "epoch-relative timestamp"
       ],
       "localLinkingText": [],
       "type": "dfn",

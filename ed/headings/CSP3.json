@@ -86,18 +86,11 @@
       "number": "2.2.1"
     },
     {
-      "id": "parse-serialized-policy-list",
-      "href": "https://w3c.github.io/webappsec-csp/#parse-serialized-policy-list",
-      "level": 4,
-      "title": "Parse a serialized CSP list",
-      "number": "2.2.2"
-    },
-    {
       "id": "parse-response-csp",
       "href": "https://w3c.github.io/webappsec-csp/#parse-response-csp",
       "level": 4,
       "title": "Parse response’s Content Security Policies",
-      "number": "2.2.3"
+      "number": "2.2.2"
     },
     {
       "id": "framework-directives",
@@ -198,6 +191,13 @@
       "number": "4.1.3"
     },
     {
+      "id": "potentially-report-hash",
+      "href": "https://w3c.github.io/webappsec-csp/#potentially-report-hash",
+      "level": 4,
+      "title": "Potentially report hash",
+      "number": "4.1.4"
+    },
+    {
       "id": "html-integration",
       "href": "https://w3c.github.io/webappsec-csp/#html-integration",
       "level": 3,
@@ -243,7 +243,7 @@
       "id": "run-global-object-csp-initialization",
       "href": "https://w3c.github.io/webappsec-csp/#run-global-object-csp-initialization",
       "level": 4,
-      "title": "Run CSP initialization for a global object.",
+      "title": "Run CSP initialization for a global object",
       "number": "4.2.6"
     },
     {
@@ -271,7 +271,7 @@
       "id": "can-compile-strings",
       "href": "https://w3c.github.io/webappsec-csp/#can-compile-strings",
       "level": 4,
-      "title": "EnsureCSPDoesNotBlockStringCompilation(realm, source)",
+      "title": "EnsureCSPDoesNotBlockStringCompilation(realm, parameterStrings, bodyString, codeString, compilationType, parameterArgs, bodyArg)",
       "number": "4.4.1"
     },
     {
@@ -285,7 +285,7 @@
       "id": "can-compile-wasm-bytes",
       "href": "https://w3c.github.io/webappsec-csp/#can-compile-wasm-bytes",
       "level": 4,
-      "title": "EnsureCSPDoesNotBlockWasmByteCompilation(realm)",
+      "title": "EnsureCSPDoesNotBlockWasmByteCompilationrealm",
       "number": "4.5.1"
     },
     {
@@ -884,60 +884,67 @@
       "number": "6.7.2.3"
     },
     {
+      "id": "match-integrity-metadata-to-source-list",
+      "href": "https://w3c.github.io/webappsec-csp/#match-integrity-metadata-to-source-list",
+      "level": 5,
+      "title": "Does integrity metadata match source list?",
+      "number": "6.7.2.4"
+    },
+    {
       "id": "match-request-to-source-list",
       "href": "https://w3c.github.io/webappsec-csp/#match-request-to-source-list",
       "level": 5,
       "title": "Does request match source list?",
-      "number": "6.7.2.4"
+      "number": "6.7.2.5"
     },
     {
       "id": "match-response-to-source-list",
       "href": "https://w3c.github.io/webappsec-csp/#match-response-to-source-list",
       "level": 5,
       "title": "Does response to request match source list?",
-      "number": "6.7.2.5"
+      "number": "6.7.2.6"
     },
     {
       "id": "match-url-to-source-list",
       "href": "https://w3c.github.io/webappsec-csp/#match-url-to-source-list",
       "level": 5,
       "title": "Does url match source list in origin with redirect count?",
-      "number": "6.7.2.6"
+      "number": "6.7.2.7"
     },
     {
       "id": "match-url-to-source-expression",
       "href": "https://w3c.github.io/webappsec-csp/#match-url-to-source-expression",
       "level": 5,
       "title": "Does url match expression in origin with redirect count?",
-      "number": "6.7.2.7"
+      "number": "6.7.2.8"
     },
     {
       "id": "match-schemes",
       "href": "https://w3c.github.io/webappsec-csp/#match-schemes",
       "level": 5,
       "title": "scheme-part matching",
-      "number": "6.7.2.8"
+      "number": "6.7.2.9"
     },
     {
       "id": "match-hosts",
       "href": "https://w3c.github.io/webappsec-csp/#match-hosts",
       "level": 5,
       "title": "host-part matching",
-      "number": "6.7.2.9"
+      "number": "6.7.2.10"
     },
     {
       "id": "match-ports",
       "href": "https://w3c.github.io/webappsec-csp/#match-ports",
       "level": 5,
       "title": "port-part matching",
-      "number": "6.7.2.10"
+      "number": "6.7.2.11"
     },
     {
       "id": "match-paths",
       "href": "https://w3c.github.io/webappsec-csp/#match-paths",
       "level": 5,
       "title": "path-part matching",
-      "number": "6.7.2.11"
+      "number": "6.7.2.12"
     },
     {
       "id": "matching-elements",

@@ -43,8 +43,8 @@
       "number": "2"
     },
     {
-      "id": "transition-name-property",
-      "href": "https://drafts.csswg.org/css-transitions-2/#transition-name-property",
+      "id": "transition-property-property",
+      "href": "https://drafts.csswg.org/css-transitions-2/#transition-property-property",
       "level": 3,
       "title": "The transition-property Property",
       "number": "2.1"
@@ -71,6 +71,20 @@
       "number": "2.4"
     },
     {
+      "id": "transition-behavior-property",
+      "href": "https://drafts.csswg.org/css-transitions-2/#transition-behavior-property",
+      "level": 3,
+      "title": "The transition-behavior Property",
+      "number": "2.5"
+    },
+    {
+      "id": "transition-shorthand-property",
+      "href": "https://drafts.csswg.org/css-transitions-2/#transition-shorthand-property",
+      "level": 3,
+      "title": "The transition Shorthand Property",
+      "number": "2.6"
+    },
+    {
       "id": "starting",
       "href": "https://drafts.csswg.org/css-transitions-2/#starting",
       "level": 2,
@@ -90,6 +104,20 @@
       "level": 3,
       "title": "The current transition generation",
       "number": "3.2"
+    },
+    {
+      "id": "defining-before-change-style",
+      "href": "https://drafts.csswg.org/css-transitions-2/#defining-before-change-style",
+      "level": 3,
+      "title": "Defining before-change style: the @starting-style rule",
+      "number": "3.3"
+    },
+    {
+      "id": "the-cssstartingstylerule-interface",
+      "href": "https://drafts.csswg.org/css-transitions-2/#the-cssstartingstylerule-interface",
+      "level": 4,
+      "title": "The CSSStartingStyleRule interface",
+      "number": "3.3.1"
     },
     {
       "id": "application",
@@ -148,18 +176,51 @@
       "number": "6.2"
     },
     {
+      "id": "privacy",
+      "href": "https://drafts.csswg.org/css-transitions-2/#privacy",
+      "level": 2,
+      "title": "Privacy Considerations",
+      "number": "7"
+    },
+    {
+      "id": "security",
+      "href": "https://drafts.csswg.org/css-transitions-2/#security",
+      "level": 2,
+      "title": "Security Considerations",
+      "number": "8"
+    },
+    {
+      "id": "changes",
+      "href": "https://drafts.csswg.org/css-transitions-2/#changes",
+      "level": 2,
+      "title": "Changes",
+      "number": "9"
+    },
+    {
+      "id": "changes-20230905",
+      "href": "https://drafts.csswg.org/css-transitions-2/#changes-20230905",
+      "level": 3,
+      "title": "Changes since First Public Working Draft (5 September 2023)",
+      "number": "9.1"
+    },
+    {
+      "id": "changes-fpwd",
+      "href": "https://drafts.csswg.org/css-transitions-2/#changes-fpwd",
+      "level": 3,
+      "title": "Changes since Level 1, in First Public Working Draft",
+      "number": "9.2"
+    },
+    {
       "id": "issues-common",
       "href": "https://drafts.csswg.org/css-transitions-2/#issues-common",
       "level": 2,
-      "title": "Issues commonly raised as issues with previous levels",
-      "number": "7"
+      "title": "10. Issues commonly raised as issues with previous levels"
     },
     {
       "id": "issues-spec",
       "href": "https://drafts.csswg.org/css-transitions-2/#issues-spec",
       "level": 2,
-      "title": "Issues deferred from previous levels of the spec",
-      "number": "8"
+      "title": "11. Issues deferred from previous levels of the spec"
     },
     {
       "id": "w3c-conformance",
@@ -232,6 +293,12 @@
       "href": "https://drafts.csswg.org/css-transitions-2/#informative",
       "level": 3,
       "title": "Informative References"
+    },
+    {
+      "id": "property-index",
+      "href": "https://drafts.csswg.org/css-transitions-2/#property-index",
+      "level": 2,
+      "title": "Property Index"
     },
     {
       "id": "idl-index",

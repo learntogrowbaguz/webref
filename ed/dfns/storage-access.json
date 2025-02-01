@@ -62,6 +62,63 @@
       "definedIn": "prose"
     },
     {
+      "id": "determine-whether-the-user-agent-explicitly-allows-unpartitioned-cookie-access",
+      "href": "https://privacycg.github.io/storage-access/#determine-whether-the-user-agent-explicitly-allows-unpartitioned-cookie-access",
+      "linkingText": [
+        "determine whether the user agent explicitly allows unpartitioned cookie access"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-storage-access-api",
+        "href": "https://privacycg.github.io/storage-access/#the-storage-access-api",
+        "title": "The Storage Access API",
+        "number": "3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "determine-the-fedcm-site-connection-status",
+      "href": "https://privacycg.github.io/storage-access/#determine-the-fedcm-site-connection-status",
+      "linkingText": [
+        "determine the FedCM site connection status"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-storage-access-api",
+        "href": "https://privacycg.github.io/storage-access/#the-storage-access-api",
+        "title": "The Storage Access API",
+        "number": "3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "determine-the-effective-fedcm-connection-status",
+      "href": "https://privacycg.github.io/storage-access/#determine-the-effective-fedcm-connection-status",
+      "linkingText": [
+        "determine the effective FedCM connection status"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-storage-access-api",
+        "href": "https://privacycg.github.io/storage-access/#the-storage-access-api",
+        "title": "The Storage Access API",
+        "number": "3"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "environment-has-storage-access",
       "href": "https://privacycg.github.io/storage-access/#environment-has-storage-access",
       "linkingText": [
@@ -114,86 +171,6 @@
       "for": [
         "source snapshot params"
       ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "ua-state",
-        "href": "https://privacycg.github.io/storage-access/#ua-state",
-        "title": "Changes to user agent state related to storage access",
-        "number": "3.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "partitioned-storage-key",
-      "href": "https://privacycg.github.io/storage-access/#partitioned-storage-key",
-      "linkingText": [
-        "partitioned storage key"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "ua-state",
-        "href": "https://privacycg.github.io/storage-access/#ua-state",
-        "title": "Changes to user agent state related to storage access",
-        "number": "3.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "partitioned-storage-key-top-level-site",
-      "href": "https://privacycg.github.io/storage-access/#partitioned-storage-key-top-level-site",
-      "linkingText": [
-        "top-level site"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "partitioned storage key"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "ua-state",
-        "href": "https://privacycg.github.io/storage-access/#ua-state",
-        "title": "Changes to user agent state related to storage access",
-        "number": "3.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "partitioned-storage-key-embedded-origin",
-      "href": "https://privacycg.github.io/storage-access/#partitioned-storage-key-embedded-origin",
-      "linkingText": [
-        "embedded origin"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "partitioned storage key"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "ua-state",
-        "href": "https://privacycg.github.io/storage-access/#ua-state",
-        "title": "Changes to user agent state related to storage access",
-        "number": "3.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "generate-a-partitioned-storage-key",
-      "href": "https://privacycg.github.io/storage-access/#generate-a-partitioned-storage-key",
-      "linkingText": [
-        "generate a partitioned storage key"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
       "access": "private",
       "informative": false,
       "heading": {

@@ -30,12 +30,12 @@
         "url": "https://html.spec.whatwg.org/multipage/"
       },
       {
-        "name": "I18N-GLOSSARY",
-        "url": "https://w3c.github.io/i18n-glossary/"
-      },
-      {
         "name": "INFRA",
         "url": "https://infra.spec.whatwg.org/"
+      },
+      {
+        "name": "LONG-ANIMATION-FRAMES",
+        "url": "https://w3c.github.io/long-animation-frames/"
       },
       {
         "name": "SELECTORS4",
@@ -97,7 +97,7 @@
       },
       {
         "name": "XSLT",
-        "url": "https://www.w3.org/TR/xslt/"
+        "url": "https://www.w3.org/TR/xslt-10/"
       }
     ]
   }

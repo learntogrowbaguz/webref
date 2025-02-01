@@ -1,0 +1,278 @@
+{
+  "spec": {
+    "title": "CSS Viewport Module Level 1",
+    "url": "https://drafts.csswg.org/css-viewport/"
+  },
+  "dfns": [
+    {
+      "id": "initial-viewport",
+      "href": "https://drafts.csswg.org/css-viewport/#initial-viewport",
+      "linkingText": [
+        "initial viewport"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-viewport",
+        "href": "https://drafts.csswg.org/css-viewport/#the-viewport",
+        "title": "The viewport",
+        "number": "2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "actual-viewport",
+      "href": "https://drafts.csswg.org/css-viewport/#actual-viewport",
+      "linkingText": [
+        "actual viewport"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-viewport",
+        "href": "https://drafts.csswg.org/css-viewport/#the-viewport",
+        "title": "The viewport",
+        "number": "2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "interactive-widget",
+      "href": "https://drafts.csswg.org/css-viewport/#interactive-widget",
+      "linkingText": [
+        "interactive-widget"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interactive-widget-section",
+        "href": "https://drafts.csswg.org/css-viewport/#interactive-widget-section",
+        "title": "interactive-widget",
+        "number": "3.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "overlays-content",
+      "href": "https://drafts.csswg.org/css-viewport/#overlays-content",
+      "linkingText": [
+        "overlays-content"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "interactive-widget-section",
+        "href": "https://drafts.csswg.org/css-viewport/#interactive-widget-section",
+        "title": "interactive-widget",
+        "number": "3.4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "resizes-content",
+      "href": "https://drafts.csswg.org/css-viewport/#resizes-content",
+      "linkingText": [
+        "resizes-content"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "interactive-widget-section",
+        "href": "https://drafts.csswg.org/css-viewport/#interactive-widget-section",
+        "title": "interactive-widget",
+        "number": "3.4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "resizes-visual",
+      "href": "https://drafts.csswg.org/css-viewport/#resizes-visual",
+      "linkingText": [
+        "resizes-visual"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "interactive-widget-section",
+        "href": "https://drafts.csswg.org/css-viewport/#interactive-widget-section",
+        "title": "interactive-widget",
+        "number": "3.4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "resize",
+      "href": "https://drafts.csswg.org/css-viewport/#resize",
+      "linkingText": [
+        "resize"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "interactive-widget-section",
+        "href": "https://drafts.csswg.org/css-viewport/#interactive-widget-section",
+        "title": "interactive-widget",
+        "number": "3.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "propdef-zoom",
+      "href": "https://drafts.csswg.org/css-viewport/#propdef-zoom",
+      "linkingText": [
+        "zoom"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "zoom-property",
+        "href": "https://drafts.csswg.org/css-viewport/#zoom-property",
+        "title": "The zoom property",
+        "number": "4"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "effective-zoom",
+      "href": "https://drafts.csswg.org/css-viewport/#effective-zoom",
+      "linkingText": [
+        "effective zoom"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "zoom-property",
+        "href": "https://drafts.csswg.org/css-viewport/#zoom-property",
+        "title": "The zoom property",
+        "number": "4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "scaled",
+      "href": "https://drafts.csswg.org/css-viewport/#scaled",
+      "linkingText": [
+        "scaled"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "zoom-property",
+        "href": "https://drafts.csswg.org/css-viewport/#zoom-property",
+        "title": "The zoom property",
+        "number": "4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "unscaled",
+      "href": "https://drafts.csswg.org/css-viewport/#unscaled",
+      "linkingText": [
+        "unscaled"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "zoom-property",
+        "href": "https://drafts.csswg.org/css-viewport/#zoom-property",
+        "title": "The zoom property",
+        "number": "4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-window-viewport",
+      "href": "https://drafts.csswg.org/css-viewport/#dom-window-viewport",
+      "linkingText": [
+        "viewport"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "Window"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extensions-to-the-window-interface",
+        "href": "https://drafts.csswg.org/css-viewport/#extensions-to-the-window-interface",
+        "title": "Extensions to the Window Interface",
+        "number": "5"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "viewport①",
+      "href": "https://drafts.csswg.org/css-viewport/#viewport%E2%91%A0",
+      "linkingText": [
+        "Viewport"
+      ],
+      "localLinkingText": [],
+      "type": "interface",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-viewport-interface",
+        "href": "https://drafts.csswg.org/css-viewport/#the-viewport-interface",
+        "title": "The Viewport Interface",
+        "number": "6.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-viewport-segments",
+      "href": "https://drafts.csswg.org/css-viewport/#dom-viewport-segments",
+      "linkingText": [
+        "segments"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "Viewport"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "segments",
+        "href": "https://drafts.csswg.org/css-viewport/#segments",
+        "title": "The segments property",
+        "number": "7"
+      },
+      "definedIn": "heading"
+    }
+  ]
+}

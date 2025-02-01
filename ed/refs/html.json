@@ -65,6 +65,10 @@
         "url": "https://w3c.github.io/csswg-drafts/css-align/"
       },
       {
+        "name": "CSSANCHOR",
+        "url": "https://drafts.csswg.org/css-anchor-position/"
+      },
+      {
         "name": "CSSANIMATIONS",
         "url": "https://w3c.github.io/csswg-drafts/css-animations/"
       },
@@ -197,6 +201,10 @@
         "url": "https://w3c.github.io/csswg-drafts/css-values/"
       },
       {
+        "name": "CSSVIEWTRANSITIONS",
+        "url": "https://drafts.csswg.org/css-view-transitions/"
+      },
+      {
         "name": "CSSUI",
         "url": "https://w3c.github.io/csswg-drafts/css-ui/"
       },
@@ -230,6 +238,10 @@
       {
         "name": "FETCH",
         "url": "https://fetch.spec.whatwg.org/"
+      },
+      {
+        "name": "FETCH-METADATA",
+        "url": "https://w3c.github.io/webappsec-fetch-metadata/"
       },
       {
         "name": "FILEAPI",
@@ -300,8 +312,12 @@
         "url": "https://www.w3.org/Graphics/JPEG/jfif3.pdf"
       },
       {
-        "name": "JSIMPORTASSERTIONS",
-        "url": "https://tc39.es/proposal-import-assertions/"
+        "name": "JSDYNAMICCODEBRANDCHECKS",
+        "url": "https://tc39.es/proposal-dynamic-code-brand-checks/"
+      },
+      {
+        "name": "JSIMPORTATTRIBUTES",
+        "url": "https://tc39.es/proposal-import-attributes/"
       },
       {
         "name": "JSJSONMODULES",
@@ -320,16 +336,24 @@
         "url": "https://www.rfc-editor.org/rfc/rfc8259"
       },
       {
+        "name": "JSTEMPORAL",
+        "url": "https://tc39.es/proposal-temporal/"
+      },
+      {
         "name": "LONGTASKS",
         "url": "https://w3c.github.io/longtasks/"
+      },
+      {
+        "name": "LONGANIMATIONFRAMES",
+        "url": "https://w3c.github.io/long-animation-frames/"
       },
       {
         "name": "MANIFEST",
         "url": "https://www.w3.org/TR/appmanifest/"
       },
       {
-        "name": "MATHML",
-        "url": "https://www.w3.org/Math/draft-spec/"
+        "name": "MATHMLCORE",
+        "url": "https://w3c.github.io/mathml-core/"
       },
       {
         "name": "MEDIAFRAG",
@@ -394,6 +418,10 @@
         "url": "https://w3c.github.io/payment-request/"
       },
       {
+        "name": "PERFORMANCETIMELINE",
+        "url": "https://w3c.github.io/performance-timeline/"
+      },
+      {
         "name": "PERMISSIONSPOLICY",
         "url": "https://w3c.github.io/webappsec-feature-policy/"
       },
@@ -414,10 +442,6 @@
         "url": "https://w3c.github.io/pointerlock/"
       },
       {
-        "name": "PRELOAD",
-        "url": "https://w3c.github.io/preload/"
-      },
-      {
         "name": "PRESENTATION",
         "url": "https://w3c.github.io/presentation-api/"
       },
@@ -430,8 +454,8 @@
         "url": "https://w3c.github.io/requestidlecallback/"
       },
       {
-        "name": "RESOURCEHINTS",
-        "url": "https://w3c.github.io/resource-hints/"
+        "name": "RESOURCETIMING",
+        "url": "https://w3c.github.io/resource-timing/"
       },
       {
         "name": "RFC1034",
@@ -490,6 +514,10 @@
         "url": "https://www.rfc-editor.org/rfc/rfc6596"
       },
       {
+        "name": "RFC6903",
+        "url": "https://www.rfc-editor.org/rfc/rfc6903"
+      },
+      {
         "name": "RFC7303",
         "url": "https://www.rfc-editor.org/rfc/rfc7303"
       },
@@ -542,6 +570,10 @@
         "url": "https://w3c.github.io/touch-events/"
       },
       {
+        "name": "TRUSTED-TYPES",
+        "url": "https://w3c.github.io/trusted-types/dist/spec/"
+      },
+      {
         "name": "UIEVENTS",
         "url": "https://w3c.github.io/uievents/"
       },
@@ -556,6 +588,14 @@
       {
         "name": "URN",
         "url": "https://www.rfc-editor.org/rfc/rfc2141"
+      },
+      {
+        "name": "WASM",
+        "url": "https://webassembly.github.io/spec/core/bikeshed/index.html"
+      },
+      {
+        "name": "WASMESM",
+        "url": "https://webassembly.github.io/esm-integration/js-api/index.html"
       },
       {
         "name": "WEBANIMATIONS",
@@ -604,6 +644,10 @@
       {
         "name": "WEBSOCKETS",
         "url": "https://websockets.spec.whatwg.org/"
+      },
+      {
+        "name": "WEBTRANSPORT",
+        "url": "https://w3c.github.io/webtransport/"
       },
       {
         "name": "WEBVTT",
@@ -679,6 +723,10 @@
         "url": "http://www.turingarchive.org/browse.php/B/12"
       },
       {
+        "name": "COMPUTEPRESSURE",
+        "url": "https://w3c.github.io/compute-pressure/"
+      },
+      {
         "name": "CSSPAINT",
         "url": "https://drafts.css-houdini.org/css-paint-api/"
       },
@@ -741,6 +789,10 @@
         "url": "https://www.adobe.com/content/dam/Adobe/en/devnet/acrobat/pdfs/PDF32000_2008.pdf"
       },
       {
+        "name": "PICTUREINPICTURE",
+        "url": "https://w3c.github.io/picture-in-picture/"
+      },
+      {
         "name": "PPUTF8",
         "url": "https://www.sw.it.aoyama.ac.jp/2012/pub/IUC11-UTF-8.pdf"
       },
@@ -801,8 +853,16 @@
         "url": "https://webaudio.github.io/web-audio-api/"
       },
       {
+        "name": "WEBLOCKS",
+        "url": "https://w3c.github.io/web-locks/"
+      },
+      {
         "name": "WEBNFC",
         "url": "https://w3c.github.io/web-nfc/"
+      },
+      {
+        "name": "WEBRTC",
+        "url": "https://w3c.github.io/webrtc-pc/"
       },
       {
         "name": "XKCD1288",

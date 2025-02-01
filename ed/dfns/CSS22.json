@@ -2725,25 +2725,6 @@
       "definedIn": "heading"
     },
     {
-      "id": "at-ruledef-media①",
-      "href": "https://drafts.csswg.org/css2/#at-ruledef-media%E2%91%A0",
-      "linkingText": [
-        "media"
-      ],
-      "localLinkingText": [],
-      "type": "at-rule",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "at-media-rule",
-        "href": "https://drafts.csswg.org/css2/#at-media-rule",
-        "title": "The @media rule",
-        "number": "7.2.1"
-      },
-      "definedIn": "prose"
-    },
-    {
       "id": "valdef-media-all",
       "href": "https://drafts.csswg.org/css2/#valdef-media-all",
       "linkingText": [

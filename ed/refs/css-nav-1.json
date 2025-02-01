@@ -15,15 +15,11 @@
       },
       {
         "name": "CSS-DISPLAY-4",
-        "url": "https://drafts.csswg.org/css-display-4/"
+        "url": "https://drafts.csswg.org/css-display/"
       },
       {
         "name": "CSS-OVERFLOW-3",
         "url": "https://drafts.csswg.org/css-overflow-3/"
-      },
-      {
-        "name": "CSS-POSITION-3",
-        "url": "https://drafts.csswg.org/css-position-3/"
       },
       {
         "name": "CSS-SCROLL-SNAP-1",
