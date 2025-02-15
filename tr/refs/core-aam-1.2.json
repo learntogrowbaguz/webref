@@ -6,8 +6,16 @@
   "refs": {
     "normative": [
       {
+        "name": "HTML-AAM",
+        "url": "https://www.w3.org/TR/html-aam-1.0/"
+      },
+      {
         "name": "IAccessible2",
         "url": "https://wiki.linuxfoundation.org/accessibility/iaccessible2/"
+      },
+      {
+        "name": "infra",
+        "url": "https://infra.spec.whatwg.org/"
       },
       {
         "name": "RFC2119",
@@ -29,7 +37,7 @@
       },
       {
         "name": "AT-SPI",
-        "url": "https://developer-old.gnome.org/libatspi/stable/"
+        "url": "https://gnome.pages.gitlab.gnome.org/at-spi2-core/libatspi/"
       },
       {
         "name": "ATK",
@@ -44,8 +52,20 @@
         "url": "https://www.w3.org/TR/core-aam-1.1/"
       },
       {
+        "name": "dom",
+        "url": "https://dom.spec.whatwg.org/"
+      },
+      {
         "name": "UI-AUTOMATION",
         "url": "https://docs.microsoft.com/en-us/windows/win32/winauto/ui-automation-specification"
+      },
+      {
+        "name": "UIA-EXPRESS",
+        "url": "https://docs.microsoft.com/en-us/windows/win32/winauto/iaccessibleex"
+      },
+      {
+        "name": "wai-aria",
+        "url": "https://www.w3.org/TR/wai-aria/"
       },
       {
         "name": "WAI-ARIA-PRACTICES-1.2",

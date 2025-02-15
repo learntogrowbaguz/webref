@@ -81,10 +81,10 @@
       "definedIn": "prose"
     },
     {
-      "id": "invisible-line-box",
-      "href": "https://drafts.csswg.org/css-inline-3/#invisible-line-box",
+      "id": "phantom-line-box",
+      "href": "https://drafts.csswg.org/css-inline-3/#phantom-line-box",
       "linkingText": [
-        "invisible line box"
+        "phantom line box"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -94,7 +94,7 @@
       "heading": {
         "id": "invisible-line-boxes",
         "href": "https://drafts.csswg.org/css-inline-3/#invisible-line-boxes",
-        "title": "“Invisible” Line Boxes",
+        "title": "Phantom Line Boxes",
         "number": "2.3"
       },
       "definedIn": "prose"
@@ -1115,7 +1115,7 @@
         "title": "Legacy Values for SVG",
         "number": "4.2.2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "prose"
     },
     {
       "id": "valdef-alignment-baseline-text-after-edge",
@@ -1136,7 +1136,7 @@
         "title": "Legacy Values for SVG",
         "number": "4.2.2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "prose"
     },
     {
       "id": "propdef-baseline-shift",
@@ -1428,10 +1428,10 @@
       "definedIn": "dt"
     },
     {
-      "id": "propdef-text-edge",
-      "href": "https://drafts.csswg.org/css-inline-3/#propdef-text-edge",
+      "id": "propdef-line-fit-edge",
+      "href": "https://drafts.csswg.org/css-inline-3/#propdef-line-fit-edge",
       "linkingText": [
-        "text-edge"
+        "line-fit-edge"
       ],
       "localLinkingText": [],
       "type": "property",
@@ -1441,154 +1441,180 @@
       "heading": {
         "id": "text-edges",
         "href": "https://drafts.csswg.org/css-inline-3/#text-edges",
-        "title": "Inline Box Edge Metrics: the text-edge property",
+        "title": "Text Edge Metrics: the line-fit-edge property",
         "number": "5.2"
       },
       "definedIn": "table"
     },
     {
-      "id": "valdef-text-edge-leading",
-      "href": "https://drafts.csswg.org/css-inline-3/#valdef-text-edge-leading",
+      "id": "typedef-text-edge",
+      "href": "https://drafts.csswg.org/css-inline-3/#typedef-text-edge",
+      "linkingText": [
+        "<text-edge>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "text-edges",
+        "href": "https://drafts.csswg.org/css-inline-3/#text-edges",
+        "title": "Text Edge Metrics: the line-fit-edge property",
+        "number": "5.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "valdef-line-fit-edge-leading",
+      "href": "https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-leading",
       "linkingText": [
         "leading"
       ],
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "text-edge"
+        "line-fit-edge",
+        "<<text-edge>>"
       ],
       "access": "public",
       "informative": false,
       "heading": {
         "id": "text-edges",
         "href": "https://drafts.csswg.org/css-inline-3/#text-edges",
-        "title": "Inline Box Edge Metrics: the text-edge property",
+        "title": "Text Edge Metrics: the line-fit-edge property",
         "number": "5.2"
       },
       "definedIn": "dt"
     },
     {
-      "id": "valdef-text-edge-text",
-      "href": "https://drafts.csswg.org/css-inline-3/#valdef-text-edge-text",
+      "id": "valdef-line-fit-edge-text",
+      "href": "https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-text",
       "linkingText": [
         "text"
       ],
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "text-edge"
+        "line-fit-edge",
+        "<<text-edge>>"
       ],
       "access": "public",
       "informative": false,
       "heading": {
         "id": "text-edges",
         "href": "https://drafts.csswg.org/css-inline-3/#text-edges",
-        "title": "Inline Box Edge Metrics: the text-edge property",
+        "title": "Text Edge Metrics: the line-fit-edge property",
         "number": "5.2"
       },
       "definedIn": "dt"
     },
     {
-      "id": "valdef-text-edge-cap",
-      "href": "https://drafts.csswg.org/css-inline-3/#valdef-text-edge-cap",
+      "id": "valdef-line-fit-edge-cap",
+      "href": "https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-cap",
       "linkingText": [
         "cap"
       ],
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "text-edge"
+        "line-fit-edge",
+        "<<text-edge>>"
       ],
       "access": "public",
       "informative": false,
       "heading": {
         "id": "text-edges",
         "href": "https://drafts.csswg.org/css-inline-3/#text-edges",
-        "title": "Inline Box Edge Metrics: the text-edge property",
+        "title": "Text Edge Metrics: the line-fit-edge property",
         "number": "5.2"
       },
       "definedIn": "dt"
     },
     {
-      "id": "valdef-text-edge-ex",
-      "href": "https://drafts.csswg.org/css-inline-3/#valdef-text-edge-ex",
+      "id": "valdef-line-fit-edge-ex",
+      "href": "https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-ex",
       "linkingText": [
         "ex"
       ],
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "text-edge"
+        "line-fit-edge",
+        "<<text-edge>>"
       ],
       "access": "public",
       "informative": false,
       "heading": {
         "id": "text-edges",
         "href": "https://drafts.csswg.org/css-inline-3/#text-edges",
-        "title": "Inline Box Edge Metrics: the text-edge property",
+        "title": "Text Edge Metrics: the line-fit-edge property",
         "number": "5.2"
       },
       "definedIn": "dt"
     },
     {
-      "id": "valdef-text-edge-ideographic",
-      "href": "https://drafts.csswg.org/css-inline-3/#valdef-text-edge-ideographic",
+      "id": "valdef-line-fit-edge-ideographic",
+      "href": "https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-ideographic",
       "linkingText": [
         "ideographic"
       ],
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "text-edge"
+        "line-fit-edge",
+        "<<text-edge>>"
       ],
       "access": "public",
       "informative": false,
       "heading": {
         "id": "text-edges",
         "href": "https://drafts.csswg.org/css-inline-3/#text-edges",
-        "title": "Inline Box Edge Metrics: the text-edge property",
+        "title": "Text Edge Metrics: the line-fit-edge property",
         "number": "5.2"
       },
       "definedIn": "dt"
     },
     {
-      "id": "valdef-text-edge-ideographic-ink",
-      "href": "https://drafts.csswg.org/css-inline-3/#valdef-text-edge-ideographic-ink",
+      "id": "valdef-line-fit-edge-ideographic-ink",
+      "href": "https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-ideographic-ink",
       "linkingText": [
         "ideographic-ink"
       ],
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "text-edge"
+        "line-fit-edge",
+        "<<text-edge>>"
       ],
       "access": "public",
       "informative": false,
       "heading": {
         "id": "text-edges",
         "href": "https://drafts.csswg.org/css-inline-3/#text-edges",
-        "title": "Inline Box Edge Metrics: the text-edge property",
+        "title": "Text Edge Metrics: the line-fit-edge property",
         "number": "5.2"
       },
       "definedIn": "dt"
     },
     {
-      "id": "valdef-text-edge-alphabetic",
-      "href": "https://drafts.csswg.org/css-inline-3/#valdef-text-edge-alphabetic",
+      "id": "valdef-line-fit-edge-alphabetic",
+      "href": "https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-alphabetic",
       "linkingText": [
         "alphabetic"
       ],
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "text-edge"
+        "line-fit-edge",
+        "<<text-edge>>"
       ],
       "access": "public",
       "informative": false,
       "heading": {
         "id": "text-edges",
         "href": "https://drafts.csswg.org/css-inline-3/#text-edges",
-        "title": "Inline Box Edge Metrics: the text-edge property",
+        "title": "Text Edge Metrics: the line-fit-edge property",
         "number": "5.2"
       },
       "definedIn": "dt"
@@ -1651,10 +1677,10 @@
       "definedIn": "prose"
     },
     {
-      "id": "propdef-leading-trim",
-      "href": "https://drafts.csswg.org/css-inline-3/#propdef-leading-trim",
+      "id": "propdef-text-box",
+      "href": "https://drafts.csswg.org/css-inline-3/#propdef-text-box",
       "linkingText": [
-        "leading-trim"
+        "text-box"
       ],
       "localLinkingText": [],
       "type": "property",
@@ -1662,96 +1688,176 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "leading-trim",
-        "href": "https://drafts.csswg.org/css-inline-3/#leading-trim",
-        "title": "Half-Leading Control: the leading-trim property",
-        "number": "5.4"
+        "id": "text-box-shorthand",
+        "href": "https://drafts.csswg.org/css-inline-3/#text-box-shorthand",
+        "title": "Shorthand for Text Box Trimming: the text-box property",
+        "number": "6.1"
       },
       "definedIn": "table"
     },
     {
-      "id": "valdef-leading-trim-normal",
-      "href": "https://drafts.csswg.org/css-inline-3/#valdef-leading-trim-normal",
+      "id": "valdef-text-box-normal",
+      "href": "https://drafts.csswg.org/css-inline-3/#valdef-text-box-normal",
       "linkingText": [
         "normal"
       ],
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "leading-trim"
+        "text-box"
       ],
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "leading-trim",
-        "href": "https://drafts.csswg.org/css-inline-3/#leading-trim",
-        "title": "Half-Leading Control: the leading-trim property",
-        "number": "5.4"
+        "id": "text-box-shorthand",
+        "href": "https://drafts.csswg.org/css-inline-3/#text-box-shorthand",
+        "title": "Shorthand for Text Box Trimming: the text-box property",
+        "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "prose"
     },
     {
-      "id": "valdef-leading-trim-start",
-      "href": "https://drafts.csswg.org/css-inline-3/#valdef-leading-trim-start",
+      "id": "propdef-text-box-trim",
+      "href": "https://drafts.csswg.org/css-inline-3/#propdef-text-box-trim",
       "linkingText": [
-        "start"
+        "text-box-trim"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "text-box-trim",
+        "href": "https://drafts.csswg.org/css-inline-3/#text-box-trim",
+        "title": "Trimming Over/Under Text: the text-box-trim property",
+        "number": "6.2"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "valdef-text-box-trim-none",
+      "href": "https://drafts.csswg.org/css-inline-3/#valdef-text-box-trim-none",
+      "linkingText": [
+        "none"
       ],
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "leading-trim"
+        "text-box-trim"
       ],
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "leading-trim",
-        "href": "https://drafts.csswg.org/css-inline-3/#leading-trim",
-        "title": "Half-Leading Control: the leading-trim property",
-        "number": "5.4"
+        "id": "text-box-trim",
+        "href": "https://drafts.csswg.org/css-inline-3/#text-box-trim",
+        "title": "Trimming Over/Under Text: the text-box-trim property",
+        "number": "6.2"
       },
       "definedIn": "dt"
     },
     {
-      "id": "valdef-leading-trim-end",
-      "href": "https://drafts.csswg.org/css-inline-3/#valdef-leading-trim-end",
+      "id": "valdef-text-box-trim-trim-start",
+      "href": "https://drafts.csswg.org/css-inline-3/#valdef-text-box-trim-trim-start",
       "linkingText": [
-        "end"
+        "trim-start"
       ],
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "leading-trim"
+        "text-box-trim"
       ],
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "leading-trim",
-        "href": "https://drafts.csswg.org/css-inline-3/#leading-trim",
-        "title": "Half-Leading Control: the leading-trim property",
-        "number": "5.4"
+        "id": "text-box-trim",
+        "href": "https://drafts.csswg.org/css-inline-3/#text-box-trim",
+        "title": "Trimming Over/Under Text: the text-box-trim property",
+        "number": "6.2"
       },
       "definedIn": "dt"
     },
     {
-      "id": "valdef-leading-trim-both",
-      "href": "https://drafts.csswg.org/css-inline-3/#valdef-leading-trim-both",
+      "id": "valdef-text-box-trim-trim-end",
+      "href": "https://drafts.csswg.org/css-inline-3/#valdef-text-box-trim-trim-end",
       "linkingText": [
-        "both"
+        "trim-end"
       ],
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "leading-trim"
+        "text-box-trim"
       ],
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "leading-trim",
-        "href": "https://drafts.csswg.org/css-inline-3/#leading-trim",
-        "title": "Half-Leading Control: the leading-trim property",
-        "number": "5.4"
+        "id": "text-box-trim",
+        "href": "https://drafts.csswg.org/css-inline-3/#text-box-trim",
+        "title": "Trimming Over/Under Text: the text-box-trim property",
+        "number": "6.2"
       },
       "definedIn": "dt"
+    },
+    {
+      "id": "valdef-text-box-trim-trim-both",
+      "href": "https://drafts.csswg.org/css-inline-3/#valdef-text-box-trim-trim-both",
+      "linkingText": [
+        "trim-both"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "text-box-trim"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "text-box-trim",
+        "href": "https://drafts.csswg.org/css-inline-3/#text-box-trim",
+        "title": "Trimming Over/Under Text: the text-box-trim property",
+        "number": "6.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "propdef-text-box-edge",
+      "href": "https://drafts.csswg.org/css-inline-3/#propdef-text-box-edge",
+      "linkingText": [
+        "text-box-edge"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "text-box-edge",
+        "href": "https://drafts.csswg.org/css-inline-3/#text-box-edge",
+        "title": "Text Trimming Metrics: the text-box-edge property",
+        "number": "6.3"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "valdef-text-box-edge-auto",
+      "href": "https://drafts.csswg.org/css-inline-3/#valdef-text-box-edge-auto",
+      "linkingText": [
+        "auto"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "text-box-edge"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "text-box-edge",
+        "href": "https://drafts.csswg.org/css-inline-3/#text-box-edge",
+        "title": "Text Trimming Metrics: the text-box-edge property",
+        "number": "6.3"
+      },
+      "definedIn": "prose"
     },
     {
       "id": "propdef-inline-sizing",
@@ -1768,7 +1874,7 @@
         "id": "line-fill",
         "href": "https://drafts.csswg.org/css-inline-3/#line-fill",
         "title": "Inline Box Drawing Height: the inline-sizing property",
-        "number": "5.5"
+        "number": "6.4"
       },
       "definedIn": "table"
     },
@@ -1789,7 +1895,7 @@
         "id": "line-fill",
         "href": "https://drafts.csswg.org/css-inline-3/#line-fill",
         "title": "Inline Box Drawing Height: the inline-sizing property",
-        "number": "5.5"
+        "number": "6.4"
       },
       "definedIn": "dt"
     },
@@ -1810,7 +1916,7 @@
         "id": "line-fill",
         "href": "https://drafts.csswg.org/css-inline-3/#line-fill",
         "title": "Inline Box Drawing Height: the inline-sizing property",
-        "number": "5.5"
+        "number": "6.4"
       },
       "definedIn": "dt"
     },
@@ -1829,7 +1935,7 @@
         "id": "drop-initial",
         "href": "https://drafts.csswg.org/css-inline-3/#drop-initial",
         "title": "Drop Initial",
-        "number": "6.1.1"
+        "number": "7.1.1"
       },
       "definedIn": "prose"
     },
@@ -1848,7 +1954,7 @@
         "id": "sunk-initial",
         "href": "https://drafts.csswg.org/css-inline-3/#sunk-initial",
         "title": "Sunken Initial Letters",
-        "number": "6.1.2"
+        "number": "7.1.2"
       },
       "definedIn": "prose"
     },
@@ -1867,7 +1973,7 @@
         "id": "raise-initial",
         "href": "https://drafts.csswg.org/css-inline-3/#raise-initial",
         "title": "Raised Initial Letters",
-        "number": "6.1.3"
+        "number": "7.1.3"
       },
       "definedIn": "prose"
     },
@@ -1886,7 +1992,7 @@
         "id": "sizing-drop-initials",
         "href": "https://drafts.csswg.org/css-inline-3/#sizing-drop-initials",
         "title": "Creating Initial Letters: the initial-letter property",
-        "number": "6.3"
+        "number": "7.3"
       },
       "definedIn": "table"
     },
@@ -1907,7 +2013,7 @@
         "id": "sizing-drop-initials",
         "href": "https://drafts.csswg.org/css-inline-3/#sizing-drop-initials",
         "title": "Creating Initial Letters: the initial-letter property",
-        "number": "6.3"
+        "number": "7.3"
       },
       "definedIn": "dt"
     },
@@ -1928,7 +2034,7 @@
         "id": "sizing-drop-initials",
         "href": "https://drafts.csswg.org/css-inline-3/#sizing-drop-initials",
         "title": "Creating Initial Letters: the initial-letter property",
-        "number": "6.3"
+        "number": "7.3"
       },
       "definedIn": "prose"
     },
@@ -1951,7 +2057,7 @@
         "id": "sizing-drop-initials",
         "href": "https://drafts.csswg.org/css-inline-3/#sizing-drop-initials",
         "title": "Creating Initial Letters: the initial-letter property",
-        "number": "6.3"
+        "number": "7.3"
       },
       "definedIn": "prose"
     },
@@ -1972,7 +2078,7 @@
         "id": "sizing-drop-initials",
         "href": "https://drafts.csswg.org/css-inline-3/#sizing-drop-initials",
         "title": "Creating Initial Letters: the initial-letter property",
-        "number": "6.3"
+        "number": "7.3"
       },
       "definedIn": "dt"
     },
@@ -1993,7 +2099,7 @@
         "id": "sizing-drop-initials",
         "href": "https://drafts.csswg.org/css-inline-3/#sizing-drop-initials",
         "title": "Creating Initial Letters: the initial-letter property",
-        "number": "6.3"
+        "number": "7.3"
       },
       "definedIn": "dt"
     },
@@ -2013,7 +2119,7 @@
         "id": "sizing-drop-initials",
         "href": "https://drafts.csswg.org/css-inline-3/#sizing-drop-initials",
         "title": "Creating Initial Letters: the initial-letter property",
-        "number": "6.3"
+        "number": "7.3"
       },
       "definedIn": "prose"
     },
@@ -2032,7 +2138,7 @@
         "id": "aligning-initial-letter",
         "href": "https://drafts.csswg.org/css-inline-3/#aligning-initial-letter",
         "title": "Alignment of Initial Letters: the initial-letter-align property",
-        "number": "6.4"
+        "number": "7.4"
       },
       "definedIn": "table"
     },
@@ -2053,7 +2159,7 @@
         "id": "aligning-initial-letter",
         "href": "https://drafts.csswg.org/css-inline-3/#aligning-initial-letter",
         "title": "Alignment of Initial Letters: the initial-letter-align property",
-        "number": "6.4"
+        "number": "7.4"
       },
       "definedIn": "dt"
     },
@@ -2074,7 +2180,7 @@
         "id": "aligning-initial-letter",
         "href": "https://drafts.csswg.org/css-inline-3/#aligning-initial-letter",
         "title": "Alignment of Initial Letters: the initial-letter-align property",
-        "number": "6.4"
+        "number": "7.4"
       },
       "definedIn": "dt"
     },
@@ -2095,7 +2201,7 @@
         "id": "aligning-initial-letter",
         "href": "https://drafts.csswg.org/css-inline-3/#aligning-initial-letter",
         "title": "Alignment of Initial Letters: the initial-letter-align property",
-        "number": "6.4"
+        "number": "7.4"
       },
       "definedIn": "dt"
     },
@@ -2116,7 +2222,7 @@
         "id": "aligning-initial-letter",
         "href": "https://drafts.csswg.org/css-inline-3/#aligning-initial-letter",
         "title": "Alignment of Initial Letters: the initial-letter-align property",
-        "number": "6.4"
+        "number": "7.4"
       },
       "definedIn": "dt"
     },
@@ -2137,7 +2243,7 @@
         "id": "aligning-initial-letter",
         "href": "https://drafts.csswg.org/css-inline-3/#aligning-initial-letter",
         "title": "Alignment of Initial Letters: the initial-letter-align property",
-        "number": "6.4"
+        "number": "7.4"
       },
       "definedIn": "dt"
     },
@@ -2157,7 +2263,7 @@
         "id": "initial-letter-layout",
         "href": "https://drafts.csswg.org/css-inline-3/#initial-letter-layout",
         "title": "Initial Letter Layout",
-        "number": "6.5"
+        "number": "7.5"
       },
       "definedIn": "prose"
     },
@@ -2177,7 +2283,7 @@
         "id": "initial-letter-layout",
         "href": "https://drafts.csswg.org/css-inline-3/#initial-letter-layout",
         "title": "Initial Letter Layout",
-        "number": "6.5"
+        "number": "7.5"
       },
       "definedIn": "prose"
     },
@@ -2196,7 +2302,7 @@
         "id": "initial-letter-wrapping",
         "href": "https://drafts.csswg.org/css-inline-3/#initial-letter-wrapping",
         "title": "Initial Letter Wrapping: the initial-letter-wrap property",
-        "number": "6.7"
+        "number": "7.7"
       },
       "definedIn": "table"
     },
@@ -2217,7 +2323,7 @@
         "id": "initial-letter-wrapping",
         "href": "https://drafts.csswg.org/css-inline-3/#initial-letter-wrapping",
         "title": "Initial Letter Wrapping: the initial-letter-wrap property",
-        "number": "6.7"
+        "number": "7.7"
       },
       "definedIn": "dt"
     },
@@ -2238,7 +2344,7 @@
         "id": "initial-letter-wrapping",
         "href": "https://drafts.csswg.org/css-inline-3/#initial-letter-wrapping",
         "title": "Initial Letter Wrapping: the initial-letter-wrap property",
-        "number": "6.7"
+        "number": "7.7"
       },
       "definedIn": "dt"
     },
@@ -2259,7 +2365,7 @@
         "id": "initial-letter-wrapping",
         "href": "https://drafts.csswg.org/css-inline-3/#initial-letter-wrapping",
         "title": "Initial Letter Wrapping: the initial-letter-wrap property",
-        "number": "6.7"
+        "number": "7.7"
       },
       "definedIn": "dt"
     },
@@ -2280,7 +2386,7 @@
         "id": "initial-letter-wrapping",
         "href": "https://drafts.csswg.org/css-inline-3/#initial-letter-wrapping",
         "title": "Initial Letter Wrapping: the initial-letter-wrap property",
-        "number": "6.7"
+        "number": "7.7"
       },
       "definedIn": "dt"
     },
@@ -2302,7 +2408,7 @@
         "id": "initial-letter-line-layout",
         "href": "https://drafts.csswg.org/css-inline-3/#initial-letter-line-layout",
         "title": "Line Layout",
-        "number": "6.8"
+        "number": "7.8"
       },
       "definedIn": "prose"
     }

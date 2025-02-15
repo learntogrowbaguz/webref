@@ -30,10 +30,6 @@
         "url": "https://drafts.csswg.org/css2/"
       },
       {
-        "name": "CSS22",
-        "url": "https://drafts.csswg.org/css2/"
-      },
-      {
         "name": "MOTION-1",
         "url": "https://drafts.fxtf.org/motion-1/"
       },
@@ -43,6 +39,10 @@
       }
     ],
     "informative": [
+      {
+        "name": "CSS-SHAPES-2",
+        "url": "https://drafts.csswg.org/css-shapes-2/"
+      },
       {
         "name": "CSS3-POSITIONING",
         "url": "https://drafts.csswg.org/css-position-3/"

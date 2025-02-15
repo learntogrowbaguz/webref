@@ -5,8 +5,27 @@
   },
   "dfns": [
     {
-      "id": "proximity-sensor",
-      "href": "https://www.w3.org/TR/proximity/#proximity-sensor",
+      "id": "proximity-sensor-feature",
+      "href": "https://www.w3.org/TR/proximity/#proximity-sensor-feature",
+      "linkingText": [
+        "proximity-sensor-feature"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "permissions-policy-integration",
+        "href": "https://www.w3.org/TR/proximity/#permissions-policy-integration",
+        "title": "Permissions Policy integration",
+        "number": "4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "proximity-sensor-sensor-type",
+      "href": "https://www.w3.org/TR/proximity/#proximity-sensor-sensor-type",
       "linkingText": [
         "Proximity Sensor"
       ],
@@ -19,7 +38,45 @@
         "id": "model",
         "href": "https://www.w3.org/TR/proximity/#model",
         "title": "Model",
-        "number": "4"
+        "number": "5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "permissiondef-proximity",
+      "href": "https://www.w3.org/TR/proximity/#permissiondef-proximity",
+      "linkingText": [
+        "proximity"
+      ],
+      "localLinkingText": [],
+      "type": "permission",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "model",
+        "href": "https://www.w3.org/TR/proximity/#model",
+        "title": "Model",
+        "number": "5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "proximity-virtual-sensor-type",
+      "href": "https://www.w3.org/TR/proximity/#proximity-virtual-sensor-type",
+      "linkingText": [
+        "proximity virtual sensor type"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "model",
+        "href": "https://www.w3.org/TR/proximity/#model",
+        "title": "Model",
+        "number": "5"
       },
       "definedIn": "prose"
     },
@@ -38,7 +95,7 @@
         "id": "model",
         "href": "https://www.w3.org/TR/proximity/#model",
         "title": "Model",
-        "number": "4"
+        "number": "5"
       },
       "definedIn": "prose"
     },
@@ -57,7 +114,7 @@
         "id": "model",
         "href": "https://www.w3.org/TR/proximity/#model",
         "title": "Model",
-        "number": "4"
+        "number": "5"
       },
       "definedIn": "prose"
     },
@@ -76,7 +133,7 @@
         "id": "model",
         "href": "https://www.w3.org/TR/proximity/#model",
         "title": "Model",
-        "number": "4"
+        "number": "5"
       },
       "definedIn": "prose"
     },
@@ -95,7 +152,7 @@
         "id": "model",
         "href": "https://www.w3.org/TR/proximity/#model",
         "title": "Model",
-        "number": "4"
+        "number": "5"
       },
       "definedIn": "prose"
     },
@@ -114,7 +171,7 @@
         "id": "proximity-sensor-interface",
         "href": "https://www.w3.org/TR/proximity/#proximity-sensor-interface",
         "title": "The ProximitySensor Interface",
-        "number": "5.1"
+        "number": "6.1"
       },
       "definedIn": "pre"
     },
@@ -138,7 +195,7 @@
         "id": "proximity-sensor-interface",
         "href": "https://www.w3.org/TR/proximity/#proximity-sensor-interface",
         "title": "The ProximitySensor Interface",
-        "number": "5.1"
+        "number": "6.1"
       },
       "definedIn": "pre"
     },
@@ -162,7 +219,7 @@
         "id": "proximity-sensor-interface",
         "href": "https://www.w3.org/TR/proximity/#proximity-sensor-interface",
         "title": "The ProximitySensor Interface",
-        "number": "5.1"
+        "number": "6.1"
       },
       "definedIn": "pre"
     },
@@ -183,7 +240,7 @@
         "id": "proximity-sensor-interface",
         "href": "https://www.w3.org/TR/proximity/#proximity-sensor-interface",
         "title": "The ProximitySensor Interface",
-        "number": "5.1"
+        "number": "6.1"
       },
       "definedIn": "pre"
     },
@@ -204,7 +261,7 @@
         "id": "proximity-sensor-interface",
         "href": "https://www.w3.org/TR/proximity/#proximity-sensor-interface",
         "title": "The ProximitySensor Interface",
-        "number": "5.1"
+        "number": "6.1"
       },
       "definedIn": "pre"
     },
@@ -225,7 +282,7 @@
         "id": "proximity-sensor-interface",
         "href": "https://www.w3.org/TR/proximity/#proximity-sensor-interface",
         "title": "The ProximitySensor Interface",
-        "number": "5.1"
+        "number": "6.1"
       },
       "definedIn": "pre"
     },
@@ -244,91 +301,28 @@
         "id": "construct-a-proximity-sensor-object",
         "href": "https://www.w3.org/TR/proximity/#construct-a-proximity-sensor-object",
         "title": "Construct a proximity sensor object",
-        "number": "6.1"
+        "number": "7.1"
       },
       "definedIn": "heading"
     },
     {
-      "id": "dictdef-proximityreadingvalues",
-      "href": "https://www.w3.org/TR/proximity/#dictdef-proximityreadingvalues",
+      "id": "proximity-reading-parsing-algorithm",
+      "href": "https://www.w3.org/TR/proximity/#proximity-reading-parsing-algorithm",
       "linkingText": [
-        "ProximityReadingValues"
+        "Proximity reading parsing algorithm"
       ],
       "localLinkingText": [],
-      "type": "dictionary",
+      "type": "dfn",
       "for": [],
-      "access": "public",
+      "access": "private",
       "informative": false,
       "heading": {
-        "id": "mock-proximity-sensor-type",
-        "href": "https://www.w3.org/TR/proximity/#mock-proximity-sensor-type",
-        "title": "Mock Sensor Type",
-        "number": "7.1"
+        "id": "proximity-reading-parsing-algorithm",
+        "href": "https://www.w3.org/TR/proximity/#proximity-reading-parsing-algorithm",
+        "title": "Proximity reading parsing algorithm",
+        "number": "8.1"
       },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-proximityreadingvalues-distance",
-      "href": "https://www.w3.org/TR/proximity/#dom-proximityreadingvalues-distance",
-      "linkingText": [
-        "distance"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "ProximityReadingValues"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "mock-proximity-sensor-type",
-        "href": "https://www.w3.org/TR/proximity/#mock-proximity-sensor-type",
-        "title": "Mock Sensor Type",
-        "number": "7.1"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-proximityreadingvalues-max",
-      "href": "https://www.w3.org/TR/proximity/#dom-proximityreadingvalues-max",
-      "linkingText": [
-        "max"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "ProximityReadingValues"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "mock-proximity-sensor-type",
-        "href": "https://www.w3.org/TR/proximity/#mock-proximity-sensor-type",
-        "title": "Mock Sensor Type",
-        "number": "7.1"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-proximityreadingvalues-near",
-      "href": "https://www.w3.org/TR/proximity/#dom-proximityreadingvalues-near",
-      "linkingText": [
-        "near"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "ProximityReadingValues"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "mock-proximity-sensor-type",
-        "href": "https://www.w3.org/TR/proximity/#mock-proximity-sensor-type",
-        "title": "Mock Sensor Type",
-        "number": "7.1"
-      },
-      "definedIn": "pre"
+      "definedIn": "heading"
     },
     {
       "id": "conformant-user-agent",
@@ -344,7 +338,7 @@
       "heading": {
         "id": "conformance",
         "href": "https://www.w3.org/TR/proximity/#conformance",
-        "title": "10. Conformance"
+        "title": "11. Conformance"
       },
       "definedIn": "prose"
     }

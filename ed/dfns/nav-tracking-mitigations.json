@@ -1,0 +1,571 @@
+{
+  "spec": {
+    "title": "Navigational-Tracking Mitigations",
+    "url": "https://privacycg.github.io/nav-tracking-mitigations/"
+  },
+  "dfns": [
+    {
+      "id": "link-decoration",
+      "href": "https://privacycg.github.io/nav-tracking-mitigations/#link-decoration",
+      "linkingText": [
+        "Link decoration"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://privacycg.github.io/nav-tracking-mitigations/#terminology",
+        "title": "Terminology",
+        "number": "3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "navigational-tracking",
+      "href": "https://privacycg.github.io/nav-tracking-mitigations/#navigational-tracking",
+      "linkingText": [
+        "Navigational tracking"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://privacycg.github.io/nav-tracking-mitigations/#terminology",
+        "title": "Terminology",
+        "number": "3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "bounce-tracking",
+      "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking",
+      "linkingText": [
+        "Bounce tracking"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://privacycg.github.io/nav-tracking-mitigations/#terminology",
+        "title": "Terminology",
+        "number": "3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "user-activation-map",
+      "href": "https://privacycg.github.io/nav-tracking-mitigations/#user-activation-map",
+      "linkingText": [
+        "user activation map"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "bounce-tracking-mitigations-data-model-global",
+        "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-mitigations-data-model-global",
+        "title": "Global Data",
+        "number": "6.1.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "stateful-bounce-tracking-map",
+      "href": "https://privacycg.github.io/nav-tracking-mitigations/#stateful-bounce-tracking-map",
+      "linkingText": [
+        "stateful bounce tracking map"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "bounce-tracking-mitigations-data-model-global",
+        "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-mitigations-data-model-global",
+        "title": "Global Data",
+        "number": "6.1.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "extended-navigation",
+      "href": "https://privacycg.github.io/nav-tracking-mitigations/#extended-navigation",
+      "linkingText": [
+        "extended navigation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "bounce-tracking-mitigations-data-model-per-tab",
+        "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-mitigations-data-model-per-tab",
+        "title": "Per-Tab Data",
+        "number": "6.1.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "top-level-traversable-bounce-tracking-record",
+      "href": "https://privacycg.github.io/nav-tracking-mitigations/#top-level-traversable-bounce-tracking-record",
+      "linkingText": [
+        "bounce tracking record"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "top-level traversable"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "bounce-tracking-mitigations-data-model-per-tab",
+        "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-mitigations-data-model-per-tab",
+        "title": "Per-Tab Data",
+        "number": "6.1.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "bounce-tracking-record",
+      "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-record",
+      "linkingText": [
+        "bounce tracking record"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "bounce-tracking-mitigations-data-model-per-tab",
+        "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-mitigations-data-model-per-tab",
+        "title": "Per-Tab Data",
+        "number": "6.1.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "bounce-tracking-record-initial-host",
+      "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-record-initial-host",
+      "linkingText": [
+        "initial host"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "bounce tracking record"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "bounce-tracking-mitigations-data-model-per-tab",
+        "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-mitigations-data-model-per-tab",
+        "title": "Per-Tab Data",
+        "number": "6.1.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "bounce-tracking-record-final-host",
+      "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-record-final-host",
+      "linkingText": [
+        "final host"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "bounce tracking record"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "bounce-tracking-mitigations-data-model-per-tab",
+        "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-mitigations-data-model-per-tab",
+        "title": "Per-Tab Data",
+        "number": "6.1.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "bounce-tracking-record-bounce-set",
+      "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-record-bounce-set",
+      "linkingText": [
+        "bounce set"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "bounce tracking record"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "bounce-tracking-mitigations-data-model-per-tab",
+        "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-mitigations-data-model-per-tab",
+        "title": "Per-Tab Data",
+        "number": "6.1.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "bounce-tracking-record-storage-access-set",
+      "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-record-storage-access-set",
+      "linkingText": [
+        "storage access set"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "bounce tracking record"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "bounce-tracking-mitigations-data-model-per-tab",
+        "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-mitigations-data-model-per-tab",
+        "title": "Per-Tab Data",
+        "number": "6.1.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "bounce-tracking-record-user-activation-set",
+      "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-record-user-activation-set",
+      "linkingText": [
+        "user activation set"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "bounce tracking record"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "bounce-tracking-mitigations-data-model-per-tab",
+        "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-mitigations-data-model-per-tab",
+        "title": "Per-Tab Data",
+        "number": "6.1.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "bounce-tracking-grace-period",
+      "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-grace-period",
+      "linkingText": [
+        "bounce tracking grace period"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "bounce-tracking-mitigations-data-model-constants",
+        "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-mitigations-data-model-constants",
+        "title": "Constants",
+        "number": "6.1.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "bounce-tracking-activation-lifetime",
+      "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-activation-lifetime",
+      "linkingText": [
+        "bounce tracking activation lifetime"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "bounce-tracking-mitigations-data-model-constants",
+        "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-mitigations-data-model-constants",
+        "title": "Constants",
+        "number": "6.1.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "bounce-tracking-timer-period",
+      "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-timer-period",
+      "linkingText": [
+        "bounce tracking timer period"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "bounce-tracking-mitigations-data-model-constants",
+        "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-mitigations-data-model-constants",
+        "title": "Constants",
+        "number": "6.1.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "client-bounce-detection-timer-period",
+      "href": "https://privacycg.github.io/nav-tracking-mitigations/#client-bounce-detection-timer-period",
+      "linkingText": [
+        "client bounce detection timer period"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "bounce-tracking-mitigations-data-model-constants",
+        "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-mitigations-data-model-constants",
+        "title": "Constants",
+        "number": "6.1.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "record-a-user-activation",
+      "href": "https://privacycg.github.io/nav-tracking-mitigations/#record-a-user-activation",
+      "linkingText": [
+        "record a user activation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "bounce-tracking-mitigations-activation-monkey-patch",
+        "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-mitigations-activation-monkey-patch",
+        "title": "User Activation Monkey Patch",
+        "number": "6.2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "process-a-web-authentication-assertion-for-bounce-tracking-mitigations",
+      "href": "https://privacycg.github.io/nav-tracking-mitigations/#process-a-web-authentication-assertion-for-bounce-tracking-mitigations",
+      "linkingText": [
+        "process a Web Authentication assertion for bounce tracking mitigations"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "bounce-tracking-mitigations-web-authentication-monkey-patch",
+        "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-mitigations-web-authentication-monkey-patch",
+        "title": "Web Authentication Monkey Patch",
+        "number": "6.2.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "process-navigation-start-for-bounce-tracking",
+      "href": "https://privacycg.github.io/nav-tracking-mitigations/#process-navigation-start-for-bounce-tracking",
+      "linkingText": [
+        "process navigation start for bounce tracking"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "bounce-tracking-mitigations-nav-start-monkey-patch",
+        "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-mitigations-nav-start-monkey-patch",
+        "title": "Start Navigation Monkey Patch",
+        "number": "6.2.3.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "process-a-fetch-storage-access-for-bounce-tracking-mitigations",
+      "href": "https://privacycg.github.io/nav-tracking-mitigations/#process-a-fetch-storage-access-for-bounce-tracking-mitigations",
+      "linkingText": [
+        "process a fetch storage access for bounce tracking mitigations"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "bounce-tracking-mitigations-network-cookie-write-monkey-patch",
+        "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-mitigations-network-cookie-write-monkey-patch",
+        "title": "Network Cookie Write Monkey Patch",
+        "number": "6.2.3.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "process-a-general-storage-access-for-bounce-tracking-mitigations",
+      "href": "https://privacycg.github.io/nav-tracking-mitigations/#process-a-general-storage-access-for-bounce-tracking-mitigations",
+      "linkingText": [
+        "process a general storage access for bounce tracking mitigations"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "bounce-tracking-mitigations-storage-access-monkey-patch",
+        "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-mitigations-storage-access-monkey-patch",
+        "title": "Storage Access Monkey Patch",
+        "number": "6.2.3.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "process-response-received-for-bounce-tracking",
+      "href": "https://privacycg.github.io/nav-tracking-mitigations/#process-response-received-for-bounce-tracking",
+      "linkingText": [
+        "process response received for bounce tracking"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "bounce-tracking-mitigations-response-received-monkey-patch",
+        "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-mitigations-response-received-monkey-patch",
+        "title": "Response Received Monkey Patch",
+        "number": "6.2.3.5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "process-document-load-for-bounce-tracking",
+      "href": "https://privacycg.github.io/nav-tracking-mitigations/#process-document-load-for-bounce-tracking",
+      "linkingText": [
+        "process document load for bounce tracking"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "bounce-tracking-mitigations-document-load-monkey-patch",
+        "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-mitigations-document-load-monkey-patch",
+        "title": "Document Loaded Monkey Patch",
+        "number": "6.2.3.6"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "bounce-tracking-timer",
+      "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-timer",
+      "linkingText": [
+        "bounce tracking timer"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "bounce-tracking-mitigations-timers",
+        "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-mitigations-timers",
+        "title": "Timers",
+        "number": "6.2.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "record-stateful-bounces-for-bounce-tracking",
+      "href": "https://privacycg.github.io/nav-tracking-mitigations/#record-stateful-bounces-for-bounce-tracking",
+      "linkingText": [
+        "record stateful bounces for bounce tracking"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "bounce-tracking-mitigations-timers",
+        "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-mitigations-timers",
+        "title": "Timers",
+        "number": "6.2.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "clear-cookies-for-host",
+      "href": "https://privacycg.github.io/nav-tracking-mitigations/#clear-cookies-for-host",
+      "linkingText": [
+        "clear cookies for host"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "bounce-tracking-mitigations-deletion",
+        "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-mitigations-deletion",
+        "title": "Deletion",
+        "number": "6.2.5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "clear-non-cookie-storage-for-host",
+      "href": "https://privacycg.github.io/nav-tracking-mitigations/#clear-non-cookie-storage-for-host",
+      "linkingText": [
+        "clear non-cookie storage for host"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "bounce-tracking-mitigations-deletion",
+        "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-mitigations-deletion",
+        "title": "Deletion",
+        "number": "6.2.5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "clear-cache-for-host",
+      "href": "https://privacycg.github.io/nav-tracking-mitigations/#clear-cache-for-host",
+      "linkingText": [
+        "clear cache for host"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "bounce-tracking-mitigations-deletion",
+        "href": "https://privacycg.github.io/nav-tracking-mitigations/#bounce-tracking-mitigations-deletion",
+        "title": "Deletion",
+        "number": "6.2.5"
+      },
+      "definedIn": "prose"
+    }
+  ]
+}

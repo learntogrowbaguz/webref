@@ -8,7 +8,7 @@
       "id": "title",
       "href": "https://drafts.csswg.org/css-display-3/#title",
       "level": 1,
-      "title": "73 TestsCSS Display Module Level 3"
+      "title": "CSS Display Module Level 3"
     },
     {
       "id": "abstract",
@@ -150,13 +150,15 @@
       "id": "glossary",
       "href": "https://drafts.csswg.org/css-display-3/#glossary",
       "level": 2,
-      "title": "Appendix A: Glossary"
+      "title": "Glossary",
+      "number": "A"
     },
     {
       "id": "unbox",
       "href": "https://drafts.csswg.org/css-display-3/#unbox",
       "level": 2,
-      "title": "Appendix B: Effects of display: contents on Unusual Elements"
+      "title": "Effects of display: contents on Unusual Elements",
+      "number": "B"
     },
     {
       "id": "unbox-html",
@@ -180,7 +182,8 @@
       "id": "box-guidelines",
       "href": "https://drafts.csswg.org/css-display-3/#box-guidelines",
       "level": 2,
-      "title": "Appendix C: Box Construction Guidelines for Spec Authors"
+      "title": "Box Construction Guidelines for Spec Authors",
+      "number": "C"
     },
     {
       "id": "acknowledgments",
@@ -197,6 +200,12 @@
     {
       "id": "changes-2020",
       "href": "https://drafts.csswg.org/css-display-3/#changes-2020",
+      "level": 3,
+      "title": "Changes Since 2023 Candidate Recommendation Snapshot"
+    },
+    {
+      "id": "changes-2020①",
+      "href": "https://drafts.csswg.org/css-display-3/#changes-2020%E2%91%A0",
       "level": 3,
       "title": "Changes Since 2020 Candidate Recommendation"
     },
@@ -228,7 +237,7 @@
       "id": "security-privacy-self-review",
       "href": "https://drafts.csswg.org/css-display-3/#security-privacy-self-review",
       "level": 3,
-      "title": "Self-Review Questionaire"
+      "title": "Self-Review Questionnaire"
     },
     {
       "id": "w3c-conformance",
@@ -265,6 +274,12 @@
       "href": "https://drafts.csswg.org/css-display-3/#w3c-testing",
       "level": 3,
       "title": "Non-experimental implementations"
+    },
+    {
+      "id": "w3c-cr-exit-criteria",
+      "href": "https://drafts.csswg.org/css-display-3/#w3c-cr-exit-criteria",
+      "level": 3,
+      "title": "CR exit criteria"
     },
     {
       "id": "index",

@@ -1,0 +1,281 @@
+{
+  "spec": {
+    "title": "Source map format specification",
+    "url": "https://tc39.es/ecma426/"
+  },
+  "headings": [
+    {
+      "id": "title",
+      "href": "https://tc39.es/ecma426/#title",
+      "level": 1,
+      "title": "Source map format specification"
+    },
+    {
+      "id": "profile-and-date",
+      "href": "https://tc39.es/ecma426/#profile-and-date",
+      "level": 2,
+      "title": "Stage 0: Strawman, 22 January 2025"
+    },
+    {
+      "id": "toc",
+      "href": "https://tc39.es/ecma426/#toc",
+      "level": 2,
+      "title": "Table of Contents"
+    },
+    {
+      "id": "intro",
+      "href": "https://tc39.es/ecma426/#intro",
+      "level": 2,
+      "title": "Introduction"
+    },
+    {
+      "id": "pdf-title",
+      "href": "https://tc39.es/ecma426/#pdf-title",
+      "level": 1,
+      "title": "Source Map specification"
+    },
+    {
+      "id": "scope",
+      "href": "https://tc39.es/ecma426/#scope",
+      "level": 2,
+      "title": "Scope",
+      "number": "1"
+    },
+    {
+      "id": "conformance",
+      "href": "https://tc39.es/ecma426/#conformance",
+      "level": 2,
+      "title": "Conformance",
+      "number": "2"
+    },
+    {
+      "id": "references",
+      "href": "https://tc39.es/ecma426/#references",
+      "level": 2,
+      "title": "References",
+      "number": "3"
+    },
+    {
+      "id": "normative",
+      "href": "https://tc39.es/ecma426/#normative",
+      "level": 3,
+      "title": "Normative references",
+      "number": "3.1"
+    },
+    {
+      "id": "informative",
+      "href": "https://tc39.es/ecma426/#informative",
+      "level": 3,
+      "title": "Informative references",
+      "number": "3.2"
+    },
+    {
+      "id": "terminology",
+      "href": "https://tc39.es/ecma426/#terminology",
+      "level": 2,
+      "title": "Terms and definitions",
+      "number": "4"
+    },
+    {
+      "id": "source-map-format",
+      "href": "https://tc39.es/ecma426/#source-map-format",
+      "level": 2,
+      "title": "Source map format",
+      "number": "5"
+    },
+    {
+      "id": "mappings-structure",
+      "href": "https://tc39.es/ecma426/#mappings-structure",
+      "level": 3,
+      "title": "Mappings structure",
+      "number": "5.1"
+    },
+    {
+      "id": "mappings-javascript",
+      "href": "https://tc39.es/ecma426/#mappings-javascript",
+      "level": 4,
+      "title": "Mappings for generated JavaScript code",
+      "number": "5.1.1"
+    },
+    {
+      "id": "names-javascript",
+      "href": "https://tc39.es/ecma426/#names-javascript",
+      "level": 4,
+      "title": "Names for generated JavaScript code",
+      "number": "5.1.2"
+    },
+    {
+      "id": "resolving-sources",
+      "href": "https://tc39.es/ecma426/#resolving-sources",
+      "level": 3,
+      "title": "Resolving sources",
+      "number": "5.2"
+    },
+    {
+      "id": "extensions",
+      "href": "https://tc39.es/ecma426/#extensions",
+      "level": 3,
+      "title": "Extensions",
+      "number": "5.3"
+    },
+    {
+      "id": "index-map",
+      "href": "https://tc39.es/ecma426/#index-map",
+      "level": 2,
+      "title": "Index map",
+      "number": "6"
+    },
+    {
+      "id": "section-object",
+      "href": "https://tc39.es/ecma426/#section-object",
+      "level": 3,
+      "title": "Section",
+      "number": "6.1"
+    },
+    {
+      "id": "decoding-index-map",
+      "href": "https://tc39.es/ecma426/#decoding-index-map",
+      "level": 3,
+      "title": "Decoding an index map",
+      "number": "6.2"
+    },
+    {
+      "id": "linking-and-fetching",
+      "href": "https://tc39.es/ecma426/#linking-and-fetching",
+      "level": 2,
+      "title": "Retrieving source maps",
+      "number": "7"
+    },
+    {
+      "id": "linking-generated-code",
+      "href": "https://tc39.es/ecma426/#linking-generated-code",
+      "level": 3,
+      "title": "Linking generated code to source maps",
+      "number": "7.1"
+    },
+    {
+      "id": "linking-http-header",
+      "href": "https://tc39.es/ecma426/#linking-http-header",
+      "level": 4,
+      "title": "Linking through HTTP headers",
+      "number": "7.1.1"
+    },
+    {
+      "id": "linking-inline",
+      "href": "https://tc39.es/ecma426/#linking-inline",
+      "level": 4,
+      "title": "Linking through inline annotations",
+      "number": "7.1.2"
+    },
+    {
+      "id": "extraction-javascript",
+      "href": "https://tc39.es/ecma426/#extraction-javascript",
+      "level": 5,
+      "title": "Extraction methods for JavaScript sources",
+      "number": "7.1.2.1"
+    },
+    {
+      "id": "extraction-css",
+      "href": "https://tc39.es/ecma426/#extraction-css",
+      "level": 5,
+      "title": "Extraction methods for CSS sources",
+      "number": "7.1.2.2"
+    },
+    {
+      "id": "extraction-wasm",
+      "href": "https://tc39.es/ecma426/#extraction-wasm",
+      "level": 5,
+      "title": "Extraction methods for WebAssembly binaries",
+      "number": "7.1.2.3"
+    },
+    {
+      "id": "fetching-source-maps",
+      "href": "https://tc39.es/ecma426/#fetching-source-maps",
+      "level": 3,
+      "title": "Fetching source maps",
+      "number": "7.2"
+    },
+    {
+      "id": "conventions",
+      "href": "https://tc39.es/ecma426/#conventions",
+      "level": 2,
+      "title": "Conventions",
+      "number": "8"
+    },
+    {
+      "id": "source-map-naming",
+      "href": "https://tc39.es/ecma426/#source-map-naming",
+      "level": 3,
+      "title": "Source map naming",
+      "number": "8.1"
+    },
+    {
+      "id": "linking-eval",
+      "href": "https://tc39.es/ecma426/#linking-eval",
+      "level": 3,
+      "title": "Linking eval’d code to named generated code",
+      "number": "8.2"
+    },
+    {
+      "id": "language-neutral-mapping",
+      "href": "https://tc39.es/ecma426/#language-neutral-mapping",
+      "level": 2,
+      "title": "Language neutral stack mapping notes",
+      "number": "9"
+    },
+    {
+      "id": "multi-level-mapping",
+      "href": "https://tc39.es/ecma426/#multi-level-mapping",
+      "level": 2,
+      "title": "10. Multi-level mapping notes"
+    },
+    {
+      "id": "index",
+      "href": "https://tc39.es/ecma426/#index",
+      "level": 2,
+      "title": "Index"
+    },
+    {
+      "id": "index-defined-here",
+      "href": "https://tc39.es/ecma426/#index-defined-here",
+      "level": 3,
+      "title": "Terms defined by this specification"
+    },
+    {
+      "id": "index-defined-elsewhere",
+      "href": "https://tc39.es/ecma426/#index-defined-elsewhere",
+      "level": 3,
+      "title": "Terms defined by reference"
+    },
+    {
+      "id": "issues-index",
+      "href": "https://tc39.es/ecma426/#issues-index",
+      "level": 2,
+      "title": "Issues Index"
+    },
+    {
+      "id": "bibliography",
+      "href": "https://tc39.es/ecma426/#bibliography",
+      "level": 2,
+      "title": "Bibliography"
+    },
+    {
+      "id": "copyright-and-license",
+      "href": "https://tc39.es/ecma426/#copyright-and-license",
+      "level": 2,
+      "title": "Copyright & Software License"
+    },
+    {
+      "id": "copyright",
+      "href": "https://tc39.es/ecma426/#copyright",
+      "level": 3,
+      "title": "Copyright Notice"
+    },
+    {
+      "id": "license",
+      "href": "https://tc39.es/ecma426/#license",
+      "level": 3,
+      "title": "License"
+    }
+  ]
+}

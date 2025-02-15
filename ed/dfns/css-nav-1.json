@@ -1232,7 +1232,8 @@
       "heading": {
         "id": "scrolling",
         "href": "https://drafts.csswg.org/css-nav-1/#scrolling",
-        "title": "Appendix A. Scroll extensions"
+        "title": "Scroll extensions",
+        "number": "A"
       },
       "definedIn": "prose"
     },
@@ -1252,7 +1253,8 @@
       "heading": {
         "id": "scrolling",
         "href": "https://drafts.csswg.org/css-nav-1/#scrolling",
-        "title": "Appendix A. Scroll extensions"
+        "title": "Scroll extensions",
+        "number": "A"
       },
       "definedIn": "prose"
     }

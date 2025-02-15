@@ -163,95 +163,109 @@
       "number": "4.4.1.2"
     },
     {
+      "id": "connected-attribute",
+      "href": "https://wicg.github.io/serial/#connected-attribute",
+      "level": 3,
+      "title": "connected attribute",
+      "number": "4.5"
+    },
+    {
       "id": "readable-attribute",
       "href": "https://wicg.github.io/serial/#readable-attribute",
       "level": 3,
       "title": "readable attribute",
-      "number": "4.5"
+      "number": "4.6"
     },
     {
       "id": "writable-attribute",
       "href": "https://wicg.github.io/serial/#writable-attribute",
       "level": 3,
       "title": "writable attribute",
-      "number": "4.6"
+      "number": "4.7"
     },
     {
       "id": "setsignals-method",
       "href": "https://wicg.github.io/serial/#setsignals-method",
       "level": 3,
       "title": "setSignals() method",
-      "number": "4.7"
+      "number": "4.8"
     },
     {
       "id": "serialoutputsignals-dictionary",
       "href": "https://wicg.github.io/serial/#serialoutputsignals-dictionary",
       "level": 4,
       "title": "SerialOutputSignals dictionary",
-      "number": "4.7.1"
+      "number": "4.8.1"
     },
     {
       "id": "getsignals-method",
       "href": "https://wicg.github.io/serial/#getsignals-method",
       "level": 3,
       "title": "getSignals() method",
-      "number": "4.8"
+      "number": "4.9"
     },
     {
       "id": "serialinputsignals-dictionary",
       "href": "https://wicg.github.io/serial/#serialinputsignals-dictionary",
       "level": 4,
       "title": "SerialInputSignals dictionary",
-      "number": "4.8.1"
+      "number": "4.9.1"
     },
     {
       "id": "close-method",
       "href": "https://wicg.github.io/serial/#close-method",
       "level": 3,
       "title": "close() method",
-      "number": "4.9"
+      "number": "4.10"
     },
     {
       "id": "forget-method",
       "href": "https://wicg.github.io/serial/#forget-method",
       "level": 3,
       "title": "forget() method",
-      "number": "4.10"
+      "number": "4.11"
+    },
+    {
+      "id": "blocklist",
+      "href": "https://wicg.github.io/serial/#blocklist",
+      "level": 2,
+      "title": "Blocklist",
+      "number": "5"
     },
     {
       "id": "integrations",
       "href": "https://wicg.github.io/serial/#integrations",
       "level": 2,
       "title": "Integrations",
-      "number": "5"
+      "number": "6"
     },
     {
       "id": "permissions-policy",
       "href": "https://wicg.github.io/serial/#permissions-policy",
       "level": 3,
       "title": "Permissions Policy",
-      "number": "5.1"
+      "number": "6.1"
     },
     {
       "id": "security",
       "href": "https://wicg.github.io/serial/#security",
       "level": 2,
       "title": "Security considerations",
-      "number": "6"
+      "number": "7"
     },
     {
       "id": "privacy",
       "href": "https://wicg.github.io/serial/#privacy",
       "level": 2,
       "title": "Privacy considerations",
-      "number": "7"
+      "number": "8"
     },
     {
       "id": "conformance",
       "href": "https://wicg.github.io/serial/#conformance",
       "level": 2,
       "title": "Conformance",
-      "number": "8"
+      "number": "9"
     },
     {
       "id": "acknowledgements",

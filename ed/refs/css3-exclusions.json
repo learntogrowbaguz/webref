@@ -6,12 +6,16 @@
   "refs": {
     "normative": [
       {
+        "name": "CSS-ANCHOR-POSITION-1",
+        "url": "https://drafts.csswg.org/css-anchor-position-1/"
+      },
+      {
         "name": "CSS-BOX-4",
         "url": "https://drafts.csswg.org/css-box-4/"
       },
       {
-        "name": "CSS-LISTS-3",
-        "url": "https://drafts.csswg.org/css-lists-3/"
+        "name": "CSS-PAGE-FLOATS-3",
+        "url": "https://drafts.csswg.org/css-page-floats/"
       },
       {
         "name": "CSS-POSITION-3",
@@ -26,7 +30,7 @@
         "url": "https://drafts.csswg.org/css-values-4/"
       },
       {
-        "name": "CSS21",
+        "name": "CSS2",
         "url": "https://drafts.csswg.org/css2/"
       },
       {

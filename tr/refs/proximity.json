@@ -6,12 +6,20 @@
   "refs": {
     "normative": [
       {
+        "name": "ECMASCRIPT",
+        "url": "https://tc39.es/ecma262/multipage/"
+      },
+      {
         "name": "GENERIC-SENSOR",
         "url": "https://w3c.github.io/sensors/"
       },
       {
         "name": "INFRA",
         "url": "https://infra.spec.whatwg.org/"
+      },
+      {
+        "name": "PERMISSIONS",
+        "url": "https://w3c.github.io/permissions/"
       },
       {
         "name": "PERMISSIONS-POLICY-1",
@@ -22,8 +30,12 @@
         "url": "https://datatracker.ietf.org/doc/html/rfc2119"
       },
       {
+        "name": "WEBDRIVER2",
+        "url": "https://w3c.github.io/webdriver/"
+      },
+      {
         "name": "WEBIDL",
-        "url": "https://heycam.github.io/webidl/"
+        "url": "https://webidl.spec.whatwg.org/"
       }
     ],
     "informative": []

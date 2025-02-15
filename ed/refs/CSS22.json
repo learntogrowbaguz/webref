@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS 2",
+    "title": "Cascading Style Sheets (CSS) Level 2",
     "url": "https://drafts.csswg.org/css2/"
   },
   "refs": {
@@ -11,7 +11,11 @@
       },
       {
         "name": "CSS-DISPLAY-4",
-        "url": "https://drafts.csswg.org/css-display-4/"
+        "url": "https://drafts.csswg.org/css-display/"
+      },
+      {
+        "name": "CSS-LISTS-3",
+        "url": "https://drafts.csswg.org/css-lists-3/"
       },
       {
         "name": "CSS-STYLE-ATTR",
@@ -20,17 +24,6 @@
       {
         "name": "CSS-SYNTAX-3",
         "url": "https://drafts.csswg.org/css-syntax/"
-      },
-      {
-        "name": "CSS21",
-        "url": "https://drafts.csswg.org/css2/"
-      },
-      {
-        "name": "CSS3LIST",
-        "url": "https://drafts.csswg.org/css-lists-3/"
-      },
-      {
-        "name": "FLEX"
       },
       {
         "name": "HTML",
@@ -77,7 +70,7 @@
       },
       {
         "name": "UAX9",
-        "url": "https://www.unicode.org/reports/tr9/tr9-46.html"
+        "url": "https://www.unicode.org/reports/tr9/tr9-50.html"
       },
       {
         "name": "UNICODE",
@@ -86,9 +79,6 @@
       {
         "name": "XML10",
         "url": "https://www.w3.org/TR/xml/"
-      },
-      {
-        "name": "YACC"
       }
     ],
     "informative": [
@@ -101,20 +91,20 @@
         "url": "https://www.iana.org/assignments/character-sets"
       },
       {
+        "name": "CSS",
+        "url": "https://drafts.csswg.org/css-2023/"
+      },
+      {
         "name": "CSS-COLOR-5",
         "url": "https://drafts.csswg.org/css-color-5/"
       },
       {
-        "name": "CSS-SPEECH-1",
-        "url": "https://drafts.csswg.org/css-speech-1/"
-      },
-      {
-        "name": "CSS1",
-        "url": "https://www.w3.org/TR/CSS1/"
-      },
-      {
         "name": "CSS20",
         "url": "https://www.w3.org/TR/1998/REC-CSS2-19980512/"
+      },
+      {
+        "name": "CSS21",
+        "url": "https://drafts.csswg.org/css2/"
       },
       {
         "name": "CSS3COLOR",

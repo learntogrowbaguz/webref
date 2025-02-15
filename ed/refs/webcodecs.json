@@ -30,16 +30,16 @@
         "url": "https://infra.spec.whatwg.org/"
       },
       {
-        "name": "MEDIA-CAPABILITIES",
-        "url": "https://w3c.github.io/media-capabilities/"
-      },
-      {
         "name": "MEDIASTREAM-RECORDING",
         "url": "https://w3c.github.io/mediacapture-record/"
       },
       {
         "name": "MIMESNIFF",
         "url": "https://mimesniff.spec.whatwg.org/"
+      },
+      {
+        "name": "MST-CONTENT-HINT",
+        "url": "https://w3c.github.io/mst-content-hint/"
       },
       {
         "name": "RFC2119",
@@ -58,10 +58,6 @@
         "url": "https://webidl.spec.whatwg.org/"
       },
       {
-        "name": "WEBRTC-1",
-        "url": "https://www.w3.org/TR/webrtc/"
-      },
-      {
         "name": "WebRTC-SVC",
         "url": "https://w3c.github.io/webrtc-svc/"
       }
@@ -72,7 +68,11 @@
         "url": "https://www.itu.int/rec/T-REC-H.273/en"
       },
       {
-        "name": "MEDIA-SOURCE",
+        "name": "MEDIA-CAPABILITIES",
+        "url": "https://w3c.github.io/media-capabilities/"
+      },
+      {
+        "name": "MEDIA-SOURCE-2",
         "url": "https://w3c.github.io/media-source/"
       },
       {
@@ -81,10 +81,14 @@
       },
       {
         "name": "RFC9110",
-        "url": "https://www.rfc-editor.org/rfc/rfc9110"
+        "url": "https://httpwg.org/specs/rfc9110.html"
       },
       {
         "name": "WEBAUDIO",
+        "url": "https://webaudio.github.io/web-audio-api/"
+      },
+      {
+        "name": "WEBAUDIO-1.1",
         "url": "https://webaudio.github.io/web-audio-api/"
       },
       {

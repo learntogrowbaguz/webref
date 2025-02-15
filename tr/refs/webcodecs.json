@@ -30,16 +30,16 @@
         "url": "https://infra.spec.whatwg.org/"
       },
       {
-        "name": "MEDIA-CAPABILITIES",
-        "url": "https://www.w3.org/TR/media-capabilities/"
-      },
-      {
         "name": "MEDIASTREAM-RECORDING",
         "url": "https://www.w3.org/TR/mediastream-recording/"
       },
       {
         "name": "MIMESNIFF",
         "url": "https://mimesniff.spec.whatwg.org/"
+      },
+      {
+        "name": "MST-CONTENT-HINT",
+        "url": "https://www.w3.org/TR/mst-content-hint/"
       },
       {
         "name": "RFC2119",
@@ -58,10 +58,6 @@
         "url": "https://webidl.spec.whatwg.org/"
       },
       {
-        "name": "WebRTC",
-        "url": "https://www.w3.org/TR/webrtc/"
-      },
-      {
         "name": "WebRTC-SVC",
         "url": "https://www.w3.org/TR/webrtc-svc/"
       }
@@ -72,8 +68,12 @@
         "url": "https://www.itu.int/rec/T-REC-H.273/en"
       },
       {
-        "name": "MEDIA-SOURCE",
-        "url": "https://www.w3.org/TR/media-source/"
+        "name": "MEDIA-CAPABILITIES",
+        "url": "https://www.w3.org/TR/media-capabilities/"
+      },
+      {
+        "name": "MEDIA-SOURCE-2",
+        "url": "https://www.w3.org/TR/media-source-2/"
       },
       {
         "name": "RFC6381",
@@ -81,11 +81,15 @@
       },
       {
         "name": "RFC9110",
-        "url": "https://www.rfc-editor.org/rfc/rfc9110"
+        "url": "https://httpwg.org/specs/rfc9110.html"
       },
       {
         "name": "WEBAUDIO",
-        "url": "https://www.w3.org/TR/webaudio/"
+        "url": "https://www.w3.org/TR/webaudio-1.0/"
+      },
+      {
+        "name": "WEBAUDIO-1.1",
+        "url": "https://www.w3.org/TR/webaudio-1.1/"
       },
       {
         "name": "WEBCODECS-CODEC-REGISTRY",
@@ -94,6 +98,10 @@
       {
         "name": "WEBCODECS-VIDEO-FRAME-METADATA-REGISTRY",
         "url": "https://w3c.github.io/webcodecs/video_frame_metadata_registry.html"
+      },
+      {
+        "name": "WebRTC",
+        "url": "https://www.w3.org/TR/webrtc/"
       }
     ]
   }

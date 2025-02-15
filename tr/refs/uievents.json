@@ -6,6 +6,18 @@
   "refs": {
     "normative": [
       {
+        "name": "CSS-COLOR-3",
+        "url": "https://www.w3.org/TR/css-color-3/"
+      },
+      {
+        "name": "CSS2",
+        "url": "https://www.w3.org/TR/CSS21/"
+      },
+      {
+        "name": "CSSOM-View",
+        "url": "https://www.w3.org/TR/cssom-view-1/"
+      },
+      {
         "name": "DOM",
         "url": "https://dom.spec.whatwg.org/"
       },
@@ -18,12 +30,16 @@
         "url": "https://html.spec.whatwg.org/multipage/"
       },
       {
-        "name": "HTML5",
-        "url": "https://www.w3.org/TR/html5/"
+        "name": "INFRA",
+        "url": "https://infra.spec.whatwg.org/"
       },
       {
-        "name": "POINTEREVENTS3",
+        "name": "PointerEvents3",
         "url": "https://www.w3.org/TR/pointerevents3/"
+      },
+      {
+        "name": "POINTERLOCK-2",
+        "url": "https://www.w3.org/TR/pointerlock-2/"
       },
       {
         "name": "RFC2119",
@@ -44,10 +60,6 @@
     ],
     "informative": [
       {
-        "name": "CSS2",
-        "url": "https://www.w3.org/TR/CSS21/"
-      },
-      {
         "name": "DWW95"
       },
       {
@@ -59,8 +71,16 @@
         "url": "https://www.w3.org/TR/html401/"
       },
       {
+        "name": "HTML5",
+        "url": "https://www.w3.org/TR/html5/"
+      },
+      {
         "name": "Input-Events",
         "url": "https://www.w3.org/TR/input-events-1/"
+      },
+      {
+        "name": "PointerLock",
+        "url": "https://www.w3.org/TR/pointerlock/"
       },
       {
         "name": "RFC20",
@@ -72,7 +92,7 @@
       },
       {
         "name": "UAX15",
-        "url": "https://www.unicode.org/reports/tr15/tr15-53.html"
+        "url": "https://www.unicode.org/reports/tr15/tr15-54.html"
       },
       {
         "name": "Unicode",

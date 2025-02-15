@@ -1734,7 +1734,7 @@
       "href": "https://wicg.github.io/webpackage/loading.html#matches-the-stored-exchange",
       "linkingText": [
         "matches the stored exchange",
-        "doesn’t match the stored exchange"
+        "doesn't match the stored exchange"
       ],
       "localLinkingText": [],
       "type": "dfn",

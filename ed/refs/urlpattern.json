@@ -1,17 +1,25 @@
 {
   "spec": {
-    "title": "URLPattern API",
-    "url": "https://wicg.github.io/urlpattern/"
+    "title": "URL Pattern Standard",
+    "url": "https://urlpattern.spec.whatwg.org/"
   },
   "refs": {
     "normative": [
       {
-        "name": "ECMASCRIPT",
+        "name": "ECMA-262",
         "url": "https://tc39.es/ecma262/multipage/"
+      },
+      {
+        "name": "HTML",
+        "url": "https://html.spec.whatwg.org/multipage/"
       },
       {
         "name": "INFRA",
         "url": "https://infra.spec.whatwg.org/"
+      },
+      {
+        "name": "RFC9651",
+        "url": "https://www.rfc-editor.org/rfc/rfc9651"
       },
       {
         "name": "URL",
@@ -22,6 +30,11 @@
         "url": "https://webidl.spec.whatwg.org/"
       }
     ],
-    "informative": []
+    "informative": [
+      {
+        "name": "SPECULATION-RULES",
+        "url": "https://wicg.github.io/nav-speculation/speculation-rules.html"
+      }
+    ]
   }
 }

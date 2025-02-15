@@ -7,33 +7,36 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
+    # Starting with Ubuntu 23+, a security feature prevents running Puppeteer
+    # by default. It needs to be disabled. Using the "easiest" option, see:
+    # https://chromium.googlesource.com/chromium/src/+/main/docs/security/apparmor-userns-restrictions.md
+    # https://github.com/puppeteer/puppeteer/pull/13196/files
+    - name: Disable AppArmor
+      run: echo 0 | sudo tee /proc/sys/kernel/apparmor_restrict_unprivileged_userns
+
+    - name: Checkout repo
+      uses: actions/checkout@v4
+
     - name: Setup node.js
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v4
       with:
-        node-version: 14
+        node-version: 20
+        cache: 'npm'
 
-    # Temp (2023-01-07): Force version of node-fetch, pending resolution of:
-    # https://github.com/node-fetch/node-fetch/issues/1701
-    - name: Install reffy
-      run: |
-        npm install node-fetch@2.6.7
-        npm install reffy
+    - name: Install dependencies
+      run: npm ci
 
-    # Use a separate checkout to reduce the chances
-    # that, by the time the crawl has ended, the underlying webref checkout
-    # that gets updated be no longer in sync with origin
-    - name: Checkout webref-fallback
-      uses: actions/checkout@v2
-      with:
-        path: webref-fallback
-
+    # Note command to Reffy explicitly mentions a few discontinued specs,
+    # kept in the crawl for cross-referencing purpose.
     - name: Run Reffy's crawler
       run: |
         mkdir report
-        node_modules/.bin/reffy --post csscomplete --post annotatelinks --post patchdfns --output report --fallback webref-fallback/ed/index.json
+        node_modules/.bin/reffy --post csscomplete --post annotatelinks --post patchdfns --output report --fallback ed/index.json --spec all DOM-Level-2-Style selectors-nonelement-1 tracking-dnt rfc7230 rfc7231 rfc7232 rfc7233 rfc7234 rfc7235
 
-    - name: Checkout webref
-      uses: actions/checkout@v2
+    # Update another Webref checkout to reduce the chances that the version we
+    # checked out is no longer in sync with origin by the time the crawl is over
+    - name: Checkout webref once more
+      uses: actions/checkout@v4
       with:
         path: webref
 

@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS 2",
+    "title": "Cascading Style Sheets (CSS) Level 2",
     "url": "https://drafts.csswg.org/css2/"
   },
   "headings": [
@@ -8,7 +8,7 @@
       "id": "title",
       "href": "https://drafts.csswg.org/css2/#title",
       "level": 1,
-      "title": "No TestsCSS 2"
+      "title": "Cascading Style Sheets (CSS) Level 2"
     },
     {
       "id": "abstract",
@@ -1829,13 +1829,15 @@
       "id": "aural",
       "href": "https://drafts.csswg.org/css2/#aural",
       "level": 2,
-      "title": "Appendix A: Aural style sheets"
+      "title": "Aural style sheets",
+      "number": "A"
     },
     {
       "id": "references",
       "href": "https://drafts.csswg.org/css2/#references",
       "level": 2,
-      "title": "Appendix B: Bibliography"
+      "title": "Bibliography",
+      "number": "B"
     },
     {
       "id": "references①",
@@ -1859,7 +1861,8 @@
       "id": "app-changes",
       "href": "https://drafts.csswg.org/css2/#app-changes",
       "level": 2,
-      "title": "Appendix C: Changes"
+      "title": "Changes",
+      "number": "C"
     },
     {
       "id": "new",
@@ -1877,7 +1880,8 @@
       "id": "drop-aural",
       "href": "https://drafts.csswg.org/css2/#drop-aural",
       "level": 4,
-      "title": "Appendix A: Aural style sheets"
+      "title": "Aural style sheets",
+      "number": "A"
     },
     {
       "id": "inherit-computed-value",
@@ -1901,13 +1905,15 @@
       "id": "html-stylesheet",
       "href": "https://drafts.csswg.org/css2/#html-stylesheet",
       "level": 2,
-      "title": "Appendix D: Default style sheet for HTML 4"
+      "title": "Default style sheet for HTML 4",
+      "number": "D"
     },
     {
       "id": "elaborate-stacking-contexts",
       "href": "https://drafts.csswg.org/css2/#elaborate-stacking-contexts",
       "level": 2,
-      "title": "Appendix E: Elaborate description of Stacking Contexts"
+      "title": "Elaborate description of Stacking Contexts",
+      "number": "E"
     },
     {
       "id": "stacking-defs",
@@ -1931,7 +1937,8 @@
       "id": "property-index",
       "href": "https://drafts.csswg.org/css2/#property-index",
       "level": 2,
-      "title": "Appendix F: Full property table"
+      "title": "Full property table",
+      "number": "F"
     },
     {
       "id": "property-index①",
@@ -1943,7 +1950,8 @@
       "id": "app-grammar",
       "href": "https://drafts.csswg.org/css2/#app-grammar",
       "level": 2,
-      "title": "Appendix G: Grammar of CSS 2"
+      "title": "Grammar of CSS 2",
+      "number": "G"
     },
     {
       "id": "grammar",
@@ -1973,13 +1981,15 @@
       "id": "leftblank",
       "href": "https://drafts.csswg.org/css2/#leftblank",
       "level": 2,
-      "title": "Appendix H: Has been intentionally left blank"
+      "title": "Has been intentionally left blank",
+      "number": "H"
     },
     {
       "id": "index",
       "href": "https://drafts.csswg.org/css2/#index",
       "level": 2,
-      "title": "Appendix I: Index"
+      "title": "Index",
+      "number": "I"
     },
     {
       "id": "index①",

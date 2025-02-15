@@ -6,10 +6,6 @@
   "refs": {
     "normative": [
       {
-        "name": "COOKIES",
-        "url": "https://httpwg.org/specs/rfc6265.html"
-      },
-      {
         "name": "DIAL",
         "url": "http://www.dial-multiscreen.org/dial-protocol-specification"
       },
@@ -34,6 +30,10 @@
         "url": "https://www.w3.org/TR/IndexedDB/"
       },
       {
+        "name": "infra",
+        "url": "https://infra.spec.whatwg.org/"
+      },
+      {
         "name": "PERMISSIONS",
         "url": "https://www.w3.org/TR/permissions/"
       },
@@ -42,20 +42,20 @@
         "url": "https://www.rfc-editor.org/rfc/rfc2119"
       },
       {
-        "name": "rfc4122",
+        "name": "RFC4122",
         "url": "https://www.rfc-editor.org/rfc/rfc4122"
       },
       {
-        "name": "rfc7231",
-        "url": "https://httpwg.org/specs/rfc7231.html"
-      },
-      {
-        "name": "rfc7235",
-        "url": "https://httpwg.org/specs/rfc7235.html"
+        "name": "RFC6265",
+        "url": "https://httpwg.org/specs/rfc6265.html"
       },
       {
         "name": "RFC8174",
         "url": "https://www.rfc-editor.org/rfc/rfc8174"
+      },
+      {
+        "name": "RFC9110",
+        "url": "https://httpwg.org/specs/rfc9110.html"
       },
       {
         "name": "secure-contexts",

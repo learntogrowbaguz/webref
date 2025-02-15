@@ -6,12 +6,8 @@
   "refs": {
     "normative": [
       {
-        "name": "AV1-RTP",
-        "url": "https://aomediacodec.github.io/av1-rtp-spec/"
-      },
-      {
-        "name": "Media-Capabilities",
-        "url": "https://www.w3.org/TR/media-capabilities/"
+        "name": "infra",
+        "url": "https://infra.spec.whatwg.org/"
       },
       {
         "name": "RFC2119",
@@ -44,6 +40,26 @@
         "url": "https://aomediacodec.github.io/av1-spec/av1-spec.pdf"
       },
       {
+        "name": "AV1-RTP-SPEC",
+        "url": "https://aomediacodec.github.io/av1-rtp-spec/"
+      },
+      {
+        "name": "ITU-T-REC-H.264",
+        "url": "https://www.itu.int/rec/T-REC-H.264"
+      },
+      {
+        "name": "ITU-T-REC-H.265",
+        "url": "https://www.itu.int/rec/T-REC-H.265"
+      },
+      {
+        "name": "Media-Capabilities",
+        "url": "https://www.w3.org/TR/media-capabilities/"
+      },
+      {
+        "name": "RFC6184",
+        "url": "https://www.rfc-editor.org/rfc/rfc6184"
+      },
+      {
         "name": "RFC6190",
         "url": "https://www.rfc-editor.org/rfc/rfc6190"
       },
@@ -56,7 +72,11 @@
         "url": "https://www.rfc-editor.org/rfc/rfc7741"
       },
       {
-        "name": "RTCWEB-SECURITY-ARCH",
+        "name": "RFC7798",
+        "url": "https://www.rfc-editor.org/rfc/rfc7798"
+      },
+      {
+        "name": "RFC8827",
         "url": "https://www.rfc-editor.org/rfc/rfc8827"
       },
       {

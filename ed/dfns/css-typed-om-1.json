@@ -58,10 +58,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "stylevalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#stylevalue-objects",
-        "title": "CSSStyleValue objects",
-        "number": "2"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -79,10 +78,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "stylevalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#stylevalue-objects",
-        "title": "CSSStyleValue objects",
-        "number": "2"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -100,10 +98,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "stylevalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#stylevalue-objects",
-        "title": "CSSStyleValue objects",
-        "number": "2"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -121,10 +118,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "stylevalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#stylevalue-objects",
-        "title": "CSSStyleValue objects",
-        "number": "2"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -142,10 +138,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "stylevalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#stylevalue-objects",
-        "title": "CSSStyleValue objects",
-        "number": "2"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -163,10 +158,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "stylevalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#stylevalue-objects",
-        "title": "CSSStyleValue objects",
-        "number": "2"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -184,10 +178,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "stylevalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#stylevalue-objects",
-        "title": "CSSStyleValue objects",
-        "number": "2"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -203,10 +196,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "stylevalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#stylevalue-objects",
-        "title": "CSSStyleValue objects",
-        "number": "2"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -222,10 +214,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "stylevalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#stylevalue-objects",
-        "title": "CSSStyleValue objects",
-        "number": "2"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -283,10 +274,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "the-stylepropertymap",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#the-stylepropertymap",
-        "title": "The StylePropertyMap",
-        "number": "3"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -304,10 +294,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "the-stylepropertymap",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#the-stylepropertymap",
-        "title": "The StylePropertyMap",
-        "number": "3"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -325,10 +314,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "the-stylepropertymap",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#the-stylepropertymap",
-        "title": "The StylePropertyMap",
-        "number": "3"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -344,10 +332,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "the-stylepropertymap",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#the-stylepropertymap",
-        "title": "The StylePropertyMap",
-        "number": "3"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -366,10 +353,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "the-stylepropertymap",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#the-stylepropertymap",
-        "title": "The StylePropertyMap",
-        "number": "3"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -388,10 +374,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "the-stylepropertymap",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#the-stylepropertymap",
-        "title": "The StylePropertyMap",
-        "number": "3"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -410,10 +395,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "the-stylepropertymap",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#the-stylepropertymap",
-        "title": "The StylePropertyMap",
-        "number": "3"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -432,10 +416,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "the-stylepropertymap",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#the-stylepropertymap",
-        "title": "The StylePropertyMap",
-        "number": "3"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -453,10 +436,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "the-stylepropertymap",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#the-stylepropertymap",
-        "title": "The StylePropertyMap",
-        "number": "3"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -475,10 +457,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "the-stylepropertymap",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#the-stylepropertymap",
-        "title": "The StylePropertyMap",
-        "number": "3"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -496,10 +477,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "the-stylepropertymap",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#the-stylepropertymap",
-        "title": "The StylePropertyMap",
-        "number": "3"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -517,10 +497,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "the-stylepropertymap",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#the-stylepropertymap",
-        "title": "The StylePropertyMap",
-        "number": "3"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -539,10 +518,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "the-stylepropertymap",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#the-stylepropertymap",
-        "title": "The StylePropertyMap",
-        "number": "3"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -561,10 +539,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "the-stylepropertymap",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#the-stylepropertymap",
-        "title": "The StylePropertyMap",
-        "number": "3"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -583,10 +560,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "the-stylepropertymap",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#the-stylepropertymap",
-        "title": "The StylePropertyMap",
-        "number": "3"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -605,10 +581,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "the-stylepropertymap",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#the-stylepropertymap",
-        "title": "The StylePropertyMap",
-        "number": "3"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -627,10 +602,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "the-stylepropertymap",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#the-stylepropertymap",
-        "title": "The StylePropertyMap",
-        "number": "3"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -649,10 +623,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "the-stylepropertymap",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#the-stylepropertymap",
-        "title": "The StylePropertyMap",
-        "number": "3"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -670,10 +643,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "the-stylepropertymap",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#the-stylepropertymap",
-        "title": "The StylePropertyMap",
-        "number": "3"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -691,10 +663,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "the-stylepropertymap",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#the-stylepropertymap",
-        "title": "The StylePropertyMap",
-        "number": "3"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -710,10 +681,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "the-stylepropertymap",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#the-stylepropertymap",
-        "title": "The StylePropertyMap",
-        "number": "3"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -732,10 +702,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "the-stylepropertymap",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#the-stylepropertymap",
-        "title": "The StylePropertyMap",
-        "number": "3"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -751,10 +720,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "the-stylepropertymap",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#the-stylepropertymap",
-        "title": "The StylePropertyMap",
-        "number": "3"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -770,10 +738,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "the-stylepropertymap",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#the-stylepropertymap",
-        "title": "The StylePropertyMap",
-        "number": "3"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -831,10 +798,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "computed-stylepropertymapreadonly-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#computed-stylepropertymapreadonly-objects",
-        "title": "Computed StylePropertyMapReadOnly objects",
-        "number": "3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -871,10 +837,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "declared-stylepropertymap-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#declared-stylepropertymap-objects",
-        "title": "Declared & Inline StylePropertyMap objects",
-        "number": "3.2"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -892,10 +857,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "declared-stylepropertymap-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#declared-stylepropertymap-objects",
-        "title": "Declared & Inline StylePropertyMap objects",
-        "number": "3.2"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -933,10 +897,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "unparsedvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#unparsedvalue-objects",
-        "title": "CSSUnparsedValue objects",
-        "number": "4.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -955,10 +918,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "unparsedvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#unparsedvalue-objects",
-        "title": "CSSUnparsedValue objects",
-        "number": "4.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -976,10 +938,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "unparsedvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#unparsedvalue-objects",
-        "title": "CSSUnparsedValue objects",
-        "number": "4.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -997,10 +958,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "unparsedvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#unparsedvalue-objects",
-        "title": "CSSUnparsedValue objects",
-        "number": "4.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1018,10 +978,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "unparsedvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#unparsedvalue-objects",
-        "title": "CSSUnparsedValue objects",
-        "number": "4.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1037,10 +996,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "unparsedvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#unparsedvalue-objects",
-        "title": "CSSUnparsedValue objects",
-        "number": "4.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1056,10 +1014,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "unparsedvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#unparsedvalue-objects",
-        "title": "CSSUnparsedValue objects",
-        "number": "4.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1080,10 +1037,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "unparsedvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#unparsedvalue-objects",
-        "title": "CSSUnparsedValue objects",
-        "number": "4.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1104,10 +1060,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "unparsedvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#unparsedvalue-objects",
-        "title": "CSSUnparsedValue objects",
-        "number": "4.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1125,10 +1080,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "unparsedvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#unparsedvalue-objects",
-        "title": "CSSUnparsedValue objects",
-        "number": "4.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1146,10 +1100,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "unparsedvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#unparsedvalue-objects",
-        "title": "CSSUnparsedValue objects",
-        "number": "4.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -1167,10 +1120,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "unparsedvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#unparsedvalue-objects",
-        "title": "CSSUnparsedValue objects",
-        "number": "4.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -1188,10 +1140,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "unparsedvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#unparsedvalue-objects",
-        "title": "CSSUnparsedValue objects",
-        "number": "4.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -1212,10 +1163,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "unparsedvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#unparsedvalue-objects",
-        "title": "CSSUnparsedValue objects",
-        "number": "4.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -1253,10 +1203,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "keywordvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#keywordvalue-objects",
-        "title": "CSSKeywordValue objects",
-        "number": "4.2"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1275,10 +1224,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "keywordvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#keywordvalue-objects",
-        "title": "CSSKeywordValue objects",
-        "number": "4.2"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -1294,10 +1242,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "keywordvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#keywordvalue-objects",
-        "title": "CSSKeywordValue objects",
-        "number": "4.2"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1313,10 +1260,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "keywordvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#keywordvalue-objects",
-        "title": "CSSKeywordValue objects",
-        "number": "4.2"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -1334,10 +1280,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "keywordvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#keywordvalue-objects",
-        "title": "CSSKeywordValue objects",
-        "number": "4.2"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -1372,10 +1317,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-objects",
-        "title": "Numeric Values:",
-        "number": "4.3"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -1412,10 +1356,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1433,10 +1376,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1454,10 +1396,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1475,10 +1416,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1496,10 +1436,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1517,10 +1456,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1538,10 +1476,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1557,10 +1494,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1578,10 +1514,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1599,10 +1534,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1620,10 +1554,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1641,10 +1574,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1662,10 +1594,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1683,10 +1614,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1704,10 +1634,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1725,10 +1654,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1744,10 +1672,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1766,10 +1693,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1788,10 +1714,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1810,10 +1735,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1832,10 +1756,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1854,10 +1777,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1876,10 +1798,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1898,10 +1819,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1919,10 +1839,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1941,10 +1860,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1962,10 +1880,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -1984,10 +1901,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -2006,10 +1922,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -2029,10 +1944,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -2051,10 +1965,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -2073,10 +1986,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -2096,10 +2008,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -2118,10 +2029,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -2140,10 +2050,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -2163,10 +2072,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -2182,10 +2090,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -2203,10 +2110,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -2222,10 +2128,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -2244,10 +2149,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -2265,10 +2169,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -2286,10 +2189,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -2307,10 +2209,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -2328,10 +2229,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -2348,10 +2248,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -2367,10 +2266,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -2386,10 +2284,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -2407,10 +2304,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-value",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-value",
-        "title": "Common Numeric Operations, and the CSSNumericValue Superclass",
-        "number": "4.3.1"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -2449,10 +2345,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-typing",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-typing",
-        "title": "Numeric Value Typing",
-        "number": "4.3.2"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -2470,10 +2365,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-typing",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-typing",
-        "title": "Numeric Value Typing",
-        "number": "4.3.2"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -2492,10 +2386,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-typing",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-typing",
-        "title": "Numeric Value Typing",
-        "number": "4.3.2"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -2516,10 +2409,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-typing",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-typing",
-        "title": "Numeric Value Typing",
-        "number": "4.3.2"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -2535,10 +2427,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-typing",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-typing",
-        "title": "Numeric Value Typing",
-        "number": "4.3.2"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -2559,10 +2450,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-typing",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-typing",
-        "title": "Numeric Value Typing",
-        "number": "4.3.2"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -2580,10 +2470,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-typing",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-typing",
-        "title": "Numeric Value Typing",
-        "number": "4.3.2"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -2601,10 +2490,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "numeric-typing",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-typing",
-        "title": "Numeric Value Typing",
-        "number": "4.3.2"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -2642,10 +2530,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "simple-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#simple-numeric",
-        "title": "Value + Unit: CSSUnitValue objects",
-        "number": "4.3.3"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -2664,10 +2551,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "simple-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#simple-numeric",
-        "title": "Value + Unit: CSSUnitValue objects",
-        "number": "4.3.3"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -2685,10 +2571,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "simple-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#simple-numeric",
-        "title": "Value + Unit: CSSUnitValue objects",
-        "number": "4.3.3"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -2706,10 +2591,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "simple-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#simple-numeric",
-        "title": "Value + Unit: CSSUnitValue objects",
-        "number": "4.3.3"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -2728,10 +2612,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "simple-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#simple-numeric",
-        "title": "Value + Unit: CSSUnitValue objects",
-        "number": "4.3.3"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -2747,10 +2630,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "simple-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#simple-numeric",
-        "title": "Value + Unit: CSSUnitValue objects",
-        "number": "4.3.3"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -2767,10 +2649,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "simple-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#simple-numeric",
-        "title": "Value + Unit: CSSUnitValue objects",
-        "number": "4.3.3"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -2786,10 +2667,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "simple-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#simple-numeric",
-        "title": "Value + Unit: CSSUnitValue objects",
-        "number": "4.3.3"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -2824,10 +2704,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -2848,10 +2727,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -2869,10 +2747,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -2888,10 +2765,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -2912,10 +2788,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -2933,10 +2808,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -2952,10 +2826,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -2974,10 +2847,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -2995,10 +2867,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -3014,10 +2885,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -3036,10 +2906,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -3057,10 +2926,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -3076,10 +2944,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -3100,10 +2967,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -3121,10 +2987,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -3140,10 +3005,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -3164,10 +3028,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -3185,10 +3048,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -3204,10 +3066,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -3226,10 +3087,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -3248,10 +3108,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -3270,10 +3129,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -3291,10 +3149,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -3312,10 +3169,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -3333,10 +3189,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -3352,10 +3207,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -3373,10 +3227,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -3392,10 +3245,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -3413,10 +3265,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -3434,10 +3285,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -3455,10 +3305,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -3476,10 +3325,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -3497,10 +3345,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -3518,10 +3365,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -3539,10 +3385,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -3567,10 +3412,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -3591,10 +3435,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -3615,10 +3458,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -3639,10 +3481,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -3663,10 +3504,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -3685,10 +3525,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -3707,10 +3546,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -3729,10 +3567,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -3748,10 +3585,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -3769,10 +3605,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "complex-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#complex-numeric",
-        "title": "Complex Numeric Values: CSSMathValue objects",
-        "number": "4.3.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -3849,6 +3684,90 @@
       "type": "argument",
       "for": [
         "CSS/percent(value)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "numeric-factory",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-factory",
+        "title": "Numeric Factory Functions",
+        "number": "4.3.5"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-css-cap",
+      "href": "https://drafts.css-houdini.org/css-typed-om-1/#dom-css-cap",
+      "linkingText": [
+        "cap(value)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "CSS"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "numeric-factory",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-factory",
+        "title": "Numeric Factory Functions",
+        "number": "4.3.5"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-css-cap-value-value",
+      "href": "https://drafts.css-houdini.org/css-typed-om-1/#dom-css-cap-value-value",
+      "linkingText": [
+        "value"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "CSS/cap(value)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "numeric-factory",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-factory",
+        "title": "Numeric Factory Functions",
+        "number": "4.3.5"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-css-ch",
+      "href": "https://drafts.css-houdini.org/css-typed-om-1/#dom-css-ch",
+      "linkingText": [
+        "ch(value)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "CSS"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "numeric-factory",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-factory",
+        "title": "Numeric Factory Functions",
+        "number": "4.3.5"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-css-ch-value-value",
+      "href": "https://drafts.css-houdini.org/css-typed-om-1/#dom-css-ch-value-value",
+      "linkingText": [
+        "value"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "CSS/ch(value)"
       ],
       "access": "public",
       "informative": false,
@@ -3945,48 +3864,6 @@
       "definedIn": "pre"
     },
     {
-      "id": "dom-css-ch",
-      "href": "https://drafts.css-houdini.org/css-typed-om-1/#dom-css-ch",
-      "linkingText": [
-        "ch(value)"
-      ],
-      "localLinkingText": [],
-      "type": "method",
-      "for": [
-        "CSS"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "numeric-factory",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-factory",
-        "title": "Numeric Factory Functions",
-        "number": "4.3.5"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-css-ch-value-value",
-      "href": "https://drafts.css-houdini.org/css-typed-om-1/#dom-css-ch-value-value",
-      "linkingText": [
-        "value"
-      ],
-      "localLinkingText": [],
-      "type": "argument",
-      "for": [
-        "CSS/ch(value)"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "numeric-factory",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-factory",
-        "title": "Numeric Factory Functions",
-        "number": "4.3.5"
-      },
-      "definedIn": "pre"
-    },
-    {
       "id": "dom-css-ic",
       "href": "https://drafts.css-houdini.org/css-typed-om-1/#dom-css-ic",
       "linkingText": [
@@ -4017,6 +3894,132 @@
       "type": "argument",
       "for": [
         "CSS/ic(value)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "numeric-factory",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-factory",
+        "title": "Numeric Factory Functions",
+        "number": "4.3.5"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-css-lh",
+      "href": "https://drafts.css-houdini.org/css-typed-om-1/#dom-css-lh",
+      "linkingText": [
+        "lh(value)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "CSS"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "numeric-factory",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-factory",
+        "title": "Numeric Factory Functions",
+        "number": "4.3.5"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-css-lh-value-value",
+      "href": "https://drafts.css-houdini.org/css-typed-om-1/#dom-css-lh-value-value",
+      "linkingText": [
+        "value"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "CSS/lh(value)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "numeric-factory",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-factory",
+        "title": "Numeric Factory Functions",
+        "number": "4.3.5"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-css-rcap",
+      "href": "https://drafts.css-houdini.org/css-typed-om-1/#dom-css-rcap",
+      "linkingText": [
+        "rcap(value)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "CSS"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "numeric-factory",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-factory",
+        "title": "Numeric Factory Functions",
+        "number": "4.3.5"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-css-rcap-value-value",
+      "href": "https://drafts.css-houdini.org/css-typed-om-1/#dom-css-rcap-value-value",
+      "linkingText": [
+        "value"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "CSS/rcap(value)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "numeric-factory",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-factory",
+        "title": "Numeric Factory Functions",
+        "number": "4.3.5"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-css-rch",
+      "href": "https://drafts.css-houdini.org/css-typed-om-1/#dom-css-rch",
+      "linkingText": [
+        "rch(value)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "CSS"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "numeric-factory",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-factory",
+        "title": "Numeric Factory Functions",
+        "number": "4.3.5"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-css-rch-value-value",
+      "href": "https://drafts.css-houdini.org/css-typed-om-1/#dom-css-rch-value-value",
+      "linkingText": [
+        "value"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "CSS/rch(value)"
       ],
       "access": "public",
       "informative": false,
@@ -4071,10 +4074,10 @@
       "definedIn": "pre"
     },
     {
-      "id": "dom-css-lh",
-      "href": "https://drafts.css-houdini.org/css-typed-om-1/#dom-css-lh",
+      "id": "dom-css-rex",
+      "href": "https://drafts.css-houdini.org/css-typed-om-1/#dom-css-rex",
       "linkingText": [
-        "lh(value)"
+        "rex(value)"
       ],
       "localLinkingText": [],
       "type": "method",
@@ -4092,15 +4095,57 @@
       "definedIn": "pre"
     },
     {
-      "id": "dom-css-lh-value-value",
-      "href": "https://drafts.css-houdini.org/css-typed-om-1/#dom-css-lh-value-value",
+      "id": "dom-css-rex-value-value",
+      "href": "https://drafts.css-houdini.org/css-typed-om-1/#dom-css-rex-value-value",
       "linkingText": [
         "value"
       ],
       "localLinkingText": [],
       "type": "argument",
       "for": [
-        "CSS/lh(value)"
+        "CSS/rex(value)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "numeric-factory",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-factory",
+        "title": "Numeric Factory Functions",
+        "number": "4.3.5"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-css-ric",
+      "href": "https://drafts.css-houdini.org/css-typed-om-1/#dom-css-ric",
+      "linkingText": [
+        "ric(value)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "CSS"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "numeric-factory",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#numeric-factory",
+        "title": "Numeric Factory Functions",
+        "number": "4.3.5"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-css-ric-value-value",
+      "href": "https://drafts.css-houdini.org/css-typed-om-1/#dom-css-ric-value-value",
+      "linkingText": [
+        "value"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "CSS/ric(value)"
       ],
       "access": "public",
       "informative": false,
@@ -6246,10 +6291,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -6267,10 +6311,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -6288,10 +6331,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -6309,10 +6351,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -6331,10 +6372,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -6352,10 +6392,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -6373,10 +6412,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -6394,10 +6432,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -6415,10 +6452,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -6434,10 +6470,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -6453,10 +6488,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -6474,10 +6508,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -6493,10 +6526,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -6517,10 +6549,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -6541,10 +6572,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -6565,10 +6595,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -6586,10 +6615,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -6607,10 +6635,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -6628,10 +6655,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -6647,10 +6673,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -6669,10 +6694,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -6691,10 +6715,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -6713,10 +6736,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -6735,10 +6757,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -6757,10 +6778,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -6778,10 +6798,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -6797,10 +6816,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -6821,10 +6839,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -6845,10 +6862,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -6869,10 +6885,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -6888,10 +6903,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -6910,10 +6924,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -6932,10 +6945,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -6953,10 +6965,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -6974,10 +6985,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -6993,10 +7003,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -7015,10 +7024,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -7036,10 +7044,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -7055,10 +7062,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -7077,10 +7083,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -7098,10 +7103,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -7117,10 +7121,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -7139,10 +7142,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -7160,10 +7162,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -7179,10 +7180,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -7203,10 +7203,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -7227,10 +7226,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -7248,10 +7246,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -7267,10 +7264,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -7288,10 +7284,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -7309,10 +7304,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -7330,10 +7324,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -7354,10 +7347,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -7376,10 +7368,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -7398,10 +7389,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -7419,10 +7409,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -7440,10 +7429,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -7461,10 +7449,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -7485,10 +7472,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -7506,10 +7492,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -7527,10 +7512,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -7548,10 +7532,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -7570,10 +7553,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -7592,10 +7574,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -7614,10 +7595,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -7637,10 +7617,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -7659,10 +7638,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -7680,10 +7658,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -7704,10 +7681,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "transformvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#transformvalue-objects",
-        "title": "CSSTransformValue objects",
-        "number": "4.4"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -7763,10 +7739,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -7784,10 +7759,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -7803,10 +7777,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -7822,10 +7795,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -7841,10 +7813,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -7860,10 +7831,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -7879,10 +7849,9 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -7898,10 +7867,9 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -7917,10 +7885,9 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -7936,10 +7903,9 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -7955,10 +7921,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -7979,10 +7944,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -8003,10 +7967,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -8027,10 +7990,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -8051,10 +8013,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -8075,10 +8036,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -8096,10 +8056,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -8117,10 +8076,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -8138,10 +8096,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -8159,10 +8116,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -8180,10 +8136,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -8199,10 +8154,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -8223,10 +8177,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -8247,10 +8200,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -8271,10 +8223,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -8295,10 +8246,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -8319,10 +8269,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -8340,10 +8289,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -8361,10 +8309,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -8382,10 +8329,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -8403,10 +8349,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -8424,10 +8369,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -8443,10 +8387,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -8467,10 +8410,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -8491,10 +8433,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -8515,10 +8456,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -8539,10 +8479,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -8563,10 +8502,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -8584,10 +8522,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -8605,10 +8542,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -8626,10 +8562,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -8647,10 +8582,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -8668,10 +8602,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -8687,10 +8620,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -8711,10 +8643,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -8735,10 +8666,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -8759,10 +8689,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -8783,10 +8712,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -8807,10 +8735,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -8828,10 +8755,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -8849,10 +8775,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -8870,10 +8795,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -8891,10 +8815,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -8912,10 +8835,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -8931,10 +8853,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -8955,10 +8876,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -8979,10 +8899,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -9003,10 +8922,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -9027,10 +8945,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -9051,10 +8968,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -9072,10 +8988,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -9093,10 +9008,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -9114,10 +9028,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -9135,10 +9048,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -9156,10 +9068,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -9175,10 +9086,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -9199,10 +9109,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -9223,10 +9132,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -9247,10 +9155,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -9271,10 +9178,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -9295,10 +9201,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -9316,10 +9221,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -9337,10 +9241,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -9358,10 +9261,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -9379,10 +9281,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -9400,10 +9301,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -9419,10 +9319,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -9443,10 +9342,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -9467,10 +9365,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -9491,10 +9388,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -9515,10 +9411,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -9539,10 +9434,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -9560,10 +9454,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -9581,10 +9474,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -9602,10 +9494,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -9623,10 +9514,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -9644,10 +9534,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -9663,10 +9552,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -9687,10 +9575,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -9711,10 +9598,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -9735,10 +9621,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -9759,10 +9644,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -9780,10 +9664,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "pre"
     },
@@ -9801,10 +9684,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -9822,10 +9704,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -9843,10 +9724,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "colorvalue-objects",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#colorvalue-objects",
-        "title": "CSSColorValue objects",
-        "number": "4.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },
@@ -9980,10 +9860,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "reify-numeric",
-        "href": "https://drafts.css-houdini.org/css-typed-om-1/#reify-numeric",
-        "title": "<number>, <percentage>, and <dimension> values",
-        "number": "5.6"
+        "id": "title",
+        "href": "https://drafts.css-houdini.org/css-typed-om-1/#title",
+        "title": "CSS Typed OM Level 1"
       },
       "definedIn": "prose"
     },

@@ -8,7 +8,7 @@
       "id": "title",
       "href": "https://drafts.csswg.org/css-ui-4/#title",
       "level": 1,
-      "title": "134 TestsCSS Basic User Interface Module Level 4"
+      "title": "CSS Basic User Interface Module Level 4"
     },
     {
       "id": "abstract",
@@ -155,18 +155,25 @@
       "number": "5.2.1"
     },
     {
+      "id": "caret-animation",
+      "href": "https://drafts.csswg.org/css-ui-4/#caret-animation",
+      "level": 4,
+      "title": "Animation of the insertion caret: caret-animation",
+      "number": "5.2.2"
+    },
+    {
       "id": "caret-shape",
       "href": "https://drafts.csswg.org/css-ui-4/#caret-shape",
       "level": 4,
       "title": "Shape of the insertion caret: caret-shape",
-      "number": "5.2.2"
+      "number": "5.2.3"
     },
     {
       "id": "caret",
       "href": "https://drafts.csswg.org/css-ui-4/#caret",
       "level": 4,
       "title": "Insertion caret shorthand: caret",
-      "number": "5.2.3"
+      "number": "5.2.4"
     },
     {
       "id": "keyboard",
@@ -225,6 +232,13 @@
       "number": "6.2"
     },
     {
+      "id": "inertness",
+      "href": "https://drafts.csswg.org/css-ui-4/#inertness",
+      "level": 3,
+      "title": "Preventing All Interaction: the interactivity property",
+      "number": "6.3"
+    },
+    {
       "id": "styling-widgets",
       "href": "https://drafts.csswg.org/css-ui-4/#styling-widgets",
       "level": 2,
@@ -267,37 +281,46 @@
       "number": "7.2.3"
     },
     {
+      "id": "field-sizing",
+      "href": "https://drafts.csswg.org/css-ui-4/#field-sizing",
+      "level": 3,
+      "title": "Switching form control sizing: the field-sizing property",
+      "number": "7.3"
+    },
+    {
       "id": "input-security",
       "href": "https://drafts.csswg.org/css-ui-4/#input-security",
       "level": 3,
       "title": "Obscuring sensitive input: the input-security property",
-      "number": "7.3"
+      "number": "7.4"
     },
     {
       "id": "control-specific-rules",
       "href": "https://drafts.csswg.org/css-ui-4/#control-specific-rules",
       "level": 3,
-      "title": "Control Specific Rules",
-      "number": "7.4"
+      "title": "Control-Specific Rules",
+      "number": "7.5"
     },
     {
       "id": "input-rules",
       "href": "https://drafts.csswg.org/css-ui-4/#input-rules",
       "level": 4,
       "title": "Single-Line Text Input Controls",
-      "number": "7.4.1"
+      "number": "7.5.1"
     },
     {
       "id": "acknowledgments",
       "href": "https://drafts.csswg.org/css-ui-4/#acknowledgments",
       "level": 2,
-      "title": "Appendix A. Acknowledgments"
+      "title": "Acknowledgments",
+      "number": "A"
     },
     {
       "id": "changes",
       "href": "https://drafts.csswg.org/css-ui-4/#changes",
       "level": 2,
-      "title": "Appendix B. Changes"
+      "title": "Changes",
+      "number": "B"
     },
     {
       "id": "changes-2021-03-16",
@@ -333,13 +356,15 @@
       "id": "security-privacy-considerations",
       "href": "https://drafts.csswg.org/css-ui-4/#security-privacy-considerations",
       "level": 2,
-      "title": "Appendix C. Considerations for Security and Privacy"
+      "title": "Considerations for Security and Privacy",
+      "number": "C"
     },
     {
       "id": "default-style-sheet",
       "href": "https://drafts.csswg.org/css-ui-4/#default-style-sheet",
       "level": 2,
-      "title": "Appendix D. Default style sheet additions for HTML"
+      "title": "Default style sheet additions for HTML",
+      "number": "D"
     },
     {
       "id": "w3c-conformance",

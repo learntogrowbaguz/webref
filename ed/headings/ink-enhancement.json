@@ -11,12 +11,6 @@
       "title": "Ink API"
     },
     {
-      "id": "profile-and-date",
-      "href": "https://wicg.github.io/ink-enhancement/#profile-and-date",
-      "level": 2,
-      "title": "Draft Community Group Report, 13 July 2021"
-    },
-    {
       "id": "abstract",
       "href": "https://wicg.github.io/ink-enhancement/#abstract",
       "level": 2,
@@ -80,7 +74,7 @@
       "id": "ink-presenter",
       "href": "https://wicg.github.io/ink-enhancement/#ink-presenter",
       "level": 3,
-      "title": "InkPresenter interface",
+      "title": "DelegatedInkTrailPresenter interface",
       "number": "3.4"
     },
     {
@@ -115,12 +109,6 @@
       "href": "https://wicg.github.io/ink-enhancement/#w3c-conventions",
       "level": 3,
       "title": "Document conventions"
-    },
-    {
-      "id": "w3c-conformant-algorithms",
-      "href": "https://wicg.github.io/ink-enhancement/#w3c-conformant-algorithms",
-      "level": 3,
-      "title": "Conformant Algorithms"
     },
     {
       "id": "index",

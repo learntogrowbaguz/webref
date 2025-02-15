@@ -6,6 +6,14 @@
   "refs": {
     "normative": [
       {
+        "name": "CSP",
+        "url": "https://w3c.github.io/webappsec-csp/"
+      },
+      {
+        "name": "CSS-CONTAIN-2",
+        "url": "https://drafts.csswg.org/css-contain-2/"
+      },
+      {
         "name": "DOM",
         "url": "https://dom.spec.whatwg.org/"
       },
@@ -16,6 +24,10 @@
       {
         "name": "FETCH",
         "url": "https://fetch.spec.whatwg.org/"
+      },
+      {
+        "name": "FETCH-METADATA",
+        "url": "https://w3c.github.io/webappsec-fetch-metadata/"
       },
       {
         "name": "HTML",
@@ -30,12 +42,24 @@
         "url": "https://mimesniff.spec.whatwg.org/"
       },
       {
+        "name": "MIXED-CONTENT",
+        "url": "https://w3c.github.io/webappsec-mixed-content/"
+      },
+      {
+        "name": "NO-VARY-SEARCH",
+        "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-no-vary-search"
+      },
+      {
         "name": "REFERRER-POLICY",
         "url": "https://w3c.github.io/webappsec-referrer-policy/"
       },
       {
         "name": "RFC8941",
-        "url": "https://www.rfc-editor.org/rfc/rfc8941"
+        "url": "https://httpwg.org/specs/rfc8941.html"
+      },
+      {
+        "name": "SECURE-CONTEXTS",
+        "url": "https://w3c.github.io/webappsec-secure-contexts/"
       },
       {
         "name": "SELECTORS-4",
@@ -47,18 +71,10 @@
       },
       {
         "name": "URLPATTERN",
-        "url": "https://wicg.github.io/urlpattern/"
-      },
-      {
-        "name": "WEBIDL",
-        "url": "https://webidl.spec.whatwg.org/"
+        "url": "https://urlpattern.spec.whatwg.org/"
       }
     ],
     "informative": [
-      {
-        "name": "CSP",
-        "url": "https://w3c.github.io/webappsec-csp/"
-      },
       {
         "name": "TLS",
         "url": "https://www.rfc-editor.org/rfc/rfc8446"

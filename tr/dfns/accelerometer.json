@@ -16,29 +16,10 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "model",
-        "href": "https://www.w3.org/TR/accelerometer/#model",
-        "title": "Model",
-        "number": "5"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "permissiondef-accelerometer",
-      "href": "https://www.w3.org/TR/accelerometer/#permissiondef-accelerometer",
-      "linkingText": [
-        "accelerometer"
-      ],
-      "localLinkingText": [],
-      "type": "permission",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "model",
-        "href": "https://www.w3.org/TR/accelerometer/#model",
-        "title": "Model",
-        "number": "5"
+        "id": "accelerometer-model",
+        "href": "https://www.w3.org/TR/accelerometer/#accelerometer-model",
+        "title": "Accelerometer",
+        "number": "6.1"
       },
       "definedIn": "prose"
     },
@@ -54,10 +35,29 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "model",
-        "href": "https://www.w3.org/TR/accelerometer/#model",
-        "title": "Model",
-        "number": "5"
+        "id": "accelerometer-model",
+        "href": "https://www.w3.org/TR/accelerometer/#accelerometer-model",
+        "title": "Accelerometer",
+        "number": "6.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "linear-acceleration-sensor-sensor-type",
+      "href": "https://www.w3.org/TR/accelerometer/#linear-acceleration-sensor-sensor-type",
+      "linkingText": [
+        "Linear Acceleration Sensor"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "linear-acceleration-sensor-model",
+        "href": "https://www.w3.org/TR/accelerometer/#linear-acceleration-sensor-model",
+        "title": "Linear Acceleration Sensor",
+        "number": "6.2"
       },
       "definedIn": "prose"
     },
@@ -73,10 +73,48 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "model",
-        "href": "https://www.w3.org/TR/accelerometer/#model",
-        "title": "Model",
-        "number": "5"
+        "id": "linear-acceleration-sensor-model",
+        "href": "https://www.w3.org/TR/accelerometer/#linear-acceleration-sensor-model",
+        "title": "Linear Acceleration Sensor",
+        "number": "6.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "gravity-sensor-sensor-type",
+      "href": "https://www.w3.org/TR/accelerometer/#gravity-sensor-sensor-type",
+      "linkingText": [
+        "Gravity Sensor"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "gravity-sensor-model",
+        "href": "https://www.w3.org/TR/accelerometer/#gravity-sensor-model",
+        "title": "Gravity Sensor",
+        "number": "6.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "gravity-virtual-sensor-type",
+      "href": "https://www.w3.org/TR/accelerometer/#gravity-virtual-sensor-type",
+      "linkingText": [
+        "gravity virtual sensor type"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "gravity-sensor-model",
+        "href": "https://www.w3.org/TR/accelerometer/#gravity-sensor-model",
+        "title": "Gravity Sensor",
+        "number": "6.3"
       },
       "definedIn": "prose"
     },
@@ -92,10 +130,10 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "model",
-        "href": "https://www.w3.org/TR/accelerometer/#model",
-        "title": "Model",
-        "number": "5"
+        "id": "gravity-sensor-model",
+        "href": "https://www.w3.org/TR/accelerometer/#gravity-sensor-model",
+        "title": "Gravity Sensor",
+        "number": "6.3"
       },
       "definedIn": "prose"
     },
@@ -114,7 +152,7 @@
         "id": "reference-frame",
         "href": "https://www.w3.org/TR/accelerometer/#reference-frame",
         "title": "Reference Frame",
-        "number": "5.1"
+        "number": "6.4"
       },
       "definedIn": "prose"
     },
@@ -133,7 +171,7 @@
         "id": "reference-frame",
         "href": "https://www.w3.org/TR/accelerometer/#reference-frame",
         "title": "Reference Frame",
-        "number": "5.1"
+        "number": "6.4"
       },
       "definedIn": "prose"
     },
@@ -152,31 +190,7 @@
         "id": "accelerometer-interface",
         "href": "https://www.w3.org/TR/accelerometer/#accelerometer-interface",
         "title": "The Accelerometer Interface",
-        "number": "6.1"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-accelerometer-accelerometer",
-      "href": "https://www.w3.org/TR/accelerometer/#dom-accelerometer-accelerometer",
-      "linkingText": [
-        "Accelerometer(options)",
-        "constructor(options)",
-        "Accelerometer()",
-        "constructor()"
-      ],
-      "localLinkingText": [],
-      "type": "constructor",
-      "for": [
-        "Accelerometer"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "accelerometer-interface",
-        "href": "https://www.w3.org/TR/accelerometer/#accelerometer-interface",
-        "title": "The Accelerometer Interface",
-        "number": "6.1"
+        "number": "7.1"
       },
       "definedIn": "pre"
     },
@@ -200,7 +214,7 @@
         "id": "accelerometer-interface",
         "href": "https://www.w3.org/TR/accelerometer/#accelerometer-interface",
         "title": "The Accelerometer Interface",
-        "number": "6.1"
+        "number": "7.1"
       },
       "definedIn": "pre"
     },
@@ -221,7 +235,7 @@
         "id": "accelerometer-interface",
         "href": "https://www.w3.org/TR/accelerometer/#accelerometer-interface",
         "title": "The Accelerometer Interface",
-        "number": "6.1"
+        "number": "7.1"
       },
       "definedIn": "pre"
     },
@@ -242,7 +256,7 @@
         "id": "accelerometer-interface",
         "href": "https://www.w3.org/TR/accelerometer/#accelerometer-interface",
         "title": "The Accelerometer Interface",
-        "number": "6.1"
+        "number": "7.1"
       },
       "definedIn": "pre"
     },
@@ -263,7 +277,7 @@
         "id": "accelerometer-interface",
         "href": "https://www.w3.org/TR/accelerometer/#accelerometer-interface",
         "title": "The Accelerometer Interface",
-        "number": "6.1"
+        "number": "7.1"
       },
       "definedIn": "pre"
     },
@@ -282,7 +296,7 @@
         "id": "accelerometer-interface",
         "href": "https://www.w3.org/TR/accelerometer/#accelerometer-interface",
         "title": "The Accelerometer Interface",
-        "number": "6.1"
+        "number": "7.1"
       },
       "definedIn": "pre"
     },
@@ -303,7 +317,7 @@
         "id": "accelerometer-interface",
         "href": "https://www.w3.org/TR/accelerometer/#accelerometer-interface",
         "title": "The Accelerometer Interface",
-        "number": "6.1"
+        "number": "7.1"
       },
       "definedIn": "pre"
     },
@@ -324,7 +338,7 @@
         "id": "accelerometer-interface",
         "href": "https://www.w3.org/TR/accelerometer/#accelerometer-interface",
         "title": "The Accelerometer Interface",
-        "number": "6.1"
+        "number": "7.1"
       },
       "definedIn": "pre"
     },
@@ -343,7 +357,7 @@
         "id": "accelerometer-interface",
         "href": "https://www.w3.org/TR/accelerometer/#accelerometer-interface",
         "title": "The Accelerometer Interface",
-        "number": "6.1"
+        "number": "7.1"
       },
       "definedIn": "pre"
     },
@@ -364,9 +378,33 @@
         "id": "accelerometer-interface",
         "href": "https://www.w3.org/TR/accelerometer/#accelerometer-interface",
         "title": "The Accelerometer Interface",
-        "number": "6.1"
+        "number": "7.1"
       },
       "definedIn": "pre"
+    },
+    {
+      "id": "dom-accelerometer-accelerometer",
+      "href": "https://www.w3.org/TR/accelerometer/#dom-accelerometer-accelerometer",
+      "linkingText": [
+        "Accelerometer(options)",
+        "constructor(options)",
+        "Accelerometer()",
+        "constructor()"
+      ],
+      "localLinkingText": [],
+      "type": "constructor",
+      "for": [
+        "Accelerometer"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "accelerometer-interface",
+        "href": "https://www.w3.org/TR/accelerometer/#accelerometer-interface",
+        "title": "The Accelerometer Interface",
+        "number": "7.1"
+      },
+      "definedIn": "prose"
     },
     {
       "id": "linearaccelerationsensor",
@@ -383,31 +421,7 @@
         "id": "linearaccelerationsensor-interface",
         "href": "https://www.w3.org/TR/accelerometer/#linearaccelerationsensor-interface",
         "title": "The LinearAccelerationSensor Interface",
-        "number": "6.2"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-linearaccelerationsensor-linearaccelerationsensor",
-      "href": "https://www.w3.org/TR/accelerometer/#dom-linearaccelerationsensor-linearaccelerationsensor",
-      "linkingText": [
-        "LinearAccelerationSensor(options)",
-        "constructor(options)",
-        "LinearAccelerationSensor()",
-        "constructor()"
-      ],
-      "localLinkingText": [],
-      "type": "constructor",
-      "for": [
-        "LinearAccelerationSensor"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "linearaccelerationsensor-interface",
-        "href": "https://www.w3.org/TR/accelerometer/#linearaccelerationsensor-interface",
-        "title": "The LinearAccelerationSensor Interface",
-        "number": "6.2"
+        "number": "7.2"
       },
       "definedIn": "pre"
     },
@@ -431,9 +445,33 @@
         "id": "linearaccelerationsensor-interface",
         "href": "https://www.w3.org/TR/accelerometer/#linearaccelerationsensor-interface",
         "title": "The LinearAccelerationSensor Interface",
-        "number": "6.2"
+        "number": "7.2"
       },
       "definedIn": "pre"
+    },
+    {
+      "id": "dom-linearaccelerationsensor-linearaccelerationsensor",
+      "href": "https://www.w3.org/TR/accelerometer/#dom-linearaccelerationsensor-linearaccelerationsensor",
+      "linkingText": [
+        "LinearAccelerationSensor(options)",
+        "constructor(options)",
+        "LinearAccelerationSensor()",
+        "constructor()"
+      ],
+      "localLinkingText": [],
+      "type": "constructor",
+      "for": [
+        "LinearAccelerationSensor"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "linearaccelerationsensor-interface",
+        "href": "https://www.w3.org/TR/accelerometer/#linearaccelerationsensor-interface",
+        "title": "The LinearAccelerationSensor Interface",
+        "number": "7.2"
+      },
+      "definedIn": "prose"
     },
     {
       "id": "gravitysensor",
@@ -450,31 +488,7 @@
         "id": "gravitysensor-interface",
         "href": "https://www.w3.org/TR/accelerometer/#gravitysensor-interface",
         "title": "The GravitySensor Interface",
-        "number": "6.3"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-gravitysensor-gravitysensor",
-      "href": "https://www.w3.org/TR/accelerometer/#dom-gravitysensor-gravitysensor",
-      "linkingText": [
-        "GravitySensor(options)",
-        "constructor(options)",
-        "GravitySensor()",
-        "constructor()"
-      ],
-      "localLinkingText": [],
-      "type": "constructor",
-      "for": [
-        "GravitySensor"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "gravitysensor-interface",
-        "href": "https://www.w3.org/TR/accelerometer/#gravitysensor-interface",
-        "title": "The GravitySensor Interface",
-        "number": "6.3"
+        "number": "7.3"
       },
       "definedIn": "pre"
     },
@@ -498,9 +512,33 @@
         "id": "gravitysensor-interface",
         "href": "https://www.w3.org/TR/accelerometer/#gravitysensor-interface",
         "title": "The GravitySensor Interface",
-        "number": "6.3"
+        "number": "7.3"
       },
       "definedIn": "pre"
+    },
+    {
+      "id": "dom-gravitysensor-gravitysensor",
+      "href": "https://www.w3.org/TR/accelerometer/#dom-gravitysensor-gravitysensor",
+      "linkingText": [
+        "GravitySensor(options)",
+        "constructor(options)",
+        "GravitySensor()",
+        "constructor()"
+      ],
+      "localLinkingText": [],
+      "type": "constructor",
+      "for": [
+        "GravitySensor"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "gravitysensor-interface",
+        "href": "https://www.w3.org/TR/accelerometer/#gravitysensor-interface",
+        "title": "The GravitySensor Interface",
+        "number": "7.3"
+      },
+      "definedIn": "prose"
     },
     {
       "id": "construct-an-accelerometer-object",
@@ -517,129 +555,28 @@
         "id": "construct-an-accelerometer-object",
         "href": "https://www.w3.org/TR/accelerometer/#construct-an-accelerometer-object",
         "title": "Construct an accelerometer object",
-        "number": "7.1"
+        "number": "8.1"
       },
       "definedIn": "heading"
     },
     {
-      "id": "dictdef-accelerometerreadingvalues",
-      "href": "https://www.w3.org/TR/accelerometer/#dictdef-accelerometerreadingvalues",
+      "id": "accelerometer-reading-quantization-algorithm",
+      "href": "https://www.w3.org/TR/accelerometer/#accelerometer-reading-quantization-algorithm",
       "linkingText": [
-        "AccelerometerReadingValues"
+        "Accelerometer reading quantization algorithm"
       ],
       "localLinkingText": [],
-      "type": "dictionary",
+      "type": "dfn",
       "for": [],
-      "access": "public",
+      "access": "private",
       "informative": false,
       "heading": {
-        "id": "mock-accelerometer-type",
-        "href": "https://www.w3.org/TR/accelerometer/#mock-accelerometer-type",
-        "title": "Mock Sensor Type",
-        "number": "8.1"
+        "id": "accelerometer-reading-quantization-algorithm",
+        "href": "https://www.w3.org/TR/accelerometer/#accelerometer-reading-quantization-algorithm",
+        "title": "Accelerometer reading quantization algorithm",
+        "number": "8.2"
       },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-accelerometerreadingvalues-x",
-      "href": "https://www.w3.org/TR/accelerometer/#dom-accelerometerreadingvalues-x",
-      "linkingText": [
-        "x"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "AccelerometerReadingValues"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "mock-accelerometer-type",
-        "href": "https://www.w3.org/TR/accelerometer/#mock-accelerometer-type",
-        "title": "Mock Sensor Type",
-        "number": "8.1"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-accelerometerreadingvalues-y",
-      "href": "https://www.w3.org/TR/accelerometer/#dom-accelerometerreadingvalues-y",
-      "linkingText": [
-        "y"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "AccelerometerReadingValues"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "mock-accelerometer-type",
-        "href": "https://www.w3.org/TR/accelerometer/#mock-accelerometer-type",
-        "title": "Mock Sensor Type",
-        "number": "8.1"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-accelerometerreadingvalues-z",
-      "href": "https://www.w3.org/TR/accelerometer/#dom-accelerometerreadingvalues-z",
-      "linkingText": [
-        "z"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "AccelerometerReadingValues"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "mock-accelerometer-type",
-        "href": "https://www.w3.org/TR/accelerometer/#mock-accelerometer-type",
-        "title": "Mock Sensor Type",
-        "number": "8.1"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dictdef-linearaccelerationreadingvalues",
-      "href": "https://www.w3.org/TR/accelerometer/#dictdef-linearaccelerationreadingvalues",
-      "linkingText": [
-        "LinearAccelerationReadingValues"
-      ],
-      "localLinkingText": [],
-      "type": "dictionary",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "mock-accelerometer-type",
-        "href": "https://www.w3.org/TR/accelerometer/#mock-accelerometer-type",
-        "title": "Mock Sensor Type",
-        "number": "8.1"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dictdef-gravityreadingvalues",
-      "href": "https://www.w3.org/TR/accelerometer/#dictdef-gravityreadingvalues",
-      "linkingText": [
-        "GravityReadingValues"
-      ],
-      "localLinkingText": [],
-      "type": "dictionary",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "mock-accelerometer-type",
-        "href": "https://www.w3.org/TR/accelerometer/#mock-accelerometer-type",
-        "title": "Mock Sensor Type",
-        "number": "8.1"
-      },
-      "definedIn": "pre"
+      "definedIn": "heading"
     }
   ]
 }

@@ -300,25 +300,6 @@
       "definedIn": "prose"
     },
     {
-      "id": "abstract-opdef-parse-a-serialized-csp-list",
-      "href": "https://www.w3.org/TR/CSP3/#abstract-opdef-parse-a-serialized-csp-list",
-      "linkingText": [
-        "parse a serialized CSP list"
-      ],
-      "localLinkingText": [],
-      "type": "abstract-op",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "parse-serialized-policy-list",
-        "href": "https://www.w3.org/TR/CSP3/#parse-serialized-policy-list",
-        "title": "Parse a serialized CSP list",
-        "number": "2.2.2"
-      },
-      "definedIn": "prose"
-    },
-    {
       "id": "parse-response-csp",
       "href": "https://www.w3.org/TR/CSP3/#parse-response-csp",
       "linkingText": [
@@ -333,7 +314,7 @@
         "id": "parse-response-csp",
         "href": "https://www.w3.org/TR/CSP3/#parse-response-csp",
         "title": "Parse response’s Content Security Policies",
-        "number": "2.2.3"
+        "number": "2.2.2"
       },
       "definedIn": "heading"
     },
@@ -352,7 +333,7 @@
         "id": "parse-response-csp",
         "href": "https://www.w3.org/TR/CSP3/#parse-response-csp",
         "title": "Parse response’s Content Security Policies",
-        "number": "2.2.3"
+        "number": "2.2.2"
       },
       "definedIn": "prose"
     },
@@ -1059,6 +1040,82 @@
       "definedIn": "pre"
     },
     {
+      "id": "grammardef-trusted-types-eval",
+      "href": "https://www.w3.org/TR/CSP3/#grammardef-trusted-types-eval",
+      "linkingText": [
+        "'trusted-types-eval'"
+      ],
+      "localLinkingText": [],
+      "type": "grammar",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "framework-directive-source-list",
+        "href": "https://www.w3.org/TR/CSP3/#framework-directive-source-list",
+        "title": "Source Lists",
+        "number": "2.3.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "grammardef-report-sha256",
+      "href": "https://www.w3.org/TR/CSP3/#grammardef-report-sha256",
+      "linkingText": [
+        "'report-sha256'"
+      ],
+      "localLinkingText": [],
+      "type": "grammar",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "framework-directive-source-list",
+        "href": "https://www.w3.org/TR/CSP3/#framework-directive-source-list",
+        "title": "Source Lists",
+        "number": "2.3.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "grammardef-report-sha384",
+      "href": "https://www.w3.org/TR/CSP3/#grammardef-report-sha384",
+      "linkingText": [
+        "'report-sha384'"
+      ],
+      "localLinkingText": [],
+      "type": "grammar",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "framework-directive-source-list",
+        "href": "https://www.w3.org/TR/CSP3/#framework-directive-source-list",
+        "title": "Source Lists",
+        "number": "2.3.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "grammardef-report-sha512",
+      "href": "https://www.w3.org/TR/CSP3/#grammardef-report-sha512",
+      "linkingText": [
+        "'report-sha512'"
+      ],
+      "localLinkingText": [],
+      "type": "grammar",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "framework-directive-source-list",
+        "href": "https://www.w3.org/TR/CSP3/#framework-directive-source-list",
+        "title": "Source Lists",
+        "number": "2.3.1"
+      },
+      "definedIn": "pre"
+    },
+    {
       "id": "grammardef-nonce-source",
       "href": "https://www.w3.org/TR/CSP3/#grammardef-nonce-source",
       "linkingText": [
@@ -1522,6 +1579,25 @@
       "definedIn": "heading"
     },
     {
+      "id": "potentially-report-hash",
+      "href": "https://www.w3.org/TR/CSP3/#potentially-report-hash",
+      "linkingText": [
+        "Potentially report hash"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "potentially-report-hash",
+        "href": "https://www.w3.org/TR/CSP3/#potentially-report-hash",
+        "title": "Potentially report hash",
+        "number": "4.1.4"
+      },
+      "definedIn": "heading"
+    },
+    {
       "id": "global-object-csp-list",
       "href": "https://www.w3.org/TR/CSP3/#global-object-csp-list",
       "linkingText": [
@@ -1660,7 +1736,7 @@
       "id": "run-global-object-csp-initialization",
       "href": "https://www.w3.org/TR/CSP3/#run-global-object-csp-initialization",
       "linkingText": [
-        "Run CSP initialization for a global object."
+        "Run CSP initialization for a global object"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1670,7 +1746,7 @@
       "heading": {
         "id": "run-global-object-csp-initialization",
         "href": "https://www.w3.org/TR/CSP3/#run-global-object-csp-initialization",
-        "title": "Run CSP initialization for a global object.",
+        "title": "Run CSP initialization for a global object",
         "number": "4.2.6"
       },
       "definedIn": "heading"
@@ -1679,7 +1755,7 @@
       "id": "can-compile-strings",
       "href": "https://www.w3.org/TR/CSP3/#can-compile-strings",
       "linkingText": [
-        "EnsureCSPDoesNotBlockStringCompilation(realm, source)"
+        "EnsureCSPDoesNotBlockStringCompilation(realm, parameterStrings, bodyString, codeString, compilationType, parameterArgs, bodyArg)"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1689,7 +1765,7 @@
       "heading": {
         "id": "can-compile-strings",
         "href": "https://www.w3.org/TR/CSP3/#can-compile-strings",
-        "title": "EnsureCSPDoesNotBlockStringCompilation(realm, source)",
+        "title": "EnsureCSPDoesNotBlockStringCompilation(realm, parameterStrings, bodyString, codeString, compilationType, parameterArgs, bodyArg)",
         "number": "4.4.1"
       },
       "definedIn": "heading"
@@ -1698,7 +1774,7 @@
       "id": "can-compile-wasm-bytes",
       "href": "https://www.w3.org/TR/CSP3/#can-compile-wasm-bytes",
       "linkingText": [
-        "EnsureCSPDoesNotBlockWasmByteCompilation(realm)"
+        "EnsureCSPDoesNotBlockWasmByteCompilationrealm"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1708,7 +1784,7 @@
       "heading": {
         "id": "can-compile-wasm-bytes",
         "href": "https://www.w3.org/TR/CSP3/#can-compile-wasm-bytes",
-        "title": "EnsureCSPDoesNotBlockWasmByteCompilation(realm)",
+        "title": "EnsureCSPDoesNotBlockWasmByteCompilationrealm",
         "number": "4.5.1"
       },
       "definedIn": "heading"
@@ -2002,6 +2078,149 @@
         "number": "5"
       },
       "definedIn": "pre"
+    },
+    {
+      "id": "csp-hash-report",
+      "href": "https://www.w3.org/TR/CSP3/#csp-hash-report",
+      "linkingText": [
+        "csp hash report"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "reporting",
+        "href": "https://www.w3.org/TR/CSP3/#reporting",
+        "title": "Reporting",
+        "number": "5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "csp-hash-report-body",
+      "href": "https://www.w3.org/TR/CSP3/#csp-hash-report-body",
+      "linkingText": [
+        "csp hash report body"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "reporting",
+        "href": "https://www.w3.org/TR/CSP3/#reporting",
+        "title": "Reporting",
+        "number": "5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "csp-hash-report-body-documenturl",
+      "href": "https://www.w3.org/TR/CSP3/#csp-hash-report-body-documenturl",
+      "linkingText": [
+        "documentURL"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "csp hash report body"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "reporting",
+        "href": "https://www.w3.org/TR/CSP3/#reporting",
+        "title": "Reporting",
+        "number": "5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "csp-hash-report-body-subresourceurl",
+      "href": "https://www.w3.org/TR/CSP3/#csp-hash-report-body-subresourceurl",
+      "linkingText": [
+        "subresourceURL"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "csp hash report body"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "reporting",
+        "href": "https://www.w3.org/TR/CSP3/#reporting",
+        "title": "Reporting",
+        "number": "5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "csp-hash-report-body-hash",
+      "href": "https://www.w3.org/TR/CSP3/#csp-hash-report-body-hash",
+      "linkingText": [
+        "hash"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "csp hash report body"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "reporting",
+        "href": "https://www.w3.org/TR/CSP3/#reporting",
+        "title": "Reporting",
+        "number": "5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "csp-hash-report-body-destination",
+      "href": "https://www.w3.org/TR/CSP3/#csp-hash-report-body-destination",
+      "linkingText": [
+        "destination"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "csp hash report body"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "reporting",
+        "href": "https://www.w3.org/TR/CSP3/#reporting",
+        "title": "Reporting",
+        "number": "5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "csp-hash-report-body-type",
+      "href": "https://www.w3.org/TR/CSP3/#csp-hash-report-body-type",
+      "linkingText": [
+        "type"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "csp hash report body"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "reporting",
+        "href": "https://www.w3.org/TR/CSP3/#reporting",
+        "title": "Reporting",
+        "number": "5"
+      },
+      "definedIn": "prose"
     },
     {
       "id": "enumdef-securitypolicyviolationeventdisposition",
@@ -3252,6 +3471,25 @@
       "definedIn": "prose"
     },
     {
+      "id": "match-url-to-source-expression",
+      "href": "https://www.w3.org/TR/CSP3/#match-url-to-source-expression",
+      "linkingText": [
+        "Does url match expression in origin with redirect count?"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "match-url-to-source-expression",
+        "href": "https://www.w3.org/TR/CSP3/#match-url-to-source-expression",
+        "title": "Does url match expression in origin with redirect count?",
+        "number": "6.7.2.8"
+      },
+      "definedIn": "heading"
+    },
+    {
       "id": "scheme-part-match",
       "href": "https://www.w3.org/TR/CSP3/#scheme-part-match",
       "linkingText": [
@@ -3266,7 +3504,7 @@
         "id": "match-schemes",
         "href": "https://www.w3.org/TR/CSP3/#match-schemes",
         "title": "scheme-part matching",
-        "number": "6.7.2.8"
+        "number": "6.7.2.9"
       },
       "definedIn": "prose"
     },
@@ -3285,7 +3523,7 @@
         "id": "match-hosts",
         "href": "https://www.w3.org/TR/CSP3/#match-hosts",
         "title": "host-part matching",
-        "number": "6.7.2.9"
+        "number": "6.7.2.10"
       },
       "definedIn": "prose"
     },
@@ -3304,7 +3542,7 @@
         "id": "match-ports",
         "href": "https://www.w3.org/TR/CSP3/#match-ports",
         "title": "port-part matching",
-        "number": "6.7.2.10"
+        "number": "6.7.2.11"
       },
       "definedIn": "prose"
     },
@@ -3323,7 +3561,7 @@
         "id": "match-paths",
         "href": "https://www.w3.org/TR/CSP3/#match-paths",
         "title": "path-part matching",
-        "number": "6.7.2.11"
+        "number": "6.7.2.12"
       },
       "definedIn": "prose"
     },

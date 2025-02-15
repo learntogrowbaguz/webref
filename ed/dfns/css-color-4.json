@@ -62,6 +62,25 @@
       "definedIn": "prose"
     },
     {
+      "id": "luminance",
+      "href": "https://drafts.csswg.org/css-color-4/#luminance",
+      "linkingText": [
+        "luminance"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://drafts.csswg.org/css-color-4/#terminology",
+        "title": "Color Terminology",
+        "number": "2"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "chromaticity",
       "href": "https://drafts.csswg.org/css-color-4/#chromaticity",
       "linkingText": [
@@ -100,14 +119,12 @@
       "definedIn": "prose"
     },
     {
-      "id": "d50-whitepoint",
-      "href": "https://drafts.csswg.org/css-color-4/#d50-whitepoint",
+      "id": "d50",
+      "href": "https://drafts.csswg.org/css-color-4/#d50",
       "linkingText": [
-        "D50 whitepoint"
-      ],
-      "localLinkingText": [
         "D50"
       ],
+      "localLinkingText": [],
       "type": "dfn",
       "for": [],
       "access": "public",
@@ -121,14 +138,12 @@
       "definedIn": "table"
     },
     {
-      "id": "d65-whitepoint",
-      "href": "https://drafts.csswg.org/css-color-4/#d65-whitepoint",
+      "id": "d65",
+      "href": "https://drafts.csswg.org/css-color-4/#d65",
       "linkingText": [
-        "D65 whitepoint"
-      ],
-      "localLinkingText": [
         "D65"
       ],
+      "localLinkingText": [],
       "type": "dfn",
       "for": [],
       "access": "public",
@@ -311,6 +326,27 @@
         "number": "3.3"
       },
       "definedIn": "table"
+    },
+    {
+      "id": "typedef-opacity-opacity-value",
+      "href": "https://drafts.csswg.org/css-color-4/#typedef-opacity-opacity-value",
+      "linkingText": [
+        "<opacity-value>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [
+        "opacity"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "transparency",
+        "href": "https://drafts.csswg.org/css-color-4/#transparency",
+        "title": "Transparency: the opacity property",
+        "number": "3.3"
+      },
+      "definedIn": "dt"
     },
     {
       "id": "tagged-image",
@@ -504,10 +540,10 @@
       "definedIn": "prose"
     },
     {
-      "id": "typedef-absolute-color-base",
-      "href": "https://drafts.csswg.org/css-color-4/#typedef-absolute-color-base",
+      "id": "typedef-color-base",
+      "href": "https://drafts.csswg.org/css-color-4/#typedef-color-base",
       "linkingText": [
-        "<absolute-color-base>"
+        "<color-base>"
       ],
       "localLinkingText": [],
       "type": "type",
@@ -523,10 +559,10 @@
       "definedIn": "pre"
     },
     {
-      "id": "typedef-absolute-color-function",
-      "href": "https://drafts.csswg.org/css-color-4/#typedef-absolute-color-function",
+      "id": "typedef-color-function",
+      "href": "https://drafts.csswg.org/css-color-4/#typedef-color-function",
       "linkingText": [
-        "<absolute-color-function>"
+        "<color-function>"
       ],
       "localLinkingText": [],
       "type": "type",
@@ -540,6 +576,44 @@
         "number": "4.1"
       },
       "definedIn": "pre"
+    },
+    {
+      "id": "absolute-color",
+      "href": "https://drafts.csswg.org/css-color-4/#absolute-color",
+      "linkingText": [
+        "absolute color"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "color-syntax",
+        "href": "https://drafts.csswg.org/css-color-4/#color-syntax",
+        "title": "The <color> syntax",
+        "number": "4.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "modern-color-syntax",
+      "href": "https://drafts.csswg.org/css-color-4/#modern-color-syntax",
+      "linkingText": [
+        "modern color syntax"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "color-syntax-modern",
+        "href": "https://drafts.csswg.org/css-color-4/#color-syntax-modern",
+        "title": "Modern (Space-separated) Color Function Syntax",
+        "number": "4.1.1"
+      },
+      "definedIn": "prose"
     },
     {
       "id": "legacy-color-syntax",
@@ -555,26 +629,28 @@
       "heading": {
         "id": "color-syntax-legacy",
         "href": "https://drafts.csswg.org/css-color-4/#color-syntax-legacy",
-        "title": "Legacy Comma-separated Color Function Syntax",
-        "number": "4.1.1"
+        "title": "Legacy (Comma-separated) Color Function Syntax",
+        "number": "4.1.2"
       },
       "definedIn": "prose"
     },
     {
-      "id": "typedef-alpha-value",
-      "href": "https://drafts.csswg.org/css-color-4/#typedef-alpha-value",
+      "id": "typedef-color-alpha-value",
+      "href": "https://drafts.csswg.org/css-color-4/#typedef-color-alpha-value",
       "linkingText": [
         "<alpha-value>"
       ],
       "localLinkingText": [],
       "type": "type",
-      "for": [],
+      "for": [
+        "<color>"
+      ],
       "access": "public",
       "informative": false,
       "heading": {
         "id": "alpha-syntax",
         "href": "https://drafts.csswg.org/css-color-4/#alpha-syntax",
-        "title": "Representing Transparency: the <alpha-value> syntax",
+        "title": "Representing Transparency in Colors: the <alpha-value> syntax",
         "number": "4.2"
       },
       "definedIn": "pre"
@@ -664,6 +740,25 @@
       "definedIn": "prose"
     },
     {
+      "id": "parse-a-css-color-value",
+      "href": "https://drafts.csswg.org/css-color-4/#parse-a-css-color-value",
+      "linkingText": [
+        "parse a CSS <color> value"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "parse-color",
+        "href": "https://drafts.csswg.org/css-color-4/#parse-color",
+        "title": "Parsing a <color> Value",
+        "number": "4.5"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "funcdef-rgb",
       "href": "https://drafts.csswg.org/css-color-4/#funcdef-rgb",
       "linkingText": [
@@ -699,7 +794,83 @@
         "title": "The RGB functions: rgb() and rgba()",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "pre"
+    },
+    {
+      "id": "typedef-legacy-rgb-syntax",
+      "href": "https://drafts.csswg.org/css-color-4/#typedef-legacy-rgb-syntax",
+      "linkingText": [
+        "<legacy-rgb-syntax>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "rgb-functions",
+        "href": "https://drafts.csswg.org/css-color-4/#rgb-functions",
+        "title": "The RGB functions: rgb() and rgba()",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "typedef-legacy-rgba-syntax",
+      "href": "https://drafts.csswg.org/css-color-4/#typedef-legacy-rgba-syntax",
+      "linkingText": [
+        "<legacy-rgba-syntax>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "rgb-functions",
+        "href": "https://drafts.csswg.org/css-color-4/#rgb-functions",
+        "title": "The RGB functions: rgb() and rgba()",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "typedef-modern-rgb-syntax",
+      "href": "https://drafts.csswg.org/css-color-4/#typedef-modern-rgb-syntax",
+      "linkingText": [
+        "<modern-rgb-syntax>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "rgb-functions",
+        "href": "https://drafts.csswg.org/css-color-4/#rgb-functions",
+        "title": "The RGB functions: rgb() and rgba()",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "typedef-modern-rgba-syntax",
+      "href": "https://drafts.csswg.org/css-color-4/#typedef-modern-rgba-syntax",
+      "linkingText": [
+        "<modern-rgba-syntax>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "rgb-functions",
+        "href": "https://drafts.csswg.org/css-color-4/#rgb-functions",
+        "title": "The RGB functions: rgb() and rgba()",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
     },
     {
       "id": "hex-color",
@@ -787,7 +958,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -808,7 +980,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -829,7 +1002,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -850,7 +1024,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -871,7 +1046,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -892,7 +1068,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -913,7 +1090,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -934,7 +1112,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -955,7 +1134,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -976,7 +1156,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -997,7 +1178,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1018,7 +1200,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1039,7 +1222,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1060,7 +1244,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1081,7 +1266,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1102,7 +1288,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1123,7 +1310,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1144,7 +1332,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1165,7 +1354,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1186,7 +1376,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1207,7 +1398,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1228,7 +1420,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1249,7 +1442,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1270,7 +1464,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1291,7 +1486,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1312,7 +1508,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1333,7 +1530,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1354,7 +1552,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1375,7 +1574,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1396,7 +1596,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1417,7 +1618,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1438,7 +1640,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1459,7 +1662,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1480,7 +1684,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1501,7 +1706,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1522,7 +1728,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1543,7 +1750,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1564,7 +1772,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1585,7 +1794,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1606,7 +1816,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1627,7 +1838,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1648,7 +1860,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1669,7 +1882,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1690,7 +1904,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1711,7 +1926,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1732,7 +1948,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1753,7 +1970,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1774,7 +1992,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1795,7 +2014,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1816,7 +2036,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1837,7 +2058,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1858,7 +2080,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1879,7 +2102,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1900,7 +2124,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1921,7 +2146,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1942,7 +2168,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1963,7 +2190,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -1984,7 +2212,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2005,7 +2234,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2026,7 +2256,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2047,7 +2278,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2068,7 +2300,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2089,7 +2322,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2110,7 +2344,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2131,7 +2366,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2152,7 +2388,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2173,7 +2410,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2194,7 +2432,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2215,7 +2454,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2236,7 +2476,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2257,7 +2498,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2278,7 +2520,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2299,7 +2542,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2320,7 +2564,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2341,7 +2586,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2362,7 +2608,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2383,7 +2630,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2404,7 +2652,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2425,7 +2674,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2446,7 +2696,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2467,7 +2718,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2488,7 +2740,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2509,7 +2762,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2530,7 +2784,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2551,7 +2806,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2572,7 +2828,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2593,7 +2850,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2614,7 +2872,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2635,7 +2894,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2656,7 +2916,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2677,7 +2938,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2698,7 +2960,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2719,7 +2982,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2740,7 +3004,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2761,7 +3026,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2782,7 +3048,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2803,7 +3070,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2824,7 +3092,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2845,7 +3114,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2866,7 +3136,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2887,7 +3158,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2908,7 +3180,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2929,7 +3202,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2950,7 +3224,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2971,7 +3246,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -2992,7 +3268,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3013,7 +3290,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3034,7 +3312,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3055,7 +3334,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3076,7 +3356,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3097,7 +3378,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3118,7 +3400,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3139,7 +3422,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3160,7 +3444,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3181,7 +3466,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3202,7 +3488,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3223,7 +3510,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3244,7 +3532,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3265,7 +3554,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3286,7 +3576,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3307,7 +3598,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3328,7 +3620,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3349,7 +3642,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3370,7 +3664,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3391,7 +3686,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3412,7 +3708,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3433,7 +3730,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3454,7 +3752,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3475,7 +3774,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3496,7 +3796,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3517,7 +3818,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3538,7 +3840,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3559,7 +3862,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3580,7 +3884,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3601,7 +3906,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3622,7 +3928,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3643,7 +3950,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3664,7 +3972,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3685,7 +3994,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3706,7 +4016,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3727,7 +4038,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3748,7 +4060,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3769,7 +4082,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3790,7 +4104,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3811,7 +4126,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3832,7 +4148,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3853,7 +4170,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3874,7 +4192,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<color>"
+        "<color>",
+        "<named-color>"
       ],
       "access": "public",
       "informative": false,
@@ -3925,371 +4244,15 @@
       "definedIn": "prose"
     },
     {
-      "id": "valdef-system-color-canvas",
-      "href": "https://drafts.csswg.org/css-color-4/#valdef-system-color-canvas",
-      "linkingText": [
-        "Canvas"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "<system-color>"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "css-system-colors",
-        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
-        "title": "System Colors",
-        "number": "6.2"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-system-color-canvastext",
-      "href": "https://drafts.csswg.org/css-color-4/#valdef-system-color-canvastext",
-      "linkingText": [
-        "CanvasText"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "<system-color>"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "css-system-colors",
-        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
-        "title": "System Colors",
-        "number": "6.2"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-system-color-linktext",
-      "href": "https://drafts.csswg.org/css-color-4/#valdef-system-color-linktext",
-      "linkingText": [
-        "LinkText"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "<system-color>"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "css-system-colors",
-        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
-        "title": "System Colors",
-        "number": "6.2"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-system-color-visitedtext",
-      "href": "https://drafts.csswg.org/css-color-4/#valdef-system-color-visitedtext",
-      "linkingText": [
-        "VisitedText"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "<system-color>"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "css-system-colors",
-        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
-        "title": "System Colors",
-        "number": "6.2"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-system-color-activetext",
-      "href": "https://drafts.csswg.org/css-color-4/#valdef-system-color-activetext",
-      "linkingText": [
-        "ActiveText"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "<system-color>"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "css-system-colors",
-        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
-        "title": "System Colors",
-        "number": "6.2"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-system-color-buttonface",
-      "href": "https://drafts.csswg.org/css-color-4/#valdef-system-color-buttonface",
-      "linkingText": [
-        "ButtonFace"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "<system-color>"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "css-system-colors",
-        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
-        "title": "System Colors",
-        "number": "6.2"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-system-color-buttontext",
-      "href": "https://drafts.csswg.org/css-color-4/#valdef-system-color-buttontext",
-      "linkingText": [
-        "ButtonText"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "<system-color>"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "css-system-colors",
-        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
-        "title": "System Colors",
-        "number": "6.2"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-system-color-buttonborder",
-      "href": "https://drafts.csswg.org/css-color-4/#valdef-system-color-buttonborder",
-      "linkingText": [
-        "ButtonBorder"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "<system-color>"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "css-system-colors",
-        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
-        "title": "System Colors",
-        "number": "6.2"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-system-color-field",
-      "href": "https://drafts.csswg.org/css-color-4/#valdef-system-color-field",
-      "linkingText": [
-        "Field"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "<system-color>"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "css-system-colors",
-        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
-        "title": "System Colors",
-        "number": "6.2"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-system-color-fieldtext",
-      "href": "https://drafts.csswg.org/css-color-4/#valdef-system-color-fieldtext",
-      "linkingText": [
-        "FieldText"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "<system-color>"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "css-system-colors",
-        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
-        "title": "System Colors",
-        "number": "6.2"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-system-color-highlight",
-      "href": "https://drafts.csswg.org/css-color-4/#valdef-system-color-highlight",
-      "linkingText": [
-        "Highlight"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "<system-color>"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "css-system-colors",
-        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
-        "title": "System Colors",
-        "number": "6.2"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-system-color-highlighttext",
-      "href": "https://drafts.csswg.org/css-color-4/#valdef-system-color-highlighttext",
-      "linkingText": [
-        "HighlightText"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "<system-color>"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "css-system-colors",
-        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
-        "title": "System Colors",
-        "number": "6.2"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-system-color-selecteditem",
-      "href": "https://drafts.csswg.org/css-color-4/#valdef-system-color-selecteditem",
-      "linkingText": [
-        "SelectedItem"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "<system-color>"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "css-system-colors",
-        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
-        "title": "System Colors",
-        "number": "6.2"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-system-color-selecteditemtext",
-      "href": "https://drafts.csswg.org/css-color-4/#valdef-system-color-selecteditemtext",
-      "linkingText": [
-        "SelectedItemText"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "<system-color>"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "css-system-colors",
-        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
-        "title": "System Colors",
-        "number": "6.2"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-system-color-mark",
-      "href": "https://drafts.csswg.org/css-color-4/#valdef-system-color-mark",
-      "linkingText": [
-        "Mark"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "<system-color>"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "css-system-colors",
-        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
-        "title": "System Colors",
-        "number": "6.2"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-system-color-marktext",
-      "href": "https://drafts.csswg.org/css-color-4/#valdef-system-color-marktext",
-      "linkingText": [
-        "MarkText"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "<system-color>"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "css-system-colors",
-        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
-        "title": "System Colors",
-        "number": "6.2"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-system-color-graytext",
-      "href": "https://drafts.csswg.org/css-color-4/#valdef-system-color-graytext",
-      "linkingText": [
-        "GrayText"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "<system-color>"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "css-system-colors",
-        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
-        "title": "System Colors",
-        "number": "6.2"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-system-color-accentcolor",
-      "href": "https://drafts.csswg.org/css-color-4/#valdef-system-color-accentcolor",
+      "id": "valdef-color-accentcolor",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-accentcolor",
       "linkingText": [
         "AccentColor"
       ],
       "localLinkingText": [],
       "type": "value",
       "for": [
+        "<color>",
         "<system-color>"
       ],
       "access": "public",
@@ -4303,14 +4266,389 @@
       "definedIn": "dt"
     },
     {
-      "id": "valdef-system-color-accentcolortext",
-      "href": "https://drafts.csswg.org/css-color-4/#valdef-system-color-accentcolortext",
+      "id": "valdef-color-accentcolortext",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-accentcolortext",
       "linkingText": [
         "AccentColorText"
       ],
       "localLinkingText": [],
       "type": "value",
       "for": [
+        "<color>",
+        "<system-color>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "css-system-colors",
+        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
+        "title": "System Colors",
+        "number": "6.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-color-activetext",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-activetext",
+      "linkingText": [
+        "ActiveText"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<color>",
+        "<system-color>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "css-system-colors",
+        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
+        "title": "System Colors",
+        "number": "6.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-color-buttonborder",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-buttonborder",
+      "linkingText": [
+        "ButtonBorder"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<color>",
+        "<system-color>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "css-system-colors",
+        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
+        "title": "System Colors",
+        "number": "6.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-color-buttonface",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-buttonface",
+      "linkingText": [
+        "ButtonFace"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<color>",
+        "<system-color>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "css-system-colors",
+        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
+        "title": "System Colors",
+        "number": "6.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-color-buttontext",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-buttontext",
+      "linkingText": [
+        "ButtonText"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<color>",
+        "<system-color>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "css-system-colors",
+        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
+        "title": "System Colors",
+        "number": "6.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-color-canvas",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-canvas",
+      "linkingText": [
+        "Canvas"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<color>",
+        "<system-color>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "css-system-colors",
+        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
+        "title": "System Colors",
+        "number": "6.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-color-canvastext",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-canvastext",
+      "linkingText": [
+        "CanvasText"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<color>",
+        "<system-color>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "css-system-colors",
+        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
+        "title": "System Colors",
+        "number": "6.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-color-field",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-field",
+      "linkingText": [
+        "Field"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<color>",
+        "<system-color>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "css-system-colors",
+        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
+        "title": "System Colors",
+        "number": "6.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-color-fieldtext",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-fieldtext",
+      "linkingText": [
+        "FieldText"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<color>",
+        "<system-color>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "css-system-colors",
+        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
+        "title": "System Colors",
+        "number": "6.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-color-graytext",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-graytext",
+      "linkingText": [
+        "GrayText"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<color>",
+        "<system-color>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "css-system-colors",
+        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
+        "title": "System Colors",
+        "number": "6.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-color-highlight",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-highlight",
+      "linkingText": [
+        "Highlight"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<color>",
+        "<system-color>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "css-system-colors",
+        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
+        "title": "System Colors",
+        "number": "6.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-color-highlighttext",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-highlighttext",
+      "linkingText": [
+        "HighlightText"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<color>",
+        "<system-color>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "css-system-colors",
+        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
+        "title": "System Colors",
+        "number": "6.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-color-linktext",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-linktext",
+      "linkingText": [
+        "LinkText"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<color>",
+        "<system-color>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "css-system-colors",
+        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
+        "title": "System Colors",
+        "number": "6.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-color-mark",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-mark",
+      "linkingText": [
+        "Mark"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<color>",
+        "<system-color>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "css-system-colors",
+        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
+        "title": "System Colors",
+        "number": "6.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-color-marktext",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-marktext",
+      "linkingText": [
+        "MarkText"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<color>",
+        "<system-color>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "css-system-colors",
+        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
+        "title": "System Colors",
+        "number": "6.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-color-selecteditem",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-selecteditem",
+      "linkingText": [
+        "SelectedItem"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<color>",
+        "<system-color>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "css-system-colors",
+        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
+        "title": "System Colors",
+        "number": "6.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-color-selecteditemtext",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-selecteditemtext",
+      "linkingText": [
+        "SelectedItemText"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<color>",
+        "<system-color>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "css-system-colors",
+        "href": "https://drafts.csswg.org/css-color-4/#css-system-colors",
+        "title": "System Colors",
+        "number": "6.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-color-visitedtext",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-visitedtext",
+      "linkingText": [
+        "VisitedText"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<color>",
         "<system-color>"
       ],
       "access": "public",
@@ -4441,7 +4779,83 @@
         "title": "HSL Colors: hsl() and hsla() functions",
         "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "pre"
+    },
+    {
+      "id": "typedef-modern-hsl-syntax",
+      "href": "https://drafts.csswg.org/css-color-4/#typedef-modern-hsl-syntax",
+      "linkingText": [
+        "<modern-hsl-syntax>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-hsl-notation",
+        "href": "https://drafts.csswg.org/css-color-4/#the-hsl-notation",
+        "title": "HSL Colors: hsl() and hsla() functions",
+        "number": "7"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "typedef-modern-hsla-syntax",
+      "href": "https://drafts.csswg.org/css-color-4/#typedef-modern-hsla-syntax",
+      "linkingText": [
+        "<modern-hsla-syntax>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-hsl-notation",
+        "href": "https://drafts.csswg.org/css-color-4/#the-hsl-notation",
+        "title": "HSL Colors: hsl() and hsla() functions",
+        "number": "7"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "typedef-legacy-hsl-syntax",
+      "href": "https://drafts.csswg.org/css-color-4/#typedef-legacy-hsl-syntax",
+      "linkingText": [
+        "<legacy-hsl-syntax>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-hsl-notation",
+        "href": "https://drafts.csswg.org/css-color-4/#the-hsl-notation",
+        "title": "HSL Colors: hsl() and hsla() functions",
+        "number": "7"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "typedef-legacy-hsla-syntax",
+      "href": "https://drafts.csswg.org/css-color-4/#typedef-legacy-hsla-syntax",
+      "linkingText": [
+        "<legacy-hsla-syntax>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-hsl-notation",
+        "href": "https://drafts.csswg.org/css-color-4/#the-hsl-notation",
+        "title": "HSL Colors: hsl() and hsla() functions",
+        "number": "7"
+      },
+      "definedIn": "pre"
     },
     {
       "id": "valdef-hwb-hwb",
@@ -4484,27 +4898,6 @@
       "definedIn": "pre"
     },
     {
-      "id": "valdef-lab-lab",
-      "href": "https://drafts.csswg.org/css-color-4/#valdef-lab-lab",
-      "linkingText": [
-        "Lab"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "lab()"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "cie-lab",
-        "href": "https://drafts.csswg.org/css-color-4/#cie-lab",
-        "title": "CIE Lab and LCH",
-        "number": "9.1"
-      },
-      "definedIn": "prose"
-    },
-    {
       "id": "chromatic-adaptation-transform",
       "href": "https://drafts.csswg.org/css-color-4/#chromatic-adaptation-transform",
       "linkingText": [
@@ -4520,69 +4913,6 @@
         "href": "https://drafts.csswg.org/css-color-4/#cie-lab",
         "title": "CIE Lab and LCH",
         "number": "9.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "valdef-lch-lch",
-      "href": "https://drafts.csswg.org/css-color-4/#valdef-lch-lch",
-      "linkingText": [
-        "LCH"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "lch()"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "cie-lab",
-        "href": "https://drafts.csswg.org/css-color-4/#cie-lab",
-        "title": "CIE Lab and LCH",
-        "number": "9.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "valdef-oklab-oklab",
-      "href": "https://drafts.csswg.org/css-color-4/#valdef-oklab-oklab",
-      "linkingText": [
-        "Oklab"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "oklab()"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "ok-lab",
-        "href": "https://drafts.csswg.org/css-color-4/#ok-lab",
-        "title": "Oklab and Oklch",
-        "number": "9.2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "valdef-oklch-oklch",
-      "href": "https://drafts.csswg.org/css-color-4/#valdef-oklch-oklch",
-      "linkingText": [
-        "Oklch"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "oklch()"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "ok-lab",
-        "href": "https://drafts.csswg.org/css-color-4/#ok-lab",
-        "title": "Oklab and Oklch",
-        "number": "9.2"
       },
       "definedIn": "prose"
     },
@@ -4606,6 +4936,27 @@
       "definedIn": "pre"
     },
     {
+      "id": "valdef-lab-lab",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-lab-lab",
+      "linkingText": [
+        "Lab"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "lab()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "specifying-lab-lch",
+        "href": "https://drafts.csswg.org/css-color-4/#specifying-lab-lch",
+        "title": "Specifying Lab and LCH: the lab() and lch() functional notations",
+        "number": "9.3"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "funcdef-lch",
       "href": "https://drafts.csswg.org/css-color-4/#funcdef-lch",
       "linkingText": [
@@ -4625,6 +4976,27 @@
       "definedIn": "pre"
     },
     {
+      "id": "valdef-lch-lch",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-lch-lch",
+      "linkingText": [
+        "LCH"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "lch()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "specifying-lab-lch",
+        "href": "https://drafts.csswg.org/css-color-4/#specifying-lab-lch",
+        "title": "Specifying Lab and LCH: the lab() and lch() functional notations",
+        "number": "9.3"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "funcdef-oklab",
       "href": "https://drafts.csswg.org/css-color-4/#funcdef-oklab",
       "linkingText": [
@@ -4638,10 +5010,31 @@
       "heading": {
         "id": "specifying-oklab-oklch",
         "href": "https://drafts.csswg.org/css-color-4/#specifying-oklab-oklch",
-        "title": "Specifying Oklab and Oklch: the oklab() and oklch() functional notations",
+        "title": "Specifying Oklab and OKLCh: the oklab() and oklch() functional notations",
         "number": "9.4"
       },
       "definedIn": "pre"
+    },
+    {
+      "id": "valdef-oklab-oklab",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-oklab-oklab",
+      "linkingText": [
+        "Oklab"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "oklab()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "specifying-oklab-oklch",
+        "href": "https://drafts.csswg.org/css-color-4/#specifying-oklab-oklch",
+        "title": "Specifying Oklab and OKLCh: the oklab() and oklch() functional notations",
+        "number": "9.4"
+      },
+      "definedIn": "prose"
     },
     {
       "id": "funcdef-oklch",
@@ -4657,10 +5050,31 @@
       "heading": {
         "id": "specifying-oklab-oklch",
         "href": "https://drafts.csswg.org/css-color-4/#specifying-oklab-oklch",
-        "title": "Specifying Oklab and Oklch: the oklab() and oklch() functional notations",
+        "title": "Specifying Oklab and OKLCh: the oklab() and oklch() functional notations",
         "number": "9.4"
       },
       "definedIn": "pre"
+    },
+    {
+      "id": "valdef-oklch-oklch",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-oklch-oklch",
+      "linkingText": [
+        "OKLCh"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "oklch()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "specifying-oklab-oklch",
+        "href": "https://drafts.csswg.org/css-color-4/#specifying-oklab-oklch",
+        "title": "Specifying Oklab and OKLCh: the oklab() and oklch() functional notations",
+        "number": "9.4"
+      },
+      "definedIn": "prose"
     },
     {
       "id": "funcdef-color",
@@ -5042,6 +5456,24 @@
       "definedIn": "dt"
     },
     {
+      "id": "carried-forward",
+      "href": "https://drafts.csswg.org/css-color-4/#carried-forward",
+      "linkingText": [
+        "carried forward"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interpolation",
+        "href": "https://drafts.csswg.org/css-color-4/#interpolation",
+        "title": "12. Color Interpolation"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "interpolation-color-space",
       "href": "https://drafts.csswg.org/css-color-4/#interpolation-color-space",
       "linkingText": [
@@ -5174,10 +5606,29 @@
       "definedIn": "pre"
     },
     {
-      "id": "premultiplied-color-values",
-      "href": "https://drafts.csswg.org/css-color-4/#premultiplied-color-values",
+      "id": "analogous-components",
+      "href": "https://drafts.csswg.org/css-color-4/#analogous-components",
       "linkingText": [
-        "premultiplied color values"
+        "analogous components"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interpolation-missing",
+        "href": "https://drafts.csswg.org/css-color-4/#interpolation-missing",
+        "title": "Interpolating with Missing Components",
+        "number": "12.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "premultiplied",
+      "href": "https://drafts.csswg.org/css-color-4/#premultiplied",
+      "linkingText": [
+        "premultiplied"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -5381,6 +5832,27 @@
       "definedIn": "prose"
     },
     {
+      "id": "color-serialization-html-compatible-serialization-is-requested",
+      "href": "https://drafts.csswg.org/css-color-4/#color-serialization-html-compatible-serialization-is-requested",
+      "linkingText": [
+        "HTML-compatible serialization is requested"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "color serialization"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "HTML-compatible-serialization-of-srgb",
+        "href": "https://drafts.csswg.org/css-color-4/#HTML-compatible-serialization-of-srgb",
+        "title": "HTML-compatible serialization of sRGB values",
+        "number": "15.2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "typedef-deprecated-color",
       "href": "https://drafts.csswg.org/css-color-4/#typedef-deprecated-color",
       "linkingText": [
@@ -5394,421 +5866,514 @@
       "heading": {
         "id": "deprecated-system-colors",
         "href": "https://drafts.csswg.org/css-color-4/#deprecated-system-colors",
-        "title": "Appendix A: Deprecated CSS System Colors"
+        "title": "Deprecated CSS System Colors",
+        "number": "A"
       },
       "definedIn": "prose"
     },
     {
-      "id": "activeborder",
-      "href": "https://drafts.csswg.org/css-color-4/#activeborder",
+      "id": "valdef-color-activeborder",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-activeborder",
       "linkingText": [
         "ActiveBorder"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "value",
+      "for": [
+        "<color>",
+        "<deprecated-color>"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "deprecated-system-colors",
         "href": "https://drafts.csswg.org/css-color-4/#deprecated-system-colors",
-        "title": "Appendix A: Deprecated CSS System Colors"
+        "title": "Deprecated CSS System Colors",
+        "number": "A"
       },
       "definedIn": "dt"
     },
     {
-      "id": "activecaption",
-      "href": "https://drafts.csswg.org/css-color-4/#activecaption",
+      "id": "valdef-color-activecaption",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-activecaption",
       "linkingText": [
         "ActiveCaption"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "value",
+      "for": [
+        "<color>",
+        "<deprecated-color>"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "deprecated-system-colors",
         "href": "https://drafts.csswg.org/css-color-4/#deprecated-system-colors",
-        "title": "Appendix A: Deprecated CSS System Colors"
+        "title": "Deprecated CSS System Colors",
+        "number": "A"
       },
       "definedIn": "dt"
     },
     {
-      "id": "appworkspace",
-      "href": "https://drafts.csswg.org/css-color-4/#appworkspace",
+      "id": "valdef-color-appworkspace",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-appworkspace",
       "linkingText": [
         "AppWorkspace"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "value",
+      "for": [
+        "<color>",
+        "<deprecated-color>"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "deprecated-system-colors",
         "href": "https://drafts.csswg.org/css-color-4/#deprecated-system-colors",
-        "title": "Appendix A: Deprecated CSS System Colors"
+        "title": "Deprecated CSS System Colors",
+        "number": "A"
       },
       "definedIn": "dt"
     },
     {
-      "id": "background",
-      "href": "https://drafts.csswg.org/css-color-4/#background",
+      "id": "valdef-color-background",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-background",
       "linkingText": [
         "Background"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "value",
+      "for": [
+        "<color>",
+        "<deprecated-color>"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "deprecated-system-colors",
         "href": "https://drafts.csswg.org/css-color-4/#deprecated-system-colors",
-        "title": "Appendix A: Deprecated CSS System Colors"
+        "title": "Deprecated CSS System Colors",
+        "number": "A"
       },
       "definedIn": "dt"
     },
     {
-      "id": "buttonhighlight",
-      "href": "https://drafts.csswg.org/css-color-4/#buttonhighlight",
+      "id": "valdef-color-buttonhighlight",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-buttonhighlight",
       "linkingText": [
         "ButtonHighlight"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "value",
+      "for": [
+        "<color>",
+        "<deprecated-color>"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "deprecated-system-colors",
         "href": "https://drafts.csswg.org/css-color-4/#deprecated-system-colors",
-        "title": "Appendix A: Deprecated CSS System Colors"
+        "title": "Deprecated CSS System Colors",
+        "number": "A"
       },
       "definedIn": "dt"
     },
     {
-      "id": "buttonshadow",
-      "href": "https://drafts.csswg.org/css-color-4/#buttonshadow",
+      "id": "valdef-color-buttonshadow",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-buttonshadow",
       "linkingText": [
         "ButtonShadow"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "value",
+      "for": [
+        "<color>",
+        "<deprecated-color>"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "deprecated-system-colors",
         "href": "https://drafts.csswg.org/css-color-4/#deprecated-system-colors",
-        "title": "Appendix A: Deprecated CSS System Colors"
+        "title": "Deprecated CSS System Colors",
+        "number": "A"
       },
       "definedIn": "dt"
     },
     {
-      "id": "captiontext",
-      "href": "https://drafts.csswg.org/css-color-4/#captiontext",
+      "id": "valdef-color-captiontext",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-captiontext",
       "linkingText": [
         "CaptionText"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "value",
+      "for": [
+        "<color>",
+        "<deprecated-color>"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "deprecated-system-colors",
         "href": "https://drafts.csswg.org/css-color-4/#deprecated-system-colors",
-        "title": "Appendix A: Deprecated CSS System Colors"
+        "title": "Deprecated CSS System Colors",
+        "number": "A"
       },
       "definedIn": "dt"
     },
     {
-      "id": "inactiveborder",
-      "href": "https://drafts.csswg.org/css-color-4/#inactiveborder",
+      "id": "valdef-color-inactiveborder",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-inactiveborder",
       "linkingText": [
         "InactiveBorder"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "value",
+      "for": [
+        "<color>",
+        "<deprecated-color>"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "deprecated-system-colors",
         "href": "https://drafts.csswg.org/css-color-4/#deprecated-system-colors",
-        "title": "Appendix A: Deprecated CSS System Colors"
+        "title": "Deprecated CSS System Colors",
+        "number": "A"
       },
       "definedIn": "dt"
     },
     {
-      "id": "inactivecaption",
-      "href": "https://drafts.csswg.org/css-color-4/#inactivecaption",
+      "id": "valdef-color-inactivecaption",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-inactivecaption",
       "linkingText": [
         "InactiveCaption"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "value",
+      "for": [
+        "<color>",
+        "<deprecated-color>"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "deprecated-system-colors",
         "href": "https://drafts.csswg.org/css-color-4/#deprecated-system-colors",
-        "title": "Appendix A: Deprecated CSS System Colors"
+        "title": "Deprecated CSS System Colors",
+        "number": "A"
       },
       "definedIn": "dt"
     },
     {
-      "id": "inactivecaptiontext",
-      "href": "https://drafts.csswg.org/css-color-4/#inactivecaptiontext",
+      "id": "valdef-color-inactivecaptiontext",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-inactivecaptiontext",
       "linkingText": [
         "InactiveCaptionText"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "value",
+      "for": [
+        "<color>",
+        "<deprecated-color>"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "deprecated-system-colors",
         "href": "https://drafts.csswg.org/css-color-4/#deprecated-system-colors",
-        "title": "Appendix A: Deprecated CSS System Colors"
+        "title": "Deprecated CSS System Colors",
+        "number": "A"
       },
       "definedIn": "dt"
     },
     {
-      "id": "infobackground",
-      "href": "https://drafts.csswg.org/css-color-4/#infobackground",
+      "id": "valdef-color-infobackground",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-infobackground",
       "linkingText": [
         "InfoBackground"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "value",
+      "for": [
+        "<color>",
+        "<deprecated-color>"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "deprecated-system-colors",
         "href": "https://drafts.csswg.org/css-color-4/#deprecated-system-colors",
-        "title": "Appendix A: Deprecated CSS System Colors"
+        "title": "Deprecated CSS System Colors",
+        "number": "A"
       },
       "definedIn": "dt"
     },
     {
-      "id": "infotext",
-      "href": "https://drafts.csswg.org/css-color-4/#infotext",
+      "id": "valdef-color-infotext",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-infotext",
       "linkingText": [
         "InfoText"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "value",
+      "for": [
+        "<color>",
+        "<deprecated-color>"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "deprecated-system-colors",
         "href": "https://drafts.csswg.org/css-color-4/#deprecated-system-colors",
-        "title": "Appendix A: Deprecated CSS System Colors"
+        "title": "Deprecated CSS System Colors",
+        "number": "A"
       },
       "definedIn": "dt"
     },
     {
-      "id": "menu",
-      "href": "https://drafts.csswg.org/css-color-4/#menu",
+      "id": "valdef-color-menu",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-menu",
       "linkingText": [
         "Menu"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "value",
+      "for": [
+        "<color>",
+        "<deprecated-color>"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "deprecated-system-colors",
         "href": "https://drafts.csswg.org/css-color-4/#deprecated-system-colors",
-        "title": "Appendix A: Deprecated CSS System Colors"
+        "title": "Deprecated CSS System Colors",
+        "number": "A"
       },
       "definedIn": "dt"
     },
     {
-      "id": "menutext",
-      "href": "https://drafts.csswg.org/css-color-4/#menutext",
+      "id": "valdef-color-menutext",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-menutext",
       "linkingText": [
         "MenuText"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "value",
+      "for": [
+        "<color>",
+        "<deprecated-color>"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "deprecated-system-colors",
         "href": "https://drafts.csswg.org/css-color-4/#deprecated-system-colors",
-        "title": "Appendix A: Deprecated CSS System Colors"
+        "title": "Deprecated CSS System Colors",
+        "number": "A"
       },
       "definedIn": "dt"
     },
     {
-      "id": "scrollbar",
-      "href": "https://drafts.csswg.org/css-color-4/#scrollbar",
+      "id": "valdef-color-scrollbar",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-scrollbar",
       "linkingText": [
         "Scrollbar"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "value",
+      "for": [
+        "<color>",
+        "<deprecated-color>"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "deprecated-system-colors",
         "href": "https://drafts.csswg.org/css-color-4/#deprecated-system-colors",
-        "title": "Appendix A: Deprecated CSS System Colors"
+        "title": "Deprecated CSS System Colors",
+        "number": "A"
       },
       "definedIn": "dt"
     },
     {
-      "id": "threeddarkshadow",
-      "href": "https://drafts.csswg.org/css-color-4/#threeddarkshadow",
+      "id": "valdef-color-threeddarkshadow",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-threeddarkshadow",
       "linkingText": [
         "ThreeDDarkShadow"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "value",
+      "for": [
+        "<color>",
+        "<deprecated-color>"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "deprecated-system-colors",
         "href": "https://drafts.csswg.org/css-color-4/#deprecated-system-colors",
-        "title": "Appendix A: Deprecated CSS System Colors"
+        "title": "Deprecated CSS System Colors",
+        "number": "A"
       },
       "definedIn": "dt"
     },
     {
-      "id": "threedface",
-      "href": "https://drafts.csswg.org/css-color-4/#threedface",
+      "id": "valdef-color-threedface",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-threedface",
       "linkingText": [
         "ThreeDFace"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "value",
+      "for": [
+        "<color>",
+        "<deprecated-color>"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "deprecated-system-colors",
         "href": "https://drafts.csswg.org/css-color-4/#deprecated-system-colors",
-        "title": "Appendix A: Deprecated CSS System Colors"
+        "title": "Deprecated CSS System Colors",
+        "number": "A"
       },
       "definedIn": "dt"
     },
     {
-      "id": "threedhighlight",
-      "href": "https://drafts.csswg.org/css-color-4/#threedhighlight",
+      "id": "valdef-color-threedhighlight",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-threedhighlight",
       "linkingText": [
         "ThreeDHighlight"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "value",
+      "for": [
+        "<color>",
+        "<deprecated-color>"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "deprecated-system-colors",
         "href": "https://drafts.csswg.org/css-color-4/#deprecated-system-colors",
-        "title": "Appendix A: Deprecated CSS System Colors"
+        "title": "Deprecated CSS System Colors",
+        "number": "A"
       },
       "definedIn": "dt"
     },
     {
-      "id": "threedlightshadow",
-      "href": "https://drafts.csswg.org/css-color-4/#threedlightshadow",
+      "id": "valdef-color-threedlightshadow",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-threedlightshadow",
       "linkingText": [
         "ThreeDLightShadow"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "value",
+      "for": [
+        "<color>",
+        "<deprecated-color>"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "deprecated-system-colors",
         "href": "https://drafts.csswg.org/css-color-4/#deprecated-system-colors",
-        "title": "Appendix A: Deprecated CSS System Colors"
+        "title": "Deprecated CSS System Colors",
+        "number": "A"
       },
       "definedIn": "dt"
     },
     {
-      "id": "threedshadow",
-      "href": "https://drafts.csswg.org/css-color-4/#threedshadow",
+      "id": "valdef-color-threedshadow",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-threedshadow",
       "linkingText": [
         "ThreeDShadow"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "value",
+      "for": [
+        "<color>",
+        "<deprecated-color>"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "deprecated-system-colors",
         "href": "https://drafts.csswg.org/css-color-4/#deprecated-system-colors",
-        "title": "Appendix A: Deprecated CSS System Colors"
+        "title": "Deprecated CSS System Colors",
+        "number": "A"
       },
       "definedIn": "dt"
     },
     {
-      "id": "window",
-      "href": "https://drafts.csswg.org/css-color-4/#window",
+      "id": "valdef-color-window",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-window",
       "linkingText": [
         "Window"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "value",
+      "for": [
+        "<color>",
+        "<deprecated-color>"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "deprecated-system-colors",
         "href": "https://drafts.csswg.org/css-color-4/#deprecated-system-colors",
-        "title": "Appendix A: Deprecated CSS System Colors"
+        "title": "Deprecated CSS System Colors",
+        "number": "A"
       },
       "definedIn": "dt"
     },
     {
-      "id": "windowframe",
-      "href": "https://drafts.csswg.org/css-color-4/#windowframe",
+      "id": "valdef-color-windowframe",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-windowframe",
       "linkingText": [
         "WindowFrame"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "value",
+      "for": [
+        "<color>",
+        "<deprecated-color>"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "deprecated-system-colors",
         "href": "https://drafts.csswg.org/css-color-4/#deprecated-system-colors",
-        "title": "Appendix A: Deprecated CSS System Colors"
+        "title": "Deprecated CSS System Colors",
+        "number": "A"
       },
       "definedIn": "dt"
     },
     {
-      "id": "windowtext",
-      "href": "https://drafts.csswg.org/css-color-4/#windowtext",
+      "id": "valdef-color-windowtext",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-windowtext",
       "linkingText": [
         "WindowText"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "value",
+      "for": [
+        "<color>",
+        "<deprecated-color>"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "deprecated-system-colors",
         "href": "https://drafts.csswg.org/css-color-4/#deprecated-system-colors",
-        "title": "Appendix A: Deprecated CSS System Colors"
+        "title": "Deprecated CSS System Colors",
+        "number": "A"
       },
       "definedIn": "dt"
     },
@@ -5826,7 +6391,8 @@
       "heading": {
         "id": "quirky-color",
         "href": "https://drafts.csswg.org/css-color-4/#quirky-color",
-        "title": "Appendix B: Deprecated Quirky Hex Colors"
+        "title": "Deprecated Quirky Hex Colors",
+        "number": "B"
       },
       "definedIn": "prose"
     }

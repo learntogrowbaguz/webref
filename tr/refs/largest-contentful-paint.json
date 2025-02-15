@@ -6,6 +6,30 @@
   "refs": {
     "normative": [
       {
+        "name": "CSS-BACKGROUNDS-3",
+        "url": "https://www.w3.org/TR/css-backgrounds-3/"
+      },
+      {
+        "name": "CSS-BOX-4",
+        "url": "https://www.w3.org/TR/css-box-4/"
+      },
+      {
+        "name": "CSS-COLOR-3",
+        "url": "https://www.w3.org/TR/css-color-3/"
+      },
+      {
+        "name": "CSS-COLOR-4",
+        "url": "https://www.w3.org/TR/css-color-4/"
+      },
+      {
+        "name": "CSS-IMAGES-3",
+        "url": "https://www.w3.org/TR/css-images-3/"
+      },
+      {
+        "name": "CSS-TEXT-DECOR-4",
+        "url": "https://www.w3.org/TR/css-text-decor-4/"
+      },
+      {
         "name": "CSSOM-VIEW-1",
         "url": "https://www.w3.org/TR/cssom-view-1/"
       },
@@ -14,16 +38,16 @@
         "url": "https://dom.spec.whatwg.org/"
       },
       {
-        "name": "ELEMENT-TIMING",
-        "url": "https://wicg.github.io/element-timing/"
-      },
-      {
         "name": "EVENT-TIMING",
-        "url": "https://w3c.github.io/event-timing/"
+        "url": "https://www.w3.org/TR/event-timing/"
       },
       {
         "name": "FETCH",
         "url": "https://fetch.spec.whatwg.org/"
+      },
+      {
+        "name": "FILL-STROKE-3",
+        "url": "https://www.w3.org/TR/fill-stroke-3/"
       },
       {
         "name": "GEOMETRY-1",
@@ -42,6 +66,14 @@
         "url": "https://infra.spec.whatwg.org/"
       },
       {
+        "name": "LARGEST-CONTENTFUL-PAINT",
+        "url": "https://www.w3.org/TR/largest-contentful-paint/"
+      },
+      {
+        "name": "PAINT-TIMING",
+        "url": "https://www.w3.org/TR/paint-timing/"
+      },
+      {
         "name": "PERFORMANCE-TIMELINE",
         "url": "https://www.w3.org/TR/performance-timeline/"
       },
@@ -50,10 +82,19 @@
         "url": "https://datatracker.ietf.org/doc/html/rfc2119"
       },
       {
+        "name": "STREAMS",
+        "url": "https://streams.spec.whatwg.org/"
+      },
+      {
         "name": "WEBIDL",
         "url": "https://webidl.spec.whatwg.org/"
       }
     ],
-    "informative": []
+    "informative": [
+      {
+        "name": "ELEMENT-TIMING",
+        "url": "https://wicg.github.io/element-timing/"
+      }
+    ]
   }
 }

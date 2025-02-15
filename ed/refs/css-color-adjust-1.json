@@ -15,15 +15,15 @@
       },
       {
         "name": "CSS-COLOR-4",
-        "url": "https://drafts.csswg.org/css-color/"
+        "url": "https://drafts.csswg.org/css-color-4/"
       },
       {
         "name": "CSS-COLOR-5",
         "url": "https://drafts.csswg.org/css-color-5/"
       },
       {
-        "name": "CSS-MULTICOL-1",
-        "url": "https://drafts.csswg.org/css-multicol/"
+        "name": "CSS-GAPS-1",
+        "url": "https://drafts.csswg.org/css-gaps-1/"
       },
       {
         "name": "CSS-PSEUDO-4",
@@ -51,10 +51,6 @@
       },
       {
         "name": "CSS2",
-        "url": "https://drafts.csswg.org/css2/"
-      },
-      {
-        "name": "CSS22",
         "url": "https://drafts.csswg.org/css2/"
       },
       {
@@ -92,8 +88,12 @@
         "url": "https://drafts.csswg.org/css-conditional-3/"
       },
       {
+        "name": "CSS-TYPED-OM-1",
+        "url": "https://drafts.css-houdini.org/css-typed-om-1/"
+      },
+      {
         "name": "WCAG21",
-        "url": "https://w3c.github.io/wcag/21/guidelines/"
+        "url": "https://w3c.github.io/wcag/guidelines/"
       }
     ]
   }
