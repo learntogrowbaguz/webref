@@ -8,7 +8,7 @@
       "id": "title",
       "href": "https://drafts.csswg.org/selectors-4/#title",
       "level": 1,
-      "title": "133 TestsSelectors Level 4"
+      "title": "Selectors Level 4"
     },
     {
       "id": "abstract",
@@ -69,6 +69,13 @@
       "level": 3,
       "title": "Data Model",
       "number": "3.2"
+    },
+    {
+      "id": "featureless-elements",
+      "href": "https://drafts.csswg.org/selectors-4/#featureless-elements",
+      "level": 4,
+      "title": "Featureless Elements",
+      "number": "3.2.1"
     },
     {
       "id": "scoping",
@@ -470,29 +477,36 @@
       "id": "open-state",
       "href": "https://drafts.csswg.org/selectors-4/#open-state",
       "level": 3,
-      "title": "Collapse State: the :open and :closed pseudo-class",
+      "title": "Collapse State: the :open pseudo-class",
       "number": "12.1"
+    },
+    {
+      "id": "popover-open-state",
+      "href": "https://drafts.csswg.org/selectors-4/#popover-open-state",
+      "level": 3,
+      "title": "Popover State: the :popover-open pseudo-class",
+      "number": "12.2"
     },
     {
       "id": "modal-state",
       "href": "https://drafts.csswg.org/selectors-4/#modal-state",
       "level": 3,
       "title": "Modal (Exclusive Interaction) State: the :modal pseudo-class",
-      "number": "12.2"
+      "number": "12.3"
     },
     {
       "id": "fullscreen-state",
       "href": "https://drafts.csswg.org/selectors-4/#fullscreen-state",
       "level": 3,
       "title": "Fullscreen Presentation State: the :fullscreen pseudo-class",
-      "number": "12.3"
+      "number": "12.4"
     },
     {
       "id": "pip-state",
       "href": "https://drafts.csswg.org/selectors-4/#pip-state",
       "level": 3,
       "title": "Picture-in-Picture Presentation State: the :picture-in-picture pseudo-class",
-      "number": "12.4"
+      "number": "12.5"
     },
     {
       "id": "input-pseudos",
@@ -834,13 +848,22 @@
       "id": "dom-mapping",
       "href": "https://drafts.csswg.org/selectors-4/#dom-mapping",
       "level": 2,
-      "title": "Appendix A: Guidance on Mapping Source Documents & Data to an Element Tree"
+      "title": "Guidance on Mapping Source Documents & Data to an Element Tree",
+      "number": "A"
     },
     {
       "id": "compat",
       "href": "https://drafts.csswg.org/selectors-4/#compat",
       "level": 2,
-      "title": "Appendix B: Obsolete but Required -webkit- Parsing Quirks for Web Compat"
+      "title": "Obsolete but Required -webkit- Parsing Quirks for Web Compat",
+      "number": "B"
+    },
+    {
+      "id": "visited-privacy",
+      "href": "https://drafts.csswg.org/selectors-4/#visited-privacy",
+      "level": 2,
+      "title": "Example Privacy-Preserving :visited Restrictions",
+      "number": "C"
     },
     {
       "id": "changes",
@@ -904,10 +927,16 @@
       "title": "21. Acknowledgements"
     },
     {
-      "id": "priv-sec",
-      "href": "https://drafts.csswg.org/selectors-4/#priv-sec",
+      "id": "privacy",
+      "href": "https://drafts.csswg.org/selectors-4/#privacy",
       "level": 2,
-      "title": "22. Privacy and Security Considerations"
+      "title": "Privacy Considerations"
+    },
+    {
+      "id": "security",
+      "href": "https://drafts.csswg.org/selectors-4/#security",
+      "level": 2,
+      "title": "Security Considerations"
     },
     {
       "id": "w3c-conformance",

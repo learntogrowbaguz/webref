@@ -6,24 +6,64 @@
   "refs": {
     "normative": [
       {
+        "name": "ACCNAME-1.1",
+        "url": "https://w3c.github.io/accname/"
+      },
+      {
         "name": "CONSOLE",
         "url": "https://console.spec.whatwg.org/"
+      },
+      {
+        "name": "COOKIES",
+        "url": "https://httpwg.org/specs/rfc6265.html"
+      },
+      {
+        "name": "CORE-AAM-1.1",
+        "url": "https://w3c.github.io/core-aam/"
       },
       {
         "name": "CSS-PAINT-API-1",
         "url": "https://drafts.css-houdini.org/css-paint-api-1/"
       },
       {
+        "name": "CSS2",
+        "url": "https://drafts.csswg.org/css2/"
+      },
+      {
+        "name": "CSSOM-VIEW-1",
+        "url": "https://drafts.csswg.org/cssom-view/"
+      },
+      {
         "name": "DOM",
         "url": "https://dom.spec.whatwg.org/"
       },
       {
-        "name": "ECMASCRIPT",
+        "name": "ECMAScript",
         "url": "https://tc39.es/ecma262/multipage/"
+      },
+      {
+        "name": "ENCODING",
+        "url": "https://encoding.spec.whatwg.org/"
       },
       {
         "name": "FETCH",
         "url": "https://fetch.spec.whatwg.org/"
+      },
+      {
+        "name": "FS",
+        "url": "https://fs.spec.whatwg.org/"
+      },
+      {
+        "name": "FULLSCREEN",
+        "url": "https://fullscreen.spec.whatwg.org/"
+      },
+      {
+        "name": "GEOMETRY-1",
+        "url": "https://drafts.fxtf.org/geometry/"
+      },
+      {
+        "name": "HR-TIME-3",
+        "url": "https://w3c.github.io/hr-time/"
       },
       {
         "name": "HTML",
@@ -34,8 +74,20 @@
         "url": "https://infra.spec.whatwg.org/"
       },
       {
-        "name": "RFC4122",
-        "url": "https://www.rfc-editor.org/rfc/rfc4122"
+        "name": "MEDIAQUERIES-5",
+        "url": "https://drafts.csswg.org/mediaqueries-5/"
+      },
+      {
+        "name": "MIMESNIFF",
+        "url": "https://mimesniff.spec.whatwg.org/"
+      },
+      {
+        "name": "RESOURCE-TIMING",
+        "url": "https://w3c.github.io/resource-timing/"
+      },
+      {
+        "name": "RFC4648",
+        "url": "https://www.rfc-editor.org/rfc/rfc4648"
       },
       {
         "name": "RFC6455",
@@ -46,19 +98,43 @@
         "url": "https://www.rfc-editor.org/rfc/rfc8610"
       },
       {
+        "name": "RFC9110",
+        "url": "https://httpwg.org/specs/rfc9110.html"
+      },
+      {
+        "name": "RFC9562",
+        "url": "https://www.rfc-editor.org/rfc/rfc9562"
+      },
+      {
+        "name": "SELECTORS-4",
+        "url": "https://drafts.csswg.org/selectors/"
+      },
+      {
         "name": "SERVICE-WORKERS",
         "url": "https://w3c.github.io/ServiceWorker/"
+      },
+      {
+        "name": "SVG2",
+        "url": "https://svgwg.org/svg2-draft/"
+      },
+      {
+        "name": "UNICODE",
+        "url": "https://www.unicode.org/versions/latest/"
       },
       {
         "name": "URL",
         "url": "https://url.spec.whatwg.org/"
       },
       {
-        "name": "WEBAUDIO",
+        "name": "WEBAUDIO-1.0",
         "url": "https://webaudio.github.io/web-audio-api/"
       },
       {
         "name": "WEBDRIVER",
+        "url": "https://w3c.github.io/webdriver/"
+      },
+      {
+        "name": "WEBDRIVER2",
         "url": "https://w3c.github.io/webdriver/"
       },
       {
@@ -68,8 +144,24 @@
     ],
     "informative": [
       {
+        "name": "CSS-VALUES-3",
+        "url": "https://drafts.csswg.org/css-values-3/"
+      },
+      {
+        "name": "HTTP11",
+        "url": "https://httpwg.org/specs/rfc9112.html"
+      },
+      {
         "name": "JSON-RPC",
         "url": "https://www.jsonrpc.org/specification"
+      },
+      {
+        "name": "SAME-SITE-COOKIES",
+        "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-cookie-same-site"
+      },
+      {
+        "name": "URLPattern",
+        "url": "https://urlpattern.spec.whatwg.org/"
       }
     ]
   }

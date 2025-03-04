@@ -248,9 +248,10 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/entries-api/#title",
-        "title": "File and Directory Entries API"
+        "id": "files-dirs",
+        "href": "https://wicg.github.io/entries-api/#files-dirs",
+        "title": "Files and Directories",
+        "number": "2.2"
       },
       "definedIn": "prose"
     },
@@ -268,9 +269,10 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/entries-api/#title",
-        "title": "File and Directory Entries API"
+        "id": "files-dirs",
+        "href": "https://wicg.github.io/entries-api/#files-dirs",
+        "title": "Files and Directories",
+        "number": "2.2"
       },
       "definedIn": "prose"
     },
@@ -288,9 +290,10 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/entries-api/#title",
-        "title": "File and Directory Entries API"
+        "id": "files-dirs",
+        "href": "https://wicg.github.io/entries-api/#files-dirs",
+        "title": "Files and Directories",
+        "number": "2.2"
       },
       "definedIn": "prose"
     },
@@ -426,85 +429,10 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/entries-api/#title",
-        "title": "File and Directory Entries API"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "directory-reader",
-      "href": "https://wicg.github.io/entries-api/#directory-reader",
-      "linkingText": [
-        "directory reader"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "dir-reader",
-        "href": "https://wicg.github.io/entries-api/#dir-reader",
-        "title": "Directory Reader",
-        "number": "2.4"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "reading-flag",
-      "href": "https://wicg.github.io/entries-api/#reading-flag",
-      "linkingText": [
-        "reading flag"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "dir-reader",
-        "href": "https://wicg.github.io/entries-api/#dir-reader",
-        "title": "Directory Reader",
-        "number": "2.4"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "done-flag",
-      "href": "https://wicg.github.io/entries-api/#done-flag",
-      "linkingText": [
-        "done flag"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "dir-reader",
-        "href": "https://wicg.github.io/entries-api/#dir-reader",
-        "title": "Directory Reader",
-        "number": "2.4"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "reader-error",
-      "href": "https://wicg.github.io/entries-api/#reader-error",
-      "linkingText": [
-        "reader error"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "dir-reader",
-        "href": "https://wicg.github.io/entries-api/#dir-reader",
-        "title": "Directory Reader",
-        "number": "2.4"
+        "id": "entries",
+        "href": "https://wicg.github.io/entries-api/#entries",
+        "title": "Entries",
+        "number": "2.3"
       },
       "definedIn": "prose"
     },
@@ -539,9 +467,10 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/entries-api/#title",
-        "title": "File and Directory Entries API"
+        "id": "algorithms",
+        "href": "https://wicg.github.io/entries-api/#algorithms",
+        "title": "Algorithms",
+        "number": "3"
       },
       "definedIn": "prose"
     },
@@ -559,9 +488,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/entries-api/#title",
-        "title": "File and Directory Entries API"
+        "id": "file-interface",
+        "href": "https://wicg.github.io/entries-api/#file-interface",
+        "title": "The File Interface",
+        "number": "4"
       },
       "definedIn": "prose"
     },
@@ -579,9 +509,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/entries-api/#title",
-        "title": "File and Directory Entries API"
+        "id": "html-forms",
+        "href": "https://wicg.github.io/entries-api/#html-forms",
+        "title": "HTML: Forms",
+        "number": "5"
       },
       "definedIn": "pre"
     },
@@ -599,9 +530,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/entries-api/#title",
-        "title": "File and Directory Entries API"
+        "id": "html-forms",
+        "href": "https://wicg.github.io/entries-api/#html-forms",
+        "title": "HTML: Forms",
+        "number": "5"
       },
       "definedIn": "pre"
     },
@@ -619,9 +551,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/entries-api/#title",
-        "title": "File and Directory Entries API"
+        "id": "html-data",
+        "href": "https://wicg.github.io/entries-api/#html-data",
+        "title": "HTML: Drag and drop",
+        "number": "6"
       },
       "definedIn": "prose"
     },
@@ -637,9 +570,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/entries-api/#title",
-        "title": "File and Directory Entries API"
+        "id": "api-files-directories",
+        "href": "https://wicg.github.io/entries-api/#api-files-directories",
+        "title": "Files and Directories",
+        "number": "7"
       },
       "definedIn": "pre"
     },
@@ -657,9 +591,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/entries-api/#title",
-        "title": "File and Directory Entries API"
+        "id": "api-files-directories",
+        "href": "https://wicg.github.io/entries-api/#api-files-directories",
+        "title": "Files and Directories",
+        "number": "7"
       },
       "definedIn": "pre"
     },
@@ -1190,9 +1125,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/entries-api/#title",
-        "title": "File and Directory Entries API"
+        "id": "api-directoryentry",
+        "href": "https://wicg.github.io/entries-api/#api-directoryentry",
+        "title": "The FileSystemDirectoryEntry Interface",
+        "number": "7.2"
       },
       "definedIn": "prose"
     },
@@ -1214,9 +1150,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/entries-api/#title",
-        "title": "File and Directory Entries API"
+        "id": "api-directoryentry",
+        "href": "https://wicg.github.io/entries-api/#api-directoryentry",
+        "title": "The FileSystemDirectoryEntry Interface",
+        "number": "7.2"
       },
       "definedIn": "prose"
     },
@@ -1238,9 +1175,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/entries-api/#title",
-        "title": "File and Directory Entries API"
+        "id": "api-directoryentry",
+        "href": "https://wicg.github.io/entries-api/#api-directoryentry",
+        "title": "The FileSystemDirectoryEntry Interface",
+        "number": "7.2"
       },
       "definedIn": "prose"
     },
@@ -1368,6 +1306,111 @@
         "number": "7.3"
       },
       "definedIn": "pre"
+    },
+    {
+      "id": "filesystemdirectoryreader-entry",
+      "href": "https://wicg.github.io/entries-api/#filesystemdirectoryreader-entry",
+      "linkingText": [
+        "entry"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "FileSystemDirectoryReader"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "api-directoryreader",
+        "href": "https://wicg.github.io/entries-api/#api-directoryreader",
+        "title": "The FileSystemDirectoryReader Interface",
+        "number": "7.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "filesystemdirectoryreader-directory",
+      "href": "https://wicg.github.io/entries-api/#filesystemdirectoryreader-directory",
+      "linkingText": [
+        "directory"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "FileSystemDirectoryReader"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "api-directoryreader",
+        "href": "https://wicg.github.io/entries-api/#api-directoryreader",
+        "title": "The FileSystemDirectoryReader Interface",
+        "number": "7.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "filesystemdirectoryreader-reading-flag",
+      "href": "https://wicg.github.io/entries-api/#filesystemdirectoryreader-reading-flag",
+      "linkingText": [
+        "reading flag"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "FileSystemDirectoryReader"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "api-directoryreader",
+        "href": "https://wicg.github.io/entries-api/#api-directoryreader",
+        "title": "The FileSystemDirectoryReader Interface",
+        "number": "7.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "filesystemdirectoryreader-done-flag",
+      "href": "https://wicg.github.io/entries-api/#filesystemdirectoryreader-done-flag",
+      "linkingText": [
+        "done flag"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "FileSystemDirectoryReader"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "api-directoryreader",
+        "href": "https://wicg.github.io/entries-api/#api-directoryreader",
+        "title": "The FileSystemDirectoryReader Interface",
+        "number": "7.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "filesystemdirectoryreader-reader-error",
+      "href": "https://wicg.github.io/entries-api/#filesystemdirectoryreader-reader-error",
+      "linkingText": [
+        "reader error"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "FileSystemDirectoryReader"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "api-directoryreader",
+        "href": "https://wicg.github.io/entries-api/#api-directoryreader",
+        "title": "The FileSystemDirectoryReader Interface",
+        "number": "7.3"
+      },
+      "definedIn": "prose"
     },
     {
       "id": "dom-filesystemdirectoryentry-readentries",

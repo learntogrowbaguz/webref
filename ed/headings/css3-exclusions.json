@@ -8,7 +8,7 @@
       "id": "title",
       "href": "https://drafts.csswg.org/css-exclusions-1/#title",
       "level": 1,
-      "title": "11 TestsCSS Exclusions Module Level 1"
+      "title": "CSS Exclusions Module Level 1"
     },
     {
       "id": "abstract",
@@ -216,6 +216,18 @@
       "level": 5,
       "title": "Effect of exclusions on floats",
       "number": "3.6.3.2"
+    },
+    {
+      "id": "privacy",
+      "href": "https://drafts.csswg.org/css-exclusions-1/#privacy",
+      "level": 2,
+      "title": "Privacy Considerations"
+    },
+    {
+      "id": "security",
+      "href": "https://drafts.csswg.org/css-exclusions-1/#security",
+      "level": 3,
+      "title": "Security Considerations"
     },
     {
       "id": "acks",

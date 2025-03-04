@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "Text Fragments",
+    "title": "URL Fragment Text Directives",
     "url": "https://wicg.github.io/scroll-to-text-fragment/"
   },
   "refs": {
@@ -14,12 +14,24 @@
         "url": "https://drafts.csswg.org/css-display/"
       },
       {
+        "name": "CSS-DISPLAY-4",
+        "url": "https://drafts.csswg.org/css-display-4/"
+      },
+      {
+        "name": "CSSOM-VIEW-1",
+        "url": "https://drafts.csswg.org/cssom-view/"
+      },
+      {
         "name": "DOCUMENT-POLICY",
-        "url": "https://w3c.github.io/webappsec-permissions-policy/document-policy.html"
+        "url": "https://wicg.github.io/document-policy"
       },
       {
         "name": "DOM",
         "url": "https://dom.spec.whatwg.org/"
+      },
+      {
+        "name": "ENCODING",
+        "url": "https://encoding.spec.whatwg.org/"
       },
       {
         "name": "FETCH",
@@ -34,12 +46,16 @@
         "url": "https://infra.spec.whatwg.org/"
       },
       {
+        "name": "MIMESNIFF",
+        "url": "https://mimesniff.spec.whatwg.org/"
+      },
+      {
         "name": "RFC2119",
         "url": "https://datatracker.ietf.org/doc/html/rfc2119"
       },
       {
         "name": "UAX29",
-        "url": "https://www.unicode.org/reports/tr29/tr29-41.html"
+        "url": "https://www.unicode.org/reports/tr29/tr29-43.html"
       },
       {
         "name": "URL",
@@ -47,11 +63,7 @@
       },
       {
         "name": "UTS10",
-        "url": "https://www.unicode.org/reports/tr10/tr10-47.html"
-      },
-      {
-        "name": "WEB-ANIMATIONS-1",
-        "url": "https://drafts.csswg.org/web-animations-1/"
+        "url": "https://www.unicode.org/reports/tr10/tr10-49.html"
       },
       {
         "name": "WEBIDL",

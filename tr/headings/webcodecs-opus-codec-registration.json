@@ -78,6 +78,20 @@
       "number": "5.2"
     },
     {
+      "id": "opus-signal",
+      "href": "https://www.w3.org/TR/webcodecs-opus-codec-registration/#opus-signal",
+      "level": 3,
+      "title": "OpusSignal",
+      "number": "5.3"
+    },
+    {
+      "id": "opus-application",
+      "href": "https://www.w3.org/TR/webcodecs-opus-codec-registration/#opus-application",
+      "level": 3,
+      "title": "OpusApplication",
+      "number": "5.4"
+    },
+    {
       "id": "privacy-considerations",
       "href": "https://www.w3.org/TR/webcodecs-opus-codec-registration/#privacy-considerations",
       "level": 2,
@@ -102,12 +116,6 @@
       "href": "https://www.w3.org/TR/webcodecs-opus-codec-registration/#w3c-conventions",
       "level": 3,
       "title": "Document conventions"
-    },
-    {
-      "id": "w3c-conformant-algorithms",
-      "href": "https://www.w3.org/TR/webcodecs-opus-codec-registration/#w3c-conformant-algorithms",
-      "level": 3,
-      "title": "Conformant Algorithms"
     },
     {
       "id": "index",

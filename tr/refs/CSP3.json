@@ -70,10 +70,6 @@
         "url": "https://www.rfc-editor.org/rfc/rfc5234"
       },
       {
-        "name": "RFC7231",
-        "url": "https://httpwg.org/specs/rfc7231.html"
-      },
-      {
         "name": "RFC7762",
         "url": "https://www.rfc-editor.org/rfc/rfc7762"
       },
@@ -83,7 +79,7 @@
       },
       {
         "name": "RFC9110",
-        "url": "https://www.rfc-editor.org/rfc/rfc9110"
+        "url": "https://httpwg.org/specs/rfc9110.html"
       },
       {
         "name": "SERVICE-WORKERS",
@@ -92,6 +88,10 @@
       {
         "name": "SRI",
         "url": "https://www.w3.org/TR/SRI/"
+      },
+      {
+        "name": "TRUSTED-TYPES",
+        "url": "https://www.w3.org/TR/trusted-types/"
       },
       {
         "name": "URL",
@@ -149,7 +149,7 @@
       },
       {
         "name": "TIMING",
-        "url": "https://www.contextis.com/media/downloads/Pixel_Perfect_Timing_Attacks_with_HTML5_Whitepaper.pdf"
+        "url": "https://owasp.org/www-pdf-archive/HackPra_Allstars-Browser_Timing_Attacks_-_Paul_Stone.pdf"
       },
       {
         "name": "UISECURITY",
@@ -173,7 +173,7 @@
       },
       {
         "name": "XSLT",
-        "url": "https://www.w3.org/TR/xslt/"
+        "url": "https://www.w3.org/TR/xslt-10/"
       }
     ]
   }

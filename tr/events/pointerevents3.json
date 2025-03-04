@@ -8,13 +8,14 @@
       "href": "https://www.w3.org/TR/pointerevents3/#dfn-pointerover",
       "src": {
         "format": "summary table",
-        "href": "https://www.w3.org/TR/pointerevents3/#ref-for-dfn-pointerover-2"
+        "href": "https://www.w3.org/TR/pointerevents3/#ref-for-dfn-pointerover-3"
       },
       "type": "pointerover",
       "targets": [
         "GlobalEventHandlers"
       ],
-      "bubbles": true
+      "bubbles": true,
+      "cancelable": true
     },
     {
       "href": "https://www.w3.org/TR/pointerevents3/#dfn-pointerenter",
@@ -26,7 +27,8 @@
       "targets": [
         "GlobalEventHandlers"
       ],
-      "bubbles": false
+      "bubbles": false,
+      "cancelable": false
     },
     {
       "href": "https://www.w3.org/TR/pointerevents3/#dfn-pointerdown",
@@ -38,7 +40,8 @@
       "targets": [
         "GlobalEventHandlers"
       ],
-      "bubbles": true
+      "bubbles": true,
+      "cancelable": true
     },
     {
       "href": "https://www.w3.org/TR/pointerevents3/#dfn-pointermove",
@@ -50,7 +53,8 @@
       "targets": [
         "GlobalEventHandlers"
       ],
-      "bubbles": true
+      "bubbles": true,
+      "cancelable": true
     },
     {
       "href": "https://www.w3.org/TR/pointerevents3/#dfn-pointerrawupdate",
@@ -62,19 +66,21 @@
       "targets": [
         "GlobalEventHandlers"
       ],
-      "bubbles": true
+      "bubbles": true,
+      "cancelable": false
     },
     {
       "href": "https://www.w3.org/TR/pointerevents3/#dfn-pointerup",
       "src": {
         "format": "summary table",
-        "href": "https://www.w3.org/TR/pointerevents3/#ref-for-dfn-pointerup-6"
+        "href": "https://www.w3.org/TR/pointerevents3/#ref-for-dfn-pointerup-5"
       },
       "type": "pointerup",
       "targets": [
         "GlobalEventHandlers"
       ],
-      "bubbles": true
+      "bubbles": true,
+      "cancelable": true
     },
     {
       "href": "https://www.w3.org/TR/pointerevents3/#dfn-pointercancel",
@@ -86,7 +92,8 @@
       "targets": [
         "GlobalEventHandlers"
       ],
-      "bubbles": true
+      "bubbles": true,
+      "cancelable": false
     },
     {
       "href": "https://www.w3.org/TR/pointerevents3/#dfn-pointerout",
@@ -98,7 +105,8 @@
       "targets": [
         "GlobalEventHandlers"
       ],
-      "bubbles": true
+      "bubbles": true,
+      "cancelable": true
     },
     {
       "href": "https://www.w3.org/TR/pointerevents3/#dfn-pointerleave",
@@ -110,7 +118,8 @@
       "targets": [
         "GlobalEventHandlers"
       ],
-      "bubbles": false
+      "bubbles": false,
+      "cancelable": false
     },
     {
       "href": "https://www.w3.org/TR/pointerevents3/#dfn-gotpointercapture",
@@ -122,7 +131,8 @@
       "targets": [
         "GlobalEventHandlers"
       ],
-      "bubbles": true
+      "bubbles": true,
+      "cancelable": false
     },
     {
       "href": "https://www.w3.org/TR/pointerevents3/#dfn-lostpointercapture",
@@ -134,7 +144,8 @@
       "targets": [
         "GlobalEventHandlers"
       ],
-      "bubbles": true
+      "bubbles": true,
+      "cancelable": false
     }
   ]
 }

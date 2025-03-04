@@ -1,47 +1,54 @@
 {
   "spec": {
-    "title": "Compression Streams",
-    "url": "https://wicg.github.io/compression/"
+    "title": "Compression Standard",
+    "url": "https://compression.spec.whatwg.org/"
   },
   "links": {
-    "http://www.w3.org/community/": {},
-    "https://datatracker.ietf.org/doc/html/rfc2119": {},
-    "https://developer.mozilla.org/en-US/docs/Web/API/CompressionStream": {},
-    "https://developer.mozilla.org/en-US/docs/Web/API/CompressionStream/CompressionStream": {},
-    "https://developer.mozilla.org/en-US/docs/Web/API/DecompressionStream": {},
-    "https://developer.mozilla.org/en-US/docs/Web/API/DecompressionStream/DecompressionStream": {},
-    "https://httpwg.org/specs/rfc7230.html": {
-      "specShortname": "rfc7230"
+    "rawlinks": {
+      "https://creativecommons.org/licenses/by/4.0/": {},
+      "https://developer.mozilla.org/en-US/docs/Web/API/CompressionStream": {},
+      "https://developer.mozilla.org/en-US/docs/Web/API/CompressionStream/CompressionStream": {},
+      "https://developer.mozilla.org/en-US/docs/Web/API/DecompressionStream": {},
+      "https://developer.mozilla.org/en-US/docs/Web/API/DecompressionStream/DecompressionStream": {},
+      "https://google.com/": {},
+      "https://httpwg.org/specs/rfc7230.html": {},
+      "https://infra.spec.whatwg.org/": {},
+      "https://opensource.org/licenses/BSD-3-Clause": {},
+      "https://streams.spec.whatwg.org/": {},
+      "https://webidl.spec.whatwg.org/": {},
+      "https://www.rfc-editor.org/rfc/rfc1950": {},
+      "https://www.rfc-editor.org/rfc/rfc1951": {},
+      "https://www.rfc-editor.org/rfc/rfc1952": {},
+      "https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document": {}
     },
-    "https://streams.spec.whatwg.org/": {
-      "anchors": [
-        "readablestream",
-        "writablestream",
-        "generictransformstream",
-        "generictransformstream-transform",
-        "transformstream",
-        "transformstream-set-up",
-        "transformstream-set-up-transformalgorithm",
-        "transformstream-set-up-flushalgorithm",
-        "transformstream-enqueue"
-      ],
-      "specShortname": "streams"
-    },
-    "https://webidl.spec.whatwg.org/": {
-      "anchors": [
-        "BufferSource",
-        "idl-DOMString",
-        "exceptiondef-typeerror",
-        "this",
-        "new",
-        "idl-Uint8Array"
-      ],
-      "specShortname": "webidl"
-    },
-    "https://www.rfc-editor.org/rfc/rfc1950": {},
-    "https://www.rfc-editor.org/rfc/rfc1951": {},
-    "https://www.rfc-editor.org/rfc/rfc1952": {},
-    "https://www.w3.org/community/about/agreements/cla/": {},
-    "https://www.w3.org/community/wicg/": {}
+    "autolinks": {
+      "https://infra.spec.whatwg.org/": {
+        "anchors": [
+          "list-iterate"
+        ]
+      },
+      "https://streams.spec.whatwg.org/": {
+        "anchors": [
+          "readablestream",
+          "writablestream",
+          "generictransformstream",
+          "generictransformstream-transform",
+          "transformstream",
+          "transformstream-set-up",
+          "transformstream-set-up-transformalgorithm",
+          "transformstream-set-up-flushalgorithm",
+          "transformstream-enqueue"
+        ]
+      },
+      "https://webidl.spec.whatwg.org/": {
+        "anchors": [
+          "BufferSource",
+          "exceptiondef-typeerror",
+          "this",
+          "new",
+          "idl-Uint8Array"
+        ]
+      }
+    }
   }
 }

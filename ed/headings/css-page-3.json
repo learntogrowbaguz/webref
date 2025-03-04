@@ -8,7 +8,7 @@
       "id": "title",
       "href": "https://drafts.csswg.org/css-page-3/#title",
       "level": 1,
-      "title": "9 TestsCSS Paged Media Module Level 3"
+      "title": "CSS Paged Media Module Level 3"
     },
     {
       "id": "abstract",
@@ -326,7 +326,8 @@
       "id": "properties-list",
       "href": "https://drafts.csswg.org/css-page-3/#properties-list",
       "level": 2,
-      "title": "Appendix A: Applicable CSS2.1 Properties"
+      "title": "Applicable CSS2.1 Properties",
+      "number": "A"
     },
     {
       "id": "page-property-list",
@@ -344,7 +345,8 @@
       "id": "transfer-possibilities",
       "href": "https://drafts.csswg.org/css-page-3/#transfer-possibilities",
       "level": 2,
-      "title": "Appendix B: Transfer Possibilities"
+      "title": "Transfer Possibilities",
+      "number": "B"
     },
     {
       "id": "priv-sec",

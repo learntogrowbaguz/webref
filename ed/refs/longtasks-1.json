@@ -15,19 +15,23 @@
       },
       {
         "name": "HR-TIME-2",
-        "url": "https://www.w3.org/TR/hr-time-2/"
+        "url": "https://w3c.github.io/hr-time/"
       },
       {
         "name": "HR-TIME-3",
-        "url": "https://www.w3.org/TR/hr-time-3/"
+        "url": "https://w3c.github.io/hr-time/"
       },
       {
         "name": "HTML",
         "url": "https://html.spec.whatwg.org/multipage/"
       },
       {
+        "name": "LONG-ANIMATION-FRAMES",
+        "url": "https://w3c.github.io/long-animation-frames/"
+      },
+      {
         "name": "PERFORMANCE-TIMELINE",
-        "url": "https://www.w3.org/TR/performance-timeline/"
+        "url": "https://w3c.github.io/performance-timeline/"
       },
       {
         "name": "RFC2119",

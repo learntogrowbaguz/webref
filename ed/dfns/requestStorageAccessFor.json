@@ -1,0 +1,181 @@
+{
+  "spec": {
+    "title": "requestStorageAccessFor API",
+    "url": "https://privacycg.github.io/requestStorageAccessFor/"
+  },
+  "dfns": [
+    {
+      "id": "unpartitioned-data",
+      "href": "https://privacycg.github.io/requestStorageAccessFor/#unpartitioned-data",
+      "linkingText": [
+        "Unpartitioned data"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-rsa-for-api",
+        "href": "https://privacycg.github.io/requestStorageAccessFor/#the-rsa-for-api",
+        "title": "The requestStorageAccessFor API",
+        "number": "3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "first-party-site-context",
+      "href": "https://privacycg.github.io/requestStorageAccessFor/#first-party-site-context",
+      "linkingText": [
+        "first-party-site context"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "title",
+        "href": "https://privacycg.github.io/requestStorageAccessFor/#title",
+        "title": "requestStorageAccessFor API"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "third-party-context",
+      "href": "https://privacycg.github.io/requestStorageAccessFor/#third-party-context",
+      "linkingText": [
+        "third party context"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "title",
+        "href": "https://privacycg.github.io/requestStorageAccessFor/#title",
+        "title": "requestStorageAccessFor API"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-document-requeststorageaccessfor-requestedorigin-requestedorigin",
+      "href": "https://privacycg.github.io/requestStorageAccessFor/#dom-document-requeststorageaccessfor-requestedorigin-requestedorigin",
+      "linkingText": [
+        "requestedOrigin"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Document/requestStorageAccessFor(requestedOrigin)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-document-object",
+        "href": "https://privacycg.github.io/requestStorageAccessFor/#the-document-object",
+        "title": "Changes to Document",
+        "number": "3.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-document-requeststorageaccessfor",
+      "href": "https://privacycg.github.io/requestStorageAccessFor/#dom-document-requeststorageaccessfor",
+      "linkingText": [
+        "requestStorageAccessFor(requestedOrigin)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "Document"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-document-object",
+        "href": "https://privacycg.github.io/requestStorageAccessFor/#the-document-object",
+        "title": "Changes to Document",
+        "number": "3.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "determine-if-a-request-has-top-level-storage-access",
+      "href": "https://privacycg.github.io/requestStorageAccessFor/#determine-if-a-request-has-top-level-storage-access",
+      "linkingText": [
+        "determine if a request has top-level storage access"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "ua-policies",
+        "href": "https://privacycg.github.io/requestStorageAccessFor/#ua-policies",
+        "title": "User Agent top-level storage access policies",
+        "number": "3.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "permissiondef-top-level-storage-access",
+      "href": "https://privacycg.github.io/requestStorageAccessFor/#permissiondef-top-level-storage-access",
+      "linkingText": [
+        "top-level-storage-access"
+      ],
+      "localLinkingText": [],
+      "type": "permission",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "permissions-integration",
+        "href": "https://privacycg.github.io/requestStorageAccessFor/#permissions-integration",
+        "title": "Permissions Integration",
+        "number": "4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dictdef-toplevelstorageaccesspermissiondescriptor",
+      "href": "https://privacycg.github.io/requestStorageAccessFor/#dictdef-toplevelstorageaccesspermissiondescriptor",
+      "linkingText": [
+        "TopLevelStorageAccessPermissionDescriptor"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "title",
+        "href": "https://privacycg.github.io/requestStorageAccessFor/#title",
+        "title": "requestStorageAccessFor API"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-toplevelstorageaccesspermissiondescriptor-requestedorigin",
+      "href": "https://privacycg.github.io/requestStorageAccessFor/#dom-toplevelstorageaccesspermissiondescriptor-requestedorigin",
+      "linkingText": [
+        "requestedOrigin"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "TopLevelStorageAccessPermissionDescriptor"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "title",
+        "href": "https://privacycg.github.io/requestStorageAccessFor/#title",
+        "title": "requestStorageAccessFor API"
+      },
+      "definedIn": "pre"
+    }
+  ]
+}

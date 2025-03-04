@@ -32,7 +32,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "accept-ch-cache-definition",
@@ -56,10 +56,9 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "accept-ch-cache-definition",
-        "href": "https://wicg.github.io/client-hints-infrastructure/#accept-ch-cache-definition",
-        "title": "Accept-CH cache",
-        "number": "3.2"
+        "id": "title",
+        "href": "https://wicg.github.io/client-hints-infrastructure/#title",
+        "title": "Client Hints Infrastructure"
       },
       "definedIn": "prose"
     },
@@ -77,10 +76,9 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "accept-ch-cache-definition",
-        "href": "https://wicg.github.io/client-hints-infrastructure/#accept-ch-cache-definition",
-        "title": "Accept-CH cache",
-        "number": "3.2"
+        "id": "title",
+        "href": "https://wicg.github.io/client-hints-infrastructure/#title",
+        "title": "Client Hints Infrastructure"
       },
       "definedIn": "prose"
     },
@@ -96,10 +94,9 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "accept-ch-cache-definition",
-        "href": "https://wicg.github.io/client-hints-infrastructure/#accept-ch-cache-definition",
-        "title": "Accept-CH cache",
-        "number": "3.2"
+        "id": "title",
+        "href": "https://wicg.github.io/client-hints-infrastructure/#title",
+        "title": "Client Hints Infrastructure"
       },
       "definedIn": "prose"
     },
@@ -115,18 +112,17 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "accept-ch-cache-definition",
-        "href": "https://wicg.github.io/client-hints-infrastructure/#accept-ch-cache-definition",
-        "title": "Accept-CH cache",
-        "number": "3.2"
+        "id": "title",
+        "href": "https://wicg.github.io/client-hints-infrastructure/#title",
+        "title": "Client Hints Infrastructure"
       },
       "definedIn": "prose"
     },
     {
-      "id": "abstract-opdef-should-reload-page-for-critical-client-hints",
-      "href": "https://wicg.github.io/client-hints-infrastructure/#abstract-opdef-should-reload-page-for-critical-client-hints",
+      "id": "abstract-opdef-should-restart-loading-the-page-for-critical-client-hints",
+      "href": "https://wicg.github.io/client-hints-infrastructure/#abstract-opdef-should-restart-loading-the-page-for-critical-client-hints",
       "linkingText": [
-        "should reload page for critical client hints"
+        "should restart loading the page for critical client hints"
       ],
       "localLinkingText": [],
       "type": "abstract-op",
@@ -161,10 +157,10 @@
       "definedIn": "heading"
     },
     {
-      "id": "has-reloaded-for-critical-ch",
-      "href": "https://wicg.github.io/client-hints-infrastructure/#has-reloaded-for-critical-ch",
+      "id": "critical-ch-restart-time",
+      "href": "https://wicg.github.io/client-hints-infrastructure/#critical-ch-restart-time",
       "linkingText": [
-        "has reloaded for Critical-CH"
+        "Critical-CH restart time"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -231,10 +227,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "request-processing",
-        "href": "https://wicg.github.io/client-hints-infrastructure/#request-processing",
-        "title": "Request processing",
-        "number": "5"
+        "id": "title",
+        "href": "https://wicg.github.io/client-hints-infrastructure/#title",
+        "title": "Client Hints Infrastructure"
       },
       "definedIn": "prose"
     },
@@ -543,6 +538,25 @@
       "definedIn": "prose"
     },
     {
+      "id": "ch-ua-form-factors",
+      "href": "https://wicg.github.io/client-hints-infrastructure/#ch-ua-form-factors",
+      "linkingText": [
+        "ch-ua-form-factors"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "policy-controlled-features",
+        "href": "https://wicg.github.io/client-hints-infrastructure/#policy-controlled-features",
+        "title": "Policy-controlled features",
+        "number": "7.2"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "ch-ua-full-version",
       "href": "https://wicg.github.io/client-hints-infrastructure/#ch-ua-full-version",
       "linkingText": [
@@ -707,10 +721,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "low-entropy-table",
-        "href": "https://wicg.github.io/client-hints-infrastructure/#low-entropy-table",
-        "title": "Low-entropy hint table",
-        "number": "7.3"
+        "id": "title",
+        "href": "https://wicg.github.io/client-hints-infrastructure/#title",
+        "title": "Client Hints Infrastructure"
       },
       "definedIn": "prose"
     },

@@ -27,11 +27,11 @@
       },
       {
         "name": "CSS-COLOR-4",
-        "url": "https://drafts.csswg.org/css-color/"
+        "url": "https://drafts.csswg.org/css-color-4/"
       },
       {
         "name": "CSS-DISPLAY-4",
-        "url": "https://drafts.csswg.org/css-display-4/"
+        "url": "https://drafts.csswg.org/css-display/"
       },
       {
         "name": "CSS-EASING-1",
@@ -39,7 +39,7 @@
       },
       {
         "name": "CSS-EASING-2",
-        "url": "https://drafts.csswg.org/css-easing-2/"
+        "url": "https://drafts.csswg.org/css-easing/"
       },
       {
         "name": "CSS-FONTS-4",
@@ -64,10 +64,6 @@
       {
         "name": "CSS-TEXT-DECOR-4",
         "url": "https://drafts.csswg.org/css-text-decor-4/"
-      },
-      {
-        "name": "CSS-TRANSFORMS-1",
-        "url": "https://drafts.csswg.org/css-transforms/"
       },
       {
         "name": "CSS-TRANSITIONS-1",
@@ -96,10 +92,6 @@
       {
         "name": "CSS-WRITING-MODES-4",
         "url": "https://drafts.csswg.org/css-writing-modes-4/"
-      },
-      {
-        "name": "CSS22",
-        "url": "https://drafts.csswg.org/css2/"
       },
       {
         "name": "CSSOM",
@@ -163,6 +155,14 @@
       }
     ],
     "informative": [
+      {
+        "name": "CSS-TRANSFORMS-1",
+        "url": "https://drafts.csswg.org/css-transforms/"
+      },
+      {
+        "name": "CSS2",
+        "url": "https://drafts.csswg.org/css2/"
+      },
       {
         "name": "SMIL-ANIMATION",
         "url": "https://www.w3.org/TR/smil-animation/"

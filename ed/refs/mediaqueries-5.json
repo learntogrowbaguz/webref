@@ -6,6 +6,10 @@
   "refs": {
     "normative": [
       {
+        "name": "APPMANIFEST",
+        "url": "https://w3c.github.io/manifest/"
+      },
+      {
         "name": "COLORIMETRY",
         "url": "http://www.cie.co.at/publications/colorimetry-4th-edition"
       },
@@ -22,8 +26,8 @@
         "url": "https://drafts.csswg.org/css-conditional-3/"
       },
       {
-        "name": "CSS-EXTENSIONS",
-        "url": "https://drafts.csswg.org/css-extensions/"
+        "name": "CSS-EXTENSIONS-1",
+        "url": "https://drafts.csswg.org/css-extensions-1/"
       },
       {
         "name": "CSS-SYNTAX-3",
@@ -46,8 +50,20 @@
         "url": "https://drafts.csswg.org/cssom-view/"
       },
       {
+        "name": "DOM",
+        "url": "https://dom.spec.whatwg.org/"
+      },
+      {
+        "name": "FULLSCREEN",
+        "url": "https://fullscreen.spec.whatwg.org/"
+      },
+      {
         "name": "HTML",
         "url": "https://html.spec.whatwg.org/multipage/"
+      },
+      {
+        "name": "INFRA",
+        "url": "https://infra.spec.whatwg.org/"
       },
       {
         "name": "MEDIAQUERIES-3",
@@ -60,13 +76,21 @@
       {
         "name": "RFC2119",
         "url": "https://datatracker.ietf.org/doc/html/rfc2119"
+      },
+      {
+        "name": "SAVEDATA",
+        "url": "https://wicg.github.io/savedata/"
+      },
+      {
+        "name": "USER-PREFERENCE-MEDIA-FEATURES-HEADERS",
+        "url": "https://wicg.github.io/user-preference-media-features-headers/"
+      },
+      {
+        "name": "WEBIDL",
+        "url": "https://webidl.spec.whatwg.org/"
       }
     ],
     "informative": [
-      {
-        "name": "APPMANIFEST",
-        "url": "https://w3c.github.io/manifest/"
-      },
       {
         "name": "CSS-FONTS-4",
         "url": "https://drafts.csswg.org/css-fonts-4/"
@@ -76,16 +100,8 @@
         "url": "https://www.color.org/chardata/rgb/DisplayP3.xalter"
       },
       {
-        "name": "FULLSCREEN",
-        "url": "https://fullscreen.spec.whatwg.org/"
-      },
-      {
         "name": "HTML401",
         "url": "https://www.w3.org/TR/html401/"
-      },
-      {
-        "name": "INFRA",
-        "url": "https://infra.spec.whatwg.org/"
       },
       {
         "name": "ITU-R-BT-2020-2",

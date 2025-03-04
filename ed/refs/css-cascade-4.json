@@ -14,12 +14,12 @@
         "url": "https://drafts.csswg.org/css-backgrounds/"
       },
       {
-        "name": "CSS-CASCADE-5",
-        "url": "https://drafts.csswg.org/css-cascade-5/"
+        "name": "CSS-COLOR-4",
+        "url": "https://drafts.csswg.org/css-color-4/"
       },
       {
-        "name": "CSS-COLOR-4",
-        "url": "https://drafts.csswg.org/css-color/"
+        "name": "CSS-COLOR-5",
+        "url": "https://drafts.csswg.org/css-color-5/"
       },
       {
         "name": "CSS-CONDITIONAL-3",
@@ -35,11 +35,15 @@
       },
       {
         "name": "CSS-DISPLAY-4",
-        "url": "https://drafts.csswg.org/css-display-4/"
+        "url": "https://drafts.csswg.org/css-display/"
       },
       {
         "name": "CSS-FONTS-4",
         "url": "https://drafts.csswg.org/css-fonts-4/"
+      },
+      {
+        "name": "CSS-NAMESPACES-3",
+        "url": "https://drafts.csswg.org/css-namespaces/"
       },
       {
         "name": "CSS-PSEUDO-4",
@@ -174,10 +178,6 @@
       {
         "name": "CSS-WRITING-MODES-4",
         "url": "https://drafts.csswg.org/css-writing-modes-4/"
-      },
-      {
-        "name": "CSS22",
-        "url": "https://drafts.csswg.org/css2/"
       },
       {
         "name": "SVG11",

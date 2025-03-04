@@ -24,25 +24,6 @@
       "definedIn": "prose"
     },
     {
-      "id": "active-picture-in-picture-session",
-      "href": "https://www.w3.org/TR/picture-in-picture/#active-picture-in-picture-session",
-      "linkingText": [
-        "active Picture-in-Picture session"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "defines",
-        "href": "https://www.w3.org/TR/picture-in-picture/#defines",
-        "title": "Internal Slot Definitions",
-        "number": "3.1"
-      },
-      "definedIn": "prose"
-    },
-    {
       "id": "request-picture-in-picture-algorithm",
       "href": "https://www.w3.org/TR/picture-in-picture/#request-picture-in-picture-algorithm",
       "linkingText": [

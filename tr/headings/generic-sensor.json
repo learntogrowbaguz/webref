@@ -393,10 +393,10 @@
       "number": "8.5"
     },
     {
-      "id": "revoke-sensor-permission",
-      "href": "https://www.w3.org/TR/generic-sensor/#revoke-sensor-permission",
+      "id": "generic-sensor-permission-revocation-algorithm",
+      "href": "https://www.w3.org/TR/generic-sensor/#generic-sensor-permission-revocation-algorithm",
       "level": 3,
-      "title": "Revoke sensor permission",
+      "title": "Generic Sensor permission revocation algorithm",
       "number": "8.6"
     },
     {
@@ -414,52 +414,52 @@
       "number": "8.8"
     },
     {
-      "id": "find-the-reporting-frequency-of-a-sensor-object",
-      "href": "https://www.w3.org/TR/generic-sensor/#find-the-reporting-frequency-of-a-sensor-object",
-      "level": 3,
-      "title": "Find the reporting frequency of a sensor object",
-      "number": "8.9"
-    },
-    {
       "id": "report-latest-reading-updated",
       "href": "https://www.w3.org/TR/generic-sensor/#report-latest-reading-updated",
       "level": 3,
       "title": "Report latest reading updated",
-      "number": "8.10"
+      "number": "8.9"
     },
     {
       "id": "notify-new-reading",
       "href": "https://www.w3.org/TR/generic-sensor/#notify-new-reading",
       "level": 3,
       "title": "Notify new reading",
-      "number": "8.11"
+      "number": "8.10"
     },
     {
       "id": "notify-activated-state",
       "href": "https://www.w3.org/TR/generic-sensor/#notify-activated-state",
       "level": 3,
       "title": "Notify activated state",
-      "number": "8.12"
+      "number": "8.11"
     },
     {
       "id": "notify-error",
       "href": "https://www.w3.org/TR/generic-sensor/#notify-error",
       "level": 3,
       "title": "Notify error",
-      "number": "8.13"
+      "number": "8.12"
     },
     {
       "id": "get-value-from-latest-reading",
       "href": "https://www.w3.org/TR/generic-sensor/#get-value-from-latest-reading",
       "level": 3,
       "title": "Get value from latest reading",
-      "number": "8.14"
+      "number": "8.13"
     },
     {
       "id": "request-sensor-access",
       "href": "https://www.w3.org/TR/generic-sensor/#request-sensor-access",
       "level": 3,
       "title": "Request sensor access",
+      "number": "8.14"
+    },
+    {
+      "id": "focus-and-origin-check",
+      "href": "https://www.w3.org/TR/generic-sensor/#focus-and-origin-check",
+      "level": 3,
+      "title": "Focus and origin check",
       "number": "8.15"
     },
     {
@@ -470,32 +470,11 @@
       "number": "9"
     },
     {
-      "id": "mock-sensors",
-      "href": "https://www.w3.org/TR/generic-sensor/#mock-sensors",
+      "id": "virtual-sensors",
+      "href": "https://www.w3.org/TR/generic-sensor/#virtual-sensors",
       "level": 3,
-      "title": "Mock Sensors",
+      "title": "Virtual Sensors",
       "number": "9.1"
-    },
-    {
-      "id": "dictionary-mocksensorconfiguration",
-      "href": "https://www.w3.org/TR/generic-sensor/#dictionary-mocksensorconfiguration",
-      "level": 4,
-      "title": "MockSensorConfiguration dictionary",
-      "number": "9.1.1"
-    },
-    {
-      "id": "dictionary-mocksensor",
-      "href": "https://www.w3.org/TR/generic-sensor/#dictionary-mocksensor",
-      "level": 4,
-      "title": "MockSensor dictionary",
-      "number": "9.1.2"
-    },
-    {
-      "id": "section-mock-sensor-type",
-      "href": "https://www.w3.org/TR/generic-sensor/#section-mock-sensor-type",
-      "level": 4,
-      "title": "Mock sensor type",
-      "number": "9.1.3"
     },
     {
       "id": "section-extension-commands",
@@ -505,39 +484,53 @@
       "number": "9.2"
     },
     {
-      "id": "create-mock-sensor-command",
-      "href": "https://www.w3.org/TR/generic-sensor/#create-mock-sensor-command",
+      "id": "create-virtual-sensor-command",
+      "href": "https://www.w3.org/TR/generic-sensor/#create-virtual-sensor-command",
       "level": 4,
-      "title": "Create mock sensor",
+      "title": "Create virtual sensor",
       "number": "9.2.1"
     },
     {
-      "id": "get-mock-sensor-command",
-      "href": "https://www.w3.org/TR/generic-sensor/#get-mock-sensor-command",
+      "id": "get-virtual-sensor-information-command",
+      "href": "https://www.w3.org/TR/generic-sensor/#get-virtual-sensor-information-command",
       "level": 4,
-      "title": "Get mock sensor",
+      "title": "Get virtual sensor information",
       "number": "9.2.2"
     },
     {
-      "id": "update-mock-sensor-reading-command",
-      "href": "https://www.w3.org/TR/generic-sensor/#update-mock-sensor-reading-command",
+      "id": "update-virtual-sensor-reading-command",
+      "href": "https://www.w3.org/TR/generic-sensor/#update-virtual-sensor-reading-command",
       "level": 4,
-      "title": "Update mock sensor reading",
+      "title": "Update virtual sensor reading",
       "number": "9.2.3"
     },
     {
-      "id": "delete-mock-sensor-command",
-      "href": "https://www.w3.org/TR/generic-sensor/#delete-mock-sensor-command",
-      "level": 4,
-      "title": "Delete mock sensor",
-      "number": "9.2.4"
+      "id": "algorithms-for-parsing-readings",
+      "href": "https://www.w3.org/TR/generic-sensor/#algorithms-for-parsing-readings",
+      "level": 5,
+      "title": "Algorithms for parsing readings",
+      "number": "9.2.3.1"
     },
     {
-      "id": "extension-handling-errors",
-      "href": "https://www.w3.org/TR/generic-sensor/#extension-handling-errors",
-      "level": 3,
-      "title": "Handling errors",
-      "number": "9.3"
+      "id": "parse-single-value-number-reading",
+      "href": "https://www.w3.org/TR/generic-sensor/#parse-single-value-number-reading",
+      "level": 6,
+      "title": "Parse single-value number reading",
+      "number": "9.2.3.1.1"
+    },
+    {
+      "id": "parse-xyz-reading",
+      "href": "https://www.w3.org/TR/generic-sensor/#parse-xyz-reading",
+      "level": 6,
+      "title": "Parse XYZ reading",
+      "number": "9.2.3.1.2"
+    },
+    {
+      "id": "delete-virtual-sensor-command",
+      "href": "https://www.w3.org/TR/generic-sensor/#delete-virtual-sensor-command",
+      "level": 4,
+      "title": "Delete virtual sensor",
+      "number": "9.2.4"
     },
     {
       "id": "extensibility",
@@ -622,28 +615,22 @@
       "title": "11. Acknowledgements"
     },
     {
-      "id": "conformance",
-      "href": "https://www.w3.org/TR/generic-sensor/#conformance",
+      "id": "w3c-conformance",
+      "href": "https://www.w3.org/TR/generic-sensor/#w3c-conformance",
       "level": 2,
       "title": "Conformance"
     },
     {
-      "id": "conventions",
-      "href": "https://www.w3.org/TR/generic-sensor/#conventions",
+      "id": "w3c-conventions",
+      "href": "https://www.w3.org/TR/generic-sensor/#w3c-conventions",
       "level": 3,
       "title": "Document conventions"
     },
     {
-      "id": "conformant-algorithms",
-      "href": "https://www.w3.org/TR/generic-sensor/#conformant-algorithms",
+      "id": "w3c-conformant-algorithms",
+      "href": "https://www.w3.org/TR/generic-sensor/#w3c-conformant-algorithms",
       "level": 3,
       "title": "Conformant Algorithms"
-    },
-    {
-      "id": "conformance-classes",
-      "href": "https://www.w3.org/TR/generic-sensor/#conformance-classes",
-      "level": 3,
-      "title": "Conformance Classes"
     },
     {
       "id": "index",

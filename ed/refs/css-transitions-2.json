@@ -6,6 +6,10 @@
   "refs": {
     "normative": [
       {
+        "name": "CSS-ANIMATIONS-1",
+        "url": "https://drafts.csswg.org/css-animations/"
+      },
+      {
         "name": "CSS-BACKGROUNDS-3",
         "url": "https://drafts.csswg.org/css-backgrounds/"
       },
@@ -15,11 +19,19 @@
       },
       {
         "name": "CSS-EASING-2",
-        "url": "https://drafts.csswg.org/css-easing-2/"
+        "url": "https://drafts.csswg.org/css-easing/"
       },
       {
-        "name": "CSS3-TRANSITIONS",
+        "name": "CSS-FONTS-5",
+        "url": "https://drafts.csswg.org/css-fonts-5/"
+      },
+      {
+        "name": "CSS-TRANSITIONS-1",
         "url": "https://drafts.csswg.org/css-transitions/"
+      },
+      {
+        "name": "CSS-VALUES-4",
+        "url": "https://drafts.csswg.org/css-values-4/"
       },
       {
         "name": "CSSOM-1",
@@ -49,7 +61,11 @@
     "informative": [
       {
         "name": "CSS-COLOR-4",
-        "url": "https://drafts.csswg.org/css-color/"
+        "url": "https://drafts.csswg.org/css-color-4/"
+      },
+      {
+        "name": "CSS-DISPLAY-4",
+        "url": "https://drafts.csswg.org/css-display/"
       },
       {
         "name": "WEB-ANIMATIONS-2",

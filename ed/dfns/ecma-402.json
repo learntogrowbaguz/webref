@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "ECMAScript® 2023 Internationalization API Specification",
+    "title": "ECMAScript® 2025 Internationalization API Specification",
     "url": "https://tc39.es/ecma402/"
   },
   "dfns": [
@@ -23,6 +23,63 @@
       "definedIn": "prose"
     },
     {
+      "id": "bcp-47-subtag",
+      "href": "https://tc39.es/ecma402/#bcp-47-subtag",
+      "linkingText": [
+        "subtags"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-language-tags",
+        "href": "https://tc39.es/ecma402/#sec-language-tags",
+        "title": "Language Tags",
+        "number": "6.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "unicode-locale-extension-sequence",
+      "href": "https://tc39.es/ecma402/#unicode-locale-extension-sequence",
+      "linkingText": [
+        "Unicode locale extension sequence"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-language-tags",
+        "href": "https://tc39.es/ecma402/#sec-language-tags",
+        "title": "Language Tags",
+        "number": "6.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "rename-waiting-period",
+      "href": "https://tc39.es/ecma402/#rename-waiting-period",
+      "linkingText": [
+        "rename waiting period"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-use-of-iana-time-zone-database",
+        "href": "https://tc39.es/ecma402/#sec-use-of-iana-time-zone-database",
+        "title": "Use of the IANA Time Zone Database",
+        "number": "6.5"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "service-constructor",
       "href": "https://tc39.es/ecma402/#service-constructor",
       "linkingText": [
@@ -38,6 +95,272 @@
         "href": "https://tc39.es/ecma402/#sec-constructor-properties-of-the-intl-object",
         "title": "Constructor Properties of the Intl Object",
         "number": "8.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "available-locales-list",
+      "href": "https://tc39.es/ecma402/#available-locales-list",
+      "linkingText": [
+        "Available Locales List"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "locale-and-parameter-negotiation",
+        "href": "https://tc39.es/ecma402/#locale-and-parameter-negotiation",
+        "title": "Locale and Parameter Negotiation",
+        "number": "9"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "language-priority-list",
+      "href": "https://tc39.es/ecma402/#language-priority-list",
+      "linkingText": [
+        "Language Priority List"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "locale-and-parameter-negotiation",
+        "href": "https://tc39.es/ecma402/#locale-and-parameter-negotiation",
+        "title": "Locale and Parameter Negotiation",
+        "number": "9"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "datetimeformat-format-record",
+      "href": "https://tc39.es/ecma402/#datetimeformat-format-record",
+      "linkingText": [
+        "DateTime Format Record"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-datetimeformat-format-record",
+        "href": "https://tc39.es/ecma402/#sec-datetimeformat-format-record",
+        "title": "DateTime Format Records",
+        "number": "11.2.3.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "datetimeformat-range-pattern-record",
+      "href": "https://tc39.es/ecma402/#datetimeformat-range-pattern-record",
+      "linkingText": [
+        "DateTime Range Pattern Record"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-datetimeformat-range-pattern-record",
+        "href": "https://tc39.es/ecma402/#sec-datetimeformat-range-pattern-record",
+        "title": "DateTime Range Pattern Records",
+        "number": "11.2.3.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "datetimeformat-range-pattern-format-record",
+      "href": "https://tc39.es/ecma402/#datetimeformat-range-pattern-format-record",
+      "linkingText": [
+        "DateTime Range Pattern Format Record"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-datetimeformat-range-pattern-format-record",
+        "href": "https://tc39.es/ecma402/#sec-datetimeformat-range-pattern-format-record",
+        "title": "DateTime Range Pattern Format Records",
+        "number": "11.2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "datetimeformat-range-pattern-part-record",
+      "href": "https://tc39.es/ecma402/#datetimeformat-range-pattern-part-record",
+      "linkingText": [
+        "DateTime Range Pattern Part Record"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-datetimeformat-range-pattern-part-record",
+        "href": "https://tc39.es/ecma402/#sec-datetimeformat-range-pattern-part-record",
+        "title": "DateTime Range Pattern Part Records",
+        "number": "11.2.3.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "datetimeformat-styles-record",
+      "href": "https://tc39.es/ecma402/#datetimeformat-styles-record",
+      "linkingText": [
+        "DateTime Styles Record"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-datetimeformat-styles-record",
+        "href": "https://tc39.es/ecma402/#sec-datetimeformat-styles-record",
+        "title": "DateTime Styles Records",
+        "number": "11.2.3.5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "datetimeformat-style-record",
+      "href": "https://tc39.es/ecma402/#datetimeformat-style-record",
+      "linkingText": [
+        "DateTime Style Record"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-datetimeformat-style-record",
+        "href": "https://tc39.es/ecma402/#sec-datetimeformat-style-record",
+        "title": "DateTime Style Records",
+        "number": "11.2.3.6"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "datetimeformat-connector-record",
+      "href": "https://tc39.es/ecma402/#datetimeformat-connector-record",
+      "linkingText": [
+        "DateTime Connector Record"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-datetimeformat-connector-record",
+        "href": "https://tc39.es/ecma402/#sec-datetimeformat-connector-record",
+        "title": "DateTime Connector Records",
+        "number": "11.2.3.7"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "datetimeformat-date-range-record",
+      "href": "https://tc39.es/ecma402/#datetimeformat-date-range-record",
+      "linkingText": [
+        "DateTime Date Range Record"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-datetimeformat-date-range-record",
+        "href": "https://tc39.es/ecma402/#sec-datetimeformat-date-range-record",
+        "title": "DateTime Date Range Records",
+        "number": "11.2.3.8"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "datetimeformat-time-range-record",
+      "href": "https://tc39.es/ecma402/#datetimeformat-time-range-record",
+      "linkingText": [
+        "DateTime Time Range Record"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-datetimeformat-time-range-record",
+        "href": "https://tc39.es/ecma402/#sec-datetimeformat-time-range-record",
+        "title": "DateTime Time Range Records",
+        "number": "11.2.3.9"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "datetimeformat-style-range-record",
+      "href": "https://tc39.es/ecma402/#datetimeformat-style-range-record",
+      "linkingText": [
+        "DateTime Style Range Record"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-datetimeformat-style-range-record",
+        "href": "https://tc39.es/ecma402/#sec-datetimeformat-style-range-record",
+        "title": "DateTime Style Range Records",
+        "number": "11.2.3.10"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "datetimeformat-tolocaltime-record",
+      "href": "https://tc39.es/ecma402/#datetimeformat-tolocaltime-record",
+      "linkingText": [
+        "ToLocalTime Record"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-datetimeformat-tolocaltime-records",
+        "href": "https://tc39.es/ecma402/#sec-datetimeformat-tolocaltime-records",
+        "title": "ToLocalTime Records",
+        "number": "11.5.13"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "intl-mathematical-value",
+      "href": "https://tc39.es/ecma402/#intl-mathematical-value",
+      "linkingText": [
+        "Intl mathematical value"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-tointlmathematicalvalue",
+        "href": "https://tc39.es/ecma402/#sec-tointlmathematicalvalue",
+        "title": "ToIntlMathematicalValue ( value )",
+        "number": "16.5.16"
       },
       "definedIn": "prose"
     }

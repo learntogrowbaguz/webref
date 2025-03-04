@@ -1732,7 +1732,7 @@
       "localLinkingText": [],
       "type": "event",
       "for": [
-        "XMLHttpRequest"
+        "XMLHttpRequestEventTarget"
       ],
       "access": "public",
       "informative": false,
@@ -1753,7 +1753,7 @@
       "localLinkingText": [],
       "type": "event",
       "for": [
-        "XMLHttpRequest"
+        "XMLHttpRequestEventTarget"
       ],
       "access": "public",
       "informative": false,
@@ -1774,7 +1774,7 @@
       "localLinkingText": [],
       "type": "event",
       "for": [
-        "XMLHttpRequest"
+        "XMLHttpRequestEventTarget"
       ],
       "access": "public",
       "informative": false,
@@ -1795,7 +1795,7 @@
       "localLinkingText": [],
       "type": "event",
       "for": [
-        "XMLHttpRequest"
+        "XMLHttpRequestEventTarget"
       ],
       "access": "public",
       "informative": false,
@@ -1816,7 +1816,7 @@
       "localLinkingText": [],
       "type": "event",
       "for": [
-        "XMLHttpRequest"
+        "XMLHttpRequestEventTarget"
       ],
       "access": "public",
       "informative": false,
@@ -1837,7 +1837,7 @@
       "localLinkingText": [],
       "type": "event",
       "for": [
-        "XMLHttpRequest"
+        "XMLHttpRequestEventTarget"
       ],
       "access": "public",
       "informative": false,
@@ -1858,7 +1858,7 @@
       "localLinkingText": [],
       "type": "event",
       "for": [
-        "XMLHttpRequest"
+        "XMLHttpRequestEventTarget"
       ],
       "access": "public",
       "informative": false,
@@ -1909,14 +1909,42 @@
       "definedIn": "pre"
     },
     {
-      "id": "dom-formdata-formdata-form-form",
-      "href": "https://xhr.spec.whatwg.org/#dom-formdata-formdata-form-form",
+      "id": "dom-formdata-formdata-form-submitter-form",
+      "href": "https://xhr.spec.whatwg.org/#dom-formdata-formdata-form-submitter-form",
       "linkingText": [
         "form"
       ],
       "localLinkingText": [],
       "type": "argument",
       "for": [
+        "FormData/FormData(form, submitter)",
+        "FormData/constructor(form, submitter)",
+        "FormData/FormData(form)",
+        "FormData/constructor(form)",
+        "FormData/FormData()",
+        "FormData/constructor()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interface-formdata",
+        "href": "https://xhr.spec.whatwg.org/#interface-formdata",
+        "title": "Interface FormData",
+        "number": "4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-formdata-formdata-form-submitter-submitter",
+      "href": "https://xhr.spec.whatwg.org/#dom-formdata-formdata-form-submitter-submitter",
+      "linkingText": [
+        "submitter"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "FormData/FormData(form, submitter)",
+        "FormData/constructor(form, submitter)",
         "FormData/FormData(form)",
         "FormData/constructor(form)",
         "FormData/FormData()",
@@ -2257,6 +2285,8 @@
       "id": "dom-formdata",
       "href": "https://xhr.spec.whatwg.org/#dom-formdata",
       "linkingText": [
+        "FormData(form, submitter)",
+        "constructor(form, submitter)",
         "FormData(form)",
         "constructor(form)",
         "FormData()",

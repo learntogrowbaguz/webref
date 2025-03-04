@@ -1,0 +1,430 @@
+{
+  "spec": {
+    "title": "Fenced Frame",
+    "url": "https://wicg.github.io/fenced-frame/"
+  },
+  "headings": [
+    {
+      "id": "title",
+      "href": "https://wicg.github.io/fenced-frame/#title",
+      "level": 1,
+      "title": "Fenced Frame"
+    },
+    {
+      "id": "abstract",
+      "href": "https://wicg.github.io/fenced-frame/#abstract",
+      "level": 2,
+      "title": "Abstract"
+    },
+    {
+      "id": "status",
+      "href": "https://wicg.github.io/fenced-frame/#status",
+      "level": 2,
+      "title": "Status of this document"
+    },
+    {
+      "id": "toc",
+      "href": "https://wicg.github.io/fenced-frame/#toc",
+      "level": 2,
+      "title": "Table of Contents"
+    },
+    {
+      "id": "introduction",
+      "href": "https://wicg.github.io/fenced-frame/#introduction",
+      "level": 2,
+      "title": "Introduction",
+      "number": "1"
+    },
+    {
+      "id": "the-fencedframe-element",
+      "href": "https://wicg.github.io/fenced-frame/#the-fencedframe-element",
+      "level": 2,
+      "title": "The fencedframe element",
+      "number": "2"
+    },
+    {
+      "id": "dimension-attributes",
+      "href": "https://wicg.github.io/fenced-frame/#dimension-attributes",
+      "level": 3,
+      "title": "Dimension attributes",
+      "number": "2.1"
+    },
+    {
+      "id": "fenced-frame-config-map",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-map",
+      "level": 3,
+      "title": "Fenced frame config mapping",
+      "number": "2.2"
+    },
+    {
+      "id": "fenced-frame-config-section",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-section",
+      "level": 3,
+      "title": "Fenced frame configs",
+      "number": "2.3"
+    },
+    {
+      "id": "fenced-frame-config-intro",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-intro",
+      "level": 4,
+      "title": "Introduction",
+      "number": "2.3.1"
+    },
+    {
+      "id": "fenced-frame-config-use-cases",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-use-cases",
+      "level": 4,
+      "title": "Use cases",
+      "number": "2.3.2"
+    },
+    {
+      "id": "fenced-frame-config-struct",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+      "level": 4,
+      "title": "The fenced frame config struct",
+      "number": "2.3.3"
+    },
+    {
+      "id": "fenced-frame-config-instance-struct",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-struct",
+      "level": 4,
+      "title": "The fenced frame config instance struct",
+      "number": "2.3.4"
+    },
+    {
+      "id": "fenced-frame-config-interface",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-interface",
+      "level": 4,
+      "title": "The FencedFrameConfig interface",
+      "number": "2.3.5"
+    },
+    {
+      "id": "fence-interface",
+      "href": "https://wicg.github.io/fenced-frame/#fence-interface",
+      "level": 3,
+      "title": "The Fence interface",
+      "number": "2.4"
+    },
+    {
+      "id": "disable-monkeypatches",
+      "href": "https://wicg.github.io/fenced-frame/#disable-monkeypatches",
+      "level": 3,
+      "title": "Monkeypatches for network revocation",
+      "number": "2.5"
+    },
+    {
+      "id": "new-request-destination",
+      "href": "https://wicg.github.io/fenced-frame/#new-request-destination",
+      "level": 3,
+      "title": "New request destination",
+      "number": "2.6"
+    },
+    {
+      "id": "gating-methods-on-network-revocation",
+      "href": "https://wicg.github.io/fenced-frame/#gating-methods-on-network-revocation",
+      "level": 3,
+      "title": "Gating methods on network revocation",
+      "number": "2.7"
+    },
+    {
+      "id": "automatic-reporting",
+      "href": "https://wicg.github.io/fenced-frame/#automatic-reporting",
+      "level": 3,
+      "title": "Automatic Reporting",
+      "number": "2.8"
+    },
+    {
+      "id": "html-integration",
+      "href": "https://wicg.github.io/fenced-frame/#html-integration",
+      "level": 2,
+      "title": "HTML Integration",
+      "number": "3"
+    },
+    {
+      "id": "window-extension",
+      "href": "https://wicg.github.io/fenced-frame/#window-extension",
+      "level": 3,
+      "title": "Extensions to the Window interface",
+      "number": "3.1"
+    },
+    {
+      "id": "document-extension",
+      "href": "https://wicg.github.io/fenced-frame/#document-extension",
+      "level": 3,
+      "title": "Document supporting concepts",
+      "number": "3.2"
+    },
+    {
+      "id": "creating-browsing-contexts-patch",
+      "href": "https://wicg.github.io/fenced-frame/#creating-browsing-contexts-patch",
+      "level": 3,
+      "title": "Modifications to creating browsing contexts",
+      "number": "3.3"
+    },
+    {
+      "id": "local-scheme-policy-container-inheritance",
+      "href": "https://wicg.github.io/fenced-frame/#local-scheme-policy-container-inheritance",
+      "level": 3,
+      "title": "Policy container inheritance",
+      "number": "3.4"
+    },
+    {
+      "id": "nested-traversables",
+      "href": "https://wicg.github.io/fenced-frame/#nested-traversables",
+      "level": 3,
+      "title": "Nested traversables",
+      "number": "3.5"
+    },
+    {
+      "id": "nested-traversables-intro",
+      "href": "https://wicg.github.io/fenced-frame/#nested-traversables-intro",
+      "level": 4,
+      "title": "Introduction",
+      "number": "3.5.1"
+    },
+    {
+      "id": "traversable-navigables",
+      "href": "https://wicg.github.io/fenced-frame/#traversable-navigables",
+      "level": 4,
+      "title": "Traversable navigables",
+      "number": "3.5.2"
+    },
+    {
+      "id": "nested-traversables-inner",
+      "href": "https://wicg.github.io/fenced-frame/#nested-traversables-inner",
+      "level": 4,
+      "title": "Nested traversables",
+      "number": "3.5.3"
+    },
+    {
+      "id": "top-level-traversables",
+      "href": "https://wicg.github.io/fenced-frame/#top-level-traversables",
+      "level": 4,
+      "title": "Top-level traversables",
+      "number": "3.5.4"
+    },
+    {
+      "id": "navigable-traversing-algorithms",
+      "href": "https://wicg.github.io/fenced-frame/#navigable-traversing-algorithms",
+      "level": 3,
+      "title": "Modifications to navigable-traversing algorithms",
+      "number": "3.6"
+    },
+    {
+      "id": "focusing-changes",
+      "href": "https://wicg.github.io/fenced-frame/#focusing-changes",
+      "level": 3,
+      "title": "Modifications to the focusing algorithms",
+      "number": "3.7"
+    },
+    {
+      "id": "navigation-patch",
+      "href": "https://wicg.github.io/fenced-frame/#navigation-patch",
+      "level": 3,
+      "title": "Navigation",
+      "number": "3.8"
+    },
+    {
+      "id": "supports-loading-mode",
+      "href": "https://wicg.github.io/fenced-frame/#supports-loading-mode",
+      "level": 4,
+      "title": "The `Supports-Loading-Mode` HTTP response header",
+      "number": "3.8.1"
+    },
+    {
+      "id": "allow-automatic-beacons",
+      "href": "https://wicg.github.io/fenced-frame/#allow-automatic-beacons",
+      "level": 4,
+      "title": "The `Allow-Fenced-Frame-Automatic-Beacons` HTTP response header",
+      "number": "3.8.2"
+    },
+    {
+      "id": "allow-cross-origin-reporting",
+      "href": "https://wicg.github.io/fenced-frame/#allow-cross-origin-reporting",
+      "level": 4,
+      "title": "The `Allow-Cross-Origin-Event-Reporting` HTTP response header",
+      "number": "3.8.3"
+    },
+    {
+      "id": "coop-coep",
+      "href": "https://wicg.github.io/fenced-frame/#coop-coep",
+      "level": 4,
+      "title": "COOP, COEP, and cross-origin isolation",
+      "number": "3.8.4"
+    },
+    {
+      "id": "navigation-changes",
+      "href": "https://wicg.github.io/fenced-frame/#navigation-changes",
+      "level": 4,
+      "title": "Actual navigation changes",
+      "number": "3.8.5"
+    },
+    {
+      "id": "bcg-swap",
+      "href": "https://wicg.github.io/fenced-frame/#bcg-swap",
+      "level": 4,
+      "title": "Browsing context group swap",
+      "number": "3.8.6"
+    },
+    {
+      "id": "unfenced-top-navigation-target",
+      "href": "https://wicg.github.io/fenced-frame/#unfenced-top-navigation-target",
+      "level": 4,
+      "title": "The \"_unfencedTop\" navigation target",
+      "number": "3.8.7"
+    },
+    {
+      "id": "page-visibility",
+      "href": "https://wicg.github.io/fenced-frame/#page-visibility",
+      "level": 3,
+      "title": "Page visibility",
+      "number": "3.9"
+    },
+    {
+      "id": "events",
+      "href": "https://wicg.github.io/fenced-frame/#events",
+      "level": 3,
+      "title": "Events",
+      "number": "3.10"
+    },
+    {
+      "id": "onfencedtreeclick-header",
+      "href": "https://wicg.github.io/fenced-frame/#onfencedtreeclick-header",
+      "level": 4,
+      "title": "onfencedtreeclick event handler",
+      "number": "3.10.1"
+    },
+    {
+      "id": "fencedtreeclick-header",
+      "href": "https://wicg.github.io/fenced-frame/#fencedtreeclick-header",
+      "level": 4,
+      "title": "fencedtreeclick event type",
+      "number": "3.10.2"
+    },
+    {
+      "id": "interaction-with-other-specs",
+      "href": "https://wicg.github.io/fenced-frame/#interaction-with-other-specs",
+      "level": 2,
+      "title": "Interactions with other specifications",
+      "number": "4"
+    },
+    {
+      "id": "prerendering-monkeypatch",
+      "href": "https://wicg.github.io/fenced-frame/#prerendering-monkeypatch",
+      "level": 3,
+      "title": "Prerendering",
+      "number": "4.1"
+    },
+    {
+      "id": "csp-integration",
+      "href": "https://wicg.github.io/fenced-frame/#csp-integration",
+      "level": 3,
+      "title": "Content Security Policy",
+      "number": "4.2"
+    },
+    {
+      "id": "csp-algorithms",
+      "href": "https://wicg.github.io/fenced-frame/#csp-algorithms",
+      "level": 4,
+      "title": "Algorithms",
+      "number": "4.2.1"
+    },
+    {
+      "id": "new-csp-directive",
+      "href": "https://wicg.github.io/fenced-frame/#new-csp-directive",
+      "level": 4,
+      "title": "New fenced-frame-src [CSP] directive",
+      "number": "4.2.2"
+    },
+    {
+      "id": "permissions-policy-changes",
+      "href": "https://wicg.github.io/fenced-frame/#permissions-policy-changes",
+      "level": 3,
+      "title": "Permissions Policies",
+      "number": "4.3"
+    },
+    {
+      "id": "permissions-policy-definitions",
+      "href": "https://wicg.github.io/fenced-frame/#permissions-policy-definitions",
+      "level": 4,
+      "title": "Definitions",
+      "number": "4.3.1"
+    },
+    {
+      "id": "permissions-policy-patches",
+      "href": "https://wicg.github.io/fenced-frame/#permissions-policy-patches",
+      "level": 4,
+      "title": "Algorithm patches",
+      "number": "4.3.2"
+    },
+    {
+      "id": "cssom-monkeypatch",
+      "href": "https://wicg.github.io/fenced-frame/#cssom-monkeypatch",
+      "level": 3,
+      "title": "CSSOM View",
+      "number": "4.4"
+    },
+    {
+      "id": "webrtc-monkeypatch",
+      "href": "https://wicg.github.io/fenced-frame/#webrtc-monkeypatch",
+      "level": 3,
+      "title": "WebRTC",
+      "number": "4.5"
+    },
+    {
+      "id": "security-and-privacy",
+      "href": "https://wicg.github.io/fenced-frame/#security-and-privacy",
+      "level": 2,
+      "title": "Security & Privacy Considerations",
+      "number": "5"
+    },
+    {
+      "id": "index",
+      "href": "https://wicg.github.io/fenced-frame/#index",
+      "level": 2,
+      "title": "Index"
+    },
+    {
+      "id": "index-defined-here",
+      "href": "https://wicg.github.io/fenced-frame/#index-defined-here",
+      "level": 3,
+      "title": "Terms defined by this specification"
+    },
+    {
+      "id": "index-defined-elsewhere",
+      "href": "https://wicg.github.io/fenced-frame/#index-defined-elsewhere",
+      "level": 3,
+      "title": "Terms defined by reference"
+    },
+    {
+      "id": "references",
+      "href": "https://wicg.github.io/fenced-frame/#references",
+      "level": 2,
+      "title": "References"
+    },
+    {
+      "id": "normative",
+      "href": "https://wicg.github.io/fenced-frame/#normative",
+      "level": 3,
+      "title": "Normative References"
+    },
+    {
+      "id": "informative",
+      "href": "https://wicg.github.io/fenced-frame/#informative",
+      "level": 3,
+      "title": "Informative References"
+    },
+    {
+      "id": "idl-index",
+      "href": "https://wicg.github.io/fenced-frame/#idl-index",
+      "level": 2,
+      "title": "IDL Index"
+    },
+    {
+      "id": "issues-index",
+      "href": "https://wicg.github.io/fenced-frame/#issues-index",
+      "level": 2,
+      "title": "Issues Index"
+    }
+  ]
+}

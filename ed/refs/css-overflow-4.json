@@ -6,12 +6,20 @@
   "refs": {
     "normative": [
       {
+        "name": "COMPAT",
+        "url": "https://compat.spec.whatwg.org/"
+      },
+      {
         "name": "CSS-BACKGROUNDS-3",
         "url": "https://drafts.csswg.org/css-backgrounds/"
       },
       {
         "name": "CSS-BOX-4",
         "url": "https://drafts.csswg.org/css-box-4/"
+      },
+      {
+        "name": "CSS-BREAK-3",
+        "url": "https://drafts.csswg.org/css-break/"
       },
       {
         "name": "CSS-BREAK-4",
@@ -22,24 +30,24 @@
         "url": "https://drafts.csswg.org/css-cascade-5/"
       },
       {
-        "name": "CSS-CONTAIN-1",
-        "url": "https://drafts.csswg.org/css-contain-1/"
-      },
-      {
-        "name": "CSS-CONTAIN-2",
-        "url": "https://drafts.csswg.org/css-contain-2/"
-      },
-      {
-        "name": "CSS-CONTENT-3",
-        "url": "https://drafts.csswg.org/css-content-3/"
-      },
-      {
         "name": "CSS-DISPLAY-4",
-        "url": "https://drafts.csswg.org/css-display-4/"
+        "url": "https://drafts.csswg.org/css-display/"
+      },
+      {
+        "name": "CSS-INLINE-3",
+        "url": "https://drafts.csswg.org/css-inline-3/"
       },
       {
         "name": "CSS-MASKING-1",
         "url": "https://drafts.fxtf.org/css-masking-1/"
+      },
+      {
+        "name": "CSS-MULTICOL-1",
+        "url": "https://drafts.csswg.org/css-multicol/"
+      },
+      {
+        "name": "CSS-MULTICOL-2",
+        "url": "https://drafts.csswg.org/css-multicol-2/"
       },
       {
         "name": "CSS-OVERFLOW-3",
@@ -52,6 +60,22 @@
       {
         "name": "CSS-PSEUDO-4",
         "url": "https://drafts.csswg.org/css-pseudo-4/"
+      },
+      {
+        "name": "CSS-SIZING-3",
+        "url": "https://drafts.csswg.org/css-sizing-3/"
+      },
+      {
+        "name": "CSS-SYNTAX-3",
+        "url": "https://drafts.csswg.org/css-syntax/"
+      },
+      {
+        "name": "CSS-TEXT-3",
+        "url": "https://drafts.csswg.org/css-text-3/"
+      },
+      {
+        "name": "CSS-TEXT-4",
+        "url": "https://drafts.csswg.org/css-text-4/"
       },
       {
         "name": "CSS-VALUES-3",
@@ -74,70 +98,34 @@
         "url": "https://drafts.csswg.org/css2/"
       },
       {
-        "name": "CSS22",
-        "url": "https://drafts.csswg.org/css2/"
-      },
-      {
-        "name": "CSS3-BREAK",
-        "url": "https://drafts.csswg.org/css-break/"
-      },
-      {
-        "name": "CSS3-FLEXBOX",
-        "url": "https://drafts.csswg.org/css-flexbox-1/"
-      },
-      {
-        "name": "CSS3-GRID-LAYOUT",
-        "url": "https://drafts.csswg.org/css-grid/"
-      },
-      {
-        "name": "CSS3-REGIONS",
-        "url": "https://drafts.csswg.org/css-regions/"
-      },
-      {
-        "name": "CSS3COL",
-        "url": "https://drafts.csswg.org/css-multicol/"
-      },
-      {
         "name": "RFC2119",
         "url": "https://datatracker.ietf.org/doc/html/rfc2119"
       },
       {
-        "name": "SELECT",
-        "url": "https://drafts.csswg.org/selectors-3/"
-      },
-      {
         "name": "UAX29",
-        "url": "https://www.unicode.org/reports/tr29/tr29-41.html"
+        "url": "https://www.unicode.org/reports/tr29/tr29-45.html"
       }
     ],
     "informative": [
       {
-        "name": "CSS-SCROLLBARS-1",
-        "url": "https://drafts.csswg.org/css-scrollbars/"
+        "name": "CSS-FLEXBOX-1",
+        "url": "https://drafts.csswg.org/css-flexbox-1/"
       },
       {
-        "name": "CSS-SIZING-3",
-        "url": "https://drafts.csswg.org/css-sizing-3/"
+        "name": "CSS-OVERFLOW-4",
+        "url": "https://drafts.csswg.org/css-overflow-4/"
+      },
+      {
+        "name": "CSS-PAGE-3",
+        "url": "https://drafts.csswg.org/css-page-3/"
+      },
+      {
+        "name": "CSS-REGIONS-1",
+        "url": "https://drafts.csswg.org/css-regions/"
       },
       {
         "name": "CSS-UI-4",
         "url": "https://drafts.csswg.org/css-ui-4/"
-      },
-      {
-        "name": "CSS1",
-        "url": "https://www.w3.org/TR/CSS1/"
-      },
-      {
-        "name": "CSS3-MARQUEE",
-        "url": "https://www.w3.org/TR/css3-marquee/"
-      },
-      {
-        "name": "CSS3GCPM",
-        "url": "https://drafts.csswg.org/css-gcpm/"
-      },
-      {
-        "name": "HTML",
-        "url": "https://html.spec.whatwg.org/multipage/"
       }
     ]
   }

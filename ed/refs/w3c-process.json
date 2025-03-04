@@ -1,7 +1,7 @@
 {
   "spec": {
     "title": "W3C Process Document",
-    "url": "https://www.w3.org/Consortium/Process/"
+    "url": "https://www.w3.org/policies/process/"
   },
   "refs": {
     "normative": [
@@ -23,7 +23,7 @@
       },
       {
         "name": "PATENT-POLICY",
-        "url": "https://www.w3.org/Consortium/Patent-Policy/"
+        "url": "https://www.w3.org/policies/patent-policy/"
       },
       {
         "name": "PATENT-POLICY-2004",
@@ -31,7 +31,7 @@
       },
       {
         "name": "PATENT-POLICY-2020",
-        "url": "https://www.w3.org/Consortium/Patent-Policy-20200915/"
+        "url": "https://www.w3.org/policies/patent-policy/20200915/"
       },
       {
         "name": "PUBRULES",
@@ -44,6 +44,10 @@
       {
         "name": "RFC3797",
         "url": "https://www.rfc-editor.org/rfc/rfc3797"
+      },
+      {
+        "name": "W3C-PATENT-POLICY",
+        "url": "https://www.w3.org/policies/patent-policy/"
       }
     ],
     "informative": [
@@ -60,6 +64,10 @@
         "url": "https://www.w3.org/community/about/process/"
       },
       {
+        "name": "BYLAWS",
+        "url": "https://www.w3.org/2022/10/w3c-bylaws-20221019.pdf"
+      },
+      {
         "name": "CALENDAR",
         "url": "https://www.w3.org/participate/eventscal"
       },
@@ -72,8 +80,16 @@
         "url": "https://www.w3.org/Guide/process/charter.html"
       },
       {
+        "name": "COUNCIL-REPORT-INDEX",
+        "url": "https://www.w3.org/about/council/"
+      },
+      {
         "name": "CURRENT-AC",
         "url": "https://www.w3.org/Member/ACList"
+      },
+      {
+        "name": "DECISION-APPEAL",
+        "url": "https://www.w3.org/Guide/process/ac-appeal"
       },
       {
         "name": "ELECTION-HOWTO",
@@ -166,6 +182,10 @@
       {
         "name": "TRANSLATION",
         "url": "https://www.w3.org/Consortium/Translation/"
+      },
+      {
+        "name": "W3C-IPR",
+        "url": "https://www.w3.org/Consortium/Legal/2002/ipr-notice-20021231"
       }
     ]
   }

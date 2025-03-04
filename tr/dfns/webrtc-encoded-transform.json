@@ -19,64 +19,66 @@
         "id": "specification",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#specification",
         "title": "Specification",
-        "number": "3"
+        "number": "2"
       },
       "definedIn": "pre"
     },
     {
-      "id": "readencodeddata",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#readencodeddata",
+      "id": "abstract-opdef-readencodeddata",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#abstract-opdef-readencodeddata",
       "linkingText": [
         "readEncodedData"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "stream-processing",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#stream-processing",
         "title": "Stream processing",
-        "number": "3.1.2"
+        "number": "2.1.2"
       },
       "definedIn": "prose"
     },
     {
-      "id": "writeencodeddata",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#writeencodeddata",
+      "id": "abstract-opdef-writeencodeddata",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#abstract-opdef-writeencodeddata",
       "linkingText": [
         "writeEncodedData"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "stream-processing",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#stream-processing",
         "title": "Stream processing",
-        "number": "3.1.2"
+        "number": "2.1.2"
       },
       "definedIn": "prose"
     },
     {
-      "id": "association-steps",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#association-steps",
+      "id": "abstract-opdef-rtcrtptransform-association-steps",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#abstract-opdef-rtcrtptransform-association-steps",
       "linkingText": [
         "association steps"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "abstract-op",
+      "for": [
+        "RTCRtpTransform"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "attribute",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#attribute",
         "title": "Extension attribute",
-        "number": "3.2"
+        "number": "2.2"
       },
       "definedIn": "prose"
     },
@@ -98,26 +100,26 @@
         "id": "attribute",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#attribute",
         "title": "Extension attribute",
-        "number": "3.2"
+        "number": "2.2"
       },
       "definedIn": "prose"
     },
     {
-      "id": "chain-transform-algorithm",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#chain-transform-algorithm",
+      "id": "abstract-opdef-chain-transform-algorithm",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#abstract-opdef-chain-transform-algorithm",
       "linkingText": [
         "chain transform algorithm"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "attribute",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#attribute",
         "title": "Extension attribute",
-        "number": "3.2"
+        "number": "2.2"
       },
       "definedIn": "prose"
     },
@@ -136,7 +138,7 @@
         "id": "sframe",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe",
         "title": "SFrameTransform",
-        "number": "4"
+        "number": "3"
       },
       "definedIn": "pre"
     },
@@ -157,7 +159,7 @@
         "id": "sframe",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe",
         "title": "SFrameTransform",
-        "number": "4"
+        "number": "3"
       },
       "definedIn": "pre"
     },
@@ -178,7 +180,7 @@
         "id": "sframe",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe",
         "title": "SFrameTransform",
-        "number": "4"
+        "number": "3"
       },
       "definedIn": "pre"
     },
@@ -197,7 +199,7 @@
         "id": "sframe",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe",
         "title": "SFrameTransform",
-        "number": "4"
+        "number": "3"
       },
       "definedIn": "pre"
     },
@@ -218,7 +220,7 @@
         "id": "sframe",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe",
         "title": "SFrameTransform",
-        "number": "4"
+        "number": "3"
       },
       "definedIn": "pre"
     },
@@ -237,7 +239,7 @@
         "id": "sframe",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe",
         "title": "SFrameTransform",
-        "number": "4"
+        "number": "3"
       },
       "definedIn": "pre"
     },
@@ -256,7 +258,7 @@
         "id": "sframe",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe",
         "title": "SFrameTransform",
-        "number": "4"
+        "number": "3"
       },
       "definedIn": "pre"
     },
@@ -275,7 +277,7 @@
         "id": "sframe",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe",
         "title": "SFrameTransform",
-        "number": "4"
+        "number": "3"
       },
       "definedIn": "pre"
     },
@@ -299,7 +301,7 @@
         "id": "sframe",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe",
         "title": "SFrameTransform",
-        "number": "4"
+        "number": "3"
       },
       "definedIn": "pre"
     },
@@ -321,7 +323,7 @@
         "id": "sframe",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe",
         "title": "SFrameTransform",
-        "number": "4"
+        "number": "3"
       },
       "definedIn": "pre"
     },
@@ -343,7 +345,7 @@
         "id": "sframe",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe",
         "title": "SFrameTransform",
-        "number": "4"
+        "number": "3"
       },
       "definedIn": "pre"
     },
@@ -364,7 +366,7 @@
         "id": "sframe",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe",
         "title": "SFrameTransform",
-        "number": "4"
+        "number": "3"
       },
       "definedIn": "pre"
     },
@@ -383,7 +385,7 @@
         "id": "sframe",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe",
         "title": "SFrameTransform",
-        "number": "4"
+        "number": "3"
       },
       "definedIn": "pre"
     },
@@ -404,7 +406,7 @@
         "id": "sframe",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe",
         "title": "SFrameTransform",
-        "number": "4"
+        "number": "3"
       },
       "definedIn": "pre"
     },
@@ -425,7 +427,7 @@
         "id": "sframe",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe",
         "title": "SFrameTransform",
-        "number": "4"
+        "number": "3"
       },
       "definedIn": "pre"
     },
@@ -446,7 +448,7 @@
         "id": "sframe",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe",
         "title": "SFrameTransform",
-        "number": "4"
+        "number": "3"
       },
       "definedIn": "pre"
     },
@@ -465,7 +467,7 @@
         "id": "sframe",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe",
         "title": "SFrameTransform",
-        "number": "4"
+        "number": "3"
       },
       "definedIn": "pre"
     },
@@ -487,7 +489,7 @@
         "id": "sframe",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe",
         "title": "SFrameTransform",
-        "number": "4"
+        "number": "3"
       },
       "definedIn": "pre"
     },
@@ -509,7 +511,7 @@
         "id": "sframe",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe",
         "title": "SFrameTransform",
-        "number": "4"
+        "number": "3"
       },
       "definedIn": "pre"
     },
@@ -531,7 +533,7 @@
         "id": "sframe",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe",
         "title": "SFrameTransform",
-        "number": "4"
+        "number": "3"
       },
       "definedIn": "pre"
     },
@@ -552,7 +554,7 @@
         "id": "sframe",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe",
         "title": "SFrameTransform",
-        "number": "4"
+        "number": "3"
       },
       "definedIn": "pre"
     },
@@ -573,7 +575,7 @@
         "id": "sframe",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe",
         "title": "SFrameTransform",
-        "number": "4"
+        "number": "3"
       },
       "definedIn": "pre"
     },
@@ -594,7 +596,7 @@
         "id": "sframe",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe",
         "title": "SFrameTransform",
-        "number": "4"
+        "number": "3"
       },
       "definedIn": "pre"
     },
@@ -613,7 +615,7 @@
         "id": "sframe",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe",
         "title": "SFrameTransform",
-        "number": "4"
+        "number": "3"
       },
       "definedIn": "pre"
     },
@@ -634,7 +636,7 @@
         "id": "sframe",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe",
         "title": "SFrameTransform",
-        "number": "4"
+        "number": "3"
       },
       "definedIn": "pre"
     },
@@ -655,7 +657,7 @@
         "id": "sframe",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe",
         "title": "SFrameTransform",
-        "number": "4"
+        "number": "3"
       },
       "definedIn": "pre"
     },
@@ -676,7 +678,7 @@
         "id": "sframe",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe",
         "title": "SFrameTransform",
-        "number": "4"
+        "number": "3"
       },
       "definedIn": "pre"
     },
@@ -700,7 +702,7 @@
         "id": "sframe",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe",
         "title": "SFrameTransform",
-        "number": "4"
+        "number": "3"
       },
       "definedIn": "prose"
     },
@@ -722,28 +724,9 @@
         "id": "sframe-transform-methods",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe-transform-methods",
         "title": "Methods",
-        "number": "4.2"
+        "number": "3.2"
       },
       "definedIn": "prose"
-    },
-    {
-      "id": "rtcencodedvideoframetype",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#rtcencodedvideoframetype",
-      "linkingText": [
-        "RTCEncodedVideoFrameType"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "RTCEncodedVideoFrameType",
-        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrameType",
-        "title": "RTCEncodedVideoFrameType dictionary",
-        "number": "5.1"
-      },
-      "definedIn": "heading"
     },
     {
       "id": "enumdef-rtcencodedvideoframetype",
@@ -760,15 +743,16 @@
         "id": "RTCEncodedVideoFrameType",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrameType",
         "title": "RTCEncodedVideoFrameType dictionary",
-        "number": "5.1"
+        "number": "4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "heading"
     },
     {
       "id": "dom-rtcencodedvideoframetype-empty",
       "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedvideoframetype-empty",
       "linkingText": [
-        "\"empty\""
+        "\"empty\"",
+        "empty"
       ],
       "localLinkingText": [],
       "type": "enum-value",
@@ -781,15 +765,16 @@
         "id": "RTCEncodedVideoFrameType",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrameType",
         "title": "RTCEncodedVideoFrameType dictionary",
-        "number": "5.1"
+        "number": "4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "table"
     },
     {
       "id": "dom-rtcencodedvideoframetype-key",
       "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedvideoframetype-key",
       "linkingText": [
-        "\"key\""
+        "\"key\"",
+        "key"
       ],
       "localLinkingText": [],
       "type": "enum-value",
@@ -802,15 +787,16 @@
         "id": "RTCEncodedVideoFrameType",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrameType",
         "title": "RTCEncodedVideoFrameType dictionary",
-        "number": "5.1"
+        "number": "4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "table"
     },
     {
       "id": "dom-rtcencodedvideoframetype-delta",
       "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedvideoframetype-delta",
       "linkingText": [
-        "\"delta\""
+        "\"delta\"",
+        "delta"
       ],
       "localLinkingText": [],
       "type": "enum-value",
@@ -823,91 +809,9 @@
         "id": "RTCEncodedVideoFrameType",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrameType",
         "title": "RTCEncodedVideoFrameType dictionary",
-        "number": "5.1"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "rtcencodedvideoframetype-empty",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#rtcencodedvideoframetype-empty",
-      "linkingText": [
-        "empty"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "RTCEncodedVideoFrameType"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "RTCEncodedVideoFrameType",
-        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrameType",
-        "title": "RTCEncodedVideoFrameType dictionary",
-        "number": "5.1"
+        "number": "4.1"
       },
       "definedIn": "table"
-    },
-    {
-      "id": "rtcencodedvideoframetype-key",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#rtcencodedvideoframetype-key",
-      "linkingText": [
-        "key"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "RTCEncodedVideoFrameType"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "RTCEncodedVideoFrameType",
-        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrameType",
-        "title": "RTCEncodedVideoFrameType dictionary",
-        "number": "5.1"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "rtcencodedvideoframetype-delta",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#rtcencodedvideoframetype-delta",
-      "linkingText": [
-        "delta"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "RTCEncodedVideoFrameType"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "RTCEncodedVideoFrameType",
-        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrameType",
-        "title": "RTCEncodedVideoFrameType dictionary",
-        "number": "5.1"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "rtcencodedvideoframemetadata",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#rtcencodedvideoframemetadata",
-      "linkingText": [
-        "RTCEncodedVideoFrameMetadata"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "RTCEncodedVideoFrameMetadata",
-        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrameMetadata",
-        "title": "RTCEncodedVideoFrameMetadata dictionary",
-        "number": "5.2"
-      },
-      "definedIn": "heading"
     },
     {
       "id": "dictdef-rtcencodedvideoframemetadata",
@@ -924,51 +828,9 @@
         "id": "RTCEncodedVideoFrameMetadata",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrameMetadata",
         "title": "RTCEncodedVideoFrameMetadata dictionary",
-        "number": "5.2"
+        "number": "4.2"
       },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-rtcencodedvideoframemetadata-frameid",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-frameid",
-      "linkingText": [
-        "frameId"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "RTCEncodedVideoFrameMetadata"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "RTCEncodedVideoFrameMetadata",
-        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrameMetadata",
-        "title": "RTCEncodedVideoFrameMetadata dictionary",
-        "number": "5.2"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-rtcencodedvideoframemetadata-dependencies",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-dependencies",
-      "linkingText": [
-        "dependencies"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "RTCEncodedVideoFrameMetadata"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "RTCEncodedVideoFrameMetadata",
-        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrameMetadata",
-        "title": "RTCEncodedVideoFrameMetadata dictionary",
-        "number": "5.2"
-      },
-      "definedIn": "pre"
+      "definedIn": "heading"
     },
     {
       "id": "dom-rtcencodedvideoframemetadata-width",
@@ -987,7 +849,7 @@
         "id": "RTCEncodedVideoFrameMetadata",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrameMetadata",
         "title": "RTCEncodedVideoFrameMetadata dictionary",
-        "number": "5.2"
+        "number": "4.2"
       },
       "definedIn": "pre"
     },
@@ -1008,7 +870,7 @@
         "id": "RTCEncodedVideoFrameMetadata",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrameMetadata",
         "title": "RTCEncodedVideoFrameMetadata dictionary",
-        "number": "5.2"
+        "number": "4.2"
       },
       "definedIn": "pre"
     },
@@ -1029,7 +891,7 @@
         "id": "RTCEncodedVideoFrameMetadata",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrameMetadata",
         "title": "RTCEncodedVideoFrameMetadata dictionary",
-        "number": "5.2"
+        "number": "4.2"
       },
       "definedIn": "pre"
     },
@@ -1050,9 +912,51 @@
         "id": "RTCEncodedVideoFrameMetadata",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrameMetadata",
         "title": "RTCEncodedVideoFrameMetadata dictionary",
-        "number": "5.2"
+        "number": "4.2"
       },
       "definedIn": "pre"
+    },
+    {
+      "id": "dom-rtcencodedvideoframemetadata-frameid",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-frameid",
+      "linkingText": [
+        "frameId"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RTCEncodedVideoFrameMetadata"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "RTCEncodedVideoFrameMetadata-members",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrameMetadata-members",
+        "title": "Members",
+        "number": "4.2.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-rtcencodedvideoframemetadata-dependencies",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-dependencies",
+      "linkingText": [
+        "dependencies"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RTCEncodedVideoFrameMetadata"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "RTCEncodedVideoFrameMetadata-members",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrameMetadata-members",
+        "title": "Members",
+        "number": "4.2.1"
+      },
+      "definedIn": "dt"
     },
     {
       "id": "dom-rtcencodedvideoframemetadata-synchronizationsource",
@@ -1068,12 +972,12 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "RTCEncodedVideoFrameMetadata",
-        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrameMetadata",
-        "title": "RTCEncodedVideoFrameMetadata dictionary",
-        "number": "5.2"
+        "id": "RTCEncodedVideoFrameMetadata-members",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrameMetadata-members",
+        "title": "Members",
+        "number": "4.2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "dt"
     },
     {
       "id": "dom-rtcencodedvideoframemetadata-payloadtype",
@@ -1089,12 +993,12 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "RTCEncodedVideoFrameMetadata",
-        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrameMetadata",
-        "title": "RTCEncodedVideoFrameMetadata dictionary",
-        "number": "5.2"
+        "id": "RTCEncodedVideoFrameMetadata-members",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrameMetadata-members",
+        "title": "Members",
+        "number": "4.2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "dt"
     },
     {
       "id": "dom-rtcencodedvideoframemetadata-contributingsources",
@@ -1110,98 +1014,142 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "RTCEncodedVideoFrameMetadata",
-        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrameMetadata",
-        "title": "RTCEncodedVideoFrameMetadata dictionary",
-        "number": "5.2"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "rtcencodedvideoframemetadata-synchronizationsource",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#rtcencodedvideoframemetadata-synchronizationsource",
-      "linkingText": [
-        "synchronizationSource"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "RTCEncodedVideoFrameMetadata"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
         "id": "RTCEncodedVideoFrameMetadata-members",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrameMetadata-members",
         "title": "Members",
-        "number": "5.2.1"
+        "number": "4.2.1"
       },
       "definedIn": "dt"
     },
     {
-      "id": "rtcencodedvideoframemetadata-payloadtype",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#rtcencodedvideoframemetadata-payloadtype",
+      "id": "dom-rtcencodedvideoframemetadata-timestamp",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-timestamp",
       "linkingText": [
-        "payloadType"
+        "timestamp"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "dict-member",
       "for": [
         "RTCEncodedVideoFrameMetadata"
       ],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "RTCEncodedVideoFrameMetadata-members",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrameMetadata-members",
         "title": "Members",
-        "number": "5.2.1"
+        "number": "4.2.1"
       },
       "definedIn": "dt"
     },
     {
-      "id": "rtcencodedvideoframemetadata-contributingsources",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#rtcencodedvideoframemetadata-contributingsources",
+      "id": "dom-rtcencodedvideoframemetadata-rtptimestamp",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-rtptimestamp",
       "linkingText": [
-        "contributingSources"
+        "rtpTimestamp"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "dict-member",
       "for": [
         "RTCEncodedVideoFrameMetadata"
       ],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "RTCEncodedVideoFrameMetadata-members",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrameMetadata-members",
         "title": "Members",
-        "number": "5.2.1"
+        "number": "4.2.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-rtcencodedvideoframemetadata-receivetime",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-receivetime",
+      "linkingText": [
+        "receiveTime"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RTCEncodedVideoFrameMetadata"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "RTCEncodedVideoFrameMetadata-members",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrameMetadata-members",
+        "title": "Members",
+        "number": "4.2.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-rtcencodedvideoframemetadata-capturetime",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-capturetime",
+      "linkingText": [
+        "captureTime"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RTCEncodedVideoFrameMetadata"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "RTCEncodedVideoFrameMetadata-members",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrameMetadata-members",
+        "title": "Members",
+        "number": "4.2.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-rtcencodedvideoframemetadata-sendercapturetimeoffset",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-sendercapturetimeoffset",
+      "linkingText": [
+        "senderCaptureTimeOffset"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RTCEncodedVideoFrameMetadata"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "RTCEncodedVideoFrameMetadata-members",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrameMetadata-members",
+        "title": "Members",
+        "number": "4.2.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-rtcencodedvideoframemetadata-mimetype",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-mimetype",
+      "linkingText": [
+        "mimeType"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RTCEncodedVideoFrameMetadata"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "RTCEncodedVideoFrameMetadata-members",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrameMetadata-members",
+        "title": "Members",
+        "number": "4.2.1"
       },
       "definedIn": "dt"
     },
     {
       "id": "rtcencodedvideoframe",
       "href": "https://www.w3.org/TR/webrtc-encoded-transform/#rtcencodedvideoframe",
-      "linkingText": [
-        "RTCEncodedVideoFrame"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "RTCEncodedVideoFrame-interface",
-        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrame-interface",
-        "title": "RTCEncodedVideoFrame interface",
-        "number": "5.3"
-      },
-      "definedIn": "heading"
-    },
-    {
-      "id": "rtcencodedvideoframe①",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#rtcencodedvideoframe%E2%91%A0",
       "linkingText": [
         "RTCEncodedVideoFrame"
       ],
@@ -1214,9 +1162,142 @@
         "id": "RTCEncodedVideoFrame-interface",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrame-interface",
         "title": "RTCEncodedVideoFrame interface",
-        "number": "5.3"
+        "number": "4.3"
+      },
+      "definedIn": "heading"
+    },
+    {
+      "id": "dictdef-rtcencodedvideoframeoptions",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dictdef-rtcencodedvideoframeoptions",
+      "linkingText": [
+        "RTCEncodedVideoFrameOptions"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "RTCEncodedVideoFrame-interface",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrame-interface",
+        "title": "RTCEncodedVideoFrame interface",
+        "number": "4.3"
       },
       "definedIn": "pre"
+    },
+    {
+      "id": "dom-rtcencodedvideoframeoptions-metadata",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedvideoframeoptions-metadata",
+      "linkingText": [
+        "metadata"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RTCEncodedVideoFrameOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "RTCEncodedVideoFrame-interface",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrame-interface",
+        "title": "RTCEncodedVideoFrame interface",
+        "number": "4.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-rtcencodedvideoframe-rtcencodedvideoframe",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedvideoframe-rtcencodedvideoframe",
+      "linkingText": [
+        "RTCEncodedVideoFrame(originalFrame, options)",
+        "constructor(originalFrame, options)",
+        "RTCEncodedVideoFrame(originalFrame)",
+        "constructor(originalFrame)"
+      ],
+      "localLinkingText": [],
+      "type": "constructor",
+      "for": [
+        "RTCEncodedVideoFrame"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "RTCEncodedVideoFrame-interface",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrame-interface",
+        "title": "RTCEncodedVideoFrame interface",
+        "number": "4.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-rtcencodedvideoframe-rtcencodedvideoframe-originalframe-options-originalframe",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedvideoframe-rtcencodedvideoframe-originalframe-options-originalframe",
+      "linkingText": [
+        "originalFrame"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "RTCEncodedVideoFrame/RTCEncodedVideoFrame(originalFrame, options)",
+        "RTCEncodedVideoFrame/constructor(originalFrame, options)",
+        "RTCEncodedVideoFrame/RTCEncodedVideoFrame(originalFrame)",
+        "RTCEncodedVideoFrame/constructor(originalFrame)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "RTCEncodedVideoFrame-interface",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrame-interface",
+        "title": "RTCEncodedVideoFrame interface",
+        "number": "4.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-rtcencodedvideoframe-rtcencodedvideoframe-originalframe-options-options",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedvideoframe-rtcencodedvideoframe-originalframe-options-options",
+      "linkingText": [
+        "options"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "RTCEncodedVideoFrame/RTCEncodedVideoFrame(originalFrame, options)",
+        "RTCEncodedVideoFrame/constructor(originalFrame, options)",
+        "RTCEncodedVideoFrame/RTCEncodedVideoFrame(originalFrame)",
+        "RTCEncodedVideoFrame/constructor(originalFrame)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "RTCEncodedVideoFrame-interface",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrame-interface",
+        "title": "RTCEncodedVideoFrame interface",
+        "number": "4.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-rtcencodedvideoframe-constructor",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedvideoframe-constructor",
+      "linkingText": [
+        "constructor()"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "RTCEncodedVideoFrame"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "RTCEncodedVideoFrame-constructor",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrame-constructor",
+        "title": "Constructor",
+        "number": "4.3.1"
+      },
+      "definedIn": "dt"
     },
     {
       "id": "dom-rtcencodedvideoframe-type",
@@ -1232,33 +1313,12 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "RTCEncodedVideoFrame-interface",
-        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrame-interface",
-        "title": "RTCEncodedVideoFrame interface",
-        "number": "5.3"
+        "id": "RTCEncodedVideoFrame-members",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrame-members",
+        "title": "Members",
+        "number": "4.3.2"
       },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-rtcencodedvideoframe-timestamp",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedvideoframe-timestamp",
-      "linkingText": [
-        "timestamp"
-      ],
-      "localLinkingText": [],
-      "type": "attribute",
-      "for": [
-        "RTCEncodedVideoFrame"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "RTCEncodedVideoFrame-interface",
-        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrame-interface",
-        "title": "RTCEncodedVideoFrame interface",
-        "number": "5.3"
-      },
-      "definedIn": "pre"
+      "definedIn": "dt"
     },
     {
       "id": "dom-rtcencodedvideoframe-data",
@@ -1274,73 +1334,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "RTCEncodedVideoFrame-interface",
-        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrame-interface",
-        "title": "RTCEncodedVideoFrame interface",
-        "number": "5.3"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "rtcencodedvideoframe-type",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#rtcencodedvideoframe-type",
-      "linkingText": [
-        "type"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "RTCEncodedVideoFrame"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
         "id": "RTCEncodedVideoFrame-members",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrame-members",
         "title": "Members",
-        "number": "5.3.1"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "rtcencodedvideoframe-timestamp",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#rtcencodedvideoframe-timestamp",
-      "linkingText": [
-        "timestamp"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "RTCEncodedVideoFrame"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "RTCEncodedVideoFrame-members",
-        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrame-members",
-        "title": "Members",
-        "number": "5.3.1"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "rtcencodedvideoframe-data",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#rtcencodedvideoframe-data",
-      "linkingText": [
-        "data"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "RTCEncodedVideoFrame"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "RTCEncodedVideoFrame-members",
-        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrame-members",
-        "title": "Members",
-        "number": "5.3.1"
+        "number": "4.3.2"
       },
       "definedIn": "dt"
     },
@@ -1361,28 +1358,9 @@
         "id": "RTCEncodedVideoFrame-methods",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrame-methods",
         "title": "Methods",
-        "number": "5.3.2"
+        "number": "4.3.3"
       },
       "definedIn": "dt"
-    },
-    {
-      "id": "rtcencodedaudioframemetadata",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#rtcencodedaudioframemetadata",
-      "linkingText": [
-        "RTCEncodedAudioFrameMetadata"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "RTCEncodedAudioFrameMetadata",
-        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrameMetadata",
-        "title": "RTCEncodedAudioFrameMetadata dictionary",
-        "number": "5.4"
-      },
-      "definedIn": "heading"
     },
     {
       "id": "dictdef-rtcencodedaudioframemetadata",
@@ -1399,9 +1377,9 @@
         "id": "RTCEncodedAudioFrameMetadata",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrameMetadata",
         "title": "RTCEncodedAudioFrameMetadata dictionary",
-        "number": "5.4"
+        "number": "4.4"
       },
-      "definedIn": "pre"
+      "definedIn": "heading"
     },
     {
       "id": "dom-rtcencodedaudioframemetadata-synchronizationsource",
@@ -1417,12 +1395,12 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "RTCEncodedAudioFrameMetadata",
-        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrameMetadata",
-        "title": "RTCEncodedAudioFrameMetadata dictionary",
-        "number": "5.4"
+        "id": "RTCEncodedAudioFrameMetadata-members",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrameMetadata-members",
+        "title": "Members",
+        "number": "4.4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "dt"
     },
     {
       "id": "dom-rtcencodedaudioframemetadata-payloadtype",
@@ -1438,12 +1416,12 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "RTCEncodedAudioFrameMetadata",
-        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrameMetadata",
-        "title": "RTCEncodedAudioFrameMetadata dictionary",
-        "number": "5.4"
+        "id": "RTCEncodedAudioFrameMetadata-members",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrameMetadata-members",
+        "title": "Members",
+        "number": "4.4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "dt"
     },
     {
       "id": "dom-rtcencodedaudioframemetadata-contributingsources",
@@ -1459,98 +1437,142 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "RTCEncodedAudioFrameMetadata",
-        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrameMetadata",
-        "title": "RTCEncodedAudioFrameMetadata dictionary",
-        "number": "5.4"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "rtcencodedaudioframemetadata-synchronizationsource",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#rtcencodedaudioframemetadata-synchronizationsource",
-      "linkingText": [
-        "synchronizationSource"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "RTCEncodedAudioFrameMetadata"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
         "id": "RTCEncodedAudioFrameMetadata-members",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrameMetadata-members",
         "title": "Members",
-        "number": "5.4.1"
+        "number": "4.4.1"
       },
       "definedIn": "dt"
     },
     {
-      "id": "rtcencodedaudioframemetadata-payloadtype",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#rtcencodedaudioframemetadata-payloadtype",
+      "id": "dom-rtcencodedaudioframemetadata-sequencenumber",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedaudioframemetadata-sequencenumber",
       "linkingText": [
-        "payloadType"
+        "sequenceNumber"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "dict-member",
       "for": [
         "RTCEncodedAudioFrameMetadata"
       ],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "RTCEncodedAudioFrameMetadata-members",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrameMetadata-members",
         "title": "Members",
-        "number": "5.4.1"
+        "number": "4.4.1"
       },
       "definedIn": "dt"
     },
     {
-      "id": "rtcencodedaudioframemetadata-contributingsources",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#rtcencodedaudioframemetadata-contributingsources",
+      "id": "dom-rtcencodedaudioframemetadata-rtptimestamp",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedaudioframemetadata-rtptimestamp",
       "linkingText": [
-        "contributingSources"
+        "rtpTimestamp"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "dict-member",
       "for": [
         "RTCEncodedAudioFrameMetadata"
       ],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "RTCEncodedAudioFrameMetadata-members",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrameMetadata-members",
         "title": "Members",
-        "number": "5.4.1"
+        "number": "4.4.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-rtcencodedaudioframemetadata-receivetime",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedaudioframemetadata-receivetime",
+      "linkingText": [
+        "receiveTime"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RTCEncodedAudioFrameMetadata"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "RTCEncodedAudioFrameMetadata-members",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrameMetadata-members",
+        "title": "Members",
+        "number": "4.4.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-rtcencodedaudioframemetadata-capturetime",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedaudioframemetadata-capturetime",
+      "linkingText": [
+        "captureTime"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RTCEncodedAudioFrameMetadata"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "RTCEncodedAudioFrameMetadata-members",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrameMetadata-members",
+        "title": "Members",
+        "number": "4.4.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-rtcencodedaudioframemetadata-sendercapturetimeoffset",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedaudioframemetadata-sendercapturetimeoffset",
+      "linkingText": [
+        "senderCaptureTimeOffset"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RTCEncodedAudioFrameMetadata"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "RTCEncodedAudioFrameMetadata-members",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrameMetadata-members",
+        "title": "Members",
+        "number": "4.4.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-rtcencodedaudioframemetadata-mimetype",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedaudioframemetadata-mimetype",
+      "linkingText": [
+        "mimeType"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RTCEncodedAudioFrameMetadata"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "RTCEncodedAudioFrameMetadata-members",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrameMetadata-members",
+        "title": "Members",
+        "number": "4.4.1"
       },
       "definedIn": "dt"
     },
     {
       "id": "rtcencodedaudioframe",
       "href": "https://www.w3.org/TR/webrtc-encoded-transform/#rtcencodedaudioframe",
-      "linkingText": [
-        "RTCEncodedAudioFrame"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "RTCEncodedAudioFrame-interface",
-        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrame-interface",
-        "title": "RTCEncodedAudioFrame interface",
-        "number": "5.5"
-      },
-      "definedIn": "heading"
-    },
-    {
-      "id": "rtcencodedaudioframe①",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#rtcencodedaudioframe%E2%91%A0",
       "linkingText": [
         "RTCEncodedAudioFrame"
       ],
@@ -1563,18 +1585,61 @@
         "id": "RTCEncodedAudioFrame-interface",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrame-interface",
         "title": "RTCEncodedAudioFrame interface",
-        "number": "5.5"
+        "number": "4.5"
+      },
+      "definedIn": "heading"
+    },
+    {
+      "id": "dictdef-rtcencodedaudioframeoptions",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dictdef-rtcencodedaudioframeoptions",
+      "linkingText": [
+        "RTCEncodedAudioFrameOptions"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "RTCEncodedAudioFrame-interface",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrame-interface",
+        "title": "RTCEncodedAudioFrame interface",
+        "number": "4.5"
       },
       "definedIn": "pre"
     },
     {
-      "id": "dom-rtcencodedaudioframe-timestamp",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedaudioframe-timestamp",
+      "id": "dom-rtcencodedaudioframeoptions-metadata",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedaudioframeoptions-metadata",
       "linkingText": [
-        "timestamp"
+        "metadata"
       ],
       "localLinkingText": [],
-      "type": "attribute",
+      "type": "dict-member",
+      "for": [
+        "RTCEncodedAudioFrameOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "RTCEncodedAudioFrame-interface",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrame-interface",
+        "title": "RTCEncodedAudioFrame interface",
+        "number": "4.5"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-rtcencodedaudioframe-rtcencodedaudioframe",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedaudioframe-rtcencodedaudioframe",
+      "linkingText": [
+        "RTCEncodedAudioFrame(originalFrame, options)",
+        "constructor(originalFrame, options)",
+        "RTCEncodedAudioFrame(originalFrame)",
+        "constructor(originalFrame)"
+      ],
+      "localLinkingText": [],
+      "type": "constructor",
       "for": [
         "RTCEncodedAudioFrame"
       ],
@@ -1584,9 +1649,78 @@
         "id": "RTCEncodedAudioFrame-interface",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrame-interface",
         "title": "RTCEncodedAudioFrame interface",
-        "number": "5.5"
+        "number": "4.5"
       },
       "definedIn": "pre"
+    },
+    {
+      "id": "dom-rtcencodedaudioframe-rtcencodedaudioframe-originalframe-options-originalframe",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedaudioframe-rtcencodedaudioframe-originalframe-options-originalframe",
+      "linkingText": [
+        "originalFrame"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "RTCEncodedAudioFrame/RTCEncodedAudioFrame(originalFrame, options)",
+        "RTCEncodedAudioFrame/constructor(originalFrame, options)",
+        "RTCEncodedAudioFrame/RTCEncodedAudioFrame(originalFrame)",
+        "RTCEncodedAudioFrame/constructor(originalFrame)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "RTCEncodedAudioFrame-interface",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrame-interface",
+        "title": "RTCEncodedAudioFrame interface",
+        "number": "4.5"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-rtcencodedaudioframe-rtcencodedaudioframe-originalframe-options-options",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedaudioframe-rtcencodedaudioframe-originalframe-options-options",
+      "linkingText": [
+        "options"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "RTCEncodedAudioFrame/RTCEncodedAudioFrame(originalFrame, options)",
+        "RTCEncodedAudioFrame/constructor(originalFrame, options)",
+        "RTCEncodedAudioFrame/RTCEncodedAudioFrame(originalFrame)",
+        "RTCEncodedAudioFrame/constructor(originalFrame)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "RTCEncodedAudioFrame-interface",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrame-interface",
+        "title": "RTCEncodedAudioFrame interface",
+        "number": "4.5"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-rtcencodedaudioframe-constructor",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcencodedaudioframe-constructor",
+      "linkingText": [
+        "constructor()"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "RTCEncodedAudioFrame"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "RTCEncodedAudioFrame-constructor",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrame-constructor",
+        "title": "Constructor",
+        "number": "4.5.1"
+      },
+      "definedIn": "dt"
     },
     {
       "id": "dom-rtcencodedaudioframe-data",
@@ -1602,52 +1736,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "RTCEncodedAudioFrame-interface",
-        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrame-interface",
-        "title": "RTCEncodedAudioFrame interface",
-        "number": "5.5"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "rtcencodedaudioframe-timestamp",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#rtcencodedaudioframe-timestamp",
-      "linkingText": [
-        "timestamp"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "RTCEncodedAudioFrame"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
         "id": "RTCEncodedAudioFrame-members",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrame-members",
         "title": "Members",
-        "number": "5.5.1"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "rtcencodedaudioframe-data",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#rtcencodedaudioframe-data",
-      "linkingText": [
-        "data"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "RTCEncodedAudioFrame"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "RTCEncodedAudioFrame-members",
-        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrame-members",
-        "title": "Members",
-        "number": "5.5.1"
+        "number": "4.5.2"
       },
       "definedIn": "dt"
     },
@@ -1668,7 +1760,7 @@
         "id": "RTCEncodedAudioFrame-methods",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrame-methods",
         "title": "Methods",
-        "number": "5.5.2"
+        "number": "4.5.3"
       },
       "definedIn": "dt"
     },
@@ -1684,10 +1776,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "RTCEncodedAudioFrame-methods",
-        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrame-methods",
-        "title": "Methods",
-        "number": "5.5.2"
+        "id": "RTCRtpScriptTransformer-interfaces",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-interfaces",
+        "title": "Interfaces",
+        "number": "4.6"
       },
       "definedIn": "pre"
     },
@@ -1705,10 +1797,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "RTCEncodedAudioFrame-methods",
-        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrame-methods",
-        "title": "Methods",
-        "number": "5.5.2"
+        "id": "RTCRtpScriptTransformer-interfaces",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-interfaces",
+        "title": "Interfaces",
+        "number": "4.6"
       },
       "definedIn": "pre"
     },
@@ -1726,10 +1818,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "RTCEncodedAudioFrame-methods",
-        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrame-methods",
-        "title": "Methods",
-        "number": "5.5.2"
+        "id": "RTCRtpScriptTransformer-interfaces",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-interfaces",
+        "title": "Interfaces",
+        "number": "4.6"
       },
       "definedIn": "pre"
     },
@@ -1745,10 +1837,53 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "RTCEncodedAudioFrame-methods",
-        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrame-methods",
-        "title": "Methods",
-        "number": "5.5.2"
+        "id": "RTCRtpScriptTransformer-interfaces",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-interfaces",
+        "title": "Interfaces",
+        "number": "4.6"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-rtcrtpscripttransformer-readable",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcrtpscripttransformer-readable",
+      "linkingText": [
+        "readable"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "RTCRtpScriptTransformer"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "RTCRtpScriptTransformer-interfaces",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-interfaces",
+        "title": "Interfaces",
+        "number": "4.6"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-rtcrtpscripttransformer-generatekeyframe",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcrtpscripttransformer-generatekeyframe",
+      "linkingText": [
+        "generateKeyFrame(rid)",
+        "generateKeyFrame()"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "RTCRtpScriptTransformer"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "RTCRtpScriptTransformer-interfaces",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-interfaces",
+        "title": "Interfaces",
+        "number": "4.6"
       },
       "definedIn": "pre"
     },
@@ -1767,10 +1902,73 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "RTCEncodedAudioFrame-methods",
-        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrame-methods",
-        "title": "Methods",
-        "number": "5.5.2"
+        "id": "RTCRtpScriptTransformer-interfaces",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-interfaces",
+        "title": "Interfaces",
+        "number": "4.6"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-rtcrtpscripttransformer-sendkeyframerequest",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcrtpscripttransformer-sendkeyframerequest",
+      "linkingText": [
+        "sendKeyFrameRequest()"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "RTCRtpScriptTransformer"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "RTCRtpScriptTransformer-interfaces",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-interfaces",
+        "title": "Interfaces",
+        "number": "4.6"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-rtcrtpscripttransformer-writable",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcrtpscripttransformer-writable",
+      "linkingText": [
+        "writable"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "RTCRtpScriptTransformer"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "RTCRtpScriptTransformer-interfaces",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-interfaces",
+        "title": "Interfaces",
+        "number": "4.6"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-rtcrtpscripttransformer-onkeyframerequest",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcrtpscripttransformer-onkeyframerequest",
+      "linkingText": [
+        "onkeyframerequest"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "RTCRtpScriptTransformer"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "RTCRtpScriptTransformer-interfaces",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-interfaces",
+        "title": "Interfaces",
+        "number": "4.6"
       },
       "definedIn": "pre"
     },
@@ -1786,10 +1984,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "RTCEncodedAudioFrame-methods",
-        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrame-methods",
-        "title": "Methods",
-        "number": "5.5.2"
+        "id": "RTCRtpScriptTransformer-interfaces",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-interfaces",
+        "title": "Interfaces",
+        "number": "4.6"
       },
       "definedIn": "pre"
     },
@@ -1812,10 +2010,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "RTCEncodedAudioFrame-methods",
-        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrame-methods",
-        "title": "Methods",
-        "number": "5.5.2"
+        "id": "RTCRtpScriptTransformer-interfaces",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-interfaces",
+        "title": "Interfaces",
+        "number": "4.6"
       },
       "definedIn": "pre"
     },
@@ -1838,10 +2036,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "RTCEncodedAudioFrame-methods",
-        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrame-methods",
-        "title": "Methods",
-        "number": "5.5.2"
+        "id": "RTCRtpScriptTransformer-interfaces",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-interfaces",
+        "title": "Interfaces",
+        "number": "4.6"
       },
       "definedIn": "pre"
     },
@@ -1864,10 +2062,122 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "RTCEncodedAudioFrame-methods",
-        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrame-methods",
-        "title": "Methods",
-        "number": "5.5.2"
+        "id": "RTCRtpScriptTransformer-interfaces",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-interfaces",
+        "title": "Interfaces",
+        "number": "4.6"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "keyframerequestevent",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#keyframerequestevent",
+      "linkingText": [
+        "KeyFrameRequestEvent"
+      ],
+      "localLinkingText": [],
+      "type": "interface",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "RTCRtpScriptTransformer-interfaces",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-interfaces",
+        "title": "Interfaces",
+        "number": "4.6"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-keyframerequestevent-keyframerequestevent",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-keyframerequestevent-keyframerequestevent",
+      "linkingText": [
+        "KeyFrameRequestEvent(type, rid)",
+        "constructor(type, rid)",
+        "KeyFrameRequestEvent(type)",
+        "constructor(type)"
+      ],
+      "localLinkingText": [],
+      "type": "constructor",
+      "for": [
+        "KeyFrameRequestEvent"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "RTCRtpScriptTransformer-interfaces",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-interfaces",
+        "title": "Interfaces",
+        "number": "4.6"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-keyframerequestevent-keyframerequestevent-type-rid-type",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-keyframerequestevent-keyframerequestevent-type-rid-type",
+      "linkingText": [
+        "type"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "KeyFrameRequestEvent/KeyFrameRequestEvent(type, rid)",
+        "KeyFrameRequestEvent/constructor(type, rid)",
+        "KeyFrameRequestEvent/KeyFrameRequestEvent(type)",
+        "KeyFrameRequestEvent/constructor(type)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "RTCRtpScriptTransformer-interfaces",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-interfaces",
+        "title": "Interfaces",
+        "number": "4.6"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-keyframerequestevent-keyframerequestevent-type-rid-rid",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-keyframerequestevent-keyframerequestevent-type-rid-rid",
+      "linkingText": [
+        "rid"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "KeyFrameRequestEvent/KeyFrameRequestEvent(type, rid)",
+        "KeyFrameRequestEvent/constructor(type, rid)",
+        "KeyFrameRequestEvent/KeyFrameRequestEvent(type)",
+        "KeyFrameRequestEvent/constructor(type)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "RTCRtpScriptTransformer-interfaces",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-interfaces",
+        "title": "Interfaces",
+        "number": "4.6"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-keyframerequestevent-rid",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-keyframerequestevent-rid",
+      "linkingText": [
+        "rid"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "KeyFrameRequestEvent"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "RTCRtpScriptTransformer-interfaces",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-interfaces",
+        "title": "Interfaces",
+        "number": "4.6"
       },
       "definedIn": "pre"
     },
@@ -1893,7 +2203,7 @@
         "id": "RTCRtpScriptTransform-operations",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransform-operations",
         "title": "Operations",
-        "number": "5.6"
+        "number": "4.7"
       },
       "definedIn": "prose"
     },
@@ -1914,21 +2224,20 @@
         "id": "RTCRtpScriptTransform-operations",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransform-operations",
         "title": "Operations",
-        "number": "5.6"
+        "number": "4.7"
       },
       "definedIn": "prose"
     },
     {
-      "id": "dom-rtcrtpscripttransformer-generatekeyframe",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcrtpscripttransformer-generatekeyframe",
+      "id": "dom-rtcrtpscripttransform-generatekeyframe",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcrtpscripttransform-generatekeyframe",
       "linkingText": [
-        "generateKeyFrame(rid)",
-        "generateKeyFrame()"
+        "generateKeyFrame(rid)"
       ],
       "localLinkingText": [],
       "type": "method",
       "for": [
-        "RTCRtpScriptTransformer"
+        "RTCRtpScriptTransform"
       ],
       "access": "public",
       "informative": false,
@@ -1936,20 +2245,20 @@
         "id": "RTCRtpScriptTransform-operations",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransform-operations",
         "title": "Operations",
-        "number": "5.6"
+        "number": "4.7"
       },
       "definedIn": "prose"
     },
     {
-      "id": "dom-rtcrtpscripttransformer-sendkeyframerequest",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcrtpscripttransformer-sendkeyframerequest",
+      "id": "dom-rtcrtpscripttransform-sendkeyframerequest",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcrtpscripttransform-sendkeyframerequest",
       "linkingText": [
         "sendKeyFrameRequest()"
       ],
       "localLinkingText": [],
       "type": "method",
       "for": [
-        "RTCRtpScriptTransformer"
+        "RTCRtpScriptTransform"
       ],
       "access": "public",
       "informative": false,
@@ -1957,7 +2266,7 @@
         "id": "RTCRtpScriptTransform-operations",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransform-operations",
         "title": "Operations",
-        "number": "5.6"
+        "number": "4.7"
       },
       "definedIn": "prose"
     },
@@ -1978,20 +2287,20 @@
         "id": "RTCRtpScriptTransformer-attributes",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-attributes",
         "title": "Attributes",
-        "number": "5.7"
+        "number": "4.8"
       },
       "definedIn": "prose"
     },
     {
-      "id": "dom-rtcrtpscripttransformer-readable",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcrtpscripttransformer-readable",
+      "id": "dom-rtcrtpscripttransform-readable",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcrtpscripttransform-readable",
       "linkingText": [
         "readable"
       ],
       "localLinkingText": [],
       "type": "attribute",
       "for": [
-        "RTCRtpScriptTransformer"
+        "RTCRtpScriptTransform"
       ],
       "access": "public",
       "informative": false,
@@ -1999,20 +2308,20 @@
         "id": "RTCRtpScriptTransformer-attributes",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-attributes",
         "title": "Attributes",
-        "number": "5.7"
+        "number": "4.8"
       },
       "definedIn": "prose"
     },
     {
-      "id": "dom-rtcrtpscripttransformer-writable",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcrtpscripttransformer-writable",
+      "id": "dom-rtcrtpscripttransform-writable",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcrtpscripttransform-writable",
       "linkingText": [
         "writable"
       ],
       "localLinkingText": [],
       "type": "attribute",
       "for": [
-        "RTCRtpScriptTransformer"
+        "RTCRtpScriptTransform"
       ],
       "access": "public",
       "informative": false,
@@ -2020,45 +2329,87 @@
         "id": "RTCRtpScriptTransformer-attributes",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-attributes",
         "title": "Attributes",
-        "number": "5.7"
+        "number": "4.8"
       },
       "definedIn": "prose"
     },
     {
-      "id": "generate-key-frame-algorithm",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#generate-key-frame-algorithm",
+      "id": "dom-rtcrtpscripttransform-onbandwidthestimate",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcrtpscripttransform-onbandwidthestimate",
+      "linkingText": [
+        "onbandwidthestimate"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "RTCRtpScriptTransform"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "RTCRtpScriptTransformer-attributes",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-attributes",
+        "title": "Attributes",
+        "number": "4.8"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-rtcrtpscripttransform-onkeyframerequest",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#dom-rtcrtpscripttransform-onkeyframerequest",
+      "linkingText": [
+        "onkeyframerequest"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "RTCRtpScriptTransform"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "RTCRtpScriptTransformer-attributes",
+        "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-attributes",
+        "title": "Attributes",
+        "number": "4.8"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "abstract-opdef-generate-key-frame-algorithm",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#abstract-opdef-generate-key-frame-algorithm",
       "linkingText": [
         "generate key frame algorithm"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "KeyFrame-algorithms",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#KeyFrame-algorithms",
         "title": "KeyFrame Algorithms",
-        "number": "5.8"
+        "number": "4.10"
       },
       "definedIn": "prose"
     },
     {
-      "id": "send-request-key-frame-algorithm",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#send-request-key-frame-algorithm",
+      "id": "abstract-opdef-send-request-key-frame-algorithm",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#abstract-opdef-send-request-key-frame-algorithm",
       "linkingText": [
         "send request key frame algorithm"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "KeyFrame-algorithms",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#KeyFrame-algorithms",
         "title": "KeyFrame Algorithms",
-        "number": "5.8"
+        "number": "4.10"
       },
       "definedIn": "prose"
     },
@@ -2080,7 +2431,7 @@
         "id": "rtcrtpsender-extension",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#rtcrtpsender-extension",
         "title": "RTCRtpSender extension",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "pre"
     },
@@ -2102,7 +2453,7 @@
         "id": "sender-operation",
         "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sender-operation",
         "title": "Extension operation",
-        "number": "6.1"
+        "number": "5.1"
       },
       "definedIn": "prose"
     }

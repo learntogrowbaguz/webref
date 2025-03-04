@@ -34,10 +34,6 @@
         "url": "https://drafts.csswg.org/css-text-4/"
       },
       {
-        "name": "CSS-TEXT-DECOR-4",
-        "url": "https://drafts.csswg.org/css-text-decor-4/"
-      },
-      {
         "name": "CSS-VALUES-3",
         "url": "https://drafts.csswg.org/css-values-3/"
       },
@@ -75,6 +71,10 @@
       }
     ],
     "informative": [
+      {
+        "name": "CSS-ANCHOR-POSITION-1",
+        "url": "https://drafts.csswg.org/css-anchor-position-1/"
+      },
       {
         "name": "CSS-CONTENT-3",
         "url": "https://drafts.csswg.org/css-content-3/"

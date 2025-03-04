@@ -1,0 +1,123 @@
+{
+  "spec": {
+    "title": "RDF 1.2 Turtle",
+    "url": "https://www.w3.org/TR/rdf12-turtle/"
+  },
+  "dfns": [
+    {
+      "id": "dfn-prefixed-name",
+      "href": "https://www.w3.org/TR/rdf12-turtle/#dfn-prefixed-name",
+      "linkingText": [
+        "prefixed name"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "sec-iri",
+        "href": "https://www.w3.org/TR/rdf12-turtle/#sec-iri",
+        "title": "IRIs",
+        "number": "2.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-annotation-syntax",
+      "href": "https://www.w3.org/TR/rdf12-turtle/#dfn-annotation-syntax",
+      "linkingText": [
+        "annotation-syntax",
+        "annotation syntax"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "annotation-syntax",
+        "href": "https://www.w3.org/TR/rdf12-turtle/#annotation-syntax",
+        "title": "Annotation Syntax",
+        "number": "2.10.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-turtle-document",
+      "href": "https://www.w3.org/TR/rdf12-turtle/#dfn-turtle-document",
+      "linkingText": [
+        "Turtle document"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "conformance",
+        "href": "https://www.w3.org/TR/rdf12-turtle/#conformance",
+        "title": "Conformance",
+        "number": "5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-numeric-escape-sequence",
+      "href": "https://www.w3.org/TR/rdf12-turtle/#dfn-numeric-escape-sequence",
+      "linkingText": [
+        "numeric escape sequence"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-escapes",
+        "href": "https://www.w3.org/TR/rdf12-turtle/#sec-escapes",
+        "title": "Escape Sequences",
+        "number": "6.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-string-escape-sequence",
+      "href": "https://www.w3.org/TR/rdf12-turtle/#dfn-string-escape-sequence",
+      "linkingText": [
+        "string escape sequence"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-escapes",
+        "href": "https://www.w3.org/TR/rdf12-turtle/#sec-escapes",
+        "title": "Escape Sequences",
+        "number": "6.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-reserved-character-escape-sequence",
+      "href": "https://www.w3.org/TR/rdf12-turtle/#dfn-reserved-character-escape-sequence",
+      "linkingText": [
+        "reserved character escape sequence"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-escapes",
+        "href": "https://www.w3.org/TR/rdf12-turtle/#sec-escapes",
+        "title": "Escape Sequences",
+        "number": "6.4"
+      },
+      "definedIn": "prose"
+    }
+  ]
+}

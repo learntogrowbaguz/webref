@@ -1,22 +1,32 @@
 {
   "spec": {
     "title": "CSS Scroll Snap Module Level 2",
-    "url": "https://drafts.csswg.org/css-scroll-snap-2/"
+    "url": "https://www.w3.org/TR/css-scroll-snap-2/"
   },
   "events": [
     {
-      "type": "snapChanged",
+      "href": "https://www.w3.org/TR/css-scroll-snap-2/#eventdef-snapevent-scrollsnapchange",
       "src": {
-        "format": "dfn",
-        "href": "https://drafts.csswg.org/css-scroll-snap-2/#eventhandlers"
-      }
+        "format": "summary table",
+        "href": "https://www.w3.org/TR/css-scroll-snap-2/#eventdef-snapevent-scrollsnapchange"
+      },
+      "type": "scrollsnapchange",
+      "targets": [
+        "SnapEvent"
+      ],
+      "interface": "SnapEvent"
     },
     {
-      "type": "snapChanging",
+      "href": "https://www.w3.org/TR/css-scroll-snap-2/#eventdef-snapevent-scrollsnapchanging",
       "src": {
-        "format": "dfn",
-        "href": "https://drafts.csswg.org/css-scroll-snap-2/#eventhandlers"
-      }
+        "format": "summary table",
+        "href": "https://www.w3.org/TR/css-scroll-snap-2/#eventdef-snapevent-scrollsnapchanging"
+      },
+      "type": "scrollsnapchanging",
+      "targets": [
+        "SnapEvent"
+      ],
+      "interface": "SnapEvent"
     }
   ]
 }

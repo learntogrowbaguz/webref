@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "WebRTC 1.0: Real-Time Communication Between Browsers",
+    "title": "WebRTC: Real-Time Communication in Browsers",
     "url": "https://www.w3.org/TR/webrtc/"
   },
   "dfns": [
@@ -145,25 +145,6 @@
       "definedIn": "prose"
     },
     {
-      "id": "dfn-pending",
-      "href": "https://www.w3.org/TR/webrtc/#dfn-pending",
-      "linkingText": [
-        "pending"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "terminology",
-        "href": "https://www.w3.org/TR/webrtc/#terminology",
-        "title": "Terminology",
-        "number": "3"
-      },
-      "definedIn": "prose"
-    },
-    {
       "id": "dfn-settled",
       "href": "https://www.w3.org/TR/webrtc/#dfn-settled",
       "linkingText": [
@@ -183,65 +164,8 @@
       "definedIn": "prose"
     },
     {
-      "id": "dfn-bundle",
-      "href": "https://www.w3.org/TR/webrtc/#dfn-bundle",
-      "linkingText": [
-        "bundle"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "terminology",
-        "href": "https://www.w3.org/TR/webrtc/#terminology",
-        "title": "Terminology",
-        "number": "3"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-bundle-only",
-      "href": "https://www.w3.org/TR/webrtc/#dfn-bundle-only",
-      "linkingText": [
-        "bundle-only"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "terminology",
-        "href": "https://www.w3.org/TR/webrtc/#terminology",
-        "title": "Terminology",
-        "number": "3"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-bundle-policy",
-      "href": "https://www.w3.org/TR/webrtc/#dfn-bundle-policy",
-      "linkingText": [
-        "bundle-policy"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "terminology",
-        "href": "https://www.w3.org/TR/webrtc/#terminology",
-        "title": "Terminology",
-        "number": "3"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dom-rtcconfiguration",
-      "href": "https://www.w3.org/TR/webrtc/#dom-rtcconfiguration",
+      "id": "dom-rtcconfiguration-dedup-1",
+      "href": "https://www.w3.org/TR/webrtc/#dom-rtcconfiguration-dedup-1",
       "linkingText": [
         "RTCConfiguration"
       ],
@@ -251,8 +175,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "rtcconfiguration-dictionary",
-        "href": "https://www.w3.org/TR/webrtc/#rtcconfiguration-dictionary",
+        "id": "x4-2-1-rtcconfiguration-dictionary-dedup-0",
+        "href": "https://www.w3.org/TR/webrtc/#x4-2-1-rtcconfiguration-dictionary-dedup-0",
         "title": "RTCConfiguration Dictionary",
         "number": "4.2.1"
       },
@@ -272,8 +196,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "dictionary-rtcconfiguration-members",
-        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtcconfiguration-members",
+        "id": "dictionary-rtcconfiguration-members-0-dedup-2",
+        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtcconfiguration-members-0-dedup-2",
         "title": "Dictionary RTCConfiguration Members"
       },
       "definedIn": "dt"
@@ -292,8 +216,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "dictionary-rtcconfiguration-members",
-        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtcconfiguration-members",
+        "id": "dictionary-rtcconfiguration-members-0-dedup-2",
+        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtcconfiguration-members-0-dedup-2",
         "title": "Dictionary RTCConfiguration Members"
       },
       "definedIn": "dt"
@@ -312,8 +236,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "dictionary-rtcconfiguration-members",
-        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtcconfiguration-members",
+        "id": "dictionary-rtcconfiguration-members-0-dedup-2",
+        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtcconfiguration-members-0-dedup-2",
         "title": "Dictionary RTCConfiguration Members"
       },
       "definedIn": "dt"
@@ -332,8 +256,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "dictionary-rtcconfiguration-members",
-        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtcconfiguration-members",
+        "id": "dictionary-rtcconfiguration-members-0-dedup-2",
+        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtcconfiguration-members-0-dedup-2",
         "title": "Dictionary RTCConfiguration Members"
       },
       "definedIn": "dt"
@@ -352,8 +276,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "dictionary-rtcconfiguration-members",
-        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtcconfiguration-members",
+        "id": "dictionary-rtcconfiguration-members-0-dedup-2",
+        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtcconfiguration-members-0-dedup-2",
         "title": "Dictionary RTCConfiguration Members"
       },
       "definedIn": "dt"
@@ -372,55 +296,15 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "dictionary-rtcconfiguration-members",
-        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtcconfiguration-members",
+        "id": "dictionary-rtcconfiguration-members-0-dedup-2",
+        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtcconfiguration-members-0-dedup-2",
         "title": "Dictionary RTCConfiguration Members"
       },
       "definedIn": "dt"
     },
     {
-      "id": "dom-rtcicecredentialtype",
-      "href": "https://www.w3.org/TR/webrtc/#dom-rtcicecredentialtype",
-      "linkingText": [
-        "RTCIceCredentialType"
-      ],
-      "localLinkingText": [],
-      "type": "enum",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "rtcicecredentialtype-enum",
-        "href": "https://www.w3.org/TR/webrtc/#rtcicecredentialtype-enum",
-        "title": "RTCIceCredentialType Enum",
-        "number": "4.2.2"
-      },
-      "definedIn": "heading"
-    },
-    {
-      "id": "dom-rtcicecredentialtype-password",
-      "href": "https://www.w3.org/TR/webrtc/#dom-rtcicecredentialtype-password",
-      "linkingText": [
-        "password"
-      ],
-      "localLinkingText": [],
-      "type": "enum-value",
-      "for": [
-        "RTCIceCredentialType"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "rtcicecredentialtype-enum",
-        "href": "https://www.w3.org/TR/webrtc/#rtcicecredentialtype-enum",
-        "title": "RTCIceCredentialType Enum",
-        "number": "4.2.2"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "dom-rtciceserver",
-      "href": "https://www.w3.org/TR/webrtc/#dom-rtciceserver",
+      "id": "dom-rtciceserver-dedup-6",
+      "href": "https://www.w3.org/TR/webrtc/#dom-rtciceserver-dedup-6",
       "linkingText": [
         "RTCIceServer"
       ],
@@ -430,10 +314,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "rtciceserver-dictionary",
-        "href": "https://www.w3.org/TR/webrtc/#rtciceserver-dictionary",
+        "id": "x4-2-2-rtciceserver-dictionary",
+        "href": "https://www.w3.org/TR/webrtc/#x4-2-2-rtciceserver-dictionary",
         "title": "RTCIceServer Dictionary",
-        "number": "4.2.3"
+        "number": "4.2.2"
       },
       "definedIn": "heading"
     },
@@ -451,8 +335,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "dictionary-rtciceserver-members",
-        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtciceserver-members",
+        "id": "dictionary-rtciceserver-members-dedup-7",
+        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtciceserver-members-dedup-7",
         "title": "Dictionary RTCIceServer Members"
       },
       "definedIn": "dt"
@@ -471,8 +355,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "dictionary-rtciceserver-members",
-        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtciceserver-members",
+        "id": "dictionary-rtciceserver-members-dedup-7",
+        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtciceserver-members-dedup-7",
         "title": "Dictionary RTCIceServer Members"
       },
       "definedIn": "dt"
@@ -491,28 +375,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "dictionary-rtciceserver-members",
-        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtciceserver-members",
-        "title": "Dictionary RTCIceServer Members"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "dom-rtciceserver-credentialtype",
-      "href": "https://www.w3.org/TR/webrtc/#dom-rtciceserver-credentialtype",
-      "linkingText": [
-        "credentialType"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "RTCIceServer"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "dictionary-rtciceserver-members",
-        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtciceserver-members",
+        "id": "dictionary-rtciceserver-members-dedup-7",
+        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtciceserver-members-dedup-7",
         "title": "Dictionary RTCIceServer Members"
       },
       "definedIn": "dt"
@@ -532,7 +396,7 @@
         "id": "rtcicetransportpolicy-enum",
         "href": "https://www.w3.org/TR/webrtc/#rtcicetransportpolicy-enum",
         "title": "RTCIceTransportPolicy Enum",
-        "number": "4.2.4"
+        "number": "4.2.3"
       },
       "definedIn": "heading"
     },
@@ -553,7 +417,7 @@
         "id": "rtcicetransportpolicy-enum",
         "href": "https://www.w3.org/TR/webrtc/#rtcicetransportpolicy-enum",
         "title": "RTCIceTransportPolicy Enum",
-        "number": "4.2.4"
+        "number": "4.2.3"
       },
       "definedIn": "table"
     },
@@ -574,7 +438,7 @@
         "id": "rtcicetransportpolicy-enum",
         "href": "https://www.w3.org/TR/webrtc/#rtcicetransportpolicy-enum",
         "title": "RTCIceTransportPolicy Enum",
-        "number": "4.2.4"
+        "number": "4.2.3"
       },
       "definedIn": "table"
     },
@@ -593,7 +457,7 @@
         "id": "rtcbundlepolicy-enum",
         "href": "https://www.w3.org/TR/webrtc/#rtcbundlepolicy-enum",
         "title": "RTCBundlePolicy Enum",
-        "number": "4.2.5"
+        "number": "4.2.4"
       },
       "definedIn": "heading"
     },
@@ -614,7 +478,7 @@
         "id": "rtcbundlepolicy-enum",
         "href": "https://www.w3.org/TR/webrtc/#rtcbundlepolicy-enum",
         "title": "RTCBundlePolicy Enum",
-        "number": "4.2.5"
+        "number": "4.2.4"
       },
       "definedIn": "table"
     },
@@ -635,7 +499,7 @@
         "id": "rtcbundlepolicy-enum",
         "href": "https://www.w3.org/TR/webrtc/#rtcbundlepolicy-enum",
         "title": "RTCBundlePolicy Enum",
-        "number": "4.2.5"
+        "number": "4.2.4"
       },
       "definedIn": "table"
     },
@@ -656,7 +520,7 @@
         "id": "rtcbundlepolicy-enum",
         "href": "https://www.w3.org/TR/webrtc/#rtcbundlepolicy-enum",
         "title": "RTCBundlePolicy Enum",
-        "number": "4.2.5"
+        "number": "4.2.4"
       },
       "definedIn": "table"
     },
@@ -675,7 +539,7 @@
         "id": "rtcrtcpmuxpolicy-enum",
         "href": "https://www.w3.org/TR/webrtc/#rtcrtcpmuxpolicy-enum",
         "title": "RTCRtcpMuxPolicy Enum",
-        "number": "4.2.6"
+        "number": "4.2.5"
       },
       "definedIn": "heading"
     },
@@ -696,7 +560,7 @@
         "id": "rtcrtcpmuxpolicy-enum",
         "href": "https://www.w3.org/TR/webrtc/#rtcrtcpmuxpolicy-enum",
         "title": "RTCRtcpMuxPolicy Enum",
-        "number": "4.2.6"
+        "number": "4.2.5"
       },
       "definedIn": "table"
     },
@@ -771,7 +635,7 @@
         "id": "offer-answer-options",
         "href": "https://www.w3.org/TR/webrtc/#offer-answer-options",
         "title": "Offer/Answer Options",
-        "number": "4.2.7"
+        "number": "4.2.6"
       },
       "definedIn": "prose"
     },
@@ -1022,8 +886,8 @@
       "definedIn": "heading"
     },
     {
-      "id": "dom-rtcpeerconnectionstate-closed",
-      "href": "https://www.w3.org/TR/webrtc/#dom-rtcpeerconnectionstate-closed",
+      "id": "dom-rtcpeerconnectionstate-closed-dedup-14",
+      "href": "https://www.w3.org/TR/webrtc/#dom-rtcpeerconnectionstate-closed-dedup-14",
       "linkingText": [
         "closed"
       ],
@@ -1106,10 +970,10 @@
       "definedIn": "table"
     },
     {
-      "id": "dom-rtcpeerconnectionstate-connecting",
-      "href": "https://www.w3.org/TR/webrtc/#dom-rtcpeerconnectionstate-connecting",
+      "id": "dom-rtcpeerconnectionstate-connected-dedup-17",
+      "href": "https://www.w3.org/TR/webrtc/#dom-rtcpeerconnectionstate-connected-dedup-17",
       "linkingText": [
-        "connecting"
+        "connected"
       ],
       "localLinkingText": [],
       "type": "enum-value",
@@ -1127,10 +991,10 @@
       "definedIn": "table"
     },
     {
-      "id": "dom-rtcpeerconnectionstate-connected",
-      "href": "https://www.w3.org/TR/webrtc/#dom-rtcpeerconnectionstate-connected",
+      "id": "dom-rtcpeerconnectionstate-connecting-dedup-21",
+      "href": "https://www.w3.org/TR/webrtc/#dom-rtcpeerconnectionstate-connecting-dedup-21",
       "linkingText": [
-        "connected"
+        "connecting"
       ],
       "localLinkingText": [],
       "type": "enum-value",
@@ -1314,82 +1178,6 @@
       "definedIn": "table"
     },
     {
-      "id": "dfn-signaling-state",
-      "href": "https://www.w3.org/TR/webrtc/#dfn-signaling-state",
-      "linkingText": [
-        "signaling state"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "operation",
-        "href": "https://www.w3.org/TR/webrtc/#operation",
-        "title": "Operation",
-        "number": "4.4.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-connection-state",
-      "href": "https://www.w3.org/TR/webrtc/#dfn-connection-state",
-      "linkingText": [
-        "connection state"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "operation",
-        "href": "https://www.w3.org/TR/webrtc/#operation",
-        "title": "Operation",
-        "number": "4.4.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-ice-gathering-state",
-      "href": "https://www.w3.org/TR/webrtc/#dfn-ice-gathering-state",
-      "linkingText": [
-        "ICE gathering state"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "operation",
-        "href": "https://www.w3.org/TR/webrtc/#operation",
-        "title": "Operation",
-        "number": "4.4.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-ice-connection-state",
-      "href": "https://www.w3.org/TR/webrtc/#dfn-ice-connection-state",
-      "linkingText": [
-        "ICE connection state"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "operation",
-        "href": "https://www.w3.org/TR/webrtc/#operation",
-        "title": "Operation",
-        "number": "4.4.1"
-      },
-      "definedIn": "prose"
-    },
-    {
       "id": "dfn-ice-agent",
       "href": "https://www.w3.org/TR/webrtc/#dfn-ice-agent",
       "linkingText": [
@@ -1442,8 +1230,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "constructor",
@@ -1461,8 +1251,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "constructor",
@@ -1480,7 +1272,9 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
+      "for": [
+        "RTCPeerConnection"
+      ],
       "access": "public",
       "informative": false,
       "heading": {
@@ -1499,8 +1293,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "constructor",
@@ -1518,8 +1314,31 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "constructor",
+        "href": "https://www.w3.org/TR/webrtc/#constructor",
+        "title": "Constructor",
+        "number": "4.4.1.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-datachannels",
+      "href": "https://www.w3.org/TR/webrtc/#dfn-datachannels",
+      "linkingText": [
+        "[[DataChannels]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "constructor",
@@ -1537,8 +1356,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "constructor",
@@ -1556,8 +1377,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "constructor",
@@ -1575,8 +1398,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "constructor",
@@ -1594,8 +1419,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "constructor",
@@ -1613,8 +1440,94 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "constructor",
+        "href": "https://www.w3.org/TR/webrtc/#constructor",
+        "title": "Constructor",
+        "number": "4.4.1.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-signalingstate",
+      "href": "https://www.w3.org/TR/webrtc/#dfn-signalingstate",
+      "linkingText": [
+        "[[SignalingState]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "constructor",
+        "href": "https://www.w3.org/TR/webrtc/#constructor",
+        "title": "Constructor",
+        "number": "4.4.1.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-iceconnectionstate",
+      "href": "https://www.w3.org/TR/webrtc/#dfn-iceconnectionstate",
+      "linkingText": [
+        "[[IceConnectionState]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "constructor",
+        "href": "https://www.w3.org/TR/webrtc/#constructor",
+        "title": "Constructor",
+        "number": "4.4.1.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-icegatheringstate",
+      "href": "https://www.w3.org/TR/webrtc/#dfn-icegatheringstate",
+      "linkingText": [
+        "[[IceGatheringState]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "constructor",
+        "href": "https://www.w3.org/TR/webrtc/#constructor",
+        "title": "Constructor",
+        "number": "4.4.1.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-connectionstate",
+      "href": "https://www.w3.org/TR/webrtc/#dfn-connectionstate",
+      "linkingText": [
+        "[[ConnectionState]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "constructor",
@@ -1632,8 +1545,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "constructor",
@@ -1651,8 +1566,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "constructor",
@@ -1670,8 +1587,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "constructor",
@@ -1689,8 +1608,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "constructor",
@@ -1708,8 +1629,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "constructor",
@@ -1747,34 +1670,15 @@
         "chain an operation"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "chain-an-asynchronous-operation",
         "href": "https://www.w3.org/TR/webrtc/#chain-an-asynchronous-operation",
         "title": "Chain an asynchronous operation",
         "number": "4.4.1.2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "update-ice-gathering-state",
-      "href": "https://www.w3.org/TR/webrtc/#update-ice-gathering-state",
-      "linkingText": [
-        "update the ICE gathering state"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "update-the-ice-gathering-state",
-        "href": "https://www.w3.org/TR/webrtc/#update-the-ice-gathering-state",
-        "title": "Update the ICE gathering state",
-        "number": "4.4.1.4"
       },
       "definedIn": "prose"
     },
@@ -1795,7 +1699,7 @@
         "id": "set-the-session-description",
         "href": "https://www.w3.org/TR/webrtc/#set-the-session-description",
         "title": "Set the session description",
-        "number": "4.4.1.5"
+        "number": "4.4.1.4"
       },
       "definedIn": "prose"
     },
@@ -1816,7 +1720,7 @@
         "id": "set-the-session-description",
         "href": "https://www.w3.org/TR/webrtc/#set-the-session-description",
         "title": "Set the session description",
-        "number": "4.4.1.5"
+        "number": "4.4.1.4"
       },
       "definedIn": "prose"
     },
@@ -1829,15 +1733,15 @@
         "set a session description"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "set-the-session-description",
         "href": "https://www.w3.org/TR/webrtc/#set-the-session-description",
         "title": "Set the session description",
-        "number": "4.4.1.5"
+        "number": "4.4.1.4"
       },
       "definedIn": "prose"
     },
@@ -1849,15 +1753,15 @@
         "set a configuration"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "set-the-configuration",
         "href": "https://www.w3.org/TR/webrtc/#set-the-configuration",
         "title": "Set the configuration",
-        "number": "4.4.1.6"
+        "number": "4.4.1.5"
       },
       "definedIn": "prose"
     },
@@ -1876,7 +1780,7 @@
         "id": "set-the-configuration",
         "href": "https://www.w3.org/TR/webrtc/#set-the-configuration",
         "title": "Set the configuration",
-        "number": "4.4.1.6"
+        "number": "4.4.1.5"
       },
       "definedIn": "prose"
     },
@@ -1895,7 +1799,7 @@
         "id": "set-the-configuration",
         "href": "https://www.w3.org/TR/webrtc/#set-the-configuration",
         "title": "Set the configuration",
-        "number": "4.4.1.6"
+        "number": "4.4.1.5"
       },
       "definedIn": "prose"
     },
@@ -1914,7 +1818,26 @@
         "id": "set-the-configuration",
         "href": "https://www.w3.org/TR/webrtc/#set-the-configuration",
         "title": "Set the configuration",
-        "number": "4.4.1.6"
+        "number": "4.4.1.5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-validate-an-ice-server-url",
+      "href": "https://www.w3.org/TR/webrtc/#dfn-validate-an-ice-server-url",
+      "linkingText": [
+        "validate an ICE server URL"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "set-the-configuration",
+        "href": "https://www.w3.org/TR/webrtc/#set-the-configuration",
+        "title": "Set the configuration",
+        "number": "4.4.1.5"
       },
       "definedIn": "prose"
     },
@@ -2366,9 +2289,9 @@
         "create an offer"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "methods",
@@ -2384,9 +2307,9 @@
         "in-parallel steps to create an offer"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "methods",
@@ -2420,9 +2343,9 @@
         "final steps to create an offer"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "methods",
@@ -2464,9 +2387,9 @@
         "create an answer"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "methods",
@@ -2482,9 +2405,9 @@
         "in-parallel steps to create an answer"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "methods",
@@ -2518,9 +2441,9 @@
         "final steps to create an answer"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "methods",
@@ -2726,9 +2649,9 @@
         "close the connection"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "methods",
@@ -3062,8 +2985,8 @@
       "definedIn": "heading"
     },
     {
-      "id": "dom-rtcsessiondescription-constructor",
-      "href": "https://www.w3.org/TR/webrtc/#dom-rtcsessiondescription-constructor",
+      "id": "dom-sessiondescription",
+      "href": "https://www.w3.org/TR/webrtc/#dom-sessiondescription",
       "linkingText": [
         "constructor()",
         "constructor(descriptionInitDict)"
@@ -3085,24 +3008,6 @@
         "title": "Constructors"
       },
       "definedIn": "dt"
-    },
-    {
-      "id": "dom-sessiondescription",
-      "href": "https://www.w3.org/TR/webrtc/#dom-sessiondescription",
-      "linkingText": [
-        "RTCSessionDescription()"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "constructors-1",
-        "href": "https://www.w3.org/TR/webrtc/#constructors-1",
-        "title": "Constructors"
-      },
-      "definedIn": "prose"
     },
     {
       "id": "dom-rtcsessiondescription-type",
@@ -3314,9 +3219,9 @@
         "update the negotiation-needed flag"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "updating-the-negotiation-needed-flag",
@@ -3352,9 +3257,9 @@
         "check if negotiation is needed"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "updating-the-negotiation-needed-flag",
@@ -3434,9 +3339,9 @@
         "create an RTCIceCandidate"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "constructor-0",
@@ -3757,6 +3662,50 @@
       ],
       "localLinkingText": [
         "RTCIceCandidate.usernameFragment"
+      ],
+      "type": "attribute",
+      "for": [
+        "RTCIceCandidate"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "attributes-4",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-4",
+        "title": "Attributes"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-rtcicecandidate-relayprotocol",
+      "href": "https://www.w3.org/TR/webrtc/#dom-rtcicecandidate-relayprotocol",
+      "linkingText": [
+        "relayProtocol"
+      ],
+      "localLinkingText": [
+        "RTCIceCandidate.relayProtocol"
+      ],
+      "type": "attribute",
+      "for": [
+        "RTCIceCandidate"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "attributes-4",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-4",
+        "title": "Attributes"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-rtcicecandidate-url",
+      "href": "https://www.w3.org/TR/webrtc/#dom-rtcicecandidate-url",
+      "linkingText": [
+        "url"
+      ],
+      "localLinkingText": [
+        "RTCIceCandidate.url"
       ],
       "type": "attribute",
       "for": [
@@ -4155,6 +4104,88 @@
         "href": "https://www.w3.org/TR/webrtc/#rtcicecandidatetype-enum",
         "title": "RTCIceCandidateType Enum",
         "number": "4.8.1.4"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "dom-rtciceservertransportprotocol",
+      "href": "https://www.w3.org/TR/webrtc/#dom-rtciceservertransportprotocol",
+      "linkingText": [
+        "RTCIceServerTransportProtocol"
+      ],
+      "localLinkingText": [],
+      "type": "enum",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "rtciceservertransportprotocol-enum",
+        "href": "https://www.w3.org/TR/webrtc/#rtciceservertransportprotocol-enum",
+        "title": "RTCIceServerTransportProtocol Enum",
+        "number": "4.8.1.5"
+      },
+      "definedIn": "heading"
+    },
+    {
+      "id": "dom-rtciceservertransportprotocol-udp",
+      "href": "https://www.w3.org/TR/webrtc/#dom-rtciceservertransportprotocol-udp",
+      "linkingText": [
+        "udp"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "RTCIceServerTransportProtocol"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "rtciceservertransportprotocol-enum",
+        "href": "https://www.w3.org/TR/webrtc/#rtciceservertransportprotocol-enum",
+        "title": "RTCIceServerTransportProtocol Enum",
+        "number": "4.8.1.5"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "dom-rtciceservertransportprotocol-tcp",
+      "href": "https://www.w3.org/TR/webrtc/#dom-rtciceservertransportprotocol-tcp",
+      "linkingText": [
+        "tcp"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "RTCIceServerTransportProtocol"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "rtciceservertransportprotocol-enum",
+        "href": "https://www.w3.org/TR/webrtc/#rtciceservertransportprotocol-enum",
+        "title": "RTCIceServerTransportProtocol Enum",
+        "number": "4.8.1.5"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "dom-rtciceservertransportprotocol-tls",
+      "href": "https://www.w3.org/TR/webrtc/#dom-rtciceservertransportprotocol-tls",
+      "linkingText": [
+        "tls"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "RTCIceServerTransportProtocol"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "rtciceservertransportprotocol-enum",
+        "href": "https://www.w3.org/TR/webrtc/#rtciceservertransportprotocol-enum",
+        "title": "RTCIceServerTransportProtocol Enum",
+        "number": "4.8.1.5"
       },
       "definedIn": "table"
     },
@@ -4603,8 +4634,8 @@
       "definedIn": "dt"
     },
     {
-      "id": "dom-rtccertificateexpiration",
-      "href": "https://www.w3.org/TR/webrtc/#dom-rtccertificateexpiration",
+      "id": "dom-rtccertificateexpiration-dedup-73",
+      "href": "https://www.w3.org/TR/webrtc/#dom-rtccertificateexpiration-dedup-73",
       "linkingText": [
         "RTCCertificateExpiration"
       ],
@@ -4614,8 +4645,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "rtccertificateexpiration-dictionary",
-        "href": "https://www.w3.org/TR/webrtc/#rtccertificateexpiration-dictionary",
+        "id": "x4-9-1-rtccertificateexpiration-dictionary-dedup-72",
+        "href": "https://www.w3.org/TR/webrtc/#x4-9-1-rtccertificateexpiration-dictionary-dedup-72",
         "title": "RTCCertificateExpiration Dictionary",
         "number": "4.9.1"
       },
@@ -4635,16 +4666,16 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "rtccertificateexpiration-dictionary",
-        "href": "https://www.w3.org/TR/webrtc/#rtccertificateexpiration-dictionary",
+        "id": "x4-9-1-rtccertificateexpiration-dictionary-dedup-72",
+        "href": "https://www.w3.org/TR/webrtc/#x4-9-1-rtccertificateexpiration-dictionary-dedup-72",
         "title": "RTCCertificateExpiration Dictionary",
         "number": "4.9.1"
       },
       "definedIn": "dt"
     },
     {
-      "id": "dom-rtccertificate",
-      "href": "https://www.w3.org/TR/webrtc/#dom-rtccertificate",
+      "id": "dom-rtccertificate-dedup-75",
+      "href": "https://www.w3.org/TR/webrtc/#dom-rtccertificate-dedup-75",
       "linkingText": [
         "RTCCertificate"
       ],
@@ -4654,8 +4685,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "rtccertificate-interface",
-        "href": "https://www.w3.org/TR/webrtc/#rtccertificate-interface",
+        "id": "x4-9-2-rtccertificate-interface-dedup-74",
+        "href": "https://www.w3.org/TR/webrtc/#x4-9-2-rtccertificate-interface-dedup-74",
         "title": "RTCCertificate Interface",
         "number": "4.9.2"
       },
@@ -4669,12 +4700,14 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCCertificate"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
-        "id": "rtccertificate-interface",
-        "href": "https://www.w3.org/TR/webrtc/#rtccertificate-interface",
+        "id": "x4-9-2-rtccertificate-interface-dedup-74",
+        "href": "https://www.w3.org/TR/webrtc/#x4-9-2-rtccertificate-interface-dedup-74",
         "title": "RTCCertificate Interface",
         "number": "4.9.2"
       },
@@ -4688,12 +4721,14 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCCertificate"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
-        "id": "rtccertificate-interface",
-        "href": "https://www.w3.org/TR/webrtc/#rtccertificate-interface",
+        "id": "x4-9-2-rtccertificate-interface-dedup-74",
+        "href": "https://www.w3.org/TR/webrtc/#x4-9-2-rtccertificate-interface-dedup-74",
         "title": "RTCCertificate Interface",
         "number": "4.9.2"
       },
@@ -4707,12 +4742,14 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCCertificate"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
-        "id": "rtccertificate-interface",
-        "href": "https://www.w3.org/TR/webrtc/#rtccertificate-interface",
+        "id": "x4-9-2-rtccertificate-interface-dedup-74",
+        "href": "https://www.w3.org/TR/webrtc/#x4-9-2-rtccertificate-interface-dedup-74",
         "title": "RTCCertificate Interface",
         "number": "4.9.2"
       },
@@ -4734,8 +4771,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-7",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-7",
+        "id": "attributes-7-dedup-76",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-7-dedup-76",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -4758,8 +4795,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "methods-4",
-        "href": "https://www.w3.org/TR/webrtc/#methods-4",
+        "id": "methods-4-dedup-77",
+        "href": "https://www.w3.org/TR/webrtc/#methods-4-dedup-77",
         "title": "Methods"
       },
       "definedIn": "dt"
@@ -4793,7 +4830,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "rtp-media-api",
@@ -4856,9 +4893,9 @@
         "CollectSenders"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "methods-5",
@@ -4922,9 +4959,9 @@
         "CollectTransceivers"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "methods-5",
@@ -5009,6 +5046,26 @@
         "title": "Methods"
       },
       "definedIn": "dt"
+    },
+    {
+      "id": "dfn-addtransceiver-sendencodings-validation-steps",
+      "href": "https://www.w3.org/TR/webrtc/#dfn-addtransceiver-sendencodings-validation-steps",
+      "linkingText": [
+        "addTransceiver sendEncodings validation steps"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "methods-5",
+        "href": "https://www.w3.org/TR/webrtc/#methods-5",
+        "title": "Methods"
+      },
+      "definedIn": "prose"
     },
     {
       "id": "dom-rtcrtptransceiverinit",
@@ -5219,9 +5276,9 @@
         "process remote tracks"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "processing-remote-mediastreamtracks",
@@ -5238,9 +5295,9 @@
         "process the addition of a remote track"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "processing-remote-mediastreamtracks",
@@ -5257,9 +5314,9 @@
         "process the removal of a remote track"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "processing-remote-mediastreamtracks",
@@ -5276,9 +5333,9 @@
         "set the associated remote streams"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "processing-remote-mediastreamtracks",
@@ -5314,9 +5371,9 @@
         "create an RTCRtpSender"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "rtcrtpsender-interface",
@@ -5334,8 +5391,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCRtpSender"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "rtcrtpsender-interface",
@@ -5353,8 +5412,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCRtpSender"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "rtcrtpsender-interface",
@@ -5372,8 +5433,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCRtpSender"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "rtcrtpsender-interface",
@@ -5391,8 +5454,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCRtpSender"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "rtcrtpsender-interface",
@@ -5410,8 +5475,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCRtpSender"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "rtcrtpsender-interface",
@@ -5429,8 +5496,31 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
+      "for": [
+        "RTCRtpSender"
+      ],
       "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "rtcrtpsender-interface",
+        "href": "https://www.w3.org/TR/webrtc/#rtcrtpsender-interface",
+        "title": "RTCRtpSender Interface",
+        "number": "5.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-laststableridlesssendencodings",
+      "href": "https://www.w3.org/TR/webrtc/#dfn-laststableridlesssendencodings",
+      "linkingText": [
+        "[[LastStableRidlessSendEncodings]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "RTCRtpSender"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "rtcrtpsender-interface",
@@ -5448,7 +5538,9 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
+      "for": [
+        "RTCRtpSender"
+      ],
       "access": "public",
       "informative": false,
       "heading": {
@@ -5467,8 +5559,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCRtpSender"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "rtcrtpsender-interface",
@@ -5548,11 +5642,50 @@
       "definedIn": "dt"
     },
     {
+      "id": "dfn-list-of-implemented-send-codecs",
+      "href": "https://www.w3.org/TR/webrtc/#dfn-list-of-implemented-send-codecs",
+      "linkingText": [
+        "list of implemented send codecs"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "RTCRtpSender"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "methods-6",
+        "href": "https://www.w3.org/TR/webrtc/#methods-6",
+        "title": "Methods"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-list-of-implemented-header-extensions-for-sending",
+      "href": "https://www.w3.org/TR/webrtc/#dfn-list-of-implemented-header-extensions-for-sending",
+      "linkingText": [
+        "list of implemented header extensions for sending"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "methods-6",
+        "href": "https://www.w3.org/TR/webrtc/#methods-6",
+        "title": "Methods"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "dom-rtcrtpsender-setparameters",
       "href": "https://www.w3.org/TR/webrtc/#dom-rtcrtpsender-setparameters",
       "linkingText": [
         "setParameters()",
-        "setParameters(parameters)"
+        "setParameters(parameters)",
+        "setParameters(parameters, setParameterOptions)"
       ],
       "localLinkingText": [
         "RTCRtpSender.setParameters",
@@ -5571,6 +5704,26 @@
         "title": "Methods"
       },
       "definedIn": "dt"
+    },
+    {
+      "id": "dfn-setparameters-validation-steps",
+      "href": "https://www.w3.org/TR/webrtc/#dfn-setparameters-validation-steps",
+      "linkingText": [
+        "setParameters validation steps"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "RTCRtpSender"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "methods-6",
+        "href": "https://www.w3.org/TR/webrtc/#methods-6",
+        "title": "Methods"
+      },
+      "definedIn": "prose"
     },
     {
       "id": "dfn-read-only-parameter",
@@ -5885,25 +6038,6 @@
       "definedIn": "dt"
     },
     {
-      "id": "dom-rtcrtpdecodingparameters",
-      "href": "https://www.w3.org/TR/webrtc/#dom-rtcrtpdecodingparameters",
-      "linkingText": [
-        "RTCRtpDecodingParameters"
-      ],
-      "localLinkingText": [],
-      "type": "dictionary",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "rtcrtpdecodingparameters",
-        "href": "https://www.w3.org/TR/webrtc/#rtcrtpdecodingparameters",
-        "title": "RTCRtpDecodingParameters Dictionary",
-        "number": "5.2.5"
-      },
-      "definedIn": "heading"
-    },
-    {
       "id": "dom-rtcrtpencodingparameters",
       "href": "https://www.w3.org/TR/webrtc/#dom-rtcrtpencodingparameters",
       "linkingText": [
@@ -5918,7 +6052,7 @@
         "id": "rtcrtpencodingparameters",
         "href": "https://www.w3.org/TR/webrtc/#rtcrtpencodingparameters",
         "title": "RTCRtpEncodingParameters Dictionary",
-        "number": "5.2.6"
+        "number": "5.2.5"
       },
       "definedIn": "heading"
     },
@@ -5943,10 +6077,50 @@
       "definedIn": "dt"
     },
     {
+      "id": "dom-rtcrtpencodingparameters-codec",
+      "href": "https://www.w3.org/TR/webrtc/#dom-rtcrtpencodingparameters-codec",
+      "linkingText": [
+        "codec"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RTCRtpEncodingParameters"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dictionary-rtcrtpencodingparameters-members",
+        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtcrtpencodingparameters-members",
+        "title": "Dictionary RTCRtpEncodingParameters Members"
+      },
+      "definedIn": "dt"
+    },
+    {
       "id": "dom-rtcrtpencodingparameters-maxbitrate",
       "href": "https://www.w3.org/TR/webrtc/#dom-rtcrtpencodingparameters-maxbitrate",
       "linkingText": [
         "maxBitrate"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RTCRtpEncodingParameters"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dictionary-rtcrtpencodingparameters-members",
+        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtcrtpencodingparameters-members",
+        "title": "Dictionary RTCRtpEncodingParameters Members"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-rtcrtpencodingparameters-maxframerate",
+      "href": "https://www.w3.org/TR/webrtc/#dom-rtcrtpencodingparameters-maxframerate",
+      "linkingText": [
+        "maxFramerate"
       ],
       "localLinkingText": [],
       "type": "dict-member",
@@ -5997,7 +6171,7 @@
         "id": "rtcrtcpparameters",
         "href": "https://www.w3.org/TR/webrtc/#rtcrtcpparameters",
         "title": "RTCRtcpParameters Dictionary",
-        "number": "5.2.7"
+        "number": "5.2.6"
       },
       "definedIn": "heading"
     },
@@ -6056,7 +6230,7 @@
         "id": "rtcrtpheaderextensionparameters",
         "href": "https://www.w3.org/TR/webrtc/#rtcrtpheaderextensionparameters",
         "title": "RTCRtpHeaderExtensionParameters Dictionary",
-        "number": "5.2.8"
+        "number": "5.2.7"
       },
       "definedIn": "heading"
     },
@@ -6121,8 +6295,107 @@
       "definedIn": "dt"
     },
     {
-      "id": "dom-rtcrtpcodecparameters",
-      "href": "https://www.w3.org/TR/webrtc/#dom-rtcrtpcodecparameters",
+      "id": "dom-rtcrtpcodec",
+      "href": "https://www.w3.org/TR/webrtc/#dom-rtcrtpcodec",
+      "linkingText": [
+        "RTCRtpCodec"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "rtcrtpcodec",
+        "href": "https://www.w3.org/TR/webrtc/#rtcrtpcodec",
+        "title": "RTCRtpCodec Dictionary",
+        "number": "5.2.8"
+      },
+      "definedIn": "heading"
+    },
+    {
+      "id": "dom-rtcrtpcodec-mimetype",
+      "href": "https://www.w3.org/TR/webrtc/#dom-rtcrtpcodec-mimetype",
+      "linkingText": [
+        "mimeType"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RTCRtpCodec"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dictionary-rtcrtpcodec-members",
+        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtcrtpcodec-members",
+        "title": "Dictionary RTCRtpCodec Members"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-rtcrtpcodec-clockrate",
+      "href": "https://www.w3.org/TR/webrtc/#dom-rtcrtpcodec-clockrate",
+      "linkingText": [
+        "clockRate"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RTCRtpCodec"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dictionary-rtcrtpcodec-members",
+        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtcrtpcodec-members",
+        "title": "Dictionary RTCRtpCodec Members"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-rtcrtpcodec-channels",
+      "href": "https://www.w3.org/TR/webrtc/#dom-rtcrtpcodec-channels",
+      "linkingText": [
+        "channels"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RTCRtpCodec"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dictionary-rtcrtpcodec-members",
+        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtcrtpcodec-members",
+        "title": "Dictionary RTCRtpCodec Members"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-rtcrtpcodec-sdpfmtpline",
+      "href": "https://www.w3.org/TR/webrtc/#dom-rtcrtpcodec-sdpfmtpline",
+      "linkingText": [
+        "sdpFmtpLine"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RTCRtpCodec"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dictionary-rtcrtpcodec-members",
+        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtcrtpcodec-members",
+        "title": "Dictionary RTCRtpCodec Members"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-rtcrtpcodecparameters-dedup-98",
+      "href": "https://www.w3.org/TR/webrtc/#dom-rtcrtpcodecparameters-dedup-98",
       "linkingText": [
         "RTCRtpCodecParameters"
       ],
@@ -6132,16 +6405,16 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "rtcrtpcodecparameters",
-        "href": "https://www.w3.org/TR/webrtc/#rtcrtpcodecparameters",
+        "id": "x5-2-9-rtcrtpcodecparameters-dictionary-dedup-97",
+        "href": "https://www.w3.org/TR/webrtc/#x5-2-9-rtcrtpcodecparameters-dictionary-dedup-97",
         "title": "RTCRtpCodecParameters Dictionary",
         "number": "5.2.9"
       },
       "definedIn": "heading"
     },
     {
-      "id": "dom-rtcrtpcodecparameters-payloadtype",
-      "href": "https://www.w3.org/TR/webrtc/#dom-rtcrtpcodecparameters-payloadtype",
+      "id": "dom-rtcrtpcodecparameters-payloadtype-dedup-102",
+      "href": "https://www.w3.org/TR/webrtc/#dom-rtcrtpcodecparameters-payloadtype-dedup-102",
       "linkingText": [
         "payloadType"
       ],
@@ -6153,88 +6426,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "dictionary-rtcrtpcodecparameters-members",
-        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtcrtpcodecparameters-members",
-        "title": "Dictionary RTCRtpCodecParameters Members"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "dom-rtcrtpcodecparameters-mimetype",
-      "href": "https://www.w3.org/TR/webrtc/#dom-rtcrtpcodecparameters-mimetype",
-      "linkingText": [
-        "mimeType"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "RTCRtpCodecParameters"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "dictionary-rtcrtpcodecparameters-members",
-        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtcrtpcodecparameters-members",
-        "title": "Dictionary RTCRtpCodecParameters Members"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "dom-rtcrtpcodecparameters-clockrate",
-      "href": "https://www.w3.org/TR/webrtc/#dom-rtcrtpcodecparameters-clockrate",
-      "linkingText": [
-        "clockRate"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "RTCRtpCodecParameters"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "dictionary-rtcrtpcodecparameters-members",
-        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtcrtpcodecparameters-members",
-        "title": "Dictionary RTCRtpCodecParameters Members"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "dom-rtcrtpcodecparameters-channels",
-      "href": "https://www.w3.org/TR/webrtc/#dom-rtcrtpcodecparameters-channels",
-      "linkingText": [
-        "channels"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "RTCRtpCodecParameters"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "dictionary-rtcrtpcodecparameters-members",
-        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtcrtpcodecparameters-members",
-        "title": "Dictionary RTCRtpCodecParameters Members"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "dom-rtcrtpcodecparameters-sdpfmtpline",
-      "href": "https://www.w3.org/TR/webrtc/#dom-rtcrtpcodecparameters-sdpfmtpline",
-      "linkingText": [
-        "sdpFmtpLine"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "RTCRtpCodecParameters"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "dictionary-rtcrtpcodecparameters-members",
-        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtcrtpcodecparameters-members",
+        "id": "dictionary-rtcrtpcodecparameters-members-dedup-99",
+        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtcrtpcodecparameters-members-dedup-99",
         "title": "Dictionary RTCRtpCodecParameters Members"
       },
       "definedIn": "dt"
@@ -6299,105 +6492,6 @@
       "definedIn": "dt"
     },
     {
-      "id": "dom-rtcrtpcodeccapability",
-      "href": "https://www.w3.org/TR/webrtc/#dom-rtcrtpcodeccapability",
-      "linkingText": [
-        "RTCRtpCodecCapability"
-      ],
-      "localLinkingText": [],
-      "type": "dictionary",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "rtcrtpcodeccapability",
-        "href": "https://www.w3.org/TR/webrtc/#rtcrtpcodeccapability",
-        "title": "RTCRtpCodecCapability Dictionary",
-        "number": "5.2.11"
-      },
-      "definedIn": "heading"
-    },
-    {
-      "id": "dom-rtcrtpcodeccapability-mimetype",
-      "href": "https://www.w3.org/TR/webrtc/#dom-rtcrtpcodeccapability-mimetype",
-      "linkingText": [
-        "mimeType"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "RTCRtpCodecCapability"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "dictionary-rtcrtpcodeccapability-members",
-        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtcrtpcodeccapability-members",
-        "title": "Dictionary RTCRtpCodecCapability Members"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "dom-rtcrtpcodeccapability-clockrate",
-      "href": "https://www.w3.org/TR/webrtc/#dom-rtcrtpcodeccapability-clockrate",
-      "linkingText": [
-        "clockRate"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "RTCRtpCodecCapability"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "dictionary-rtcrtpcodeccapability-members",
-        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtcrtpcodeccapability-members",
-        "title": "Dictionary RTCRtpCodecCapability Members"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "dom-rtcrtpcodeccapability-channels",
-      "href": "https://www.w3.org/TR/webrtc/#dom-rtcrtpcodeccapability-channels",
-      "linkingText": [
-        "channels"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "RTCRtpCodecCapability"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "dictionary-rtcrtpcodeccapability-members",
-        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtcrtpcodeccapability-members",
-        "title": "Dictionary RTCRtpCodecCapability Members"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "dom-rtcrtpcodeccapability-sdpfmtpline",
-      "href": "https://www.w3.org/TR/webrtc/#dom-rtcrtpcodeccapability-sdpfmtpline",
-      "linkingText": [
-        "sdpFmtpLine"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "RTCRtpCodecCapability"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "dictionary-rtcrtpcodeccapability-members",
-        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtcrtpcodeccapability-members",
-        "title": "Dictionary RTCRtpCodecCapability Members"
-      },
-      "definedIn": "dt"
-    },
-    {
       "id": "dom-rtcrtpheaderextensioncapability",
       "href": "https://www.w3.org/TR/webrtc/#dom-rtcrtpheaderextensioncapability",
       "linkingText": [
@@ -6412,7 +6506,7 @@
         "id": "rtcrtpheaderextensioncapability",
         "href": "https://www.w3.org/TR/webrtc/#rtcrtpheaderextensioncapability",
         "title": "RTCRtpHeaderExtensionCapability Dictionary",
-        "number": "5.2.12"
+        "number": "5.2.11"
       },
       "definedIn": "heading"
     },
@@ -6435,6 +6529,25 @@
         "title": "Dictionary RTCRtpHeaderExtensionCapability Members"
       },
       "definedIn": "dt"
+    },
+    {
+      "id": "dom-rtcsetparameteroptions",
+      "href": "https://www.w3.org/TR/webrtc/#dom-rtcsetparameteroptions",
+      "linkingText": [
+        "RTCSetParameterOptions"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "rtcsetparameteroptions-dictionary",
+        "href": "https://www.w3.org/TR/webrtc/#rtcsetparameteroptions-dictionary",
+        "title": "RTCSetParameterOptions Dictionary",
+        "number": "5.2.12"
+      },
+      "definedIn": "heading"
     },
     {
       "id": "dom-rtcrtpreceiver",
@@ -6462,9 +6575,9 @@
         "create an RTCRtpReceiver"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "rtcrtpreceiver-interface",
@@ -6501,7 +6614,9 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
+      "for": [
+        "RTCRtpReceiver"
+      ],
       "access": "public",
       "informative": false,
       "heading": {
@@ -6520,8 +6635,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCRtpReceiver"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "rtcrtpreceiver-interface",
@@ -6539,8 +6656,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCRtpReceiver"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "rtcrtpreceiver-interface",
@@ -6558,8 +6677,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCRtpReceiver"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "rtcrtpreceiver-interface",
@@ -6577,8 +6698,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCRtpReceiver"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "rtcrtpreceiver-interface",
@@ -6596,8 +6719,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCRtpReceiver"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "rtcrtpreceiver-interface",
@@ -6615,7 +6740,30 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
+      "for": [
+        "RTCRtpReceiver"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rtcrtpreceiver-interface",
+        "href": "https://www.w3.org/TR/webrtc/#rtcrtpreceiver-interface",
+        "title": "RTCRtpReceiver Interface",
+        "number": "5.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-jitterbuffertarget",
+      "href": "https://www.w3.org/TR/webrtc/#dfn-jitterbuffertarget",
+      "linkingText": [
+        "[[JitterBufferTarget]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "RTCRtpReceiver"
+      ],
       "access": "public",
       "informative": false,
       "heading": {
@@ -6671,6 +6819,64 @@
       "definedIn": "dt"
     },
     {
+      "id": "dom-rtcrtpreceiver-jitterbuffertarget",
+      "href": "https://www.w3.org/TR/webrtc/#dom-rtcrtpreceiver-jitterbuffertarget",
+      "linkingText": [
+        "jitterBufferTarget"
+      ],
+      "localLinkingText": [
+        "RTCRtpReceiver.jitterBufferTarget"
+      ],
+      "type": "attribute",
+      "for": [
+        "RTCRtpReceiver"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "attributes-10",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-10",
+        "title": "Attributes"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dfn-minimum-allowed-target",
+      "href": "https://www.w3.org/TR/webrtc/#dfn-minimum-allowed-target",
+      "linkingText": [
+        "minimum allowed target"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "attributes-10",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-10",
+        "title": "Attributes"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-maximum-allowed-target",
+      "href": "https://www.w3.org/TR/webrtc/#dfn-maximum-allowed-target",
+      "linkingText": [
+        "maximum allowed target"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "attributes-10",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-10",
+        "title": "Attributes"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "dom-rtcrtpreceiver-getcapabilities",
       "href": "https://www.w3.org/TR/webrtc/#dom-rtcrtpreceiver-getcapabilities",
       "linkingText": [
@@ -6694,6 +6900,42 @@
         "title": "Methods"
       },
       "definedIn": "dt"
+    },
+    {
+      "id": "dfn-list-of-implemented-receive-codecs",
+      "href": "https://www.w3.org/TR/webrtc/#dfn-list-of-implemented-receive-codecs",
+      "linkingText": [
+        "list of implemented receive codecs"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "methods-7",
+        "href": "https://www.w3.org/TR/webrtc/#methods-7",
+        "title": "Methods"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-list-of-implemented-header-extensions-for-receiving",
+      "href": "https://www.w3.org/TR/webrtc/#dfn-list-of-implemented-header-extensions-for-receiving",
+      "linkingText": [
+        "list of implemented header extensions for receiving"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "methods-7",
+        "href": "https://www.w3.org/TR/webrtc/#methods-7",
+        "title": "Methods"
+      },
+      "definedIn": "prose"
     },
     {
       "id": "dom-rtcrtpreceiver-getparameters",
@@ -6955,8 +7197,10 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
-      "access": "private",
+      "for": [
+        "RTCRtpTransceiver"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "rtcrtptransceiver-interface",
@@ -6973,9 +7217,9 @@
         "create an RTCRtpTransceiver"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "rtcrtptransceiver-interface",
@@ -6993,7 +7237,9 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
+      "for": [
+        "RTCRtpTransceiver"
+      ],
       "access": "public",
       "informative": false,
       "heading": {
@@ -7012,8 +7258,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCRtpTransceiver"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "rtcrtptransceiver-interface",
@@ -7031,8 +7279,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCRtpTransceiver"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "rtcrtptransceiver-interface",
@@ -7050,8 +7300,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCRtpTransceiver"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "rtcrtptransceiver-interface",
@@ -7069,8 +7321,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCRtpTransceiver"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "rtcrtptransceiver-interface",
@@ -7088,8 +7342,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCRtpTransceiver"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "rtcrtptransceiver-interface",
@@ -7107,8 +7363,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCRtpTransceiver"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "rtcrtptransceiver-interface",
@@ -7126,8 +7384,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCRtpTransceiver"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "rtcrtptransceiver-interface",
@@ -7145,7 +7405,9 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
+      "for": [
+        "RTCRtpTransceiver"
+      ],
       "access": "public",
       "informative": false,
       "heading": {
@@ -7164,8 +7426,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCRtpTransceiver"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "rtcrtptransceiver-interface",
@@ -7183,8 +7447,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCRtpTransceiver"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "rtcrtptransceiver-interface",
@@ -7371,9 +7637,9 @@
         "stop sending and receiving"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "methods-8",
@@ -7389,9 +7655,9 @@
         "stop the RTCRtpTransceiver"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "methods-8",
@@ -7426,10 +7692,47 @@
       "definedIn": "dt"
     },
     {
+      "id": "dfn-codec-dictionary-match",
+      "href": "https://www.w3.org/TR/webrtc/#dfn-codec-dictionary-match",
+      "linkingText": [
+        "codec dictionary match"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "methods-8",
+        "href": "https://www.w3.org/TR/webrtc/#methods-8",
+        "title": "Methods"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "dfn-simulcast-envelope",
       "href": "https://www.w3.org/TR/webrtc/#dfn-simulcast-envelope",
       "linkingText": [
         "simulcast envelope"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "simulcast-functionality",
+        "href": "https://www.w3.org/TR/webrtc/#simulcast-functionality",
+        "title": "Simulcast functionality",
+        "number": "5.4.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-proposed-envelope",
+      "href": "https://www.w3.org/TR/webrtc/#dfn-proposed-envelope",
+      "linkingText": [
+        "proposed envelope"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -7471,8 +7774,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCDtlsTransport"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "rtcdtlstransport-interface",
@@ -7490,8 +7795,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCDtlsTransport"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "rtcdtlstransport-interface",
@@ -7627,7 +7934,8 @@
       "heading": {
         "id": "rtcdtlstransportstate-enum",
         "href": "https://www.w3.org/TR/webrtc/#rtcdtlstransportstate-enum",
-        "title": "RTCDtlsTransportState Enum"
+        "title": "RTCDtlsTransportState Enum",
+        "number": "5.5.1"
       },
       "definedIn": "heading"
     },
@@ -7647,7 +7955,8 @@
       "heading": {
         "id": "rtcdtlstransportstate-enum",
         "href": "https://www.w3.org/TR/webrtc/#rtcdtlstransportstate-enum",
-        "title": "RTCDtlsTransportState Enum"
+        "title": "RTCDtlsTransportState Enum",
+        "number": "5.5.1"
       },
       "definedIn": "table"
     },
@@ -7667,7 +7976,8 @@
       "heading": {
         "id": "rtcdtlstransportstate-enum",
         "href": "https://www.w3.org/TR/webrtc/#rtcdtlstransportstate-enum",
-        "title": "RTCDtlsTransportState Enum"
+        "title": "RTCDtlsTransportState Enum",
+        "number": "5.5.1"
       },
       "definedIn": "table"
     },
@@ -7687,7 +7997,8 @@
       "heading": {
         "id": "rtcdtlstransportstate-enum",
         "href": "https://www.w3.org/TR/webrtc/#rtcdtlstransportstate-enum",
-        "title": "RTCDtlsTransportState Enum"
+        "title": "RTCDtlsTransportState Enum",
+        "number": "5.5.1"
       },
       "definedIn": "table"
     },
@@ -7707,7 +8018,8 @@
       "heading": {
         "id": "rtcdtlstransportstate-enum",
         "href": "https://www.w3.org/TR/webrtc/#rtcdtlstransportstate-enum",
-        "title": "RTCDtlsTransportState Enum"
+        "title": "RTCDtlsTransportState Enum",
+        "number": "5.5.1"
       },
       "definedIn": "table"
     },
@@ -7727,7 +8039,8 @@
       "heading": {
         "id": "rtcdtlstransportstate-enum",
         "href": "https://www.w3.org/TR/webrtc/#rtcdtlstransportstate-enum",
-        "title": "RTCDtlsTransportState Enum"
+        "title": "RTCDtlsTransportState Enum",
+        "number": "5.5.1"
       },
       "definedIn": "table"
     },
@@ -7746,7 +8059,7 @@
         "id": "rtcdtlsfingerprint",
         "href": "https://www.w3.org/TR/webrtc/#rtcdtlsfingerprint",
         "title": "RTCDtlsFingerprint Dictionary",
-        "number": "5.5.1"
+        "number": "5.5.2"
       },
       "definedIn": "heading"
     },
@@ -7816,9 +8129,9 @@
         "release early candidates"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "rtcicetransport",
@@ -7836,9 +8149,30 @@
         "surface a candidate"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "rtcicetransport",
+        "href": "https://www.w3.org/TR/webrtc/#rtcicetransport",
+        "title": "RTCIceTransport Interface",
+        "number": "5.6"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-change-the-selected-candidate-pair-and-state",
+      "href": "https://www.w3.org/TR/webrtc/#dfn-change-the-selected-candidate-pair-and-state",
+      "linkingText": [
+        "change the selected candidate pair and state"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "RTCIceTransport"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "rtcicetransport",
@@ -7856,7 +8190,9 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
+      "for": [
+        "RTCIceTransport"
+      ],
       "access": "public",
       "informative": false,
       "heading": {
@@ -7875,7 +8211,9 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
+      "for": [
+        "RTCIceTransport"
+      ],
       "access": "public",
       "informative": false,
       "heading": {
@@ -7894,7 +8232,9 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
+      "for": [
+        "RTCIceTransport"
+      ],
       "access": "public",
       "informative": false,
       "heading": {
@@ -7913,7 +8253,9 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
+      "for": [
+        "RTCIceTransport"
+      ],
       "access": "public",
       "informative": false,
       "heading": {
@@ -8258,23 +8600,85 @@
       "definedIn": "dt"
     },
     {
-      "id": "dom-rtcicecandidatepair",
-      "href": "https://www.w3.org/TR/webrtc/#dom-rtcicecandidatepair",
+      "id": "dom-rtcicecandidatepair-dedup-163",
+      "href": "https://www.w3.org/TR/webrtc/#dom-rtcicecandidatepair-dedup-163",
       "linkingText": [
         "RTCIceCandidatePair"
       ],
       "localLinkingText": [],
-      "type": "dictionary",
+      "type": "interface",
       "for": [],
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "rtcicecandidatepair",
-        "href": "https://www.w3.org/TR/webrtc/#rtcicecandidatepair",
-        "title": "RTCIceCandidatePair Dictionary",
+        "id": "x5-6-2-rtcicecandidatepair-interface",
+        "href": "https://www.w3.org/TR/webrtc/#x5-6-2-rtcicecandidatepair-interface",
+        "title": "RTCIceCandidatePair Interface",
         "number": "5.6.2"
       },
       "definedIn": "heading"
+    },
+    {
+      "id": "dfn-creating-an-rtcicecandidatepair",
+      "href": "https://www.w3.org/TR/webrtc/#dfn-creating-an-rtcicecandidatepair",
+      "linkingText": [
+        "creating an RTCIceCandidatePair",
+        "create an RTCIceCandidatePair"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "x5-6-2-rtcicecandidatepair-interface",
+        "href": "https://www.w3.org/TR/webrtc/#x5-6-2-rtcicecandidatepair-interface",
+        "title": "RTCIceCandidatePair Interface",
+        "number": "5.6.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-local",
+      "href": "https://www.w3.org/TR/webrtc/#dfn-local",
+      "linkingText": [
+        "[[Local]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "RTCIceCandidatePair"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "x5-6-2-rtcicecandidatepair-interface",
+        "href": "https://www.w3.org/TR/webrtc/#x5-6-2-rtcicecandidatepair-interface",
+        "title": "RTCIceCandidatePair Interface",
+        "number": "5.6.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-remote",
+      "href": "https://www.w3.org/TR/webrtc/#dfn-remote",
+      "linkingText": [
+        "[[Remote]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "RTCIceCandidatePair"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "x5-6-2-rtcicecandidatepair-interface",
+        "href": "https://www.w3.org/TR/webrtc/#x5-6-2-rtcicecandidatepair-interface",
+        "title": "RTCIceCandidatePair Interface",
+        "number": "5.6.2"
+      },
+      "definedIn": "prose"
     },
     {
       "id": "dom-rtcicecandidatepair-local",
@@ -8282,17 +8686,19 @@
       "linkingText": [
         "local"
       ],
-      "localLinkingText": [],
-      "type": "dict-member",
+      "localLinkingText": [
+        "RTCIceCandidatePair.local"
+      ],
+      "type": "attribute",
       "for": [
         "RTCIceCandidatePair"
       ],
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "dictionary-rtcicecandidatepair-members",
-        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtcicecandidatepair-members",
-        "title": "Dictionary RTCIceCandidatePair Members"
+        "id": "attributes-14-dedup-164",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-14-dedup-164",
+        "title": "Attributes"
       },
       "definedIn": "dt"
     },
@@ -8302,17 +8708,19 @@
       "linkingText": [
         "remote"
       ],
-      "localLinkingText": [],
-      "type": "dict-member",
+      "localLinkingText": [
+        "RTCIceCandidatePair.remote"
+      ],
+      "type": "attribute",
       "for": [
         "RTCIceCandidatePair"
       ],
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "dictionary-rtcicecandidatepair-members",
-        "href": "https://www.w3.org/TR/webrtc/#dictionary-rtcicecandidatepair-members",
-        "title": "Dictionary RTCIceCandidatePair Members"
+        "id": "attributes-14-dedup-164",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-14-dedup-164",
+        "title": "Attributes"
       },
       "definedIn": "dt"
     },
@@ -8418,6 +8826,69 @@
       "definedIn": "heading"
     },
     {
+      "id": "dom-rtcicetransportstate-closed",
+      "href": "https://www.w3.org/TR/webrtc/#dom-rtcicetransportstate-closed",
+      "linkingText": [
+        "closed"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "RTCIceTransportState"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "rtcicetransportstate",
+        "href": "https://www.w3.org/TR/webrtc/#rtcicetransportstate",
+        "title": "RTCIceTransportState Enum",
+        "number": "5.6.4"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "dom-rtcicetransportstate-failed",
+      "href": "https://www.w3.org/TR/webrtc/#dom-rtcicetransportstate-failed",
+      "linkingText": [
+        "failed"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "RTCIceTransportState"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "rtcicetransportstate",
+        "href": "https://www.w3.org/TR/webrtc/#rtcicetransportstate",
+        "title": "RTCIceTransportState Enum",
+        "number": "5.6.4"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "dom-rtcicetransportstate-disconnected",
+      "href": "https://www.w3.org/TR/webrtc/#dom-rtcicetransportstate-disconnected",
+      "linkingText": [
+        "disconnected"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "RTCIceTransportState"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "rtcicetransportstate",
+        "href": "https://www.w3.org/TR/webrtc/#rtcicetransportstate",
+        "title": "RTCIceTransportState Enum",
+        "number": "5.6.4"
+      },
+      "definedIn": "table"
+    },
+    {
       "id": "dom-rtcicetransportstate-new",
       "href": "https://www.w3.org/TR/webrtc/#dom-rtcicetransportstate-new",
       "linkingText": [
@@ -8460,27 +8931,6 @@
       "definedIn": "table"
     },
     {
-      "id": "dom-rtcicetransportstate-connected",
-      "href": "https://www.w3.org/TR/webrtc/#dom-rtcicetransportstate-connected",
-      "linkingText": [
-        "connected"
-      ],
-      "localLinkingText": [],
-      "type": "enum-value",
-      "for": [
-        "RTCIceTransportState"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "rtcicetransportstate",
-        "href": "https://www.w3.org/TR/webrtc/#rtcicetransportstate",
-        "title": "RTCIceTransportState Enum",
-        "number": "5.6.4"
-      },
-      "definedIn": "table"
-    },
-    {
       "id": "dom-rtcicetransportstate-completed",
       "href": "https://www.w3.org/TR/webrtc/#dom-rtcicetransportstate-completed",
       "linkingText": [
@@ -8502,52 +8952,10 @@
       "definedIn": "table"
     },
     {
-      "id": "dom-rtcicetransportstate-disconnected",
-      "href": "https://www.w3.org/TR/webrtc/#dom-rtcicetransportstate-disconnected",
+      "id": "dom-rtcicetransportstate-connected",
+      "href": "https://www.w3.org/TR/webrtc/#dom-rtcicetransportstate-connected",
       "linkingText": [
-        "disconnected"
-      ],
-      "localLinkingText": [],
-      "type": "enum-value",
-      "for": [
-        "RTCIceTransportState"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "rtcicetransportstate",
-        "href": "https://www.w3.org/TR/webrtc/#rtcicetransportstate",
-        "title": "RTCIceTransportState Enum",
-        "number": "5.6.4"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "dom-rtcicetransportstate-failed",
-      "href": "https://www.w3.org/TR/webrtc/#dom-rtcicetransportstate-failed",
-      "linkingText": [
-        "failed"
-      ],
-      "localLinkingText": [],
-      "type": "enum-value",
-      "for": [
-        "RTCIceTransportState"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "rtcicetransportstate",
-        "href": "https://www.w3.org/TR/webrtc/#rtcicetransportstate",
-        "title": "RTCIceTransportState Enum",
-        "number": "5.6.4"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "dom-rtcicetransportstate-closed",
-      "href": "https://www.w3.org/TR/webrtc/#dom-rtcicetransportstate-closed",
-      "linkingText": [
-        "closed"
+        "connected"
       ],
       "localLinkingText": [],
       "type": "enum-value",
@@ -8767,8 +9175,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-14",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-14",
+        "id": "attributes-15",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-15",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -8789,8 +9197,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-14",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-14",
+        "id": "attributes-15",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-15",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -8811,8 +9219,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-14",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-14",
+        "id": "attributes-15",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-15",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -8833,8 +9241,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-14",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-14",
+        "id": "attributes-15",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-15",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -8953,8 +9361,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-15",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-15",
+        "id": "attributes-16",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-16",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -8975,8 +9383,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-15",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-15",
+        "id": "attributes-16",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-16",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9033,9 +9441,9 @@
         "create an RTCSctpTransport"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "create-an-instance",
@@ -9053,8 +9461,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCSctpTransport"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "create-an-instance",
@@ -9072,8 +9482,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCSctpTransport"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "create-an-instance",
@@ -9091,8 +9503,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCSctpTransport"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "create-an-instance",
@@ -9109,9 +9523,9 @@
         "update the data max message size"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "update-max-message-size",
@@ -9157,8 +9571,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-16",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-16",
+        "id": "attributes-17",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-17",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9179,8 +9593,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-16",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-16",
+        "id": "attributes-17",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-17",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9201,8 +9615,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-16",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-16",
+        "id": "attributes-17",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-17",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9223,8 +9637,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-16",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-16",
+        "id": "attributes-17",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-17",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9245,8 +9659,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-16",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-16",
+        "id": "attributes-17",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-17",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9379,9 +9793,9 @@
         "create an RTCDataChannel"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "creating-a-data-channel",
@@ -9399,8 +9813,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCDataChannel"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "creating-a-data-channel",
@@ -9418,8 +9834,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCDataChannel"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "creating-a-data-channel",
@@ -9437,8 +9855,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCDataChannel"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "creating-a-data-channel",
@@ -9456,8 +9876,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCDataChannel"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "creating-a-data-channel",
@@ -9475,8 +9897,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCDataChannel"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "creating-a-data-channel",
@@ -9494,8 +9918,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCDataChannel"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "creating-a-data-channel",
@@ -9513,8 +9939,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCDataChannel"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "creating-a-data-channel",
@@ -9532,8 +9960,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCDataChannel"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "creating-a-data-channel",
@@ -9551,8 +9981,31 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCDataChannel"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "creating-a-data-channel",
+        "href": "https://www.w3.org/TR/webrtc/#creating-a-data-channel",
+        "title": "Creating a data channel",
+        "number": "6.2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-istransferable",
+      "href": "https://www.w3.org/TR/webrtc/#dfn-istransferable",
+      "linkingText": [
+        "[[IsTransferable]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "RTCDataChannel"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "creating-a-data-channel",
@@ -9570,9 +10023,9 @@
         "announce an RTCDataChannel as open"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "announcing-a-data-channel-as-open",
@@ -9589,17 +10042,36 @@
         "closing procedure"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
-        "id": "closing-procedure",
-        "href": "https://www.w3.org/TR/webrtc/#closing-procedure",
+        "id": "x6-2-4-closing-procedure-dedup-167",
+        "href": "https://www.w3.org/TR/webrtc/#x6-2-4-closing-procedure-dedup-167",
         "title": "Closing procedure",
         "number": "6.2.4"
       },
       "definedIn": "prose"
+    },
+    {
+      "id": "dfn-announcing-a-data-channel-as-closed",
+      "href": "https://www.w3.org/TR/webrtc/#dfn-announcing-a-data-channel-as-closed",
+      "linkingText": [
+        "Announcing a data channel as closed"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "announcing-a-data-channel-as-closed",
+        "href": "https://www.w3.org/TR/webrtc/#announcing-a-data-channel-as-closed",
+        "title": "Announcing a data channel as closed",
+        "number": "6.2.5"
+      },
+      "definedIn": "heading"
     },
     {
       "id": "data-transport-closed",
@@ -9609,26 +10081,9 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "announcing-a-data-channel-as-closed",
-        "href": "https://www.w3.org/TR/webrtc/#announcing-a-data-channel-as-closed",
-        "title": "Announcing a data channel as closed",
-        "number": "6.2.5"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "data-transport-closed-error",
-      "href": "https://www.w3.org/TR/webrtc/#data-transport-closed-error",
-      "linkingText": [
-        "with an error"
+      "for": [
+        "RTCDataChannel underlying data transport"
       ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
       "access": "private",
       "informative": false,
       "heading": {
@@ -9654,29 +10109,28 @@
         "id": "error-on-creating-data-channels",
         "href": "https://www.w3.org/TR/webrtc/#error-on-creating-data-channels",
         "title": "Error on creating data channels",
-        "number": "6.2.6"
+        "number": "6.2.7"
       },
       "definedIn": "prose"
     },
     {
-      "id": "dfn-receive-an-rtcdatachannel-message",
-      "href": "https://www.w3.org/TR/webrtc/#dfn-receive-an-rtcdatachannel-message",
+      "id": "dfn-receiving-messages-on-a-data-channel",
+      "href": "https://www.w3.org/TR/webrtc/#dfn-receiving-messages-on-a-data-channel",
       "linkingText": [
-        "receive an rtcdatachannel message",
-        "RTCDataChannel message has been received"
+        "Receiving messages on a data channel"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "receiving-messages-on-a-data-channel",
         "href": "https://www.w3.org/TR/webrtc/#receiving-messages-on-a-data-channel",
         "title": "Receiving messages on a data channel",
-        "number": "6.2.7"
+        "number": "6.2.8"
       },
-      "definedIn": "prose"
+      "definedIn": "heading"
     },
     {
       "id": "dom-datachannel-label",
@@ -9694,8 +10148,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9716,8 +10170,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9738,8 +10192,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9760,8 +10214,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9782,8 +10236,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9804,8 +10258,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9826,8 +10280,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9848,8 +10302,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9870,8 +10324,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9892,8 +10346,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9914,8 +10368,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9936,8 +10390,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9958,8 +10412,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9980,8 +10434,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -10002,8 +10456,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -10024,8 +10478,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -10046,8 +10500,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -10183,9 +10637,9 @@
         "send() algorithm"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "methods-12",
@@ -10495,8 +10949,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-18",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-18",
+        "id": "attributes-19",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-19",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -10555,8 +11009,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-19",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-19",
+        "id": "attributes-20",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-20",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -10587,9 +11041,9 @@
         "create an RTCDTMFSender"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "rtcdtmfsender",
@@ -10607,8 +11061,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCDTMFSender"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "rtcdtmfsender",
@@ -10626,8 +11082,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCDTMFSender"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "rtcdtmfsender",
@@ -10645,8 +11103,10 @@
       ],
       "localLinkingText": [],
       "type": "attribute",
-      "for": [],
-      "access": "public",
+      "for": [
+        "RTCDTMFSender"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "rtcdtmfsender",
@@ -10672,8 +11132,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-20",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-20",
+        "id": "attributes-21",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-21",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -10694,8 +11154,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-20",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-20",
+        "id": "attributes-21",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-21",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -10716,8 +11176,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-20",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-20",
+        "id": "attributes-21",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-21",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -10768,15 +11228,33 @@
       "definedIn": "prose"
     },
     {
+      "id": "dfn-dtmf-playout-task-steps",
+      "href": "https://www.w3.org/TR/webrtc/#dfn-dtmf-playout-task-steps",
+      "linkingText": [
+        "DTMF playout task steps"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "methods-13",
+        "href": "https://www.w3.org/TR/webrtc/#methods-13",
+        "title": "Methods"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "dfn-determine-if-dtmf-can-be-sent",
       "href": "https://www.w3.org/TR/webrtc/#dfn-determine-if-dtmf-can-be-sent",
       "linkingText": [
         "determine if DTMF can be sent"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "caninsertdtmf-algorithm",
@@ -10847,8 +11325,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-21",
-        "href": "https://www.w3.org/TR/webrtc/#attributes-21",
+        "id": "attributes-22",
+        "href": "https://www.w3.org/TR/webrtc/#attributes-22",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -11040,9 +11518,9 @@
         "stats selection algorithm"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "the-stats-selection-algorithm",
@@ -11109,120 +11587,6 @@
         "href": "https://www.w3.org/TR/webrtc/#mediastreamtrack",
         "title": "MediaStreamTrack",
         "number": "9.3"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-width",
-      "href": "https://www.w3.org/TR/webrtc/#dfn-width",
-      "linkingText": [
-        "width"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "mediatracksupportedconstraints-mediatrackcapabilities-mediatrackconstraints-and-mediatracksettings",
-        "href": "https://www.w3.org/TR/webrtc/#mediatracksupportedconstraints-mediatrackcapabilities-mediatrackconstraints-and-mediatracksettings",
-        "title": "MediaTrackSupportedConstraints, MediaTrackCapabilities, MediaTrackConstraints and MediaTrackSettings",
-        "number": "9.3.1"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "dfn-height",
-      "href": "https://www.w3.org/TR/webrtc/#dfn-height",
-      "linkingText": [
-        "height"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "mediatracksupportedconstraints-mediatrackcapabilities-mediatrackconstraints-and-mediatracksettings",
-        "href": "https://www.w3.org/TR/webrtc/#mediatracksupportedconstraints-mediatrackcapabilities-mediatrackconstraints-and-mediatracksettings",
-        "title": "MediaTrackSupportedConstraints, MediaTrackCapabilities, MediaTrackConstraints and MediaTrackSettings",
-        "number": "9.3.1"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "dfn-framerate",
-      "href": "https://www.w3.org/TR/webrtc/#dfn-framerate",
-      "linkingText": [
-        "frameRate"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "mediatracksupportedconstraints-mediatrackcapabilities-mediatrackconstraints-and-mediatracksettings",
-        "href": "https://www.w3.org/TR/webrtc/#mediatracksupportedconstraints-mediatrackcapabilities-mediatrackconstraints-and-mediatracksettings",
-        "title": "MediaTrackSupportedConstraints, MediaTrackCapabilities, MediaTrackConstraints and MediaTrackSettings",
-        "number": "9.3.1"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "dfn-aspectratio",
-      "href": "https://www.w3.org/TR/webrtc/#dfn-aspectratio",
-      "linkingText": [
-        "aspectRatio"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "mediatracksupportedconstraints-mediatrackcapabilities-mediatrackconstraints-and-mediatracksettings",
-        "href": "https://www.w3.org/TR/webrtc/#mediatracksupportedconstraints-mediatrackcapabilities-mediatrackconstraints-and-mediatracksettings",
-        "title": "MediaTrackSupportedConstraints, MediaTrackCapabilities, MediaTrackConstraints and MediaTrackSettings",
-        "number": "9.3.1"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "dfn-polite-peer",
-      "href": "https://www.w3.org/TR/webrtc/#dfn-polite-peer",
-      "linkingText": [
-        "polite peer"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": true,
-      "heading": {
-        "id": "perfect-negotiation-example",
-        "href": "https://www.w3.org/TR/webrtc/#perfect-negotiation-example",
-        "title": "Perfect Negotiation Example",
-        "number": "10.7"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-impolite-peer",
-      "href": "https://www.w3.org/TR/webrtc/#dfn-impolite-peer",
-      "linkingText": [
-        "impolite peer"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": true,
-      "heading": {
-        "id": "perfect-negotiation-example",
-        "href": "https://www.w3.org/TR/webrtc/#perfect-negotiation-example",
-        "title": "Perfect Negotiation Example",
-        "number": "10.7"
       },
       "definedIn": "prose"
     },
@@ -11401,7 +11765,8 @@
       "heading": {
         "id": "rtcerrorinit-dictionary",
         "href": "https://www.w3.org/TR/webrtc/#rtcerrorinit-dictionary",
-        "title": "RTCErrorInit Dictionary"
+        "title": "RTCErrorInit Dictionary",
+        "number": "11.1.3"
       },
       "definedIn": "heading"
     },
@@ -11421,7 +11786,8 @@
       "heading": {
         "id": "rtcerrorinit-dictionary",
         "href": "https://www.w3.org/TR/webrtc/#rtcerrorinit-dictionary",
-        "title": "RTCErrorInit Dictionary"
+        "title": "RTCErrorInit Dictionary",
+        "number": "11.1.3"
       },
       "definedIn": "prose"
     },
@@ -11441,7 +11807,8 @@
       "heading": {
         "id": "rtcerrorinit-dictionary",
         "href": "https://www.w3.org/TR/webrtc/#rtcerrorinit-dictionary",
-        "title": "RTCErrorInit Dictionary"
+        "title": "RTCErrorInit Dictionary",
+        "number": "11.1.3"
       },
       "definedIn": "prose"
     },
@@ -11461,7 +11828,8 @@
       "heading": {
         "id": "rtcerrorinit-dictionary",
         "href": "https://www.w3.org/TR/webrtc/#rtcerrorinit-dictionary",
-        "title": "RTCErrorInit Dictionary"
+        "title": "RTCErrorInit Dictionary",
+        "number": "11.1.3"
       },
       "definedIn": "prose"
     },
@@ -11481,7 +11849,8 @@
       "heading": {
         "id": "rtcerrorinit-dictionary",
         "href": "https://www.w3.org/TR/webrtc/#rtcerrorinit-dictionary",
-        "title": "RTCErrorInit Dictionary"
+        "title": "RTCErrorInit Dictionary",
+        "number": "11.1.3"
       },
       "definedIn": "prose"
     },
@@ -11501,7 +11870,8 @@
       "heading": {
         "id": "rtcerrorinit-dictionary",
         "href": "https://www.w3.org/TR/webrtc/#rtcerrorinit-dictionary",
-        "title": "RTCErrorInit Dictionary"
+        "title": "RTCErrorInit Dictionary",
+        "number": "11.1.3"
       },
       "definedIn": "prose"
     },
@@ -11786,9 +12156,11 @@
         "open"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "event",
+      "for": [
+        "RTCDataChannel"
+      ],
+      "access": "public",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -11804,27 +12176,11 @@
         "message"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": true,
-      "heading": {
-        "id": "event-summary",
-        "href": "https://www.w3.org/TR/webrtc/#event-summary",
-        "title": "12. Event summary"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "the-messageevent-interfaces",
-      "href": "https://www.w3.org/TR/webrtc/#the-messageevent-interfaces",
-      "linkingText": [
-        "MessageEvent"
+      "type": "event",
+      "for": [
+        "RTCDataChannel"
       ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "access": "public",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -11840,9 +12196,11 @@
         "bufferedamountlow"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "event",
+      "for": [
+        "RTCDataChannel"
+      ],
+      "access": "public",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -11852,15 +12210,17 @@
       "definedIn": "table"
     },
     {
-      "id": "dfn-error",
-      "href": "https://www.w3.org/TR/webrtc/#dfn-error",
+      "id": "event-datachannel-error",
+      "href": "https://www.w3.org/TR/webrtc/#event-datachannel-error",
       "linkingText": [
         "error"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "event",
+      "for": [
+        "RTCDataChannel"
+      ],
+      "access": "public",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -11870,15 +12230,17 @@
       "definedIn": "table"
     },
     {
-      "id": "dfn-closing",
-      "href": "https://www.w3.org/TR/webrtc/#dfn-closing",
+      "id": "event-datachannel-closing",
+      "href": "https://www.w3.org/TR/webrtc/#event-datachannel-closing",
       "linkingText": [
         "closing"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "event",
+      "for": [
+        "RTCDataChannel"
+      ],
+      "access": "public",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -11888,15 +12250,17 @@
       "definedIn": "table"
     },
     {
-      "id": "dfn-close",
-      "href": "https://www.w3.org/TR/webrtc/#dfn-close",
+      "id": "event-datachannel-close",
+      "href": "https://www.w3.org/TR/webrtc/#event-datachannel-close",
       "linkingText": [
         "close"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "event",
+      "for": [
+        "RTCDataChannel"
+      ],
+      "access": "public",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -11912,9 +12276,11 @@
         "track"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "event",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "public",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -11930,9 +12296,11 @@
         "negotiationneeded"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "event",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "public",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -11948,9 +12316,11 @@
         "signalingstatechange"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "event",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "public",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -11966,9 +12336,11 @@
         "iceconnectionstatechange"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "event",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "public",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -11984,9 +12356,11 @@
         "icegatheringstatechange"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "event",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "public",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -12002,9 +12376,11 @@
         "icecandidate"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "event",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "public",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -12020,9 +12396,11 @@
         "connectionstatechange"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "event",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "public",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -12038,9 +12416,11 @@
         "icecandidateerror"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "event",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "public",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -12056,9 +12436,11 @@
         "datachannel"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "event",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "public",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -12074,9 +12456,11 @@
         "tonechange"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "event",
+      "for": [
+        "RTCDTMFSender"
+      ],
+      "access": "public",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -12089,13 +12473,14 @@
       "id": "event-icetransport-statechange",
       "href": "https://www.w3.org/TR/webrtc/#event-icetransport-statechange",
       "linkingText": [
-        "RTCIceTransport state change",
         "statechange"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "event",
+      "for": [
+        "RTCIceTransport"
+      ],
+      "access": "public",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -12111,9 +12496,11 @@
         "gatheringstatechange"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "event",
+      "for": [
+        "RTCIceTransport"
+      ],
+      "access": "public",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -12129,9 +12516,11 @@
         "selectedcandidatepairchange"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "event",
+      "for": [
+        "RTCIceTransport"
+      ],
+      "access": "public",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -12144,12 +12533,14 @@
       "id": "event-dtlstransport-statechange",
       "href": "https://www.w3.org/TR/webrtc/#event-dtlstransport-statechange",
       "linkingText": [
-        "RTCDtlsTransport state change"
+        "statechange"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "event",
+      "for": [
+        "RTCDtlsTransport"
+      ],
+      "access": "public",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -12159,15 +12550,17 @@
       "definedIn": "table"
     },
     {
-      "id": "dfn-rtcdtlstransport-error",
-      "href": "https://www.w3.org/TR/webrtc/#dfn-rtcdtlstransport-error",
+      "id": "dfn-error",
+      "href": "https://www.w3.org/TR/webrtc/#dfn-error",
       "linkingText": [
-        "RTCDtlsTransport error"
+        "error"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "event",
+      "for": [
+        "RTCDtlsTransport"
+      ],
+      "access": "public",
       "informative": true,
       "heading": {
         "id": "event-summary",
@@ -12180,12 +12573,14 @@
       "id": "event-sctptransport-statechange",
       "href": "https://www.w3.org/TR/webrtc/#event-sctptransport-statechange",
       "linkingText": [
-        "RTCSctpTransport state change"
+        "statechange"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "event",
+      "for": [
+        "RTCSctpTransport"
+      ],
+      "access": "public",
       "informative": true,
       "heading": {
         "id": "event-summary",

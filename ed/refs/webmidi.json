@@ -18,8 +18,12 @@
         "url": "https://html.spec.whatwg.org/multipage/"
       },
       {
+        "name": "infra",
+        "url": "https://infra.spec.whatwg.org/"
+      },
+      {
         "name": "MIDI",
-        "url": "https://www.midi.org/specifications/item/the-midi-1-0-specification"
+        "url": "https://midi.org/midi-1-0-core-specifications"
       },
       {
         "name": "Permissions",
@@ -39,7 +43,7 @@
       },
       {
         "name": "webaudio",
-        "url": "https://www.w3.org/TR/webaudio/"
+        "url": "https://www.w3.org/TR/webaudio-1.0/"
       },
       {
         "name": "WEBIDL",

@@ -223,6 +223,25 @@
       "definedIn": "prose"
     },
     {
+      "id": "minimize-a-supported-mime-type",
+      "href": "https://mimesniff.spec.whatwg.org/#minimize-a-supported-mime-type",
+      "linkingText": [
+        "minimize a supported MIME type"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "mime-type-miscellaneous",
+        "href": "https://mimesniff.spec.whatwg.org/#mime-type-miscellaneous",
+        "title": "MIME type miscellaneous",
+        "number": "4.2"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "valid-mime-type",
       "href": "https://mimesniff.spec.whatwg.org/#valid-mime-type",
       "linkingText": [
@@ -763,7 +782,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "matching-an-image-type-pattern",
@@ -782,7 +801,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "matching-an-audio-or-video-type-pattern",
@@ -1055,25 +1074,6 @@
         "href": "https://mimesniff.spec.whatwg.org/#sniffing-a-mislabeled-binary-resource",
         "title": "Sniffing a mislabeled binary resource",
         "number": "7.2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "rules-for-distinguishing-if-a-resource-is-a-feed-or-html",
-      "href": "https://mimesniff.spec.whatwg.org/#rules-for-distinguishing-if-a-resource-is-a-feed-or-html",
-      "linkingText": [
-        "rules for distinguishing if a resource is a feed or HTML"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "sniffing-a-mislabeled-feed",
-        "href": "https://mimesniff.spec.whatwg.org/#sniffing-a-mislabeled-feed",
-        "title": "Sniffing a mislabeled feed",
-        "number": "7.3"
       },
       "definedIn": "prose"
     },

@@ -62,6 +62,25 @@
       "definedIn": "table"
     },
     {
+      "id": "typedef-outline-line-style",
+      "href": "https://drafts.csswg.org/css-ui-4/#typedef-outline-line-style",
+      "linkingText": [
+        "<outline-line-style>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "outline-style",
+        "href": "https://drafts.csswg.org/css-ui-4/#outline-style",
+        "title": "Outline Patterns: the outline-style property",
+        "number": "3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "propdef-outline-color",
       "href": "https://drafts.csswg.org/css-ui-4/#propdef-outline-color",
       "linkingText": [
@@ -81,29 +100,10 @@
       "definedIn": "table"
     },
     {
-      "id": "typedef-outline-line-style",
-      "href": "https://drafts.csswg.org/css-ui-4/#typedef-outline-line-style",
+      "id": "valdef-outline-color-auto",
+      "href": "https://drafts.csswg.org/css-ui-4/#valdef-outline-color-auto",
       "linkingText": [
-        "<outline-line-style>"
-      ],
-      "localLinkingText": [],
-      "type": "type",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "outline-color",
-        "href": "https://drafts.csswg.org/css-ui-4/#outline-color",
-        "title": "Outline Colors: the outline-color property",
-        "number": "3.4"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "valdef-outline-color-invert",
-      "href": "https://drafts.csswg.org/css-ui-4/#valdef-outline-color-invert",
-      "linkingText": [
-        "invert"
+        "auto"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -118,7 +118,7 @@
         "title": "Outline Colors: the outline-color property",
         "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "dt"
     },
     {
       "id": "propdef-outline-offset",
@@ -974,6 +974,67 @@
       "definedIn": "table"
     },
     {
+      "id": "propdef-caret-animation",
+      "href": "https://drafts.csswg.org/css-ui-4/#propdef-caret-animation",
+      "linkingText": [
+        "caret-animation"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "caret-animation",
+        "href": "https://drafts.csswg.org/css-ui-4/#caret-animation",
+        "title": "Animation of the insertion caret: caret-animation",
+        "number": "5.2.2"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "valdef-caret-animation-auto",
+      "href": "https://drafts.csswg.org/css-ui-4/#valdef-caret-animation-auto",
+      "linkingText": [
+        "auto"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "caret-animation"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "caret-animation",
+        "href": "https://drafts.csswg.org/css-ui-4/#caret-animation",
+        "title": "Animation of the insertion caret: caret-animation",
+        "number": "5.2.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-caret-animation-manual",
+      "href": "https://drafts.csswg.org/css-ui-4/#valdef-caret-animation-manual",
+      "linkingText": [
+        "manual"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "caret-animation"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "caret-animation",
+        "href": "https://drafts.csswg.org/css-ui-4/#caret-animation",
+        "title": "Animation of the insertion caret: caret-animation",
+        "number": "5.2.2"
+      },
+      "definedIn": "dt"
+    },
+    {
       "id": "propdef-caret-shape",
       "href": "https://drafts.csswg.org/css-ui-4/#propdef-caret-shape",
       "linkingText": [
@@ -988,7 +1049,7 @@
         "id": "caret-shape",
         "href": "https://drafts.csswg.org/css-ui-4/#caret-shape",
         "title": "Shape of the insertion caret: caret-shape",
-        "number": "5.2.2"
+        "number": "5.2.3"
       },
       "definedIn": "table"
     },
@@ -1007,7 +1068,7 @@
         "id": "caret-shape",
         "href": "https://drafts.csswg.org/css-ui-4/#caret-shape",
         "title": "Shape of the insertion caret: caret-shape",
-        "number": "5.2.2"
+        "number": "5.2.3"
       },
       "definedIn": "prose"
     },
@@ -1026,7 +1087,7 @@
         "id": "caret-shape",
         "href": "https://drafts.csswg.org/css-ui-4/#caret-shape",
         "title": "Shape of the insertion caret: caret-shape",
-        "number": "5.2.2"
+        "number": "5.2.3"
       },
       "definedIn": "prose"
     },
@@ -1047,7 +1108,7 @@
         "id": "caret-shape",
         "href": "https://drafts.csswg.org/css-ui-4/#caret-shape",
         "title": "Shape of the insertion caret: caret-shape",
-        "number": "5.2.2"
+        "number": "5.2.3"
       },
       "definedIn": "dt"
     },
@@ -1068,7 +1129,7 @@
         "id": "caret-shape",
         "href": "https://drafts.csswg.org/css-ui-4/#caret-shape",
         "title": "Shape of the insertion caret: caret-shape",
-        "number": "5.2.2"
+        "number": "5.2.3"
       },
       "definedIn": "dt"
     },
@@ -1089,7 +1150,7 @@
         "id": "caret-shape",
         "href": "https://drafts.csswg.org/css-ui-4/#caret-shape",
         "title": "Shape of the insertion caret: caret-shape",
-        "number": "5.2.2"
+        "number": "5.2.3"
       },
       "definedIn": "dt"
     },
@@ -1110,7 +1171,7 @@
         "id": "caret-shape",
         "href": "https://drafts.csswg.org/css-ui-4/#caret-shape",
         "title": "Shape of the insertion caret: caret-shape",
-        "number": "5.2.2"
+        "number": "5.2.3"
       },
       "definedIn": "dt"
     },
@@ -1129,7 +1190,7 @@
         "id": "caret",
         "href": "https://drafts.csswg.org/css-ui-4/#caret",
         "title": "Insertion caret shorthand: caret",
-        "number": "5.2.3"
+        "number": "5.2.4"
       },
       "definedIn": "table"
     },
@@ -1490,6 +1551,86 @@
       "definedIn": "dt"
     },
     {
+      "id": "propdef-interactivity",
+      "href": "https://drafts.csswg.org/css-ui-4/#propdef-interactivity",
+      "linkingText": [
+        "interactivity"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "inertness",
+        "href": "https://drafts.csswg.org/css-ui-4/#inertness",
+        "title": "Preventing All Interaction: the interactivity property",
+        "number": "6.3"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "valdef-interactivity-auto",
+      "href": "https://drafts.csswg.org/css-ui-4/#valdef-interactivity-auto",
+      "linkingText": [
+        "auto"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "interactivity"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "inertness",
+        "href": "https://drafts.csswg.org/css-ui-4/#inertness",
+        "title": "Preventing All Interaction: the interactivity property",
+        "number": "6.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-interactivity-inert",
+      "href": "https://drafts.csswg.org/css-ui-4/#valdef-interactivity-inert",
+      "linkingText": [
+        "inert"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "interactivity"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "inertness",
+        "href": "https://drafts.csswg.org/css-ui-4/#inertness",
+        "title": "Preventing All Interaction: the interactivity property",
+        "number": "6.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "inert",
+      "href": "https://drafts.csswg.org/css-ui-4/#inert",
+      "linkingText": [
+        "inert"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "inertness",
+        "href": "https://drafts.csswg.org/css-ui-4/#inertness",
+        "title": "Preventing All Interaction: the interactivity property",
+        "number": "6.3"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "propdef-accent-color",
       "href": "https://drafts.csswg.org/css-ui-4/#propdef-accent-color",
       "linkingText": [
@@ -1625,6 +1766,25 @@
       "definedIn": "prose"
     },
     {
+      "id": "base-appearance",
+      "href": "https://drafts.csswg.org/css-ui-4/#base-appearance",
+      "linkingText": [
+        "base appearance"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "appearance-switching",
+        "href": "https://drafts.csswg.org/css-ui-4/#appearance-switching",
+        "title": "Switching appearance: the appearance property",
+        "number": "7.2"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "valdef-appearance-none",
       "href": "https://drafts.csswg.org/css-ui-4/#valdef-appearance-none",
       "linkingText": [
@@ -1650,6 +1810,27 @@
       "href": "https://drafts.csswg.org/css-ui-4/#valdef-appearance-auto",
       "linkingText": [
         "auto"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "appearance"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "appearance-switching",
+        "href": "https://drafts.csswg.org/css-ui-4/#appearance-switching",
+        "title": "Switching appearance: the appearance property",
+        "number": "7.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-appearance-base",
+      "href": "https://drafts.csswg.org/css-ui-4/#valdef-appearance-base",
+      "linkingText": [
+        "base"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -1730,48 +1911,6 @@
       "definedIn": "pre"
     },
     {
-      "id": "valdef-appearance-push-button",
-      "href": "https://drafts.csswg.org/css-ui-4/#valdef-appearance-push-button",
-      "linkingText": [
-        "push-button"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "appearance"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "appearance-switching",
-        "href": "https://drafts.csswg.org/css-ui-4/#appearance-switching",
-        "title": "Switching appearance: the appearance property",
-        "number": "7.2"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "valdef-appearance-slider-horizontal",
-      "href": "https://drafts.csswg.org/css-ui-4/#valdef-appearance-slider-horizontal",
-      "linkingText": [
-        "slider-horizontal"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "appearance"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "appearance-switching",
-        "href": "https://drafts.csswg.org/css-ui-4/#appearance-switching",
-        "title": "Switching appearance: the appearance property",
-        "number": "7.2"
-      },
-      "definedIn": "pre"
-    },
-    {
       "id": "valdef-appearance-checkbox",
       "href": "https://drafts.csswg.org/css-ui-4/#valdef-appearance-checkbox",
       "linkingText": [
@@ -1797,27 +1936,6 @@
       "href": "https://drafts.csswg.org/css-ui-4/#valdef-appearance-radio",
       "linkingText": [
         "radio"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "appearance"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "appearance-switching",
-        "href": "https://drafts.csswg.org/css-ui-4/#appearance-switching",
-        "title": "Switching appearance: the appearance property",
-        "number": "7.2"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "valdef-appearance-square-button",
-      "href": "https://drafts.csswg.org/css-ui-4/#valdef-appearance-square-button",
-      "linkingText": [
-        "square-button"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -2003,6 +2121,25 @@
       "definedIn": "pre"
     },
     {
+      "id": "disregarding",
+      "href": "https://drafts.csswg.org/css-ui-4/#disregarding",
+      "linkingText": [
+        "Disregarding"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "appearance-switching",
+        "href": "https://drafts.csswg.org/css-ui-4/#appearance-switching",
+        "title": "Switching appearance: the appearance property",
+        "number": "7.2"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "propdef--webkit-appearance",
       "href": "https://drafts.csswg.org/css-ui-4/#propdef--webkit-appearance",
       "linkingText": [
@@ -2102,6 +2239,86 @@
       "definedIn": "prose"
     },
     {
+      "id": "propdef-field-sizing",
+      "href": "https://drafts.csswg.org/css-ui-4/#propdef-field-sizing",
+      "linkingText": [
+        "field-sizing"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "field-sizing",
+        "href": "https://drafts.csswg.org/css-ui-4/#field-sizing",
+        "title": "Switching form control sizing: the field-sizing property",
+        "number": "7.3"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "element-with-default-preferred-size",
+      "href": "https://drafts.csswg.org/css-ui-4/#element-with-default-preferred-size",
+      "linkingText": [
+        "element with default preferred size"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "field-sizing",
+        "href": "https://drafts.csswg.org/css-ui-4/#field-sizing",
+        "title": "Switching form control sizing: the field-sizing property",
+        "number": "7.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "valdef-field-sizing-fixed",
+      "href": "https://drafts.csswg.org/css-ui-4/#valdef-field-sizing-fixed",
+      "linkingText": [
+        "fixed"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "field-sizing"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "field-sizing",
+        "href": "https://drafts.csswg.org/css-ui-4/#field-sizing",
+        "title": "Switching form control sizing: the field-sizing property",
+        "number": "7.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-field-sizing-content",
+      "href": "https://drafts.csswg.org/css-ui-4/#valdef-field-sizing-content",
+      "linkingText": [
+        "content"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "field-sizing"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "field-sizing",
+        "href": "https://drafts.csswg.org/css-ui-4/#field-sizing",
+        "title": "Switching form control sizing: the field-sizing property",
+        "number": "7.3"
+      },
+      "definedIn": "dt"
+    },
+    {
       "id": "propdef-input-security",
       "href": "https://drafts.csswg.org/css-ui-4/#propdef-input-security",
       "linkingText": [
@@ -2116,7 +2333,7 @@
         "id": "input-security",
         "href": "https://drafts.csswg.org/css-ui-4/#input-security",
         "title": "Obscuring sensitive input: the input-security property",
-        "number": "7.3"
+        "number": "7.4"
       },
       "definedIn": "table"
     },
@@ -2135,7 +2352,7 @@
         "id": "input-security",
         "href": "https://drafts.csswg.org/css-ui-4/#input-security",
         "title": "Obscuring sensitive input: the input-security property",
-        "number": "7.3"
+        "number": "7.4"
       },
       "definedIn": "prose"
     },
@@ -2156,7 +2373,7 @@
         "id": "input-security",
         "href": "https://drafts.csswg.org/css-ui-4/#input-security",
         "title": "Obscuring sensitive input: the input-security property",
-        "number": "7.3"
+        "number": "7.4"
       },
       "definedIn": "dt"
     },
@@ -2177,7 +2394,7 @@
         "id": "input-security",
         "href": "https://drafts.csswg.org/css-ui-4/#input-security",
         "title": "Obscuring sensitive input: the input-security property",
-        "number": "7.3"
+        "number": "7.4"
       },
       "definedIn": "dt"
     }

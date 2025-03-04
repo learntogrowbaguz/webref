@@ -37,10 +37,6 @@
         "url": "https://drafts.csswg.org/css-conditional-3/"
       },
       {
-        "name": "CSS-IMAGES-4",
-        "url": "https://drafts.csswg.org/css-images-4/"
-      },
-      {
         "name": "CSS-SYNTAX-3",
         "url": "https://drafts.csswg.org/css-syntax/"
       },
@@ -58,10 +54,6 @@
       },
       {
         "name": "CSS2",
-        "url": "https://drafts.csswg.org/css2/"
-      },
-      {
-        "name": "CSS22",
         "url": "https://drafts.csswg.org/css2/"
       },
       {
@@ -90,7 +82,11 @@
       },
       {
         "name": "ICC",
-        "url": "http://www.color.org/specification/ICC1v43_2010-12.pdf"
+        "url": "http://www.color.org/specification/ICC.1-2022-05.pdf"
+      },
+      {
+        "name": "INFRA",
+        "url": "https://infra.spec.whatwg.org/"
       },
       {
         "name": "ITU-R-BT.601",
@@ -131,10 +127,6 @@
       {
         "name": "SVG11",
         "url": "https://www.w3.org/TR/SVG11/"
-      },
-      {
-        "name": "SVG2",
-        "url": "https://svgwg.org/svg2-draft/"
       }
     ],
     "informative": [
@@ -145,6 +137,10 @@
       {
         "name": "CSS-COLOR-5",
         "url": "https://drafts.csswg.org/css-color-5/"
+      },
+      {
+        "name": "CSS-IMAGES-4",
+        "url": "https://drafts.csswg.org/css-images-4/"
       },
       {
         "name": "CSS-TRANSITIONS-1",
@@ -168,7 +164,7 @@
       },
       {
         "name": "PNG",
-        "url": "https://w3c.github.io/PNG-spec/"
+        "url": "https://w3c.github.io/png/"
       },
       {
         "name": "ROMM-RGB",
@@ -176,15 +172,19 @@
       },
       {
         "name": "Sharma",
-        "url": "http://www2.ece.rochester.edu/~gsharma/ciede2000/"
+        "url": "https://www.hajim.rochester.edu/ece/sites/gsharma/ciede2000/"
       },
       {
         "name": "TIFF",
         "url": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000022.shtml"
       },
       {
+        "name": "Understanding_CCT",
+        "url": "https://litomatic.com/blog/what-is-cct-in-lighting/"
+      },
+      {
         "name": "WCAG21",
-        "url": "https://w3c.github.io/wcag/21/guidelines/"
+        "url": "https://w3c.github.io/wcag/guidelines/"
       },
       {
         "name": "Wolfe",

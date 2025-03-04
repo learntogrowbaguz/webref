@@ -15,7 +15,15 @@
       },
       {
         "name": "CSS-COLOR-4",
-        "url": "https://drafts.csswg.org/css-color/"
+        "url": "https://drafts.csswg.org/css-color-4/"
+      },
+      {
+        "name": "CSS-COLOR-5",
+        "url": "https://drafts.csswg.org/css-color-5/"
+      },
+      {
+        "name": "CSS-COLOR-ADJUST-1",
+        "url": "https://drafts.csswg.org/css-color-adjust-1/"
       },
       {
         "name": "CSS-ENV-1",
@@ -51,10 +59,6 @@
       },
       {
         "name": "CSS2",
-        "url": "https://drafts.csswg.org/css2/"
-      },
-      {
-        "name": "CSS22",
         "url": "https://drafts.csswg.org/css2/"
       },
       {
@@ -106,12 +110,8 @@
         "url": "https://www.unicode.org/versions/latest/"
       },
       {
-        "name": "URL",
-        "url": "https://url.spec.whatwg.org/"
-      },
-      {
         "name": "UTS51",
-        "url": "https://www.unicode.org/reports/tr51/tr51-23.html"
+        "url": "https://www.unicode.org/reports/tr51/tr51-27.html"
       },
       {
         "name": "WEBIDL",
@@ -125,7 +125,7 @@
       },
       {
         "name": "CSS-DISPLAY-4",
-        "url": "https://drafts.csswg.org/css-display-4/"
+        "url": "https://drafts.csswg.org/css-display/"
       },
       {
         "name": "CSS-FONT-LOADING-3",
@@ -148,12 +148,12 @@
         "url": "https://drafts.csswg.org/css-conditional-3/"
       },
       {
-        "name": "OPEN-FONT-FORMAT",
-        "url": "http://standards.iso.org/ittf/PubliclyAvailableStandards/c052136_ISO_IEC_14496-22_2009%28E%29.zip"
+        "name": "IFT",
+        "url": "https://w3c.github.io/IFT/Overview.html"
       },
       {
-        "name": "OPENTYPE-FONT-GUIDE",
-        "url": "https://www.fontfont.com/staticcontent/downloads/FF_OT_User_Guide.pdf"
+        "name": "OPEN-FONT-FORMAT",
+        "url": "https://www.iso.org/standard/74461.html"
       },
       {
         "name": "PFE-report",
@@ -165,7 +165,7 @@
       },
       {
         "name": "UAX29",
-        "url": "https://www.unicode.org/reports/tr29/tr29-41.html"
+        "url": "https://www.unicode.org/reports/tr29/tr29-45.html"
       },
       {
         "name": "WINDOWS-GLYPH-PROC",

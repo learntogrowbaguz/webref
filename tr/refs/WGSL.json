@@ -10,8 +10,16 @@
         "url": "http://publications.csail.mit.edu/lcs/pubs/pdf/MIT-LCS-TR-065.pdf"
       },
       {
+        "name": "ECMASCRIPT",
+        "url": "https://tc39.es/ecma262/multipage/"
+      },
+      {
         "name": "IEEE-754",
         "url": "http://ieeexplore.ieee.org/servlet/opac?punumber=4610933"
+      },
+      {
+        "name": "Muller2005",
+        "url": "https://inria.hal.science/inria-00070503"
       },
       {
         "name": "RFC2119",
@@ -19,11 +27,11 @@
       },
       {
         "name": "UAX14",
-        "url": "https://www.unicode.org/reports/tr14/tr14-49.html"
+        "url": "https://www.unicode.org/reports/tr14/tr14-53.html"
       },
       {
         "name": "UAX31",
-        "url": "https://www.unicode.org/reports/tr31/tr31-37.html"
+        "url": "https://www.unicode.org/reports/tr31/tr31-41.html"
       },
       {
         "name": "UnicodeVersion14",
@@ -40,10 +48,6 @@
       {
         "name": "WebGPU",
         "url": "https://w3.org/TR/webgpu"
-      },
-      {
-        "name": "WGSL",
-        "url": "https://www.w3.org/TR/WGSL/"
       }
     ],
     "informative": [
@@ -58,6 +62,18 @@
       {
         "name": "IANA-MEDIA-TYPES",
         "url": "https://www.iana.org/assignments/media-types/"
+      },
+      {
+        "name": "INFRA",
+        "url": "https://infra.spec.whatwg.org/"
+      },
+      {
+        "name": "Jeannerod2013",
+        "url": "https://www.ams.org/journals/mcom/2013-82-284/S0025-5718-2013-02679-8/S0025-5718-2013-02679-8.pdf"
+      },
+      {
+        "name": "WASM-CORE-2",
+        "url": "https://www.w3.org/TR/wasm-core-2/"
       }
     ]
   }

@@ -915,10 +915,10 @@
       "definedIn": "pre"
     },
     {
-      "id": "valdef-grid-template-columns-flex",
-      "href": "https://drafts.csswg.org/css-grid-2/#valdef-grid-template-columns-flex",
+      "id": "valdef-grid-template-columns-flex-0",
+      "href": "https://drafts.csswg.org/css-grid-2/#valdef-grid-template-columns-flex-0",
       "linkingText": [
-        "<flex>"
+        "<flex [0,∞]>"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -959,13 +959,13 @@
       "definedIn": "prose"
     },
     {
-      "id": "valdef-grid-template-columns-minmax",
-      "href": "https://drafts.csswg.org/css-grid-2/#valdef-grid-template-columns-minmax",
+      "id": "funcdef-grid-template-columns-minmax",
+      "href": "https://drafts.csswg.org/css-grid-2/#funcdef-grid-template-columns-minmax",
       "linkingText": [
         "minmax()"
       ],
       "localLinkingText": [],
-      "type": "value",
+      "type": "function",
       "for": [
         "grid-template-columns",
         "grid-template-rows"
@@ -1047,13 +1047,13 @@
       "definedIn": "dt"
     },
     {
-      "id": "valdef-grid-template-columns-fit-content",
-      "href": "https://drafts.csswg.org/css-grid-2/#valdef-grid-template-columns-fit-content",
+      "id": "funcdef-grid-template-columns-fit-content",
+      "href": "https://drafts.csswg.org/css-grid-2/#funcdef-grid-template-columns-fit-content",
       "linkingText": [
         "fit-content()"
       ],
       "localLinkingText": [],
-      "type": "value",
+      "type": "function",
       "for": [
         "grid-template-columns",
         "grid-template-rows"
@@ -1107,14 +1107,19 @@
       "definedIn": "prose"
     },
     {
-      "id": "funcdef-repeat",
-      "href": "https://drafts.csswg.org/css-grid-2/#funcdef-repeat",
+      "id": "funcdef-track-repeat-repeat",
+      "href": "https://drafts.csswg.org/css-grid-2/#funcdef-track-repeat-repeat",
       "linkingText": [
         "repeat()"
       ],
       "localLinkingText": [],
       "type": "function",
-      "for": [],
+      "for": [
+        "<track-repeat>",
+        "<auto-repeat>",
+        "<fixed-repeat>",
+        "<name-repeat>"
+      ],
       "access": "public",
       "informative": false,
       "heading": {
@@ -2557,10 +2562,10 @@
       "definedIn": "prose"
     },
     {
-      "id": "grid-sizing-algorithm",
-      "href": "https://drafts.csswg.org/css-grid-2/#grid-sizing-algorithm",
+      "id": "layout-algorithm",
+      "href": "https://drafts.csswg.org/css-grid-2/#layout-algorithm",
       "linkingText": [
-        "grid sizing algorithm"
+        "Grid Layout Algorithm"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -2570,9 +2575,28 @@
       "heading": {
         "id": "layout-algorithm",
         "href": "https://drafts.csswg.org/css-grid-2/#layout-algorithm",
-        "title": "12. Grid Sizing"
+        "title": "12. Grid Layout Algorithm"
       },
-      "definedIn": "prose"
+      "definedIn": "heading"
+    },
+    {
+      "id": "algo-grid-sizing",
+      "href": "https://drafts.csswg.org/css-grid-2/#algo-grid-sizing",
+      "linkingText": [
+        "Grid Sizing Algorithm"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "algo-grid-sizing",
+        "href": "https://drafts.csswg.org/css-grid-2/#algo-grid-sizing",
+        "title": "Grid Sizing Algorithm",
+        "number": "12.1"
+      },
+      "definedIn": "heading"
     },
     {
       "id": "fixed-sizing-function",
@@ -2586,9 +2610,10 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "layout-algorithm",
-        "href": "https://drafts.csswg.org/css-grid-2/#layout-algorithm",
-        "title": "12. Grid Sizing"
+        "id": "algo-grid-sizing",
+        "href": "https://drafts.csswg.org/css-grid-2/#algo-grid-sizing",
+        "title": "Grid Sizing Algorithm",
+        "number": "12.1"
       },
       "definedIn": "prose"
     },
@@ -2604,9 +2629,10 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "layout-algorithm",
-        "href": "https://drafts.csswg.org/css-grid-2/#layout-algorithm",
-        "title": "12. Grid Sizing"
+        "id": "algo-grid-sizing",
+        "href": "https://drafts.csswg.org/css-grid-2/#algo-grid-sizing",
+        "title": "Grid Sizing Algorithm",
+        "number": "12.1"
       },
       "definedIn": "prose"
     },
@@ -2622,9 +2648,10 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "layout-algorithm",
-        "href": "https://drafts.csswg.org/css-grid-2/#layout-algorithm",
-        "title": "12. Grid Sizing"
+        "id": "algo-grid-sizing",
+        "href": "https://drafts.csswg.org/css-grid-2/#algo-grid-sizing",
+        "title": "Grid Sizing Algorithm",
+        "number": "12.1"
       },
       "definedIn": "prose"
     },

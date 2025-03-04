@@ -1,21 +1,159 @@
 {
   "spec": {
-    "title": "Source Map Revision 3 Proposal",
-    "url": "https://sourcemaps.info/spec.html"
+    "title": "Source map format specification",
+    "url": "https://tc39.es/ecma426/"
   },
   "links": {
-    "https://docs.google.com/document/d/1U1RGAehQwRypUTovF1KRlpiOFze0b-_2gc6fAH0KY0k/edit": {
-      "anchors": [
-        "heading=h.djovrt4kdvga"
-      ]
+    "rawlinks": {
+      "https://docs.google.com/document/d/1xi12LrcqjqIHTtZzrzZKmQ3lbTv9mKrN076UB-j3UZQ/edit?hl=en_US": {},
+      "https://en.wikipedia.org/wiki/Variable-length_quantity": {},
+      "https://encoding.spec.whatwg.org/": {},
+      "https://fetch.spec.whatwg.org/": {},
+      "https://github.com/tc39/ecma426": {},
+      "https://infra.spec.whatwg.org/": {
+        "anchors": [
+          "algorithm-control-flow"
+        ]
+      },
+      "https://tc39.es/ecma262/": {},
+      "https://tc39.es/ecma404/": {},
+      "https://tc39.es/ecma426/": {},
+      "https://url.spec.whatwg.org/": {},
+      "https://web.archive.org/web/20120814122523/http://blog.getfirebug.com/2009/08/11/give-your-eval-a-name-with-sourceurl/": {},
+      "https://webidl.spec.whatwg.org/": {},
+      "https://www.ietf.org/rfc/rfc4648.txt": {},
+      "https://www.w3.org/TR/wasm-core-2/": {
+        "anchors": [
+          "names%E2%91%A2"
+        ]
+      }
     },
-    "https://docs.google.com/document/d/1xi12LrcqjqIHTtZzrzZKmQ3lbTv9mKrN076UB-j3UZQ/edit?hl=en_US": {},
-    "https://www.google.com/url?q=http%3A%2F%2Fblog.getfirebug.com%2F2009%2F08%2F11%2Fgive-your-eval-a-name-with-sourceurl%2F&sa=D&sntz=1&usg=AFQjCNGTmo1oeVMYYnkym1sNCKRubqEdZQ": {},
-    "https://www.google.com/url?q=http%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby-sa%2F3.0%2F&sa=D&sntz=1&usg=AFQjCNG4j2oPozXv2_VqmmLiVAToFtwKdA": {},
-    "https://www.google.com/url?q=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBase64&sa=D&sntz=1&usg=AFQjCNFBXL8z0E0DI1EBVFe0p1xFhqM-nQ": {},
-    "https://www.google.com/url?q=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDomain-specific_language&sa=D&sntz=1&usg=AFQjCNHHFC688Gk030MFph_E9e5bb91vxw": {},
-    "https://www.google.com/url?q=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FVariable-length_quantity&sa=D&sntz=1&usg=AFQjCNGbaYv9IZBJ4F8r1CT_hcPd6G5W7g": {},
-    "https://www.google.com/url?q=http%3A%2F%2Fgoogleonlinesecurity.blogspot.com%2F2011%2F05%2Fwebsite-security-for-webmasters.html&sa=D&sntz=1&usg=AFQjCNGfEVwZAC-5zTvoGFDCjdNE25PBcw": {},
-    "https://www.google.com/url?q=https%3A%2F%2Flists.mozilla.org%2Flistinfo%2Fdev-js-sourcemap&sa=D&sntz=1&usg=AFQjCNF_VYjErD9aXQLjMPShAAmNZ4uWGA": {}
+    "autolinks": {
+      "https://encoding.spec.whatwg.org/": {
+        "anchors": [
+          "utf-8-decode-without-bom-or-fail"
+        ]
+      },
+      "https://fetch.spec.whatwg.org/": {
+        "anchors": [
+          "concept-request",
+          "concept-request-url",
+          "concept-fetch",
+          "process-response-end-of-body",
+          "concept-response",
+          "http-scheme",
+          "http-newline-byte"
+        ]
+      },
+      "https://infra.spec.whatwg.org/": {
+        "anchors": [
+          "struct",
+          "string",
+          "list",
+          "boolean",
+          "parse-a-json-string-to-an-infra-value",
+          "ordered-map",
+          "map-exists",
+          "list-iterate",
+          "list-append",
+          "strictly-split",
+          "list-size",
+          "string-position-variable",
+          "ascii-string",
+          "code-unit",
+          "byte",
+          "byte-value",
+          "code-unit-substring",
+          "string-concatenate",
+          "set-union",
+          "list-extend",
+          "list-sort-in-ascending-order",
+          "list-is-empty",
+          "iteration-while",
+          "collect-a-sequence-of-code-points",
+          "iteration-break",
+          "code-point",
+          "code-point-substring",
+          "byte-sequence",
+          "byte-sequence-starts-with",
+          "byte-sequence-length",
+          "parse-json-bytes-to-a-javascript-value"
+        ]
+      },
+      "https://tc39.es/ecma262/": {
+        "anchors": [
+          "sec-ecmascript-language-lexical-grammar",
+          "prod-IdentifierName",
+          "prod-PrivateIdentifier",
+          "prod-Punctuator",
+          "prod-DivPunctuator",
+          "prod-RightBracePunctuator",
+          "prod-NumericLiteral",
+          "prod-RegularExpressionLiteral",
+          "prod-Comment",
+          "prod-HashbangComment",
+          "prod-StringLiteral",
+          "prod-Template",
+          "prod-TemplateSubstitutionTail",
+          "prod-WhiteSpace",
+          "prod-LineTerminator",
+          "sec-syntactic-grammar",
+          "prod-BindingIdentifier",
+          "prod-LexicalDeclaration",
+          "prod-VariableStatement",
+          "sec-parameter-lists",
+          "prod-FunctionDeclaration",
+          "prod-FunctionExpression",
+          "prod-AsyncFunctionDeclaration",
+          "prod-AsyncFunctionExpression",
+          "prod-GeneratorDeclaration",
+          "prod-GeneratorExpression",
+          "prod-AsyncGeneratorDeclaration",
+          "prod-AsyncGeneratorExpression",
+          "prod-FormalParameters",
+          "prod-ArrowFunction",
+          "prod-AsyncArrowFunction",
+          "prod-ArrowParameters",
+          "prod-AsyncArrowBindingIdentifier",
+          "prod-ArrowFormalParameters",
+          "prod-ClassElementName",
+          "prod-MethodDefinition",
+          "prod-IdentifierReference",
+          "prod-Expression",
+          "integral-number",
+          "sec-lexical-and-regexp-grammars",
+          "prod-SingleLineComment",
+          "prod-MultiLineComment",
+          "table-line-terminator-code-points",
+          "sec-white-space",
+          "sec-regexpbuiltinexec"
+        ]
+      },
+      "https://url.spec.whatwg.org/": {
+        "anchors": [
+          "concept-url",
+          "concept-url-parser",
+          "concept-url-scheme"
+        ]
+      },
+      "https://webassembly.github.io/spec/core/appendix/embedding.html": {
+        "anchors": [
+          "embed-module-decode"
+        ]
+      },
+      "https://webassembly.github.io/spec/core/binary/modules.html": {
+        "anchors": [
+          "binary-customsec"
+        ]
+      },
+      "https://webidl.spec.whatwg.org/": {
+        "anchors": [
+          "a-new-promise",
+          "reject",
+          "exceptiondef-typeerror",
+          "resolve"
+        ]
+      }
+    }
   }
 }

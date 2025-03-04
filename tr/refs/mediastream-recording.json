@@ -10,12 +10,12 @@
         "url": "https://dom.spec.whatwg.org/"
       },
       {
-        "name": "FETCH",
-        "url": "https://fetch.spec.whatwg.org/"
-      },
-      {
         "name": "FileAPI",
         "url": "https://www.w3.org/TR/FileAPI/"
+      },
+      {
+        "name": "FINGERPRINTING-GUIDANCE",
+        "url": "https://www.w3.org/TR/fingerprinting-guidance/"
       },
       {
         "name": "GETUSERMEDIA",
@@ -32,6 +32,10 @@
       {
         "name": "RFC2046",
         "url": "https://www.rfc-editor.org/rfc/rfc2046"
+      },
+      {
+        "name": "WEBDRIVER-BIDI",
+        "url": "https://www.w3.org/TR/webdriver-bidi/"
       },
       {
         "name": "WEBIDL",

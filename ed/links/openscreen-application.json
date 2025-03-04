@@ -1,0 +1,182 @@
+{
+  "spec": {
+    "title": "Open Screen Application Protocol",
+    "url": "https://w3c.github.io/openscreenprotocol/application.html"
+  },
+  "links": {
+    "rawlinks": {
+      "https://datatracker.ietf.org/doc/html/rfc2119": {},
+      "https://en.wikipedia.org/wiki/Fuzzing": {},
+      "https://en.wikipedia.org/wiki/Sandbox_(computer_security)": {},
+      "https://github.com/w3c/openscreenprotocol/blob/main/capabilities.md": {},
+      "https://github.com/w3c/openscreenprotocol/issues": {},
+      "https://github.com/w3c/openscreenprotocol/issues/342": {},
+      "https://github.com/w3c/openscreenprotocol/issues/343": {},
+      "https://html.spec.whatwg.org/multipage/": {},
+      "https://ieeexplore.ieee.org/document/8766229": {},
+      "https://w3c.github.io/media-capabilities/": {
+        "anchors": [
+          "colorgamut",
+          "transferfunction",
+          "hdrmetadatatype"
+        ]
+      },
+      "https://w3c.github.io/openscreenprotocol/capabilities.html": {},
+      "https://w3c.github.io/openscreenprotocol/device_specs.html": {},
+      "https://w3c.github.io/openscreenprotocol/explainer.html": {},
+      "https://w3c.github.io/presentation-api/": {
+        "anchors": [
+          "creating-a-receiving-browsing-context",
+          "common-idioms",
+          "the-list-of-available-presentation-displays",
+          "starting-a-presentation-connection",
+          "reconnecting-to-a-presentation",
+          "sending-a-message-through-presentationconnection",
+          "closing-a-presentationconnection",
+          "terminating-a-presentation-in-a-controlling-browsing-context",
+          "monitoring-incoming-presentation-connections",
+          "cross-origin-access",
+          "personally-identifiable-information",
+          "security-and-privacy-considerations"
+        ]
+      },
+      "https://w3c.github.io/remote-playback/": {
+        "anchors": [
+          "establishing-a-connection-with-a-remote-playback-device",
+          "disconnecting-from-a-remote-playback-device",
+          "the-list-of-available-remote-playback-devices",
+          "personally-identifiable-information",
+          "security-and-privacy-considerations"
+        ]
+      },
+      "https://w3c.github.io/webcodecs/codec_registry.html": {},
+      "https://w3ctag.github.io/security-questionnaire/": {},
+      "https://www.itu.int/dms_pubrec/itu-r/rec/bt/R-REC-BT.1359-1-199811-I!!PDF-E.pdf": {},
+      "https://www.rfc-editor.org/rfc/rfc4122": {},
+      "https://www.rfc-editor.org/rfc/rfc5646": {},
+      "https://www.rfc-editor.org/rfc/rfc6381": {},
+      "https://www.rfc-editor.org/rfc/rfc8610": {},
+      "https://www.rfc-editor.org/rfc/rfc8949": {},
+      "https://www.rfc-editor.org/rfc/rfc9000": {},
+      "https://www.w3.org/2001/tag/doc/private-browsing-modes/": {},
+      "https://www.w3.org/2004/01/pp-impl/74168/status": {},
+      "https://www.w3.org/TR/": {},
+      "https://www.w3.org/groups/wg/secondscreen": {},
+      "https://www.w3.org/policies/patent-policy/20200915/": {
+        "anchors": [
+          "def-essential",
+          "sec-Disclosure"
+        ]
+      },
+      "https://www.w3.org/policies/process/20231103/": {}
+    },
+    "autolinks": {
+      "https://datatracker.ietf.org/doc/html/rfc4122": {
+        "anchors": [
+          "section-4.4"
+        ]
+      },
+      "https://datatracker.ietf.org/doc/html/rfc5646": {
+        "anchors": [
+          "section-2"
+        ]
+      },
+      "https://datatracker.ietf.org/doc/html/rfc6381": {
+        "anchors": [
+          "section-3"
+        ]
+      },
+      "https://datatracker.ietf.org/doc/html/rfc8610": {
+        "anchors": [
+          "section-3"
+        ]
+      },
+      "https://datatracker.ietf.org/doc/html/rfc9000": {
+        "anchors": [
+          "name-variable-length-integer-enc"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/embedded-content.html": {
+        "anchors": [
+          "attr-source-src",
+          "attr-source-type"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/media.html": {
+        "anchors": [
+          "media-element",
+          "htmlmediaelement",
+          "media-resource",
+          "dom-media-fastseek",
+          "dom-media-pause",
+          "dom-media-play",
+          "dom-media-currentsrc",
+          "dom-media-networkstate",
+          "dom-media-readystate",
+          "dom-media-error",
+          "dom-media-duration",
+          "dom-media-buffered",
+          "dom-media-seekable",
+          "dom-media-playbackrate",
+          "dom-media-paused",
+          "dom-media-seeking",
+          "dom-media-ended",
+          "dom-media-volume",
+          "dom-media-muted",
+          "dom-media-audiotracks",
+          "dom-media-videotracks",
+          "dom-media-texttracks",
+          "dom-video-videowidth",
+          "dom-video-videoheight",
+          "timeline-offset",
+          "event-media-stalled",
+          "dom-media-played",
+          "dom-media-currenttime",
+          "event-media-timeupdate",
+          "dom-media-src",
+          "dom-media-preload",
+          "dom-media-loop",
+          "poster-frame",
+          "dom-media-addtexttrack",
+          "dom-media-network_empty",
+          "dom-media-have_nothing",
+          "concept-mediaerror-code",
+          "media-timeline",
+          "dom-media-getstartdate",
+          "official-playback-position"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/web-messaging.html": {
+        "anchors": [
+          "dom-window-postmessage"
+        ]
+      },
+      "https://w3c.github.io/presentation-api/": {
+        "anchors": [
+          "dom-presentationconnection"
+        ]
+      },
+      "https://w3c.github.io/remote-playback/": {
+        "anchors": [
+          "dfn-remote-playback-devices",
+          "dfn-initiate-remote-playback",
+          "dfn-media-element-state",
+          "dfn-compatible-remote-playback-device",
+          "dfn-availability-sources-set",
+          "dfn-remote-playback-source"
+        ]
+      },
+      "https://www.w3.org/TR/presentation-api/": {
+        "anchors": [
+          "dfn-controlling-user-agent",
+          "dfn-receiving-user-agent",
+          "dfn-receiving-browsing-context",
+          "dfn-presentation-request-url",
+          "dfn-presentation-identifier",
+          "dfn-available-presentation-display"
+        ]
+      },
+      "https://www.w3.org/policies/patent-policy/20200915/": {}
+    }
+  }
+}

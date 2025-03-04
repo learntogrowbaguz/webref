@@ -4,194 +4,283 @@
     "url": "https://webmachinelearning.github.io/webnn/"
   },
   "links": {
-    "http://lists.w3.org/Archives/Public/public-webmachinelearning/": {},
-    "http://openaccess.thecvf.com/content_cvpr_2018/html/Chang_PairedCycleGAN_Asymmetric_Style_CVPR_2018_paper.html": {},
-    "http://www-scf.usc.edu/~zhan355/ke_eccv2016.pdf": {},
-    "http://www.w3.org/TR/": {},
-    "https://arxiv.org/abs/1502.03167": {},
-    "https://arxiv.org/abs/1503.03832": {},
-    "https://arxiv.org/abs/1506.02640": {},
-    "https://arxiv.org/abs/1511.07289": {},
-    "https://arxiv.org/abs/1512.02325": {},
-    "https://arxiv.org/abs/1607.08022": {},
-    "https://arxiv.org/abs/1609.04802": {},
-    "https://arxiv.org/abs/1609.06647": {},
-    "https://arxiv.org/abs/1701.02810": {},
-    "https://arxiv.org/abs/1703.06870": {},
-    "https://arxiv.org/abs/1703.07332": {},
-    "https://arxiv.org/abs/1708.00524": {},
-    "https://arxiv.org/abs/1802.02611": {},
-    "https://arxiv.org/abs/1803.02077": {},
-    "https://arxiv.org/pdf/1406.1078.pdf": {},
-    "https://arxiv.org/pdf/1905.02244": {},
-    "https://datatracker.ietf.org/doc/html/rfc2119": {},
-    "https://docs.scipy.org/doc/numpy/user/basics.broadcasting.html": {
-      "anchors": [
-        "general-broadcasting-rules"
-      ]
+    "rawlinks": {
+      "http://lists.w3.org/Archives/Public/public-webmachinelearning/": {},
+      "http://openaccess.thecvf.com/content_cvpr_2018/html/Chang_PairedCycleGAN_Asymmetric_Style_CVPR_2018_paper.html": {},
+      "http://www-scf.usc.edu/~zhan355/ke_eccv2016.pdf": {},
+      "http://www.w3.org/TR/": {},
+      "https://arxiv.org/abs/1502.03167": {},
+      "https://arxiv.org/abs/1503.03832": {},
+      "https://arxiv.org/abs/1506.02640": {},
+      "https://arxiv.org/abs/1511.07289": {},
+      "https://arxiv.org/abs/1512.02325": {},
+      "https://arxiv.org/abs/1607.06450": {},
+      "https://arxiv.org/abs/1607.08022": {},
+      "https://arxiv.org/abs/1609.04802": {},
+      "https://arxiv.org/abs/1609.06647": {},
+      "https://arxiv.org/abs/1701.02810": {},
+      "https://arxiv.org/abs/1703.06870": {},
+      "https://arxiv.org/abs/1703.07332": {},
+      "https://arxiv.org/abs/1708.00524": {},
+      "https://arxiv.org/abs/1802.02611": {},
+      "https://arxiv.org/abs/1803.02077": {},
+      "https://arxiv.org/abs/2010.11125": {},
+      "https://arxiv.org/abs/2112.10752": {},
+      "https://arxiv.org/abs/2212.04356": {},
+      "https://arxiv.org/abs/2304.02643": {},
+      "https://arxiv.org/abs/2307.09288": {},
+      "https://arxiv.org/pdf/1406.1078.pdf": {},
+      "https://arxiv.org/pdf/1905.02244": {},
+      "https://books.google.com/books?id=2CAqsF-RebgC&pg=PA110": {},
+      "https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf": {},
+      "https://datatracker.ietf.org/doc/html/rfc2119": {},
+      "https://doi.org/10.1162/neco.1997.9.8.1735": {},
+      "https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms": {
+        "anchors": [
+          "Level_3"
+        ]
+      },
+      "https://en.wikipedia.org/wiki/Hard_sigmoid": {},
+      "https://en.wikipedia.org/wiki/Hyperbolic_functions": {},
+      "https://en.wikipedia.org/wiki/Rectifier_(neural_networks)": {
+        "anchors": [
+          "ELU",
+          "Gaussian-error_linear_unit_(GELU)",
+          "Leaky_ReLU",
+          "Parametric_ReLU",
+          "Softplus"
+        ]
+      },
+      "https://en.wikipedia.org/wiki/Sigmoid_function": {},
+      "https://en.wikipedia.org/wiki/Softmax_function": {},
+      "https://github.com/ondyari/FaceForensics": {},
+      "https://github.com/tensorflow/nmt": {},
+      "https://github.com/webmachinelearning/webmachinelearning-ethics": {},
+      "https://github.com/webmachinelearning/webnn/blob/master/device-selection-explainer.md": {},
+      "https://github.com/webmachinelearning/webnn/blob/master/explainer.md": {},
+      "https://github.com/webmachinelearning/webnn/blob/master/op_compatibility/first_wave_models.md": {},
+      "https://github.com/webmachinelearning/webnn/issues": {},
+      "https://github.com/webmachinelearning/webnn/issues/373": {},
+      "https://github.com/webmachinelearning/webnn/issues/375": {},
+      "https://github.com/webmachinelearning/webnn/issues/391": {},
+      "https://github.com/webmachinelearning/webnn/issues/456": {},
+      "https://github.com/webmachinelearning/webnn/issues/482": {},
+      "https://github.com/webmachinelearning/webnn/issues/529": {},
+      "https://github.com/webmachinelearning/webnn/issues/623": {},
+      "https://github.com/webmachinelearning/webnn/issues/778": {},
+      "https://github.com/webmachinelearning/webnn/issues/85": {},
+      "https://github.com/whatwg/infra/issues/664": {},
+      "https://github.com/whatwg/webidl/issues/1388": {},
+      "https://github.com/xiph/rnnoise": {},
+      "https://gpuweb.github.io/gpuweb/": {
+        "anchors": [
+          "security-considerations",
+          "privacy-user-agent-state",
+          "privacy-machine-artifacts",
+          "privacy-considerations"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/": {},
+      "https://ieeexplore.ieee.org/document/8766229": {},
+      "https://infra.spec.whatwg.org/": {},
+      "https://jmlr.org/papers/volume21/20-074/20-074.pdf": {},
+      "https://mathworld.wolfram.com/L1-Norm.html": {},
+      "https://mathworld.wolfram.com/L2-Norm.html": {},
+      "https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5": {},
+      "https://numpy.org/doc/stable/": {},
+      "https://numpy.org/doc/stable/user/basics.broadcasting.html": {
+        "anchors": [
+          "general-broadcasting-rules"
+        ]
+      },
+      "https://pdfs.semanticscholar.org/367f/2c63a6f6a10b3b64b8729d601e69337ee3cc.pdf": {},
+      "https://pytorch.org/docs/stable/generated/torch.flatten.html": {},
+      "https://pytorch.org/docs/stable/generated/torch.nn.Softsign.html": {},
+      "https://pytorch.org/docs/stable/generated/torch.squeeze.html": {},
+      "https://pytorch.org/docs/stable/generated/torch.unsqueeze.html": {},
+      "https://tc39.es/ecma262/multipage/": {},
+      "https://tc39.es/process-document/": {},
+      "https://w3c.github.io/hr-time/": {},
+      "https://w3c.github.io/webappsec-permissions-policy/": {},
+      "https://w3c.github.io/webappsec-secure-contexts/": {},
+      "https://w3ctag.github.io/security-questionnaire/": {},
+      "https://webidl.spec.whatwg.org/": {},
+      "https://webmachinelearning.github.io/webmachinelearning-ethics/": {},
+      "https://webmachinelearning.github.io/webnn-status/": {},
+      "https://www.w3.org/TR/2023/CR-webnn-20230330/": {},
+      "https://www.w3.org/TR/webgpu/": {
+        "anchors": [
+          "security-dos"
+        ]
+      },
+      "https://www.w3.org/groups/wg/webmachinelearning": {},
+      "https://www.w3.org/groups/wg/webmachinelearning/ipr": {},
+      "https://www.w3.org/policies/patent-policy/": {
+        "anchors": [
+          "def-essential",
+          "sec-Disclosure"
+        ]
+      },
+      "https://www.w3.org/policies/process/20231103/": {},
+      "https://www.w3.org/standards/types": {
+        "anchors": [
+          "PR"
+        ]
+      }
     },
-    "https://doi.org/10.1162/neco.1997.9.8.1735": {},
-    "https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms": {
-      "anchors": [
-        "Level_3"
-      ]
-    },
-    "https://en.wikipedia.org/wiki/Hard_sigmoid": {},
-    "https://en.wikipedia.org/wiki/Hyperbolic_functions": {},
-    "https://en.wikipedia.org/wiki/Rectifier_(neural_networks)": {
-      "anchors": [
-        "ELU",
-        "Leaky_ReLU",
-        "Softplus"
-      ]
-    },
-    "https://en.wikipedia.org/wiki/Sigmoid_function": {},
-    "https://en.wikipedia.org/wiki/Softmax_function": {},
-    "https://github.com/ondyari/FaceForensics": {},
-    "https://github.com/tensorflow/nmt": {},
-    "https://github.com/webmachinelearning/webmachinelearning-ethics": {},
-    "https://github.com/webmachinelearning/webnn/blob/master/explainer.md": {},
-    "https://github.com/webmachinelearning/webnn/blob/master/op_compatibility/first_wave_models.md": {},
-    "https://github.com/webmachinelearning/webnn/issues": {},
-    "https://github.com/webmachinelearning/webnn/issues/127": {},
-    "https://github.com/webmachinelearning/webnn/issues/308": {},
-    "https://github.com/webmachinelearning/webnn/issues/85": {},
-    "https://github.com/xiph/rnnoise": {},
-    "https://gpuweb.github.io/gpuweb/": {
-      "anchors": [
-        "gpu-device",
-        "security-considerations",
-        "privacy-user-agent-state",
-        "privacy-machine-artifacts",
-        "command-buffers",
-        "privacy-considerations",
-        "queues",
-        "buffer-interface",
-        "texture-interface",
-        "dom-gpubuffer-size",
-        "dictdef-gpucommandbufferdescriptor"
-      ],
-      "specShortname": "webgpu"
-    },
-    "https://html.spec.whatwg.org/multipage/": {},
-    "https://html.spec.whatwg.org/multipage/iframe-embed-object.html": {
-      "anchors": [
-        "allowed-to-use"
-      ]
-    },
-    "https://html.spec.whatwg.org/multipage/infrastructure.html": {
-      "anchors": [
-        "in-parallel"
-      ]
-    },
-    "https://html.spec.whatwg.org/multipage/nav-history-apis.html": {
-      "anchors": [
-        "window",
-        "concept-document-window"
-      ]
-    },
-    "https://html.spec.whatwg.org/multipage/system-state.html": {
-      "anchors": [
-        "navigator"
-      ]
-    },
-    "https://html.spec.whatwg.org/multipage/webappapis.html": {
-      "anchors": [
-        "concept-relevant-global"
-      ]
-    },
-    "https://html.spec.whatwg.org/multipage/workers.html": {
-      "anchors": [
-        "dedicatedworkerglobalscope",
-        "workernavigator"
-      ]
-    },
-    "https://infra.spec.whatwg.org/": {
-      "anchors": [
-        "map-exists"
-      ],
-      "specShortname": "infra"
-    },
-    "https://mathworld.wolfram.com/L1-Norm.html": {},
-    "https://mathworld.wolfram.com/L2-Norm.html": {},
-    "https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5": {},
-    "https://pdfs.semanticscholar.org/367f/2c63a6f6a10b3b64b8729d601e69337ee3cc.pdf": {},
-    "https://pytorch.org/docs/stable/generated/torch.nn.Softsign.html": {},
-    "https://tc39.es/ecma262/": {
-      "anchors": [
-        "table-the-typedarray-constructors",
-        "sec-construct"
-      ]
-    },
-    "https://tc39.es/ecma262/multipage/": {
-      "specShortname": "ecmascript"
-    },
-    "https://w3c.github.io/hr-time/": {
-      "specShortname": "hr-time-3"
-    },
-    "https://w3c.github.io/webappsec-permissions-policy/": {
-      "anchors": [
-        "policy-controlled-feature",
-        "policy-controlled-feature-default-allowlist"
-      ],
-      "specShortname": "permissions-policy-1"
-    },
-    "https://w3c.github.io/webappsec-secure-contexts/": {
-      "specShortname": "secure-contexts"
-    },
-    "https://w3ctag.github.io/security-questionnaire/": {},
-    "https://webidl.spec.whatwg.org/": {
-      "anchors": [
-        "operationerror",
-        "idl-DOMException",
-        "idl-promise",
-        "ArrayBufferView",
-        "SecureContext",
-        "SameObject",
-        "Exposed",
-        "this",
-        "a-new-promise",
-        "reject",
-        "securityerror",
-        "notsupportederror",
-        "resolve",
-        "idl-record",
-        "idl-DOMString",
-        "idl-undefined",
-        "dataerror",
-        "arraybuffer-transfer",
-        "buffersource-underlying-buffer",
-        "buffersource-byte-length",
-        "arraybufferview-write",
-        "idl-sequence",
-        "idl-unsigned-long",
-        "idl-unsigned-long-long",
-        "idl-double",
-        "new",
-        "exceptiondef-typeerror",
-        "idl-long",
-        "idl-float",
-        "idl-boolean",
-        "idl-nullable-type",
-        "idl-Float32Array",
-        "idl-Int32Array",
-        "idl-Uint32Array",
-        "idl-Int8Array",
-        "idl-Uint8Array"
-      ],
-      "specShortname": "webidl"
-    },
-    "https://webmachinelearning.github.io/model-loader/": {},
-    "https://webmachinelearning.github.io/webmachinelearning-ethics/": {},
-    "https://www.w3.org/2021/Process-20211102/": {},
-    "https://www.w3.org/Consortium/Patent-Policy/": {
-      "anchors": [
-        "def-essential",
-        "sec-Disclosure"
-      ],
-      "specShortname": "w3c-patent-policy"
-    },
-    "https://www.w3.org/groups/wg/webmachinelearning": {},
-    "https://www.w3.org/groups/wg/webmachinelearning/ipr": {}
+    "autolinks": {
+      "https://gpuweb.github.io/gpuweb/": {
+        "anchors": [
+          "gpudevice"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/iframe-embed-object.html": {
+        "anchors": [
+          "allowed-to-use"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/infrastructure.html": {
+        "anchors": [
+          "in-parallel"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/nav-history-apis.html": {
+        "anchors": [
+          "window",
+          "concept-document-window"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/system-state.html": {
+        "anchors": [
+          "navigator"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/webappapis.html": {
+        "anchors": [
+          "task-source",
+          "concept-task",
+          "global-object",
+          "queue-a-global-task",
+          "concept-relevant-global",
+          "concept-relevant-realm"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/workers.html": {
+        "anchors": [
+          "workerglobalscope",
+          "workernavigator"
+        ]
+      },
+      "https://infra.spec.whatwg.org/": {
+        "anchors": [
+          "implementation-defined",
+          "map-exists",
+          "map-size",
+          "map-iterate",
+          "list",
+          "map-getting-the-values",
+          "list-extend",
+          "list-item",
+          "list-iterate",
+          "abort-when",
+          "if-aborted",
+          "byte-sequence",
+          "assert",
+          "byte-sequence-length",
+          "list-clone",
+          "list-size",
+          "string",
+          "ordered-set",
+          "queue",
+          "list-is-empty",
+          "queue-dequeue",
+          "set-append",
+          "queue-enqueue",
+          "the-range",
+          "list-contain",
+          "iteration-break",
+          "iteration-continue",
+          "list-remove",
+          "list-append",
+          "boolean",
+          "list-prepend"
+        ]
+      },
+      "https://tc39.es/ecma262/": {
+        "anchors": [
+          "table-the-typedarray-constructors",
+          "sec-promise-objects",
+          "sec-ecmascript-language-types-number-type"
+        ]
+      },
+      "https://tc39.es/ecma262/multipage/executable-code-and-execution-contexts.html": {
+        "anchors": [
+          "realm"
+        ]
+      },
+      "https://w3c.github.io/webappsec-permissions-policy/": {
+        "anchors": [
+          "policy-controlled-feature",
+          "policy-controlled-feature-default-allowlist"
+        ]
+      },
+      "https://webidl.spec.whatwg.org/": {
+        "anchors": [
+          "dfn-exception",
+          "idl-promise",
+          "ArrayBufferView",
+          "SecureContext",
+          "SameObject",
+          "Exposed",
+          "a-new-promise",
+          "this",
+          "reject",
+          "securityerror",
+          "idl-DOMException",
+          "notsupportederror",
+          "resolve",
+          "idl-record",
+          "idl-USVString",
+          "idl-DOMString",
+          "idl-undefined",
+          "idl-ArrayBuffer",
+          "AllowSharedBufferSource",
+          "buffersource-byte-length",
+          "idl-SharedArrayBuffer",
+          "dfn-throw",
+          "exceptiondef-typeerror",
+          "invalidstateerror",
+          "unknownerror",
+          "arraybuffer-create",
+          "buffersource-detached",
+          "arraybuffer-write",
+          "dfn-get-buffer-source-copy",
+          "idl-sequence",
+          "idl-boolean",
+          "EnforceRange",
+          "idl-unsigned-long",
+          "idl-long",
+          "idl-frozen-array",
+          "idl-bigint",
+          "idl-unrestricted-double",
+          "getter-steps",
+          "idl-double",
+          "idl-long-long",
+          "dfn-numeric-type",
+          "new",
+          "operationerror",
+          "idl-float",
+          "idl-Float32Array",
+          "idl-Float16Array",
+          "idl-BigInt64Array",
+          "idl-BigUint64Array",
+          "idl-Int32Array",
+          "idl-Uint32Array",
+          "idl-Int8Array",
+          "idl-Uint8Array",
+          "idl-Uint16Array"
+        ]
+      }
+    }
   }
 }

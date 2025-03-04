@@ -540,7 +540,7 @@
       "id": "desired-size-to-fill-a-streams-internal-queue",
       "href": "https://streams.spec.whatwg.org/#desired-size-to-fill-a-streams-internal-queue",
       "linkingText": [
-        "desired size to fill a stream’s internal queue"
+        "desired size to fill a stream's internal queue"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -623,7 +623,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "locking",
@@ -756,6 +756,27 @@
         "ReadableStream/constructor(underlyingSource)",
         "ReadableStream/ReadableStream()",
         "ReadableStream/constructor()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "rs-class-definition",
+        "href": "https://streams.spec.whatwg.org/#rs-class-definition",
+        "title": "Interface definition",
+        "number": "4.2.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-readablestream-from-asynciterable-asynciterable",
+      "href": "https://streams.spec.whatwg.org/#dom-readablestream-from-asynciterable-asynciterable",
+      "linkingText": [
+        "asyncIterable"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "ReadableStream/from(asyncIterable)"
       ],
       "access": "public",
       "informative": false,
@@ -1680,6 +1701,27 @@
       "definedIn": "prose"
     },
     {
+      "id": "rs-from",
+      "href": "https://streams.spec.whatwg.org/#rs-from",
+      "linkingText": [
+        "from(asyncIterable)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "ReadableStream"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "rs-prototype",
+        "href": "https://streams.spec.whatwg.org/#rs-prototype",
+        "title": "Constructor, methods, and properties",
+        "number": "4.2.4"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "rs-locked",
       "href": "https://streams.spec.whatwg.org/#rs-locked",
       "linkingText": [
@@ -2288,15 +2330,78 @@
       "definedIn": "pre"
     },
     {
-      "id": "dom-readablestreambyobreader-read-view-view",
-      "href": "https://streams.spec.whatwg.org/#dom-readablestreambyobreader-read-view-view",
+      "id": "dom-readablestreambyobreader-read-view-options-view",
+      "href": "https://streams.spec.whatwg.org/#dom-readablestreambyobreader-read-view-options-view",
       "linkingText": [
         "view"
       ],
       "localLinkingText": [],
       "type": "argument",
       "for": [
+        "ReadableStreamBYOBReader/read(view, options)",
         "ReadableStreamBYOBReader/read(view)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "byob-reader-class-definition",
+        "href": "https://streams.spec.whatwg.org/#byob-reader-class-definition",
+        "title": "Interface definition",
+        "number": "4.5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-readablestreambyobreader-read-view-options-options",
+      "href": "https://streams.spec.whatwg.org/#dom-readablestreambyobreader-read-view-options-options",
+      "linkingText": [
+        "options"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "ReadableStreamBYOBReader/read(view, options)",
+        "ReadableStreamBYOBReader/read(view)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "byob-reader-class-definition",
+        "href": "https://streams.spec.whatwg.org/#byob-reader-class-definition",
+        "title": "Interface definition",
+        "number": "4.5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dictdef-readablestreambyobreaderreadoptions",
+      "href": "https://streams.spec.whatwg.org/#dictdef-readablestreambyobreaderreadoptions",
+      "linkingText": [
+        "ReadableStreamBYOBReaderReadOptions"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "byob-reader-class-definition",
+        "href": "https://streams.spec.whatwg.org/#byob-reader-class-definition",
+        "title": "Interface definition",
+        "number": "4.5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-readablestreambyobreaderreadoptions-min",
+      "href": "https://streams.spec.whatwg.org/#dom-readablestreambyobreaderreadoptions-min",
+      "linkingText": [
+        "min"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "ReadableStreamBYOBReaderReadOptions"
       ],
       "access": "public",
       "informative": false,
@@ -2437,6 +2542,7 @@
       "id": "byob-reader-read",
       "href": "https://streams.spec.whatwg.org/#byob-reader-read",
       "linkingText": [
+        "read(view, options)",
         "read(view)"
       ],
       "localLinkingText": [],
@@ -3460,6 +3566,27 @@
       "definedIn": "dt"
     },
     {
+      "id": "pull-into-descriptor-minimum-fill",
+      "href": "https://streams.spec.whatwg.org/#pull-into-descriptor-minimum-fill",
+      "linkingText": [
+        "minimum fill"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "pull-into descriptor"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rbs-controller-internal-slots",
+        "href": "https://streams.spec.whatwg.org/#rbs-controller-internal-slots",
+        "title": "Internal slots",
+        "number": "4.7.2"
+      },
+      "definedIn": "dt"
+    },
+    {
       "id": "pull-into-descriptor-element-size",
       "href": "https://streams.spec.whatwg.org/#pull-into-descriptor-element-size",
       "linkingText": [
@@ -3957,6 +4084,25 @@
       "href": "https://streams.spec.whatwg.org/#is-readable-stream-locked",
       "linkingText": [
         "IsReadableStreamLocked"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "rs-abstract-ops",
+        "href": "https://streams.spec.whatwg.org/#rs-abstract-ops",
+        "title": "Working with readable streams",
+        "number": "4.9.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "readable-stream-from-iterable",
+      "href": "https://streams.spec.whatwg.org/#readable-stream-from-iterable",
+      "linkingText": [
+        "ReadableStreamFromIterable"
       ],
       "localLinkingText": [],
       "type": "abstract-op",
@@ -6547,6 +6693,27 @@
       "definedIn": "table"
     },
     {
+      "id": "writablestreamdefaultcontroller-abortcontroller",
+      "href": "https://streams.spec.whatwg.org/#writablestreamdefaultcontroller-abortcontroller",
+      "linkingText": [
+        "[[abortController]]"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "WritableStreamDefaultController"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "ws-default-controller-internal-slots",
+        "href": "https://streams.spec.whatwg.org/#ws-default-controller-internal-slots",
+        "title": "Internal slots",
+        "number": "5.4.2"
+      },
+      "definedIn": "table"
+    },
+    {
       "id": "writablestreamdefaultcontroller-closealgorithm",
       "href": "https://streams.spec.whatwg.org/#writablestreamdefaultcontroller-closealgorithm",
       "linkingText": [
@@ -6593,27 +6760,6 @@
       "href": "https://streams.spec.whatwg.org/#writablestreamdefaultcontroller-queuetotalsize",
       "linkingText": [
         "[[queueTotalSize]]"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "WritableStreamDefaultController"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "ws-default-controller-internal-slots",
-        "href": "https://streams.spec.whatwg.org/#ws-default-controller-internal-slots",
-        "title": "Internal slots",
-        "number": "5.4.2"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "writablestreamdefaultcontroller-signal",
-      "href": "https://streams.spec.whatwg.org/#writablestreamdefaultcontroller-signal",
-      "linkingText": [
-        "[[signal]]"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -8069,6 +8215,46 @@
       "definedIn": "pre"
     },
     {
+      "id": "callbackdef-transformercancelcallback",
+      "href": "https://streams.spec.whatwg.org/#callbackdef-transformercancelcallback",
+      "linkingText": [
+        "TransformerCancelCallback"
+      ],
+      "localLinkingText": [],
+      "type": "callback",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "transformer-api",
+        "href": "https://streams.spec.whatwg.org/#transformer-api",
+        "title": "The transformer API",
+        "number": "6.2.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-transformercancelcallback-reason",
+      "href": "https://streams.spec.whatwg.org/#dom-transformercancelcallback-reason",
+      "linkingText": [
+        "reason"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "TransformerCancelCallback"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "transformer-api",
+        "href": "https://streams.spec.whatwg.org/#transformer-api",
+        "title": "The transformer API",
+        "number": "6.2.3"
+      },
+      "definedIn": "pre"
+    },
+    {
       "id": "dom-transformer-start",
       "href": "https://streams.spec.whatwg.org/#dom-transformer-start",
       "linkingText": [
@@ -8115,6 +8301,27 @@
       "href": "https://streams.spec.whatwg.org/#dom-transformer-flush",
       "linkingText": [
         "flush"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "Transformer"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "transformer-api",
+        "href": "https://streams.spec.whatwg.org/#transformer-api",
+        "title": "The transformer API",
+        "number": "6.2.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-transformer-cancel",
+      "href": "https://streams.spec.whatwg.org/#dom-transformer-cancel",
+      "linkingText": [
+        "cancel"
       ],
       "localLinkingText": [],
       "type": "dict-member",
@@ -8305,6 +8512,48 @@
         "number": "6.3.1"
       },
       "definedIn": "pre"
+    },
+    {
+      "id": "transformstreamdefaultcontroller-cancelalgorithm",
+      "href": "https://streams.spec.whatwg.org/#transformstreamdefaultcontroller-cancelalgorithm",
+      "linkingText": [
+        "[[cancelAlgorithm]]"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "TransformStreamDefaultController"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "ts-default-controller-internal-slots",
+        "href": "https://streams.spec.whatwg.org/#ts-default-controller-internal-slots",
+        "title": "Internal slots",
+        "number": "6.3.2"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "transformstreamdefaultcontroller-finishpromise",
+      "href": "https://streams.spec.whatwg.org/#transformstreamdefaultcontroller-finishpromise",
+      "linkingText": [
+        "[[finishPromise]]"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "TransformStreamDefaultController"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "ts-default-controller-internal-slots",
+        "href": "https://streams.spec.whatwg.org/#ts-default-controller-internal-slots",
+        "title": "Internal slots",
+        "number": "6.3.2"
+      },
+      "definedIn": "table"
     },
     {
       "id": "transformstreamdefaultcontroller-flushalgorithm",
@@ -8533,6 +8782,25 @@
       "definedIn": "prose"
     },
     {
+      "id": "transform-stream-unblock-write",
+      "href": "https://streams.spec.whatwg.org/#transform-stream-unblock-write",
+      "linkingText": [
+        "TransformStreamUnblockWrite"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "ts-abstract-ops",
+        "href": "https://streams.spec.whatwg.org/#ts-abstract-ops",
+        "title": "Working with transform streams",
+        "number": "6.4.1"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "set-up-transform-stream-default-controller",
       "href": "https://streams.spec.whatwg.org/#set-up-transform-stream-default-controller",
       "linkingText": [
@@ -8719,6 +8987,25 @@
         "href": "https://streams.spec.whatwg.org/#ts-default-sink-abstract-ops",
         "title": "Default sinks",
         "number": "6.4.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "transform-stream-default-source-cancel",
+      "href": "https://streams.spec.whatwg.org/#transform-stream-default-source-cancel",
+      "linkingText": [
+        "TransformStreamDefaultSourceCancelAlgorithm"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "ts-default-source-abstract-ops",
+        "href": "https://streams.spec.whatwg.org/#ts-default-source-abstract-ops",
+        "title": "Default sources",
+        "number": "6.4.4"
       },
       "definedIn": "prose"
     },
@@ -9538,6 +9825,25 @@
       "definedIn": "prose"
     },
     {
+      "id": "abstract-opdef-cancopydatablockbytes",
+      "href": "https://streams.spec.whatwg.org/#abstract-opdef-cancopydatablockbytes",
+      "linkingText": [
+        "CanCopyDataBlockBytes"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "misc-abstract-ops",
+        "href": "https://streams.spec.whatwg.org/#misc-abstract-ops",
+        "title": "Miscellaneous",
+        "number": "8.3"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "readablestream-set-up",
       "href": "https://streams.spec.whatwg.org/#readablestream-set-up",
       "linkingText": [
@@ -9837,6 +10143,27 @@
       "href": "https://streams.spec.whatwg.org/#readablestream-current-byob-request-view",
       "linkingText": [
         "current BYOB request view"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "ReadableStream"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "other-specs-rs-create",
+        "href": "https://streams.spec.whatwg.org/#other-specs-rs-create",
+        "title": "Creation and manipulation",
+        "number": "9.1.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "readablestream-pull-from-bytes",
+      "href": "https://streams.spec.whatwg.org/#readablestream-pull-from-bytes",
+      "linkingText": [
+        "pull from bytes"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -10454,6 +10781,27 @@
       "href": "https://streams.spec.whatwg.org/#transformstream-set-up-flushalgorithm",
       "linkingText": [
         "flushAlgorithm"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "TransformStream/set up"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "other-specs-ts-creation",
+        "href": "https://streams.spec.whatwg.org/#other-specs-ts-creation",
+        "title": "Creation and manipulation",
+        "number": "9.3.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "transformstream-set-up-cancelalgorithm",
+      "href": "https://streams.spec.whatwg.org/#transformstream-set-up-cancelalgorithm",
+      "linkingText": [
+        "cancelAlgorithm"
       ],
       "localLinkingText": [],
       "type": "dfn",

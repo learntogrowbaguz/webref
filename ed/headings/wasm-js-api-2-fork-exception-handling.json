@@ -113,10 +113,10 @@
       "number": "4.6"
     },
     {
-      "id": "tags",
-      "href": "https://webassembly.github.io/exception-handling/js-api/#tags",
+      "id": "exceptions",
+      "href": "https://webassembly.github.io/exception-handling/js-api/#exceptions",
       "level": 3,
-      "title": "Tags",
+      "title": "Exceptions",
       "number": "4.7"
     },
     {
@@ -229,6 +229,12 @@
       "href": "https://webassembly.github.io/exception-handling/js-api/#normative",
       "level": 3,
       "title": "Normative References"
+    },
+    {
+      "id": "informative",
+      "href": "https://webassembly.github.io/exception-handling/js-api/#informative",
+      "level": 3,
+      "title": "Informative References"
     },
     {
       "id": "idl-index",

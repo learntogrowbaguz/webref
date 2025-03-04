@@ -1,7 +1,7 @@
 {
   "spec": {
     "title": "Event Timing API",
-    "url": "https://w3c.github.io/event-timing"
+    "url": "https://w3c.github.io/event-timing/"
   },
   "refs": {
     "normative": [
@@ -11,7 +11,7 @@
       },
       {
         "name": "ELEMENT-TIMING",
-        "url": "https://wicg.github.io/element-timing/"
+        "url": "https://w3c.github.io/element-timing/"
       },
       {
         "name": "HR-TIME-2",

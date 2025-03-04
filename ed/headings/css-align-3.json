@@ -8,7 +8,7 @@
       "id": "title",
       "href": "https://drafts.csswg.org/css-align-3/#title",
       "level": 1,
-      "title": "490 TestsCSS Box Alignment Module Level 3"
+      "title": "CSS Box Alignment Module Level 3"
     },
     {
       "id": "abstract",
@@ -104,6 +104,34 @@
       "level": 3,
       "title": "Overflow Alignment: the safe and unsafe keywords and scroll safety limits",
       "number": "4.4"
+    },
+    {
+      "id": "auto-safety",
+      "href": "https://drafts.csswg.org/css-align-3/#auto-safety",
+      "level": 4,
+      "title": "Automatic Overflow Alignment Safety",
+      "number": "4.4.1"
+    },
+    {
+      "id": "auto-safety-scroll",
+      "href": "https://drafts.csswg.org/css-align-3/#auto-safety-scroll",
+      "level": 5,
+      "title": "Content Distribution for Scroll Containers",
+      "number": "4.4.1.1"
+    },
+    {
+      "id": "auto-safety-position",
+      "href": "https://drafts.csswg.org/css-align-3/#auto-safety-position",
+      "level": 5,
+      "title": "Self-Alignment for Absolutely Positioned Boxes",
+      "number": "4.4.1.2"
+    },
+    {
+      "id": "auto-safety-default",
+      "href": "https://drafts.csswg.org/css-align-3/#auto-safety-default",
+      "level": 5,
+      "title": "All Other Alignment",
+      "number": "4.4.1.3"
     },
     {
       "id": "content-distribution",
@@ -375,7 +403,8 @@
       "id": "staticpos-rect",
       "href": "https://drafts.csswg.org/css-align-3/#staticpos-rect",
       "level": 2,
-      "title": "Appendix A: Static Position Terminology"
+      "title": "Static Position Terminology",
+      "number": "A"
     },
     {
       "id": "changes",

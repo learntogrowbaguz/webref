@@ -103,179 +103,6 @@
       "definedIn": "dt"
     },
     {
-      "id": "dfn-javascript-realm",
-      "href": "https://w3c.github.io/presentation-api/#dfn-javascript-realm",
-      "linkingText": [
-        "JavaScript realm"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "terminology",
-        "href": "https://w3c.github.io/presentation-api/#terminology",
-        "title": "Terminology",
-        "number": "4"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-current-realm",
-      "href": "https://w3c.github.io/presentation-api/#dfn-current-realm",
-      "linkingText": [
-        "current realm"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "terminology",
-        "href": "https://w3c.github.io/presentation-api/#terminology",
-        "title": "Terminology",
-        "number": "4"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-resolve",
-      "href": "https://w3c.github.io/presentation-api/#dfn-resolve",
-      "linkingText": [
-        "resolve",
-        "resolved"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "terminology",
-        "href": "https://w3c.github.io/presentation-api/#terminology",
-        "title": "Terminology",
-        "number": "4"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-reject",
-      "href": "https://w3c.github.io/presentation-api/#dfn-reject",
-      "linkingText": [
-        "reject",
-        "rejected"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "terminology",
-        "href": "https://w3c.github.io/presentation-api/#terminology",
-        "title": "Terminology",
-        "number": "4"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-accept-language",
-      "href": "https://w3c.github.io/presentation-api/#dfn-accept-language",
-      "linkingText": [
-        "Accept-Language"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "terminology",
-        "href": "https://w3c.github.io/presentation-api/#terminology",
-        "title": "Terminology",
-        "number": "4"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-http-authentication",
-      "href": "https://w3c.github.io/presentation-api/#dfn-http-authentication",
-      "linkingText": [
-        "HTTP authentication"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "terminology",
-        "href": "https://w3c.github.io/presentation-api/#terminology",
-        "title": "Terminology",
-        "number": "4"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-cookie-store",
-      "href": "https://w3c.github.io/presentation-api/#dfn-cookie-store",
-      "linkingText": [
-        "cookie store"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "terminology",
-        "href": "https://w3c.github.io/presentation-api/#terminology",
-        "title": "Terminology",
-        "number": "4"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-uuid",
-      "href": "https://w3c.github.io/presentation-api/#dfn-uuid",
-      "linkingText": [
-        "UUID"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "terminology",
-        "href": "https://w3c.github.io/presentation-api/#terminology",
-        "title": "Terminology",
-        "number": "4"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-dial",
-      "href": "https://w3c.github.io/presentation-api/#dfn-dial",
-      "linkingText": [
-        "DIAL"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "terminology",
-        "href": "https://w3c.github.io/presentation-api/#terminology",
-        "title": "Terminology",
-        "number": "4"
-      },
-      "definedIn": "prose"
-    },
-    {
       "id": "dfn-reload-a-document",
       "href": "https://w3c.github.io/presentation-api/#dfn-reload-a-document",
       "linkingText": [
@@ -744,6 +571,45 @@
       "href": "https://w3c.github.io/presentation-api/#dfn-default-presentation-request",
       "linkingText": [
         "default presentation request"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "common-idioms",
+        "href": "https://w3c.github.io/presentation-api/#common-idioms",
+        "title": "Common idioms",
+        "number": "6.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-presentation-task-source",
+      "href": "https://w3c.github.io/presentation-api/#dfn-presentation-task-source",
+      "linkingText": [
+        "presentation task source"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "common-idioms",
+        "href": "https://w3c.github.io/presentation-api/#common-idioms",
+        "title": "Common idioms",
+        "number": "6.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-queue-a-presentation-api-task",
+      "href": "https://w3c.github.io/presentation-api/#dfn-queue-a-presentation-api-task",
+      "linkingText": [
+        "queue a Presentation API task",
+        "queues a Presentation API task"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -2073,7 +1939,7 @@
       "id": "dfn-send-a-termination-request",
       "href": "https://w3c.github.io/presentation-api/#dfn-send-a-termination-request",
       "linkingText": [
-        "Send a termination request"
+        "send a termination request"
       ],
       "localLinkingText": [],
       "type": "dfn",
