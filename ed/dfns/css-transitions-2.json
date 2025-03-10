@@ -16,10 +16,86 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "transition-name-property",
-        "href": "https://drafts.csswg.org/css-transitions-2/#transition-name-property",
+        "id": "transition-property-property",
+        "href": "https://drafts.csswg.org/css-transitions-2/#transition-property-property",
         "title": "The transition-property Property",
         "number": "2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "transitionable",
+      "href": "https://drafts.csswg.org/css-transitions-2/#transitionable",
+      "linkingText": [
+        "transitionable"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "transition-property-property",
+        "href": "https://drafts.csswg.org/css-transitions-2/#transition-property-property",
+        "title": "The transition-property Property",
+        "number": "2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "propdef-transition-behavior",
+      "href": "https://drafts.csswg.org/css-transitions-2/#propdef-transition-behavior",
+      "linkingText": [
+        "transition-behavior"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "transition-behavior-property",
+        "href": "https://drafts.csswg.org/css-transitions-2/#transition-behavior-property",
+        "title": "The transition-behavior Property",
+        "number": "2.5"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "typedef-transition-behavior-value",
+      "href": "https://drafts.csswg.org/css-transitions-2/#typedef-transition-behavior-value",
+      "linkingText": [
+        "<transition-behavior-value>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "transition-behavior-property",
+        "href": "https://drafts.csswg.org/css-transitions-2/#transition-behavior-property",
+        "title": "The transition-behavior Property",
+        "number": "2.5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "single-transition",
+      "href": "https://drafts.csswg.org/css-transitions-2/#single-transition",
+      "linkingText": [
+        "<single-transition>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "transition-shorthand-property",
+        "href": "https://drafts.csswg.org/css-transitions-2/#transition-shorthand-property",
+        "title": "The transition Shorthand Property",
+        "number": "2.6"
       },
       "definedIn": "prose"
     },
@@ -79,6 +155,63 @@
         "number": "3.2"
       },
       "definedIn": "prose"
+    },
+    {
+      "id": "at-ruledef-starting-style",
+      "href": "https://drafts.csswg.org/css-transitions-2/#at-ruledef-starting-style",
+      "linkingText": [
+        "@starting-style"
+      ],
+      "localLinkingText": [],
+      "type": "at-rule",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "defining-before-change-style",
+        "href": "https://drafts.csswg.org/css-transitions-2/#defining-before-change-style",
+        "title": "Defining before-change style: the @starting-style rule",
+        "number": "3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "starting-style",
+      "href": "https://drafts.csswg.org/css-transitions-2/#starting-style",
+      "linkingText": [
+        "starting style"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "defining-before-change-style",
+        "href": "https://drafts.csswg.org/css-transitions-2/#defining-before-change-style",
+        "title": "Defining before-change style: the @starting-style rule",
+        "number": "3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "cssstartingstylerule",
+      "href": "https://drafts.csswg.org/css-transitions-2/#cssstartingstylerule",
+      "linkingText": [
+        "CSSStartingStyleRule"
+      ],
+      "localLinkingText": [],
+      "type": "interface",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-cssstartingstylerule-interface",
+        "href": "https://drafts.csswg.org/css-transitions-2/#the-cssstartingstylerule-interface",
+        "title": "The CSSStartingStyleRule interface",
+        "number": "3.3.1"
+      },
+      "definedIn": "pre"
     },
     {
       "id": "transition-phase",

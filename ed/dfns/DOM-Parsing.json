@@ -16,7 +16,8 @@
       "access": "private",
       "informative": true,
       "heading": {
-        "href": "https://w3c.github.io/DOM-Parsing/",
+        "id": "extensibility",
+        "href": "https://w3c.github.io/DOM-Parsing/#extensibility",
         "title": "Extensibility"
       },
       "definedIn": "prose"
@@ -155,197 +156,10 @@
       "definedIn": "prose"
     },
     {
-      "id": "dom-xmlserializer-constructor",
-      "href": "https://w3c.github.io/DOM-Parsing/#dom-xmlserializer-constructor",
+      "id": "dfn-xml-serialization",
+      "href": "https://w3c.github.io/DOM-Parsing/#dfn-xml-serialization",
       "linkingText": [
-        "constructor()"
-      ],
-      "localLinkingText": [
-        "XMLSerializer.constructor",
-        "XMLSerializer.constructor()",
-        "constructor"
-      ],
-      "type": "constructor",
-      "for": [
-        "XMLSerializer"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "the-xmlserializer-interface",
-        "href": "https://w3c.github.io/DOM-Parsing/#the-xmlserializer-interface",
-        "title": "The XMLSerializer interface",
-        "number": "2.2"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-xmlserializer",
-      "href": "https://w3c.github.io/DOM-Parsing/#dom-xmlserializer",
-      "linkingText": [
-        "XMLSerializer"
-      ],
-      "localLinkingText": [],
-      "type": "interface",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "the-xmlserializer-interface",
-        "href": "https://w3c.github.io/DOM-Parsing/#the-xmlserializer-interface",
-        "title": "The XMLSerializer interface",
-        "number": "2.2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dom-xmlserializer-serializetostring",
-      "href": "https://w3c.github.io/DOM-Parsing/#dom-xmlserializer-serializetostring",
-      "linkingText": [
-        "serializeToString()",
-        "serializeToString(root)"
-      ],
-      "localLinkingText": [
-        "XMLSerializer.serializeToString",
-        "XMLSerializer.serializeToString()",
-        "serializeToString"
-      ],
-      "type": "method",
-      "for": [
-        "XMLSerializer"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "the-xmlserializer-interface",
-        "href": "https://w3c.github.io/DOM-Parsing/#the-xmlserializer-interface",
-        "title": "The XMLSerializer interface",
-        "number": "2.2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dom-innerhtml",
-      "href": "https://w3c.github.io/DOM-Parsing/#dom-innerhtml",
-      "linkingText": [
-        "InnerHTML"
-      ],
-      "localLinkingText": [],
-      "type": "interface",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "the-innerhtml-mixin",
-        "href": "https://w3c.github.io/DOM-Parsing/#the-innerhtml-mixin",
-        "title": "The InnerHTML mixin",
-        "number": "2.3"
-      },
-      "definedIn": "heading"
-    },
-    {
-      "id": "dom-innerhtml-innerhtml",
-      "href": "https://w3c.github.io/DOM-Parsing/#dom-innerhtml-innerhtml",
-      "linkingText": [
-        "innerHTML"
-      ],
-      "localLinkingText": [
-        "InnerHTML.innerHTML"
-      ],
-      "type": "attribute",
-      "for": [
-        "InnerHTML"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "the-innerhtml-mixin",
-        "href": "https://w3c.github.io/DOM-Parsing/#the-innerhtml-mixin",
-        "title": "The InnerHTML mixin",
-        "number": "2.3"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dom-element-outerhtml",
-      "href": "https://w3c.github.io/DOM-Parsing/#dom-element-outerhtml",
-      "linkingText": [
-        "outerHTML"
-      ],
-      "localLinkingText": [
-        "Element.outerHTML"
-      ],
-      "type": "attribute",
-      "for": [
-        "Element"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "extensions-to-the-element-interface",
-        "href": "https://w3c.github.io/DOM-Parsing/#extensions-to-the-element-interface",
-        "title": "Extensions to the Element interface",
-        "number": "2.4"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dom-element-insertadjacenthtml",
-      "href": "https://w3c.github.io/DOM-Parsing/#dom-element-insertadjacenthtml",
-      "linkingText": [
-        "insertAdjacentHTML(position, text)",
-        "insertAdjacentHTML()"
-      ],
-      "localLinkingText": [
-        "Element.insertAdjacentHTML",
-        "Element.insertAdjacentHTML()",
-        "insertAdjacentHTML"
-      ],
-      "type": "method",
-      "for": [
-        "Element"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "extensions-to-the-element-interface",
-        "href": "https://w3c.github.io/DOM-Parsing/#extensions-to-the-element-interface",
-        "title": "Extensions to the Element interface",
-        "number": "2.4"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dom-range-createcontextualfragment",
-      "href": "https://w3c.github.io/DOM-Parsing/#dom-range-createcontextualfragment",
-      "linkingText": [
-        "createContextualFragment(fragment)",
-        "createContextualFragment()"
-      ],
-      "localLinkingText": [
-        "Range.createContextualFragment",
-        "Range.createContextualFragment()",
-        "createContextualFragment"
-      ],
-      "type": "method",
-      "for": [
-        "Range"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "extensions-to-the-range-interface",
-        "href": "https://w3c.github.io/DOM-Parsing/#extensions-to-the-range-interface",
-        "title": "Extensions to the Range interface",
-        "number": "2.5"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-fragment-parsing-algorithm",
-      "href": "https://w3c.github.io/DOM-Parsing/#dfn-fragment-parsing-algorithm",
-      "linkingText": [
-        "fragment parsing algorithm"
+        "XML serialization"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -353,29 +167,10 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "parsing",
-        "href": "https://w3c.github.io/DOM-Parsing/#parsing",
-        "title": "Parsing",
-        "number": "3.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-fragment-serializing-algorithm",
-      "href": "https://w3c.github.io/DOM-Parsing/#dfn-fragment-serializing-algorithm",
-      "linkingText": [
-        "fragment serializing algorithm"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "serializing",
-        "href": "https://w3c.github.io/DOM-Parsing/#serializing",
-        "title": "Serializing",
-        "number": "3.2"
+        "id": "xml-serialization",
+        "href": "https://w3c.github.io/DOM-Parsing/#xml-serialization",
+        "title": "XML Serialization",
+        "number": "3.2.1"
       },
       "definedIn": "prose"
     },
@@ -384,44 +179,6 @@
       "href": "https://w3c.github.io/DOM-Parsing/#dfn-require-well-formed",
       "linkingText": [
         "require well-formed"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "serializing",
-        "href": "https://w3c.github.io/DOM-Parsing/#serializing",
-        "title": "Serializing",
-        "number": "3.2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-html-serialization",
-      "href": "https://w3c.github.io/DOM-Parsing/#dfn-html-serialization",
-      "linkingText": [
-        "HTML serialization"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "serializing",
-        "href": "https://w3c.github.io/DOM-Parsing/#serializing",
-        "title": "Serializing",
-        "number": "3.2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-xml-serialization",
-      "href": "https://w3c.github.io/DOM-Parsing/#dfn-xml-serialization",
-      "linkingText": [
-        "XML serialization"
       ],
       "localLinkingText": [],
       "type": "dfn",

@@ -5,6 +5,120 @@
   },
   "dfns": [
     {
+      "id": "web-animations-model",
+      "href": "https://drafts.csswg.org/web-animations-1/#web-animations-model",
+      "linkingText": [
+        "Web Animations model"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": true,
+      "heading": {
+        "id": "introduction",
+        "href": "https://drafts.csswg.org/web-animations-1/#introduction",
+        "title": "Introduction",
+        "number": "1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "web-animations-api",
+      "href": "https://drafts.csswg.org/web-animations-1/#web-animations-api",
+      "linkingText": [
+        "Web Animations API"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": true,
+      "heading": {
+        "id": "introduction",
+        "href": "https://drafts.csswg.org/web-animations-1/#introduction",
+        "title": "Introduction",
+        "number": "1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "timing-model-dfn",
+      "href": "https://drafts.csswg.org/web-animations-1/#timing-model-dfn",
+      "linkingText": [
+        "timing model"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "web-animations-model-overview",
+        "href": "https://drafts.csswg.org/web-animations-1/#web-animations-model-overview",
+        "title": "Web Animations model overview",
+        "number": "3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "animation-model-dfn",
+      "href": "https://drafts.csswg.org/web-animations-1/#animation-model-dfn",
+      "linkingText": [
+        "animation model"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "web-animations-model-overview",
+        "href": "https://drafts.csswg.org/web-animations-1/#web-animations-model-overview",
+        "title": "Web Animations model overview",
+        "number": "3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "web-animations-timing-model",
+      "href": "https://drafts.csswg.org/web-animations-1/#web-animations-timing-model",
+      "linkingText": [
+        "Web Animations timing model"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "timing-model",
+        "href": "https://drafts.csswg.org/web-animations-1/#timing-model",
+        "title": "Timing model",
+        "number": "4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "timing-nodes",
+      "href": "https://drafts.csswg.org/web-animations-1/#timing-nodes",
+      "linkingText": [
+        "timing nodes"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "timing-model",
+        "href": "https://drafts.csswg.org/web-animations-1/#timing-model",
+        "title": "Timing model",
+        "number": "4"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "time-value",
       "href": "https://drafts.csswg.org/web-animations-1/#time-value",
       "linkingText": [
@@ -102,6 +216,25 @@
       "definedIn": "prose"
     },
     {
+      "id": "active-timeline",
+      "href": "https://drafts.csswg.org/web-animations-1/#active-timeline",
+      "linkingText": [
+        "active timeline"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "timelines",
+        "href": "https://drafts.csswg.org/web-animations-1/#timelines",
+        "title": "Timelines",
+        "number": "4.3"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "monotonically-increasing-timeline",
       "href": "https://drafts.csswg.org/web-animations-1/#monotonically-increasing-timeline",
       "linkingText": [
@@ -151,44 +284,6 @@
       "type": "dfn",
       "for": [],
       "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "timelines",
-        "href": "https://drafts.csswg.org/web-animations-1/#timelines",
-        "title": "Timelines",
-        "number": "4.3"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "update-animations-and-send-events",
-      "href": "https://drafts.csswg.org/web-animations-1/#update-animations-and-send-events",
-      "linkingText": [
-        "update animations and send events"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "timelines",
-        "href": "https://drafts.csswg.org/web-animations-1/#timelines",
-        "title": "Timelines",
-        "number": "4.3"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "animation-frame",
-      "href": "https://drafts.csswg.org/web-animations-1/#animation-frame",
-      "linkingText": [
-        "animation frame"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
       "informative": false,
       "heading": {
         "id": "timelines",
@@ -253,7 +348,45 @@
         "id": "the-documents-default-timeline",
         "href": "https://drafts.csswg.org/web-animations-1/#the-documents-default-timeline",
         "title": "The default document timeline",
-        "number": "4.3.2"
+        "number": "4.3.1.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "update-animations-and-send-events",
+      "href": "https://drafts.csswg.org/web-animations-1/#update-animations-and-send-events",
+      "linkingText": [
+        "update animations and send events"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "animation-frame-loop",
+        "href": "https://drafts.csswg.org/web-animations-1/#animation-frame-loop",
+        "title": "Animation Frames",
+        "number": "4.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "animation-frame",
+      "href": "https://drafts.csswg.org/web-animations-1/#animation-frame",
+      "linkingText": [
+        "animation frame"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "animation-frame-loop",
+        "href": "https://drafts.csswg.org/web-animations-1/#animation-frame-loop",
+        "title": "Animation Frames",
+        "number": "4.4"
       },
       "definedIn": "prose"
     },
@@ -272,7 +405,7 @@
         "id": "animations",
         "href": "https://drafts.csswg.org/web-animations-1/#animations",
         "title": "Animations",
-        "number": "4.4"
+        "number": "4.5"
       },
       "definedIn": "prose"
     },
@@ -293,7 +426,47 @@
         "id": "animations",
         "href": "https://drafts.csswg.org/web-animations-1/#animations",
         "title": "Animations",
-        "number": "4.4"
+        "number": "4.5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "playback-control",
+      "href": "https://drafts.csswg.org/web-animations-1/#playback-control",
+      "linkingText": [
+        "playback control"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "animations",
+        "href": "https://drafts.csswg.org/web-animations-1/#animations",
+        "title": "Animations",
+        "number": "4.5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "animation-current-time",
+      "href": "https://drafts.csswg.org/web-animations-1/#animation-current-time",
+      "linkingText": [
+        "current time"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "animation"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "animations",
+        "href": "https://drafts.csswg.org/web-animations-1/#animations",
+        "title": "Animations",
+        "number": "4.5"
       },
       "definedIn": "prose"
     },
@@ -314,9 +487,9 @@
         "id": "animations",
         "href": "https://drafts.csswg.org/web-animations-1/#animations",
         "title": "Animations",
-        "number": "4.4"
+        "number": "4.5"
       },
-      "definedIn": "prose"
+      "definedIn": "dt"
     },
     {
       "id": "animation-start-time",
@@ -335,9 +508,9 @@
         "id": "animations",
         "href": "https://drafts.csswg.org/web-animations-1/#animations",
         "title": "Animations",
-        "number": "4.4"
+        "number": "4.5"
       },
-      "definedIn": "prose"
+      "definedIn": "dt"
     },
     {
       "id": "animation-hold-time",
@@ -356,9 +529,9 @@
         "id": "animations",
         "href": "https://drafts.csswg.org/web-animations-1/#animations",
         "title": "Animations",
-        "number": "4.4"
+        "number": "4.5"
       },
-      "definedIn": "prose"
+      "definedIn": "dt"
     },
     {
       "id": "global-animation-list",
@@ -375,7 +548,7 @@
         "id": "animations",
         "href": "https://drafts.csswg.org/web-animations-1/#animations",
         "title": "Animations",
-        "number": "4.4"
+        "number": "4.5"
       },
       "definedIn": "prose"
     },
@@ -396,7 +569,7 @@
         "id": "setting-the-timeline",
         "href": "https://drafts.csswg.org/web-animations-1/#setting-the-timeline",
         "title": "Setting the timeline of an animation",
-        "number": "4.4.1"
+        "number": "4.5.2"
       },
       "definedIn": "prose"
     },
@@ -417,49 +590,26 @@
         "id": "setting-the-associated-effect",
         "href": "https://drafts.csswg.org/web-animations-1/#setting-the-associated-effect",
         "title": "Setting the associated effect of an animation",
-        "number": "4.4.2"
+        "number": "4.5.3"
       },
       "definedIn": "prose"
     },
     {
-      "id": "animation-reset-an-animations-pending-tasks",
-      "href": "https://drafts.csswg.org/web-animations-1/#animation-reset-an-animations-pending-tasks",
+      "id": "seek",
+      "href": "https://drafts.csswg.org/web-animations-1/#seek",
       "linkingText": [
-        "reset an animation’s pending tasks"
+        "seek"
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [
-        "animation"
-      ],
-      "access": "public",
+      "for": [],
+      "access": "private",
       "informative": false,
       "heading": {
-        "id": "setting-the-associated-effect",
-        "href": "https://drafts.csswg.org/web-animations-1/#setting-the-associated-effect",
-        "title": "Setting the associated effect of an animation",
-        "number": "4.4.2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "animation-current-time",
-      "href": "https://drafts.csswg.org/web-animations-1/#animation-current-time",
-      "linkingText": [
-        "current time"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "animation"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "the-current-time-of-an-animation",
-        "href": "https://drafts.csswg.org/web-animations-1/#the-current-time-of-an-animation",
-        "title": "The current time of an animation",
-        "number": "4.4.3"
+        "id": "setting-the-current-time-of-an-animation",
+        "href": "https://drafts.csswg.org/web-animations-1/#setting-the-current-time-of-an-animation",
+        "title": "Setting the current time of an animation",
+        "number": "4.5.4"
       },
       "definedIn": "prose"
     },
@@ -480,7 +630,7 @@
         "id": "setting-the-current-time-of-an-animation",
         "href": "https://drafts.csswg.org/web-animations-1/#setting-the-current-time-of-an-animation",
         "title": "Setting the current time of an animation",
-        "number": "4.4.4"
+        "number": "4.5.4"
       },
       "definedIn": "prose"
     },
@@ -501,7 +651,7 @@
         "id": "setting-the-current-time-of-an-animation",
         "href": "https://drafts.csswg.org/web-animations-1/#setting-the-current-time-of-an-animation",
         "title": "Setting the current time of an animation",
-        "number": "4.4.4"
+        "number": "4.5.4"
       },
       "definedIn": "prose"
     },
@@ -520,7 +670,7 @@
         "id": "setting-the-start-time-of-an-animation",
         "href": "https://drafts.csswg.org/web-animations-1/#setting-the-start-time-of-an-animation",
         "title": "Setting the start time of an animation",
-        "number": "4.4.5"
+        "number": "4.5.5"
       },
       "definedIn": "prose"
     },
@@ -539,7 +689,7 @@
         "id": "waiting-for-the-associated-effect",
         "href": "https://drafts.csswg.org/web-animations-1/#waiting-for-the-associated-effect",
         "title": "Waiting for the associated effect",
-        "number": "4.4.6"
+        "number": "4.5.6"
       },
       "definedIn": "prose"
     },
@@ -558,7 +708,7 @@
         "id": "the-current-ready-promise",
         "href": "https://drafts.csswg.org/web-animations-1/#the-current-ready-promise",
         "title": "The current ready promise",
-        "number": "4.4.7"
+        "number": "4.5.7"
       },
       "definedIn": "prose"
     },
@@ -577,7 +727,7 @@
         "id": "playing-an-animation-section",
         "href": "https://drafts.csswg.org/web-animations-1/#playing-an-animation-section",
         "title": "Playing an animation",
-        "number": "4.4.8"
+        "number": "4.5.8"
       },
       "definedIn": "prose"
     },
@@ -596,7 +746,7 @@
         "id": "playing-an-animation-section",
         "href": "https://drafts.csswg.org/web-animations-1/#playing-an-animation-section",
         "title": "Playing an animation",
-        "number": "4.4.8"
+        "number": "4.5.8"
       },
       "definedIn": "prose"
     },
@@ -615,7 +765,7 @@
         "id": "pausing-an-animation-section",
         "href": "https://drafts.csswg.org/web-animations-1/#pausing-an-animation-section",
         "title": "Pausing an animation",
-        "number": "4.4.9"
+        "number": "4.5.9"
       },
       "definedIn": "prose"
     },
@@ -634,7 +784,7 @@
         "id": "pausing-an-animation-section",
         "href": "https://drafts.csswg.org/web-animations-1/#pausing-an-animation-section",
         "title": "Pausing an animation",
-        "number": "4.4.9"
+        "number": "4.5.9"
       },
       "definedIn": "prose"
     },
@@ -653,7 +803,7 @@
         "id": "the-current-finished-promise",
         "href": "https://drafts.csswg.org/web-animations-1/#the-current-finished-promise",
         "title": "The current finished promise",
-        "number": "4.4.11"
+        "number": "4.5.11"
       },
       "definedIn": "prose"
     },
@@ -672,7 +822,7 @@
         "id": "updating-the-finished-state",
         "href": "https://drafts.csswg.org/web-animations-1/#updating-the-finished-state",
         "title": "Updating the finished state",
-        "number": "4.4.12"
+        "number": "4.5.12"
       },
       "definedIn": "prose"
     },
@@ -691,7 +841,7 @@
         "id": "updating-the-finished-state",
         "href": "https://drafts.csswg.org/web-animations-1/#updating-the-finished-state",
         "title": "Updating the finished state",
-        "number": "4.4.12"
+        "number": "4.5.12"
       },
       "definedIn": "prose"
     },
@@ -710,7 +860,7 @@
         "id": "updating-the-finished-state",
         "href": "https://drafts.csswg.org/web-animations-1/#updating-the-finished-state",
         "title": "Updating the finished state",
-        "number": "4.4.12"
+        "number": "4.5.12"
       },
       "definedIn": "prose"
     },
@@ -729,7 +879,7 @@
         "id": "updating-the-finished-state",
         "href": "https://drafts.csswg.org/web-animations-1/#updating-the-finished-state",
         "title": "Updating the finished state",
-        "number": "4.4.12"
+        "number": "4.5.12"
       },
       "definedIn": "prose"
     },
@@ -748,7 +898,7 @@
         "id": "finishing-an-animation-section",
         "href": "https://drafts.csswg.org/web-animations-1/#finishing-an-animation-section",
         "title": "Finishing an animation",
-        "number": "4.4.13"
+        "number": "4.5.13"
       },
       "definedIn": "prose"
     },
@@ -767,7 +917,28 @@
         "id": "canceling-an-animation-section",
         "href": "https://drafts.csswg.org/web-animations-1/#canceling-an-animation-section",
         "title": "Canceling an animation",
-        "number": "4.4.14"
+        "number": "4.5.14"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "animation-reset-an-animations-pending-tasks",
+      "href": "https://drafts.csswg.org/web-animations-1/#animation-reset-an-animations-pending-tasks",
+      "linkingText": [
+        "reset an animation’s pending tasks"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "animation"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "canceling-an-animation-section",
+        "href": "https://drafts.csswg.org/web-animations-1/#canceling-an-animation-section",
+        "title": "Canceling an animation",
+        "number": "4.5.14"
       },
       "definedIn": "prose"
     },
@@ -786,7 +957,7 @@
         "id": "speed-control",
         "href": "https://drafts.csswg.org/web-animations-1/#speed-control",
         "title": "Speed control",
-        "number": "4.4.15"
+        "number": "4.5.15"
       },
       "definedIn": "prose"
     },
@@ -805,7 +976,7 @@
         "id": "setting-the-playback-rate-of-an-animation",
         "href": "https://drafts.csswg.org/web-animations-1/#setting-the-playback-rate-of-an-animation",
         "title": "Setting the playback rate of an animation",
-        "number": "4.4.15.1"
+        "number": "4.5.15.1"
       },
       "definedIn": "prose"
     },
@@ -824,7 +995,7 @@
         "id": "seamlessly-updating-the-playback-rate-of-an-animation",
         "href": "https://drafts.csswg.org/web-animations-1/#seamlessly-updating-the-playback-rate-of-an-animation",
         "title": "Seamlessly updating the playback rate of an animation",
-        "number": "4.4.15.2"
+        "number": "4.5.15.2"
       },
       "definedIn": "prose"
     },
@@ -843,7 +1014,7 @@
         "id": "seamlessly-updating-the-playback-rate-of-an-animation",
         "href": "https://drafts.csswg.org/web-animations-1/#seamlessly-updating-the-playback-rate-of-an-animation",
         "title": "Seamlessly updating the playback rate of an animation",
-        "number": "4.4.15.2"
+        "number": "4.5.15.2"
       },
       "definedIn": "prose"
     },
@@ -862,7 +1033,7 @@
         "id": "seamlessly-updating-the-playback-rate-of-an-animation",
         "href": "https://drafts.csswg.org/web-animations-1/#seamlessly-updating-the-playback-rate-of-an-animation",
         "title": "Seamlessly updating the playback rate of an animation",
-        "number": "4.4.15.2"
+        "number": "4.5.15.2"
       },
       "definedIn": "prose"
     },
@@ -881,7 +1052,7 @@
         "id": "seamlessly-updating-the-playback-rate-of-an-animation",
         "href": "https://drafts.csswg.org/web-animations-1/#seamlessly-updating-the-playback-rate-of-an-animation",
         "title": "Seamlessly updating the playback rate of an animation",
-        "number": "4.4.15.2"
+        "number": "4.5.15.2"
       },
       "definedIn": "prose"
     },
@@ -900,7 +1071,7 @@
         "id": "reversing-an-animation-section",
         "href": "https://drafts.csswg.org/web-animations-1/#reversing-an-animation-section",
         "title": "Reversing an animation",
-        "number": "4.4.16"
+        "number": "4.5.16"
       },
       "definedIn": "prose"
     },
@@ -921,7 +1092,7 @@
         "id": "play-states",
         "href": "https://drafts.csswg.org/web-animations-1/#play-states",
         "title": "Play states",
-        "number": "4.4.17"
+        "number": "4.5.17"
       },
       "definedIn": "prose"
     },
@@ -944,7 +1115,7 @@
         "id": "play-states",
         "href": "https://drafts.csswg.org/web-animations-1/#play-states",
         "title": "Play states",
-        "number": "4.4.17"
+        "number": "4.5.17"
       },
       "definedIn": "prose"
     },
@@ -967,7 +1138,7 @@
         "id": "play-states",
         "href": "https://drafts.csswg.org/web-animations-1/#play-states",
         "title": "Play states",
-        "number": "4.4.17"
+        "number": "4.5.17"
       },
       "definedIn": "prose"
     },
@@ -990,7 +1161,7 @@
         "id": "play-states",
         "href": "https://drafts.csswg.org/web-animations-1/#play-states",
         "title": "Play states",
-        "number": "4.4.17"
+        "number": "4.5.17"
       },
       "definedIn": "prose"
     },
@@ -1013,7 +1184,7 @@
         "id": "play-states",
         "href": "https://drafts.csswg.org/web-animations-1/#play-states",
         "title": "Play states",
-        "number": "4.4.17"
+        "number": "4.5.17"
       },
       "definedIn": "prose"
     },
@@ -1032,7 +1203,7 @@
         "id": "animation-events-section",
         "href": "https://drafts.csswg.org/web-animations-1/#animation-events-section",
         "title": "Animation events",
-        "number": "4.4.18"
+        "number": "4.5.18"
       },
       "definedIn": "prose"
     },
@@ -1051,7 +1222,7 @@
         "id": "animation-events-section",
         "href": "https://drafts.csswg.org/web-animations-1/#animation-events-section",
         "title": "Animation events",
-        "number": "4.4.18"
+        "number": "4.5.18"
       },
       "definedIn": "prose"
     },
@@ -1070,7 +1241,7 @@
         "id": "animation-events-section",
         "href": "https://drafts.csswg.org/web-animations-1/#animation-events-section",
         "title": "Animation events",
-        "number": "4.4.18"
+        "number": "4.5.18"
       },
       "definedIn": "prose"
     },
@@ -1089,7 +1260,7 @@
         "id": "sorting-animation-events",
         "href": "https://drafts.csswg.org/web-animations-1/#sorting-animation-events",
         "title": "Sorting animation events",
-        "number": "4.4.18.1"
+        "number": "4.5.18.1"
       },
       "definedIn": "prose"
     },
@@ -1108,7 +1279,7 @@
         "id": "sorting-animation-events",
         "href": "https://drafts.csswg.org/web-animations-1/#sorting-animation-events",
         "title": "Sorting animation events",
-        "number": "4.4.18.1"
+        "number": "4.5.18.1"
       },
       "definedIn": "prose"
     },
@@ -1127,7 +1298,7 @@
         "id": "animation-playback-events-section",
         "href": "https://drafts.csswg.org/web-animations-1/#animation-playback-events-section",
         "title": "Animation playback events",
-        "number": "4.4.18.2"
+        "number": "4.5.18.2"
       },
       "definedIn": "prose"
     },
@@ -1146,7 +1317,7 @@
         "id": "animation-playback-event-types",
         "href": "https://drafts.csswg.org/web-animations-1/#animation-playback-event-types",
         "title": "Types of animation playback events",
-        "number": "4.4.18.3"
+        "number": "4.5.18.3"
       },
       "definedIn": "dt"
     },
@@ -1165,7 +1336,7 @@
         "id": "animation-playback-event-types",
         "href": "https://drafts.csswg.org/web-animations-1/#animation-playback-event-types",
         "title": "Types of animation playback events",
-        "number": "4.4.18.3"
+        "number": "4.5.18.3"
       },
       "definedIn": "dt"
     },
@@ -1184,7 +1355,7 @@
         "id": "animation-playback-event-types",
         "href": "https://drafts.csswg.org/web-animations-1/#animation-playback-event-types",
         "title": "Types of animation playback events",
-        "number": "4.4.18.3"
+        "number": "4.5.18.3"
       },
       "definedIn": "dt"
     },
@@ -1203,26 +1374,30 @@
         "id": "animation-effects",
         "href": "https://drafts.csswg.org/web-animations-1/#animation-effects",
         "title": "Animation effects",
-        "number": "4.5"
+        "number": "4.6"
       },
       "definedIn": "prose"
     },
     {
-      "id": "associated-with-an-animation",
-      "href": "https://drafts.csswg.org/web-animations-1/#associated-with-an-animation",
+      "id": "animation-effect-associated-animation",
+      "href": "https://drafts.csswg.org/web-animations-1/#animation-effect-associated-animation",
       "linkingText": [
+        "associated animation"
+      ],
+      "localLinkingText": [
         "associated with an animation"
       ],
-      "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "animation effect"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
         "id": "animation-effects-and-animations",
         "href": "https://drafts.csswg.org/web-animations-1/#animation-effects-and-animations",
-        "title": "Relationship between animation effects and animations",
-        "number": "4.5.1"
+        "title": "Associated animation and timeline",
+        "number": "4.6.2"
       },
       "definedIn": "prose"
     },
@@ -1240,84 +1415,8 @@
       "heading": {
         "id": "animation-effects-and-animations",
         "href": "https://drafts.csswg.org/web-animations-1/#animation-effects-and-animations",
-        "title": "Relationship between animation effects and animations",
-        "number": "4.5.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "active-interval",
-      "href": "https://drafts.csswg.org/web-animations-1/#active-interval",
-      "linkingText": [
-        "active interval"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "the-active-interval",
-        "href": "https://drafts.csswg.org/web-animations-1/#the-active-interval",
-        "title": "The active interval",
-        "number": "4.5.3"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "start-delay",
-      "href": "https://drafts.csswg.org/web-animations-1/#start-delay",
-      "linkingText": [
-        "start delay"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "the-active-interval",
-        "href": "https://drafts.csswg.org/web-animations-1/#the-active-interval",
-        "title": "The active interval",
-        "number": "4.5.3"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "end-delay",
-      "href": "https://drafts.csswg.org/web-animations-1/#end-delay",
-      "linkingText": [
-        "end delay"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "the-active-interval",
-        "href": "https://drafts.csswg.org/web-animations-1/#the-active-interval",
-        "title": "The active interval",
-        "number": "4.5.3"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "end-time",
-      "href": "https://drafts.csswg.org/web-animations-1/#end-time",
-      "linkingText": [
-        "end time"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "the-active-interval",
-        "href": "https://drafts.csswg.org/web-animations-1/#the-active-interval",
-        "title": "The active interval",
-        "number": "4.5.3"
+        "title": "Associated animation and timeline",
+        "number": "4.6.2"
       },
       "definedIn": "prose"
     },
@@ -1336,7 +1435,218 @@
         "id": "local-time-section",
         "href": "https://drafts.csswg.org/web-animations-1/#local-time-section",
         "title": "Local time",
-        "number": "4.5.4"
+        "number": "4.6.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "time-spaces",
+      "href": "https://drafts.csswg.org/web-animations-1/#time-spaces",
+      "linkingText": [
+        "time spaces"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "effect-time-spaces",
+        "href": "https://drafts.csswg.org/web-animations-1/#effect-time-spaces",
+        "title": "Time spaces",
+        "number": "4.6.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "local-time-space",
+      "href": "https://drafts.csswg.org/web-animations-1/#local-time-space",
+      "linkingText": [
+        "local time space"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "effect-time-spaces",
+        "href": "https://drafts.csswg.org/web-animations-1/#effect-time-spaces",
+        "title": "Time spaces",
+        "number": "4.6.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "active-time-space",
+      "href": "https://drafts.csswg.org/web-animations-1/#active-time-space",
+      "linkingText": [
+        "active time space"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "effect-time-spaces",
+        "href": "https://drafts.csswg.org/web-animations-1/#effect-time-spaces",
+        "title": "Time spaces",
+        "number": "4.6.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "iteration-time-space",
+      "href": "https://drafts.csswg.org/web-animations-1/#iteration-time-space",
+      "linkingText": [
+        "iteration time space"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "effect-time-spaces",
+        "href": "https://drafts.csswg.org/web-animations-1/#effect-time-spaces",
+        "title": "Time spaces",
+        "number": "4.6.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "iteration-time",
+      "href": "https://drafts.csswg.org/web-animations-1/#iteration-time",
+      "linkingText": [
+        "iteration time"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "effect-time-spaces",
+        "href": "https://drafts.csswg.org/web-animations-1/#effect-time-spaces",
+        "title": "Time spaces",
+        "number": "4.6.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "document-time-space",
+      "href": "https://drafts.csswg.org/web-animations-1/#document-time-space",
+      "linkingText": [
+        "document time space"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "effect-time-spaces",
+        "href": "https://drafts.csswg.org/web-animations-1/#effect-time-spaces",
+        "title": "Time spaces",
+        "number": "4.6.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "active-interval",
+      "href": "https://drafts.csswg.org/web-animations-1/#active-interval",
+      "linkingText": [
+        "active interval"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-active-interval",
+        "href": "https://drafts.csswg.org/web-animations-1/#the-active-interval",
+        "title": "The active interval",
+        "number": "4.6.5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "start-delay",
+      "href": "https://drafts.csswg.org/web-animations-1/#start-delay",
+      "linkingText": [
+        "start delay"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-start-delay",
+        "href": "https://drafts.csswg.org/web-animations-1/#the-start-delay",
+        "title": "The start delay",
+        "number": "4.6.5.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "active-duration",
+      "href": "https://drafts.csswg.org/web-animations-1/#active-duration",
+      "linkingText": [
+        "active duration"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-active-duration",
+        "href": "https://drafts.csswg.org/web-animations-1/#the-active-duration",
+        "title": "The active duration",
+        "number": "4.6.5.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "end-delay",
+      "href": "https://drafts.csswg.org/web-animations-1/#end-delay",
+      "linkingText": [
+        "end delay"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-end-delay",
+        "href": "https://drafts.csswg.org/web-animations-1/#the-end-delay",
+        "title": "The end delay and animation effect end time",
+        "number": "4.6.5.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "animation-effect-end-time",
+      "href": "https://drafts.csswg.org/web-animations-1/#animation-effect-end-time",
+      "linkingText": [
+        "end time"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "animation effect"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-end-delay",
+        "href": "https://drafts.csswg.org/web-animations-1/#the-end-delay",
+        "title": "The end delay and animation effect end time",
+        "number": "4.6.5.3"
       },
       "definedIn": "prose"
     },
@@ -1355,7 +1665,7 @@
         "id": "animation-effect-phases-and-states",
         "href": "https://drafts.csswg.org/web-animations-1/#animation-effect-phases-and-states",
         "title": "Animation effect phases and states",
-        "number": "4.5.5"
+        "number": "4.6.6"
       },
       "definedIn": "dt"
     },
@@ -1374,7 +1684,7 @@
         "id": "animation-effect-phases-and-states",
         "href": "https://drafts.csswg.org/web-animations-1/#animation-effect-phases-and-states",
         "title": "Animation effect phases and states",
-        "number": "4.5.5"
+        "number": "4.6.6"
       },
       "definedIn": "dt"
     },
@@ -1393,7 +1703,7 @@
         "id": "animation-effect-phases-and-states",
         "href": "https://drafts.csswg.org/web-animations-1/#animation-effect-phases-and-states",
         "title": "Animation effect phases and states",
-        "number": "4.5.5"
+        "number": "4.6.6"
       },
       "definedIn": "dt"
     },
@@ -1414,7 +1724,7 @@
         "id": "animation-effect-phases-and-states",
         "href": "https://drafts.csswg.org/web-animations-1/#animation-effect-phases-and-states",
         "title": "Animation effect phases and states",
-        "number": "4.5.5"
+        "number": "4.6.6"
       },
       "definedIn": "prose"
     },
@@ -1435,7 +1745,7 @@
         "id": "animation-effect-phases-and-states",
         "href": "https://drafts.csswg.org/web-animations-1/#animation-effect-phases-and-states",
         "title": "Animation effect phases and states",
-        "number": "4.5.5"
+        "number": "4.6.6"
       },
       "definedIn": "prose"
     },
@@ -1456,7 +1766,7 @@
         "id": "animation-effect-phases-and-states",
         "href": "https://drafts.csswg.org/web-animations-1/#animation-effect-phases-and-states",
         "title": "Animation effect phases and states",
-        "number": "4.5.5"
+        "number": "4.6.6"
       },
       "definedIn": "prose"
     },
@@ -1477,7 +1787,7 @@
         "id": "animation-effect-phases-and-states",
         "href": "https://drafts.csswg.org/web-animations-1/#animation-effect-phases-and-states",
         "title": "Animation effect phases and states",
-        "number": "4.5.5"
+        "number": "4.6.6"
       },
       "definedIn": "prose"
     },
@@ -1496,7 +1806,7 @@
         "id": "animation-effect-phases-and-states",
         "href": "https://drafts.csswg.org/web-animations-1/#animation-effect-phases-and-states",
         "title": "Animation effect phases and states",
-        "number": "4.5.5"
+        "number": "4.6.6"
       },
       "definedIn": "prose"
     },
@@ -1515,7 +1825,7 @@
         "id": "animation-effect-phases-and-states",
         "href": "https://drafts.csswg.org/web-animations-1/#animation-effect-phases-and-states",
         "title": "Animation effect phases and states",
-        "number": "4.5.5"
+        "number": "4.6.6"
       },
       "definedIn": "prose"
     },
@@ -1534,7 +1844,7 @@
         "id": "animation-effect-phases-and-states",
         "href": "https://drafts.csswg.org/web-animations-1/#animation-effect-phases-and-states",
         "title": "Animation effect phases and states",
-        "number": "4.5.5"
+        "number": "4.6.6"
       },
       "definedIn": "prose"
     },
@@ -1555,7 +1865,7 @@
         "id": "relevant-animations-section",
         "href": "https://drafts.csswg.org/web-animations-1/#relevant-animations-section",
         "title": "Relevant animations",
-        "number": "4.5.6"
+        "number": "4.6.7"
       },
       "definedIn": "prose"
     },
@@ -1574,7 +1884,7 @@
         "id": "relevant-animations-section",
         "href": "https://drafts.csswg.org/web-animations-1/#relevant-animations-section",
         "title": "Relevant animations",
-        "number": "4.5.6"
+        "number": "4.6.7"
       },
       "definedIn": "prose"
     },
@@ -1593,7 +1903,7 @@
         "id": "relevant-animations-section",
         "href": "https://drafts.csswg.org/web-animations-1/#relevant-animations-section",
         "title": "Relevant animations",
-        "number": "4.5.6"
+        "number": "4.6.7"
       },
       "definedIn": "prose"
     },
@@ -1611,10 +1921,94 @@
       "heading": {
         "id": "fill-behavior",
         "href": "https://drafts.csswg.org/web-animations-1/#fill-behavior",
-        "title": "Fill behavior",
-        "number": "4.6"
+        "title": "Fill behavior and fill modes",
+        "number": "4.6.8"
       },
       "definedIn": "prose"
+    },
+    {
+      "id": "fill-mode-none",
+      "href": "https://drafts.csswg.org/web-animations-1/#fill-mode-none",
+      "linkingText": [
+        "none"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fill mode"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fill-behavior",
+        "href": "https://drafts.csswg.org/web-animations-1/#fill-behavior",
+        "title": "Fill behavior and fill modes",
+        "number": "4.6.8"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fill-mode-forwards",
+      "href": "https://drafts.csswg.org/web-animations-1/#fill-mode-forwards",
+      "linkingText": [
+        "forwards"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fill mode"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fill-behavior",
+        "href": "https://drafts.csswg.org/web-animations-1/#fill-behavior",
+        "title": "Fill behavior and fill modes",
+        "number": "4.6.8"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fill-mode-backwards",
+      "href": "https://drafts.csswg.org/web-animations-1/#fill-mode-backwards",
+      "linkingText": [
+        "backwards"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fill mode"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fill-behavior",
+        "href": "https://drafts.csswg.org/web-animations-1/#fill-behavior",
+        "title": "Fill behavior and fill modes",
+        "number": "4.6.8"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fill-mode-both",
+      "href": "https://drafts.csswg.org/web-animations-1/#fill-mode-both",
+      "linkingText": [
+        "both"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fill mode"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fill-behavior",
+        "href": "https://drafts.csswg.org/web-animations-1/#fill-behavior",
+        "title": "Fill behavior and fill modes",
+        "number": "4.6.8"
+      },
+      "definedIn": "dt"
     },
     {
       "id": "iteration-interval",
@@ -1631,7 +2025,7 @@
         "id": "iteration-intervals",
         "href": "https://drafts.csswg.org/web-animations-1/#iteration-intervals",
         "title": "Iteration intervals",
-        "number": "4.7.1"
+        "number": "4.6.9.1"
       },
       "definedIn": "prose"
     },
@@ -1650,7 +2044,7 @@
         "id": "iteration-intervals",
         "href": "https://drafts.csswg.org/web-animations-1/#iteration-intervals",
         "title": "Iteration intervals",
-        "number": "4.7.1"
+        "number": "4.6.9.1"
       },
       "definedIn": "prose"
     },
@@ -1669,7 +2063,7 @@
         "id": "controlling-iteration",
         "href": "https://drafts.csswg.org/web-animations-1/#controlling-iteration",
         "title": "Controlling iteration",
-        "number": "4.7.2"
+        "number": "4.6.9.2"
       },
       "definedIn": "prose"
     },
@@ -1688,102 +2082,7 @@
         "id": "controlling-iteration",
         "href": "https://drafts.csswg.org/web-animations-1/#controlling-iteration",
         "title": "Controlling iteration",
-        "number": "4.7.2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "active-duration",
-      "href": "https://drafts.csswg.org/web-animations-1/#active-duration",
-      "linkingText": [
-        "active duration"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "calculating-the-active-duration",
-        "href": "https://drafts.csswg.org/web-animations-1/#calculating-the-active-duration",
-        "title": "Calculating the active duration",
-        "number": "4.8.2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "active-time",
-      "href": "https://drafts.csswg.org/web-animations-1/#active-time",
-      "linkingText": [
-        "active time"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "calculating-the-active-time",
-        "href": "https://drafts.csswg.org/web-animations-1/#calculating-the-active-time",
-        "title": "Calculating the active time",
-        "number": "4.8.3.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "overall-progress",
-      "href": "https://drafts.csswg.org/web-animations-1/#overall-progress",
-      "linkingText": [
-        "overall progress"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "calculating-the-overall-progress",
-        "href": "https://drafts.csswg.org/web-animations-1/#calculating-the-overall-progress",
-        "title": "Calculating the overall progress",
-        "number": "4.8.3.2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "simple-iteration-progress",
-      "href": "https://drafts.csswg.org/web-animations-1/#simple-iteration-progress",
-      "linkingText": [
-        "simple iteration progress"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "calculating-the-simple-iteration-progress",
-        "href": "https://drafts.csswg.org/web-animations-1/#calculating-the-simple-iteration-progress",
-        "title": "Calculating the simple iteration progress",
-        "number": "4.8.3.3"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "current-iteration",
-      "href": "https://drafts.csswg.org/web-animations-1/#current-iteration",
-      "linkingText": [
-        "current iteration"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "calculating-the-current-iteration",
-        "href": "https://drafts.csswg.org/web-animations-1/#calculating-the-current-iteration",
-        "title": "Calculating the current iteration",
-        "number": "4.8.4"
+        "number": "4.6.9.2"
       },
       "definedIn": "prose"
     },
@@ -1802,7 +2101,189 @@
         "id": "direction-control",
         "href": "https://drafts.csswg.org/web-animations-1/#direction-control",
         "title": "Direction control",
-        "number": "4.9"
+        "number": "4.6.10"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "playback-direction-normal",
+      "href": "https://drafts.csswg.org/web-animations-1/#playback-direction-normal",
+      "linkingText": [
+        "normal"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "playback direction"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "direction-control",
+        "href": "https://drafts.csswg.org/web-animations-1/#direction-control",
+        "title": "Direction control",
+        "number": "4.6.10"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "playback-direction-reverse",
+      "href": "https://drafts.csswg.org/web-animations-1/#playback-direction-reverse",
+      "linkingText": [
+        "reverse"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "playback direction"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "direction-control",
+        "href": "https://drafts.csswg.org/web-animations-1/#direction-control",
+        "title": "Direction control",
+        "number": "4.6.10"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "playback-direction-alternate",
+      "href": "https://drafts.csswg.org/web-animations-1/#playback-direction-alternate",
+      "linkingText": [
+        "alternate"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "playback direction"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "direction-control",
+        "href": "https://drafts.csswg.org/web-animations-1/#direction-control",
+        "title": "Direction control",
+        "number": "4.6.10"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "playback-direction-alternate-reverse",
+      "href": "https://drafts.csswg.org/web-animations-1/#playback-direction-alternate-reverse",
+      "linkingText": [
+        "alternate-reverse"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "playback direction"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "direction-control",
+        "href": "https://drafts.csswg.org/web-animations-1/#direction-control",
+        "title": "Direction control",
+        "number": "4.6.10"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "animation-effect-effect-easing-function",
+      "href": "https://drafts.csswg.org/web-animations-1/#animation-effect-effect-easing-function",
+      "linkingText": [
+        "effect easing function"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "animation effect"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "time-transformations",
+        "href": "https://drafts.csswg.org/web-animations-1/#time-transformations",
+        "title": "Easing (effect timing transformations)",
+        "number": "4.6.11"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "active-time",
+      "href": "https://drafts.csswg.org/web-animations-1/#active-time",
+      "linkingText": [
+        "active time"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "calculating-the-active-time",
+        "href": "https://drafts.csswg.org/web-animations-1/#calculating-the-active-time",
+        "title": "Calculating the active time",
+        "number": "4.7.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "overall-progress",
+      "href": "https://drafts.csswg.org/web-animations-1/#overall-progress",
+      "linkingText": [
+        "overall progress"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "calculating-the-overall-progress",
+        "href": "https://drafts.csswg.org/web-animations-1/#calculating-the-overall-progress",
+        "title": "Calculating the overall progress",
+        "number": "4.7.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "simple-iteration-progress",
+      "href": "https://drafts.csswg.org/web-animations-1/#simple-iteration-progress",
+      "linkingText": [
+        "simple iteration progress"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "calculating-the-simple-iteration-progress",
+        "href": "https://drafts.csswg.org/web-animations-1/#calculating-the-simple-iteration-progress",
+        "title": "Calculating the simple iteration progress",
+        "number": "4.7.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "current-iteration-index",
+      "href": "https://drafts.csswg.org/web-animations-1/#current-iteration-index",
+      "linkingText": [
+        "current iteration index",
+        "iteration index"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "calculating-the-current-iteration",
+        "href": "https://drafts.csswg.org/web-animations-1/#calculating-the-current-iteration",
+        "title": "Calculating the current iteration index",
+        "number": "4.7.5"
       },
       "definedIn": "prose"
     },
@@ -1821,7 +2302,7 @@
         "id": "calculating-the-directed-progress",
         "href": "https://drafts.csswg.org/web-animations-1/#calculating-the-directed-progress",
         "title": "Calculating the directed progress",
-        "number": "4.9.1"
+        "number": "4.7.6"
       },
       "definedIn": "prose"
     },
@@ -1840,7 +2321,7 @@
         "id": "calculating-the-transformed-progress",
         "href": "https://drafts.csswg.org/web-animations-1/#calculating-the-transformed-progress",
         "title": "Calculating the transformed progress",
-        "number": "4.10.1"
+        "number": "4.7.7"
       },
       "definedIn": "prose"
     },
@@ -1858,8 +2339,27 @@
       "heading": {
         "id": "the-iteration-progress",
         "href": "https://drafts.csswg.org/web-animations-1/#the-iteration-progress",
-        "title": "The iteration progress",
-        "number": "4.11"
+        "title": "Yielding the iteration progress",
+        "number": "4.7.8"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "web-animations-animation-model",
+      "href": "https://drafts.csswg.org/web-animations-1/#web-animations-animation-model",
+      "linkingText": [
+        "Web Animations animation model"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "animation-model",
+        "href": "https://drafts.csswg.org/web-animations-1/#animation-model",
+        "title": "Animation model",
+        "number": "5"
       },
       "definedIn": "prose"
     },
@@ -2155,6 +2655,25 @@
       "definedIn": "prose"
     },
     {
+      "id": "keyframe-specific-easing-function",
+      "href": "https://drafts.csswg.org/web-animations-1/#keyframe-specific-easing-function",
+      "linkingText": [
+        "keyframe-specific easing function"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "keyframes-section",
+        "href": "https://drafts.csswg.org/web-animations-1/#keyframes-section",
+        "title": "Keyframes",
+        "number": "5.3.1"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "keyframe-specific-composite-operation",
       "href": "https://drafts.csswg.org/web-animations-1/#keyframe-specific-composite-operation",
       "linkingText": [
@@ -2212,10 +2731,10 @@
       "definedIn": "prose"
     },
     {
-      "id": "computed-keyframe-offset",
-      "href": "https://drafts.csswg.org/web-animations-1/#computed-keyframe-offset",
+      "id": "computed-keyframe-offsets",
+      "href": "https://drafts.csswg.org/web-animations-1/#computed-keyframe-offsets",
       "linkingText": [
-        "computed keyframe offset"
+        "computed keyframe offsets"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -2298,7 +2817,7 @@
       "type": "dfn",
       "for": [],
       "access": "private",
-      "informative": false,
+      "informative": true,
       "heading": {
         "id": "combining-effects",
         "href": "https://drafts.csswg.org/web-animations-1/#combining-effects",
@@ -2357,25 +2876,6 @@
       "type": "dfn",
       "for": [],
       "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "the-effect-stack",
-        "href": "https://drafts.csswg.org/web-animations-1/#the-effect-stack",
-        "title": "The effect stack",
-        "number": "5.4.2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "associated-animation-of-an-animation-effect",
-      "href": "https://drafts.csswg.org/web-animations-1/#associated-animation-of-an-animation-effect",
-      "linkingText": [
-        "associated animation of an animation effect"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
       "informative": false,
       "heading": {
         "id": "the-effect-stack",
@@ -2776,7 +3276,7 @@
         "title": "The Animation interface",
         "number": "6.4"
       },
-      "definedIn": "pre"
+      "definedIn": "prose"
     },
     {
       "id": "dom-animation-animation",
@@ -3371,7 +3871,8 @@
       "id": "dom-animationplaystate-idle",
       "href": "https://drafts.csswg.org/web-animations-1/#dom-animationplaystate-idle",
       "linkingText": [
-        "\"idle\""
+        "\"idle\"",
+        "idle"
       ],
       "localLinkingText": [],
       "type": "enum-value",
@@ -3386,13 +3887,14 @@
         "title": "The AnimationPlayState enumeration",
         "number": "6.4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "dt"
     },
     {
       "id": "dom-animationplaystate-running",
       "href": "https://drafts.csswg.org/web-animations-1/#dom-animationplaystate-running",
       "linkingText": [
-        "\"running\""
+        "\"running\"",
+        "running"
       ],
       "localLinkingText": [],
       "type": "enum-value",
@@ -3407,13 +3909,14 @@
         "title": "The AnimationPlayState enumeration",
         "number": "6.4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "dt"
     },
     {
       "id": "dom-animationplaystate-paused",
       "href": "https://drafts.csswg.org/web-animations-1/#dom-animationplaystate-paused",
       "linkingText": [
-        "\"paused\""
+        "\"paused\"",
+        "paused"
       ],
       "localLinkingText": [],
       "type": "enum-value",
@@ -3428,13 +3931,14 @@
         "title": "The AnimationPlayState enumeration",
         "number": "6.4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "dt"
     },
     {
       "id": "dom-animationplaystate-finished",
       "href": "https://drafts.csswg.org/web-animations-1/#dom-animationplaystate-finished",
       "linkingText": [
-        "\"finished\""
+        "\"finished\"",
+        "finished"
       ],
       "localLinkingText": [],
       "type": "enum-value",
@@ -3449,7 +3953,7 @@
         "title": "The AnimationPlayState enumeration",
         "number": "6.4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "dt"
     },
     {
       "id": "enumdef-animationreplacestate",
@@ -3532,6 +4036,69 @@
         "number": "6.4.2"
       },
       "definedIn": "pre"
+    },
+    {
+      "id": "dom-animationreplacedstate-active",
+      "href": "https://drafts.csswg.org/web-animations-1/#dom-animationreplacedstate-active",
+      "linkingText": [
+        "active"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "AnimationReplacedState"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-animationreplacestate-enumeration",
+        "href": "https://drafts.csswg.org/web-animations-1/#the-animationreplacestate-enumeration",
+        "title": "The AnimationReplaceState enumeration",
+        "number": "6.4.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-animationreplacedstate-removed",
+      "href": "https://drafts.csswg.org/web-animations-1/#dom-animationreplacedstate-removed",
+      "linkingText": [
+        "removed"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "AnimationReplacedState"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-animationreplacestate-enumeration",
+        "href": "https://drafts.csswg.org/web-animations-1/#the-animationreplacestate-enumeration",
+        "title": "The AnimationReplaceState enumeration",
+        "number": "6.4.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-animationreplacedstate-persisted",
+      "href": "https://drafts.csswg.org/web-animations-1/#dom-animationreplacedstate-persisted",
+      "linkingText": [
+        "persisted"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "AnimationReplacedState"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-animationreplacestate-enumeration",
+        "href": "https://drafts.csswg.org/web-animations-1/#the-animationreplacestate-enumeration",
+        "title": "The AnimationReplaceState enumeration",
+        "number": "6.4.2"
+      },
+      "definedIn": "dt"
     },
     {
       "id": "animationeffect",
@@ -3654,7 +4221,7 @@
         "title": "The EffectTiming and OptionalEffectTiming dictionaries",
         "number": "6.5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "prose"
     },
     {
       "id": "dictdef-optionaleffecttiming",
@@ -3665,6 +4232,174 @@
       "localLinkingText": [],
       "type": "dictionary",
       "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-effecttiming-dictionaries",
+        "href": "https://drafts.csswg.org/web-animations-1/#the-effecttiming-dictionaries",
+        "title": "The EffectTiming and OptionalEffectTiming dictionaries",
+        "number": "6.5.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-optionaleffecttiming-delay",
+      "href": "https://drafts.csswg.org/web-animations-1/#dom-optionaleffecttiming-delay",
+      "linkingText": [
+        "delay"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "OptionalEffectTiming"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-effecttiming-dictionaries",
+        "href": "https://drafts.csswg.org/web-animations-1/#the-effecttiming-dictionaries",
+        "title": "The EffectTiming and OptionalEffectTiming dictionaries",
+        "number": "6.5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-optionaleffecttiming-enddelay",
+      "href": "https://drafts.csswg.org/web-animations-1/#dom-optionaleffecttiming-enddelay",
+      "linkingText": [
+        "endDelay"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "OptionalEffectTiming"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-effecttiming-dictionaries",
+        "href": "https://drafts.csswg.org/web-animations-1/#the-effecttiming-dictionaries",
+        "title": "The EffectTiming and OptionalEffectTiming dictionaries",
+        "number": "6.5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-optionaleffecttiming-fill",
+      "href": "https://drafts.csswg.org/web-animations-1/#dom-optionaleffecttiming-fill",
+      "linkingText": [
+        "fill"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "OptionalEffectTiming"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-effecttiming-dictionaries",
+        "href": "https://drafts.csswg.org/web-animations-1/#the-effecttiming-dictionaries",
+        "title": "The EffectTiming and OptionalEffectTiming dictionaries",
+        "number": "6.5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-optionaleffecttiming-iterationstart",
+      "href": "https://drafts.csswg.org/web-animations-1/#dom-optionaleffecttiming-iterationstart",
+      "linkingText": [
+        "iterationStart"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "OptionalEffectTiming"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-effecttiming-dictionaries",
+        "href": "https://drafts.csswg.org/web-animations-1/#the-effecttiming-dictionaries",
+        "title": "The EffectTiming and OptionalEffectTiming dictionaries",
+        "number": "6.5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-optionaleffecttiming-iterations",
+      "href": "https://drafts.csswg.org/web-animations-1/#dom-optionaleffecttiming-iterations",
+      "linkingText": [
+        "iterations"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "OptionalEffectTiming"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-effecttiming-dictionaries",
+        "href": "https://drafts.csswg.org/web-animations-1/#the-effecttiming-dictionaries",
+        "title": "The EffectTiming and OptionalEffectTiming dictionaries",
+        "number": "6.5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-optionaleffecttiming-duration",
+      "href": "https://drafts.csswg.org/web-animations-1/#dom-optionaleffecttiming-duration",
+      "linkingText": [
+        "duration"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "OptionalEffectTiming"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-effecttiming-dictionaries",
+        "href": "https://drafts.csswg.org/web-animations-1/#the-effecttiming-dictionaries",
+        "title": "The EffectTiming and OptionalEffectTiming dictionaries",
+        "number": "6.5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-optionaleffecttiming-direction",
+      "href": "https://drafts.csswg.org/web-animations-1/#dom-optionaleffecttiming-direction",
+      "linkingText": [
+        "direction"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "OptionalEffectTiming"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-effecttiming-dictionaries",
+        "href": "https://drafts.csswg.org/web-animations-1/#the-effecttiming-dictionaries",
+        "title": "The EffectTiming and OptionalEffectTiming dictionaries",
+        "number": "6.5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-optionaleffecttiming-easing",
+      "href": "https://drafts.csswg.org/web-animations-1/#dom-optionaleffecttiming-easing",
+      "linkingText": [
+        "easing"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "OptionalEffectTiming"
+      ],
       "access": "public",
       "informative": false,
       "heading": {
@@ -3685,27 +4420,6 @@
       "type": "dict-member",
       "for": [
         "EffectTiming"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "the-effecttiming-dictionaries",
-        "href": "https://drafts.csswg.org/web-animations-1/#the-effecttiming-dictionaries",
-        "title": "The EffectTiming and OptionalEffectTiming dictionaries",
-        "number": "6.5.1"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "dom-optionaleffecttiming-delay",
-      "href": "https://drafts.csswg.org/web-animations-1/#dom-optionaleffecttiming-delay",
-      "linkingText": [
-        "delay"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "OptionalEffectTiming"
       ],
       "access": "public",
       "informative": false,
@@ -3739,27 +4453,6 @@
       "definedIn": "dt"
     },
     {
-      "id": "dom-optionaleffecttiming-enddelay",
-      "href": "https://drafts.csswg.org/web-animations-1/#dom-optionaleffecttiming-enddelay",
-      "linkingText": [
-        "endDelay"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "OptionalEffectTiming"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "the-effecttiming-dictionaries",
-        "href": "https://drafts.csswg.org/web-animations-1/#the-effecttiming-dictionaries",
-        "title": "The EffectTiming and OptionalEffectTiming dictionaries",
-        "number": "6.5.1"
-      },
-      "definedIn": "dt"
-    },
-    {
       "id": "dom-effecttiming-fill",
       "href": "https://drafts.csswg.org/web-animations-1/#dom-effecttiming-fill",
       "linkingText": [
@@ -3769,27 +4462,6 @@
       "type": "dict-member",
       "for": [
         "EffectTiming"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "the-effecttiming-dictionaries",
-        "href": "https://drafts.csswg.org/web-animations-1/#the-effecttiming-dictionaries",
-        "title": "The EffectTiming and OptionalEffectTiming dictionaries",
-        "number": "6.5.1"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "dom-optionaleffecttiming-fill",
-      "href": "https://drafts.csswg.org/web-animations-1/#dom-optionaleffecttiming-fill",
-      "linkingText": [
-        "fill"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "OptionalEffectTiming"
       ],
       "access": "public",
       "informative": false,
@@ -3823,27 +4495,6 @@
       "definedIn": "dt"
     },
     {
-      "id": "dom-optionaleffecttiming-iterationstart",
-      "href": "https://drafts.csswg.org/web-animations-1/#dom-optionaleffecttiming-iterationstart",
-      "linkingText": [
-        "iterationStart"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "OptionalEffectTiming"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "the-effecttiming-dictionaries",
-        "href": "https://drafts.csswg.org/web-animations-1/#the-effecttiming-dictionaries",
-        "title": "The EffectTiming and OptionalEffectTiming dictionaries",
-        "number": "6.5.1"
-      },
-      "definedIn": "dt"
-    },
-    {
       "id": "dom-effecttiming-iterations",
       "href": "https://drafts.csswg.org/web-animations-1/#dom-effecttiming-iterations",
       "linkingText": [
@@ -3853,27 +4504,6 @@
       "type": "dict-member",
       "for": [
         "EffectTiming"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "the-effecttiming-dictionaries",
-        "href": "https://drafts.csswg.org/web-animations-1/#the-effecttiming-dictionaries",
-        "title": "The EffectTiming and OptionalEffectTiming dictionaries",
-        "number": "6.5.1"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "dom-optionaleffecttiming-iterations",
-      "href": "https://drafts.csswg.org/web-animations-1/#dom-optionaleffecttiming-iterations",
-      "linkingText": [
-        "iterations"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "OptionalEffectTiming"
       ],
       "access": "public",
       "informative": false,
@@ -3907,27 +4537,6 @@
       "definedIn": "dt"
     },
     {
-      "id": "dom-optionaleffecttiming-duration",
-      "href": "https://drafts.csswg.org/web-animations-1/#dom-optionaleffecttiming-duration",
-      "linkingText": [
-        "duration"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "OptionalEffectTiming"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "the-effecttiming-dictionaries",
-        "href": "https://drafts.csswg.org/web-animations-1/#the-effecttiming-dictionaries",
-        "title": "The EffectTiming and OptionalEffectTiming dictionaries",
-        "number": "6.5.1"
-      },
-      "definedIn": "dt"
-    },
-    {
       "id": "dom-effecttiming-direction",
       "href": "https://drafts.csswg.org/web-animations-1/#dom-effecttiming-direction",
       "linkingText": [
@@ -3949,27 +4558,6 @@
       "definedIn": "dt"
     },
     {
-      "id": "dom-optionaleffecttiming-direction",
-      "href": "https://drafts.csswg.org/web-animations-1/#dom-optionaleffecttiming-direction",
-      "linkingText": [
-        "direction"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "OptionalEffectTiming"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "the-effecttiming-dictionaries",
-        "href": "https://drafts.csswg.org/web-animations-1/#the-effecttiming-dictionaries",
-        "title": "The EffectTiming and OptionalEffectTiming dictionaries",
-        "number": "6.5.1"
-      },
-      "definedIn": "dt"
-    },
-    {
       "id": "dom-effecttiming-easing",
       "href": "https://drafts.csswg.org/web-animations-1/#dom-effecttiming-easing",
       "linkingText": [
@@ -3979,27 +4567,6 @@
       "type": "dict-member",
       "for": [
         "EffectTiming"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "the-effecttiming-dictionaries",
-        "href": "https://drafts.csswg.org/web-animations-1/#the-effecttiming-dictionaries",
-        "title": "The EffectTiming and OptionalEffectTiming dictionaries",
-        "number": "6.5.1"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "dom-optionaleffecttiming-easing",
-      "href": "https://drafts.csswg.org/web-animations-1/#dom-optionaleffecttiming-easing",
-      "linkingText": [
-        "easing"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "OptionalEffectTiming"
       ],
       "access": "public",
       "informative": false,
@@ -4034,12 +4601,14 @@
       "id": "dom-fillmode-none",
       "href": "https://drafts.csswg.org/web-animations-1/#dom-fillmode-none",
       "linkingText": [
-        "\"none\""
+        "\"none\"",
+        "none"
       ],
       "localLinkingText": [],
       "type": "enum-value",
       "for": [
-        "FillMode"
+        "FillMode",
+        "PlaybackDirection"
       ],
       "access": "public",
       "informative": false,
@@ -4049,18 +4618,20 @@
         "title": "The FillMode enumeration",
         "number": "6.5.2"
       },
-      "definedIn": "pre"
+      "definedIn": "dt"
     },
     {
       "id": "dom-fillmode-forwards",
       "href": "https://drafts.csswg.org/web-animations-1/#dom-fillmode-forwards",
       "linkingText": [
-        "\"forwards\""
+        "\"forwards\"",
+        "forwards"
       ],
       "localLinkingText": [],
       "type": "enum-value",
       "for": [
-        "FillMode"
+        "FillMode",
+        "PlaybackDirection"
       ],
       "access": "public",
       "informative": false,
@@ -4070,18 +4641,20 @@
         "title": "The FillMode enumeration",
         "number": "6.5.2"
       },
-      "definedIn": "pre"
+      "definedIn": "dt"
     },
     {
       "id": "dom-fillmode-backwards",
       "href": "https://drafts.csswg.org/web-animations-1/#dom-fillmode-backwards",
       "linkingText": [
-        "\"backwards\""
+        "\"backwards\"",
+        "backwards"
       ],
       "localLinkingText": [],
       "type": "enum-value",
       "for": [
-        "FillMode"
+        "FillMode",
+        "PlaybackDirection"
       ],
       "access": "public",
       "informative": false,
@@ -4091,18 +4664,20 @@
         "title": "The FillMode enumeration",
         "number": "6.5.2"
       },
-      "definedIn": "pre"
+      "definedIn": "dt"
     },
     {
       "id": "dom-fillmode-both",
       "href": "https://drafts.csswg.org/web-animations-1/#dom-fillmode-both",
       "linkingText": [
-        "\"both\""
+        "\"both\"",
+        "both"
       ],
       "localLinkingText": [],
       "type": "enum-value",
       "for": [
-        "FillMode"
+        "FillMode",
+        "PlaybackDirection"
       ],
       "access": "public",
       "informative": false,
@@ -4112,18 +4687,20 @@
         "title": "The FillMode enumeration",
         "number": "6.5.2"
       },
-      "definedIn": "pre"
+      "definedIn": "dt"
     },
     {
       "id": "dom-fillmode-auto",
       "href": "https://drafts.csswg.org/web-animations-1/#dom-fillmode-auto",
       "linkingText": [
-        "\"auto\""
+        "\"auto\"",
+        "auto"
       ],
       "localLinkingText": [],
       "type": "enum-value",
       "for": [
-        "FillMode"
+        "FillMode",
+        "PlaybackDirection"
       ],
       "access": "public",
       "informative": false,
@@ -4133,7 +4710,7 @@
         "title": "The FillMode enumeration",
         "number": "6.5.2"
       },
-      "definedIn": "pre"
+      "definedIn": "dt"
     },
     {
       "id": "enumdef-playbackdirection",
@@ -4158,7 +4735,8 @@
       "id": "dom-playbackdirection-normal",
       "href": "https://drafts.csswg.org/web-animations-1/#dom-playbackdirection-normal",
       "linkingText": [
-        "\"normal\""
+        "\"normal\"",
+        "normal"
       ],
       "localLinkingText": [],
       "type": "enum-value",
@@ -4173,13 +4751,14 @@
         "title": "The PlaybackDirection enumeration",
         "number": "6.5.3"
       },
-      "definedIn": "pre"
+      "definedIn": "dt"
     },
     {
       "id": "dom-playbackdirection-reverse",
       "href": "https://drafts.csswg.org/web-animations-1/#dom-playbackdirection-reverse",
       "linkingText": [
-        "\"reverse\""
+        "\"reverse\"",
+        "reverse"
       ],
       "localLinkingText": [],
       "type": "enum-value",
@@ -4194,13 +4773,14 @@
         "title": "The PlaybackDirection enumeration",
         "number": "6.5.3"
       },
-      "definedIn": "pre"
+      "definedIn": "dt"
     },
     {
       "id": "dom-playbackdirection-alternate",
       "href": "https://drafts.csswg.org/web-animations-1/#dom-playbackdirection-alternate",
       "linkingText": [
-        "\"alternate\""
+        "\"alternate\"",
+        "alternate"
       ],
       "localLinkingText": [],
       "type": "enum-value",
@@ -4215,13 +4795,14 @@
         "title": "The PlaybackDirection enumeration",
         "number": "6.5.3"
       },
-      "definedIn": "pre"
+      "definedIn": "dt"
     },
     {
       "id": "dom-playbackdirection-alternate-reverse",
       "href": "https://drafts.csswg.org/web-animations-1/#dom-playbackdirection-alternate-reverse",
       "linkingText": [
-        "\"alternate-reverse\""
+        "\"alternate-reverse\"",
+        "alternate-reverse"
       ],
       "localLinkingText": [],
       "type": "enum-value",
@@ -4236,7 +4817,7 @@
         "title": "The PlaybackDirection enumeration",
         "number": "6.5.3"
       },
-      "definedIn": "pre"
+      "definedIn": "dt"
     },
     {
       "id": "update-the-timing-properties-of-an-animation-effect",
@@ -4398,7 +4979,7 @@
         "title": "The KeyframeEffect interface",
         "number": "6.6"
       },
-      "definedIn": "pre"
+      "definedIn": "prose"
     },
     {
       "id": "dom-keyframeeffect-setkeyframes-keyframes-keyframes",
@@ -4594,6 +5175,27 @@
       "definedIn": "dt"
     },
     {
+      "id": "dom-keyframeeffect-pseudo-element-parsing",
+      "href": "https://drafts.csswg.org/web-animations-1/#dom-keyframeeffect-pseudo-element-parsing",
+      "linkingText": [
+        "pseudo-element parsing"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "KeyframeEffect"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-keyframeeffect-interface",
+        "href": "https://drafts.csswg.org/web-animations-1/#the-keyframeeffect-interface",
+        "title": "The KeyframeEffect interface",
+        "number": "6.6"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "dom-keyframeeffect-composite",
       "href": "https://drafts.csswg.org/web-animations-1/#dom-keyframeeffect-composite",
       "linkingText": [
@@ -4760,15 +5362,15 @@
       "definedIn": "dt"
     },
     {
-      "id": "dom-keyframeeffect-setkeyframes-keyframes",
-      "href": "https://drafts.csswg.org/web-animations-1/#dom-keyframeeffect-setkeyframes-keyframes",
+      "id": "dom-keyframeeffect-keyframes",
+      "href": "https://drafts.csswg.org/web-animations-1/#dom-keyframeeffect-keyframes",
       "linkingText": [
         "keyframes"
       ],
       "localLinkingText": [],
       "type": "argument",
       "for": [
-        "KeyframeEffect/setKeyframes"
+        "KeyframeEffect"
       ],
       "access": "public",
       "informative": false,
@@ -5099,25 +5701,6 @@
         "number": "6.6.4"
       },
       "definedIn": "dt"
-    },
-    {
-      "id": "compositeoperation",
-      "href": "https://drafts.csswg.org/web-animations-1/#compositeoperation",
-      "linkingText": [
-        "CompositeOperation"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "the-compositeoperation-enumeration",
-        "href": "https://drafts.csswg.org/web-animations-1/#the-compositeoperation-enumeration",
-        "title": "The CompositeOperation and CompositeOperationOrAuto enumerations",
-        "number": "6.7"
-      },
-      "definedIn": "prose"
     },
     {
       "id": "enumdef-compositeoperation",
@@ -5459,6 +6042,27 @@
       "href": "https://drafts.csswg.org/web-animations-1/#dom-getanimationsoptions-subtree",
       "linkingText": [
         "subtree"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "GetAnimationsOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-animatable-interface-mixin",
+        "href": "https://drafts.csswg.org/web-animations-1/#the-animatable-interface-mixin",
+        "title": "The Animatable interface mixin",
+        "number": "6.8"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-getanimationsoptions-pseudoelement",
+      "href": "https://drafts.csswg.org/web-animations-1/#dom-getanimationsoptions-pseudoelement",
+      "linkingText": [
+        "pseudoElement"
       ],
       "localLinkingText": [],
       "type": "dict-member",

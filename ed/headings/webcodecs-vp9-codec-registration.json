@@ -57,18 +57,32 @@
       "number": "4"
     },
     {
+      "id": "videoencoderencodeoptions-extensions",
+      "href": "https://w3c.github.io/webcodecs/vp9_codec_registration.html#videoencoderencodeoptions-extensions",
+      "level": 2,
+      "title": "VideoEncoderEncodeOptions extensions",
+      "number": "5"
+    },
+    {
+      "id": "vp9-encode-options",
+      "href": "https://w3c.github.io/webcodecs/vp9_codec_registration.html#vp9-encode-options",
+      "level": 3,
+      "title": "VideoEncoderEncodeOptionsForVp9",
+      "number": "5.1"
+    },
+    {
       "id": "privacy-considerations",
       "href": "https://w3c.github.io/webcodecs/vp9_codec_registration.html#privacy-considerations",
       "level": 2,
       "title": "Privacy Considerations",
-      "number": "5"
+      "number": "6"
     },
     {
       "id": "security-considerations",
       "href": "https://w3c.github.io/webcodecs/vp9_codec_registration.html#security-considerations",
       "level": 2,
       "title": "Security Considerations",
-      "number": "6"
+      "number": "7"
     },
     {
       "id": "w3c-conformance",
@@ -83,16 +97,16 @@
       "title": "Document conventions"
     },
     {
-      "id": "w3c-conformant-algorithms",
-      "href": "https://w3c.github.io/webcodecs/vp9_codec_registration.html#w3c-conformant-algorithms",
-      "level": 3,
-      "title": "Conformant Algorithms"
-    },
-    {
       "id": "index",
       "href": "https://w3c.github.io/webcodecs/vp9_codec_registration.html#index",
       "level": 2,
       "title": "Index"
+    },
+    {
+      "id": "index-defined-here",
+      "href": "https://w3c.github.io/webcodecs/vp9_codec_registration.html#index-defined-here",
+      "level": 3,
+      "title": "Terms defined by this specification"
     },
     {
       "id": "index-defined-elsewhere",
@@ -117,6 +131,12 @@
       "href": "https://w3c.github.io/webcodecs/vp9_codec_registration.html#informative",
       "level": 3,
       "title": "Informative References"
+    },
+    {
+      "id": "idl-index",
+      "href": "https://w3c.github.io/webcodecs/vp9_codec_registration.html#idl-index",
+      "level": 2,
+      "title": "IDL Index"
     }
   ]
 }

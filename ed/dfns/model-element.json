@@ -19,7 +19,7 @@
         "id": "the-model-element",
         "href": "https://immersive-web.github.io/model-element/#the-model-element",
         "title": "The model element",
-        "number": "2"
+        "number": "4"
       },
       "definedIn": "heading"
     },
@@ -30,15 +30,17 @@
         "autoplay"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "element-attr",
+      "for": [
+        "model"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "autoplay-attribute",
         "href": "https://immersive-web.github.io/model-element/#autoplay-attribute",
         "title": "autoplay attribute",
-        "number": "2.1"
+        "number": "4.1"
       },
       "definedIn": "heading"
     },
@@ -49,15 +51,17 @@
         "interactive"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "element-attr",
+      "for": [
+        "model"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "interactive-attribute",
         "href": "https://immersive-web.github.io/model-element/#interactive-attribute",
         "title": "interactive attribute",
-        "number": "2.2"
+        "number": "4.2"
       },
       "definedIn": "heading"
     },
@@ -68,15 +72,17 @@
         "controls"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "element-attr",
+      "for": [
+        "model"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "controls-attribute",
         "href": "https://immersive-web.github.io/model-element/#controls-attribute",
         "title": "controls attribute",
-        "number": "2.3"
+        "number": "4.3"
       },
       "definedIn": "heading"
     },
@@ -87,15 +93,17 @@
         "crossorigin"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "element-attr",
+      "for": [
+        "model"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "crossorigin-attribute",
         "href": "https://immersive-web.github.io/model-element/#crossorigin-attribute",
         "title": "crossorigin attribute",
-        "number": "2.4"
+        "number": "4.4"
       },
       "definedIn": "heading"
     },
@@ -106,15 +114,17 @@
         "height"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "element-attr",
+      "for": [
+        "model"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "height-attribute",
         "href": "https://immersive-web.github.io/model-element/#height-attribute",
         "title": "height attribute",
-        "number": "2.5"
+        "number": "4.5"
       },
       "definedIn": "heading"
     },
@@ -125,15 +135,17 @@
         "loading"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "element-attr",
+      "for": [
+        "model"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "loading-attribute",
         "href": "https://immersive-web.github.io/model-element/#loading-attribute",
         "title": "loading attribute",
-        "number": "2.6"
+        "number": "4.6"
       },
       "definedIn": "heading"
     },
@@ -144,15 +156,17 @@
         "loop"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "element-attr",
+      "for": [
+        "model"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "loop-attribute",
         "href": "https://immersive-web.github.io/model-element/#loop-attribute",
         "title": "loop attribute",
-        "number": "2.7"
+        "number": "4.7"
       },
       "definedIn": "heading"
     },
@@ -163,15 +177,17 @@
         "muted"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "element-attr",
+      "for": [
+        "model"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "muted-attribute",
         "href": "https://immersive-web.github.io/model-element/#muted-attribute",
         "title": "muted attribute",
-        "number": "2.8"
+        "number": "4.8"
       },
       "definedIn": "heading"
     },
@@ -182,15 +198,17 @@
         "poster"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "element-attr",
+      "for": [
+        "model"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "poster-attribute",
         "href": "https://immersive-web.github.io/model-element/#poster-attribute",
         "title": "poster attribute",
-        "number": "2.9"
+        "number": "4.9"
       },
       "definedIn": "heading"
     },
@@ -201,15 +219,17 @@
         "src"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "element-attr",
+      "for": [
+        "model"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "src-attribute",
         "href": "https://immersive-web.github.io/model-element/#src-attribute",
         "title": "src attribute",
-        "number": "2.10"
+        "number": "4.10"
       },
       "definedIn": "heading"
     },
@@ -220,15 +240,17 @@
         "width"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "element-attr",
+      "for": [
+        "model"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "width-attribute",
         "href": "https://immersive-web.github.io/model-element/#width-attribute",
         "title": "width attribute",
-        "number": "2.11"
+        "number": "4.11"
       },
       "definedIn": "heading"
     },
@@ -247,7 +269,7 @@
         "id": "the-htmlmodelelement-interface",
         "href": "https://immersive-web.github.io/model-element/#the-htmlmodelelement-interface",
         "title": "The HTMLModelElement interface",
-        "number": "3"
+        "number": "5"
       },
       "definedIn": "pre"
     }

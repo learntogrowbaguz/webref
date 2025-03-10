@@ -113,18 +113,18 @@
       "number": "2.8"
     },
     {
-      "id": "display-order",
-      "href": "https://drafts.csswg.org/css-display-4/#display-order",
-      "level": 2,
-      "title": "Display Order",
-      "number": "3"
+      "id": "display-animation",
+      "href": "https://drafts.csswg.org/css-display-4/#display-animation",
+      "level": 3,
+      "title": "Animating and Interpolating display",
+      "number": "2.9"
     },
     {
       "id": "order-property",
       "href": "https://drafts.csswg.org/css-display-4/#order-property",
-      "level": 3,
-      "title": "Display Order Shorthand: the order property",
-      "number": "3.1"
+      "level": 2,
+      "title": "Display Order: the order property",
+      "number": "3"
     },
     {
       "id": "quiet-pubrules-1",
@@ -133,51 +133,53 @@
       "title": "Computer Starter Kit"
     },
     {
-      "id": "reading-order",
-      "href": "https://drafts.csswg.org/css-display-4/#reading-order",
-      "level": 3,
-      "title": "Reading Order: the reading-order property",
-      "number": "3.2"
-    },
-    {
-      "id": "layout-order",
-      "href": "https://drafts.csswg.org/css-display-4/#layout-order",
-      "level": 3,
-      "title": "Box Order: the layout-order property",
-      "number": "3.3"
-    },
-    {
       "id": "order-accessibility",
       "href": "https://drafts.csswg.org/css-display-4/#order-accessibility",
       "level": 3,
       "title": "Reordering and Accessibility",
-      "number": "3.4"
+      "number": "3.1"
+    },
+    {
+      "id": "reading-flow",
+      "href": "https://drafts.csswg.org/css-display-4/#reading-flow",
+      "level": 2,
+      "title": "Reading Order: the reading-flow property",
+      "number": "4"
+    },
+    {
+      "id": "reading-order",
+      "href": "https://drafts.csswg.org/css-display-4/#reading-order",
+      "level": 3,
+      "title": "Overriding Reading Flow: the reading-order property",
+      "number": "4.1"
     },
     {
       "id": "visibility",
       "href": "https://drafts.csswg.org/css-display-4/#visibility",
       "level": 2,
       "title": "Invisibility: the visibility property",
-      "number": "4"
+      "number": "5"
     },
     {
       "id": "run-in-layout",
       "href": "https://drafts.csswg.org/css-display-4/#run-in-layout",
       "level": 2,
       "title": "Run-In Layout",
-      "number": "5"
+      "number": "6"
     },
     {
       "id": "glossary",
       "href": "https://drafts.csswg.org/css-display-4/#glossary",
       "level": 2,
-      "title": "Appendix A: Glossary"
+      "title": "Glossary",
+      "number": "A"
     },
     {
       "id": "unbox",
       "href": "https://drafts.csswg.org/css-display-4/#unbox",
       "level": 2,
-      "title": "Appendix B: Effects of display: contents on Unusual Elements"
+      "title": "Effects of display: contents on Unusual Elements",
+      "number": "B"
     },
     {
       "id": "unbox-html",
@@ -201,7 +203,8 @@
       "id": "box-guidelines",
       "href": "https://drafts.csswg.org/css-display-4/#box-guidelines",
       "level": 2,
-      "title": "Appendix C: Box Construction Guidelines for Spec Authors"
+      "title": "Box Construction Guidelines for Spec Authors",
+      "number": "C"
     },
     {
       "id": "acknowledgments",

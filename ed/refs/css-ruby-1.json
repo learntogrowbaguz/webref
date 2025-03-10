@@ -19,7 +19,7 @@
       },
       {
         "name": "CSS-DISPLAY-4",
-        "url": "https://drafts.csswg.org/css-display-4/"
+        "url": "https://drafts.csswg.org/css-display/"
       },
       {
         "name": "CSS-FONTS-5",
@@ -78,10 +78,6 @@
         "url": "https://drafts.csswg.org/css2/"
       },
       {
-        "name": "CSS22",
-        "url": "https://drafts.csswg.org/css2/"
-      },
-      {
         "name": "CSS3-TEXT-DECOR",
         "url": "https://drafts.csswg.org/css-text-decor-3/"
       },
@@ -101,7 +97,7 @@
     "informative": [
       {
         "name": "CLREQ",
-        "url": "https://w3c.github.io/clreq/"
+        "url": "https://www.w3.org/International/clreq/"
       },
       {
         "name": "CSS-ALIGN-3",
@@ -110,6 +106,10 @@
       {
         "name": "CSS-FLEXBOX-1",
         "url": "https://drafts.csswg.org/css-flexbox-1/"
+      },
+      {
+        "name": "I18N-GLOSSARY",
+        "url": "https://w3c.github.io/i18n-glossary/"
       },
       {
         "name": "JIS4051"

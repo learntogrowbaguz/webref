@@ -10,12 +10,14 @@
  * and update (default is "curated")
  */
 
-const fs = require('fs').promises;
-const path = require('path');
-const util = require('util');
-const execFile = util.promisify(require('child_process').execFile);
-const loadJSON = require('./utils').loadJSON;
-const expandCrawlResult = require('reffy').expandCrawlResult;
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import util from 'node:util';
+import { fileURLToPath } from 'node:url';
+import { execFile as execFileCb } from 'node:child_process';
+import { loadJSON } from './utils.js';
+import { expandCrawlResult, isLatestLevelThatPasses } from 'reffy';
+const execFile = util.promisify(execFileCb);
 
 
 /**
@@ -33,7 +35,11 @@ const supersededBy = {
   'css-flexbox': 'css-align',
 
   // https://github.com/w3c/csswg-drafts/issues/6434#issuecomment-877447360
-  'css-logical': 'css-position',
+  // https://drafts.csswg.org/css-borders-4/#level-changes
+  'css-logical': [
+    'css-position',
+    'css-borders'
+  ],
 
   // See https://github.com/w3c/csswg-drafts/issues/6435
   // (string-set property defined twice)
@@ -57,15 +63,32 @@ const supersededBy = {
   // https://drafts.csswg.org/css-conditional-5/#at-supports-ext
   'css-conditional': 'css-fonts',
 
+  // css-backgrounds-3 was split into css-backgrounds-4 and css-borders-4.
+  // This override can be dropped once css-backgrounds-4 becomes the current
+  // specification in the css-backgrounds series.
+  'css-backgrounds': 'css-borders',
+
   // The Selectors spec defines the ":fullscreen" selector, which is refined in
   // Fullscreen. The Fullscreen definition should probably be flagged as non
   // exported. Or turned into a reference to the Selectors spec.
-  'fullscreen': 'selectors',
+  // Same thing for the "::backdrop" pseudo-element, defined in CSS Position 4.
+  'fullscreen': [
+    'selectors',
+    'css-position'
+  ],
 
   // CSS Values borrows the definition of <integer> from CSS Syntax. Either
   // definition is fine, but references tend to be to CSS Values, so let's
   // dismiss the CSS Syntax definition.
   'css-syntax': 'css-values',
+
+  // CSS Color HDR extends CSS Color to enable HDR:
+  // https://drafts.csswg.org/css-color-hdr/#color-function
+  'css-color': 'css-color-hdr',
+
+  // CSS Gap Decorations supersedes CSS Multi-column layout
+  // https://drafts.csswg.org/css-gaps-1/#color-style-width
+  'css-multicol': 'css-gaps',
 
   // See note in https://svgwg.org/specs/strokes/#sotd
   // "In the future, this specification will supersede the SVG 2 Stroke
@@ -205,6 +228,31 @@ async function dropCSSPropertyDuplicates(folder) {
     }
   }
 
+  // TEMP (2025-01-23): Auto-drop wrapping "''" in values of properties and
+  // values. Shorthand syntax used to be supported by Bikeshed, but no longer
+  // is starting with v5.0.0. Pending resolution of:
+  // https://github.com/speced/bikeshed/issues/3011
+  // ... or updates made to underlying specs:
+  // css-color-5, css-color-4, css-easing-2, css-fonts-4, css-shapes-1
+  for (const spec of index.results) {
+    if (!spec.css) {
+      continue;
+    }
+    for (const dfnType of ['properties', 'values', 'atrules']) {
+      for (const prop of spec.css[dfnType]) {
+        if (!prop.value) {
+          continue;
+        }
+        const needsSaving = prop.value.match(/''/);
+        if (needsSaving) {
+          console.warn(`- Dropped wrapping quotes in definition of ${prop.name} in ${spec.shortname}`);
+          prop.value = prop.value.replace(/''/g, '');
+          spec.needsSaving = true;
+        }
+      }
+    }
+  }
+
   function getBaseJSON(spec) {
     return {
       spec: {
@@ -224,7 +272,7 @@ async function dropCSSPropertyDuplicates(folder) {
       }
     }, spec.css);
     const json = JSON.stringify(css, null, 2) + '\n';
-    const filename = spec.shortname === spec.series.currentSpecification ?
+    const filename = isLatestLevelThatPasses(spec, index.results, spec => spec.css) ?
       spec.series.shortname :
       spec.shortname
     const pathname = path.join(folder, 'css', filename + '.json');
@@ -246,13 +294,13 @@ async function dropCSSPropertyDuplicates(folder) {
 /**************************************************
 Export methods for use as module
 **************************************************/
-module.exports.dropCSSPropertyDuplicates = dropCSSPropertyDuplicates;
+export { dropCSSPropertyDuplicates };
 
 
 /**************************************************
 Code run if the code is run as a stand-alone module
 **************************************************/
-if (require.main === module) {
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const folder = process.argv[2] ?? 'curated';
   
   dropCSSPropertyDuplicates(folder).catch(e => {

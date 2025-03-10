@@ -1,0 +1,127 @@
+{
+  "spec": {
+    "title": "Global Privacy Control (GPC)",
+    "url": "https://w3c.github.io/gpc/"
+  },
+  "dfns": [
+    {
+      "id": "dfn-do-not-sell-or-share-interaction",
+      "href": "https://w3c.github.io/gpc/#dfn-do-not-sell-or-share-interaction",
+      "linkingText": [
+        "do-not-sell-or-share interaction"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "definitions",
+        "href": "https://w3c.github.io/gpc/#definitions",
+        "title": "Definitions",
+        "number": "2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-preference",
+      "href": "https://w3c.github.io/gpc/#dfn-preference",
+      "linkingText": [
+        "preference",
+        "do-not-sell-or-share preference"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "definitions",
+        "href": "https://w3c.github.io/gpc/#definitions",
+        "title": "Definitions",
+        "number": "2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-gpcatnavigation",
+      "href": "https://w3c.github.io/gpc/#dfn-gpcatnavigation",
+      "linkingText": [
+        "gpcAtNavigation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "preference-caching",
+        "href": "https://w3c.github.io/gpc/#preference-caching",
+        "title": "Preference Caching",
+        "number": "3.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-sec-gpc",
+      "href": "https://w3c.github.io/gpc/#dfn-sec-gpc",
+      "linkingText": [
+        "Sec-GPC"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-sec-gpc-header-field-for-http-requests",
+        "href": "https://w3c.github.io/gpc/#the-sec-gpc-header-field-for-http-requests",
+        "title": "The Sec-GPC Header Field for HTTP Requests",
+        "number": "3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-globalprivacycontrol",
+      "href": "https://w3c.github.io/gpc/#dom-globalprivacycontrol",
+      "linkingText": [
+        "GlobalPrivacyControl"
+      ],
+      "localLinkingText": [],
+      "type": "interface",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "javascript-property-to-detect-preference",
+        "href": "https://w3c.github.io/gpc/#javascript-property-to-detect-preference",
+        "title": "JavaScript Property to Detect Preference",
+        "number": "3.4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-globalprivacycontrol-globalprivacycontrol",
+      "href": "https://w3c.github.io/gpc/#dom-globalprivacycontrol-globalprivacycontrol",
+      "linkingText": [
+        "globalPrivacyControl"
+      ],
+      "localLinkingText": [
+        "GlobalPrivacyControl.globalPrivacyControl"
+      ],
+      "type": "attribute",
+      "for": [
+        "GlobalPrivacyControl"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "javascript-property-to-detect-preference",
+        "href": "https://w3c.github.io/gpc/#javascript-property-to-detect-preference",
+        "title": "JavaScript Property to Detect Preference",
+        "number": "3.4"
+      },
+      "definedIn": "pre"
+    }
+  ]
+}

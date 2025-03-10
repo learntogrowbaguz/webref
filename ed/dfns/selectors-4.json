@@ -204,25 +204,6 @@
       "definedIn": "prose"
     },
     {
-      "id": "featureless",
-      "href": "https://drafts.csswg.org/selectors-4/#featureless",
-      "linkingText": [
-        "featureless"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "data-model",
-        "href": "https://drafts.csswg.org/selectors-4/#data-model",
-        "title": "Data Model",
-        "number": "3.2"
-      },
-      "definedIn": "prose"
-    },
-    {
       "id": "document-language",
       "href": "https://drafts.csswg.org/selectors-4/#document-language",
       "linkingText": [
@@ -257,6 +238,25 @@
         "href": "https://drafts.csswg.org/selectors-4/#data-model",
         "title": "Data Model",
         "number": "3.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "featureless",
+      "href": "https://drafts.csswg.org/selectors-4/#featureless",
+      "linkingText": [
+        "featureless"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "featureless-elements",
+        "href": "https://drafts.csswg.org/selectors-4/#featureless-elements",
+        "title": "Featureless Elements",
+        "number": "3.2.1"
       },
       "definedIn": "prose"
     },
@@ -1365,16 +1365,16 @@
       "heading": {
         "id": "open-state",
         "href": "https://drafts.csswg.org/selectors-4/#open-state",
-        "title": "Collapse State: the :open and :closed pseudo-class",
+        "title": "Collapse State: the :open pseudo-class",
         "number": "12.1"
       },
       "definedIn": "prose"
     },
     {
-      "id": "selectordef-closed",
-      "href": "https://drafts.csswg.org/selectors-4/#selectordef-closed",
+      "id": "selectordef-popover-open",
+      "href": "https://drafts.csswg.org/selectors-4/#selectordef-popover-open",
       "linkingText": [
-        ":closed"
+        ":popover-open"
       ],
       "localLinkingText": [],
       "type": "selector",
@@ -1382,10 +1382,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "open-state",
-        "href": "https://drafts.csswg.org/selectors-4/#open-state",
-        "title": "Collapse State: the :open and :closed pseudo-class",
-        "number": "12.1"
+        "id": "popover-open-state",
+        "href": "https://drafts.csswg.org/selectors-4/#popover-open-state",
+        "title": "Popover State: the :popover-open pseudo-class",
+        "number": "12.2"
       },
       "definedIn": "prose"
     },
@@ -1404,7 +1404,7 @@
         "id": "modal-state",
         "href": "https://drafts.csswg.org/selectors-4/#modal-state",
         "title": "Modal (Exclusive Interaction) State: the :modal pseudo-class",
-        "number": "12.2"
+        "number": "12.3"
       },
       "definedIn": "prose"
     },
@@ -1423,7 +1423,7 @@
         "id": "fullscreen-state",
         "href": "https://drafts.csswg.org/selectors-4/#fullscreen-state",
         "title": "Fullscreen Presentation State: the :fullscreen pseudo-class",
-        "number": "12.3"
+        "number": "12.4"
       },
       "definedIn": "prose"
     },
@@ -1442,7 +1442,7 @@
         "id": "pip-state",
         "href": "https://drafts.csswg.org/selectors-4/#pip-state",
         "title": "Picture-in-Picture Presentation State: the :picture-in-picture pseudo-class",
-        "number": "12.4"
+        "number": "12.5"
       },
       "definedIn": "prose"
     },
@@ -2931,7 +2931,8 @@
       "heading": {
         "id": "compat",
         "href": "https://drafts.csswg.org/selectors-4/#compat",
-        "title": "Appendix B: Obsolete but Required -webkit- Parsing Quirks for Web Compat"
+        "title": "Obsolete but Required -webkit- Parsing Quirks for Web Compat",
+        "number": "B"
       },
       "definedIn": "prose"
     },

@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Backgrounds and Borders Module Level 4",
+    "title": "CSS Backgrounds Module Level 4",
     "url": "https://drafts.csswg.org/css-backgrounds-4/"
   },
   "headings": [
@@ -8,7 +8,7 @@
       "id": "title",
       "href": "https://drafts.csswg.org/css-backgrounds-4/#title",
       "level": 1,
-      "title": "CSS Backgrounds and Borders Module Level 4"
+      "title": "CSS Backgrounds Module Level 4"
     },
     {
       "id": "abstract",
@@ -43,109 +43,79 @@
       "number": "2"
     },
     {
+      "id": "background-repeat-longhands",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#background-repeat-longhands",
+      "level": 3,
+      "title": "Tiling Images: the background-repeat-x, background-repeat-y, background-repeat-block, and background-repeat-inline properties",
+      "number": "2.1"
+    },
+    {
+      "id": "background-repeat",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#background-repeat",
+      "level": 3,
+      "title": "Tiling Images Shorthand: the background-repeat property",
+      "number": "2.2"
+    },
+    {
       "id": "the-background-position",
       "href": "https://drafts.csswg.org/css-backgrounds-4/#the-background-position",
       "level": 3,
       "title": "Background Positioning: the background-position shorthand property",
-      "number": "2.1"
+      "number": "2.3"
     },
     {
       "id": "background-position-longhands",
       "href": "https://drafts.csswg.org/css-backgrounds-4/#background-position-longhands",
       "level": 4,
       "title": "Background Positioning Longhands: the background-position-x, background-position-y, background-position-inline, and background-position-block properties",
-      "number": "2.1.1"
+      "number": "2.3.1"
     },
     {
       "id": "background-clip",
       "href": "https://drafts.csswg.org/css-backgrounds-4/#background-clip",
       "level": 3,
       "title": "Painting Area: the background-clip property",
-      "number": "2.2"
+      "number": "2.4"
     },
     {
-      "id": "borders",
-      "href": "https://drafts.csswg.org/css-backgrounds-4/#borders",
-      "level": 2,
-      "title": "Borders",
-      "number": "3"
-    },
-    {
-      "id": "the-border-color",
-      "href": "https://drafts.csswg.org/css-backgrounds-4/#the-border-color",
+      "id": "background-layers",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#background-layers",
       "level": 3,
-      "title": "Line Colors: the border-color properties",
-      "number": "3.1"
-    },
-    {
-      "id": "corners",
-      "href": "https://drafts.csswg.org/css-backgrounds-4/#corners",
-      "level": 2,
-      "title": "Corners",
-      "number": "4"
-    },
-    {
-      "id": "corner-sizing",
-      "href": "https://drafts.csswg.org/css-backgrounds-4/#corner-sizing",
-      "level": 3,
-      "title": "Corner Sizing: the border-radius property",
-      "number": "4.1"
-    },
-    {
-      "id": "corner-shaping",
-      "href": "https://drafts.csswg.org/css-backgrounds-4/#corner-shaping",
-      "level": 3,
-      "title": "Corner Shaping: the corner-shape property",
-      "number": "4.2"
-    },
-    {
-      "id": "corners-shorthand",
-      "href": "https://drafts.csswg.org/css-backgrounds-4/#corners-shorthand",
-      "level": 3,
-      "title": "Corner Shape and Size: the corners shorthand",
-      "number": "4.3"
-    },
-    {
-      "id": "partial-borders",
-      "href": "https://drafts.csswg.org/css-backgrounds-4/#partial-borders",
-      "level": 2,
-      "title": "Partial borders",
-      "number": "5"
-    },
-    {
-      "id": "border-limit",
-      "href": "https://drafts.csswg.org/css-backgrounds-4/#border-limit",
-      "level": 3,
-      "title": "Partial Borders: the border-limit property",
-      "number": "5.1"
-    },
-    {
-      "id": "border-clip",
-      "href": "https://drafts.csswg.org/css-backgrounds-4/#border-clip",
-      "level": 3,
-      "title": "The border-clip properties",
-      "number": "5.2"
+      "title": "Background Image Layers: the background-tbd shorthand property",
+      "number": "2.5"
     },
     {
       "id": "changes",
       "href": "https://drafts.csswg.org/css-backgrounds-4/#changes",
       "level": 2,
       "title": "Changes",
-      "number": "6"
+      "number": "3"
     },
     {
       "id": "level-changes",
       "href": "https://drafts.csswg.org/css-backgrounds-4/#level-changes",
       "level": 3,
-      "title": "Additions Since Level 3",
-      "number": "6.1"
+      "title": "Additions since [CSS3BG]",
+      "number": "3.1"
     },
     {
       "id": "acknowledgments",
       "href": "https://drafts.csswg.org/css-backgrounds-4/#acknowledgments",
       "level": 2,
       "title": "Acknowledgments",
-      "number": "7"
+      "number": "4"
+    },
+    {
+      "id": "privacy",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#privacy",
+      "level": 2,
+      "title": "Privacy Considerations"
+    },
+    {
+      "id": "security",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#security",
+      "level": 2,
+      "title": "Security Considerations"
     },
     {
       "id": "w3c-conformance",

@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "WebRTC 1.0: Real-Time Communication Between Browsers",
+    "title": "WebRTC: Real-Time Communication in Browsers",
     "url": "https://w3c.github.io/webrtc-pc/"
   },
   "headings": [
@@ -8,7 +8,7 @@
       "id": "title",
       "href": "https://w3c.github.io/webrtc-pc/#title",
       "level": 1,
-      "title": "WebRTC 1.0: Real-Time Communication Between Browsers"
+      "title": "WebRTC: Real-Time Communication in Browsers"
     },
     {
       "id": "toc",
@@ -195,25 +195,18 @@
       "number": "4.4.1.3"
     },
     {
-      "id": "update-the-ice-gathering-state",
-      "href": "https://w3c.github.io/webrtc-pc/#update-the-ice-gathering-state",
-      "level": 5,
-      "title": "Update the ICE gathering state",
-      "number": "4.4.1.4"
-    },
-    {
       "id": "set-the-session-description",
       "href": "https://w3c.github.io/webrtc-pc/#set-the-session-description",
       "level": 5,
       "title": "Set the session description",
-      "number": "4.4.1.5"
+      "number": "4.4.1.4"
     },
     {
       "id": "set-the-configuration",
       "href": "https://w3c.github.io/webrtc-pc/#set-the-configuration",
       "level": 5,
       "title": "Set the configuration",
-      "number": "4.4.1.6"
+      "number": "4.4.1.5"
     },
     {
       "id": "interface-definition",
@@ -703,11 +696,24 @@
       "title": "Dictionary RTCRtpHeaderExtensionParameters Members"
     },
     {
+      "id": "rtcrtpcodec",
+      "href": "https://w3c.github.io/webrtc-pc/#rtcrtpcodec",
+      "level": 4,
+      "title": "RTCRtpCodec Dictionary",
+      "number": "5.2.8"
+    },
+    {
+      "id": "dictionary-rtcrtpcodec-members",
+      "href": "https://w3c.github.io/webrtc-pc/#dictionary-rtcrtpcodec-members",
+      "level": 5,
+      "title": "Dictionary RTCRtpCodec Members"
+    },
+    {
       "id": "rtcrtpcodecparameters",
       "href": "https://w3c.github.io/webrtc-pc/#rtcrtpcodecparameters",
       "level": 4,
       "title": "RTCRtpCodecParameters Dictionary",
-      "number": "5.2.8"
+      "number": "5.2.9"
     },
     {
       "id": "dictionary-rtcrtpcodecparameters-members",
@@ -720,26 +726,13 @@
       "href": "https://w3c.github.io/webrtc-pc/#rtcrtpcapabilities",
       "level": 4,
       "title": "RTCRtpCapabilities Dictionary",
-      "number": "5.2.9"
+      "number": "5.2.10"
     },
     {
       "id": "dictionary-rtcrtpcapabilities-members",
       "href": "https://w3c.github.io/webrtc-pc/#dictionary-rtcrtpcapabilities-members",
       "level": 5,
       "title": "Dictionary RTCRtpCapabilities Members"
-    },
-    {
-      "id": "rtcrtpcodeccapability",
-      "href": "https://w3c.github.io/webrtc-pc/#rtcrtpcodeccapability",
-      "level": 4,
-      "title": "RTCRtpCodecCapability Dictionary",
-      "number": "5.2.10"
-    },
-    {
-      "id": "dictionary-rtcrtpcodeccapability-members",
-      "href": "https://w3c.github.io/webrtc-pc/#dictionary-rtcrtpcodeccapability-members",
-      "level": 5,
-      "title": "Dictionary RTCRtpCodecCapability Members"
     },
     {
       "id": "rtcrtpheaderextensioncapability",
@@ -753,6 +746,19 @@
       "href": "https://w3c.github.io/webrtc-pc/#dictionary-rtcrtpheaderextensioncapability-members",
       "level": 5,
       "title": "Dictionary RTCRtpHeaderExtensionCapability Members"
+    },
+    {
+      "id": "rtcsetparameteroptions-dictionary",
+      "href": "https://w3c.github.io/webrtc-pc/#rtcsetparameteroptions-dictionary",
+      "level": 4,
+      "title": "RTCSetParameterOptions Dictionary",
+      "number": "5.2.12"
+    },
+    {
+      "id": "dictionary-rtcsetparameteroptions-members",
+      "href": "https://w3c.github.io/webrtc-pc/#dictionary-rtcsetparameteroptions-members",
+      "level": 5,
+      "title": "Dictionary RTCSetParameterOptions Members"
     },
     {
       "id": "rtcrtpreceiver-interface",
@@ -894,14 +900,14 @@
       "id": "rtcicecandidatepair",
       "href": "https://w3c.github.io/webrtc-pc/#rtcicecandidatepair",
       "level": 4,
-      "title": "RTCIceCandidatePair Dictionary",
+      "title": "RTCIceCandidatePair Interface",
       "number": "5.6.2"
     },
     {
-      "id": "dictionary-rtcicecandidatepair-members",
-      "href": "https://w3c.github.io/webrtc-pc/#dictionary-rtcicecandidatepair-members",
+      "id": "attributes-14",
+      "href": "https://w3c.github.io/webrtc-pc/#attributes-14",
       "level": 5,
-      "title": "Dictionary RTCIceCandidatePair Members"
+      "title": "Attributes"
     },
     {
       "id": "rtcicegathererstate",
@@ -945,8 +951,8 @@
       "title": "Constructors"
     },
     {
-      "id": "attributes-14",
-      "href": "https://w3c.github.io/webrtc-pc/#attributes-14",
+      "id": "attributes-15",
+      "href": "https://w3c.github.io/webrtc-pc/#attributes-15",
       "level": 4,
       "title": "Attributes"
     },
@@ -971,8 +977,8 @@
       "number": "6.1"
     },
     {
-      "id": "attributes-15",
-      "href": "https://w3c.github.io/webrtc-pc/#attributes-15",
+      "id": "attributes-16",
+      "href": "https://w3c.github.io/webrtc-pc/#attributes-16",
       "level": 4,
       "title": "Attributes"
     },
@@ -1011,8 +1017,8 @@
       "number": "6.1.1.3"
     },
     {
-      "id": "attributes-16",
-      "href": "https://w3c.github.io/webrtc-pc/#attributes-16",
+      "id": "attributes-17",
+      "href": "https://w3c.github.io/webrtc-pc/#attributes-17",
       "level": 5,
       "title": "Attributes"
     },
@@ -1066,22 +1072,29 @@
       "number": "6.2.5"
     },
     {
+      "id": "transfering-a-data-channel",
+      "href": "https://w3c.github.io/webrtc-pc/#transfering-a-data-channel",
+      "level": 4,
+      "title": "Transfering data channel",
+      "number": "6.2.6"
+    },
+    {
       "id": "error-on-creating-data-channels",
       "href": "https://w3c.github.io/webrtc-pc/#error-on-creating-data-channels",
       "level": 4,
       "title": "Error on creating data channels",
-      "number": "6.2.6"
+      "number": "6.2.7"
     },
     {
       "id": "receiving-messages-on-a-data-channel",
       "href": "https://w3c.github.io/webrtc-pc/#receiving-messages-on-a-data-channel",
       "level": 4,
       "title": "Receiving messages on a data channel",
-      "number": "6.2.7"
+      "number": "6.2.8"
     },
     {
-      "id": "attributes-17",
-      "href": "https://w3c.github.io/webrtc-pc/#attributes-17",
+      "id": "attributes-18",
+      "href": "https://w3c.github.io/webrtc-pc/#attributes-18",
       "level": 4,
       "title": "Attributes"
     },
@@ -1111,8 +1124,8 @@
       "title": "Constructors"
     },
     {
-      "id": "attributes-18",
-      "href": "https://w3c.github.io/webrtc-pc/#attributes-18",
+      "id": "attributes-19",
+      "href": "https://w3c.github.io/webrtc-pc/#attributes-19",
       "level": 4,
       "title": "Attributes"
     },
@@ -1144,8 +1157,8 @@
       "number": "7.1"
     },
     {
-      "id": "attributes-19",
-      "href": "https://w3c.github.io/webrtc-pc/#attributes-19",
+      "id": "attributes-20",
+      "href": "https://w3c.github.io/webrtc-pc/#attributes-20",
       "level": 4,
       "title": "Attributes"
     },
@@ -1157,8 +1170,8 @@
       "number": "7.2"
     },
     {
-      "id": "attributes-20",
-      "href": "https://w3c.github.io/webrtc-pc/#attributes-20",
+      "id": "attributes-21",
+      "href": "https://w3c.github.io/webrtc-pc/#attributes-21",
       "level": 4,
       "title": "Attributes"
     },
@@ -1189,8 +1202,8 @@
       "title": "Constructors"
     },
     {
-      "id": "attributes-21",
-      "href": "https://w3c.github.io/webrtc-pc/#attributes-21",
+      "id": "attributes-22",
+      "href": "https://w3c.github.io/webrtc-pc/#attributes-22",
       "level": 4,
       "title": "Attributes"
     },
@@ -1502,39 +1515,46 @@
       "title": "14. Accessibility Considerations"
     },
     {
-      "id": "changes",
-      "href": "https://w3c.github.io/webrtc-pc/#changes",
+      "id": "proposed-amendments",
+      "href": "https://w3c.github.io/webrtc-pc/#proposed-amendments",
+      "level": 2,
+      "title": "Proposed Amendments",
+      "number": "A"
+    },
+    {
+      "id": "candidate-amendments",
+      "href": "https://w3c.github.io/webrtc-pc/#candidate-amendments",
       "level": 2,
       "title": "Candidate Amendments",
-      "number": "A"
+      "number": "B"
     },
     {
       "id": "acknowledgements",
       "href": "https://w3c.github.io/webrtc-pc/#acknowledgements",
       "level": 2,
       "title": "Acknowledgements",
-      "number": "B"
+      "number": "C"
     },
     {
       "id": "references",
       "href": "https://w3c.github.io/webrtc-pc/#references",
       "level": 2,
       "title": "References",
-      "number": "C"
+      "number": "D"
     },
     {
       "id": "normative-references",
       "href": "https://w3c.github.io/webrtc-pc/#normative-references",
       "level": 3,
       "title": "Normative references",
-      "number": "C.1"
+      "number": "D.1"
     },
     {
       "id": "informative-references",
       "href": "https://w3c.github.io/webrtc-pc/#informative-references",
       "level": 3,
       "title": "Informative references",
-      "number": "C.2"
+      "number": "D.2"
     }
   ]
 }

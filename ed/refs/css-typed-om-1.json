@@ -26,6 +26,10 @@
         "url": "https://drafts.csswg.org/css-backgrounds/"
       },
       {
+        "name": "CSS-BORDERS-4",
+        "url": "https://drafts.csswg.org/css-borders-4/"
+      },
+      {
         "name": "CSS-BOX-4",
         "url": "https://drafts.csswg.org/css-box-4/"
       },
@@ -43,7 +47,7 @@
       },
       {
         "name": "CSS-COLOR-4",
-        "url": "https://drafts.csswg.org/css-color/"
+        "url": "https://drafts.csswg.org/css-color-4/"
       },
       {
         "name": "CSS-COLOR-5",
@@ -84,6 +88,10 @@
       {
         "name": "CSS-GRID-2",
         "url": "https://drafts.csswg.org/css-grid-2/"
+      },
+      {
+        "name": "CSS-GRID-3",
+        "url": "https://drafts.csswg.org/css-grid-3/"
       },
       {
         "name": "CSS-IMAGES-3",
@@ -240,6 +248,10 @@
       {
         "name": "CSS-WRITING-MODES-4",
         "url": "https://drafts.csswg.org/css-writing-modes-4/"
+      },
+      {
+        "name": "CSS21",
+        "url": "https://drafts.csswg.org/css2/"
       },
       {
         "name": "CSS22",

@@ -24,6 +24,25 @@
       "definedIn": "prose"
     },
     {
+      "id": "browsing-context-container",
+      "href": "https://w3c.github.io/longtasks/#browsing-context-container",
+      "linkingText": [
+        "browsing context container"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-terminology",
+        "href": "https://w3c.github.io/longtasks/#sec-terminology",
+        "title": "Terminology",
+        "number": "2"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "culprit-browsing-context-container",
       "href": "https://w3c.github.io/longtasks/#culprit-browsing-context-container",
       "linkingText": [
@@ -70,6 +89,90 @@
       "localLinkingText": [],
       "type": "interface",
       "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-PerformanceLongTaskTiming",
+        "href": "https://w3c.github.io/longtasks/#sec-PerformanceLongTaskTiming",
+        "title": "PerformanceLongTaskTiming interface",
+        "number": "3.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-performancelongtasktiming-starttime",
+      "href": "https://w3c.github.io/longtasks/#dom-performancelongtasktiming-starttime",
+      "linkingText": [
+        "startTime"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "PerformanceLongTaskTiming"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-PerformanceLongTaskTiming",
+        "href": "https://w3c.github.io/longtasks/#sec-PerformanceLongTaskTiming",
+        "title": "PerformanceLongTaskTiming interface",
+        "number": "3.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-performancelongtasktiming-duration",
+      "href": "https://w3c.github.io/longtasks/#dom-performancelongtasktiming-duration",
+      "linkingText": [
+        "duration"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "PerformanceLongTaskTiming"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-PerformanceLongTaskTiming",
+        "href": "https://w3c.github.io/longtasks/#sec-PerformanceLongTaskTiming",
+        "title": "PerformanceLongTaskTiming interface",
+        "number": "3.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-performancelongtasktiming-name",
+      "href": "https://w3c.github.io/longtasks/#dom-performancelongtasktiming-name",
+      "linkingText": [
+        "name"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "PerformanceLongTaskTiming"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-PerformanceLongTaskTiming",
+        "href": "https://w3c.github.io/longtasks/#sec-PerformanceLongTaskTiming",
+        "title": "PerformanceLongTaskTiming interface",
+        "number": "3.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-performancelongtasktiming-entrytype",
+      "href": "https://w3c.github.io/longtasks/#dom-performancelongtasktiming-entrytype",
+      "linkingText": [
+        "entryType"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "PerformanceLongTaskTiming"
+      ],
       "access": "public",
       "informative": false,
       "heading": {
@@ -302,6 +405,90 @@
       "localLinkingText": [],
       "type": "interface",
       "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-TaskAttributionTiming",
+        "href": "https://w3c.github.io/longtasks/#sec-TaskAttributionTiming",
+        "title": "TaskAttributionTiming interface",
+        "number": "3.2"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-taskattributiontiming-starttime",
+      "href": "https://w3c.github.io/longtasks/#dom-taskattributiontiming-starttime",
+      "linkingText": [
+        "startTime"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "TaskAttributionTiming"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-TaskAttributionTiming",
+        "href": "https://w3c.github.io/longtasks/#sec-TaskAttributionTiming",
+        "title": "TaskAttributionTiming interface",
+        "number": "3.2"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-taskattributiontiming-duration",
+      "href": "https://w3c.github.io/longtasks/#dom-taskattributiontiming-duration",
+      "linkingText": [
+        "duration"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "TaskAttributionTiming"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-TaskAttributionTiming",
+        "href": "https://w3c.github.io/longtasks/#sec-TaskAttributionTiming",
+        "title": "TaskAttributionTiming interface",
+        "number": "3.2"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-taskattributiontiming-name",
+      "href": "https://w3c.github.io/longtasks/#dom-taskattributiontiming-name",
+      "linkingText": [
+        "name"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "TaskAttributionTiming"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-TaskAttributionTiming",
+        "href": "https://w3c.github.io/longtasks/#sec-TaskAttributionTiming",
+        "title": "TaskAttributionTiming interface",
+        "number": "3.2"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-taskattributiontiming-entrytype",
+      "href": "https://w3c.github.io/longtasks/#dom-taskattributiontiming-entrytype",
+      "linkingText": [
+        "entryType"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "TaskAttributionTiming"
+      ],
       "access": "public",
       "informative": false,
       "heading": {

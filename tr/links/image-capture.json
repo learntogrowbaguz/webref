@@ -4,126 +4,119 @@
     "url": "https://www.w3.org/TR/image-capture/"
   },
   "links": {
-    "http://www.iso.org/iso/catalogue_detail.htm?csnumber=37777": {},
-    "http://www.usb.org/developers/docs/devclass_docs/": {},
-    "https://codepen.io/collection/nLeobQ/": {},
-    "https://codepen.io/eehakkin/pen/XWbOVxp/left?editors=1010": {},
-    "https://codepen.io/miguelao/pen/mAzXpN/left?editors=1010": {},
-    "https://codepen.io/miguelao/pen/wzxxwp/left?editors=1010": {},
-    "https://datatracker.ietf.org/doc/html/rfc2119": {},
-    "https://html.spec.whatwg.org/multipage/": {},
-    "https://html.spec.whatwg.org/multipage/document-sequences.html": {
-      "anchors": [
-        "top-level-browsing-context"
-      ]
+    "rawlinks": {
+      "http://www.iso.org/iso/catalogue_detail.htm?csnumber=37777": {},
+      "http://www.usb.org/developers/docs/devclass_docs/": {},
+      "https://codepen.io/collection/nLeobQ/": {},
+      "https://codepen.io/eehakkin/pen/XWbOVxp/left?editors=1010": {},
+      "https://codepen.io/miguelao/pen/mAzXpN/left?editors=1010": {},
+      "https://codepen.io/miguelao/pen/wzxxwp/left?editors=1010": {},
+      "https://datatracker.ietf.org/doc/html/rfc2119": {},
+      "https://html.spec.whatwg.org/multipage/": {},
+      "https://lists.w3.org/Archives/Public/public-webrtc/": {},
+      "https://webidl.spec.whatwg.org/": {},
+      "https://www.w3.org/2004/01/pp-impl/47318/status": {},
+      "https://www.w3.org/2023/Process-20230612/": {
+        "anchors": [
+          "recs-and-notes"
+        ]
+      },
+      "https://www.w3.org/Consortium/Patent-Policy/": {
+        "anchors": [
+          "def-essential",
+          "sec-Disclosure"
+        ]
+      },
+      "https://www.w3.org/TR/": {},
+      "https://www.w3.org/TR/FileAPI/": {},
+      "https://www.w3.org/TR/mediacapture-streams/": {
+        "anchors": [
+          "privacy-and-security-considerations",
+          "constrainable-properties"
+        ]
+      },
+      "https://www.w3.org/TR/permissions/": {},
+      "https://www.w3.org/groups/wg/webrtc": {}
     },
-    "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html": {
-      "anchors": [
-        "imagebitmap",
-        "dom-imagebitmap-width",
-        "dom-imagebitmap-height"
-      ]
-    },
-    "https://html.spec.whatwg.org/multipage/interaction.html": {
-      "anchors": [
-        "dom-document-visibilitystate"
-      ]
-    },
-    "https://lists.w3.org/Archives/Public/public-webrtc/": {},
-    "https://w3c.github.io/FileAPI/": {
-      "anchors": [
-        "dfn-Blob"
-      ],
-      "specShortname": "FileAPI"
-    },
-    "https://w3c.github.io/permissions/": {
-      "anchors": [
-        "dfn-request-permission-to-use",
-        "dom-permissiondescriptor"
-      ],
-      "specShortname": "permissions"
-    },
-    "https://webidl.spec.whatwg.org/": {
-      "anchors": [
-        "Exposed",
-        "idl-promise",
-        "idl-DOMException",
-        "notsupportederror",
-        "a-promise-rejected-with",
-        "invalidstateerror",
-        "unknownerror",
-        "operationerror",
-        "idl-sequence",
-        "idl-double",
-        "idl-boolean",
-        "idl-DOMString",
-        "securityerror"
-      ],
-      "specShortname": "webidl"
-    },
-    "https://www.w3.org/2004/01/pp-impl/47318/status": {},
-    "https://www.w3.org/2021/Process-20211102/": {
-      "anchors": [
-        "recs-and-notes"
-      ]
-    },
-    "https://www.w3.org/Consortium/Patent-Policy/": {
-      "anchors": [
-        "def-essential",
-        "sec-Disclosure"
-      ],
-      "specShortname": "w3c-patent-policy"
-    },
-    "https://www.w3.org/TR/": {},
-    "https://www.w3.org/TR/FileAPI/": {
-      "specShortname": "FileAPI"
-    },
-    "https://www.w3.org/TR/css-font-loading-3/": {
-      "anchors": [
-        "dom-promise"
-      ],
-      "specShortname": "css-font-loading-3"
-    },
-    "https://www.w3.org/TR/mediacapture-streams/": {
-      "anchors": [
-        "dom-mediastreamtrack",
-        "privacy-and-security-considerations",
-        "dom-mediastreamtrack-kind",
-        "dom-mediastreamtrack-readystate",
-        "idl-def-MediaStreamTrackState.live",
-        "dom-mediastreamtrack-onmute",
-        "dom-mediastreamtrack-onunmute",
-        "constrainable-properties",
-        "dom-mediastreamtrack-getcapabilities",
-        "dom-mediastreamtrack-getsettings",
-        "dom-mediastreamtrack-getconstraints",
-        "dom-mediastreamtrack-applyconstraints",
-        "dom-mediatracksupportedconstraints",
-        "dom-mediadevices",
-        "dom-mediadevices-getsupportedconstraints",
-        "dom-mediatrackcapabilities",
-        "dfn-camera",
-        "dom-cameradevicepermissiondescriptor-pantiltzoom",
-        "dom-mediadevices-getusermedia",
-        "dom-mediastream",
-        "dom-mediatrackconstraintset",
-        "dom-mediatracksettings",
-        "dom-mediatrackconstraints",
-        "dom-constraindomstring",
-        "dom-constraindouble",
-        "dom-constrainboolean",
-        "dfn-allowed-required-constraints-for-device-selection",
-        "dfn-optional-basic-constraints",
-        "dfn-advanced-constraints",
-        "dfn-required-constraints",
-        "dfn-fitness-distance",
-        "dom-devicepermissiondescriptor-deviceid"
-      ],
-      "specShortname": "mediacapture-streams"
-    },
-    "https://www.w3.org/TR/permissions/": {
-      "specShortname": "permissions"
-    },
-    "https://www.w3.org/groups/wg/webrtc": {}
+    "autolinks": {
+      "https://html.spec.whatwg.org/multipage/document-sequences.html": {
+        "anchors": [
+          "top-level-browsing-context"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html": {
+        "anchors": [
+          "imagebitmap",
+          "dom-imagebitmap-width",
+          "dom-imagebitmap-height"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/interaction.html": {
+        "anchors": [
+          "dom-document-visibilitystate"
+        ]
+      },
+      "https://webidl.spec.whatwg.org/": {
+        "anchors": [
+          "idl-promise",
+          "Exposed",
+          "idl-DOMException",
+          "notsupportederror",
+          "a-promise-rejected-with",
+          "invalidstateerror",
+          "unknownerror",
+          "operationerror",
+          "idl-sequence",
+          "idl-double",
+          "idl-boolean",
+          "idl-DOMString",
+          "securityerror"
+        ]
+      },
+      "https://www.w3.org/TR/FileAPI/": {
+        "anchors": [
+          "dfn-Blob"
+        ]
+      },
+      "https://www.w3.org/TR/mediacapture-streams/": {
+        "anchors": [
+          "dom-mediastreamtrack",
+          "dom-mediastreamtrack-kind",
+          "dom-mediastreamtrack-readystate",
+          "idl-def-MediaStreamTrackState.live",
+          "dom-mediastreamtrack-onmute",
+          "dom-mediastreamtrack-onunmute",
+          "dom-mediastreamtrack-getcapabilities",
+          "dom-mediastreamtrack-getsettings",
+          "dom-mediastreamtrack-getconstraints",
+          "dom-mediastreamtrack-applyconstraints",
+          "dom-mediatracksupportedconstraints",
+          "dom-mediadevices",
+          "dom-mediadevices-getsupportedconstraints",
+          "dom-mediatrackcapabilities",
+          "dfn-camera",
+          "dom-cameradevicepermissiondescriptor-pantiltzoom",
+          "dom-mediadevices-getusermedia",
+          "dom-mediastream",
+          "dom-mediatrackconstraintset",
+          "dom-mediatracksettings",
+          "dom-mediatrackconstraints",
+          "dom-constraindomstring",
+          "dom-constraindouble",
+          "dom-constrainboolean",
+          "dfn-allowed-required-constraints-for-device-selection",
+          "dfn-optional-basic-constraints",
+          "dfn-advanced-constraints",
+          "dfn-required-constraints",
+          "dfn-fitness-distance"
+        ]
+      },
+      "https://www.w3.org/TR/permissions/": {
+        "anchors": [
+          "dfn-request-permission-to-use",
+          "dom-permissiondescriptor"
+        ]
+      }
+    }
   }
 }

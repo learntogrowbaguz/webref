@@ -2498,7 +2498,7 @@
       "for": [
         "event listener"
       ],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "interface-eventtarget",
@@ -2901,6 +2901,25 @@
       "definedIn": "prose"
     },
     {
+      "id": "legacy-obtain-service-worker-fetch-event-listener-callbacks",
+      "href": "https://dom.spec.whatwg.org/#legacy-obtain-service-worker-fetch-event-listener-callbacks",
+      "linkingText": [
+        "legacy-obtain service worker fetch event listener callbacks"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "observing-event-listeners",
+        "href": "https://dom.spec.whatwg.org/#observing-event-listeners",
+        "title": "Observing event listeners",
+        "number": "2.8"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "concept-event-dispatch",
       "href": "https://dom.spec.whatwg.org/#concept-event-dispatch",
       "linkingText": [
@@ -3047,7 +3066,7 @@
       "for": [
         "AbortController"
       ],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "interface-abortcontroller",
@@ -3109,6 +3128,27 @@
       ],
       "localLinkingText": [],
       "type": "method",
+      "for": [
+        "AbortController"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interface-abortcontroller",
+        "href": "https://dom.spec.whatwg.org/#interface-abortcontroller",
+        "title": "Interface AbortController",
+        "number": "3.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "abortcontroller-signal-abort",
+      "href": "https://dom.spec.whatwg.org/#abortcontroller-signal-abort",
+      "linkingText": [
+        "signal abort"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
       "for": [
         "AbortController"
       ],
@@ -3185,15 +3225,15 @@
       "definedIn": "pre"
     },
     {
-      "id": "abortsignal-abort-reason",
-      "href": "https://dom.spec.whatwg.org/#abortsignal-abort-reason",
+      "id": "dom-abortsignal-any-signals-signals",
+      "href": "https://dom.spec.whatwg.org/#dom-abortsignal-any-signals-signals",
       "linkingText": [
-        "abort reason"
+        "signals"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "argument",
       "for": [
-        "AbortSignal"
+        "AbortSignal/any(signals)"
       ],
       "access": "public",
       "informative": false,
@@ -3203,13 +3243,13 @@
         "title": "Interface AbortSignal",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "pre"
     },
     {
-      "id": "abortsignal-aborted",
-      "href": "https://dom.spec.whatwg.org/#abortsignal-aborted",
+      "id": "abortsignal-abort-reason",
+      "href": "https://dom.spec.whatwg.org/#abortsignal-abort-reason",
       "linkingText": [
-        "aborted"
+        "abort reason"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -3248,17 +3288,17 @@
       "definedIn": "prose"
     },
     {
-      "id": "abortsignal-add",
-      "href": "https://dom.spec.whatwg.org/#abortsignal-add",
+      "id": "abortsignal-dependent",
+      "href": "https://dom.spec.whatwg.org/#abortsignal-dependent",
       "linkingText": [
-        "add"
+        "dependent"
       ],
       "localLinkingText": [],
       "type": "dfn",
       "for": [
         "AbortSignal"
       ],
-      "access": "public",
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "interface-AbortSignal",
@@ -3269,17 +3309,38 @@
       "definedIn": "prose"
     },
     {
-      "id": "abortsignal-remove",
-      "href": "https://dom.spec.whatwg.org/#abortsignal-remove",
+      "id": "abortsignal-source-signals",
+      "href": "https://dom.spec.whatwg.org/#abortsignal-source-signals",
       "linkingText": [
-        "remove"
+        "source signals"
       ],
       "localLinkingText": [],
       "type": "dfn",
       "for": [
         "AbortSignal"
       ],
-      "access": "public",
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "interface-AbortSignal",
+        "href": "https://dom.spec.whatwg.org/#interface-AbortSignal",
+        "title": "Interface AbortSignal",
+        "number": "3.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "abortsignal-dependent-signals",
+      "href": "https://dom.spec.whatwg.org/#abortsignal-dependent-signals",
+      "linkingText": [
+        "dependent signals"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "AbortSignal"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "interface-AbortSignal",
@@ -3316,6 +3377,27 @@
       "href": "https://dom.spec.whatwg.org/#dom-abortsignal-timeout",
       "linkingText": [
         "timeout(milliseconds)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "AbortSignal"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interface-AbortSignal",
+        "href": "https://dom.spec.whatwg.org/#interface-AbortSignal",
+        "title": "Interface AbortSignal",
+        "number": "3.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-abortsignal-any",
+      "href": "https://dom.spec.whatwg.org/#dom-abortsignal-any",
+      "linkingText": [
+        "any(signals)"
       ],
       "localLinkingText": [],
       "type": "method",
@@ -3459,10 +3541,10 @@
       "definedIn": "prose"
     },
     {
-      "id": "abortsignal-signal-abort",
-      "href": "https://dom.spec.whatwg.org/#abortsignal-signal-abort",
+      "id": "abortsignal-aborted",
+      "href": "https://dom.spec.whatwg.org/#abortsignal-aborted",
       "linkingText": [
-        "signal abort"
+        "aborted"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -3480,16 +3562,96 @@
       "definedIn": "prose"
     },
     {
-      "id": "abortsignal-follow",
-      "href": "https://dom.spec.whatwg.org/#abortsignal-follow",
+      "id": "abortsignal-add",
+      "href": "https://dom.spec.whatwg.org/#abortsignal-add",
       "linkingText": [
-        "follow"
+        "add"
       ],
       "localLinkingText": [],
       "type": "dfn",
       "for": [
         "AbortSignal"
       ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interface-AbortSignal",
+        "href": "https://dom.spec.whatwg.org/#interface-AbortSignal",
+        "title": "Interface AbortSignal",
+        "number": "3.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "abortsignal-remove",
+      "href": "https://dom.spec.whatwg.org/#abortsignal-remove",
+      "linkingText": [
+        "remove"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "AbortSignal"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interface-AbortSignal",
+        "href": "https://dom.spec.whatwg.org/#interface-AbortSignal",
+        "title": "Interface AbortSignal",
+        "number": "3.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "abortsignal-signal-abort",
+      "href": "https://dom.spec.whatwg.org/#abortsignal-signal-abort",
+      "linkingText": [
+        "signal abort"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "AbortSignal"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "interface-AbortSignal",
+        "href": "https://dom.spec.whatwg.org/#interface-AbortSignal",
+        "title": "Interface AbortSignal",
+        "number": "3.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "run-the-abort-steps",
+      "href": "https://dom.spec.whatwg.org/#run-the-abort-steps",
+      "linkingText": [
+        "run the abort steps"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "interface-AbortSignal",
+        "href": "https://dom.spec.whatwg.org/#interface-AbortSignal",
+        "title": "Interface AbortSignal",
+        "number": "3.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "create-a-dependent-abort-signal",
+      "href": "https://dom.spec.whatwg.org/#create-a-dependent-abort-signal",
+      "linkingText": [
+        "create a dependent abort signal"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
       "access": "public",
       "informative": false,
       "heading": {
@@ -3881,13 +4043,12 @@
       "id": "find-a-slot",
       "href": "https://dom.spec.whatwg.org/#find-a-slot",
       "linkingText": [
-        "find a slot",
-        "finding a slot"
+        "find a slot"
       ],
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "public",
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "finding-slots-and-slotables",
@@ -3901,8 +4062,7 @@
       "id": "find-slotables",
       "href": "https://dom.spec.whatwg.org/#find-slotables",
       "linkingText": [
-        "find slottables",
-        "finding slottables"
+        "find slottables"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -3921,8 +4081,7 @@
       "id": "find-flattened-slotables",
       "href": "https://dom.spec.whatwg.org/#find-flattened-slotables",
       "linkingText": [
-        "find flattened slottables",
-        "finding flattened slottables"
+        "find flattened slottables"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -4036,14 +4195,12 @@
       "id": "concept-node-ensure-pre-insertion-validity",
       "href": "https://dom.spec.whatwg.org/#concept-node-ensure-pre-insertion-validity",
       "linkingText": [
-        "ensure pre-insertion validity"
+        "ensure pre-insert validity"
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [
-        "Node"
-      ],
-      "access": "public",
+      "for": [],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "mutation-algorithms",
@@ -4092,6 +4249,25 @@
       "definedIn": "prose"
     },
     {
+      "id": "concept-node-post-connection-ext",
+      "href": "https://dom.spec.whatwg.org/#concept-node-post-connection-ext",
+      "linkingText": [
+        "post-connection steps"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "mutation-algorithms",
+        "href": "https://dom.spec.whatwg.org/#mutation-algorithms",
+        "title": "Mutation algorithms",
+        "number": "4.2.3"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "concept-node-children-changed-ext",
       "href": "https://dom.spec.whatwg.org/#concept-node-children-changed-ext",
       "linkingText": [
@@ -4120,6 +4296,44 @@
       "type": "dfn",
       "for": [],
       "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "mutation-algorithms",
+        "href": "https://dom.spec.whatwg.org/#mutation-algorithms",
+        "title": "Mutation algorithms",
+        "number": "4.2.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "concept-node-move-ext",
+      "href": "https://dom.spec.whatwg.org/#concept-node-move-ext",
+      "linkingText": [
+        "moving steps"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "mutation-algorithms",
+        "href": "https://dom.spec.whatwg.org/#mutation-algorithms",
+        "title": "Mutation algorithms",
+        "number": "4.2.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "move",
+      "href": "https://dom.spec.whatwg.org/#move",
+      "linkingText": [
+        "move"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "mutation-algorithms",
@@ -4430,6 +4644,48 @@
       "definedIn": "pre"
     },
     {
+      "id": "dom-parentnode-movebefore-node-child-node",
+      "href": "https://dom.spec.whatwg.org/#dom-parentnode-movebefore-node-child-node",
+      "linkingText": [
+        "node"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "ParentNode/moveBefore(node, child)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interface-parentnode",
+        "href": "https://dom.spec.whatwg.org/#interface-parentnode",
+        "title": "Mixin ParentNode",
+        "number": "4.2.6"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-parentnode-movebefore-node-child-child",
+      "href": "https://dom.spec.whatwg.org/#dom-parentnode-movebefore-node-child-child",
+      "linkingText": [
+        "child"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "ParentNode/moveBefore(node, child)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interface-parentnode",
+        "href": "https://dom.spec.whatwg.org/#interface-parentnode",
+        "title": "Mixin ParentNode",
+        "number": "4.2.6"
+      },
+      "definedIn": "pre"
+    },
+    {
       "id": "dom-parentnode-queryselector-selectors-selectors",
       "href": "https://dom.spec.whatwg.org/#dom-parentnode-queryselector-selectors-selectors",
       "linkingText": [
@@ -4605,6 +4861,27 @@
       "linkingText": [
         "replaceChildren(...nodes)",
         "replaceChildren()"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "ParentNode"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interface-parentnode",
+        "href": "https://dom.spec.whatwg.org/#interface-parentnode",
+        "title": "Mixin ParentNode",
+        "number": "4.2.6"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-parentnode-movebefore",
+      "href": "https://dom.spec.whatwg.org/#dom-parentnode-movebefore",
+      "linkingText": [
+        "moveBefore(node, child)"
       ],
       "localLinkingText": [],
       "type": "method",
@@ -5270,7 +5547,7 @@
       "id": "mutation-observer-list",
       "href": "https://dom.spec.whatwg.org/#mutation-observer-list",
       "linkingText": [
-        "mutation observers"
+        "pending mutation observers"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -5829,7 +6106,7 @@
       "for": [
         "MutationObserver"
       ],
-      "access": "public",
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "interface-mutationobserver",
@@ -6276,15 +6553,15 @@
       "definedIn": "pre"
     },
     {
-      "id": "dom-node-clonenode-deep-deep",
-      "href": "https://dom.spec.whatwg.org/#dom-node-clonenode-deep-deep",
+      "id": "dom-node-clonenode-subtree-subtree",
+      "href": "https://dom.spec.whatwg.org/#dom-node-clonenode-subtree-subtree",
       "linkingText": [
-        "deep"
+        "subtree"
       ],
       "localLinkingText": [],
       "type": "argument",
       "for": [
-        "Node/cloneNode(deep)",
+        "Node/cloneNode(subtree)",
         "Node/cloneNode()"
       ],
       "access": "public",
@@ -7137,6 +7414,25 @@
       "definedIn": "prose"
     },
     {
+      "id": "get-text-content",
+      "href": "https://dom.spec.whatwg.org/#get-text-content",
+      "linkingText": [
+        "get text content"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interface-node",
+        "href": "https://dom.spec.whatwg.org/#interface-node",
+        "title": "Interface Node",
+        "number": "4.4"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "dom-node-textcontent",
       "href": "https://dom.spec.whatwg.org/#dom-node-textcontent",
       "linkingText": [
@@ -7162,6 +7458,25 @@
       "href": "https://dom.spec.whatwg.org/#string-replace-all",
       "linkingText": [
         "string replace all"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interface-node",
+        "href": "https://dom.spec.whatwg.org/#interface-node",
+        "title": "Interface Node",
+        "number": "4.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "set-text-content",
+      "href": "https://dom.spec.whatwg.org/#set-text-content",
+      "linkingText": [
+        "set text content"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -7222,9 +7537,7 @@
       "linkingText": [
         "clone a node"
       ],
-      "localLinkingText": [
-        "clone"
-      ],
+      "localLinkingText": [],
       "type": "dfn",
       "for": [],
       "access": "public",
@@ -7238,10 +7551,92 @@
       "definedIn": "prose"
     },
     {
+      "id": "clone-a-node-document",
+      "href": "https://dom.spec.whatwg.org/#clone-a-node-document",
+      "linkingText": [
+        "document"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "clone a node"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interface-node",
+        "href": "https://dom.spec.whatwg.org/#interface-node",
+        "title": "Interface Node",
+        "number": "4.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "clone-a-node-subtree",
+      "href": "https://dom.spec.whatwg.org/#clone-a-node-subtree",
+      "linkingText": [
+        "subtree"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "clone a node"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interface-node",
+        "href": "https://dom.spec.whatwg.org/#interface-node",
+        "title": "Interface Node",
+        "number": "4.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "clone-a-node-parent",
+      "href": "https://dom.spec.whatwg.org/#clone-a-node-parent",
+      "linkingText": [
+        "parent"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "clone a node"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interface-node",
+        "href": "https://dom.spec.whatwg.org/#interface-node",
+        "title": "Interface Node",
+        "number": "4.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "clone-a-single-node",
+      "href": "https://dom.spec.whatwg.org/#clone-a-single-node",
+      "linkingText": [
+        "clone a single node"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "interface-node",
+        "href": "https://dom.spec.whatwg.org/#interface-node",
+        "title": "Interface Node",
+        "number": "4.4"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "dom-node-clonenode",
       "href": "https://dom.spec.whatwg.org/#dom-node-clonenode",
       "linkingText": [
-        "cloneNode(deep)",
+        "cloneNode(subtree)",
         "cloneNode()"
       ],
       "localLinkingText": [],
@@ -8052,15 +8447,15 @@
       "definedIn": "pre"
     },
     {
-      "id": "dom-document-importnode-node-deep-node",
-      "href": "https://dom.spec.whatwg.org/#dom-document-importnode-node-deep-node",
+      "id": "dom-document-importnode-node-subtree-node",
+      "href": "https://dom.spec.whatwg.org/#dom-document-importnode-node-subtree-node",
       "linkingText": [
         "node"
       ],
       "localLinkingText": [],
       "type": "argument",
       "for": [
-        "Document/importNode(node, deep)",
+        "Document/importNode(node, subtree)",
         "Document/importNode(node)"
       ],
       "access": "public",
@@ -8074,15 +8469,15 @@
       "definedIn": "pre"
     },
     {
-      "id": "dom-document-importnode-node-deep-deep",
-      "href": "https://dom.spec.whatwg.org/#dom-document-importnode-node-deep-deep",
+      "id": "dom-document-importnode-node-subtree-subtree",
+      "href": "https://dom.spec.whatwg.org/#dom-document-importnode-node-subtree-subtree",
       "linkingText": [
-        "deep"
+        "subtree"
       ],
       "localLinkingText": [],
       "type": "argument",
       "for": [
-        "Document/importNode(node, deep)",
+        "Document/importNode(node, subtree)",
         "Document/importNode(node)"
       ],
       "access": "public",
@@ -8526,6 +8921,27 @@
       "href": "https://dom.spec.whatwg.org/#concept-document-mode",
       "linkingText": [
         "mode"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Document"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interface-document",
+        "href": "https://dom.spec.whatwg.org/#interface-document",
+        "title": "Interface Document",
+        "number": "4.5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "document-allow-declarative-shadow-roots",
+      "href": "https://dom.spec.whatwg.org/#document-allow-declarative-shadow-roots",
+      "linkingText": [
+        "allow declarative shadow roots"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -9123,7 +9539,7 @@
       "id": "dom-document-importnode",
       "href": "https://dom.spec.whatwg.org/#dom-document-importnode",
       "linkingText": [
-        "importNode(node, deep)",
+        "importNode(node, subtree)",
         "importNode(node)"
       ],
       "localLinkingText": [],
@@ -10055,10 +10471,73 @@
       "definedIn": "prose"
     },
     {
+      "id": "shadowroot-declarative",
+      "href": "https://dom.spec.whatwg.org/#shadowroot-declarative",
+      "linkingText": [
+        "declarative"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "ShadowRoot"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interface-shadowroot",
+        "href": "https://dom.spec.whatwg.org/#interface-shadowroot",
+        "title": "Interface ShadowRoot",
+        "number": "4.8"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "shadowroot-slot-assignment",
       "href": "https://dom.spec.whatwg.org/#shadowroot-slot-assignment",
       "linkingText": [
         "slot assignment"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "ShadowRoot"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "interface-shadowroot",
+        "href": "https://dom.spec.whatwg.org/#interface-shadowroot",
+        "title": "Interface ShadowRoot",
+        "number": "4.8"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "shadowroot-clonable",
+      "href": "https://dom.spec.whatwg.org/#shadowroot-clonable",
+      "linkingText": [
+        "clonable"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "ShadowRoot"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "interface-shadowroot",
+        "href": "https://dom.spec.whatwg.org/#interface-shadowroot",
+        "title": "Interface ShadowRoot",
+        "number": "4.8"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "shadowroot-serializable",
+      "href": "https://dom.spec.whatwg.org/#shadowroot-serializable",
+      "linkingText": [
+        "serializable"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -10122,6 +10601,48 @@
       "href": "https://dom.spec.whatwg.org/#dom-shadowroot-slotassignment",
       "linkingText": [
         "slotAssignment"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "ShadowRoot"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interface-shadowroot",
+        "href": "https://dom.spec.whatwg.org/#interface-shadowroot",
+        "title": "Interface ShadowRoot",
+        "number": "4.8"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-shadowroot-clonable",
+      "href": "https://dom.spec.whatwg.org/#dom-shadowroot-clonable",
+      "linkingText": [
+        "clonable"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "ShadowRoot"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interface-shadowroot",
+        "href": "https://dom.spec.whatwg.org/#interface-shadowroot",
+        "title": "Interface ShadowRoot",
+        "number": "4.8"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-shadowroot-serializable",
+      "href": "https://dom.spec.whatwg.org/#dom-shadowroot-serializable",
+      "linkingText": [
+        "serializable"
       ],
       "localLinkingText": [],
       "type": "attribute",
@@ -11191,6 +11712,48 @@
       "definedIn": "pre"
     },
     {
+      "id": "dom-shadowrootinit-clonable",
+      "href": "https://dom.spec.whatwg.org/#dom-shadowrootinit-clonable",
+      "linkingText": [
+        "clonable"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "ShadowRootInit"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interface-element",
+        "href": "https://dom.spec.whatwg.org/#interface-element",
+        "title": "Interface Element",
+        "number": "4.9"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-shadowrootinit-serializable",
+      "href": "https://dom.spec.whatwg.org/#dom-shadowrootinit-serializable",
+      "linkingText": [
+        "serializable"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "ShadowRootInit"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interface-element",
+        "href": "https://dom.spec.whatwg.org/#interface-element",
+        "title": "Interface Element",
+        "number": "4.9"
+      },
+      "definedIn": "pre"
+    },
+    {
       "id": "concept-element",
       "href": "https://dom.spec.whatwg.org/#concept-element",
       "linkingText": [
@@ -11465,8 +12028,7 @@
       "id": "concept-create-element",
       "href": "https://dom.spec.whatwg.org/#concept-create-element",
       "linkingText": [
-        "create an element",
-        "creating an element"
+        "create an element"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -11903,7 +12465,7 @@
       "for": [
         "Attr"
       ],
-      "access": "public",
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "interface-element",
@@ -12377,6 +12939,25 @@
       "definedIn": "prose"
     },
     {
+      "id": "valid-shadow-host-name",
+      "href": "https://dom.spec.whatwg.org/#valid-shadow-host-name",
+      "linkingText": [
+        "valid shadow host name"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interface-element",
+        "href": "https://dom.spec.whatwg.org/#interface-element",
+        "title": "Interface Element",
+        "number": "4.9"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "dom-element-attachshadow",
       "href": "https://dom.spec.whatwg.org/#dom-element-attachshadow",
       "linkingText": [
@@ -12388,6 +12969,25 @@
         "Element"
       ],
       "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interface-element",
+        "href": "https://dom.spec.whatwg.org/#interface-element",
+        "title": "Interface Element",
+        "number": "4.9"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "concept-attach-a-shadow-root",
+      "href": "https://dom.spec.whatwg.org/#concept-attach-a-shadow-root",
+      "linkingText": [
+        "attach a shadow root"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "interface-element",
@@ -15432,6 +16032,25 @@
       "definedIn": "prose"
     },
     {
+      "id": "live-range-pre-remove-steps",
+      "href": "https://dom.spec.whatwg.org/#live-range-pre-remove-steps",
+      "linkingText": [
+        "live range pre-remove steps"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "interface-range",
+        "href": "https://dom.spec.whatwg.org/#interface-range",
+        "title": "Interface Range",
+        "number": "5.5"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "dom-range-range",
       "href": "https://dom.spec.whatwg.org/#dom-range-range",
       "linkingText": [
@@ -16212,7 +16831,7 @@
       "id": "nodeiterator-pre-removing-steps",
       "href": "https://dom.spec.whatwg.org/#nodeiterator-pre-removing-steps",
       "linkingText": [
-        "NodeIterator pre-removing steps"
+        "NodeIterator pre-remove steps"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -18353,27 +18972,6 @@
       "definedIn": "pre"
     },
     {
-      "id": "dom-xpathevaluatorbase-creatensresolver",
-      "href": "https://dom.spec.whatwg.org/#dom-xpathevaluatorbase-creatensresolver",
-      "linkingText": [
-        "createNSResolver(nodeResolver)"
-      ],
-      "localLinkingText": [],
-      "type": "method",
-      "for": [
-        "XPathEvaluatorBase"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "mixin-xpathevaluatorbase",
-        "href": "https://dom.spec.whatwg.org/#mixin-xpathevaluatorbase",
-        "title": "Mixin XPathEvaluatorBase",
-        "number": "8.3"
-      },
-      "definedIn": "pre"
-    },
-    {
       "id": "dom-xpathevaluatorbase-creatensresolver-noderesolver-noderesolver",
       "href": "https://dom.spec.whatwg.org/#dom-xpathevaluatorbase-creatensresolver-noderesolver-noderesolver",
       "linkingText": [
@@ -18537,6 +19135,27 @@
         "number": "8.3"
       },
       "definedIn": "pre"
+    },
+    {
+      "id": "dom-xpathevaluatorbase-creatensresolver",
+      "href": "https://dom.spec.whatwg.org/#dom-xpathevaluatorbase-creatensresolver",
+      "linkingText": [
+        "createNSResolver(nodeResolver)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "XPathEvaluatorBase"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "mixin-xpathevaluatorbase",
+        "href": "https://dom.spec.whatwg.org/#mixin-xpathevaluatorbase",
+        "title": "Mixin XPathEvaluatorBase",
+        "number": "8.3"
+      },
+      "definedIn": "prose"
     },
     {
       "id": "xpathevaluator",

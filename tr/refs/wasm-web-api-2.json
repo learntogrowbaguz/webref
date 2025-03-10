@@ -6,8 +6,8 @@
   "refs": {
     "normative": [
       {
-        "name": "ECMA-262",
-        "url": "https://tc39.github.io/ecma262"
+        "name": "ECMASCRIPT",
+        "url": "https://tc39.es/ecma262/multipage/"
       },
       {
         "name": "FETCH",
@@ -16,6 +16,10 @@
       {
         "name": "HTML",
         "url": "https://html.spec.whatwg.org/multipage/"
+      },
+      {
+        "name": "INFRA",
+        "url": "https://infra.spec.whatwg.org/"
       },
       {
         "name": "RFC2119",
@@ -34,6 +38,11 @@
         "url": "https://webidl.spec.whatwg.org/"
       }
     ],
-    "informative": []
+    "informative": [
+      {
+        "name": "IANA-MEDIA-TYPES",
+        "url": "https://www.iana.org/assignments/media-types/"
+      }
+    ]
   }
 }

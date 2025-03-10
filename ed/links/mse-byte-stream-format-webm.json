@@ -1,0 +1,69 @@
+{
+  "spec": {
+    "title": "WebM Byte Stream Format",
+    "url": "https://w3c.github.io/mse-byte-stream-format-webm/"
+  },
+  "links": {
+    "rawlinks": {
+      "https://datatracker.ietf.org/doc/html/bcp14": {},
+      "https://dev.w3.org/html5/html-sourcing-inband-tracks/": {},
+      "https://github.com/w3c/media-source": {},
+      "https://github.com/w3c/mse-byte-stream-format-webm/issues": {},
+      "https://html.spec.whatwg.org/multipage/": {},
+      "https://www.rfc-editor.org/rfc/rfc2119": {},
+      "https://www.rfc-editor.org/rfc/rfc8174": {},
+      "https://www.w3.org/TR/": {},
+      "https://www.w3.org/TR/media-source-2/": {
+        "anchors": [
+          "byte-stream-formats"
+        ]
+      },
+      "https://www.w3.org/groups/wg/media": {},
+      "https://www.w3.org/groups/wg/media/ipr": {},
+      "https://www.w3.org/policies/patent-policy/": {
+        "anchors": [
+          "def-essential",
+          "sec-Disclosure"
+        ]
+      },
+      "https://www.w3.org/policies/process/20231103/": {},
+      "https://www.webmproject.org/docs/container/": {
+        "anchors": [
+          "ebml-basics",
+          "segment",
+          "segment-information",
+          "track",
+          "cluster",
+          "cueing-data",
+          "chapters",
+          "muxer-guidelines"
+        ]
+      },
+      "https://www.webmproject.org/vp9/mp4/": {
+        "anchors": [
+          "codecs-parameter-string"
+        ]
+      }
+    },
+    "autolinks": {
+      "https://html.spec.whatwg.org/multipage/media.html": {
+        "anchors": [
+          "audiotrack",
+          "videotrack",
+          "texttrack"
+        ]
+      },
+      "https://www.w3.org/TR/media-source-2/": {
+        "anchors": [
+          "dfn-initialization-segment",
+          "dfn-media-segment",
+          "random-access-point",
+          "dom-mediasource-istypesupported",
+          "dom-mediasource-addsourcebuffer",
+          "dfn-append-error",
+          "presentation-timestamp"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "spec": {
+    "title": "Captured Surface Control",
+    "url": "https://w3c.github.io/mediacapture-surface-control/"
+  },
+  "links": {
+    "rawlinks": {
+      "https://datatracker.ietf.org/doc/html/bcp14": {},
+      "https://dom.spec.whatwg.org/": {
+        "anchors": [
+          "dom-event-type"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/": {
+        "anchors": [
+          "concept-realm-global"
+        ]
+      },
+      "https://webidl.spec.whatwg.org/": {},
+      "https://wicg.github.io/document-picture-in-picture/": {},
+      "https://www.rfc-editor.org/rfc/rfc2119": {},
+      "https://www.rfc-editor.org/rfc/rfc8174": {},
+      "https://www.w3.org/TR/": {},
+      "https://www.w3.org/TR/cssom-view-1/": {},
+      "https://www.w3.org/TR/geometry-1/": {},
+      "https://www.w3.org/TR/mediacapture-streams/": {
+        "anchors": [
+          "source-stopped"
+        ]
+      },
+      "https://www.w3.org/TR/permissions-policy-1/": {},
+      "https://www.w3.org/TR/permissions/": {},
+      "https://www.w3.org/TR/screen-capture/": {
+        "anchors": [
+          "dfn-source",
+          "dom-capturecontroller-constructor",
+          "dom-mediadevices-getdisplaymedia",
+          "dfn-displaysurfacetype"
+        ]
+      },
+      "https://www.w3.org/TR/uievents/": {
+        "anchors": [
+          "event-type-click",
+          "event-type-input",
+          "idl-wheelevent",
+          "topmost-event-target",
+          "mousemove"
+        ]
+      },
+      "https://www.w3.org/groups/wg/webrtc": {},
+      "https://www.w3.org/groups/wg/webrtc/ipr": {},
+      "https://www.w3.org/policies/patent-policy/": {
+        "anchors": [
+          "def-essential",
+          "sec-Disclosure"
+        ]
+      },
+      "https://www.w3.org/policies/process/20231103/": {}
+    },
+    "autolinks": {
+      "https://dom.spec.whatwg.org/": {
+        "anchors": [
+          "concept-event-fire",
+          "remove-an-event-listener",
+          "concept-event-listener",
+          "event-listener-callback",
+          "callbackdef-eventlistener",
+          "event",
+          "add-an-event-listener",
+          "dom-window-event",
+          "dom-event-istrusted",
+          "dom-event-type",
+          "element"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/dom.html": {
+        "anchors": [
+          "htmlelement"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/infrastructure.html": {
+        "anchors": [
+          "in-parallel"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/interaction.html": {
+        "anchors": [
+          "transient-activation"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/nav-history-apis.html": {
+        "anchors": [
+          "concept-document-window",
+          "window"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/webappapis.html": {
+        "anchors": [
+          "eventhandler",
+          "event-handler-idl-attributes",
+          "event-handler-event-type",
+          "queue-a-global-task",
+          "user-interaction-task-source",
+          "concept-relevant-global",
+          "global-object"
+        ]
+      },
+      "https://webidl.spec.whatwg.org/": {
+        "anchors": [
+          "idl-sequence",
+          "idl-long",
+          "idl-promise",
+          "idl-undefined",
+          "this",
+          "dfn-throw",
+          "invalidstateerror",
+          "idl-DOMException",
+          "notsupportederror",
+          "reject",
+          "dom-domexception-name",
+          "notallowederror",
+          "resolve",
+          "idl-DOMString",
+          "idl-double"
+        ]
+      },
+      "https://www.w3.org/TR/cssom-view-1/": {
+        "anchors": [
+          "dom-mouseevent-offsetx",
+          "dom-mouseevent-offsety",
+          "dom-mouseevent-x",
+          "dom-mouseevent-y",
+          "dom-element-getboundingclientrect"
+        ]
+      },
+      "https://www.w3.org/TR/geometry-1/": {
+        "anchors": [
+          "dom-domrect-width",
+          "dom-domrect-height"
+        ]
+      },
+      "https://www.w3.org/TR/permissions-policy-1/": {
+        "anchors": [
+          "policy-controlled-feature",
+          "policy-controlled-feature-default-allowlist",
+          "permissionspolicy"
+        ]
+      },
+      "https://www.w3.org/TR/permissions/": {
+        "anchors": [
+          "dfn-getting-the-current-permission-state",
+          "dom-permissionstate-granted",
+          "dfn-request-permission-to-use",
+          "dom-permissiondescriptor",
+          "dom-permissiondescriptor-name",
+          "dom-permissionstate-denied"
+        ]
+      },
+      "https://www.w3.org/TR/screen-capture/": {
+        "anchors": [
+          "dom-mediadevices-getdisplaymedia",
+          "dfn-display-surface",
+          "dfn-browser",
+          "dfn-window",
+          "dfn-monitor",
+          "dom-capturecontroller",
+          "dfn-displaysurfacetype",
+          "dfn-source"
+        ]
+      },
+      "https://www.w3.org/TR/uievents/": {
+        "anchors": [
+          "wheelevent",
+          "dom-wheelevent-deltax",
+          "dom-wheelevent-deltay"
+        ]
+      }
+    }
+  }
+}

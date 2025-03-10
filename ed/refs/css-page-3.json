@@ -6,8 +6,8 @@
   "refs": {
     "normative": [
       {
-        "name": "CSS-ANCHOR-1",
-        "url": "https://drafts.csswg.org/css-anchor-1/"
+        "name": "CSS-ANCHOR-POSITION-1",
+        "url": "https://drafts.csswg.org/css-anchor-position-1/"
       },
       {
         "name": "CSS-BACKGROUNDS-3",
@@ -39,7 +39,7 @@
       },
       {
         "name": "CSS-DISPLAY-4",
-        "url": "https://drafts.csswg.org/css-display-4/"
+        "url": "https://drafts.csswg.org/css-display/"
       },
       {
         "name": "CSS-FONTS-4",
@@ -90,10 +90,6 @@
         "url": "https://drafts.csswg.org/css2/"
       },
       {
-        "name": "CSS22",
-        "url": "https://drafts.csswg.org/css2/"
-      },
-      {
         "name": "CSS4BACKGROUND",
         "url": "https://drafts.csswg.org/css-backgrounds-4/"
       },
@@ -120,16 +116,12 @@
       {
         "name": "SELECTORS-4",
         "url": "https://drafts.csswg.org/selectors/"
-      },
-      {
-        "name": "SVG2",
-        "url": "https://svgwg.org/svg2-draft/"
       }
     ],
     "informative": [
       {
         "name": "CSS-DEVICE-ADAPT",
-        "url": "https://drafts.csswg.org/css-device-adapt/"
+        "url": "https://drafts.csswg.org/css-viewport/"
       },
       {
         "name": "CSS-IMAGES-3",

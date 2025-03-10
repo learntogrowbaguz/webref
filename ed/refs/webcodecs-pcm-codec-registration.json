@@ -16,6 +16,10 @@
       {
         "name": "WEBIDL",
         "url": "https://webidl.spec.whatwg.org/"
+      },
+      {
+        "name": "WGSL",
+        "url": "https://gpuweb.github.io/gpuweb/wgsl/"
       }
     ],
     "informative": [

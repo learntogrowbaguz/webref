@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "Media Session Standard",
+    "title": "Media Session",
     "url": "https://www.w3.org/TR/mediasession/"
   },
   "refs": {
@@ -18,8 +18,16 @@
         "url": "https://infra.spec.whatwg.org/"
       },
       {
+        "name": "MEDIACAPTURE-STREAMS",
+        "url": "https://www.w3.org/TR/mediacapture-streams/"
+      },
+      {
         "name": "MIMESNIFF",
         "url": "https://mimesniff.spec.whatwg.org/"
+      },
+      {
+        "name": "PERMISSIONS-POLICY-1",
+        "url": "https://www.w3.org/TR/permissions-policy-1/"
       },
       {
         "name": "RFC2119",
@@ -38,6 +46,10 @@
       {
         "name": "IMAGE-RESOURCE",
         "url": "https://www.w3.org/TR/image-resource/"
+      },
+      {
+        "name": "WEBAUDIO-1.1",
+        "url": "https://www.w3.org/TR/webaudio-1.1/"
       }
     ]
   }

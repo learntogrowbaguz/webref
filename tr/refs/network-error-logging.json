@@ -1,0 +1,99 @@
+{
+  "spec": {
+    "title": "Network Error Logging",
+    "url": "https://www.w3.org/TR/network-error-logging/"
+  },
+  "refs": {
+    "normative": [
+      {
+        "name": "CAPABILITY-URLS",
+        "url": "https://www.w3.org/TR/capability-urls/"
+      },
+      {
+        "name": "CSP",
+        "url": "https://www.w3.org/TR/CSP3/"
+      },
+      {
+        "name": "ECMA-262",
+        "url": "https://tc39.es/ecma262/multipage/"
+      },
+      {
+        "name": "FETCH",
+        "url": "https://fetch.spec.whatwg.org/"
+      },
+      {
+        "name": "hr-time",
+        "url": "https://www.w3.org/TR/hr-time-3/"
+      },
+      {
+        "name": "html",
+        "url": "https://html.spec.whatwg.org/multipage/"
+      },
+      {
+        "name": "HTTP-JFV",
+        "url": "https://datatracker.ietf.org/doc/html/draft-reschke-http-jfv"
+      },
+      {
+        "name": "network-reporting",
+        "url": "https://w3c.github.io/reporting/network-reporting.html"
+      },
+      {
+        "name": "referrer-policy",
+        "url": "https://www.w3.org/TR/referrer-policy/"
+      },
+      {
+        "name": "REPORTING",
+        "url": "https://www.w3.org/TR/reporting-1/"
+      },
+      {
+        "name": "RESOURCE-TIMING-2",
+        "url": "https://www.w3.org/TR/resource-timing/"
+      },
+      {
+        "name": "RFC1034",
+        "url": "https://www.rfc-editor.org/rfc/rfc1034"
+      },
+      {
+        "name": "RFC1123",
+        "url": "https://www.rfc-editor.org/rfc/rfc1123"
+      },
+      {
+        "name": "RFC2119",
+        "url": "https://www.rfc-editor.org/rfc/rfc2119"
+      },
+      {
+        "name": "RFC3864",
+        "url": "https://www.rfc-editor.org/rfc/rfc3864"
+      },
+      {
+        "name": "RFC4291",
+        "url": "https://www.rfc-editor.org/rfc/rfc4291"
+      },
+      {
+        "name": "RFC6797",
+        "url": "https://www.rfc-editor.org/rfc/rfc6797"
+      },
+      {
+        "name": "RFC8174",
+        "url": "https://www.rfc-editor.org/rfc/rfc8174"
+      },
+      {
+        "name": "RFC9110",
+        "url": "https://httpwg.org/specs/rfc9110.html"
+      },
+      {
+        "name": "RFC9112",
+        "url": "https://httpwg.org/specs/rfc9112.html"
+      },
+      {
+        "name": "secure-contexts",
+        "url": "https://www.w3.org/TR/secure-contexts/"
+      },
+      {
+        "name": "url",
+        "url": "https://url.spec.whatwg.org/"
+      }
+    ],
+    "informative": []
+  }
+}

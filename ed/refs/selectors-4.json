@@ -6,8 +6,16 @@
   "refs": {
     "normative": [
       {
+        "name": "BCP47",
+        "url": "https://www.rfc-editor.org/rfc/rfc5646"
+      },
+      {
         "name": "CSS-DISPLAY-4",
-        "url": "https://drafts.csswg.org/css-display-4/"
+        "url": "https://drafts.csswg.org/css-display/"
+      },
+      {
+        "name": "CSS-MULTICOL-2",
+        "url": "https://drafts.csswg.org/css-multicol-2/"
       },
       {
         "name": "CSS-PSEUDO-4",
@@ -34,10 +42,6 @@
         "url": "https://drafts.csswg.org/css2/"
       },
       {
-        "name": "CSS22",
-        "url": "https://drafts.csswg.org/css2/"
-      },
-      {
         "name": "CSS3NAMESPACE",
         "url": "https://drafts.csswg.org/css-namespaces/"
       },
@@ -58,12 +62,12 @@
         "url": "https://infra.spec.whatwg.org/"
       },
       {
-        "name": "MEDIACAPTURE-STREAMS",
-        "url": "https://w3c.github.io/mediacapture-main/"
-      },
-      {
         "name": "RFC2119",
         "url": "https://datatracker.ietf.org/doc/html/rfc2119"
+      },
+      {
+        "name": "RFC4647",
+        "url": "https://www.rfc-editor.org/rfc/rfc4647"
       },
       {
         "name": "SELECT",
@@ -80,10 +84,6 @@
     ],
     "informative": [
       {
-        "name": "BCP47",
-        "url": "https://www.rfc-editor.org/rfc/rfc5646"
-      },
-      {
         "name": "CSS-COLOR-5",
         "url": "https://drafts.csswg.org/css-color-5/"
       },
@@ -96,6 +96,10 @@
         "url": "https://drafts.csswg.org/css-ui-3/"
       },
       {
+        "name": "CSSOM-1",
+        "url": "https://drafts.csswg.org/cssom/"
+      },
+      {
         "name": "CSSSTYLEATTR",
         "url": "https://drafts.csswg.org/css-style-attr/"
       },
@@ -105,7 +109,7 @@
       },
       {
         "name": "HTML5",
-        "url": "https://www.w3.org/html/wg/drafts/html/master/"
+        "url": "https://www.w3.org/TR/html5/"
       },
       {
         "name": "ITS20",
@@ -126,10 +130,6 @@
       {
         "name": "QUIRKS",
         "url": "https://quirks.spec.whatwg.org/"
-      },
-      {
-        "name": "RFC4647",
-        "url": "https://www.rfc-editor.org/rfc/rfc4647"
       },
       {
         "name": "SVG11",

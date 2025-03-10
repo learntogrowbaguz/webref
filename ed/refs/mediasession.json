@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "Media Session Standard",
+    "title": "Media Session",
     "url": "https://w3c.github.io/mediasession/"
   },
   "refs": {
@@ -18,8 +18,16 @@
         "url": "https://infra.spec.whatwg.org/"
       },
       {
+        "name": "MEDIACAPTURE-STREAMS",
+        "url": "https://w3c.github.io/mediacapture-main/"
+      },
+      {
         "name": "MIMESNIFF",
         "url": "https://mimesniff.spec.whatwg.org/"
+      },
+      {
+        "name": "PERMISSIONS-POLICY-1",
+        "url": "https://w3c.github.io/webappsec-permissions-policy/"
       },
       {
         "name": "RFC2119",
@@ -38,6 +46,10 @@
       {
         "name": "IMAGE-RESOURCE",
         "url": "https://w3c.github.io/image-resource/"
+      },
+      {
+        "name": "WEBAUDIO-1.1",
+        "url": "https://webaudio.github.io/web-audio-api/"
       }
     ]
   }

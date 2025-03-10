@@ -85,46 +85,6 @@
       "definedIn": "pre"
     },
     {
-      "id": "performanceeventtiming-eventtarget",
-      "href": "https://www.w3.org/TR/event-timing/#performanceeventtiming-eventtarget",
-      "linkingText": [
-        "eventTarget"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "PerformanceEventTiming"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "sec-performance-event-timing",
-        "href": "https://www.w3.org/TR/event-timing/#sec-performance-event-timing",
-        "title": "PerformanceEventTiming interface",
-        "number": "2.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "target",
-      "href": "https://www.w3.org/TR/event-timing/#target",
-      "linkingText": [
-        "target"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "sec-performance-event-timing",
-        "href": "https://www.w3.org/TR/event-timing/#sec-performance-event-timing",
-        "title": "PerformanceEventTiming interface",
-        "number": "2.1"
-      },
-      "definedIn": "prose"
-    },
-    {
       "id": "performanceeventtiming-associated-event",
       "href": "https://www.w3.org/TR/event-timing/#performanceeventtiming-associated-event",
       "linkingText": [
@@ -136,7 +96,26 @@
         "PerformanceEventTiming"
       ],
       "access": "private",
-      "informative": true,
+      "informative": false,
+      "heading": {
+        "id": "sec-performance-event-timing",
+        "href": "https://www.w3.org/TR/event-timing/#sec-performance-event-timing",
+        "title": "PerformanceEventTiming interface",
+        "number": "2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "eventtarget",
+      "href": "https://www.w3.org/TR/event-timing/#eventtarget",
+      "linkingText": [
+        "eventTarget"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
       "heading": {
         "id": "sec-performance-event-timing",
         "href": "https://www.w3.org/TR/event-timing/#sec-performance-event-timing",
@@ -249,25 +228,6 @@
       "definedIn": "pre"
     },
     {
-      "id": "interactioncounts",
-      "href": "https://www.w3.org/TR/event-timing/#interactioncounts",
-      "linkingText": [
-        "InteractionCounts"
-      ],
-      "localLinkingText": [],
-      "type": "interface",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "sec-interaction-counts",
-        "href": "https://www.w3.org/TR/event-timing/#sec-interaction-counts",
-        "title": "InteractionCounts interface",
-        "number": "2.3"
-      },
-      "definedIn": "pre"
-    },
-    {
       "id": "dom-performance-eventcounts",
       "href": "https://www.w3.org/TR/event-timing/#dom-performance-eventcounts",
       "linkingText": [
@@ -284,15 +244,15 @@
         "id": "sec-extensions",
         "href": "https://www.w3.org/TR/event-timing/#sec-extensions",
         "title": "Extensions to the Performance interface",
-        "number": "2.4"
+        "number": "2.3"
       },
       "definedIn": "pre"
     },
     {
-      "id": "dom-performance-interactioncounts",
-      "href": "https://www.w3.org/TR/event-timing/#dom-performance-interactioncounts",
+      "id": "dom-performance-interactioncount",
+      "href": "https://www.w3.org/TR/event-timing/#dom-performance-interactioncount",
       "linkingText": [
-        "interactionCounts"
+        "interactionCount"
       ],
       "localLinkingText": [],
       "type": "attribute",
@@ -305,7 +265,7 @@
         "id": "sec-extensions",
         "href": "https://www.w3.org/TR/event-timing/#sec-extensions",
         "title": "Extensions to the Performance interface",
-        "number": "2.4"
+        "number": "2.3"
       },
       "definedIn": "pre"
     },
@@ -424,25 +384,6 @@
       "definedIn": "prose"
     },
     {
-      "id": "pointer-is-drag-set",
-      "href": "https://www.w3.org/TR/event-timing/#pointer-is-drag-set",
-      "linkingText": [
-        "pointer is drag set"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "sec-modifications-HTML",
-        "href": "https://www.w3.org/TR/event-timing/#sec-modifications-HTML",
-        "title": "Modifications to the HTML specification",
-        "number": "3.2"
-      },
-      "definedIn": "prose"
-    },
-    {
       "id": "pending-pointer-downs",
       "href": "https://www.w3.org/TR/event-timing/#pending-pointer-downs",
       "linkingText": [
@@ -483,10 +424,10 @@
       "definedIn": "prose"
     },
     {
-      "id": "window-interactioncounts",
-      "href": "https://www.w3.org/TR/event-timing/#window-interactioncounts",
+      "id": "window-interactioncount",
+      "href": "https://www.w3.org/TR/event-timing/#window-interactioncount",
       "linkingText": [
-        "interactionCounts"
+        "interactionCount"
       ],
       "localLinkingText": [],
       "type": "dfn",

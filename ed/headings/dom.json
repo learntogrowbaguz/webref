@@ -163,6 +163,13 @@
       "number": "3.2"
     },
     {
+      "id": "abort-signal-garbage-collection",
+      "href": "https://dom.spec.whatwg.org/#abort-signal-garbage-collection",
+      "level": 4,
+      "title": "Garbage collection",
+      "number": "3.2.1"
+    },
+    {
       "id": "abortcontroller-api-integration",
       "href": "https://dom.spec.whatwg.org/#abortcontroller-api-integration",
       "level": 3,
@@ -336,13 +343,6 @@
       "level": 4,
       "title": "Interface MutationRecord",
       "number": "4.3.3"
-    },
-    {
-      "id": "garbage-collection",
-      "href": "https://dom.spec.whatwg.org/#garbage-collection",
-      "level": 4,
-      "title": "Garbage collection",
-      "number": "4.3.4"
     },
     {
       "id": "interface-node",

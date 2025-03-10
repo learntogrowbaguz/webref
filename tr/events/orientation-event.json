@@ -1,49 +1,13 @@
 {
   "spec": {
-    "title": "DeviceOrientation Event Specification",
+    "title": "Device Orientation and Motion",
     "url": "https://www.w3.org/TR/orientation-event/"
   },
   "events": [
     {
       "src": {
         "format": "fire an event phrasing",
-        "href": "https://www.w3.org/TR/orientation-event/#ref-for-concept-event-fire"
-      },
-      "href": "https://www.w3.org/TR/orientation-event/#def-deviceorientation",
-      "type": "deviceorientation",
-      "targets": [
-        "Window"
-      ],
-      "interface": "DeviceOrientationEvent"
-    },
-    {
-      "src": {
-        "format": "fire an event phrasing",
         "href": "https://www.w3.org/TR/orientation-event/#ref-for-concept-event-fire%E2%91%A0"
-      },
-      "href": "https://www.w3.org/TR/orientation-event/#def-deviceorientationabsolute",
-      "type": "deviceorientationabsolute",
-      "targets": [
-        "Window"
-      ],
-      "interface": "DeviceOrientationEvent"
-    },
-    {
-      "src": {
-        "format": "fire an event phrasing",
-        "href": "https://www.w3.org/TR/orientation-event/#ref-for-concept-event-fire%E2%91%A1"
-      },
-      "href": "https://www.w3.org/TR/orientation-event/#def-compassneedscalibration",
-      "type": "compassneedscalibration",
-      "targets": [
-        "Window"
-      ],
-      "interface": "Event"
-    },
-    {
-      "src": {
-        "format": "fire an event phrasing",
-        "href": "https://www.w3.org/TR/orientation-event/#ref-for-concept-event-fire%E2%91%A2"
       },
       "href": "https://www.w3.org/TR/orientation-event/#def-devicemotion",
       "type": "devicemotion",
@@ -51,6 +15,26 @@
         "Window"
       ],
       "interface": "DeviceMotionEvent"
+    },
+    {
+      "type": "deviceorientation",
+      "targets": [
+        "Window"
+      ],
+      "src": {
+        "format": "IDL eventHandler"
+      },
+      "href": "https://www.w3.org/TR/orientation-event/#def-deviceorientation"
+    },
+    {
+      "type": "deviceorientationabsolute",
+      "targets": [
+        "Window"
+      ],
+      "src": {
+        "format": "IDL eventHandler"
+      },
+      "href": "https://www.w3.org/TR/orientation-event/#def-deviceorientationabsolute"
     }
   ]
 }

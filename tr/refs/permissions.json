@@ -10,7 +10,7 @@
         "url": "https://dom.spec.whatwg.org/"
       },
       {
-        "name": "ecmascript",
+        "name": "ecma-262",
         "url": "https://tc39.es/ecma262/multipage/"
       },
       {
@@ -46,6 +46,14 @@
         "url": "https://www.w3.org/TR/webdriver1/"
       },
       {
+        "name": "WebDriver-BiDi",
+        "url": "https://www.w3.org/TR/webdriver-bidi/"
+      },
+      {
+        "name": "webdriver2",
+        "url": "https://www.w3.org/TR/webdriver2/"
+      },
+      {
         "name": "WEBIDL",
         "url": "https://webidl.spec.whatwg.org/"
       }
@@ -64,8 +72,32 @@
         "url": "https://www.w3.org/TR/mediacapture-streams/"
       },
       {
+        "name": "local-font-access",
+        "url": "https://wicg.github.io/local-font-access/"
+      },
+      {
+        "name": "orientation-event",
+        "url": "https://www.w3.org/TR/orientation-event/"
+      },
+      {
+        "name": "Permissions",
+        "url": "https://www.w3.org/TR/permissions/"
+      },
+      {
         "name": "push-api",
         "url": "https://www.w3.org/TR/push-api/"
+      },
+      {
+        "name": "w3c-process",
+        "url": "https://www.w3.org/policies/process/"
+      },
+      {
+        "name": "Web-Share",
+        "url": "https://www.w3.org/TR/web-share/"
+      },
+      {
+        "name": "window-management",
+        "url": "https://www.w3.org/TR/window-management/"
       }
     ]
   }

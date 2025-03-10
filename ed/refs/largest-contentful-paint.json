@@ -26,12 +26,8 @@
         "url": "https://dom.spec.whatwg.org/"
       },
       {
-        "name": "ELEMENT-TIMING",
-        "url": "https://wicg.github.io/element-timing/"
-      },
-      {
         "name": "EVENT-TIMING",
-        "url": "https://w3c.github.io/event-timing"
+        "url": "https://w3c.github.io/event-timing/"
       },
       {
         "name": "FETCH",
@@ -54,6 +50,10 @@
         "url": "https://infra.spec.whatwg.org/"
       },
       {
+        "name": "PAINT-TIMING",
+        "url": "https://w3c.github.io/paint-timing/"
+      },
+      {
         "name": "PERFORMANCE-TIMELINE",
         "url": "https://w3c.github.io/performance-timeline/"
       },
@@ -70,6 +70,11 @@
         "url": "https://webidl.spec.whatwg.org/"
       }
     ],
-    "informative": []
+    "informative": [
+      {
+        "name": "ELEMENT-TIMING",
+        "url": "https://wicg.github.io/element-timing/"
+      }
+    ]
   }
 }

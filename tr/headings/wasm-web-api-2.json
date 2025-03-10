@@ -11,12 +11,6 @@
       "title": "WebAssembly Web API"
     },
     {
-      "id": "subtitle",
-      "href": "https://www.w3.org/TR/wasm-web-api-2/#subtitle",
-      "level": 2,
-      "title": "Version 2.0"
-    },
-    {
       "id": "abstract",
       "href": "https://www.w3.org/TR/wasm-web-api-2/#abstract",
       "level": 2,
@@ -35,32 +29,66 @@
       "title": "Table of Contents"
     },
     {
+      "id": "intro",
+      "href": "https://www.w3.org/TR/wasm-web-api-2/#intro",
+      "level": 2,
+      "title": "Introduction",
+      "number": "1"
+    },
+    {
       "id": "streaming-modules",
       "href": "https://www.w3.org/TR/wasm-web-api-2/#streaming-modules",
       "level": 2,
       "title": "Streaming Module Compilation and Instantiation",
-      "number": "1"
+      "number": "2"
     },
     {
       "id": "serialization",
       "href": "https://www.w3.org/TR/wasm-web-api-2/#serialization",
       "level": 2,
       "title": "Serialization",
-      "number": "2"
+      "number": "3"
     },
     {
       "id": "conventions",
       "href": "https://www.w3.org/TR/wasm-web-api-2/#conventions",
       "level": 2,
       "title": "Developer-Facing Display Conventions",
-      "number": "3"
+      "number": "4"
     },
     {
       "id": "mediaType",
       "href": "https://www.w3.org/TR/wasm-web-api-2/#mediaType",
       "level": 2,
       "title": "Media-type Registration",
-      "number": "4"
+      "number": "5"
+    },
+    {
+      "id": "security-considerations",
+      "href": "https://www.w3.org/TR/wasm-web-api-2/#security-considerations",
+      "level": 2,
+      "title": "Security and Privacy Considerations",
+      "number": "6"
+    },
+    {
+      "id": "change-history",
+      "href": "https://www.w3.org/TR/wasm-web-api-2/#change-history",
+      "level": 2,
+      "title": "Change History",
+      "number": "7"
+    },
+    {
+      "id": "release-20",
+      "href": "https://www.w3.org/TR/wasm-web-api-2/#release-20",
+      "level": 3,
+      "title": "Release 2.0",
+      "number": "7.1"
+    },
+    {
+      "id": "changes-registration",
+      "href": "https://www.w3.org/TR/wasm-web-api-2/#changes-registration",
+      "level": 4,
+      "title": "Media-type Registraton Completed"
     },
     {
       "id": "w3c-conformance",
@@ -109,6 +137,12 @@
       "href": "https://www.w3.org/TR/wasm-web-api-2/#normative",
       "level": 3,
       "title": "Normative References"
+    },
+    {
+      "id": "informative",
+      "href": "https://www.w3.org/TR/wasm-web-api-2/#informative",
+      "level": 3,
+      "title": "Informative References"
     },
     {
       "id": "idl-index",

@@ -288,7 +288,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "nodes",
@@ -360,30 +360,9 @@
       "definedIn": "dt"
     },
     {
-      "id": "dfn-downstream-node",
-      "href": "https://w3c.github.io/webdriver/#dfn-downstream-node",
+      "id": "dfn-upstream",
+      "href": "https://w3c.github.io/webdriver/#dfn-upstream",
       "linkingText": [
-        "downstream node",
-        "downstream"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "nodes",
-        "href": "https://w3c.github.io/webdriver/#nodes",
-        "title": "Nodes",
-        "number": "5"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-upstream-node",
-      "href": "https://w3c.github.io/webdriver/#dfn-upstream-node",
-      "linkingText": [
-        "upstream node",
         "upstream"
       ],
       "localLinkingText": [],
@@ -485,7 +464,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "algorithms",
@@ -730,26 +709,6 @@
       "definedIn": "prose"
     },
     {
-      "id": "dfn-url-variables",
-      "href": "https://w3c.github.io/webdriver/#dfn-url-variables",
-      "linkingText": [
-        "url variables",
-        "url variable"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "processing-model",
-        "href": "https://w3c.github.io/webdriver/#processing-model",
-        "title": "Processing model",
-        "number": "6.3"
-      },
-      "definedIn": "prose"
-    },
-    {
       "id": "dfn-routing-requests",
       "href": "https://w3c.github.io/webdriver/#dfn-routing-requests",
       "linkingText": [
@@ -836,7 +795,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "errors",
@@ -1483,7 +1442,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "extensions-0",
@@ -1502,7 +1461,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "extensions-0",
@@ -1521,7 +1480,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "extensions-0",
@@ -1571,10 +1530,9 @@
       "definedIn": "prose"
     },
     {
-      "id": "dfn-capability",
-      "href": "https://w3c.github.io/webdriver/#dfn-capability",
+      "id": "dfn-capabilities",
+      "href": "https://w3c.github.io/webdriver/#dfn-capabilities",
       "linkingText": [
-        "capability",
         "capabilities"
       ],
       "localLinkingText": [],
@@ -1608,63 +1566,6 @@
         "number": "7"
       },
       "definedIn": "prose"
-    },
-    {
-      "id": "dfn-browser-name",
-      "href": "https://w3c.github.io/webdriver/#dfn-browser-name",
-      "linkingText": [
-        "Browser name"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "capabilities",
-        "href": "https://w3c.github.io/webdriver/#capabilities",
-        "title": "Capabilities",
-        "number": "7"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "dfn-browser-version",
-      "href": "https://w3c.github.io/webdriver/#dfn-browser-version",
-      "linkingText": [
-        "Browser version"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "capabilities",
-        "href": "https://w3c.github.io/webdriver/#capabilities",
-        "title": "Capabilities",
-        "number": "7"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "dfn-platform-name",
-      "href": "https://w3c.github.io/webdriver/#dfn-platform-name",
-      "linkingText": [
-        "Platform name"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "capabilities",
-        "href": "https://w3c.github.io/webdriver/#capabilities",
-        "title": "Capabilities",
-        "number": "7"
-      },
-      "definedIn": "table"
     },
     {
       "id": "dfn-insecure-tls-certificates",
@@ -1725,44 +1626,6 @@
       "definedIn": "table"
     },
     {
-      "id": "dfn-strict-file-interactability",
-      "href": "https://w3c.github.io/webdriver/#dfn-strict-file-interactability",
-      "linkingText": [
-        "Strict file interactability"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "capabilities",
-        "href": "https://w3c.github.io/webdriver/#capabilities",
-        "title": "Capabilities",
-        "number": "7"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "dfn-unhandled-prompt-behavior",
-      "href": "https://w3c.github.io/webdriver/#dfn-unhandled-prompt-behavior",
-      "linkingText": [
-        "Unhandled prompt behavior"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "capabilities",
-        "href": "https://w3c.github.io/webdriver/#capabilities",
-        "title": "Capabilities",
-        "number": "7"
-      },
-      "definedIn": "table"
-    },
-    {
       "id": "dfn-proxy-configuration",
       "href": "https://w3c.github.io/webdriver/#dfn-proxy-configuration",
       "linkingText": [
@@ -1786,139 +1649,6 @@
       "href": "https://w3c.github.io/webdriver/#dfn-proxytype",
       "linkingText": [
         "proxyType"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "proxy",
-        "href": "https://w3c.github.io/webdriver/#proxy",
-        "title": "Proxy",
-        "number": "7.1"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "dfn-proxyautoconfigurl",
-      "href": "https://w3c.github.io/webdriver/#dfn-proxyautoconfigurl",
-      "linkingText": [
-        "proxyAutoconfigUrl"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "proxy",
-        "href": "https://w3c.github.io/webdriver/#proxy",
-        "title": "Proxy",
-        "number": "7.1"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "dfn-ftpproxy",
-      "href": "https://w3c.github.io/webdriver/#dfn-ftpproxy",
-      "linkingText": [
-        "ftpProxy"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "proxy",
-        "href": "https://w3c.github.io/webdriver/#proxy",
-        "title": "Proxy",
-        "number": "7.1"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "dfn-httpproxy",
-      "href": "https://w3c.github.io/webdriver/#dfn-httpproxy",
-      "linkingText": [
-        "httpProxy"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "proxy",
-        "href": "https://w3c.github.io/webdriver/#proxy",
-        "title": "Proxy",
-        "number": "7.1"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "dfn-noproxy",
-      "href": "https://w3c.github.io/webdriver/#dfn-noproxy",
-      "linkingText": [
-        "noProxy"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "proxy",
-        "href": "https://w3c.github.io/webdriver/#proxy",
-        "title": "Proxy",
-        "number": "7.1"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "dfn-sslproxy",
-      "href": "https://w3c.github.io/webdriver/#dfn-sslproxy",
-      "linkingText": [
-        "sslProxy"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "proxy",
-        "href": "https://w3c.github.io/webdriver/#proxy",
-        "title": "Proxy",
-        "number": "7.1"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "dfn-socksproxy",
-      "href": "https://w3c.github.io/webdriver/#dfn-socksproxy",
-      "linkingText": [
-        "socksProxy"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "proxy",
-        "href": "https://w3c.github.io/webdriver/#proxy",
-        "title": "Proxy",
-        "number": "7.1"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "dfn-socksversion",
-      "href": "https://w3c.github.io/webdriver/#dfn-socksversion",
-      "linkingText": [
-        "socksVersion"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -2068,15 +1798,16 @@
       "definedIn": "prose"
     },
     {
-      "id": "dfn-session",
-      "href": "https://w3c.github.io/webdriver/#dfn-session",
+      "id": "dfn-sessions",
+      "href": "https://w3c.github.io/webdriver/#dfn-sessions",
       "linkingText": [
+        "sessions",
         "session"
       ],
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "public",
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "sessions",
@@ -2106,10 +1837,10 @@
       "definedIn": "prose"
     },
     {
-      "id": "dfn-current-session",
-      "href": "https://w3c.github.io/webdriver/#dfn-current-session",
+      "id": "dfn-session-id",
+      "href": "https://w3c.github.io/webdriver/#dfn-session-id",
       "linkingText": [
-        "current session"
+        "session ID"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -2125,10 +1856,47 @@
       "definedIn": "prose"
     },
     {
-      "id": "dfn-active-session",
-      "href": "https://w3c.github.io/webdriver/#dfn-active-session",
+      "id": "dfn-http-flag",
+      "href": "https://w3c.github.io/webdriver/#dfn-http-flag",
       "linkingText": [
-        "active session",
+        "HTTP flag"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sessions",
+        "href": "https://w3c.github.io/webdriver/#sessions",
+        "title": "Sessions",
+        "number": "8"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-http-session",
+      "href": "https://w3c.github.io/webdriver/#dfn-http-session",
+      "linkingText": [
+        "HTTP session"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sessions",
+        "href": "https://w3c.github.io/webdriver/#sessions",
+        "title": "Sessions",
+        "number": "8"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-active-sessions",
+      "href": "https://w3c.github.io/webdriver/#dfn-active-sessions",
+      "linkingText": [
         "active sessions"
       ],
       "localLinkingText": [],
@@ -2145,29 +1913,10 @@
       "definedIn": "prose"
     },
     {
-      "id": "dfn-maximum-active-sessions",
-      "href": "https://w3c.github.io/webdriver/#dfn-maximum-active-sessions",
+      "id": "dfn-active-http-sessions",
+      "href": "https://w3c.github.io/webdriver/#dfn-active-http-sessions",
       "linkingText": [
-        "maximum active sessions"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "sessions",
-        "href": "https://w3c.github.io/webdriver/#sessions",
-        "title": "Sessions",
-        "number": "8"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-session-id",
-      "href": "https://w3c.github.io/webdriver/#dfn-session-id",
-      "linkingText": [
-        "session ID"
+        "active HTTP sessions"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -2240,12 +1989,9 @@
       "definedIn": "prose"
     },
     {
-      "id": "dfn-session-script-timeout",
-      "href": "https://w3c.github.io/webdriver/#dfn-session-script-timeout",
+      "id": "dfn-session-timeouts",
+      "href": "https://w3c.github.io/webdriver/#dfn-session-timeouts",
       "linkingText": [
-        "session script timeout",
-        "session page load timeout",
-        "session implicit wait timeout",
         "session timeouts"
       ],
       "localLinkingText": [],
@@ -2281,10 +2027,10 @@
       "definedIn": "prose"
     },
     {
-      "id": "dfn-secure-tls",
-      "href": "https://w3c.github.io/webdriver/#dfn-secure-tls",
+      "id": "dfn-strict-file-interactability",
+      "href": "https://w3c.github.io/webdriver/#dfn-strict-file-interactability",
       "linkingText": [
-        "secure TLS"
+        "strict file interactability"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -2338,10 +2084,10 @@
       "definedIn": "prose"
     },
     {
-      "id": "dfn-close-the-session",
-      "href": "https://w3c.github.io/webdriver/#dfn-close-the-session",
+      "id": "dfn-session-configuration-flags",
+      "href": "https://w3c.github.io/webdriver/#dfn-session-configuration-flags",
       "linkingText": [
-        "close the session"
+        "session configuration flags"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -2353,6 +2099,82 @@
         "href": "https://w3c.github.io/webdriver/#sessions",
         "title": "Sessions",
         "number": "8"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-accept-insecure-tls",
+      "href": "https://w3c.github.io/webdriver/#dfn-accept-insecure-tls",
+      "linkingText": [
+        "accept insecure TLS"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "global-state",
+        "href": "https://w3c.github.io/webdriver/#global-state",
+        "title": "Global State",
+        "number": "8.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-has-proxy-configuration",
+      "href": "https://w3c.github.io/webdriver/#dfn-has-proxy-configuration",
+      "linkingText": [
+        "has proxy configuration"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "global-state",
+        "href": "https://w3c.github.io/webdriver/#global-state",
+        "title": "Global State",
+        "number": "8.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-create-a-session",
+      "href": "https://w3c.github.io/webdriver/#dfn-create-a-session",
+      "linkingText": [
+        "create a session"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "global-state",
+        "href": "https://w3c.github.io/webdriver/#global-state",
+        "title": "Global State",
+        "number": "8.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-close-the-session",
+      "href": "https://w3c.github.io/webdriver/#dfn-close-the-session",
+      "linkingText": [
+        "close the session"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "global-state",
+        "href": "https://w3c.github.io/webdriver/#global-state",
+        "title": "Global State",
+        "number": "8.1"
       },
       "definedIn": "prose"
     },
@@ -2373,7 +2195,7 @@
         "id": "new-session-0",
         "href": "https://w3c.github.io/webdriver/#new-session-0",
         "title": "New Session",
-        "number": "8.1"
+        "number": "8.2"
       },
       "definedIn": "heading"
     },
@@ -2392,7 +2214,7 @@
         "id": "delete-session",
         "href": "https://w3c.github.io/webdriver/#delete-session",
         "title": "Delete Session",
-        "number": "8.2"
+        "number": "8.3"
       },
       "definedIn": "heading"
     },
@@ -2411,9 +2233,68 @@
         "id": "status",
         "href": "https://w3c.github.io/webdriver/#status",
         "title": "Status",
-        "number": "8.3"
+        "number": "8.4"
       },
       "definedIn": "heading"
+    },
+    {
+      "id": "dfn-timer",
+      "href": "https://w3c.github.io/webdriver/#dfn-timer",
+      "linkingText": [
+        "timer"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "timeouts",
+        "href": "https://w3c.github.io/webdriver/#timeouts",
+        "title": "Timeouts",
+        "number": "9"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-timeout-fired-flag",
+      "href": "https://w3c.github.io/webdriver/#dfn-timeout-fired-flag",
+      "linkingText": [
+        "timeout fired flag"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "timer"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "timeouts",
+        "href": "https://w3c.github.io/webdriver/#timeouts",
+        "title": "Timeouts",
+        "number": "9"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-start-the-timer",
+      "href": "https://w3c.github.io/webdriver/#dfn-start-the-timer",
+      "linkingText": [
+        "start the timer"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "timeouts",
+        "href": "https://w3c.github.io/webdriver/#timeouts",
+        "title": "Timeouts",
+        "number": "9"
+      },
+      "definedIn": "prose"
     },
     {
       "id": "dfn-timeouts-configuration",
@@ -2438,11 +2319,13 @@
       "id": "dfn-script-timeout",
       "href": "https://w3c.github.io/webdriver/#dfn-script-timeout",
       "linkingText": [
-        "Script timeout"
+        "script timeout"
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "timeouts"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -2451,17 +2334,19 @@
         "title": "Timeouts",
         "number": "9"
       },
-      "definedIn": "table"
+      "definedIn": "prose"
     },
     {
       "id": "dfn-page-load-timeout",
       "href": "https://w3c.github.io/webdriver/#dfn-page-load-timeout",
       "linkingText": [
-        "Page load timeout"
+        "page load timeout"
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "timeouts"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -2470,13 +2355,34 @@
         "title": "Timeouts",
         "number": "9"
       },
-      "definedIn": "table"
+      "definedIn": "prose"
     },
     {
       "id": "dfn-implicit-wait-timeout",
       "href": "https://w3c.github.io/webdriver/#dfn-implicit-wait-timeout",
       "linkingText": [
-        "Implicit wait timeout"
+        "implicit wait timeout"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "timeouts"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "timeouts",
+        "href": "https://w3c.github.io/webdriver/#timeouts",
+        "title": "Timeouts",
+        "number": "9"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-deserialize-as-timeouts-configuration",
+      "href": "https://w3c.github.io/webdriver/#dfn-deserialize-as-timeouts-configuration",
+      "linkingText": [
+        "deserialize as timeouts configuration"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -2489,13 +2395,13 @@
         "title": "Timeouts",
         "number": "9"
       },
-      "definedIn": "table"
+      "definedIn": "prose"
     },
     {
-      "id": "dfn-timeouts-object",
-      "href": "https://w3c.github.io/webdriver/#dfn-timeouts-object",
+      "id": "dfn-serialize-the-timeouts-configuration",
+      "href": "https://w3c.github.io/webdriver/#dfn-serialize-the-timeouts-configuration",
       "linkingText": [
-        "timeouts object"
+        "serialize the timeouts configuration"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -2642,10 +2548,9 @@
       "definedIn": "prose"
     },
     {
-      "id": "dfn-waiting-for-the-navigation-to-complete",
-      "href": "https://w3c.github.io/webdriver/#dfn-waiting-for-the-navigation-to-complete",
+      "id": "dfn-wait-for-navigation-to-complete",
+      "href": "https://w3c.github.io/webdriver/#dfn-wait-for-navigation-to-complete",
       "linkingText": [
-        "waiting for the navigation to complete",
         "wait for navigation to complete"
       ],
       "localLinkingText": [],
@@ -2830,10 +2735,11 @@
       "definedIn": "prose"
     },
     {
-      "id": "dfn-web-window-identifier",
-      "href": "https://w3c.github.io/webdriver/#dfn-web-window-identifier",
+      "id": "dfn-web-frames",
+      "href": "https://w3c.github.io/webdriver/#dfn-web-frames",
       "linkingText": [
-        "web window identifier"
+        "web frames",
+        "web frame"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -2866,10 +2772,119 @@
       "definedIn": "prose"
     },
     {
+      "id": "dfn-represents-a-web-frame",
+      "href": "https://w3c.github.io/webdriver/#dfn-represents-a-web-frame",
+      "linkingText": [
+        "represents a web frame"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "contexts",
+        "href": "https://w3c.github.io/webdriver/#contexts",
+        "title": "11. Contexts"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-web-windows",
+      "href": "https://w3c.github.io/webdriver/#dfn-web-windows",
+      "linkingText": [
+        "web windows",
+        "web window"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "contexts",
+        "href": "https://w3c.github.io/webdriver/#contexts",
+        "title": "11. Contexts"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-web-window-identifier",
+      "href": "https://w3c.github.io/webdriver/#dfn-web-window-identifier",
+      "linkingText": [
+        "web window identifier"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "contexts",
+        "href": "https://w3c.github.io/webdriver/#contexts",
+        "title": "11. Contexts"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-represents-a-web-window",
+      "href": "https://w3c.github.io/webdriver/#dfn-represents-a-web-window",
+      "linkingText": [
+        "represents a web window"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "contexts",
+        "href": "https://w3c.github.io/webdriver/#contexts",
+        "title": "11. Contexts"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "dfn-windowproxy-reference-object",
       "href": "https://w3c.github.io/webdriver/#dfn-windowproxy-reference-object",
       "linkingText": [
         "WindowProxy reference object"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "contexts",
+        "href": "https://w3c.github.io/webdriver/#contexts",
+        "title": "11. Contexts"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-deserialize-a-web-frame",
+      "href": "https://w3c.github.io/webdriver/#dfn-deserialize-a-web-frame",
+      "linkingText": [
+        "deserialize a web frame"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "contexts",
+        "href": "https://w3c.github.io/webdriver/#contexts",
+        "title": "11. Contexts"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-deserialize-a-web-window",
+      "href": "https://w3c.github.io/webdriver/#dfn-deserialize-a-web-window",
+      "linkingText": [
+        "deserialize a web window"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -3149,25 +3164,6 @@
       "definedIn": "table"
     },
     {
-      "id": "dfn-window-rect",
-      "href": "https://w3c.github.io/webdriver/#dfn-window-rect",
-      "linkingText": [
-        "window rect"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "resizing-and-positioning-windows",
-        "href": "https://w3c.github.io/webdriver/#resizing-and-positioning-windows",
-        "title": "Resizing and positioning windows",
-        "number": "11.8"
-      },
-      "definedIn": "prose"
-    },
-    {
       "id": "dfn-windowrect-object",
       "href": "https://w3c.github.io/webdriver/#dfn-windowrect-object",
       "linkingText": [
@@ -3398,6 +3394,24 @@
       "href": "https://w3c.github.io/webdriver/#dfn-webdriver-node-id",
       "linkingText": [
         "WebDriver node id"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "elements",
+        "href": "https://w3c.github.io/webdriver/#elements",
+        "title": "12. Elements"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-weak-map",
+      "href": "https://w3c.github.io/webdriver/#dfn-weak-map",
+      "linkingText": [
+        "weak map"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -3788,6 +3802,25 @@
       "linkingText": [
         "center point",
         "in-view center point"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "interactability",
+        "href": "https://w3c.github.io/webdriver/#interactability",
+        "title": "Interactability",
+        "number": "12.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-disabled",
+      "href": "https://w3c.github.io/webdriver/#dfn-disabled",
+      "linkingText": [
+        "disabled"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -4530,86 +4563,6 @@
       "definedIn": "heading"
     },
     {
-      "id": "dfn-elementrect-x",
-      "href": "https://w3c.github.io/webdriver/#dfn-elementrect-x",
-      "linkingText": [
-        "elementrect-x",
-        "x"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": true,
-      "heading": {
-        "id": "get-element-rect",
-        "href": "https://w3c.github.io/webdriver/#get-element-rect",
-        "title": "Get Element Rect",
-        "number": "12.4.7"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "dfn-elementrect-y",
-      "href": "https://w3c.github.io/webdriver/#dfn-elementrect-y",
-      "linkingText": [
-        "elementrect-y",
-        "y"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": true,
-      "heading": {
-        "id": "get-element-rect",
-        "href": "https://w3c.github.io/webdriver/#get-element-rect",
-        "title": "Get Element Rect",
-        "number": "12.4.7"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "dfn-elementrect-height",
-      "href": "https://w3c.github.io/webdriver/#dfn-elementrect-height",
-      "linkingText": [
-        "elementrect-height",
-        "height"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": true,
-      "heading": {
-        "id": "get-element-rect",
-        "href": "https://w3c.github.io/webdriver/#get-element-rect",
-        "title": "Get Element Rect",
-        "number": "12.4.7"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "dfn-elementrect-width",
-      "href": "https://w3c.github.io/webdriver/#dfn-elementrect-width",
-      "linkingText": [
-        "elementrect-width",
-        "width"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": true,
-      "heading": {
-        "id": "get-element-rect",
-        "href": "https://w3c.github.io/webdriver/#get-element-rect",
-        "title": "Get Element Rect",
-        "number": "12.4.7"
-      },
-      "definedIn": "dt"
-    },
-    {
       "id": "dfn-is-element-enabled",
       "href": "https://w3c.github.io/webdriver/#dfn-is-element-enabled",
       "linkingText": [
@@ -5009,10 +4962,10 @@
       "definedIn": "prose"
     },
     {
-      "id": "dfn-internal-json-clone-algorithm",
-      "href": "https://w3c.github.io/webdriver/#dfn-internal-json-clone-algorithm",
+      "id": "dfn-internal-json-clone",
+      "href": "https://w3c.github.io/webdriver/#dfn-internal-json-clone",
       "linkingText": [
-        "internal JSON clone algorithm"
+        "internal JSON clone"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -6483,6 +6436,25 @@
       "definedIn": "prose"
     },
     {
+      "id": "dfn-wait-for-an-action-queue-token",
+      "href": "https://w3c.github.io/webdriver/#dfn-wait-for-an-action-queue-token",
+      "linkingText": [
+        "wait for an action queue token"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "dispatching-actions",
+        "href": "https://w3c.github.io/webdriver/#dispatching-actions",
+        "title": "Dispatching actions",
+        "number": "15.6"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "dfn-dispatch-actions",
       "href": "https://w3c.github.io/webdriver/#dfn-dispatch-actions",
       "linkingText": [
@@ -6901,10 +6873,10 @@
       "definedIn": "prose"
     },
     {
-      "id": "dfn-table-of-simple-dialogs",
-      "href": "https://w3c.github.io/webdriver/#dfn-table-of-simple-dialogs",
+      "id": "dfn-get-the-active-user-prompt",
+      "href": "https://w3c.github.io/webdriver/#dfn-get-the-active-user-prompt",
       "linkingText": [
-        "table of simple dialogs"
+        "get the active user prompt"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -6917,60 +6889,6 @@
         "title": "16. User prompts"
       },
       "definedIn": "prose"
-    },
-    {
-      "id": "dfn-alert",
-      "href": "https://w3c.github.io/webdriver/#dfn-alert",
-      "linkingText": [
-        "Alert"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "user-prompts",
-        "href": "https://w3c.github.io/webdriver/#user-prompts",
-        "title": "16. User prompts"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "dfn-confirm",
-      "href": "https://w3c.github.io/webdriver/#dfn-confirm",
-      "linkingText": [
-        "Confirm"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "user-prompts",
-        "href": "https://w3c.github.io/webdriver/#user-prompts",
-        "title": "16. User prompts"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "dfn-prompt",
-      "href": "https://w3c.github.io/webdriver/#dfn-prompt",
-      "linkingText": [
-        "Prompt"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "user-prompts",
-        "href": "https://w3c.github.io/webdriver/#user-prompts",
-        "title": "16. User prompts"
-      },
-      "definedIn": "table"
     },
     {
       "id": "dfn-current-user-prompt",
@@ -7043,17 +6961,18 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "user-prompts",
-        "href": "https://w3c.github.io/webdriver/#user-prompts",
-        "title": "16. User prompts"
+        "id": "user-prompt-handler",
+        "href": "https://w3c.github.io/webdriver/#user-prompt-handler",
+        "title": "User Prompt Handler",
+        "number": "16.1"
       },
       "definedIn": "prose"
     },
     {
-      "id": "dfn-known-prompt-handling-approaches-table",
-      "href": "https://w3c.github.io/webdriver/#dfn-known-prompt-handling-approaches-table",
+      "id": "dfn-prompt-handler-configuration",
+      "href": "https://w3c.github.io/webdriver/#dfn-prompt-handler-configuration",
       "linkingText": [
-        "known prompt handling approaches table"
+        "prompt handler configuration"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -7061,17 +6980,60 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "user-prompts",
-        "href": "https://w3c.github.io/webdriver/#user-prompts",
-        "title": "16. User prompts"
+        "id": "user-prompt-handler",
+        "href": "https://w3c.github.io/webdriver/#user-prompt-handler",
+        "title": "User Prompt Handler",
+        "number": "16.1"
       },
       "definedIn": "prose"
     },
     {
-      "id": "dfn-dismiss-state",
-      "href": "https://w3c.github.io/webdriver/#dfn-dismiss-state",
+      "id": "dfn-handler",
+      "href": "https://w3c.github.io/webdriver/#dfn-handler",
       "linkingText": [
-        "Dismiss state"
+        "handler"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "prompt handler configuration"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "user-prompt-handler",
+        "href": "https://w3c.github.io/webdriver/#user-prompt-handler",
+        "title": "User Prompt Handler",
+        "number": "16.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-notify",
+      "href": "https://w3c.github.io/webdriver/#dfn-notify",
+      "linkingText": [
+        "notify"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "prompt handler configuration"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "user-prompt-handler",
+        "href": "https://w3c.github.io/webdriver/#user-prompt-handler",
+        "title": "User Prompt Handler",
+        "number": "16.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-serialize-a-prompt-handler-configuration",
+      "href": "https://w3c.github.io/webdriver/#dfn-serialize-a-prompt-handler-configuration",
+      "linkingText": [
+        "serialize a prompt handler configuration"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -7079,17 +7041,56 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "user-prompts",
-        "href": "https://w3c.github.io/webdriver/#user-prompts",
-        "title": "16. User prompts"
+        "id": "user-prompt-handler",
+        "href": "https://w3c.github.io/webdriver/#user-prompt-handler",
+        "title": "User Prompt Handler",
+        "number": "16.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-known-prompt-handlers",
+      "href": "https://w3c.github.io/webdriver/#dfn-known-prompt-handlers",
+      "linkingText": [
+        "known prompt handlers"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "user-prompt-handler",
+        "href": "https://w3c.github.io/webdriver/#user-prompt-handler",
+        "title": "User Prompt Handler",
+        "number": "16.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-handler-key",
+      "href": "https://w3c.github.io/webdriver/#dfn-handler-key",
+      "linkingText": [
+        "Handler key"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "user-prompt-handler",
+        "href": "https://w3c.github.io/webdriver/#user-prompt-handler",
+        "title": "User Prompt Handler",
+        "number": "16.1"
       },
       "definedIn": "table"
     },
     {
-      "id": "dfn-accept-state",
-      "href": "https://w3c.github.io/webdriver/#dfn-accept-state",
+      "id": "dfn-valid-prompt-types",
+      "href": "https://w3c.github.io/webdriver/#dfn-valid-prompt-types",
       "linkingText": [
-        "Accept state"
+        "valid prompt types"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -7097,65 +7098,12 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "user-prompts",
-        "href": "https://w3c.github.io/webdriver/#user-prompts",
-        "title": "16. User prompts"
+        "id": "user-prompt-handler",
+        "href": "https://w3c.github.io/webdriver/#user-prompt-handler",
+        "title": "User Prompt Handler",
+        "number": "16.1"
       },
-      "definedIn": "table"
-    },
-    {
-      "id": "dfn-dismiss-and-notify-state",
-      "href": "https://w3c.github.io/webdriver/#dfn-dismiss-and-notify-state",
-      "linkingText": [
-        "Dismiss and notify state"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "user-prompts",
-        "href": "https://w3c.github.io/webdriver/#user-prompts",
-        "title": "16. User prompts"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "dfn-accept-and-notify-state",
-      "href": "https://w3c.github.io/webdriver/#dfn-accept-and-notify-state",
-      "linkingText": [
-        "Accept and notify state"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "user-prompts",
-        "href": "https://w3c.github.io/webdriver/#user-prompts",
-        "title": "16. User prompts"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "dfn-ignore-state",
-      "href": "https://w3c.github.io/webdriver/#dfn-ignore-state",
-      "linkingText": [
-        "Ignore state"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "user-prompts",
-        "href": "https://w3c.github.io/webdriver/#user-prompts",
-        "title": "16. User prompts"
-      },
-      "definedIn": "table"
+      "definedIn": "prose"
     },
     {
       "id": "dfn-deserialize-as-an-unhandled-prompt-behavior",
@@ -7169,9 +7117,67 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "user-prompts",
-        "href": "https://w3c.github.io/webdriver/#user-prompts",
-        "title": "16. User prompts"
+        "id": "user-prompt-handler",
+        "href": "https://w3c.github.io/webdriver/#user-prompt-handler",
+        "title": "User Prompt Handler",
+        "number": "16.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-check-user-prompt-handler-matches",
+      "href": "https://w3c.github.io/webdriver/#dfn-check-user-prompt-handler-matches",
+      "linkingText": [
+        "check user prompt handler matches"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "user-prompt-handler",
+        "href": "https://w3c.github.io/webdriver/#user-prompt-handler",
+        "title": "User Prompt Handler",
+        "number": "16.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-update-the-user-prompt-handler",
+      "href": "https://w3c.github.io/webdriver/#dfn-update-the-user-prompt-handler",
+      "linkingText": [
+        "update the user prompt handler"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "user-prompt-handler",
+        "href": "https://w3c.github.io/webdriver/#user-prompt-handler",
+        "title": "User Prompt Handler",
+        "number": "16.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-serialize-the-user-prompt-handler",
+      "href": "https://w3c.github.io/webdriver/#dfn-serialize-the-user-prompt-handler",
+      "linkingText": [
+        "serialize the user prompt handler"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "user-prompt-handler",
+        "href": "https://w3c.github.io/webdriver/#user-prompt-handler",
+        "title": "User Prompt Handler",
+        "number": "16.1"
       },
       "definedIn": "prose"
     },
@@ -7187,9 +7193,29 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "user-prompts",
-        "href": "https://w3c.github.io/webdriver/#user-prompts",
-        "title": "16. User prompts"
+        "id": "user-prompt-handler",
+        "href": "https://w3c.github.io/webdriver/#user-prompt-handler",
+        "title": "User Prompt Handler",
+        "number": "16.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-get-the-prompt-handler",
+      "href": "https://w3c.github.io/webdriver/#dfn-get-the-prompt-handler",
+      "linkingText": [
+        "get the prompt handler"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "user-prompt-handler",
+        "href": "https://w3c.github.io/webdriver/#user-prompt-handler",
+        "title": "User Prompt Handler",
+        "number": "16.1"
       },
       "definedIn": "prose"
     },
@@ -7205,9 +7231,10 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "user-prompts",
-        "href": "https://w3c.github.io/webdriver/#user-prompts",
-        "title": "16. User prompts"
+        "id": "user-prompt-handler",
+        "href": "https://w3c.github.io/webdriver/#user-prompt-handler",
+        "title": "User Prompt Handler",
+        "number": "16.1"
       },
       "definedIn": "prose"
     },
@@ -7226,7 +7253,7 @@
         "id": "dismiss-alert",
         "href": "https://w3c.github.io/webdriver/#dismiss-alert",
         "title": "Dismiss Alert",
-        "number": "16.1"
+        "number": "16.2"
       },
       "definedIn": "heading"
     },
@@ -7245,7 +7272,7 @@
         "id": "accept-alert",
         "href": "https://w3c.github.io/webdriver/#accept-alert",
         "title": "Accept Alert",
-        "number": "16.2"
+        "number": "16.3"
       },
       "definedIn": "heading"
     },
@@ -7264,7 +7291,7 @@
         "id": "get-alert-text",
         "href": "https://w3c.github.io/webdriver/#get-alert-text",
         "title": "Get Alert Text",
-        "number": "16.3"
+        "number": "16.4"
       },
       "definedIn": "heading"
     },
@@ -7283,7 +7310,7 @@
         "id": "send-alert-text",
         "href": "https://w3c.github.io/webdriver/#send-alert-text",
         "title": "Send Alert Text",
-        "number": "16.4"
+        "number": "16.5"
       },
       "definedIn": "heading"
     },
@@ -7436,12 +7463,10 @@
       "definedIn": "heading"
     },
     {
-      "id": "dfn-element-displayedness",
-      "href": "https://w3c.github.io/webdriver/#dfn-element-displayedness",
+      "id": "dfn-element-displayed-state",
+      "href": "https://w3c.github.io/webdriver/#dfn-element-displayed-state",
       "linkingText": [
-        "element displayedness",
-        "not displayed",
-        "element displayed"
+        "element displayed state"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -7591,70 +7616,12 @@
       "definedIn": "prose"
     },
     {
-      "id": "dfn-element-from-point",
-      "href": "https://w3c.github.io/webdriver/#dfn-element-from-point",
-      "linkingText": [
-        "Element from point"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "index",
-        "href": "https://w3c.github.io/webdriver/#index",
-        "title": "Index",
-        "number": "E"
-      },
-      "definedIn": "prose"
-    },
-    {
       "id": "dfn-paint-order",
       "href": "https://w3c.github.io/webdriver/#dfn-paint-order",
       "linkingText": [
         "paint order",
         "paint tree",
         "Elements from point"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "index",
-        "href": "https://w3c.github.io/webdriver/#index",
-        "title": "Index",
-        "number": "E"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-socks-proxy",
-      "href": "https://w3c.github.io/webdriver/#dfn-socks-proxy",
-      "linkingText": [
-        "SOCKS Proxy"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "index",
-        "href": "https://w3c.github.io/webdriver/#index",
-        "title": "Index",
-        "number": "E"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-authenticating",
-      "href": "https://w3c.github.io/webdriver/#dfn-authenticating",
-      "linkingText": [
-        "authenticating",
-        "SOCKS authentication"
       ],
       "localLinkingText": [],
       "type": "dfn",

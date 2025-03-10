@@ -7,13 +7,15 @@
  * data because that view is a strict subset of the curated view.
  */
 
-const assert = require('assert').strict;
-const path = require('path');
-const css = require('@webref/css');
-const index = require('../../curated/index.json');
-const { definitionSyntax } = require('css-tree');
+import { strict as assert } from 'node:assert';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import css from '@webref/css';
+import index from '../../curated/index.json' with { type: 'json' };
+import { definitionSyntax } from 'css-tree';
 
-const curatedFolder = path.join(__dirname, '..', '..', 'curated', 'css');
+const scriptPath = path.dirname(fileURLToPath(import.meta.url));
+const curatedFolder = path.join(scriptPath, '..', '..', 'curated', 'css');
 
 // Expected content in CSS extracts
 const cssValues = [
@@ -29,6 +31,7 @@ describe(`The curated view of CSS extracts`, () => {
   before(async () => {
     const all = await css.listAll({ folder: curatedFolder });
     const baseProperties = {};
+    const basePropertiesInDeltaSpecs = {};
     const extendedProperties = {};
     const selectors = {};
     const valuespaces = {};
@@ -41,7 +44,7 @@ describe(`The curated view of CSS extracts`, () => {
           assert(data.spec.title);
         });
 
-        const spec = index.results.find(s => s.nightly.url === data.spec.url);
+        const spec = index.results.find(s => s.nightly?.url === data.spec.url);
         for (const { type, prop, value } of cssValues) {
           for (const desc of data[prop]) {
             const name = desc.name;
@@ -50,6 +53,12 @@ describe(`The curated view of CSS extracts`, () => {
                 baseProperties[name] = [];
               }
               baseProperties[name].push({ spec: data.spec, dfn: desc });
+            }
+            else if ((type === 'property') && (spec.seriesComposition === 'delta') && !desc.newValues) {
+              if (!basePropertiesInDeltaSpecs[name]) {
+                basePropertiesInDeltaSpecs[name] = [];
+              }
+              basePropertiesInDeltaSpecs[name].push({ spec: data.spec, dfn: desc });
             }
             else if ((type === 'extended property') && desc[value]) {
               if (!extendedProperties[name]) {
@@ -91,6 +100,24 @@ describe(`The curated view of CSS extracts`, () => {
                 }, `Invalid definition value: ${desc[value]}`);
               });
             };
+
+            // All CSS values should link back to the spec, except:
+            // - properties that extend a base property
+            // - at-rulesdefined elsewhere (and present only because the spec
+            // defines new descriptors for them)
+            // - properties in delta specs that completely override the base
+            // definition - currently enforced more restrictively as
+            // "the 'contain' property in css-contain-3", to better track such
+            // occurrences that should remain an exception to the exception rule!
+            if (!desc.newValues &&
+                (prop !== 'atrules' || desc.value || desc.prose) &&
+                !(prop === 'properties' && name === 'contain' && spec.shortname === 'css-contain-3')) {
+              it(`has a link back to the spec for ${type} "${name}"`, () => {
+                assert(desc.href);
+                assert(desc.href.includes('#'));
+              });
+            }
+
             if (desc.values) {
               for (const value of desc.values) {
                 if (!value.value) {
@@ -101,6 +128,11 @@ describe(`The curated view of CSS extracts`, () => {
                     const ast = definitionSyntax.parse(value.value);
                     assert(ast.type);
                   }, `Invalid definition value: ${value.value}`);
+                });
+
+                it(`has a link back to the spec for value "${value.name}" for ${type} "${name}"`, () => {
+                  assert(value.href);
+                  assert(value.href.includes('#'));
                 });
               }
             }
@@ -131,7 +163,7 @@ describe(`The curated view of CSS extracts`, () => {
     describe(`Looking at extended CSS properties, the curated view`, () => {
       for (const [name, dfns] of Object.entries(extendedProperties)) {
         it(`contains a base definition for the "${name}" property`, () => {
-          assert(baseProperties[name], 'no base definition found');
+          assert(baseProperties[name] || basePropertiesInDeltaSpecs[name], 'no base definition found');
         });
       }
     });

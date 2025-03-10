@@ -71,18 +71,11 @@
       "number": "2.2"
     },
     {
-      "id": "sec-interaction-counts",
-      "href": "https://www.w3.org/TR/event-timing/#sec-interaction-counts",
-      "level": 3,
-      "title": "InteractionCounts interface",
-      "number": "2.3"
-    },
-    {
       "id": "sec-extensions",
       "href": "https://www.w3.org/TR/event-timing/#sec-extensions",
       "level": 3,
       "title": "Extensions to the Performance interface",
-      "number": "2.4"
+      "number": "2.3"
     },
     {
       "id": "sec-processing-model",
@@ -214,12 +207,6 @@
       "href": "https://www.w3.org/TR/event-timing/#idl-index",
       "level": 2,
       "title": "IDL Index"
-    },
-    {
-      "id": "issues-index",
-      "href": "https://www.w3.org/TR/event-timing/#issues-index",
-      "level": 2,
-      "title": "Issues Index"
     }
   ]
 }

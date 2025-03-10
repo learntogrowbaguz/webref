@@ -6,8 +6,8 @@
   "refs": {
     "normative": [
       {
-        "name": "CSS-ANCHOR-1",
-        "url": "https://drafts.csswg.org/css-anchor-1/"
+        "name": "CSS-ANCHOR-POSITION-1",
+        "url": "https://drafts.csswg.org/css-anchor-position-1/"
       },
       {
         "name": "CSS-BOX-4",
@@ -31,7 +31,11 @@
       },
       {
         "name": "CSS-DISPLAY-4",
-        "url": "https://drafts.csswg.org/css-display-4/"
+        "url": "https://drafts.csswg.org/css-display/"
+      },
+      {
+        "name": "CSS-MULTICOL-2",
+        "url": "https://drafts.csswg.org/css-multicol-2/"
       },
       {
         "name": "CSS-OVERFLOW-4",
@@ -51,14 +55,6 @@
       },
       {
         "name": "CSS2",
-        "url": "https://drafts.csswg.org/css2/"
-      },
-      {
-        "name": "CSS2",
-        "url": "https://drafts.csswg.org/css2/"
-      },
-      {
-        "name": "CSS22",
         "url": "https://drafts.csswg.org/css2/"
       },
       {

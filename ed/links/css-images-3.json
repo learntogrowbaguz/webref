@@ -4,311 +4,591 @@
     "url": "https://drafts.csswg.org/css-images-3/"
   },
   "links": {
-    "http://lists.w3.org/Archives/Public/public-css-testsuite": {},
-    "http://lists.w3.org/Archives/Public/www-style/2011Nov/0210.html": {},
-    "http://www.w3.org/Style/CSS/Test/": {},
-    "http://www.w3.org/TR/CSS/": {
-      "anchors": [
-        "future-proofing",
-        "unstable",
-        "proprietary-extension"
-      ],
-      "specShortname": "CSS22"
+    "rawlinks": {
+      "http://lists.w3.org/Archives/Public/public-css-testsuite": {},
+      "http://lists.w3.org/Archives/Public/www-style/2011Nov/0210.html": {},
+      "http://wpt.live/css/css-images/animation/object-position-interpolation.html": {},
+      "http://wpt.live/css/css-images/animation/object-view-box-interpolation.html": {},
+      "http://wpt.live/css/css-images/image-orientation/image-orientation-background-image.html": {},
+      "http://wpt.live/css/css-images/image-orientation/image-orientation-background-position.html": {},
+      "http://wpt.live/css/css-images/image-orientation/image-orientation-background-properties-border-radius.html": {},
+      "http://wpt.live/css/css-images/image-orientation/image-orientation-background-properties.html": {},
+      "http://wpt.live/css/css-images/image-orientation/image-orientation-border-image.html": {},
+      "http://wpt.live/css/css-images/image-orientation/image-orientation-default.html": {},
+      "http://wpt.live/css/css-images/image-orientation/image-orientation-exif-png-2.html": {},
+      "http://wpt.live/css/css-images/image-orientation/image-orientation-exif-png-3.html": {},
+      "http://wpt.live/css/css-images/image-orientation/image-orientation-exif-png.html": {},
+      "http://wpt.live/css/css-images/image-orientation/image-orientation-from-image-composited-dynamic1.html": {},
+      "http://wpt.live/css/css-images/image-orientation/image-orientation-from-image-composited-dynamic2.html": {},
+      "http://wpt.live/css/css-images/image-orientation/image-orientation-from-image-composited.html": {},
+      "http://wpt.live/css/css-images/image-orientation/image-orientation-from-image-computed-style.html": {},
+      "http://wpt.live/css/css-images/image-orientation/image-orientation-from-image-content-images.html": {},
+      "http://wpt.live/css/css-images/image-orientation/image-orientation-from-image-dynamic1.html": {},
+      "http://wpt.live/css/css-images/image-orientation/image-orientation-from-image-dynamic2.html": {},
+      "http://wpt.live/css/css-images/image-orientation/image-orientation-from-image-embedded-content.html": {},
+      "http://wpt.live/css/css-images/image-orientation/image-orientation-from-image.html": {},
+      "http://wpt.live/css/css-images/image-orientation/image-orientation-iframe.html": {},
+      "http://wpt.live/css/css-images/image-orientation/image-orientation-img-object-fit.html": {},
+      "http://wpt.live/css/css-images/image-orientation/image-orientation-list-style-image.html": {},
+      "http://wpt.live/css/css-images/image-orientation/image-orientation-mask-image.html": {},
+      "http://wpt.live/css/css-images/image-orientation/image-orientation-none-computed-style.html": {},
+      "http://wpt.live/css/css-images/image-orientation/image-orientation-none-content-images.html": {},
+      "http://wpt.live/css/css-images/image-orientation/image-orientation-none-cross-origin-canvas.html": {},
+      "http://wpt.live/css/css-images/image-orientation/image-orientation-none-cross-origin-svg.html": {},
+      "http://wpt.live/css/css-images/image-orientation/image-orientation-none-cross-origin.html": {},
+      "http://wpt.live/css/css-images/image-orientation/image-orientation-none-image-document.html": {},
+      "http://wpt.live/css/css-images/image-orientation/image-orientation-none.html": {},
+      "http://wpt.live/css/css-images/image-orientation/svg-image-orientation-aspect-ratio.html": {},
+      "http://wpt.live/css/css-images/image-orientation/svg-image-orientation-none.html": {},
+      "http://wpt.live/css/css-images/image-orientation/svg-image-orientation.html": {},
+      "http://wpt.live/css/css-images/image-rendering-border-image.html": {},
+      "http://wpt.live/css/css-images/image-rendering-mixed-scaled.html": {},
+      "http://wpt.live/css/css-images/object-position-png-001c.html": {},
+      "http://wpt.live/css/css-images/object-position-png-001e.html": {},
+      "http://wpt.live/css/css-images/object-position-png-001i.html": {},
+      "http://wpt.live/css/css-images/object-position-png-001o.html": {},
+      "http://wpt.live/css/css-images/object-position-png-001p.html": {},
+      "http://wpt.live/css/css-images/object-position-png-002c.html": {},
+      "http://wpt.live/css/css-images/object-position-png-002e.html": {},
+      "http://wpt.live/css/css-images/object-position-png-002i.html": {},
+      "http://wpt.live/css/css-images/object-position-png-002o.html": {},
+      "http://wpt.live/css/css-images/object-position-png-002p.html": {},
+      "http://wpt.live/css/css-images/object-position-svg-001e.html": {},
+      "http://wpt.live/css/css-images/object-position-svg-001i.html": {},
+      "http://wpt.live/css/css-images/object-position-svg-001o.html": {},
+      "http://wpt.live/css/css-images/object-position-svg-001p.html": {},
+      "http://wpt.live/css/css-images/object-position-svg-002e.html": {},
+      "http://wpt.live/css/css-images/object-position-svg-002i.html": {},
+      "http://wpt.live/css/css-images/object-position-svg-002o.html": {},
+      "http://wpt.live/css/css-images/object-position-svg-002p.html": {},
+      "http://wpt.live/css/css-images/object-view-box-contain-intrinsic-size.html": {},
+      "http://wpt.live/css/css-images/object-view-box-empty-bounds.html": {},
+      "http://wpt.live/css/css-images/object-view-box-fit-contain-canvas.html": {},
+      "http://wpt.live/css/css-images/object-view-box-fit-contain-img.html": {},
+      "http://wpt.live/css/css-images/object-view-box-fit-contain-svg.html": {},
+      "http://wpt.live/css/css-images/object-view-box-fit-contain-video.html": {},
+      "http://wpt.live/css/css-images/object-view-box-fit-cover-canvas.html": {},
+      "http://wpt.live/css/css-images/object-view-box-fit-cover-img.html": {},
+      "http://wpt.live/css/css-images/object-view-box-fit-cover-svg.html": {},
+      "http://wpt.live/css/css-images/object-view-box-fit-cover-video.html": {},
+      "http://wpt.live/css/css-images/object-view-box-fit-fill-canvas.html": {},
+      "http://wpt.live/css/css-images/object-view-box-fit-fill-img.html": {},
+      "http://wpt.live/css/css-images/object-view-box-fit-fill-svg.html": {},
+      "http://wpt.live/css/css-images/object-view-box-fit-fill-video.html": {},
+      "http://wpt.live/css/css-images/object-view-box-fit-none-canvas.html": {},
+      "http://wpt.live/css/css-images/object-view-box-fit-none-img.html": {},
+      "http://wpt.live/css/css-images/object-view-box-fit-none-svg.html": {},
+      "http://wpt.live/css/css-images/object-view-box-fit-none-video.html": {},
+      "http://wpt.live/css/css-images/object-view-box-iframe.html": {},
+      "http://wpt.live/css/css-images/object-view-box-negative-bounds.html": {},
+      "http://wpt.live/css/css-images/object-view-box-parsing.html": {},
+      "http://wpt.live/css/css-images/object-view-box-property-changed.html": {},
+      "http://wpt.live/css/css-images/object-view-box-rect-auto.html": {},
+      "http://wpt.live/css/css-images/object-view-box-rect-percentage.html": {},
+      "http://wpt.live/css/css-images/object-view-box-rect.html": {},
+      "http://wpt.live/css/css-images/object-view-box-same-size.html": {},
+      "http://wpt.live/css/css-images/object-view-box-size-containment.html": {},
+      "http://wpt.live/css/css-images/object-view-box-svg-img-no-size.html": {},
+      "http://wpt.live/css/css-images/object-view-box-transition-mutation.html": {},
+      "http://wpt.live/css/css-images/object-view-box-writing-mode-canvas.html": {},
+      "http://wpt.live/css/css-images/object-view-box-writing-mode-img.html": {},
+      "http://wpt.live/css/css-images/object-view-box-writing-mode-svg.html": {},
+      "http://wpt.live/css/css-images/object-view-box-writing-mode-video.html": {},
+      "http://wpt.live/css/css-images/object-view-box-xywh-percentage.html": {},
+      "http://wpt.live/css/css-images/object-view-box-xywh.html": {},
+      "http://wpt.live/css/css-images/parsing/image-orientation-computed.html": {},
+      "http://wpt.live/css/css-images/parsing/image-orientation-invalid.html": {},
+      "http://wpt.live/css/css-images/parsing/image-orientation-valid.html": {},
+      "http://wpt.live/css/css-images/parsing/image-rendering-computed.html": {},
+      "http://wpt.live/css/css-images/parsing/image-rendering-invalid.html": {},
+      "http://wpt.live/css/css-images/parsing/image-rendering-valid.html": {},
+      "http://wpt.live/css/css-images/parsing/object-position-computed.html": {},
+      "http://wpt.live/css/css-images/parsing/object-position-invalid.html": {},
+      "http://wpt.live/css/css-images/parsing/object-position-valid.html": {},
+      "http://www.w3.org/Style/CSS/Test/": {},
+      "http://www.w3.org/TR/CSS/": {
+        "anchors": [
+          "future-proofing",
+          "unstable",
+          "proprietary-extension"
+        ]
+      },
+      "http://www.w3.org/TR/CSS21/conform.html": {
+        "anchors": [
+          "style-sheet",
+          "user-agent",
+          "ignore"
+        ]
+      },
+      "http://www.w3.org/TR/css-animations/": {},
+      "http://www.w3.org/TR/css-transitions/": {},
+      "https://caniuse.com/": {
+        "anchors": [
+          "feat=css-repeating-gradients",
+          "feat=css-image-orientation",
+          "feat=css-crisp-edges"
+        ]
+      },
+      "https://datatracker.ietf.org/doc/html/rfc2119": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/gradient": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/radial-gradient": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/repeating-linear-gradient": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/repeating-radial-gradient": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/image": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/image-orientation": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/image-rendering": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/object-position": {},
+      "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/image-rendering": {},
+      "https://drafts.csswg.org/css-backgrounds/": {},
+      "https://drafts.csswg.org/css-cascade-5/": {},
+      "https://drafts.csswg.org/css-color-4/": {},
+      "https://drafts.csswg.org/css-color-5/": {},
+      "https://drafts.csswg.org/css-content-3/": {},
+      "https://drafts.csswg.org/css-lists-3/": {},
+      "https://drafts.csswg.org/css-page-3/": {},
+      "https://drafts.csswg.org/css-sizing-3/": {},
+      "https://drafts.csswg.org/css-sizing-4/": {},
+      "https://drafts.csswg.org/css-transforms/": {},
+      "https://drafts.csswg.org/css-ui-4/": {},
+      "https://drafts.csswg.org/css-values-3/": {
+        "anchors": [
+          "local-urls"
+        ]
+      },
+      "https://drafts.csswg.org/css-values-4/": {},
+      "https://drafts.csswg.org/css-values-5/": {},
+      "https://drafts.csswg.org/css2/": {},
+      "https://drafts.csswg.org/cssom/": {},
+      "https://drafts.csswg.org/issues?spec=css-images-3&doc=cr-2012": {},
+      "https://drafts.csswg.org/selectors/": {},
+      "https://drafts.fxtf.org/css-masking-1/": {},
+      "https://drafts.fxtf.org/filter-effects-1/": {},
+      "https://github.com/w3c/csswg-drafts/issues": {},
+      "https://github.com/w3c/csswg-drafts/issues/10075": {},
+      "https://github.com/w3c/csswg-drafts/issues/10092": {},
+      "https://github.com/w3c/csswg-drafts/issues/1206": {},
+      "https://github.com/w3c/csswg-drafts/issues/1575": {},
+      "https://github.com/w3c/csswg-drafts/issues/4572": {},
+      "https://github.com/w3c/csswg-drafts/issues/4793": {},
+      "https://github.com/w3c/csswg-drafts/issues/4961": {},
+      "https://github.com/w3c/csswg-drafts/issues/5165": {},
+      "https://github.com/w3c/csswg-drafts/issues/5245": {},
+      "https://github.com/w3c/csswg-drafts/issues/5837": {},
+      "https://github.com/w3c/csswg-drafts/issues/6038": {},
+      "https://github.com/w3c/csswg-drafts/issues/8543": {},
+      "https://github.com/w3c/csswg-drafts/pull/8021": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/animation/object-position-interpolation.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/animation/object-view-box-interpolation.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-fit-001.xht": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-fit-006.xht": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-orientation/image-orientation-background-image.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-orientation/image-orientation-background-position.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-orientation/image-orientation-background-properties-border-radius.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-orientation/image-orientation-background-properties.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-orientation/image-orientation-border-image.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-orientation/image-orientation-cursor.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-orientation/image-orientation-default.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-orientation/image-orientation-exif-png-2.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-orientation/image-orientation-exif-png-3.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-orientation/image-orientation-exif-png.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-orientation/image-orientation-from-image-composited-dynamic1.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-orientation/image-orientation-from-image-composited-dynamic2.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-orientation/image-orientation-from-image-composited.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-orientation/image-orientation-from-image-computed-style.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-orientation/image-orientation-from-image-content-images.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-orientation/image-orientation-from-image-dynamic1.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-orientation/image-orientation-from-image-dynamic2.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-orientation/image-orientation-from-image-embedded-content.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-orientation/image-orientation-from-image.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-orientation/image-orientation-iframe.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-orientation/image-orientation-img-object-fit.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-orientation/image-orientation-list-style-image.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-orientation/image-orientation-mask-image.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-orientation/image-orientation-none-computed-style.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-orientation/image-orientation-none-content-images.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-orientation/image-orientation-none-cross-origin-canvas.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-orientation/image-orientation-none-cross-origin-svg.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-orientation/image-orientation-none-cross-origin.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-orientation/image-orientation-none-image-document.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-orientation/image-orientation-none.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-orientation/svg-image-orientation-aspect-ratio.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-orientation/svg-image-orientation-none.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-orientation/svg-image-orientation.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-rendering-border-image.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/image-rendering-mixed-scaled.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-position-png-001c.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-position-png-001e.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-position-png-001i.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-position-png-001o.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-position-png-001p.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-position-png-002c.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-position-png-002e.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-position-png-002i.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-position-png-002o.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-position-png-002p.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-position-svg-001e.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-position-svg-001i.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-position-svg-001o.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-position-svg-001p.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-position-svg-002e.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-position-svg-002i.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-position-svg-002o.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-position-svg-002p.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-contain-intrinsic-size.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-empty-bounds.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-fit-contain-canvas.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-fit-contain-img.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-fit-contain-svg.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-fit-contain-video.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-fit-cover-canvas.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-fit-cover-img.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-fit-cover-svg.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-fit-cover-video.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-fit-fill-canvas.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-fit-fill-img.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-fit-fill-svg.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-fit-fill-video.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-fit-none-canvas.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-fit-none-img.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-fit-none-svg.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-fit-none-video.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-iframe.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-negative-bounds.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-parsing.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-property-changed.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-rect-auto.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-rect-percentage.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-rect.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-same-size.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-size-containment.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-svg-img-no-size.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-transition-mutation.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-writing-mode-canvas.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-writing-mode-img.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-writing-mode-svg.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-writing-mode-video.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-xywh-percentage.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/object-view-box-xywh.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/parsing/image-orientation-computed.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/parsing/image-orientation-invalid.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/parsing/image-orientation-valid.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/parsing/image-rendering-computed.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/parsing/image-rendering-invalid.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/parsing/image-rendering-valid.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/parsing/object-position-computed.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/parsing/object-position-invalid.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-images/parsing/object-position-valid.html": {},
+      "https://html.spec.whatwg.org/multipage/": {},
+      "https://html.spec.whatwg.org/multipage/webappapis.html": {
+        "anchors": [
+          "concept-imagebitmap-good"
+        ]
+      },
+      "https://lists.w3.org/Archives/Public/public-css-archive/": {},
+      "https://lists.w3.org/Archives/Public/www-style/": {},
+      "https://wpt.fyi/results/css/css-images/animation/object-position-interpolation.html": {},
+      "https://wpt.fyi/results/css/css-images/animation/object-view-box-interpolation.html": {},
+      "https://wpt.fyi/results/css/css-images/image-orientation/image-orientation-background-image.html": {},
+      "https://wpt.fyi/results/css/css-images/image-orientation/image-orientation-background-position.html": {},
+      "https://wpt.fyi/results/css/css-images/image-orientation/image-orientation-background-properties-border-radius.html": {},
+      "https://wpt.fyi/results/css/css-images/image-orientation/image-orientation-background-properties.html": {},
+      "https://wpt.fyi/results/css/css-images/image-orientation/image-orientation-border-image.html": {},
+      "https://wpt.fyi/results/css/css-images/image-orientation/image-orientation-default.html": {},
+      "https://wpt.fyi/results/css/css-images/image-orientation/image-orientation-exif-png-2.html": {},
+      "https://wpt.fyi/results/css/css-images/image-orientation/image-orientation-exif-png-3.html": {},
+      "https://wpt.fyi/results/css/css-images/image-orientation/image-orientation-exif-png.html": {},
+      "https://wpt.fyi/results/css/css-images/image-orientation/image-orientation-from-image-composited-dynamic1.html": {},
+      "https://wpt.fyi/results/css/css-images/image-orientation/image-orientation-from-image-composited-dynamic2.html": {},
+      "https://wpt.fyi/results/css/css-images/image-orientation/image-orientation-from-image-composited.html": {},
+      "https://wpt.fyi/results/css/css-images/image-orientation/image-orientation-from-image-computed-style.html": {},
+      "https://wpt.fyi/results/css/css-images/image-orientation/image-orientation-from-image-content-images.html": {},
+      "https://wpt.fyi/results/css/css-images/image-orientation/image-orientation-from-image-dynamic1.html": {},
+      "https://wpt.fyi/results/css/css-images/image-orientation/image-orientation-from-image-dynamic2.html": {},
+      "https://wpt.fyi/results/css/css-images/image-orientation/image-orientation-from-image-embedded-content.html": {},
+      "https://wpt.fyi/results/css/css-images/image-orientation/image-orientation-from-image.html": {},
+      "https://wpt.fyi/results/css/css-images/image-orientation/image-orientation-iframe.html": {},
+      "https://wpt.fyi/results/css/css-images/image-orientation/image-orientation-img-object-fit.html": {},
+      "https://wpt.fyi/results/css/css-images/image-orientation/image-orientation-list-style-image.html": {},
+      "https://wpt.fyi/results/css/css-images/image-orientation/image-orientation-mask-image.html": {},
+      "https://wpt.fyi/results/css/css-images/image-orientation/image-orientation-none-computed-style.html": {},
+      "https://wpt.fyi/results/css/css-images/image-orientation/image-orientation-none-content-images.html": {},
+      "https://wpt.fyi/results/css/css-images/image-orientation/image-orientation-none-cross-origin-canvas.html": {},
+      "https://wpt.fyi/results/css/css-images/image-orientation/image-orientation-none-cross-origin-svg.html": {},
+      "https://wpt.fyi/results/css/css-images/image-orientation/image-orientation-none-cross-origin.html": {},
+      "https://wpt.fyi/results/css/css-images/image-orientation/image-orientation-none-image-document.html": {},
+      "https://wpt.fyi/results/css/css-images/image-orientation/image-orientation-none.html": {},
+      "https://wpt.fyi/results/css/css-images/image-orientation/svg-image-orientation-aspect-ratio.html": {},
+      "https://wpt.fyi/results/css/css-images/image-orientation/svg-image-orientation-none.html": {},
+      "https://wpt.fyi/results/css/css-images/image-orientation/svg-image-orientation.html": {},
+      "https://wpt.fyi/results/css/css-images/image-rendering-border-image.html": {},
+      "https://wpt.fyi/results/css/css-images/image-rendering-mixed-scaled.html": {},
+      "https://wpt.fyi/results/css/css-images/object-position-png-001c.html": {},
+      "https://wpt.fyi/results/css/css-images/object-position-png-001e.html": {},
+      "https://wpt.fyi/results/css/css-images/object-position-png-001i.html": {},
+      "https://wpt.fyi/results/css/css-images/object-position-png-001o.html": {},
+      "https://wpt.fyi/results/css/css-images/object-position-png-001p.html": {},
+      "https://wpt.fyi/results/css/css-images/object-position-png-002c.html": {},
+      "https://wpt.fyi/results/css/css-images/object-position-png-002e.html": {},
+      "https://wpt.fyi/results/css/css-images/object-position-png-002i.html": {},
+      "https://wpt.fyi/results/css/css-images/object-position-png-002o.html": {},
+      "https://wpt.fyi/results/css/css-images/object-position-png-002p.html": {},
+      "https://wpt.fyi/results/css/css-images/object-position-svg-001e.html": {},
+      "https://wpt.fyi/results/css/css-images/object-position-svg-001i.html": {},
+      "https://wpt.fyi/results/css/css-images/object-position-svg-001o.html": {},
+      "https://wpt.fyi/results/css/css-images/object-position-svg-001p.html": {},
+      "https://wpt.fyi/results/css/css-images/object-position-svg-002e.html": {},
+      "https://wpt.fyi/results/css/css-images/object-position-svg-002i.html": {},
+      "https://wpt.fyi/results/css/css-images/object-position-svg-002o.html": {},
+      "https://wpt.fyi/results/css/css-images/object-position-svg-002p.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-contain-intrinsic-size.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-empty-bounds.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-fit-contain-canvas.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-fit-contain-img.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-fit-contain-svg.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-fit-contain-video.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-fit-cover-canvas.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-fit-cover-img.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-fit-cover-svg.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-fit-cover-video.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-fit-fill-canvas.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-fit-fill-img.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-fit-fill-svg.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-fit-fill-video.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-fit-none-canvas.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-fit-none-img.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-fit-none-svg.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-fit-none-video.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-iframe.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-negative-bounds.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-parsing.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-property-changed.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-rect-auto.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-rect-percentage.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-rect.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-same-size.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-size-containment.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-svg-img-no-size.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-transition-mutation.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-writing-mode-canvas.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-writing-mode-img.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-writing-mode-svg.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-writing-mode-video.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-xywh-percentage.html": {},
+      "https://wpt.fyi/results/css/css-images/object-view-box-xywh.html": {},
+      "https://wpt.fyi/results/css/css-images/parsing/image-orientation-computed.html": {},
+      "https://wpt.fyi/results/css/css-images/parsing/image-orientation-invalid.html": {},
+      "https://wpt.fyi/results/css/css-images/parsing/image-orientation-valid.html": {},
+      "https://wpt.fyi/results/css/css-images/parsing/image-rendering-computed.html": {},
+      "https://wpt.fyi/results/css/css-images/parsing/image-rendering-invalid.html": {},
+      "https://wpt.fyi/results/css/css-images/parsing/image-rendering-valid.html": {},
+      "https://wpt.fyi/results/css/css-images/parsing/object-position-computed.html": {},
+      "https://wpt.fyi/results/css/css-images/parsing/object-position-invalid.html": {},
+      "https://wpt.fyi/results/css/css-images/parsing/object-position-valid.html": {},
+      "https://www.w3.org/TR/1998/REC-smil-19980615/": {},
+      "https://www.w3.org/TR/2012/CR-css3-images-20120417/": {},
+      "https://www.w3.org/TR/2019/CR-css-images-3-20191010/": {},
+      "https://www.w3.org/TR/2020/CRD-css-images-3-20201217/": {},
+      "https://www.w3.org/TR/2023/CRD-css-images-3-20231218/": {},
+      "https://www.w3.org/TR/CSS/": {},
+      "https://www.w3.org/TR/CSS2/": {},
+      "https://www.w3.org/TR/CSS2/about.html": {
+        "anchors": [
+          "property-defs"
+        ]
+      },
+      "https://www.w3.org/TR/CSS2/colors.html": {
+        "anchors": [
+          "background-properties"
+        ]
+      },
+      "https://www.w3.org/TR/CSS2/conform.html": {
+        "anchors": [
+          "replaced-element"
+        ]
+      },
+      "https://www.w3.org/TR/CSS2/generate.html": {
+        "anchors": [
+          "propdef-list-style-image",
+          "content"
+        ]
+      },
+      "https://www.w3.org/TR/CSS2/ui.html": {
+        "anchors": [
+          "cursor-props"
+        ]
+      },
+      "https://www.w3.org/TR/CSS2/visudet.html": {
+        "anchors": [
+          "inline-replaced-width",
+          "min-max-widths",
+          "inline-replaced-height",
+          "min-max-heights"
+        ]
+      },
+      "https://www.w3.org/TR/SVG11/": {},
+      "https://www.w3.org/TR/SVG11/coords.html": {
+        "anchors": [
+          "PreserveAspectRatioAttribute"
+        ]
+      },
+      "https://www.w3.org/TR/css-cascade/": {
+        "anchors": [
+          "initial-values",
+          "applies-to",
+          "inherited-property",
+          "computed"
+        ]
+      },
+      "https://www.w3.org/TR/css-print/": {},
+      "https://www.w3.org/TR/css-pseudo/": {
+        "anchors": [
+          "generated-content"
+        ]
+      },
+      "https://www.w3.org/TR/css-values-3/": {
+        "anchors": [
+          "value-defs"
+        ]
+      },
+      "https://www.w3.org/TR/css-values/": {
+        "anchors": [
+          "value-defs",
+          "percentages"
+        ]
+      },
+      "https://www.w3.org/TR/css3-background/": {
+        "anchors": [
+          "the-background-size",
+          "the-border-image-slice",
+          "border-image-area",
+          "border-image-process"
+        ]
+      },
+      "https://www.w3.org/TR/cssom/": {
+        "anchors": [
+          "serializing-css-values"
+        ]
+      },
+      "https://www.w3.org/TR/web-animations/": {
+        "anchors": [
+          "animation-type"
+        ]
+      },
+      "https://www.w3.org/policies/process/20231103/": {}
     },
-    "http://www.w3.org/TR/CSS21/conform.html": {
-      "anchors": [
-        "style-sheet",
-        "user-agent",
-        "ignore"
-      ],
-      "specShortname": "CSS21"
-    },
-    "http://www.w3.org/TR/css-animations/": {
-      "specShortname": "css-animations-1"
-    },
-    "http://www.w3.org/TR/css-transitions/": {
-      "specShortname": "css-transitions-1"
-    },
-    "https://caniuse.com/": {
-      "anchors": [
-        "feat=css-repeating-gradients",
-        "feat=css-image-orientation",
-        "feat=css-crisp-edges"
-      ]
-    },
-    "https://datatracker.ietf.org/doc/html/rfc2119": {},
-    "https://developer.mozilla.org/en-US/docs/Web/CSS/gradient": {},
-    "https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient": {},
-    "https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/radial-gradient": {},
-    "https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/repeating-linear-gradient": {},
-    "https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/repeating-radial-gradient": {},
-    "https://developer.mozilla.org/en-US/docs/Web/CSS/image": {},
-    "https://developer.mozilla.org/en-US/docs/Web/CSS/image-orientation": {},
-    "https://developer.mozilla.org/en-US/docs/Web/CSS/image-rendering": {},
-    "https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit": {},
-    "https://developer.mozilla.org/en-US/docs/Web/CSS/object-position": {},
-    "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/image-rendering": {},
-    "https://drafts.csswg.org/css-backgrounds-3/": {
-      "anchors": [
-        "propdef-background-image",
-        "propdef-background-size",
-        "propdef-background",
-        "propdef-background-position",
-        "valdef-background-position-center",
-        "propdef-border-image",
-        "propdef-background-repeat",
-        "valdef-background-repeat-round",
-        "propdef-border-image-repeat"
-      ],
-      "specShortname": "css-backgrounds-3"
-    },
-    "https://drafts.csswg.org/css-backgrounds/": {
-      "specShortname": "css-backgrounds-3"
-    },
-    "https://drafts.csswg.org/css-cascade-5/": {
-      "anchors": [
-        "valdef-all-initial",
-        "computed-value",
-        "specified-value",
-        "used-value"
-      ],
-      "specShortname": "css-cascade-5"
-    },
-    "https://drafts.csswg.org/css-color-4/": {
-      "anchors": [
-        "valdef-color-transparent",
-        "typedef-color"
-      ],
-      "specShortname": "css-color-4"
-    },
-    "https://drafts.csswg.org/css-color/": {
-      "specShortname": "css-color-4"
-    },
-    "https://drafts.csswg.org/css-content-3/": {
-      "anchors": [
-        "propdef-content"
-      ],
-      "specShortname": "css-content-3"
-    },
-    "https://drafts.csswg.org/css-lists-3/": {
-      "anchors": [
-        "propdef-list-style-image",
-        "valdef-list-style-type-none",
-        "propdef-list-style-type"
-      ],
-      "specShortname": "css-lists-3"
-    },
-    "https://drafts.csswg.org/css-page-3/": {
-      "specShortname": "css-page-3"
-    },
-    "https://drafts.csswg.org/css-sizing-3/": {
-      "anchors": [
-        "propdef-width",
-        "propdef-height",
-        "intrinsic-size"
-      ],
-      "specShortname": "css-sizing-3"
-    },
-    "https://drafts.csswg.org/css-sizing-4/": {
-      "anchors": [
-        "preferred-aspect-ratio"
-      ],
-      "specShortname": "css-sizing-4"
-    },
-    "https://drafts.csswg.org/css-transforms/": {
-      "specShortname": "css-transforms-1"
-    },
-    "https://drafts.csswg.org/css-ui-4/": {
-      "anchors": [
-        "propdef-cursor"
-      ],
-      "specShortname": "css-ui-4"
-    },
-    "https://drafts.csswg.org/css-values-3/": {
-      "anchors": [
-        "local-urls"
-      ],
-      "specShortname": "css-values-3"
-    },
-    "https://drafts.csswg.org/css-values-4/": {
-      "anchors": [
-        "url-value",
-        "css-wide-keywords",
-        "comb-one",
-        "length-value",
-        "funcdef-url",
-        "angle-value",
-        "mult-opt",
-        "comb-comma",
-        "comb-any",
-        "typedef-position",
-        "typedef-length-percentage",
-        "mult-num",
-        "mult-comma",
-        "comb-all",
-        "degenerate-ratio",
-        "resolution-value"
-      ],
-      "specShortname": "css-values-4"
-    },
-    "https://drafts.csswg.org/css2/": {
-      "specShortname": "CSS21"
-    },
-    "https://drafts.csswg.org/cssom/": {
-      "specShortname": "cssom-1"
-    },
-    "https://drafts.csswg.org/issues?spec=css-images-3&doc=cr-2012": {},
-    "https://drafts.csswg.org/selectors-4/": {
-      "anchors": [
-        "target-pseudo"
-      ],
-      "specShortname": "selectors-4"
-    },
-    "https://drafts.csswg.org/selectors/": {
-      "specShortname": "selectors-4"
-    },
-    "https://drafts.fxtf.org/css-masking-1/": {
-      "anchors": [
-        "propdef-mask-image",
-        "elementdef-mask"
-      ],
-      "specShortname": "css-masking-1"
-    },
-    "https://drafts.fxtf.org/filter-effects-1/": {
-      "anchors": [
-        "elementdef-feimage"
-      ],
-      "specShortname": "filter-effects-1"
-    },
-    "https://github.com/w3c/csswg-drafts/issues": {},
-    "https://github.com/w3c/csswg-drafts/issues/1206": {},
-    "https://github.com/w3c/csswg-drafts/issues/1575": {},
-    "https://github.com/w3c/csswg-drafts/issues/4572": {},
-    "https://github.com/w3c/csswg-drafts/issues/4793": {},
-    "https://github.com/w3c/csswg-drafts/issues/4961": {},
-    "https://github.com/w3c/csswg-drafts/issues/5165": {},
-    "https://github.com/w3c/csswg-drafts/issues/5245": {},
-    "https://github.com/w3c/csswg-drafts/issues/5837": {},
-    "https://github.com/w3c/csswg-drafts/issues/6038": {},
-    "https://html.spec.whatwg.org/multipage/": {},
-    "https://html.spec.whatwg.org/multipage/embedded-content.html": {
-      "anchors": [
-        "attr-img-src",
-        "the-img-element"
-      ]
-    },
-    "https://html.spec.whatwg.org/multipage/iframe-embed-object.html": {
-      "anchors": [
-        "the-iframe-element"
-      ]
-    },
-    "https://html.spec.whatwg.org/multipage/webappapis.html": {
-      "anchors": [
-        "concept-imagebitmap-good"
-      ]
-    },
-    "https://lists.w3.org/Archives/Public/public-css-archive/": {},
-    "https://lists.w3.org/Archives/Public/www-style/": {},
-    "https://www.w3.org/2021/Process-20211102/": {},
-    "https://www.w3.org/TR/1998/REC-smil-19980615/": {},
-    "https://www.w3.org/TR/2012/CR-css3-images-20120417/": {},
-    "https://www.w3.org/TR/2019/CR-css-images-3-20191010/": {},
-    "https://www.w3.org/TR/2020/CRD-css-images-3-20201217/": {},
-    "https://www.w3.org/TR/CSS/": {
-      "specShortname": "CSS22"
-    },
-    "https://www.w3.org/TR/CSS2/": {},
-    "https://www.w3.org/TR/CSS2/about.html": {
-      "anchors": [
-        "property-defs"
-      ]
-    },
-    "https://www.w3.org/TR/CSS2/colors.html": {
-      "anchors": [
-        "background-properties"
-      ]
-    },
-    "https://www.w3.org/TR/CSS2/conform.html": {
-      "anchors": [
-        "replaced-element"
-      ]
-    },
-    "https://www.w3.org/TR/CSS2/generate.html": {
-      "anchors": [
-        "propdef-list-style-image",
-        "content"
-      ]
-    },
-    "https://www.w3.org/TR/CSS2/ui.html": {
-      "anchors": [
-        "cursor-props"
-      ]
-    },
-    "https://www.w3.org/TR/CSS2/visudet.html": {
-      "anchors": [
-        "inline-replaced-width",
-        "min-max-widths",
-        "inline-replaced-height",
-        "min-max-heights"
-      ]
-    },
-    "https://www.w3.org/TR/SVG11/": {
-      "specShortname": "SVG11"
-    },
-    "https://www.w3.org/TR/SVG11/coords.html": {
-      "anchors": [
-        "PreserveAspectRatioAttribute"
-      ],
-      "specShortname": "SVG11"
-    },
-    "https://www.w3.org/TR/css-cascade/": {
-      "anchors": [
-        "initial-values",
-        "applies-to",
-        "inherited-property",
-        "computed"
-      ],
-      "specShortname": "css-cascade-4"
-    },
-    "https://www.w3.org/TR/css-print/": {},
-    "https://www.w3.org/TR/css-pseudo/": {
-      "anchors": [
-        "generated-content"
-      ],
-      "specShortname": "css-pseudo-4"
-    },
-    "https://www.w3.org/TR/css-values-3/": {
-      "anchors": [
-        "value-defs"
-      ],
-      "specShortname": "css-values-3"
-    },
-    "https://www.w3.org/TR/css-values/": {
-      "anchors": [
-        "value-defs",
-        "percentages"
-      ],
-      "specShortname": "css-values-4"
-    },
-    "https://www.w3.org/TR/css3-background/": {
-      "anchors": [
-        "the-background-size",
-        "the-border-image-slice",
-        "border-image-area",
-        "border-image-process"
-      ]
-    },
-    "https://www.w3.org/TR/cssom/": {
-      "anchors": [
-        "serializing-css-values"
-      ],
-      "specShortname": "cssom-1"
-    },
-    "https://www.w3.org/TR/web-animations/": {
-      "anchors": [
-        "animation-type"
-      ],
-      "specShortname": "web-animations-1"
+    "autolinks": {
+      "https://drafts.csswg.org/css-backgrounds-3/": {
+        "anchors": [
+          "propdef-background-image",
+          "propdef-background-size",
+          "propdef-background",
+          "propdef-background-position",
+          "propdef-border-image",
+          "background-positioning-area",
+          "propdef-background-repeat",
+          "valdef-background-repeat-round",
+          "border-image-area",
+          "propdef-border-image-repeat"
+        ]
+      },
+      "https://drafts.csswg.org/css-cascade-5/": {
+        "anchors": [
+          "valdef-all-initial",
+          "computed-value",
+          "specified-value",
+          "used-value"
+        ]
+      },
+      "https://drafts.csswg.org/css-color-4/": {
+        "anchors": [
+          "valdef-color-transparent"
+        ]
+      },
+      "https://drafts.csswg.org/css-color-5/": {
+        "anchors": [
+          "typedef-color"
+        ]
+      },
+      "https://drafts.csswg.org/css-content-3/": {
+        "anchors": [
+          "propdef-content"
+        ]
+      },
+      "https://drafts.csswg.org/css-lists-3/": {
+        "anchors": [
+          "propdef-list-style-image",
+          "valdef-list-style-type-none",
+          "propdef-list-style-type"
+        ]
+      },
+      "https://drafts.csswg.org/css-sizing-3/": {
+        "anchors": [
+          "propdef-width",
+          "propdef-height",
+          "intrinsic-size"
+        ]
+      },
+      "https://drafts.csswg.org/css-sizing-4/": {
+        "anchors": [
+          "preferred-aspect-ratio"
+        ]
+      },
+      "https://drafts.csswg.org/css-ui-4/": {
+        "anchors": [
+          "propdef-cursor"
+        ]
+      },
+      "https://drafts.csswg.org/css-values-4/": {
+        "anchors": [
+          "url-value",
+          "css-wide-keywords",
+          "comb-one",
+          "length-value",
+          "funcdef-url",
+          "angle-value",
+          "mult-opt",
+          "comb-comma",
+          "comb-any",
+          "typedef-length-percentage",
+          "mult-num",
+          "mult-comma",
+          "degenerate-ratio",
+          "resolution-value"
+        ]
+      },
+      "https://drafts.csswg.org/css-values-5/": {
+        "anchors": [
+          "typedef-position"
+        ]
+      },
+      "https://drafts.csswg.org/selectors-4/": {
+        "anchors": [
+          "target-pseudo"
+        ]
+      },
+      "https://drafts.fxtf.org/css-masking-1/": {
+        "anchors": [
+          "propdef-mask-image",
+          "elementdef-mask"
+        ]
+      },
+      "https://drafts.fxtf.org/filter-effects-1/": {
+        "anchors": [
+          "elementdef-feimage"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/embedded-content.html": {
+        "anchors": [
+          "attr-img-src",
+          "the-img-element"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/iframe-embed-object.html": {
+        "anchors": [
+          "the-iframe-element"
+        ]
+      }
     }
   }
 }

@@ -1,156 +1,286 @@
 {
   "spec": {
-    "title": "DeviceOrientation Event Specification",
+    "title": "Device Orientation and Motion",
     "url": "https://www.w3.org/TR/orientation-event/"
   },
   "links": {
-    "http://earth-info.nga.mil/GandG/publications/tr8350.2/wgs84fin.pdf": {},
-    "http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A475619&dswid=9050": {},
-    "https://arxiv.org/abs/1408.1416": {},
-    "https://arxiv.org/abs/1602.04115": {},
-    "https://compat.spec.whatwg.org/": {
-      "anchors": [
-        "event-orientationchange"
-      ],
-      "specShortname": "compat"
+    "rawlinks": {
+      "http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A475619&dswid=9050": {},
+      "https://arxiv.org/abs/1408.1416": {},
+      "https://arxiv.org/abs/1602.04115": {},
+      "https://datatracker.ietf.org/doc/html/rfc2119": {},
+      "https://developer.android.com/reference/android/hardware/Sensor": {
+        "anchors": [
+          "TYPE_GAME_ROTATION_VECTOR",
+          "TYPE_ROTATION_VECTOR"
+        ]
+      },
+      "https://developer.apple.com/documentation/coremotion/cmattitudereferenceframe/1615953-xarbitraryzvertical": {},
+      "https://developer.apple.com/documentation/coremotion/cmattitudereferenceframe/1616123-xmagneticnorthzvertical": {},
+      "https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEvent": {},
+      "https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEvent/DeviceMotionEvent": {},
+      "https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEvent/acceleration": {},
+      "https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEvent/accelerationIncludingGravity": {},
+      "https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEvent/interval": {},
+      "https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEvent/rotationRate": {},
+      "https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEventAcceleration": {},
+      "https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEventAcceleration/x": {},
+      "https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEventAcceleration/y": {},
+      "https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEventAcceleration/z": {},
+      "https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEventRotationRate": {},
+      "https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEventRotationRate/alpha": {},
+      "https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEventRotationRate/beta": {},
+      "https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEventRotationRate/gamma": {},
+      "https://developer.mozilla.org/en-US/docs/Web/API/DeviceOrientationEvent": {},
+      "https://developer.mozilla.org/en-US/docs/Web/API/DeviceOrientationEvent/DeviceOrientationEvent": {},
+      "https://developer.mozilla.org/en-US/docs/Web/API/DeviceOrientationEvent/absolute": {},
+      "https://developer.mozilla.org/en-US/docs/Web/API/DeviceOrientationEvent/alpha": {},
+      "https://developer.mozilla.org/en-US/docs/Web/API/DeviceOrientationEvent/beta": {},
+      "https://developer.mozilla.org/en-US/docs/Web/API/DeviceOrientationEvent/gamma": {},
+      "https://developer.mozilla.org/en-US/docs/Web/API/Window/devicemotion_event": {},
+      "https://developer.mozilla.org/en-US/docs/Web/API/Window/deviceorientation_event": {},
+      "https://developer.mozilla.org/en-US/docs/Web/API/Window/deviceorientationabsolute_event": {},
+      "https://doi.org/10.1109/SP.2019.00072": {},
+      "https://dom.spec.whatwg.org/": {},
+      "https://en.wikipedia.org/wiki/Euler_angles": {},
+      "https://en.wikipedia.org/wiki/G-force": {},
+      "https://en.wikipedia.org/wiki/Gimbal_Lock": {},
+      "https://en.wikipedia.org/wiki/Proper_acceleration": {},
+      "https://en.wikipedia.org/wiki/Quaternion": {},
+      "https://github.com/w3c/deviceorientation/commits/main": {},
+      "https://github.com/w3c/deviceorientation/issues/85": {},
+      "https://github.com/w3c/deviceorientation/issues/87": {},
+      "https://github.com/w3c/deviceorientation/issues/new": {},
+      "https://html.spec.whatwg.org/multipage/": {},
+      "https://infra.spec.whatwg.org/": {},
+      "https://learn.microsoft.com/en-us/uwp/api/windows.devices.sensors.sensorreadingtype": {
+        "anchors": [
+          "remarks"
+        ]
+      },
+      "https://lists.w3.org/Archives/Public/public-device-apis/": {},
+      "https://lists.w3.org/Archives/Public/public-geolocation/": {},
+      "https://lists.w3.org/Archives/Public/public-webapps/": {},
+      "https://tc39.es/ecma262/multipage/": {},
+      "https://webidl.spec.whatwg.org/": {},
+      "https://wpt.fyi/results/orientation-event/idlharness.https.window.html": {},
+      "https://wpt.fyi/results/orientation-event/motion/requestPermission.https.window.html": {},
+      "https://wpt.fyi/results/orientation-event/orientation/requestPermission.https.window.html": {},
+      "https://www.w3.org/2008/geolocation/": {},
+      "https://www.w3.org/TR/": {},
+      "https://www.w3.org/TR/2016/CR-orientation-event-20160818/": {},
+      "https://www.w3.org/TR/accelerometer/": {},
+      "https://www.w3.org/TR/css-transforms-2/": {
+        "anchors": [
+          "transform-rendering"
+        ]
+      },
+      "https://www.w3.org/TR/generic-sensor/": {
+        "anchors": [
+          "automation"
+        ]
+      },
+      "https://www.w3.org/TR/geometry-1/": {},
+      "https://www.w3.org/TR/gyroscope/": {},
+      "https://www.w3.org/TR/motion-sensors/": {
+        "anchors": [
+          "accelerometer",
+          "linear-acceleration-sensor"
+        ]
+      },
+      "https://www.w3.org/TR/orientation-sensor/": {},
+      "https://www.w3.org/TR/permissions-policy-1/": {},
+      "https://www.w3.org/TR/permissions/": {},
+      "https://www.w3.org/TR/screen-orientation/": {},
+      "https://www.w3.org/TR/webdriver2/": {},
+      "https://www.w3.org/groups/wg/das": {},
+      "https://www.w3.org/groups/wg/das/": {},
+      "https://www.w3.org/groups/wg/das/ipr": {},
+      "https://www.w3.org/groups/wg/webapps": {},
+      "https://www.w3.org/groups/wg/webapps/": {},
+      "https://www.w3.org/groups/wg/webapps/ipr": {},
+      "https://www.w3.org/policies/patent-policy/": {
+        "anchors": [
+          "def-essential",
+          "sec-Disclosure"
+        ]
+      },
+      "https://www.w3.org/policies/process/": {},
+      "https://www.w3.org/policies/process/20231103/": {
+        "anchors": [
+          "recs-and-notes"
+        ]
+      }
     },
-    "https://datatracker.ietf.org/doc/html/rfc2119": {},
-    "https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEvent": {},
-    "https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEvent/DeviceMotionEvent": {},
-    "https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEvent/acceleration": {},
-    "https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEvent/accelerationIncludingGravity": {},
-    "https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEvent/interval": {},
-    "https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEvent/rotationRate": {},
-    "https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEventAcceleration": {},
-    "https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEventAcceleration/x": {},
-    "https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEventAcceleration/y": {},
-    "https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEventAcceleration/z": {},
-    "https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEventRotationRate": {},
-    "https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEventRotationRate/alpha": {},
-    "https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEventRotationRate/beta": {},
-    "https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEventRotationRate/gamma": {},
-    "https://developer.mozilla.org/en-US/docs/Web/API/DeviceOrientationEvent": {},
-    "https://developer.mozilla.org/en-US/docs/Web/API/DeviceOrientationEvent/DeviceOrientationEvent": {},
-    "https://developer.mozilla.org/en-US/docs/Web/API/DeviceOrientationEvent/absolute": {},
-    "https://developer.mozilla.org/en-US/docs/Web/API/DeviceOrientationEvent/alpha": {},
-    "https://developer.mozilla.org/en-US/docs/Web/API/DeviceOrientationEvent/beta": {},
-    "https://developer.mozilla.org/en-US/docs/Web/API/DeviceOrientationEvent/gamma": {},
-    "https://developer.mozilla.org/en-US/docs/Web/API/Window/devicemotion_event": {},
-    "https://developer.mozilla.org/en-US/docs/Web/API/Window/deviceorientation_event": {},
-    "https://developer.mozilla.org/en-US/docs/Web/API/Window/deviceorientationabsolute_event": {},
-    "https://doi.org/10.1109/SP.2019.00072": {},
-    "https://dom.spec.whatwg.org/": {
-      "anchors": [
-        "event",
-        "dictdef-eventinit",
-        "concept-event-fire"
-      ],
-      "specShortname": "dom"
-    },
-    "https://en.wikipedia.org/wiki/Euler_angles": {},
-    "https://en.wikipedia.org/wiki/G-force": {},
-    "https://en.wikipedia.org/wiki/Gimbal_Lock": {},
-    "https://en.wikipedia.org/wiki/Quaternion": {},
-    "https://github.com/w3c/deviceorientation/issues/38": {},
-    "https://github.com/w3c/deviceorientation/issues/74": {},
-    "https://html.spec.whatwg.org/multipage/": {},
-    "https://html.spec.whatwg.org/multipage/browsers.html": {
-      "anchors": [
-        "concept-origin"
-      ]
-    },
-    "https://html.spec.whatwg.org/multipage/document-sequences.html": {
-      "anchors": [
-        "nav-document",
-        "top-level-browsing-context"
-      ]
-    },
-    "https://html.spec.whatwg.org/multipage/infrastructure.html": {
-      "anchors": [
-        "in-parallel"
-      ]
-    },
-    "https://html.spec.whatwg.org/multipage/interaction.html": {
-      "anchors": [
-        "transient-activation",
-        "triggered-by-user-activation"
-      ]
-    },
-    "https://html.spec.whatwg.org/multipage/nav-history-apis.html": {
-      "anchors": [
-        "dom-window",
-        "window"
-      ]
-    },
-    "https://html.spec.whatwg.org/multipage/webappapis.html": {
-      "anchors": [
-        "event-handler-event-type",
-        "eventhandler",
-        "relevant-settings-object",
-        "concept-settings-object-origin",
-        "concept-relevant-global",
-        "queue-a-task"
-      ]
-    },
-    "https://lists.w3.org/Archives/Public/public-device-apis/": {},
-    "https://webidl.spec.whatwg.org/": {
-      "anchors": [
-        "SecureContext",
-        "Exposed",
-        "idl-DOMString",
-        "idl-double",
-        "idl-boolean",
-        "idl-promise",
-        "notallowederror",
-        "idl-DOMException"
-      ],
-      "specShortname": "webidl"
-    },
-    "https://wpt.fyi/results/orientation-event/ondeviceorientationabsolute.https.html": {},
-    "https://www.w3.org/2021/Process-20211102/": {
-      "anchors": [
-        "recs-and-notes"
-      ]
-    },
-    "https://www.w3.org/Consortium/Patent-Policy-20200915/": {
-      "anchors": [
-        "def-essential",
-        "sec-Disclosure"
-      ]
-    },
-    "https://www.w3.org/Consortium/Patent-Policy/": {
-      "specShortname": "w3c-patent-policy"
-    },
-    "https://www.w3.org/TR/": {},
-    "https://www.w3.org/TR/css-transforms-2/": {
-      "anchors": [
-        "transform-rendering"
-      ],
-      "specShortname": "css-transforms-2"
-    },
-    "https://www.w3.org/TR/geometry-1/": {
-      "anchors": [
-        "dom-dommatrix-rotateself",
-        "dom-dommatrixreadonly-rotate"
-      ],
-      "specShortname": "geometry-1"
-    },
-    "https://www.w3.org/TR/motion-sensors/": {
-      "anchors": [
-        "accelerometer",
-        "linear-acceleration-sensor"
-      ]
-    },
-    "https://www.w3.org/TR/page-visibility-2/": {
-      "anchors": [
-        "dom-visibilitystate-visible"
-      ]
-    },
-    "https://www.w3.org/TR/page-visibility/": {},
-    "https://www.w3.org/TR/secure-contexts/": {
-      "specShortname": "secure-contexts"
-    },
-    "https://www.w3.org/groups/wg/das": {},
-    "https://www.w3.org/groups/wg/das/ipr": {}
+    "autolinks": {
+      "https://dom.spec.whatwg.org/": {
+        "anchors": [
+          "concept-event-dispatch",
+          "event",
+          "dictdef-eventinit",
+          "concept-event-fire"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/document-sequences.html": {
+        "anchors": [
+          "nav-top",
+          "navigable",
+          "nav-window",
+          "nav-document",
+          "child-navigable",
+          "top-level-traversable"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/iframe-embed-object.html": {
+        "anchors": [
+          "allowed-to-use"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/infrastructure.html": {
+        "anchors": [
+          "in-parallel"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/interaction.html": {
+        "anchors": [
+          "transient-activation",
+          "visibility-state"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/nav-history-apis.html": {
+        "anchors": [
+          "window",
+          "window-navigable",
+          "concept-document-window"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/webappapis.html": {
+        "anchors": [
+          "secure-context",
+          "task-source",
+          "concept-task",
+          "eventhandler",
+          "event-handler-idl-attributes",
+          "event-handlers",
+          "event-handler-event-type",
+          "current-global-object",
+          "concept-relevant-global",
+          "concept-relevant-realm",
+          "queue-a-global-task",
+          "relevant-settings-object",
+          "concept-global-object-realm"
+        ]
+      },
+      "https://infra.spec.whatwg.org/": {
+        "anchors": [
+          "implementation-defined",
+          "set-append",
+          "list-iterate",
+          "iteration-break",
+          "map-exists",
+          "list-append",
+          "ordered-map",
+          "map-entry",
+          "map-key",
+          "map-value"
+        ]
+      },
+      "https://tc39.es/ecma262/multipage/fundamental-objects.html": {
+        "anchors": [
+          "sec-object-objects"
+        ]
+      },
+      "https://tc39.es/ecma262/multipage/numbers-and-dates.html": {
+        "anchors": [
+          "sec-number-objects"
+        ]
+      },
+      "https://w3c.github.io/sensors/": {
+        "anchors": [
+          "virtual-sensor-mapping",
+          "virtual-sensor-can-provide-readings-flag"
+        ]
+      },
+      "https://w3c.github.io/webdriver/": {
+        "anchors": [
+          "dfn-getting-properties"
+        ]
+      },
+      "https://webidl.spec.whatwg.org/": {
+        "anchors": [
+          "SecureContext",
+          "Exposed",
+          "idl-DOMString",
+          "idl-double",
+          "idl-boolean",
+          "idl-promise",
+          "this",
+          "a-new-promise",
+          "reject",
+          "notallowederror",
+          "idl-DOMException",
+          "resolve",
+          "new"
+        ]
+      },
+      "https://www.w3.org/TR/accelerometer/": {
+        "anchors": [
+          "device-coordinate-system"
+        ]
+      },
+      "https://www.w3.org/TR/generic-sensor/": {
+        "anchors": [
+          "virtual-sensor-type",
+          "sensor-reading",
+          "per-type-virtual-sensor-metadata",
+          "virtual-sensor-metadata",
+          "virtual-sensor-metadata-reading-parsing-algorithm",
+          "parse-xyz-reading"
+        ]
+      },
+      "https://www.w3.org/TR/geometry-1/": {
+        "anchors": [
+          "dom-dommatrix-rotateself",
+          "dom-dommatrixreadonly-rotate"
+        ]
+      },
+      "https://www.w3.org/TR/orientation-sensor/": {
+        "anchors": [
+          "earths-reference-coordinate-system"
+        ]
+      },
+      "https://www.w3.org/TR/permissions-policy-1/": {
+        "anchors": [
+          "policy-controlled-feature",
+          "policy-controlled-feature-default-allowlist",
+          "default-allowlist-self"
+        ]
+      },
+      "https://www.w3.org/TR/permissions/": {
+        "anchors": [
+          "dfn-powerful-feature",
+          "dfn-permission",
+          "dfn-granted",
+          "dom-permissionstate",
+          "dfn-permission-state",
+          "dom-permissionstate-prompt",
+          "dom-permissionstate-granted",
+          "dfn-request-permission-to-use",
+          "dom-permissionstate-denied",
+          "dfn-getting-the-current-permission-state",
+          "dfn-express-permission"
+        ]
+      },
+      "https://www.w3.org/TR/webdriver2/": {
+        "anchors": [
+          "dfn-extension-commands"
+        ]
+      },
+      "https://www.w3.org/policies/process/": {
+        "anchors": [
+          "at-risk"
+        ]
+      }
+    }
   }
 }

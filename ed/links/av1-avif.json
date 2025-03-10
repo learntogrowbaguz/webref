@@ -1,0 +1,59 @@
+{
+  "spec": {
+    "title": "AV1 Image File Format (AVIF)",
+    "url": "https://aomediacodec.github.io/av1-avif/"
+  },
+  "links": {
+    "rawlinks": {
+      "https://aomediacodec.github.io/av1-isobmff/": {},
+      "https://aomediacodec.github.io/av1-spec/av1-spec.pdf": {},
+      "https://datatracker.ietf.org/doc/html/rfc2119": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/222": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/223": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/224": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/225": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/227": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/228": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/229": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/230": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/232": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/233": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/234": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/238": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/239": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/240": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/243": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/250": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/251": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/253": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/256": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/257": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/258": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/259": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/261": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/262": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/263": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/265": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/266": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/267": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/273": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/288": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/289": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/292": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/300": {},
+      "https://github.com/AOMediaCodec/av1-avif/pull/304": {},
+      "https://www.iana.org/assignments/media-types/image/avif": {},
+      "https://www.iso.org/standard/74417.html": {},
+      "https://www.iso.org/standard/83102.html": {},
+      "https://www.iso.org/standard/83650.html": {},
+      "https://www.itu.int/rec/T-REC-H.273": {}
+    },
+    "autolinks": {
+      "https://aomediacodec.github.io/av1-isobmff/": {},
+      "https://aomediacodec.github.io/av1-spec/av1-spec.pdf": {},
+      "https://www.iso.org/standard/74417.html": {},
+      "https://www.iso.org/standard/83102.html": {},
+      "https://www.iso.org/standard/83650.html": {}
+    }
+  }
+}

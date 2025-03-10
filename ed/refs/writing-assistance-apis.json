@@ -1,0 +1,55 @@
+{
+  "spec": {
+    "title": "Writing Assistance APIs",
+    "url": "https://webmachinelearning.github.io/writing-assistance-apis/"
+  },
+  "refs": {
+    "normative": [
+      {
+        "name": "COMMONMARK",
+        "url": "https://spec.commonmark.org/"
+      },
+      {
+        "name": "CSS-VALUES-4",
+        "url": "https://drafts.csswg.org/css-values-4/"
+      },
+      {
+        "name": "DOM",
+        "url": "https://dom.spec.whatwg.org/"
+      },
+      {
+        "name": "ECMA-402",
+        "url": "https://tc39.es/ecma402/"
+      },
+      {
+        "name": "ECMASCRIPT",
+        "url": "https://tc39.es/ecma262/multipage/"
+      },
+      {
+        "name": "HR-TIME-3",
+        "url": "https://w3c.github.io/hr-time/"
+      },
+      {
+        "name": "HTML",
+        "url": "https://html.spec.whatwg.org/multipage/"
+      },
+      {
+        "name": "INFRA",
+        "url": "https://infra.spec.whatwg.org/"
+      },
+      {
+        "name": "STREAMS",
+        "url": "https://streams.spec.whatwg.org/"
+      },
+      {
+        "name": "WEBIDL",
+        "url": "https://webidl.spec.whatwg.org/"
+      },
+      {
+        "name": "XHR",
+        "url": "https://xhr.spec.whatwg.org/"
+      }
+    ],
+    "informative": []
+  }
+}

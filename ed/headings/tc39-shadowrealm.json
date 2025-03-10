@@ -7,7 +7,7 @@
     {
       "id": "sec-well-known-intrinsic-objects",
       "href": "https://tc39.es/proposal-shadowrealm/#sec-well-known-intrinsic-objects",
-      "title": "Well-known intrinsic objects",
+      "title": "Well-Known intrinsic objects",
       "level": 1,
       "number": "1"
     },
@@ -26,18 +26,25 @@
       "number": "2.1"
     },
     {
+      "id": "sec-create-type-error-copy",
+      "href": "https://tc39.es/proposal-shadowrealm/#sec-create-type-error-copy",
+      "title": "CreateTypeErrorCopy ( realmRecord, originalError )",
+      "level": 2,
+      "number": "2.2"
+    },
+    {
       "id": "sec-ordinary-wrapped-function-call",
       "href": "https://tc39.es/proposal-shadowrealm/#sec-ordinary-wrapped-function-call",
       "title": "OrdinaryWrappedFunctionCall ( F, thisArgument, argumentsList )",
       "level": 2,
-      "number": "2.2"
+      "number": "2.3"
     },
     {
       "id": "sec-prepare-for-wrapped-function-call",
       "href": "https://tc39.es/proposal-shadowrealm/#sec-prepare-for-wrapped-function-call",
       "title": "PrepareForWrappedFunctionCall ( F )",
       "level": 2,
-      "number": "2.3"
+      "number": "2.4"
     },
     {
       "id": "sec-shadowrealm-objects",
@@ -84,9 +91,23 @@
     {
       "id": "sec-shadowrealmimportvalue",
       "href": "https://tc39.es/proposal-shadowrealm/#sec-shadowrealmimportvalue",
-      "title": "ShadowRealmImportValue ( specifierString, exportNameString, callerRealm, evalContext )",
+      "title": "ShadowRealmImportValue ( specifierString, exportNameString, callerRealm, evalRealm )",
       "level": 3,
       "number": "3.1.4"
+    },
+    {
+      "id": "sec-export-getter-functions",
+      "href": "https://tc39.es/proposal-shadowrealm/#sec-export-getter-functions",
+      "title": "ExportGetter functions",
+      "level": 4,
+      "number": "3.1.4.1"
+    },
+    {
+      "id": "sec-import-value-error-functions",
+      "href": "https://tc39.es/proposal-shadowrealm/#sec-import-value-error-functions",
+      "title": "ImportValueError functions",
+      "level": 4,
+      "number": "3.1.4.2"
     },
     {
       "id": "sec-getwrappedvalue",
@@ -101,6 +122,13 @@
       "title": "ValidateShadowRealmObject ( O )",
       "level": 3,
       "number": "3.1.6"
+    },
+    {
+      "id": "sec-getshadowrealmcontext",
+      "href": "https://tc39.es/proposal-shadowrealm/#sec-getshadowrealmcontext",
+      "title": "GetShadowRealmContext ( shadowRealmRecord, strictEval )",
+      "level": 3,
+      "number": "3.1.7"
     },
     {
       "id": "sec-shadowrealm-constructor",
@@ -153,7 +181,7 @@
     },
     {
       "id": "sec-shadowrealm.prototype-@@tostringtag",
-      "href": "https://tc39.es/proposal-shadowrealm/#sec-shadowrealm.prototype-@@tostringtag",
+      "href": "https://tc39.es/proposal-shadowrealm/#sec-shadowrealm.prototype-%40%40tostringtag",
       "title": "ShadowRealm.prototype [ @@toStringTag ]",
       "level": 3,
       "number": "3.4.3"
@@ -173,11 +201,18 @@
       "number": "3.6"
     },
     {
-      "id": "sec-host-initialize-shadow-shadowrealm",
-      "href": "https://tc39.es/proposal-shadowrealm/#sec-host-initialize-shadow-shadowrealm",
-      "title": "Runtime Semantics: HostInitializeShadowRealm ( realm )",
+      "id": "sec-hostinitializeshadowrealm",
+      "href": "https://tc39.es/proposal-shadowrealm/#sec-hostinitializeshadowrealm",
+      "title": "HostInitializeShadowRealm ( realm, context, O )",
       "level": 3,
       "number": "3.6.1"
+    },
+    {
+      "id": "sec-shadowrealm-host-requirements",
+      "href": "https://tc39.es/proposal-shadowrealm/#sec-shadowrealm-host-requirements",
+      "title": "Requirements on host-defined global objects",
+      "level": 3,
+      "number": "3.6.2"
     }
   ]
 }

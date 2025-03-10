@@ -5,7 +5,40 @@
   },
   "properties": [
     {
+      "name": "animation-duration",
+      "href": "https://drafts.csswg.org/css-animations-2/#propdef-animation-duration",
+      "value": "[ auto | <time [0s,∞]> ]#",
+      "initial": "auto",
+      "appliesTo": "all elements",
+      "inherited": "no",
+      "percentages": "N/A",
+      "computedValue": "list, each item either a time or the keyword auto",
+      "canonicalOrder": "per grammar",
+      "animationType": "not animatable",
+      "values": [
+        {
+          "name": "auto",
+          "prose": "For time-driven animations, equivalent to 0s. For scroll-driven animations, equivalent to the duration necessary to fill the timeline in consideration of animation-range, animation-delay, and animation-iteration-count. See Scroll-driven Animations § 4.1 Finite Timeline Calculations.",
+          "href": "https://drafts.csswg.org/css-animations-2/#valdef-animation-duration-auto",
+          "type": "value",
+          "value": "auto"
+        },
+        {
+          "name": "<time [0s,∞]>",
+          "prose": "For time-driven animations, specifies the length of time that an animation takes to complete one cycle. A negative <time> is invalid. For scroll-driven animations, treated as auto.",
+          "href": "https://drafts.csswg.org/css-animations-2/#valdef-animation-duration-time-0s",
+          "type": "value",
+          "value": "<time [0s,∞]>"
+        }
+      ],
+      "styleDeclaration": [
+        "animation-duration",
+        "animationDuration"
+      ]
+    },
+    {
       "name": "animation-composition",
+      "href": "https://drafts.csswg.org/css-animations-2/#propdef-animation-composition",
       "value": "<single-animation-composition>#",
       "initial": "replace",
       "appliesTo": "all elements",
@@ -21,17 +54,252 @@
     },
     {
       "name": "animation-timeline",
+      "href": "https://drafts.csswg.org/css-animations-2/#propdef-animation-timeline",
       "value": "<single-animation-timeline>#",
       "initial": "auto",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
-      "computedValue": "list, each item either a case-sensitive css identifier or the keywords none, auto.",
+      "computedValue": "list, each item either the keyword none, the keyword auto, a case-sensitive css identifier, a computed scroll() function, or a computed view() function",
       "canonicalOrder": "per grammar",
-      "animatable": "no",
+      "animationType": "not animatable",
       "styleDeclaration": [
         "animation-timeline",
         "animationTimeline"
+      ]
+    },
+    {
+      "name": "animation-trigger-type",
+      "href": "https://drafts.csswg.org/css-animations-2/#propdef-animation-trigger-type",
+      "value": "<single-animation-trigger-type>#",
+      "initial": "once",
+      "appliesTo": "all elements",
+      "inherited": "no",
+      "percentages": "N/A",
+      "computedValue": "list, each item a keyword as specified",
+      "canonicalOrder": "per grammar",
+      "animationType": "not animatable",
+      "values": [
+        {
+          "name": "once",
+          "prose": "The animation is triggered and played once and only once.",
+          "href": "https://drafts.csswg.org/css-animations-2/#valdef-animation-trigger-type-once",
+          "type": "value",
+          "value": "once"
+        },
+        {
+          "name": "repeat",
+          "prose": "The animation is played from the beginning each time it is triggered. When the trigger’s active interval is exited the animation is reset.",
+          "href": "https://drafts.csswg.org/css-animations-2/#valdef-animation-trigger-type-repeat",
+          "type": "value",
+          "value": "repeat"
+        },
+        {
+          "name": "alternate",
+          "prose": "The animation is played forwards, according to its playback direction, each time it is triggered. When the trigger’s active interval is exited the animation is reversed.",
+          "href": "https://drafts.csswg.org/css-animations-2/#valdef-animation-trigger-type-alternate",
+          "type": "value",
+          "value": "alternate"
+        },
+        {
+          "name": "state",
+          "prose": "The animation is triggered and played once. When the trigger’s active interval is exited the animation is paused. When the trigger’s active interval is re-entered the animation is resumed.",
+          "href": "https://drafts.csswg.org/css-animations-2/#valdef-animation-trigger-type-state",
+          "type": "value",
+          "value": "state"
+        }
+      ],
+      "styleDeclaration": [
+        "animation-trigger-type",
+        "animationTriggerType"
+      ]
+    },
+    {
+      "name": "animation-trigger-timeline",
+      "href": "https://drafts.csswg.org/css-animations-2/#propdef-animation-trigger-timeline",
+      "value": "<single-animation-timeline>#",
+      "initial": "auto",
+      "appliesTo": "all elements",
+      "inherited": "no",
+      "percentages": "N/A",
+      "computedValue": "list, each item either the keyword none, the keyword auto, a case-sensitive css identifier, a computed scroll() function, or a computed view() function",
+      "canonicalOrder": "per grammar",
+      "animationType": "not animatable",
+      "styleDeclaration": [
+        "animation-trigger-timeline",
+        "animationTriggerTimeline"
+      ]
+    },
+    {
+      "name": "animation-trigger-range",
+      "href": "https://drafts.csswg.org/css-animations-2/#propdef-animation-trigger-range",
+      "value": "[ <'animation-trigger-range-start'> <'animation-trigger-range-end'>? ]#",
+      "initial": "see individual properties",
+      "appliesTo": "see individual properties",
+      "inherited": "see individual properties",
+      "percentages": "see individual properties",
+      "computedValue": "see individual properties",
+      "animationType": "see individual properties",
+      "canonicalOrder": "per grammar",
+      "styleDeclaration": [
+        "animation-trigger-range",
+        "animationTriggerRange"
+      ]
+    },
+    {
+      "name": "animation-trigger-range-start",
+      "href": "https://drafts.csswg.org/css-animations-2/#propdef-animation-trigger-range-start",
+      "value": "[ normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]#",
+      "initial": "normal",
+      "appliesTo": "all elements",
+      "inherited": "no",
+      "percentages": "relative to the specified named timeline range if one was specified, else to the entire timeline",
+      "computedValue": "list, each item either the keyword normal or a timeline range and progress percentage",
+      "canonicalOrder": "per grammar",
+      "animationType": "not animatable",
+      "styleDeclaration": [
+        "animation-trigger-range-start",
+        "animationTriggerRangeStart"
+      ]
+    },
+    {
+      "name": "animation-trigger-range-end",
+      "href": "https://drafts.csswg.org/css-animations-2/#propdef-animation-trigger-range-end",
+      "value": "[ normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]#",
+      "initial": "normal",
+      "appliesTo": "all elements",
+      "inherited": "no",
+      "percentages": "relative to the specified named timeline range if one was specified, else to the entire timeline",
+      "computedValue": "list, each item either the keyword normal or a timeline range and progress percentage",
+      "canonicalOrder": "per grammar",
+      "animationType": "not animatable",
+      "styleDeclaration": [
+        "animation-trigger-range-end",
+        "animationTriggerRangeEnd"
+      ]
+    },
+    {
+      "name": "animation-trigger-exit-range",
+      "href": "https://drafts.csswg.org/css-animations-2/#propdef-animation-trigger-exit-range",
+      "value": "[ <'animation-trigger-exit-range-start'> <'animation-trigger-exit-range-end'>? ]#",
+      "initial": "see individual properties",
+      "appliesTo": "see individual properties",
+      "inherited": "see individual properties",
+      "percentages": "see individual properties",
+      "computedValue": "see individual properties",
+      "animationType": "see individual properties",
+      "canonicalOrder": "per grammar",
+      "styleDeclaration": [
+        "animation-trigger-exit-range",
+        "animationTriggerExitRange"
+      ]
+    },
+    {
+      "name": "animation-trigger-exit-range-start",
+      "href": "https://drafts.csswg.org/css-animations-2/#propdef-animation-trigger-exit-range-start",
+      "value": "[ auto | normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]#",
+      "initial": "auto",
+      "appliesTo": "all elements",
+      "inherited": "no",
+      "percentages": "relative to the specified named timeline range if one was specified, else to the entire timeline",
+      "computedValue": "list, each item either the keyword normal or a timeline range and progress percentage",
+      "canonicalOrder": "per grammar",
+      "animationType": "not animatable",
+      "values": [
+        {
+          "name": "auto",
+          "prose": "The start of the trigger’s exit range is equal to the start of its default range.",
+          "href": "https://drafts.csswg.org/css-animations-2/#valdef-animation-trigger-exit-range-start-auto",
+          "type": "value",
+          "value": "auto"
+        },
+        {
+          "name": "normal",
+          "prose": "The start of the trigger’s exit range is the start of its associated timeline; the start of the trigger’s active interval is determined as normal.",
+          "href": "https://drafts.csswg.org/css-animations-2/#valdef-animation-trigger-exit-range-start-normal",
+          "type": "value",
+          "value": "normal"
+        },
+        {
+          "name": "<length-percentage>",
+          "prose": "The exit range starts at the specified point on the timeline measuring from the start of the timeline.",
+          "href": "https://drafts.csswg.org/css-animations-2/#valdef-animation-trigger-exit-range-start-length-percentage",
+          "type": "value",
+          "value": "<length-percentage>"
+        },
+        {
+          "name": "<timeline-range-name> <length-percentage>?",
+          "prose": "The exit range starts at the specified point on the timeline measuring from the start of the specified named timeline range. If the <length-percentage> is omitted, it defaults to 0%.",
+          "href": "https://drafts.csswg.org/css-animations-2/#valdef-animation-trigger-exit-range-start-timeline-range-name-length-percentage",
+          "type": "value",
+          "value": "<timeline-range-name> <length-percentage>?"
+        }
+      ],
+      "styleDeclaration": [
+        "animation-trigger-exit-range-start",
+        "animationTriggerExitRangeStart"
+      ]
+    },
+    {
+      "name": "animation-trigger-exit-range-end",
+      "href": "https://drafts.csswg.org/css-animations-2/#propdef-animation-trigger-exit-range-end",
+      "value": "[ auto | normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]#",
+      "initial": "auto",
+      "appliesTo": "all elements",
+      "inherited": "no",
+      "percentages": "relative to the specified named timeline range if one was specified, else to the entire timeline",
+      "computedValue": "list, each item either the keyword normal or a timeline range and progress percentage",
+      "canonicalOrder": "per grammar",
+      "animationType": "not animatable",
+      "values": [
+        {
+          "name": "auto",
+          "prose": "The end of the trigger’s exit range is equal to the end of its default range.",
+          "href": "https://drafts.csswg.org/css-animations-2/#valdef-animation-trigger-exit-range-end-auto",
+          "type": "value",
+          "value": "auto"
+        },
+        {
+          "name": "normal",
+          "prose": "The end of the trigger’s exit range is the end of its associated timeline; the end of the trigger’s active interval is determined as normal.",
+          "href": "https://drafts.csswg.org/css-animations-2/#valdef-animation-trigger-exit-range-end-normal",
+          "type": "value",
+          "value": "normal"
+        },
+        {
+          "name": "<length-percentage>",
+          "prose": "The exit range ends at the specified point on the timeline measuring from the start of the timeline.",
+          "href": "https://drafts.csswg.org/css-animations-2/#valdef-animation-trigger-exit-range-end-length-percentage",
+          "type": "value",
+          "value": "<length-percentage>"
+        },
+        {
+          "name": "<timeline-range-name> <length-percentage>?",
+          "prose": "The exit range ends at the specified point on the timeline measuring from the start of the specified named timeline range. If the <length-percentage> is omitted, it defaults to 100%.",
+          "href": "https://drafts.csswg.org/css-animations-2/#valdef-animation-trigger-exit-range-end-timeline-range-name-length-percentage",
+          "type": "value",
+          "value": "<timeline-range-name> <length-percentage>?"
+        }
+      ],
+      "styleDeclaration": [
+        "animation-trigger-exit-range-end",
+        "animationTriggerExitRangeEnd"
+      ]
+    },
+    {
+      "name": "animation-trigger",
+      "href": "https://drafts.csswg.org/css-animations-2/#propdef-animation-trigger",
+      "value": "<single-animation-trigger>#",
+      "initial": "see individual properties",
+      "appliesTo": "all elements",
+      "inherited": "no",
+      "percentages": "N/A",
+      "computedValue": "see individual properties",
+      "canonicalOrder": "per grammar",
+      "animationType": "not animatable",
+      "styleDeclaration": [
+        "animation-trigger",
+        "animationTrigger"
       ]
     }
   ],
@@ -41,40 +309,47 @@
     {
       "name": "<single-animation-composition>",
       "value": "replace | add | accumulate",
+      "href": "https://drafts.csswg.org/css-animations-2/#typedef-single-animation-composition",
       "type": "type"
     },
     {
       "name": "<single-animation-timeline>",
+      "href": "https://drafts.csswg.org/css-animations-2/#typedef-single-animation-timeline",
       "type": "type",
-      "value": "auto | none | <custom-ident> | <scroll()> | <view()>",
+      "value": "auto | none | <dashed-ident> | <scroll()> | <view()>",
       "values": [
         {
           "name": "auto",
           "prose": "The animation’s timeline is a DocumentTimeline, more specifically the default document timeline.",
+          "href": "https://drafts.csswg.org/css-animations-2/#valdef-animation-timeline-auto",
           "type": "value",
           "value": "auto"
         },
         {
           "name": "none",
           "prose": "The animation is not associated with a timeline.",
+          "href": "https://drafts.csswg.org/css-animations-2/#valdef-animation-timeline-none",
           "type": "value",
           "value": "none"
         },
         {
-          "name": "<custom-ident>",
-          "prose": "If a named scroll progress timeline or view progress timeline is in scope on this element, use the referenced timeline as defined in Scroll-linked Animations § 4 Named Timeline Scoping. Otherwise the animation is not associated with a timeline.",
+          "name": "<dashed-ident>",
+          "prose": "If a named scroll progress timeline or view progress timeline is in scope on this element, use the referenced timeline as defined in Scroll-driven Animations § Declaring a Named Timeline’s Scope: the timeline-scope property. Otherwise the animation is not associated with a timeline.",
+          "href": "https://drafts.csswg.org/css-animations-2/#valdef-animation-timeline-dashed-ident",
           "type": "value",
-          "value": "<custom-ident>"
+          "value": "<dashed-ident>"
         },
         {
           "name": "<scroll()>",
-          "prose": "Use the scroll progress timeline indicated by the given scroll() function. See Scroll-linked Animations § 2.1.1 The scroll() notation.",
+          "prose": "Use the scroll progress timeline indicated by the given scroll() function. See Scroll-driven Animations § 2.2.1 The scroll() notation.",
+          "href": "https://drafts.csswg.org/css-animations-2/#valdef-animation-timeline-scroll",
           "type": "value",
           "value": "<scroll()>"
         },
         {
           "name": "<view()>",
-          "prose": "Use the view progress timeline indicated by the given view() function. See Scroll-linked Animations § 3.2.1 The view() notation.",
+          "prose": "Use the view progress timeline indicated by the given view() function. See Scroll-driven Animations § 3.3.1 The view() notation.",
+          "href": "https://drafts.csswg.org/css-animations-2/#valdef-animation-timeline-view",
           "type": "value",
           "value": "<view()>"
         }
@@ -82,8 +357,21 @@
     },
     {
       "name": "<single-animation>",
-      "value": "<time> || <easing-function> || <time> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state> || [ none | <keyframes-name> ] || <single-animation-timeline>",
+      "value": "<'animation-duration'> || <easing-function> || <'animation-delay'> || <single-animation-iteration-count> || <single-animation-direction> || <single-animation-fill-mode> || <single-animation-play-state> || [ none | <keyframes-name> ] || <single-animation-timeline>",
+      "href": "https://drafts.csswg.org/css-animations-2/#typedef-single-animation",
       "type": "type"
+    },
+    {
+      "name": "<single-animation-trigger-type>",
+      "value": "once | repeat | alternate | state",
+      "href": "https://drafts.csswg.org/css-animations-2/#typedef-single-animation-trigger-type",
+      "type": "type"
+    },
+    {
+      "name": "<single-animation-trigger>",
+      "href": "https://drafts.csswg.org/css-animations-2/#typedef-single-animation-trigger",
+      "type": "type",
+      "value": "<single-animation-trigger-type> || [ none | auto | [ [ <dashed-ident> | <scroll()> | <view()> ] [ normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]{0,4} ] ]"
     }
   ]
 }

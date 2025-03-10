@@ -1,0 +1,4863 @@
+{
+  "spec": {
+    "title": "Fenced Frame",
+    "url": "https://wicg.github.io/fenced-frame/"
+  },
+  "dfns": [
+    {
+      "id": "elementdef-fencedframe",
+      "href": "https://wicg.github.io/fenced-frame/#elementdef-fencedframe",
+      "linkingText": [
+        "fencedframe"
+      ],
+      "localLinkingText": [],
+      "type": "element",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-fencedframe-element",
+        "href": "https://wicg.github.io/fenced-frame/#the-fencedframe-element",
+        "title": "The fencedframe element",
+        "number": "2"
+      },
+      "definedIn": "heading"
+    },
+    {
+      "id": "htmlfencedframeelement",
+      "href": "https://wicg.github.io/fenced-frame/#htmlfencedframeelement",
+      "linkingText": [
+        "HTMLFencedFrameElement"
+      ],
+      "localLinkingText": [],
+      "type": "interface",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-fencedframe-element",
+        "href": "https://wicg.github.io/fenced-frame/#the-fencedframe-element",
+        "title": "The fencedframe element",
+        "number": "2"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-htmlfencedframeelement-htmlfencedframeelement",
+      "href": "https://wicg.github.io/fenced-frame/#dom-htmlfencedframeelement-htmlfencedframeelement",
+      "linkingText": [
+        "HTMLFencedFrameElement()",
+        "constructor()"
+      ],
+      "localLinkingText": [],
+      "type": "constructor",
+      "for": [
+        "HTMLFencedFrameElement"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-fencedframe-element",
+        "href": "https://wicg.github.io/fenced-frame/#the-fencedframe-element",
+        "title": "The fencedframe element",
+        "number": "2"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "fencedframe-config",
+      "href": "https://wicg.github.io/fenced-frame/#fencedframe-config",
+      "linkingText": [
+        "config"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fencedframe"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-fencedframe-element",
+        "href": "https://wicg.github.io/fenced-frame/#the-fencedframe-element",
+        "title": "The fencedframe element",
+        "number": "2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "fencedframe-fencedframe-sandboxing-flag-set",
+      "href": "https://wicg.github.io/fenced-frame/#fencedframe-fencedframe-sandboxing-flag-set",
+      "linkingText": [
+        "fencedframe sandboxing flag set"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fencedframe"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-fencedframe-element",
+        "href": "https://wicg.github.io/fenced-frame/#the-fencedframe-element",
+        "title": "The fencedframe element",
+        "number": "2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-htmlfencedframeelement-config",
+      "href": "https://wicg.github.io/fenced-frame/#dom-htmlfencedframeelement-config",
+      "linkingText": [
+        "config"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "HTMLFencedFrameElement"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-fencedframe-element",
+        "href": "https://wicg.github.io/fenced-frame/#the-fencedframe-element",
+        "title": "The fencedframe element",
+        "number": "2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "element-attrdef-fencedframe-allow",
+      "href": "https://wicg.github.io/fenced-frame/#element-attrdef-fencedframe-allow",
+      "linkingText": [
+        "allow"
+      ],
+      "localLinkingText": [],
+      "type": "element-attr",
+      "for": [
+        "fencedframe"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-fencedframe-element",
+        "href": "https://wicg.github.io/fenced-frame/#the-fencedframe-element",
+        "title": "The fencedframe element",
+        "number": "2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "element-attrdef-fencedframe-sandbox",
+      "href": "https://wicg.github.io/fenced-frame/#element-attrdef-fencedframe-sandbox",
+      "linkingText": [
+        "sandbox"
+      ],
+      "localLinkingText": [],
+      "type": "element-attr",
+      "for": [
+        "fencedframe"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-fencedframe-element",
+        "href": "https://wicg.github.io/fenced-frame/#the-fencedframe-element",
+        "title": "The fencedframe element",
+        "number": "2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-htmlfencedframeelement-allow",
+      "href": "https://wicg.github.io/fenced-frame/#dom-htmlfencedframeelement-allow",
+      "linkingText": [
+        "allow"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "HTMLFencedFrameElement"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-fencedframe-element",
+        "href": "https://wicg.github.io/fenced-frame/#the-fencedframe-element",
+        "title": "The fencedframe element",
+        "number": "2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-htmlfencedframeelement-sandbox",
+      "href": "https://wicg.github.io/fenced-frame/#dom-htmlfencedframeelement-sandbox",
+      "linkingText": [
+        "sandbox"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "HTMLFencedFrameElement"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-fencedframe-element",
+        "href": "https://wicg.github.io/fenced-frame/#the-fencedframe-element",
+        "title": "The fencedframe element",
+        "number": "2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "element-attrdef-fencedframe-width",
+      "href": "https://wicg.github.io/fenced-frame/#element-attrdef-fencedframe-width",
+      "linkingText": [
+        "width"
+      ],
+      "localLinkingText": [],
+      "type": "element-attr",
+      "for": [
+        "fencedframe"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dimension-attributes",
+        "href": "https://wicg.github.io/fenced-frame/#dimension-attributes",
+        "title": "Dimension attributes",
+        "number": "2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "element-attrdef-fencedframe-height",
+      "href": "https://wicg.github.io/fenced-frame/#element-attrdef-fencedframe-height",
+      "linkingText": [
+        "height"
+      ],
+      "localLinkingText": [],
+      "type": "element-attr",
+      "for": [
+        "fencedframe"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dimension-attributes",
+        "href": "https://wicg.github.io/fenced-frame/#dimension-attributes",
+        "title": "Dimension attributes",
+        "number": "2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-htmlfencedframeelement-width",
+      "href": "https://wicg.github.io/fenced-frame/#dom-htmlfencedframeelement-width",
+      "linkingText": [
+        "width"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "HTMLFencedFrameElement"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dimension-attributes",
+        "href": "https://wicg.github.io/fenced-frame/#dimension-attributes",
+        "title": "Dimension attributes",
+        "number": "2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-htmlfencedframeelement-height",
+      "href": "https://wicg.github.io/fenced-frame/#dom-htmlfencedframeelement-height",
+      "linkingText": [
+        "height"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "HTMLFencedFrameElement"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dimension-attributes",
+        "href": "https://wicg.github.io/fenced-frame/#dimension-attributes",
+        "title": "Dimension attributes",
+        "number": "2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "traversable-navigable-fenced-frame-config-mapping",
+      "href": "https://wicg.github.io/fenced-frame/#traversable-navigable-fenced-frame-config-mapping",
+      "linkingText": [
+        "fenced frame config mapping"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "traversable navigable"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-map",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-map",
+        "title": "Fenced frame config mapping",
+        "number": "2.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "fenced-frame-config-mapping",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-mapping",
+      "linkingText": [
+        "fenced frame config mapping"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-map",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-map",
+        "title": "Fenced frame config mapping",
+        "number": "2.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "fenced-frame-config-mapping-pending-config-mapping",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-mapping-pending-config-mapping",
+      "linkingText": [
+        "pending config mapping"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config mapping"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-map",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-map",
+        "title": "Fenced frame config mapping",
+        "number": "2.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-config-mapping-finalized-config-mapping",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-mapping-finalized-config-mapping",
+      "linkingText": [
+        "finalized config mapping"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config mapping"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-map",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-map",
+        "title": "Fenced frame config mapping",
+        "number": "2.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-config-mapping-nested-config-mapping",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-mapping-nested-config-mapping",
+      "linkingText": [
+        "nested config mapping"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config mapping"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-map",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-map",
+        "title": "Fenced frame config mapping",
+        "number": "2.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-config-mapping-maximum-number-of-configs",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-mapping-maximum-number-of-configs",
+      "linkingText": [
+        "maximum number of configs"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config mapping"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-map",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-map",
+        "title": "Fenced frame config mapping",
+        "number": "2.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "fenced-frame-config-mapping-store-a-pending-config",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-mapping-store-a-pending-config",
+      "linkingText": [
+        "store a pending config"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config mapping"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-map",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-map",
+        "title": "Fenced frame config mapping",
+        "number": "2.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "fenced-frame-config-mapping-finalize-a-pending-config",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-mapping-finalize-a-pending-config",
+      "linkingText": [
+        "finalize a pending config"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config mapping"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-map",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-map",
+        "title": "Fenced frame config mapping",
+        "number": "2.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "fenced-frame-config-mapping-store-nested-configs",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-mapping-store-nested-configs",
+      "linkingText": [
+        "store nested configs"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config mapping"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-map",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-map",
+        "title": "Fenced frame config mapping",
+        "number": "2.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "fenced-frame-config-mapping-find-a-config",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-mapping-find-a-config",
+      "linkingText": [
+        "find a config"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config mapping"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-map",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-map",
+        "title": "Fenced frame config mapping",
+        "number": "2.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "fencedframeconfig-visibility",
+      "href": "https://wicg.github.io/fenced-frame/#fencedframeconfig-visibility",
+      "linkingText": [
+        "visibility"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fencedframeconfig"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "visibility-opaque",
+      "href": "https://wicg.github.io/fenced-frame/#visibility-opaque",
+      "linkingText": [
+        "opaque"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "visibility"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "visibility-transparent",
+      "href": "https://wicg.github.io/fenced-frame/#visibility-transparent",
+      "linkingText": [
+        "transparent"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "visibility"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "fencedframetype-size",
+      "href": "https://wicg.github.io/fenced-frame/#fencedframetype-size",
+      "linkingText": [
+        "size"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fencedframetype"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "size-width",
+      "href": "https://wicg.github.io/fenced-frame/#size-width",
+      "linkingText": [
+        "width"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "size"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "size-height",
+      "href": "https://wicg.github.io/fenced-frame/#size-height",
+      "linkingText": [
+        "height"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "size"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fencedframetype-interest-group-descriptor",
+      "href": "https://wicg.github.io/fenced-frame/#fencedframetype-interest-group-descriptor",
+      "linkingText": [
+        "interest group descriptor"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fencedframetype"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "interest-group-descriptor-owner",
+      "href": "https://wicg.github.io/fenced-frame/#interest-group-descriptor-owner",
+      "linkingText": [
+        "owner"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "interest group descriptor"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "interest-group-descriptor-name",
+      "href": "https://wicg.github.io/fenced-frame/#interest-group-descriptor-name",
+      "linkingText": [
+        "name"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "interest group descriptor"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fencedframetype-permissions-policy-behavior",
+      "href": "https://wicg.github.io/fenced-frame/#fencedframetype-permissions-policy-behavior",
+      "linkingText": [
+        "permissions policy behavior"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fencedframetype"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "permissions-policy-behavior-fixed",
+      "href": "https://wicg.github.io/fenced-frame/#permissions-policy-behavior-fixed",
+      "linkingText": [
+        "fixed"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "permissions policy behavior"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "permissions-policy-behavior-flexible",
+      "href": "https://wicg.github.io/fenced-frame/#permissions-policy-behavior-flexible",
+      "linkingText": [
+        "flexible"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "permissions policy behavior"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "fencedframetype-default-fenced-frame-effective-sandboxing-flags",
+      "href": "https://wicg.github.io/fenced-frame/#fencedframetype-default-fenced-frame-effective-sandboxing-flags",
+      "linkingText": [
+        "default fenced frame effective sandboxing flags"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fencedframetype"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "fencedframetype-pending-event",
+      "href": "https://wicg.github.io/fenced-frame/#fencedframetype-pending-event",
+      "linkingText": [
+        "pending event"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fencedframetype"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "pending-event-destination",
+      "href": "https://wicg.github.io/fenced-frame/#pending-event-destination",
+      "linkingText": [
+        "destination"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "pending event"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "pending-event-event",
+      "href": "https://wicg.github.io/fenced-frame/#pending-event-event",
+      "linkingText": [
+        "event"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "pending event"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "pending-event-request-initiator",
+      "href": "https://wicg.github.io/fenced-frame/#pending-event-request-initiator",
+      "linkingText": [
+        "request initiator"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "pending event"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "pending-event-initiator-referrer-policy",
+      "href": "https://wicg.github.io/fenced-frame/#pending-event-initiator-referrer-policy",
+      "linkingText": [
+        "initiator referrer policy"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "pending event"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fencedframetype-reporting-destination-info",
+      "href": "https://wicg.github.io/fenced-frame/#fencedframetype-reporting-destination-info",
+      "linkingText": [
+        "reporting destination info"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fencedframetype"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "reporting-destination-info-reporting-url-declarer-origin",
+      "href": "https://wicg.github.io/fenced-frame/#reporting-destination-info-reporting-url-declarer-origin",
+      "linkingText": [
+        "reporting url declarer origin"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "reporting destination info"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "reporting-destination-info-reporting-url-map",
+      "href": "https://wicg.github.io/fenced-frame/#reporting-destination-info-reporting-url-map",
+      "linkingText": [
+        "reporting url map"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "reporting destination info"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "reporting-destination-info-reporting-macro-map",
+      "href": "https://wicg.github.io/fenced-frame/#reporting-destination-info-reporting-macro-map",
+      "linkingText": [
+        "reporting macro map"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "reporting destination info"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fencedframetype-fenced-frame-reporting-map",
+      "href": "https://wicg.github.io/fenced-frame/#fencedframetype-fenced-frame-reporting-map",
+      "linkingText": [
+        "fenced frame reporting map"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fencedframetype"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "fencedframetype-untrusted-network-status",
+      "href": "https://wicg.github.io/fenced-frame/#fencedframetype-untrusted-network-status",
+      "linkingText": [
+        "untrusted network status"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fencedframetype"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "untrusted-network-status-enabled",
+      "href": "https://wicg.github.io/fenced-frame/#untrusted-network-status-enabled",
+      "linkingText": [
+        "enabled"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "untrusted network status"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "untrusted-network-status-disabled-for-this-tree",
+      "href": "https://wicg.github.io/fenced-frame/#untrusted-network-status-disabled-for-this-tree",
+      "linkingText": [
+        "disabled for this tree"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "untrusted network status"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "untrusted-network-status-disabled-for-this-tree-and-fenced-subtrees",
+      "href": "https://wicg.github.io/fenced-frame/#untrusted-network-status-disabled-for-this-tree-and-fenced-subtrees",
+      "linkingText": [
+        "disabled for this tree and fenced subtrees"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "untrusted network status"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "finalize-a-reporting-destination",
+      "href": "https://wicg.github.io/fenced-frame/#finalize-a-reporting-destination",
+      "linkingText": [
+        "finalize a reporting destination"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "fencedframetype-fenced-frame-reporting-metadata",
+      "href": "https://wicg.github.io/fenced-frame/#fencedframetype-fenced-frame-reporting-metadata",
+      "linkingText": [
+        "fenced frame reporting metadata"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fencedframetype"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "fenced-frame-reporting-metadata-fenced-frame-reporting-map",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-reporting-metadata-fenced-frame-reporting-map",
+      "linkingText": [
+        "fenced frame reporting map"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame reporting metadata"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-reporting-metadata-direct-seller-is-seller",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-reporting-metadata-direct-seller-is-seller",
+      "linkingText": [
+        "direct seller is seller"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame reporting metadata"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-reporting-metadata-allowed-reporting-origins",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-reporting-metadata-allowed-reporting-origins",
+      "linkingText": [
+        "allowed reporting origins"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame reporting metadata"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-reporting-metadata-attempted-custom-url-report-to-disallowed-origin",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-reporting-metadata-attempted-custom-url-report-to-disallowed-origin",
+      "linkingText": [
+        "attempted custom url report to disallowed origin"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame reporting metadata"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fencedframetype-automatic-beacon-event-type",
+      "href": "https://wicg.github.io/fenced-frame/#fencedframetype-automatic-beacon-event-type",
+      "linkingText": [
+        "automatic beacon event type"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fencedframetype"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "automatic-beacon-event-type-reservedtop_navigation_start",
+      "href": "https://wicg.github.io/fenced-frame/#automatic-beacon-event-type-reservedtop_navigation_start",
+      "linkingText": [
+        "reserved.top_navigation_start"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "automatic beacon event type"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "automatic-beacon-event-type-reservedtop_navigation_commit",
+      "href": "https://wicg.github.io/fenced-frame/#automatic-beacon-event-type-reservedtop_navigation_commit",
+      "linkingText": [
+        "reserved.top_navigation_commit"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "automatic beacon event type"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "automatic-beacon-event-type-reservedtop_navigation",
+      "href": "https://wicg.github.io/fenced-frame/#automatic-beacon-event-type-reservedtop_navigation",
+      "linkingText": [
+        "reserved.top_navigation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "automatic beacon event type"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "fencedframetype-fenced-frame-reporter",
+      "href": "https://wicg.github.io/fenced-frame/#fencedframetype-fenced-frame-reporter",
+      "linkingText": [
+        "fenced frame reporter"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fencedframetype"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "fenced-frame-reporter-fenced-frame-reporting-metadata-reference",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-reporter-fenced-frame-reporting-metadata-reference",
+      "linkingText": [
+        "fenced frame reporting metadata reference"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame reporter"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fencedframetype-destination-enum-event",
+      "href": "https://wicg.github.io/fenced-frame/#fencedframetype-destination-enum-event",
+      "linkingText": [
+        "destination enum event"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fencedframetype"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "destination-enum-event-type",
+      "href": "https://wicg.github.io/fenced-frame/#destination-enum-event-type",
+      "linkingText": [
+        "type"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "destination enum event"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "destination-enum-event-data",
+      "href": "https://wicg.github.io/fenced-frame/#destination-enum-event-data",
+      "linkingText": [
+        "data"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "destination enum event"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "destination-enum-event-attributionreportingenabled",
+      "href": "https://wicg.github.io/fenced-frame/#destination-enum-event-attributionreportingenabled",
+      "linkingText": [
+        "attributionReportingEnabled"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "destination enum event"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "destination-enum-event-attributionreportingcontextorigin",
+      "href": "https://wicg.github.io/fenced-frame/#destination-enum-event-attributionreportingcontextorigin",
+      "linkingText": [
+        "attributionReportingContextOrigin"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "destination enum event"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fencedframetype-destination-url-event",
+      "href": "https://wicg.github.io/fenced-frame/#fencedframetype-destination-url-event",
+      "linkingText": [
+        "destination URL event"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fencedframetype"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "fencedframetype-automatic-beacon-event",
+      "href": "https://wicg.github.io/fenced-frame/#fencedframetype-automatic-beacon-event",
+      "linkingText": [
+        "automatic beacon event"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fencedframetype"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "automatic-beacon-event-type",
+      "href": "https://wicg.github.io/fenced-frame/#automatic-beacon-event-type",
+      "linkingText": [
+        "type"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "automatic beacon event"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "automatic-beacon-event-data",
+      "href": "https://wicg.github.io/fenced-frame/#automatic-beacon-event-data",
+      "linkingText": [
+        "data"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "automatic beacon event"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "automatic-beacon-event-attributionreportingenabled",
+      "href": "https://wicg.github.io/fenced-frame/#automatic-beacon-event-attributionreportingenabled",
+      "linkingText": [
+        "attributionReportingEnabled"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "automatic beacon event"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "automatic-beacon-event-attributionreportingcontextorigin",
+      "href": "https://wicg.github.io/fenced-frame/#automatic-beacon-event-attributionreportingcontextorigin",
+      "linkingText": [
+        "attributionReportingContextOrigin"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "automatic beacon event"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fencedframetype-destination-event",
+      "href": "https://wicg.github.io/fenced-frame/#fencedframetype-destination-event",
+      "linkingText": [
+        "destination event"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fencedframetype"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "send-a-beacon",
+      "href": "https://wicg.github.io/fenced-frame/#send-a-beacon",
+      "linkingText": [
+        "send a beacon"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "report-an-event",
+      "href": "https://wicg.github.io/fenced-frame/#report-an-event",
+      "linkingText": [
+        "report an event"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "report-a-private-aggregation-event",
+      "href": "https://wicg.github.io/fenced-frame/#report-a-private-aggregation-event",
+      "linkingText": [
+        "report a private aggregation event"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "fencedframetype-exfiltration-budget-metadata",
+      "href": "https://wicg.github.io/fenced-frame/#fencedframetype-exfiltration-budget-metadata",
+      "linkingText": [
+        "exfiltration budget metadata"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fencedframetype"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "exfiltration-budget-metadata-origin",
+      "href": "https://wicg.github.io/fenced-frame/#exfiltration-budget-metadata-origin",
+      "linkingText": [
+        "origin"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "exfiltration budget metadata"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "exfiltration-budget-metadata-amount-to-debit",
+      "href": "https://wicg.github.io/fenced-frame/#exfiltration-budget-metadata-amount-to-debit",
+      "linkingText": [
+        "amount to debit"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "exfiltration budget metadata"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fencedframetype-exfiltration-budget-metadata-reference",
+      "href": "https://wicg.github.io/fenced-frame/#fencedframetype-exfiltration-budget-metadata-reference",
+      "linkingText": [
+        "exfiltration budget metadata reference"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fencedframetype"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "exfiltration-budget-metadata-reference-origin",
+      "href": "https://wicg.github.io/fenced-frame/#exfiltration-budget-metadata-reference-origin",
+      "linkingText": [
+        "origin"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "exfiltration budget metadata reference"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "exfiltration-budget-metadata-reference-amount-to-debit-reference",
+      "href": "https://wicg.github.io/fenced-frame/#exfiltration-budget-metadata-reference-amount-to-debit-reference",
+      "linkingText": [
+        "amount to debit reference"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "exfiltration budget metadata reference"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "partition-nonce",
+      "href": "https://wicg.github.io/fenced-frame/#partition-nonce",
+      "linkingText": [
+        "partition nonce"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "fenced-frame-config",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config",
+      "linkingText": [
+        "fenced frame config"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "fenced-frame-config-mapped-url",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-mapped-url",
+      "linkingText": [
+        "mapped url"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "mapped-url-value",
+      "href": "https://wicg.github.io/fenced-frame/#mapped-url-value",
+      "linkingText": [
+        "value"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "mapped url"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "mapped-url-visibility",
+      "href": "https://wicg.github.io/fenced-frame/#mapped-url-visibility",
+      "linkingText": [
+        "visibility"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "mapped url"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-config-container-size",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-container-size",
+      "linkingText": [
+        "container size"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-config-content-size",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-content-size",
+      "linkingText": [
+        "content size"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "content-size-value",
+      "href": "https://wicg.github.io/fenced-frame/#content-size-value",
+      "linkingText": [
+        "value"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "content size"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "content-size-visibility",
+      "href": "https://wicg.github.io/fenced-frame/#content-size-visibility",
+      "linkingText": [
+        "visibility"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "content size"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-config-interest-group-descriptor",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-interest-group-descriptor",
+      "linkingText": [
+        "interest group descriptor"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "interest-group-descriptor-value",
+      "href": "https://wicg.github.io/fenced-frame/#interest-group-descriptor-value",
+      "linkingText": [
+        "value"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "interest group descriptor"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "interest-group-descriptor-visibility",
+      "href": "https://wicg.github.io/fenced-frame/#interest-group-descriptor-visibility",
+      "linkingText": [
+        "visibility"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "interest group descriptor"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-config-on-navigate-callback",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-on-navigate-callback",
+      "linkingText": [
+        "on navigate callback"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-config-effective-sandboxing-flags",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-effective-sandboxing-flags",
+      "linkingText": [
+        "effective sandboxing flags"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "effective-sandboxing-flags-value",
+      "href": "https://wicg.github.io/fenced-frame/#effective-sandboxing-flags-value",
+      "linkingText": [
+        "value"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "effective sandboxing flags"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "effective-sandboxing-flags-visibility",
+      "href": "https://wicg.github.io/fenced-frame/#effective-sandboxing-flags-visibility",
+      "linkingText": [
+        "visibility"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "effective sandboxing flags"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-config-effective-enabled-permissions",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-effective-enabled-permissions",
+      "linkingText": [
+        "effective enabled permissions"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "effective-enabled-permissions-value",
+      "href": "https://wicg.github.io/fenced-frame/#effective-enabled-permissions-value",
+      "linkingText": [
+        "value"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "effective enabled permissions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "effective-enabled-permissions-visibility",
+      "href": "https://wicg.github.io/fenced-frame/#effective-enabled-permissions-visibility",
+      "linkingText": [
+        "visibility"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "effective enabled permissions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-config-fenced-frame-reporting-metadata",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-fenced-frame-reporting-metadata",
+      "linkingText": [
+        "fenced frame reporting metadata"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-reporting-metadata-value",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-reporting-metadata-value",
+      "linkingText": [
+        "value"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame reporting metadata"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-reporting-metadata-visibility",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-reporting-metadata-visibility",
+      "linkingText": [
+        "visibility"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame reporting metadata"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-config-exfiltration-budget-metadata",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-exfiltration-budget-metadata",
+      "linkingText": [
+        "exfiltration budget metadata"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "exfiltration-budget-metadata-value",
+      "href": "https://wicg.github.io/fenced-frame/#exfiltration-budget-metadata-value",
+      "linkingText": [
+        "value"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "exfiltration budget metadata"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "exfiltration-budget-metadata-visibility",
+      "href": "https://wicg.github.io/fenced-frame/#exfiltration-budget-metadata-visibility",
+      "linkingText": [
+        "visibility"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "exfiltration budget metadata"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-config-nested-configs",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-nested-configs",
+      "linkingText": [
+        "nested configs"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "nested-configs-value",
+      "href": "https://wicg.github.io/fenced-frame/#nested-configs-value",
+      "linkingText": [
+        "value"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "nested configs"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "nested-configs-visibility",
+      "href": "https://wicg.github.io/fenced-frame/#nested-configs-visibility",
+      "linkingText": [
+        "visibility"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "nested configs"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-config-embedder-shared-storage-context",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-embedder-shared-storage-context",
+      "linkingText": [
+        "embedder shared storage context"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-config-is-ad-component",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-is-ad-component",
+      "linkingText": [
+        "is ad component"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-config-cross-origin-reporting-allowed",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-cross-origin-reporting-allowed",
+      "linkingText": [
+        "cross-origin reporting allowed"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-struct",
+        "title": "The fenced frame config struct",
+        "number": "2.3.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-config-instance",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance",
+      "linkingText": [
+        "fenced frame config instance"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-instance-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-struct",
+        "title": "The fenced frame config instance struct",
+        "number": "2.3.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "fenced-frame-config-instance-mapped-url",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-mapped-url",
+      "linkingText": [
+        "mapped url"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config instance"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-instance-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-struct",
+        "title": "The fenced frame config instance struct",
+        "number": "2.3.4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-config-instance-container-size",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-container-size",
+      "linkingText": [
+        "container size"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config instance"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-instance-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-struct",
+        "title": "The fenced frame config instance struct",
+        "number": "2.3.4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-config-instance-content-size",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-content-size",
+      "linkingText": [
+        "content size"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config instance"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-instance-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-struct",
+        "title": "The fenced frame config instance struct",
+        "number": "2.3.4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-config-instance-interest-group-descriptor",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-interest-group-descriptor",
+      "linkingText": [
+        "interest group descriptor"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config instance"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-instance-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-struct",
+        "title": "The fenced frame config instance struct",
+        "number": "2.3.4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-config-instance-on-navigate-callback",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-on-navigate-callback",
+      "linkingText": [
+        "on navigate callback"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config instance"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-instance-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-struct",
+        "title": "The fenced frame config instance struct",
+        "number": "2.3.4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-config-instance-effective-sandboxing-flags",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-effective-sandboxing-flags",
+      "linkingText": [
+        "effective sandboxing flags"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config instance"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-instance-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-struct",
+        "title": "The fenced frame config instance struct",
+        "number": "2.3.4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-config-instance-permissions-policy-behavior",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-permissions-policy-behavior",
+      "linkingText": [
+        "permissions policy behavior"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config instance"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-instance-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-struct",
+        "title": "The fenced frame config instance struct",
+        "number": "2.3.4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-config-instance-effective-enabled-permissions",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-effective-enabled-permissions",
+      "linkingText": [
+        "effective enabled permissions"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config instance"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-instance-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-struct",
+        "title": "The fenced frame config instance struct",
+        "number": "2.3.4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-config-instance-fenced-frame-reporter",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-fenced-frame-reporter",
+      "linkingText": [
+        "fenced frame reporter"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config instance"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-instance-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-struct",
+        "title": "The fenced frame config instance struct",
+        "number": "2.3.4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-config-instance-exfiltration-budget-metadata-reference",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-exfiltration-budget-metadata-reference",
+      "linkingText": [
+        "exfiltration budget metadata reference"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config instance"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-instance-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-struct",
+        "title": "The fenced frame config instance struct",
+        "number": "2.3.4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-config-instance-nested-configs",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-nested-configs",
+      "linkingText": [
+        "nested configs"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config instance"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-instance-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-struct",
+        "title": "The fenced frame config instance struct",
+        "number": "2.3.4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-config-instance-partition-nonce",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-partition-nonce",
+      "linkingText": [
+        "partition nonce"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config instance"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-instance-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-struct",
+        "title": "The fenced frame config instance struct",
+        "number": "2.3.4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-config-instance-embedder-shared-storage-context",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-embedder-shared-storage-context",
+      "linkingText": [
+        "embedder shared storage context"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config instance"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-instance-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-struct",
+        "title": "The fenced frame config instance struct",
+        "number": "2.3.4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-config-instance-is-ad-component",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-is-ad-component",
+      "linkingText": [
+        "is ad component"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config instance"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-instance-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-struct",
+        "title": "The fenced frame config instance struct",
+        "number": "2.3.4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-config-instance-untrusted-network-status",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-untrusted-network-status",
+      "linkingText": [
+        "untrusted network status"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config instance"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-instance-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-struct",
+        "title": "The fenced frame config instance struct",
+        "number": "2.3.4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-config-instance-on-network-disabled-promises",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-on-network-disabled-promises",
+      "linkingText": [
+        "on network disabled promises"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config instance"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-instance-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-struct",
+        "title": "The fenced frame config instance struct",
+        "number": "2.3.4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fenced-frame-config-instance-cross-origin-reporting-allowed",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-cross-origin-reporting-allowed",
+      "linkingText": [
+        "cross-origin reporting allowed"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced frame config instance"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-instance-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-struct",
+        "title": "The fenced frame config instance struct",
+        "number": "2.3.4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "instantiate-a-config",
+      "href": "https://wicg.github.io/fenced-frame/#instantiate-a-config",
+      "linkingText": [
+        "instantiate a config"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-instance-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-struct",
+        "title": "The fenced frame config instance struct",
+        "number": "2.3.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "browsing-context-fenced-frame-config-instance",
+      "href": "https://wicg.github.io/fenced-frame/#browsing-context-fenced-frame-config-instance",
+      "linkingText": [
+        "fenced frame config instance"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "browsing context"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-instance-struct",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-instance-struct",
+        "title": "The fenced frame config instance struct",
+        "number": "2.3.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "enumdef-opaqueproperty",
+      "href": "https://wicg.github.io/fenced-frame/#enumdef-opaqueproperty",
+      "linkingText": [
+        "OpaqueProperty"
+      ],
+      "localLinkingText": [],
+      "type": "enum",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-interface",
+        "title": "The FencedFrameConfig interface",
+        "number": "2.3.5"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-opaqueproperty-opaque",
+      "href": "https://wicg.github.io/fenced-frame/#dom-opaqueproperty-opaque",
+      "linkingText": [
+        "\"opaque\""
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "OpaqueProperty"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-interface",
+        "title": "The FencedFrameConfig interface",
+        "number": "2.3.5"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "fencedframeconfig",
+      "href": "https://wicg.github.io/fenced-frame/#fencedframeconfig",
+      "linkingText": [
+        "FencedFrameConfig"
+      ],
+      "localLinkingText": [],
+      "type": "interface",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-interface",
+        "title": "The FencedFrameConfig interface",
+        "number": "2.3.5"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-fencedframeconfig-fencedframeconfig-url-url",
+      "href": "https://wicg.github.io/fenced-frame/#dom-fencedframeconfig-fencedframeconfig-url-url",
+      "linkingText": [
+        "url"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "FencedFrameConfig/FencedFrameConfig(url)",
+        "FencedFrameConfig/constructor(url)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-interface",
+        "title": "The FencedFrameConfig interface",
+        "number": "2.3.5"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-fencedframeconfig-setsharedstoragecontext-contextstring-contextstring",
+      "href": "https://wicg.github.io/fenced-frame/#dom-fencedframeconfig-setsharedstoragecontext-contextstring-contextstring",
+      "linkingText": [
+        "contextString"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "FencedFrameConfig/setSharedStorageContext(contextString)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-interface",
+        "title": "The FencedFrameConfig interface",
+        "number": "2.3.5"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "fencedframeconfig-url",
+      "href": "https://wicg.github.io/fenced-frame/#fencedframeconfig-url",
+      "linkingText": [
+        "url"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fencedframeconfig"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-interface",
+        "title": "The FencedFrameConfig interface",
+        "number": "2.3.5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "fencedframeconfig-urn",
+      "href": "https://wicg.github.io/fenced-frame/#fencedframeconfig-urn",
+      "linkingText": [
+        "urn"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fencedframeconfig"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-interface",
+        "title": "The FencedFrameConfig interface",
+        "number": "2.3.5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "fencedframeconfig-sharedstoragecontext",
+      "href": "https://wicg.github.io/fenced-frame/#fencedframeconfig-sharedstoragecontext",
+      "linkingText": [
+        "sharedStorageContext"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fencedframeconfig"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-interface",
+        "title": "The FencedFrameConfig interface",
+        "number": "2.3.5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-fencedframeconfig-fencedframeconfig",
+      "href": "https://wicg.github.io/fenced-frame/#dom-fencedframeconfig-fencedframeconfig",
+      "linkingText": [
+        "FencedFrameConfig(url)",
+        "constructor(url)"
+      ],
+      "localLinkingText": [],
+      "type": "constructor",
+      "for": [
+        "FencedFrameConfig"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-interface",
+        "title": "The FencedFrameConfig interface",
+        "number": "2.3.5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-fencedframeconfig-setsharedstoragecontext",
+      "href": "https://wicg.github.io/fenced-frame/#dom-fencedframeconfig-setsharedstoragecontext",
+      "linkingText": [
+        "setSharedStorageContext(contextString)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "FencedFrameConfig"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-interface",
+        "title": "The FencedFrameConfig interface",
+        "number": "2.3.5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "typedefdef-urnorconfig",
+      "href": "https://wicg.github.io/fenced-frame/#typedefdef-urnorconfig",
+      "linkingText": [
+        "UrnOrConfig"
+      ],
+      "localLinkingText": [],
+      "type": "typedef",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-interface",
+        "title": "The FencedFrameConfig interface",
+        "number": "2.3.5"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-navigator-deprecatedreplaceinurn-urnorconfig-replacements-urnorconfig",
+      "href": "https://wicg.github.io/fenced-frame/#dom-navigator-deprecatedreplaceinurn-urnorconfig-replacements-urnorconfig",
+      "linkingText": [
+        "urnOrConfig"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Navigator/deprecatedReplaceInURN(urnOrConfig, replacements)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-interface",
+        "title": "The FencedFrameConfig interface",
+        "number": "2.3.5"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-navigator-deprecatedreplaceinurn-urnorconfig-replacements-replacements",
+      "href": "https://wicg.github.io/fenced-frame/#dom-navigator-deprecatedreplaceinurn-urnorconfig-replacements-replacements",
+      "linkingText": [
+        "replacements"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Navigator/deprecatedReplaceInURN(urnOrConfig, replacements)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-interface",
+        "title": "The FencedFrameConfig interface",
+        "number": "2.3.5"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-navigator-deprecatedurntourl-urnorconfig-send_reports-urnorconfig",
+      "href": "https://wicg.github.io/fenced-frame/#dom-navigator-deprecatedurntourl-urnorconfig-send_reports-urnorconfig",
+      "linkingText": [
+        "urnOrConfig"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Navigator/deprecatedURNtoURL(urnOrConfig, send_reports)",
+        "Navigator/deprecatedURNtoURL(urnOrConfig)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-interface",
+        "title": "The FencedFrameConfig interface",
+        "number": "2.3.5"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-navigator-deprecatedurntourl-urnorconfig-send_reports-send_reports",
+      "href": "https://wicg.github.io/fenced-frame/#dom-navigator-deprecatedurntourl-urnorconfig-send_reports-send_reports",
+      "linkingText": [
+        "send_reports"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Navigator/deprecatedURNtoURL(urnOrConfig, send_reports)",
+        "Navigator/deprecatedURNtoURL(urnOrConfig)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-interface",
+        "title": "The FencedFrameConfig interface",
+        "number": "2.3.5"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-navigator-adauctioncomponents-numadcomponents-numadcomponents",
+      "href": "https://wicg.github.io/fenced-frame/#dom-navigator-adauctioncomponents-numadcomponents-numadcomponents",
+      "linkingText": [
+        "numAdComponents"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Navigator/adAuctionComponents(numAdComponents)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-interface",
+        "title": "The FencedFrameConfig interface",
+        "number": "2.3.5"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "fencedframeutil-substitute-macros",
+      "href": "https://wicg.github.io/fenced-frame/#fencedframeutil-substitute-macros",
+      "linkingText": [
+        "substitute macros"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fencedframeutil"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-interface",
+        "title": "The FencedFrameConfig interface",
+        "number": "2.3.5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-navigator-deprecatedreplaceinurn",
+      "href": "https://wicg.github.io/fenced-frame/#dom-navigator-deprecatedreplaceinurn",
+      "linkingText": [
+        "deprecatedReplaceInURN(urnOrConfig, replacements)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "Navigator"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-interface",
+        "title": "The FencedFrameConfig interface",
+        "number": "2.3.5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-navigator-deprecatedurntourl",
+      "href": "https://wicg.github.io/fenced-frame/#dom-navigator-deprecatedurntourl",
+      "linkingText": [
+        "deprecatedURNtoURL(urnOrConfig, send_reports)",
+        "deprecatedURNtoURL(urnOrConfig)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "Navigator"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-interface",
+        "title": "The FencedFrameConfig interface",
+        "number": "2.3.5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-navigator-adauctioncomponents",
+      "href": "https://wicg.github.io/fenced-frame/#dom-navigator-adauctioncomponents",
+      "linkingText": [
+        "adAuctionComponents(numAdComponents)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "Navigator"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fenced-frame-config-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fenced-frame-config-interface",
+        "title": "The FencedFrameConfig interface",
+        "number": "2.3.5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "enumdef-fencereportingdestination",
+      "href": "https://wicg.github.io/fenced-frame/#enumdef-fencereportingdestination",
+      "linkingText": [
+        "FenceReportingDestination"
+      ],
+      "localLinkingText": [],
+      "type": "enum",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fence-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fence-interface",
+        "title": "The Fence interface",
+        "number": "2.4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-fencereportingdestination-buyer",
+      "href": "https://wicg.github.io/fenced-frame/#dom-fencereportingdestination-buyer",
+      "linkingText": [
+        "\"buyer\""
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "FenceReportingDestination"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fence-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fence-interface",
+        "title": "The Fence interface",
+        "number": "2.4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-fencereportingdestination-seller",
+      "href": "https://wicg.github.io/fenced-frame/#dom-fencereportingdestination-seller",
+      "linkingText": [
+        "\"seller\""
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "FenceReportingDestination"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fence-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fence-interface",
+        "title": "The Fence interface",
+        "number": "2.4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-fencereportingdestination-component-seller",
+      "href": "https://wicg.github.io/fenced-frame/#dom-fencereportingdestination-component-seller",
+      "linkingText": [
+        "\"component-seller\""
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "FenceReportingDestination"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fence-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fence-interface",
+        "title": "The Fence interface",
+        "number": "2.4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-fencereportingdestination-direct-seller",
+      "href": "https://wicg.github.io/fenced-frame/#dom-fencereportingdestination-direct-seller",
+      "linkingText": [
+        "\"direct-seller\""
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "FenceReportingDestination"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fence-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fence-interface",
+        "title": "The Fence interface",
+        "number": "2.4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-fencereportingdestination-shared-storage-select-url",
+      "href": "https://wicg.github.io/fenced-frame/#dom-fencereportingdestination-shared-storage-select-url",
+      "linkingText": [
+        "\"shared-storage-select-url\""
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "FenceReportingDestination"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fence-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fence-interface",
+        "title": "The Fence interface",
+        "number": "2.4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dictdef-fenceevent",
+      "href": "https://wicg.github.io/fenced-frame/#dictdef-fenceevent",
+      "linkingText": [
+        "FenceEvent"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fence-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fence-interface",
+        "title": "The Fence interface",
+        "number": "2.4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-fenceevent-eventtype",
+      "href": "https://wicg.github.io/fenced-frame/#dom-fenceevent-eventtype",
+      "linkingText": [
+        "eventType"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "FenceEvent"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fence-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fence-interface",
+        "title": "The Fence interface",
+        "number": "2.4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-fenceevent-eventdata",
+      "href": "https://wicg.github.io/fenced-frame/#dom-fenceevent-eventdata",
+      "linkingText": [
+        "eventData"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "FenceEvent"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fence-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fence-interface",
+        "title": "The Fence interface",
+        "number": "2.4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-fenceevent-destination",
+      "href": "https://wicg.github.io/fenced-frame/#dom-fenceevent-destination",
+      "linkingText": [
+        "destination"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "FenceEvent"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fence-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fence-interface",
+        "title": "The Fence interface",
+        "number": "2.4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-fenceevent-crossoriginexposed",
+      "href": "https://wicg.github.io/fenced-frame/#dom-fenceevent-crossoriginexposed",
+      "linkingText": [
+        "crossOriginExposed"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "FenceEvent"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fence-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fence-interface",
+        "title": "The Fence interface",
+        "number": "2.4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-fenceevent-once",
+      "href": "https://wicg.github.io/fenced-frame/#dom-fenceevent-once",
+      "linkingText": [
+        "once"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "FenceEvent"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fence-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fence-interface",
+        "title": "The Fence interface",
+        "number": "2.4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-fenceevent-destinationurl",
+      "href": "https://wicg.github.io/fenced-frame/#dom-fenceevent-destinationurl",
+      "linkingText": [
+        "destinationURL"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "FenceEvent"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fence-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fence-interface",
+        "title": "The Fence interface",
+        "number": "2.4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "typedefdef-reporteventtype",
+      "href": "https://wicg.github.io/fenced-frame/#typedefdef-reporteventtype",
+      "linkingText": [
+        "ReportEventType"
+      ],
+      "localLinkingText": [],
+      "type": "typedef",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fence-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fence-interface",
+        "title": "The Fence interface",
+        "number": "2.4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "fence",
+      "href": "https://wicg.github.io/fenced-frame/#fence",
+      "linkingText": [
+        "Fence"
+      ],
+      "localLinkingText": [],
+      "type": "interface",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fence-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fence-interface",
+        "title": "The Fence interface",
+        "number": "2.4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-fence-reportevent-event-event",
+      "href": "https://wicg.github.io/fenced-frame/#dom-fence-reportevent-event-event",
+      "linkingText": [
+        "event"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Fence/reportEvent(event)",
+        "Fence/reportEvent()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fence-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fence-interface",
+        "title": "The Fence interface",
+        "number": "2.4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-fence-setreporteventdataforautomaticbeacons-event-event",
+      "href": "https://wicg.github.io/fenced-frame/#dom-fence-setreporteventdataforautomaticbeacons-event-event",
+      "linkingText": [
+        "event"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Fence/setReportEventDataForAutomaticBeacons(event)",
+        "Fence/setReportEventDataForAutomaticBeacons()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fence-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fence-interface",
+        "title": "The Fence interface",
+        "number": "2.4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-fence-notifyevent-event-event",
+      "href": "https://wicg.github.io/fenced-frame/#dom-fence-notifyevent-event-event",
+      "linkingText": [
+        "event"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Fence/notifyEvent(event)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fence-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fence-interface",
+        "title": "The Fence interface",
+        "number": "2.4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-fence-reportevent",
+      "href": "https://wicg.github.io/fenced-frame/#dom-fence-reportevent",
+      "linkingText": [
+        "reportEvent(event)",
+        "reportEvent()"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "Fence"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fence-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fence-interface",
+        "title": "The Fence interface",
+        "number": "2.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-fence-setreporteventdataforautomaticbeacons",
+      "href": "https://wicg.github.io/fenced-frame/#dom-fence-setreporteventdataforautomaticbeacons",
+      "linkingText": [
+        "setReportEventDataForAutomaticBeacons(event)",
+        "setReportEventDataForAutomaticBeacons()"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "Fence"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fence-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fence-interface",
+        "title": "The Fence interface",
+        "number": "2.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-fence-getnestedconfigs",
+      "href": "https://wicg.github.io/fenced-frame/#dom-fence-getnestedconfigs",
+      "linkingText": [
+        "getNestedConfigs()"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "Fence"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fence-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fence-interface",
+        "title": "The Fence interface",
+        "number": "2.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-fence-notifyevent",
+      "href": "https://wicg.github.io/fenced-frame/#dom-fence-notifyevent",
+      "linkingText": [
+        "notifyEvent(event)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "Fence"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fence-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fence-interface",
+        "title": "The Fence interface",
+        "number": "2.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-fence-disableuntrustednetwork",
+      "href": "https://wicg.github.io/fenced-frame/#dom-fence-disableuntrustednetwork",
+      "linkingText": [
+        "disableUntrustedNetwork()"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "Fence"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "fence-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fence-interface",
+        "title": "The Fence interface",
+        "number": "2.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "recalculate-the-untrusted-network-status-of-all-fenced-frame-descendants",
+      "href": "https://wicg.github.io/fenced-frame/#recalculate-the-untrusted-network-status-of-all-fenced-frame-descendants",
+      "linkingText": [
+        "recalculate the untrusted network status of all fenced frame descendants"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fence-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fence-interface",
+        "title": "The Fence interface",
+        "number": "2.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "network-revocation-nonce-set",
+      "href": "https://wicg.github.io/fenced-frame/#network-revocation-nonce-set",
+      "linkingText": [
+        "network revocation nonce set"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fence-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fence-interface",
+        "title": "The Fence interface",
+        "number": "2.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "network-revocation-exemption-map",
+      "href": "https://wicg.github.io/fenced-frame/#network-revocation-exemption-map",
+      "linkingText": [
+        "network revocation exemption map"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fence-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fence-interface",
+        "title": "The Fence interface",
+        "number": "2.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "revoke-network-for-a-partition-nonce",
+      "href": "https://wicg.github.io/fenced-frame/#revoke-network-for-a-partition-nonce",
+      "linkingText": [
+        "revoke network for a partition nonce"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fence-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fence-interface",
+        "title": "The Fence interface",
+        "number": "2.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "must-be-blocked-due-to-a-revoked-partition-nonce",
+      "href": "https://wicg.github.io/fenced-frame/#must-be-blocked-due-to-a-revoked-partition-nonce",
+      "linkingText": [
+        "must be blocked due to a revoked partition nonce"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fence-interface",
+        "href": "https://wicg.github.io/fenced-frame/#fence-interface",
+        "title": "The Fence interface",
+        "number": "2.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "determine-if-a-navigable-has-fully-revoked-network",
+      "href": "https://wicg.github.io/fenced-frame/#determine-if-a-navigable-has-fully-revoked-network",
+      "linkingText": [
+        "determine if a navigable has fully revoked network"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "gating-methods-on-network-revocation",
+        "href": "https://wicg.github.io/fenced-frame/#gating-methods-on-network-revocation",
+        "title": "Gating methods on network revocation",
+        "number": "2.7"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "determine-if-a-navigable-has-revoked-network-for-itself",
+      "href": "https://wicg.github.io/fenced-frame/#determine-if-a-navigable-has-revoked-network-for-itself",
+      "linkingText": [
+        "determine if a navigable has revoked network for itself"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "gating-methods-on-network-revocation",
+        "href": "https://wicg.github.io/fenced-frame/#gating-methods-on-network-revocation",
+        "title": "Gating methods on network revocation",
+        "number": "2.7"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "attempt-to-send-an-automatic-beacon",
+      "href": "https://wicg.github.io/fenced-frame/#attempt-to-send-an-automatic-beacon",
+      "linkingText": [
+        "attempt to send an automatic beacon"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "automatic-reporting",
+        "href": "https://wicg.github.io/fenced-frame/#automatic-reporting",
+        "title": "Automatic Reporting",
+        "number": "2.8"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "window-fence",
+      "href": "https://wicg.github.io/fenced-frame/#window-fence",
+      "linkingText": [
+        "fence"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Window"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "window-extension",
+        "href": "https://wicg.github.io/fenced-frame/#window-extension",
+        "title": "Extensions to the Window interface",
+        "number": "3.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-window-fence",
+      "href": "https://wicg.github.io/fenced-frame/#dom-window-fence",
+      "linkingText": [
+        "fence"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "Window"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "window-extension",
+        "href": "https://wicg.github.io/fenced-frame/#window-extension",
+        "title": "Extensions to the Window interface",
+        "number": "3.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "fencedframetype-automatic-beacon-data",
+      "href": "https://wicg.github.io/fenced-frame/#fencedframetype-automatic-beacon-data",
+      "linkingText": [
+        "automatic beacon data"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fencedframetype"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "document-extension",
+        "href": "https://wicg.github.io/fenced-frame/#document-extension",
+        "title": "Document supporting concepts",
+        "number": "3.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "automatic-beacon-data-eventdata",
+      "href": "https://wicg.github.io/fenced-frame/#automatic-beacon-data-eventdata",
+      "linkingText": [
+        "eventData"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "automatic beacon data"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "document-extension",
+        "href": "https://wicg.github.io/fenced-frame/#document-extension",
+        "title": "Document supporting concepts",
+        "number": "3.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "automatic-beacon-data-destination",
+      "href": "https://wicg.github.io/fenced-frame/#automatic-beacon-data-destination",
+      "linkingText": [
+        "destination"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "automatic beacon data"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "document-extension",
+        "href": "https://wicg.github.io/fenced-frame/#document-extension",
+        "title": "Document supporting concepts",
+        "number": "3.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "automatic-beacon-data-once",
+      "href": "https://wicg.github.io/fenced-frame/#automatic-beacon-data-once",
+      "linkingText": [
+        "once"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "automatic beacon data"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "document-extension",
+        "href": "https://wicg.github.io/fenced-frame/#document-extension",
+        "title": "Document supporting concepts",
+        "number": "3.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "automatic-beacon-data-crossoriginexposed",
+      "href": "https://wicg.github.io/fenced-frame/#automatic-beacon-data-crossoriginexposed",
+      "linkingText": [
+        "crossOriginExposed"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "automatic beacon data"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "document-extension",
+        "href": "https://wicg.github.io/fenced-frame/#document-extension",
+        "title": "Document supporting concepts",
+        "number": "3.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "fencedframetype-automatic-beacon-data-mapping",
+      "href": "https://wicg.github.io/fenced-frame/#fencedframetype-automatic-beacon-data-mapping",
+      "linkingText": [
+        "automatic beacon data mapping"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fencedframetype"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "document-extension",
+        "href": "https://wicg.github.io/fenced-frame/#document-extension",
+        "title": "Document supporting concepts",
+        "number": "3.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "fencedframetype-snapshot-automatic-beacon-store",
+      "href": "https://wicg.github.io/fenced-frame/#fencedframetype-snapshot-automatic-beacon-store",
+      "linkingText": [
+        "snapshot automatic beacon store"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fencedframetype"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "document-extension",
+        "href": "https://wicg.github.io/fenced-frame/#document-extension",
+        "title": "Document supporting concepts",
+        "number": "3.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "snapshot-automatic-beacon-store-data-mapping",
+      "href": "https://wicg.github.io/fenced-frame/#snapshot-automatic-beacon-store-data-mapping",
+      "linkingText": [
+        "data mapping"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "snapshot automatic beacon store"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "document-extension",
+        "href": "https://wicg.github.io/fenced-frame/#document-extension",
+        "title": "Document supporting concepts",
+        "number": "3.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "snapshot-automatic-beacon-store-cross-origin-exposed-data-mapping",
+      "href": "https://wicg.github.io/fenced-frame/#snapshot-automatic-beacon-store-cross-origin-exposed-data-mapping",
+      "linkingText": [
+        "cross-origin exposed data mapping"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "snapshot automatic beacon store"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "document-extension",
+        "href": "https://wicg.github.io/fenced-frame/#document-extension",
+        "title": "Document supporting concepts",
+        "number": "3.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "document-automatic-beacon-data-mapping",
+      "href": "https://wicg.github.io/fenced-frame/#document-automatic-beacon-data-mapping",
+      "linkingText": [
+        "automatic beacon data mapping"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Document"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "document-extension",
+        "href": "https://wicg.github.io/fenced-frame/#document-extension",
+        "title": "Document supporting concepts",
+        "number": "3.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "document-automatic-beacons-allowed",
+      "href": "https://wicg.github.io/fenced-frame/#document-automatic-beacons-allowed",
+      "linkingText": [
+        "automatic beacons allowed"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Document"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "document-extension",
+        "href": "https://wicg.github.io/fenced-frame/#document-extension",
+        "title": "Document supporting concepts",
+        "number": "3.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "traversable-navigable-unfenced-parent",
+      "href": "https://wicg.github.io/fenced-frame/#traversable-navigable-unfenced-parent",
+      "linkingText": [
+        "unfenced parent"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "traversable navigable"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "traversable-navigables",
+        "href": "https://wicg.github.io/fenced-frame/#traversable-navigables",
+        "title": "Traversable navigables",
+        "number": "3.5.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "navigable-unfenced-parent",
+      "href": "https://wicg.github.io/fenced-frame/#navigable-unfenced-parent",
+      "linkingText": [
+        "unfenced parent"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "navigable"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "traversable-navigables",
+        "href": "https://wicg.github.io/fenced-frame/#traversable-navigables",
+        "title": "Traversable navigables",
+        "number": "3.5.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "navigable-unfenced-container-document",
+      "href": "https://wicg.github.io/fenced-frame/#navigable-unfenced-container-document",
+      "linkingText": [
+        "unfenced container document"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "navigable"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "traversable-navigables",
+        "href": "https://wicg.github.io/fenced-frame/#traversable-navigables",
+        "title": "Traversable navigables",
+        "number": "3.5.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "fenced-navigable-containers",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-navigable-containers",
+      "linkingText": [
+        "fenced navigable containers"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "nested-traversables-inner",
+        "href": "https://wicg.github.io/fenced-frame/#nested-traversables-inner",
+        "title": "Nested traversables",
+        "number": "3.5.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "fenced-navigable-container-fenced-navigable",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-navigable-container-fenced-navigable",
+      "linkingText": [
+        "fenced navigable"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "fenced navigable container"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "nested-traversables-inner",
+        "href": "https://wicg.github.io/fenced-frame/#nested-traversables-inner",
+        "title": "Nested traversables",
+        "number": "3.5.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "initialize-the-nested-traversable",
+      "href": "https://wicg.github.io/fenced-frame/#initialize-the-nested-traversable",
+      "linkingText": [
+        "initialize the nested traversable"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "nested-traversables-inner",
+        "href": "https://wicg.github.io/fenced-frame/#nested-traversables-inner",
+        "title": "Nested traversables",
+        "number": "3.5.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "create-a-new-nested-traversable",
+      "href": "https://wicg.github.io/fenced-frame/#create-a-new-nested-traversable",
+      "linkingText": [
+        "create a new nested traversable"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "nested-traversables-inner",
+        "href": "https://wicg.github.io/fenced-frame/#nested-traversables-inner",
+        "title": "Nested traversables",
+        "number": "3.5.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "top-level-traversable",
+      "href": "https://wicg.github.io/fenced-frame/#top-level-traversable",
+      "linkingText": [
+        "top-level traversable"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "top-level-traversables",
+        "href": "https://wicg.github.io/fenced-frame/#top-level-traversables",
+        "title": "Top-level traversables",
+        "number": "3.5.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "navigable-top-level-traversable",
+      "href": "https://wicg.github.io/fenced-frame/#navigable-top-level-traversable",
+      "linkingText": [
+        "top-level traversable"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "navigable"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "top-level-traversables",
+        "href": "https://wicg.github.io/fenced-frame/#top-level-traversables",
+        "title": "Top-level traversables",
+        "number": "3.5.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "inclusive-dn-unfenced",
+      "href": "https://wicg.github.io/fenced-frame/#inclusive-dn-unfenced",
+      "linkingText": [
+        "inclusive-dn-unfenced"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "navigable-traversing-algorithms",
+        "href": "https://wicg.github.io/fenced-frame/#navigable-traversing-algorithms",
+        "title": "Modifications to navigable-traversing algorithms",
+        "number": "3.6"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dn-unfenced",
+      "href": "https://wicg.github.io/fenced-frame/#dn-unfenced",
+      "linkingText": [
+        "dn-unfenced"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "navigable-traversing-algorithms",
+        "href": "https://wicg.github.io/fenced-frame/#navigable-traversing-algorithms",
+        "title": "Modifications to navigable-traversing algorithms",
+        "number": "3.6"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "an-unfenced",
+      "href": "https://wicg.github.io/fenced-frame/#an-unfenced",
+      "linkingText": [
+        "an-unfenced"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "navigable-traversing-algorithms",
+        "href": "https://wicg.github.io/fenced-frame/#navigable-traversing-algorithms",
+        "title": "Modifications to navigable-traversing algorithms",
+        "number": "3.6"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "focus-unfenced",
+      "href": "https://wicg.github.io/fenced-frame/#focus-unfenced",
+      "linkingText": [
+        "focus-unfenced"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "focusing-changes",
+        "href": "https://wicg.github.io/fenced-frame/#focusing-changes",
+        "title": "Modifications to the focusing algorithms",
+        "number": "3.7"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "supports-loading-mode-fenced-frame",
+      "href": "https://wicg.github.io/fenced-frame/#supports-loading-mode-fenced-frame",
+      "linkingText": [
+        "fenced-frame"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Supports-Loading-Mode"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "supports-loading-mode",
+        "href": "https://wicg.github.io/fenced-frame/#supports-loading-mode",
+        "title": "The `Supports-Loading-Mode` HTTP response header",
+        "number": "3.8.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "http-headerdef-allow-fenced-frame-automatic-beacons",
+      "href": "https://wicg.github.io/fenced-frame/#http-headerdef-allow-fenced-frame-automatic-beacons",
+      "linkingText": [
+        "Allow-Fenced-Frame-Automatic-Beacons"
+      ],
+      "localLinkingText": [],
+      "type": "http-header",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "allow-automatic-beacons",
+        "href": "https://wicg.github.io/fenced-frame/#allow-automatic-beacons",
+        "title": "The `Allow-Fenced-Frame-Automatic-Beacons` HTTP response header",
+        "number": "3.8.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "http-headerdef-allow-cross-origin-event-reporting",
+      "href": "https://wicg.github.io/fenced-frame/#http-headerdef-allow-cross-origin-event-reporting",
+      "linkingText": [
+        "Allow-Cross-Origin-Event-Reporting"
+      ],
+      "localLinkingText": [],
+      "type": "http-header",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "allow-cross-origin-reporting",
+        "href": "https://wicg.github.io/fenced-frame/#allow-cross-origin-reporting",
+        "title": "The `Allow-Cross-Origin-Event-Reporting` HTTP response header",
+        "number": "3.8.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "source-snapshot-params-initiator-fenced-frame-config-instance",
+      "href": "https://wicg.github.io/fenced-frame/#source-snapshot-params-initiator-fenced-frame-config-instance",
+      "linkingText": [
+        "initiator fenced frame config instance"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "source snapshot params"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "navigation-changes",
+        "href": "https://wicg.github.io/fenced-frame/#navigation-changes",
+        "title": "Actual navigation changes",
+        "number": "3.8.5"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "source-snapshot-params-initiator-ancestor-root-origin",
+      "href": "https://wicg.github.io/fenced-frame/#source-snapshot-params-initiator-ancestor-root-origin",
+      "linkingText": [
+        "initiator ancestor root origin"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "source snapshot params"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "navigation-changes",
+        "href": "https://wicg.github.io/fenced-frame/#navigation-changes",
+        "title": "Actual navigation changes",
+        "number": "3.8.5"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "source-snapshot-params-initiator-ancestor-root-referrer-policy",
+      "href": "https://wicg.github.io/fenced-frame/#source-snapshot-params-initiator-ancestor-root-referrer-policy",
+      "linkingText": [
+        "initiator ancestor root referrer policy"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "source snapshot params"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "navigation-changes",
+        "href": "https://wicg.github.io/fenced-frame/#navigation-changes",
+        "title": "Actual navigation changes",
+        "number": "3.8.5"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "source-snapshot-params-target-fenced-frame-config",
+      "href": "https://wicg.github.io/fenced-frame/#source-snapshot-params-target-fenced-frame-config",
+      "linkingText": [
+        "target fenced frame config"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "source snapshot params"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "navigation-changes",
+        "href": "https://wicg.github.io/fenced-frame/#navigation-changes",
+        "title": "Actual navigation changes",
+        "number": "3.8.5"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "source-snapshot-params-attribution-reporting-enabled",
+      "href": "https://wicg.github.io/fenced-frame/#source-snapshot-params-attribution-reporting-enabled",
+      "linkingText": [
+        "attribution reporting enabled"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "source snapshot params"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "navigation-changes",
+        "href": "https://wicg.github.io/fenced-frame/#navigation-changes",
+        "title": "Actual navigation changes",
+        "number": "3.8.5"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "source-snapshot-params-attribution-reporting-context-origin",
+      "href": "https://wicg.github.io/fenced-frame/#source-snapshot-params-attribution-reporting-context-origin",
+      "linkingText": [
+        "attribution reporting context origin"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "source snapshot params"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "navigation-changes",
+        "href": "https://wicg.github.io/fenced-frame/#navigation-changes",
+        "title": "Actual navigation changes",
+        "number": "3.8.5"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "source-snapshot-params-automatic-beacons-allowed",
+      "href": "https://wicg.github.io/fenced-frame/#source-snapshot-params-automatic-beacons-allowed",
+      "linkingText": [
+        "automatic beacons allowed"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "source snapshot params"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "navigation-changes",
+        "href": "https://wicg.github.io/fenced-frame/#navigation-changes",
+        "title": "Actual navigation changes",
+        "number": "3.8.5"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "source-snapshot-params-snapshot-automatic-beacon-store",
+      "href": "https://wicg.github.io/fenced-frame/#source-snapshot-params-snapshot-automatic-beacon-store",
+      "linkingText": [
+        "snapshot automatic beacon store"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "source snapshot params"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "navigation-changes",
+        "href": "https://wicg.github.io/fenced-frame/#navigation-changes",
+        "title": "Actual navigation changes",
+        "number": "3.8.5"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "snapshot-the-automatic-beacon-data-mapping",
+      "href": "https://wicg.github.io/fenced-frame/#snapshot-the-automatic-beacon-data-mapping",
+      "linkingText": [
+        "snapshot the automatic beacon data mapping"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "navigation-changes",
+        "href": "https://wicg.github.io/fenced-frame/#navigation-changes",
+        "title": "Actual navigation changes",
+        "number": "3.8.5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "get-the-initiators-fenced-grand-ancestors-navigable",
+      "href": "https://wicg.github.io/fenced-frame/#get-the-initiators-fenced-grand-ancestors-navigable",
+      "linkingText": [
+        "get the initiator’s fenced grand-ancestor’s navigable"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "navigation-changes",
+        "href": "https://wicg.github.io/fenced-frame/#navigation-changes",
+        "title": "Actual navigation changes",
+        "number": "3.8.5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "navigate-sharedstoragecontext",
+      "href": "https://wicg.github.io/fenced-frame/#navigate-sharedstoragecontext",
+      "linkingText": [
+        "sharedStorageContext"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "navigate"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "navigation-changes",
+        "href": "https://wicg.github.io/fenced-frame/#navigation-changes",
+        "title": "Actual navigation changes",
+        "number": "3.8.5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "navigation-params-fenced-frame-config-instance",
+      "href": "https://wicg.github.io/fenced-frame/#navigation-params-fenced-frame-config-instance",
+      "linkingText": [
+        "fenced frame config instance"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "navigation params"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "navigation-changes",
+        "href": "https://wicg.github.io/fenced-frame/#navigation-changes",
+        "title": "Actual navigation changes",
+        "number": "3.8.5"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "onfencedtreeclick",
+      "href": "https://wicg.github.io/fenced-frame/#onfencedtreeclick",
+      "linkingText": [
+        "onfencedtreeclick"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "onfencedtreeclick-header",
+        "href": "https://wicg.github.io/fenced-frame/#onfencedtreeclick-header",
+        "title": "onfencedtreeclick event handler",
+        "number": "3.10.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "dom-globaleventhandlers-onfencedtreeclick",
+      "href": "https://wicg.github.io/fenced-frame/#dom-globaleventhandlers-onfencedtreeclick",
+      "linkingText": [
+        "onfencedtreeclick"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "GlobalEventHandlers"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "onfencedtreeclick-header",
+        "href": "https://wicg.github.io/fenced-frame/#onfencedtreeclick-header",
+        "title": "onfencedtreeclick event handler",
+        "number": "3.10.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "fencedtreeclick",
+      "href": "https://wicg.github.io/fenced-frame/#fencedtreeclick",
+      "linkingText": [
+        "fencedtreeclick"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "fencedtreeclick-header",
+        "href": "https://wicg.github.io/fenced-frame/#fencedtreeclick-header",
+        "title": "fencedtreeclick event type",
+        "number": "3.10.2"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "fenced-frame-src",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-src",
+      "linkingText": [
+        "fenced-frame-src"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "new-csp-directive",
+        "href": "https://wicg.github.io/fenced-frame/#new-csp-directive",
+        "title": "New fenced-frame-src [CSP] directive",
+        "number": "4.2.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "fenced-frame-allowed-permissions",
+      "href": "https://wicg.github.io/fenced-frame/#fenced-frame-allowed-permissions",
+      "linkingText": [
+        "fenced frame allowed permissions"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "permissions-policy-definitions",
+        "href": "https://wicg.github.io/fenced-frame/#permissions-policy-definitions",
+        "title": "Definitions",
+        "number": "4.3.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "create-a-permissions-policy-for-a-fenced-navigable",
+      "href": "https://wicg.github.io/fenced-frame/#create-a-permissions-policy-for-a-fenced-navigable",
+      "linkingText": [
+        "Create a permissions policy for a fenced navigable"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "permissions-policy-patches",
+        "href": "https://wicg.github.io/fenced-frame/#permissions-policy-patches",
+        "title": "Algorithm patches",
+        "number": "4.3.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "should-navigation-response-to-navigation-request-be-blocked-by-permissions-policy",
+      "href": "https://wicg.github.io/fenced-frame/#should-navigation-response-to-navigation-request-be-blocked-by-permissions-policy",
+      "linkingText": [
+        "Should navigation response to navigation request be blocked by Permissions Policy?"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "permissions-policy-patches",
+        "href": "https://wicg.github.io/fenced-frame/#permissions-policy-patches",
+        "title": "Algorithm patches",
+        "number": "4.3.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "should-navigation-response-to-navigation-request-be-blocked-by-sandboxing-flags",
+      "href": "https://wicg.github.io/fenced-frame/#should-navigation-response-to-navigation-request-be-blocked-by-sandboxing-flags",
+      "linkingText": [
+        "Should navigation response to navigation request be blocked by sandboxing flags?"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "permissions-policy-patches",
+        "href": "https://wicg.github.io/fenced-frame/#permissions-policy-patches",
+        "title": "Algorithm patches",
+        "number": "4.3.2"
+      },
+      "definedIn": "prose"
+    }
+  ]
+}

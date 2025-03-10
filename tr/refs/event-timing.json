@@ -10,10 +10,6 @@
         "url": "https://dom.spec.whatwg.org/"
       },
       {
-        "name": "ELEMENT-TIMING",
-        "url": "https://wicg.github.io/element-timing/"
-      },
-      {
         "name": "HR-TIME-2",
         "url": "https://www.w3.org/TR/hr-time-2/"
       },
@@ -38,8 +34,8 @@
         "url": "https://www.w3.org/TR/pointerevents/"
       },
       {
-        "name": "POINTEREVENTS3",
-        "url": "https://www.w3.org/TR/pointerevents3/"
+        "name": "POINTEREVENTS4",
+        "url": "https://www.w3.org/TR/pointerevents4/"
       },
       {
         "name": "RFC2119",
