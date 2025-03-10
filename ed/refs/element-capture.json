@@ -1,0 +1,67 @@
+{
+  "spec": {
+    "title": "Element Capture",
+    "url": "https://screen-share.github.io/element-capture/"
+  },
+  "refs": {
+    "normative": [
+      {
+        "name": "css-break-4",
+        "url": "https://www.w3.org/TR/css-break-4/"
+      },
+      {
+        "name": "css-images-4",
+        "url": "https://www.w3.org/TR/css-images-4/"
+      },
+      {
+        "name": "css-transforms-2",
+        "url": "https://www.w3.org/TR/css-transforms-2/"
+      },
+      {
+        "name": "css2ed",
+        "url": "https://drafts.csswg.org/css2/"
+      },
+      {
+        "name": "dom",
+        "url": "https://dom.spec.whatwg.org/"
+      },
+      {
+        "name": "filter-effects-2",
+        "url": "https://drafts.fxtf.org/filter-effects-2/"
+      },
+      {
+        "name": "HTML",
+        "url": "https://html.spec.whatwg.org/multipage/"
+      },
+      {
+        "name": "mediacapture-region",
+        "url": "https://www.w3.org/TR/mediacapture-region/"
+      },
+      {
+        "name": "mediacapture-streams",
+        "url": "https://www.w3.org/TR/mediacapture-streams/"
+      },
+      {
+        "name": "RFC2119",
+        "url": "https://www.rfc-editor.org/rfc/rfc2119"
+      },
+      {
+        "name": "RFC8174",
+        "url": "https://www.rfc-editor.org/rfc/rfc8174"
+      },
+      {
+        "name": "screen-capture",
+        "url": "https://www.w3.org/TR/screen-capture/"
+      },
+      {
+        "name": "WEBIDL",
+        "url": "https://webidl.spec.whatwg.org/"
+      },
+      {
+        "name": "webrtc",
+        "url": "https://www.w3.org/TR/webrtc/"
+      }
+    ],
+    "informative": []
+  }
+}

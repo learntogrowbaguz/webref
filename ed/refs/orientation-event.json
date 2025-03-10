@@ -1,29 +1,57 @@
 {
   "spec": {
-    "title": "DeviceOrientation Event Specification",
+    "title": "Device Orientation and Motion",
     "url": "https://w3c.github.io/deviceorientation/"
   },
   "refs": {
     "normative": [
       {
+        "name": "ACCELEROMETER",
+        "url": "https://w3c.github.io/accelerometer/"
+      },
+      {
         "name": "DOM",
         "url": "https://dom.spec.whatwg.org/"
+      },
+      {
+        "name": "ECMASCRIPT",
+        "url": "https://tc39.es/ecma262/multipage/"
+      },
+      {
+        "name": "GENERIC-SENSOR",
+        "url": "https://w3c.github.io/sensors/"
       },
       {
         "name": "HTML",
         "url": "https://html.spec.whatwg.org/multipage/"
       },
       {
-        "name": "PAGE-VISIBILITY",
-        "url": "https://www.w3.org/TR/page-visibility/"
+        "name": "INFRA",
+        "url": "https://infra.spec.whatwg.org/"
+      },
+      {
+        "name": "ORIENTATION-SENSOR",
+        "url": "https://w3c.github.io/orientation-sensor/"
+      },
+      {
+        "name": "PERMISSIONS",
+        "url": "https://w3c.github.io/permissions/"
+      },
+      {
+        "name": "PERMISSIONS-POLICY-1",
+        "url": "https://w3c.github.io/webappsec-permissions-policy/"
       },
       {
         "name": "RFC2119",
         "url": "https://datatracker.ietf.org/doc/html/rfc2119"
       },
       {
-        "name": "SECURE-CONTEXTS",
-        "url": "https://w3c.github.io/webappsec-secure-contexts/"
+        "name": "W3C-PROCESS",
+        "url": "https://www.w3.org/policies/process/"
+      },
+      {
+        "name": "WEBDRIVER2",
+        "url": "https://w3c.github.io/webdriver/"
       },
       {
         "name": "WEBIDL",
@@ -56,6 +84,10 @@
         "url": "https://en.wikipedia.org/wiki/Gimbal_Lock"
       },
       {
+        "name": "GYROSCOPE",
+        "url": "https://w3c.github.io/gyroscope/"
+      },
+      {
         "name": "INDOORPOS",
         "url": "http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A475619&dswid=9050"
       },
@@ -64,8 +96,16 @@
         "url": "https://w3c.github.io/motion-sensors/"
       },
       {
+        "name": "PROPERACCELERATION",
+        "url": "https://en.wikipedia.org/wiki/Proper_acceleration"
+      },
+      {
         "name": "QUATERNIONS",
         "url": "https://en.wikipedia.org/wiki/Quaternion"
+      },
+      {
+        "name": "SCREEN-ORIENTATION",
+        "url": "https://w3c.github.io/screen-orientation/"
       },
       {
         "name": "SENSORID",
@@ -74,10 +114,6 @@
       {
         "name": "TOUCH",
         "url": "https://arxiv.org/abs/1602.04115"
-      },
-      {
-        "name": "WGS84",
-        "url": "http://earth-info.nga.mil/GandG/publications/tr8350.2/wgs84fin.pdf"
       }
     ]
   }

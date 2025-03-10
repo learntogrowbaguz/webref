@@ -10,6 +10,10 @@
         "url": "https://drafts.csswg.org/css-cascade-5/"
       },
       {
+        "name": "CSS-NAMESPACES-3",
+        "url": "https://drafts.csswg.org/css-namespaces/"
+      },
+      {
         "name": "CSS-SYNTAX-3",
         "url": "https://drafts.csswg.org/css-syntax/"
       },
@@ -65,15 +69,11 @@
       },
       {
         "name": "CSS-COLOR-4",
-        "url": "https://drafts.csswg.org/css-color/"
+        "url": "https://drafts.csswg.org/css-color-4/"
       },
       {
         "name": "CSS-DISPLAY-4",
-        "url": "https://drafts.csswg.org/css-display-4/"
-      },
-      {
-        "name": "CSS-NAMESPACES-3",
-        "url": "https://drafts.csswg.org/css-namespaces/"
+        "url": "https://drafts.csswg.org/css-display/"
       },
       {
         "name": "CSS-SIZING-3",

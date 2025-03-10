@@ -18,7 +18,7 @@
       "heading": {
         "id": "keyframes",
         "href": "https://drafts.csswg.org/css-animations-1/#keyframes",
-        "title": "Keyframes",
+        "title": "Declaring Keyframes",
         "number": "3"
       },
       "definedIn": "prose"
@@ -37,7 +37,7 @@
       "heading": {
         "id": "keyframes",
         "href": "https://drafts.csswg.org/css-animations-1/#keyframes",
-        "title": "Keyframes",
+        "title": "Declaring Keyframes",
         "number": "3"
       },
       "definedIn": "pre"
@@ -56,7 +56,7 @@
       "heading": {
         "id": "keyframes",
         "href": "https://drafts.csswg.org/css-animations-1/#keyframes",
-        "title": "Keyframes",
+        "title": "Declaring Keyframes",
         "number": "3"
       },
       "definedIn": "pre"
@@ -75,7 +75,7 @@
       "heading": {
         "id": "keyframes",
         "href": "https://drafts.csswg.org/css-animations-1/#keyframes",
-        "title": "Keyframes",
+        "title": "Declaring Keyframes",
         "number": "3"
       },
       "definedIn": "pre"
@@ -95,7 +95,7 @@
         "id": "animation-name",
         "href": "https://drafts.csswg.org/css-animations-1/#animation-name",
         "title": "The animation-name property",
-        "number": "3.2"
+        "number": "4.1"
       },
       "definedIn": "table"
     },
@@ -116,7 +116,7 @@
         "id": "animation-name",
         "href": "https://drafts.csswg.org/css-animations-1/#animation-name",
         "title": "The animation-name property",
-        "number": "3.2"
+        "number": "4.1"
       },
       "definedIn": "dt"
     },
@@ -137,7 +137,7 @@
         "id": "animation-name",
         "href": "https://drafts.csswg.org/css-animations-1/#animation-name",
         "title": "The animation-name property",
-        "number": "3.2"
+        "number": "4.1"
       },
       "definedIn": "dt"
     },
@@ -156,7 +156,7 @@
         "id": "animation-duration",
         "href": "https://drafts.csswg.org/css-animations-1/#animation-duration",
         "title": "The animation-duration property",
-        "number": "3.3"
+        "number": "4.2"
       },
       "definedIn": "table"
     },
@@ -175,7 +175,7 @@
         "id": "animation-timing-function",
         "href": "https://drafts.csswg.org/css-animations-1/#animation-timing-function",
         "title": "The animation-timing-function property",
-        "number": "3.4"
+        "number": "4.3"
       },
       "definedIn": "table"
     },
@@ -194,7 +194,7 @@
         "id": "animation-iteration-count",
         "href": "https://drafts.csswg.org/css-animations-1/#animation-iteration-count",
         "title": "The animation-iteration-count property",
-        "number": "3.5"
+        "number": "4.4"
       },
       "definedIn": "prose"
     },
@@ -213,7 +213,7 @@
         "id": "animation-iteration-count",
         "href": "https://drafts.csswg.org/css-animations-1/#animation-iteration-count",
         "title": "The animation-iteration-count property",
-        "number": "3.5"
+        "number": "4.4"
       },
       "definedIn": "table"
     },
@@ -232,7 +232,7 @@
         "id": "animation-iteration-count",
         "href": "https://drafts.csswg.org/css-animations-1/#animation-iteration-count",
         "title": "The animation-iteration-count property",
-        "number": "3.5"
+        "number": "4.4"
       },
       "definedIn": "prose"
     },
@@ -253,7 +253,7 @@
         "id": "animation-iteration-count",
         "href": "https://drafts.csswg.org/css-animations-1/#animation-iteration-count",
         "title": "The animation-iteration-count property",
-        "number": "3.5"
+        "number": "4.4"
       },
       "definedIn": "dt"
     },
@@ -272,7 +272,7 @@
         "id": "animation-direction",
         "href": "https://drafts.csswg.org/css-animations-1/#animation-direction",
         "title": "The animation-direction property",
-        "number": "3.6"
+        "number": "4.5"
       },
       "definedIn": "table"
     },
@@ -291,7 +291,7 @@
         "id": "animation-direction",
         "href": "https://drafts.csswg.org/css-animations-1/#animation-direction",
         "title": "The animation-direction property",
-        "number": "3.6"
+        "number": "4.5"
       },
       "definedIn": "prose"
     },
@@ -312,7 +312,7 @@
         "id": "animation-direction",
         "href": "https://drafts.csswg.org/css-animations-1/#animation-direction",
         "title": "The animation-direction property",
-        "number": "3.6"
+        "number": "4.5"
       },
       "definedIn": "dt"
     },
@@ -333,7 +333,7 @@
         "id": "animation-direction",
         "href": "https://drafts.csswg.org/css-animations-1/#animation-direction",
         "title": "The animation-direction property",
-        "number": "3.6"
+        "number": "4.5"
       },
       "definedIn": "dt"
     },
@@ -354,7 +354,7 @@
         "id": "animation-direction",
         "href": "https://drafts.csswg.org/css-animations-1/#animation-direction",
         "title": "The animation-direction property",
-        "number": "3.6"
+        "number": "4.5"
       },
       "definedIn": "dt"
     },
@@ -375,7 +375,7 @@
         "id": "animation-direction",
         "href": "https://drafts.csswg.org/css-animations-1/#animation-direction",
         "title": "The animation-direction property",
-        "number": "3.6"
+        "number": "4.5"
       },
       "definedIn": "dt"
     },
@@ -394,7 +394,7 @@
         "id": "animation-play-state",
         "href": "https://drafts.csswg.org/css-animations-1/#animation-play-state",
         "title": "The animation-play-state property",
-        "number": "3.7"
+        "number": "4.6"
       },
       "definedIn": "table"
     },
@@ -413,7 +413,7 @@
         "id": "animation-play-state",
         "href": "https://drafts.csswg.org/css-animations-1/#animation-play-state",
         "title": "The animation-play-state property",
-        "number": "3.7"
+        "number": "4.6"
       },
       "definedIn": "prose"
     },
@@ -434,7 +434,7 @@
         "id": "animation-play-state",
         "href": "https://drafts.csswg.org/css-animations-1/#animation-play-state",
         "title": "The animation-play-state property",
-        "number": "3.7"
+        "number": "4.6"
       },
       "definedIn": "dt"
     },
@@ -455,7 +455,7 @@
         "id": "animation-play-state",
         "href": "https://drafts.csswg.org/css-animations-1/#animation-play-state",
         "title": "The animation-play-state property",
-        "number": "3.7"
+        "number": "4.6"
       },
       "definedIn": "dt"
     },
@@ -474,7 +474,7 @@
         "id": "animation-delay",
         "href": "https://drafts.csswg.org/css-animations-1/#animation-delay",
         "title": "The animation-delay property",
-        "number": "3.8"
+        "number": "4.7"
       },
       "definedIn": "table"
     },
@@ -493,7 +493,7 @@
         "id": "animation-fill-mode",
         "href": "https://drafts.csswg.org/css-animations-1/#animation-fill-mode",
         "title": "The animation-fill-mode property",
-        "number": "3.9"
+        "number": "4.8"
       },
       "definedIn": "table"
     },
@@ -512,7 +512,7 @@
         "id": "animation-fill-mode",
         "href": "https://drafts.csswg.org/css-animations-1/#animation-fill-mode",
         "title": "The animation-fill-mode property",
-        "number": "3.9"
+        "number": "4.8"
       },
       "definedIn": "prose"
     },
@@ -533,7 +533,7 @@
         "id": "animation-fill-mode",
         "href": "https://drafts.csswg.org/css-animations-1/#animation-fill-mode",
         "title": "The animation-fill-mode property",
-        "number": "3.9"
+        "number": "4.8"
       },
       "definedIn": "dt"
     },
@@ -554,7 +554,7 @@
         "id": "animation-fill-mode",
         "href": "https://drafts.csswg.org/css-animations-1/#animation-fill-mode",
         "title": "The animation-fill-mode property",
-        "number": "3.9"
+        "number": "4.8"
       },
       "definedIn": "dt"
     },
@@ -575,7 +575,7 @@
         "id": "animation-fill-mode",
         "href": "https://drafts.csswg.org/css-animations-1/#animation-fill-mode",
         "title": "The animation-fill-mode property",
-        "number": "3.9"
+        "number": "4.8"
       },
       "definedIn": "dt"
     },
@@ -596,7 +596,7 @@
         "id": "animation-fill-mode",
         "href": "https://drafts.csswg.org/css-animations-1/#animation-fill-mode",
         "title": "The animation-fill-mode property",
-        "number": "3.9"
+        "number": "4.8"
       },
       "definedIn": "dt"
     },
@@ -615,7 +615,7 @@
         "id": "animation",
         "href": "https://drafts.csswg.org/css-animations-1/#animation",
         "title": "The animation shorthand property",
-        "number": "3.10"
+        "number": "4.9"
       },
       "definedIn": "table"
     },
@@ -634,7 +634,7 @@
         "id": "animation",
         "href": "https://drafts.csswg.org/css-animations-1/#animation",
         "title": "The animation shorthand property",
-        "number": "3.10"
+        "number": "4.9"
       },
       "definedIn": "prose"
     },
@@ -653,7 +653,7 @@
         "id": "interface-animationevent-idl",
         "href": "https://drafts.csswg.org/css-animations-1/#interface-animationevent-idl",
         "title": "IDL Definition",
-        "number": "4.1.1"
+        "number": "5.1.1"
       },
       "definedIn": "pre"
     },
@@ -677,7 +677,7 @@
         "id": "interface-animationevent-idl",
         "href": "https://drafts.csswg.org/css-animations-1/#interface-animationevent-idl",
         "title": "IDL Definition",
-        "number": "4.1.1"
+        "number": "5.1.1"
       },
       "definedIn": "pre"
     },
@@ -701,7 +701,7 @@
         "id": "interface-animationevent-idl",
         "href": "https://drafts.csswg.org/css-animations-1/#interface-animationevent-idl",
         "title": "IDL Definition",
-        "number": "4.1.1"
+        "number": "5.1.1"
       },
       "definedIn": "pre"
     },
@@ -720,7 +720,7 @@
         "id": "interface-animationevent-idl",
         "href": "https://drafts.csswg.org/css-animations-1/#interface-animationevent-idl",
         "title": "IDL Definition",
-        "number": "4.1.1"
+        "number": "5.1.1"
       },
       "definedIn": "pre"
     },
@@ -741,7 +741,7 @@
         "id": "interface-animationevent-idl",
         "href": "https://drafts.csswg.org/css-animations-1/#interface-animationevent-idl",
         "title": "IDL Definition",
-        "number": "4.1.1"
+        "number": "5.1.1"
       },
       "definedIn": "pre"
     },
@@ -762,7 +762,7 @@
         "id": "interface-animationevent-idl",
         "href": "https://drafts.csswg.org/css-animations-1/#interface-animationevent-idl",
         "title": "IDL Definition",
-        "number": "4.1.1"
+        "number": "5.1.1"
       },
       "definedIn": "pre"
     },
@@ -783,7 +783,7 @@
         "id": "interface-animationevent-idl",
         "href": "https://drafts.csswg.org/css-animations-1/#interface-animationevent-idl",
         "title": "IDL Definition",
-        "number": "4.1.1"
+        "number": "5.1.1"
       },
       "definedIn": "pre"
     },
@@ -804,7 +804,7 @@
         "id": "interface-animationevent-attributes",
         "href": "https://drafts.csswg.org/css-animations-1/#interface-animationevent-attributes",
         "title": "Attributes",
-        "number": "4.1.2"
+        "number": "5.1.2"
       },
       "definedIn": "dt"
     },
@@ -825,7 +825,7 @@
         "id": "interface-animationevent-attributes",
         "href": "https://drafts.csswg.org/css-animations-1/#interface-animationevent-attributes",
         "title": "Attributes",
-        "number": "4.1.2"
+        "number": "5.1.2"
       },
       "definedIn": "dt"
     },
@@ -846,7 +846,7 @@
         "id": "interface-animationevent-attributes",
         "href": "https://drafts.csswg.org/css-animations-1/#interface-animationevent-attributes",
         "title": "Attributes",
-        "number": "4.1.2"
+        "number": "5.1.2"
       },
       "definedIn": "dt"
     },
@@ -870,7 +870,7 @@
         "id": "interface-animationevent-attributes",
         "href": "https://drafts.csswg.org/css-animations-1/#interface-animationevent-attributes",
         "title": "Attributes",
-        "number": "4.1.2"
+        "number": "5.1.2"
       },
       "definedIn": "prose"
     },
@@ -891,7 +891,7 @@
         "id": "event-animationevent",
         "href": "https://drafts.csswg.org/css-animations-1/#event-animationevent",
         "title": "Types of AnimationEvent",
-        "number": "4.2"
+        "number": "5.2"
       },
       "definedIn": "dt"
     },
@@ -912,7 +912,7 @@
         "id": "event-animationevent",
         "href": "https://drafts.csswg.org/css-animations-1/#event-animationevent",
         "title": "Types of AnimationEvent",
-        "number": "4.2"
+        "number": "5.2"
       },
       "definedIn": "dt"
     },
@@ -933,7 +933,7 @@
         "id": "event-animationevent",
         "href": "https://drafts.csswg.org/css-animations-1/#event-animationevent",
         "title": "Types of AnimationEvent",
-        "number": "4.2"
+        "number": "5.2"
       },
       "definedIn": "dt"
     },
@@ -954,7 +954,7 @@
         "id": "event-animationevent",
         "href": "https://drafts.csswg.org/css-animations-1/#event-animationevent",
         "title": "Types of AnimationEvent",
-        "number": "4.2"
+        "number": "5.2"
       },
       "definedIn": "dt"
     },
@@ -976,7 +976,7 @@
         "id": "event-handlers-on-elements-document-objects-and-window-objects",
         "href": "https://drafts.csswg.org/css-animations-1/#event-handlers-on-elements-document-objects-and-window-objects",
         "title": "Event handlers on elements, Document objects, and Window objects",
-        "number": "4.3"
+        "number": "5.3"
       },
       "definedIn": "table"
     },
@@ -998,7 +998,7 @@
         "id": "event-handlers-on-elements-document-objects-and-window-objects",
         "href": "https://drafts.csswg.org/css-animations-1/#event-handlers-on-elements-document-objects-and-window-objects",
         "title": "Event handlers on elements, Document objects, and Window objects",
-        "number": "4.3"
+        "number": "5.3"
       },
       "definedIn": "table"
     },
@@ -1020,7 +1020,7 @@
         "id": "event-handlers-on-elements-document-objects-and-window-objects",
         "href": "https://drafts.csswg.org/css-animations-1/#event-handlers-on-elements-document-objects-and-window-objects",
         "title": "Event handlers on elements, Document objects, and Window objects",
-        "number": "4.3"
+        "number": "5.3"
       },
       "definedIn": "table"
     },
@@ -1042,7 +1042,7 @@
         "id": "event-handlers-on-elements-document-objects-and-window-objects",
         "href": "https://drafts.csswg.org/css-animations-1/#event-handlers-on-elements-document-objects-and-window-objects",
         "title": "Event handlers on elements, Document objects, and Window objects",
-        "number": "4.3"
+        "number": "5.3"
       },
       "definedIn": "table"
     },
@@ -1063,7 +1063,7 @@
         "id": "interface-cssrule-idl",
         "href": "https://drafts.csswg.org/css-animations-1/#interface-cssrule-idl",
         "title": "IDL Definition",
-        "number": "5.1.1"
+        "number": "6.1.1"
       },
       "definedIn": "pre"
     },
@@ -1084,7 +1084,7 @@
         "id": "interface-cssrule-idl",
         "href": "https://drafts.csswg.org/css-animations-1/#interface-cssrule-idl",
         "title": "IDL Definition",
-        "number": "5.1.1"
+        "number": "6.1.1"
       },
       "definedIn": "pre"
     },
@@ -1103,7 +1103,7 @@
         "id": "interface-csskeyframerule-idl",
         "href": "https://drafts.csswg.org/css-animations-1/#interface-csskeyframerule-idl",
         "title": "IDL Definition",
-        "number": "5.2.1"
+        "number": "6.2.1"
       },
       "definedIn": "pre"
     },
@@ -1124,7 +1124,7 @@
         "id": "interface-csskeyframerule-attributes",
         "href": "https://drafts.csswg.org/css-animations-1/#interface-csskeyframerule-attributes",
         "title": "Attributes",
-        "number": "5.2.2"
+        "number": "6.2.2"
       },
       "definedIn": "dt"
     },
@@ -1145,7 +1145,7 @@
         "id": "interface-csskeyframerule-attributes",
         "href": "https://drafts.csswg.org/css-animations-1/#interface-csskeyframerule-attributes",
         "title": "Attributes",
-        "number": "5.2.2"
+        "number": "6.2.2"
       },
       "definedIn": "dt"
     },
@@ -1164,7 +1164,7 @@
         "id": "interface-csskeyframesrule-idl",
         "href": "https://drafts.csswg.org/css-animations-1/#interface-csskeyframesrule-idl",
         "title": "IDL Definition",
-        "number": "5.3.1"
+        "number": "6.3.1"
       },
       "definedIn": "pre"
     },
@@ -1185,7 +1185,7 @@
         "id": "interface-csskeyframesrule-attributes",
         "href": "https://drafts.csswg.org/css-animations-1/#interface-csskeyframesrule-attributes",
         "title": "Attributes",
-        "number": "5.3.2"
+        "number": "6.3.2"
       },
       "definedIn": "dt"
     },
@@ -1206,7 +1206,7 @@
         "id": "interface-csskeyframesrule-attributes",
         "href": "https://drafts.csswg.org/css-animations-1/#interface-csskeyframesrule-attributes",
         "title": "Attributes",
-        "number": "5.3.2"
+        "number": "6.3.2"
       },
       "definedIn": "dt"
     },
@@ -1227,7 +1227,7 @@
         "id": "interface-csskeyframesrule-attributes",
         "href": "https://drafts.csswg.org/css-animations-1/#interface-csskeyframesrule-attributes",
         "title": "Attributes",
-        "number": "5.3.2"
+        "number": "6.3.2"
       },
       "definedIn": "dt"
     },
@@ -1248,7 +1248,7 @@
         "id": "interface-csskeyframesrule-indexed-property-getter",
         "href": "https://drafts.csswg.org/css-animations-1/#interface-csskeyframesrule-indexed-property-getter",
         "title": "The indexed property getter",
-        "number": "5.3.3"
+        "number": "6.3.3"
       },
       "definedIn": "prose"
     },
@@ -1269,7 +1269,7 @@
         "id": "interface-csskeyframesrule-indexed-property-getter",
         "href": "https://drafts.csswg.org/css-animations-1/#interface-csskeyframesrule-indexed-property-getter",
         "title": "The indexed property getter",
-        "number": "5.3.3"
+        "number": "6.3.3"
       },
       "definedIn": "dt"
     },
@@ -1290,7 +1290,7 @@
         "id": "interface-csskeyframesrule-appendrule",
         "href": "https://drafts.csswg.org/css-animations-1/#interface-csskeyframesrule-appendrule",
         "title": "The appendRule method",
-        "number": "5.3.4"
+        "number": "6.3.4"
       },
       "definedIn": "prose"
     },
@@ -1311,7 +1311,7 @@
         "id": "interface-csskeyframesrule-appendrule",
         "href": "https://drafts.csswg.org/css-animations-1/#interface-csskeyframesrule-appendrule",
         "title": "The appendRule method",
-        "number": "5.3.4"
+        "number": "6.3.4"
       },
       "definedIn": "dt"
     },
@@ -1332,7 +1332,7 @@
         "id": "interface-csskeyframesrule-deleterule",
         "href": "https://drafts.csswg.org/css-animations-1/#interface-csskeyframesrule-deleterule",
         "title": "The deleteRule method",
-        "number": "5.3.5"
+        "number": "6.3.5"
       },
       "definedIn": "prose"
     },
@@ -1353,7 +1353,7 @@
         "id": "interface-csskeyframesrule-deleterule",
         "href": "https://drafts.csswg.org/css-animations-1/#interface-csskeyframesrule-deleterule",
         "title": "The deleteRule method",
-        "number": "5.3.5"
+        "number": "6.3.5"
       },
       "definedIn": "dt"
     },
@@ -1374,7 +1374,7 @@
         "id": "interface-csskeyframesrule-findrule",
         "href": "https://drafts.csswg.org/css-animations-1/#interface-csskeyframesrule-findrule",
         "title": "The findRule method",
-        "number": "5.3.6"
+        "number": "6.3.6"
       },
       "definedIn": "prose"
     },
@@ -1395,7 +1395,7 @@
         "id": "interface-csskeyframesrule-findrule",
         "href": "https://drafts.csswg.org/css-animations-1/#interface-csskeyframesrule-findrule",
         "title": "The findRule method",
-        "number": "5.3.6"
+        "number": "6.3.6"
       },
       "definedIn": "dt"
     },
@@ -1416,7 +1416,7 @@
         "id": "interface-globaleventhandlers-idl",
         "href": "https://drafts.csswg.org/css-animations-1/#interface-globaleventhandlers-idl",
         "title": "IDL Definition",
-        "number": "5.4.1"
+        "number": "6.4.1"
       },
       "definedIn": "pre"
     },
@@ -1437,7 +1437,7 @@
         "id": "interface-globaleventhandlers-idl",
         "href": "https://drafts.csswg.org/css-animations-1/#interface-globaleventhandlers-idl",
         "title": "IDL Definition",
-        "number": "5.4.1"
+        "number": "6.4.1"
       },
       "definedIn": "pre"
     },
@@ -1458,7 +1458,7 @@
         "id": "interface-globaleventhandlers-idl",
         "href": "https://drafts.csswg.org/css-animations-1/#interface-globaleventhandlers-idl",
         "title": "IDL Definition",
-        "number": "5.4.1"
+        "number": "6.4.1"
       },
       "definedIn": "pre"
     },
@@ -1479,7 +1479,7 @@
         "id": "interface-globaleventhandlers-idl",
         "href": "https://drafts.csswg.org/css-animations-1/#interface-globaleventhandlers-idl",
         "title": "IDL Definition",
-        "number": "5.4.1"
+        "number": "6.4.1"
       },
       "definedIn": "pre"
     }

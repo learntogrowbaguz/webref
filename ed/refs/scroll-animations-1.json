@@ -27,11 +27,19 @@
       },
       {
         "name": "CSS-DISPLAY-4",
-        "url": "https://drafts.csswg.org/css-display-4/"
+        "url": "https://drafts.csswg.org/css-display/"
       },
       {
         "name": "CSS-OVERFLOW-3",
         "url": "https://drafts.csswg.org/css-overflow-3/"
+      },
+      {
+        "name": "CSS-POSITION-3",
+        "url": "https://drafts.csswg.org/css-position-3/"
+      },
+      {
+        "name": "CSS-SCOPING-1",
+        "url": "https://drafts.csswg.org/css-scoping/"
       },
       {
         "name": "CSS-SCROLL-SNAP-1",
@@ -62,10 +70,6 @@
         "url": "https://drafts.csswg.org/css2/"
       },
       {
-        "name": "CSSOM-1",
-        "url": "https://drafts.csswg.org/cssom/"
-      },
-      {
         "name": "CSSOM-VIEW-1",
         "url": "https://drafts.csswg.org/cssom-view/"
       },
@@ -78,8 +82,24 @@
         "url": "https://html.spec.whatwg.org/multipage/"
       },
       {
+        "name": "INFRA",
+        "url": "https://infra.spec.whatwg.org/"
+      },
+      {
+        "name": "MEDIAQUERIES-5",
+        "url": "https://drafts.csswg.org/mediaqueries-5/"
+      },
+      {
         "name": "RFC2119",
         "url": "https://datatracker.ietf.org/doc/html/rfc2119"
+      },
+      {
+        "name": "SCROLL-ANIMATIONS-1",
+        "url": "https://drafts.csswg.org/scroll-animations-1/"
+      },
+      {
+        "name": "SELECTORS-4",
+        "url": "https://drafts.csswg.org/selectors/"
       },
       {
         "name": "WEB-ANIMATIONS-1",
@@ -96,16 +116,16 @@
     ],
     "informative": [
       {
-        "name": "CSS-SCOPING-1",
-        "url": "https://drafts.csswg.org/css-scoping/"
+        "name": "CSS-TRANSFORMS-1",
+        "url": "https://drafts.csswg.org/css-transforms/"
       },
       {
-        "name": "SCROLL-ANIMATIONS-1",
-        "url": "https://drafts.csswg.org/scroll-animations-1/"
+        "name": "CSSOM-1",
+        "url": "https://drafts.csswg.org/cssom/"
       },
       {
-        "name": "SELECTORS-4",
-        "url": "https://drafts.csswg.org/selectors/"
+        "name": "RESIZE-OBSERVER-1",
+        "url": "https://drafts.csswg.org/resize-observer/"
       }
     ]
   }

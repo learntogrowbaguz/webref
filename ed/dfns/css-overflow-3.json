@@ -205,7 +205,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "scrolling",
@@ -224,7 +224,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "scrolling",
@@ -243,7 +243,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "scrolling",
@@ -262,7 +262,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "scrolling",
@@ -281,7 +281,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "scrolling",
@@ -300,7 +300,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "scrolling",
@@ -519,6 +519,69 @@
         "number": "3.1"
       },
       "definedIn": "dt"
+    },
+    {
+      "id": "scrollable-overflow-value",
+      "href": "https://drafts.csswg.org/css-overflow-3/#scrollable-overflow-value",
+      "linkingText": [
+        "scrollable overflow value"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "overflow-control",
+        "href": "https://drafts.csswg.org/css-overflow-3/#overflow-control",
+        "title": "Managing Overflow: the overflow-x, overflow-y, and overflow properties",
+        "number": "3.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "non-scrollable-overflow-value",
+      "href": "https://drafts.csswg.org/css-overflow-3/#non-scrollable-overflow-value",
+      "linkingText": [
+        "non-scrollable overflow value"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "overflow-control",
+        "href": "https://drafts.csswg.org/css-overflow-3/#overflow-control",
+        "title": "Managing Overflow: the overflow-x, overflow-y, and overflow properties",
+        "number": "3.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "valdef-overflow-overlay",
+      "href": "https://drafts.csswg.org/css-overflow-3/#valdef-overflow-overlay",
+      "linkingText": [
+        "overlay"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "overflow",
+        "overflow-x",
+        "overflow-y",
+        "overflow-block",
+        "overflow-inline"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "overflow-control",
+        "href": "https://drafts.csswg.org/css-overflow-3/#overflow-control",
+        "title": "Managing Overflow: the overflow-x, overflow-y, and overflow properties",
+        "number": "3.1"
+      },
+      "definedIn": "prose"
     },
     {
       "id": "propdef-overflow-clip-margin",
@@ -816,267 +879,6 @@
         "href": "https://drafts.csswg.org/css-overflow-3/#text-overflow",
         "title": "Overflow Ellipsis: the text-overflow property",
         "number": "5.1"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "propdef-block-ellipsis",
-      "href": "https://drafts.csswg.org/css-overflow-3/#propdef-block-ellipsis",
-      "linkingText": [
-        "block-ellipsis"
-      ],
-      "localLinkingText": [],
-      "type": "property",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "block-ellipsis",
-        "href": "https://drafts.csswg.org/css-overflow-3/#block-ellipsis",
-        "title": "Indicating Block-Axis Overflow: the block-ellipsis property",
-        "number": "5.2"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "block-overflow-ellipsis",
-      "href": "https://drafts.csswg.org/css-overflow-3/#block-overflow-ellipsis",
-      "linkingText": [
-        "block overflow ellipsis"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "block-ellipsis",
-        "href": "https://drafts.csswg.org/css-overflow-3/#block-ellipsis",
-        "title": "Indicating Block-Axis Overflow: the block-ellipsis property",
-        "number": "5.2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "valdef-block-ellipsis-none",
-      "href": "https://drafts.csswg.org/css-overflow-3/#valdef-block-ellipsis-none",
-      "linkingText": [
-        "none"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "block-ellipsis"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "block-ellipsis",
-        "href": "https://drafts.csswg.org/css-overflow-3/#block-ellipsis",
-        "title": "Indicating Block-Axis Overflow: the block-ellipsis property",
-        "number": "5.2"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-block-ellipsis-auto",
-      "href": "https://drafts.csswg.org/css-overflow-3/#valdef-block-ellipsis-auto",
-      "linkingText": [
-        "auto"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "block-ellipsis"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "block-ellipsis",
-        "href": "https://drafts.csswg.org/css-overflow-3/#block-ellipsis",
-        "title": "Indicating Block-Axis Overflow: the block-ellipsis property",
-        "number": "5.2"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "propdef-line-clamp",
-      "href": "https://drafts.csswg.org/css-overflow-3/#propdef-line-clamp",
-      "linkingText": [
-        "line-clamp"
-      ],
-      "localLinkingText": [],
-      "type": "property",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "line-clamp",
-        "href": "https://drafts.csswg.org/css-overflow-3/#line-clamp",
-        "title": "Limiting Visible Lines: the line-clamp shorthand property",
-        "number": "6.1"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "valdef-line-clamp-none",
-      "href": "https://drafts.csswg.org/css-overflow-3/#valdef-line-clamp-none",
-      "linkingText": [
-        "none"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "line-clamp"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "line-clamp",
-        "href": "https://drafts.csswg.org/css-overflow-3/#line-clamp",
-        "title": "Limiting Visible Lines: the line-clamp shorthand property",
-        "number": "6.1"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "propdef--webkit-line-clamp",
-      "href": "https://drafts.csswg.org/css-overflow-3/#propdef--webkit-line-clamp",
-      "linkingText": [
-        "-webkit-line-clamp"
-      ],
-      "localLinkingText": [],
-      "type": "property",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "webkit-line-clamp",
-        "href": "https://drafts.csswg.org/css-overflow-3/#webkit-line-clamp",
-        "title": "Legacy compatibility",
-        "number": "6.1.1"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "valdef-continue--webkit-discard",
-      "href": "https://drafts.csswg.org/css-overflow-3/#valdef-continue--webkit-discard",
-      "linkingText": [
-        "-webkit-discard"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "continue"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "webkit-line-clamp",
-        "href": "https://drafts.csswg.org/css-overflow-3/#webkit-line-clamp",
-        "title": "Legacy compatibility",
-        "number": "6.1.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "propdef-max-lines",
-      "href": "https://drafts.csswg.org/css-overflow-3/#propdef-max-lines",
-      "linkingText": [
-        "max-lines"
-      ],
-      "localLinkingText": [],
-      "type": "property",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "max-lines",
-        "href": "https://drafts.csswg.org/css-overflow-3/#max-lines",
-        "title": "Forcing a Break After a Set Number of Lines: the max-lines property",
-        "number": "6.2"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "valdef-max-lines-none",
-      "href": "https://drafts.csswg.org/css-overflow-3/#valdef-max-lines-none",
-      "linkingText": [
-        "none"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "max-lines"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "max-lines",
-        "href": "https://drafts.csswg.org/css-overflow-3/#max-lines",
-        "title": "Forcing a Break After a Set Number of Lines: the max-lines property",
-        "number": "6.2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "propdef-continue",
-      "href": "https://drafts.csswg.org/css-overflow-3/#propdef-continue",
-      "linkingText": [
-        "continue"
-      ],
-      "localLinkingText": [],
-      "type": "property",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "continue",
-        "href": "https://drafts.csswg.org/css-overflow-3/#continue",
-        "title": "Fragmentation of Overflow: the continue property",
-        "number": "6.3"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "valdef-continue-auto",
-      "href": "https://drafts.csswg.org/css-overflow-3/#valdef-continue-auto",
-      "linkingText": [
-        "auto"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "continue"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "continue",
-        "href": "https://drafts.csswg.org/css-overflow-3/#continue",
-        "title": "Fragmentation of Overflow: the continue property",
-        "number": "6.3"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-continue-discard",
-      "href": "https://drafts.csswg.org/css-overflow-3/#valdef-continue-discard",
-      "linkingText": [
-        "discard"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "continue"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "continue",
-        "href": "https://drafts.csswg.org/css-overflow-3/#continue",
-        "title": "Fragmentation of Overflow: the continue property",
-        "number": "6.3"
       },
       "definedIn": "dt"
     }

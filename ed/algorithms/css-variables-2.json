@@ -1,0 +1,28 @@
+{
+  "spec": {
+    "title": "CSS Custom Properties for Cascading Variables Module Level 2",
+    "url": "https://drafts.csswg.org/css-variables-2/"
+  },
+  "algorithms": [
+    {
+      "name": "resolve a var()",
+      "href": "https://drafts.csswg.org/css-variables-2/#resolve-a-var-function",
+      "html": "To <dfn class=\"dfn-paneled has-dfn-panel\" data-dfn-type=\"dfn\" data-export=\"\" id=\"resolve-a-var-function\" role=\"button\" aria-expanded=\"false\" tabindex=\"0\"><a data-link-type=\"dfn\" href=\"https://drafts.csswg.org/css-values-5/#resolve-an-arbitrary-substitution-function\" id=\"ref-for-resolve-an-arbitrary-substitution-function\">resolve a var() function</a></dfn>:",
+      "rationale": ".algorithm",
+      "steps": [
+        {
+          "html": "<p>Let <var>result</var> be the value of the <a data-link-type=\"dfn\" href=\"https://drafts.csswg.org/css-variables-2/#custom-property\" id=\"ref-for-custom-property②⑤\">custom property</a> named by the function’s first argument,\non the element the function’s property is being applied to.</p>"
+        },
+        {
+          "html": "<p>Let <var>fallback</var> be the value of the function’s second argument,\ndefaulting to the <a data-link-type=\"dfn\" href=\"https://drafts.csswg.org/css-variables-2/#guaranteed-invalid-value\" id=\"ref-for-guaranteed-invalid-value①①\">guaranteed-invalid value</a> if it doesn’t have a second argument.</p>"
+        },
+        {
+          "html": "<p>If the <a data-link-type=\"dfn\" href=\"https://drafts.csswg.org/css-variables-2/#custom-property\" id=\"ref-for-custom-property②⑥\">custom property</a> named by the <a class=\"css\" data-link-type=\"maybe\" href=\"https://drafts.csswg.org/css-variables-2/#funcdef-var\" id=\"ref-for-funcdef-var②③\">var()</a>’s first argument\nis <a data-link-type=\"dfn\" href=\"https://drafts.csswg.org/css-variables-2/#animation-tainted\" id=\"ref-for-animation-tainted③\">animation-tainted</a>,\nand the <span class=\"css\" id=\"ref-for-funcdef-var②④\">var()</span> is being used in a property that is <a data-link-type=\"dfn\" href=\"https://drafts.csswg.org/web-animations-1/#not-animatable\" id=\"ref-for-not-animatable\">not animatable</a>,\nset <var>result</var> to the <a data-link-type=\"dfn\" href=\"https://drafts.csswg.org/css-variables-2/#guaranteed-invalid-value\" id=\"ref-for-guaranteed-invalid-value①②\">guaranteed-invalid value</a>.</p>"
+        },
+        {
+          "html": "<p>Return <var>result</var> and <var>fallback</var>.</p>"
+        }
+      ]
+    }
+  ]
+}

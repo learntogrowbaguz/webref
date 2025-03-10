@@ -343,6 +343,25 @@
       "definedIn": "table"
     },
     {
+      "id": "dfn-deviceid",
+      "href": "https://www.w3.org/TR/screen-capture/#dfn-deviceid",
+      "linkingText": [
+        "deviceId"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "constrainable-properties-for-captured-display-surfaces",
+        "href": "https://www.w3.org/TR/screen-capture/#constrainable-properties-for-captured-display-surfaces",
+        "title": "Constrainable Properties for Captured Display Surfaces",
+        "number": "5.4"
+      },
+      "definedIn": "table"
+    },
+    {
       "id": "dfn-displaysurface",
       "href": "https://www.w3.org/TR/screen-capture/#dfn-displaysurface",
       "linkingText": [
@@ -514,6 +533,27 @@
       "definedIn": "heading"
     },
     {
+      "id": "idl-def-CaptureStartFocusBehavior.focus-capturing-application",
+      "href": "https://www.w3.org/TR/screen-capture/#idl-def-CaptureStartFocusBehavior.focus-capturing-application",
+      "linkingText": [
+        "focus-capturing-application"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "CaptureStartFocusBehavior"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "capturestartfocusbehavior",
+        "href": "https://www.w3.org/TR/screen-capture/#capturestartfocusbehavior",
+        "title": "CaptureStartFocusBehavior",
+        "number": "5.4.2"
+      },
+      "definedIn": "table"
+    },
+    {
       "id": "idl-def-CaptureStartFocusBehavior.focus-captured-surface",
       "href": "https://www.w3.org/TR/screen-capture/#idl-def-CaptureStartFocusBehavior.focus-captured-surface",
       "linkingText": [
@@ -610,7 +650,7 @@
       "for": [
         "CaptureController"
       ],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "capturecontroller",
@@ -631,7 +671,7 @@
       "for": [
         "CaptureController"
       ],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "capturecontroller",
@@ -652,7 +692,7 @@
       "for": [
         "CaptureController"
       ],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "capturecontroller",
@@ -673,7 +713,7 @@
       "for": [
         "CaptureController"
       ],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "capturecontroller",
@@ -694,7 +734,7 @@
       "for": [
         "CaptureController"
       ],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "capturecontroller",
@@ -715,7 +755,7 @@
       "for": [
         "CaptureController"
       ],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "capturecontroller",
@@ -954,6 +994,67 @@
       "definedIn": "table"
     },
     {
+      "id": "dom-monitortypesurfacesenum",
+      "href": "https://www.w3.org/TR/screen-capture/#dom-monitortypesurfacesenum",
+      "linkingText": [
+        "MonitorTypeSurfacesEnum"
+      ],
+      "localLinkingText": [],
+      "type": "enum",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "monitortypesurfacesenum",
+        "href": "https://www.w3.org/TR/screen-capture/#monitortypesurfacesenum",
+        "title": "MonitorTypeSurfacesEnum",
+        "number": "5.4.7"
+      },
+      "definedIn": "heading"
+    },
+    {
+      "id": "idl-def-MonitorTypeSurfacesEnum.include",
+      "href": "https://www.w3.org/TR/screen-capture/#idl-def-MonitorTypeSurfacesEnum.include",
+      "linkingText": [
+        "include"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "MonitorTypeSurfacesEnum"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "monitortypesurfacesenum",
+        "href": "https://www.w3.org/TR/screen-capture/#monitortypesurfacesenum",
+        "title": "MonitorTypeSurfacesEnum",
+        "number": "5.4.7"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "idl-def-MonitorTypeSurfacesEnum.exclude",
+      "href": "https://www.w3.org/TR/screen-capture/#idl-def-MonitorTypeSurfacesEnum.exclude",
+      "linkingText": [
+        "exclude"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "MonitorTypeSurfacesEnum"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "monitortypesurfacesenum",
+        "href": "https://www.w3.org/TR/screen-capture/#monitortypesurfacesenum",
+        "title": "MonitorTypeSurfacesEnum",
+        "number": "5.4.7"
+      },
+      "definedIn": "table"
+    },
+    {
       "id": "dom-displaymediastreamoptions",
       "href": "https://www.w3.org/TR/screen-capture/#dom-displaymediastreamoptions",
       "linkingText": [
@@ -968,7 +1069,7 @@
         "id": "displaymediastreamoptions",
         "href": "https://www.w3.org/TR/screen-capture/#displaymediastreamoptions",
         "title": "DisplayMediaStreamOptions",
-        "number": "5.4.7"
+        "number": "5.4.8"
       },
       "definedIn": "prose"
     },
@@ -1093,6 +1194,26 @@
       "definedIn": "dt"
     },
     {
+      "id": "dom-displaymediastreamoptions-monitortypesurfaces",
+      "href": "https://www.w3.org/TR/screen-capture/#dom-displaymediastreamoptions-monitortypesurfaces",
+      "linkingText": [
+        "monitorTypeSurfaces"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "DisplayMediaStreamOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dictionary-displaymediastreamoptions-members",
+        "href": "https://www.w3.org/TR/screen-capture/#dictionary-displaymediastreamoptions-members",
+        "title": "Dictionary DisplayMediaStreamOptions Members"
+      },
+      "definedIn": "dt"
+    },
+    {
       "id": "dom-mediatracksupportedconstraints-displaysurface",
       "href": "https://www.w3.org/TR/screen-capture/#dom-mediatracksupportedconstraints-displaysurface",
       "linkingText": [
@@ -1109,7 +1230,7 @@
         "id": "extensions-to-mediatracksupportedconstraints",
         "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatracksupportedconstraints",
         "title": "Extensions to MediaTrackSupportedConstraints",
-        "number": "5.4.8"
+        "number": "5.4.9"
       },
       "definedIn": "dt"
     },
@@ -1130,7 +1251,7 @@
         "id": "extensions-to-mediatracksupportedconstraints",
         "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatracksupportedconstraints",
         "title": "Extensions to MediaTrackSupportedConstraints",
-        "number": "5.4.8"
+        "number": "5.4.9"
       },
       "definedIn": "dt"
     },
@@ -1151,7 +1272,7 @@
         "id": "extensions-to-mediatracksupportedconstraints",
         "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatracksupportedconstraints",
         "title": "Extensions to MediaTrackSupportedConstraints",
-        "number": "5.4.8"
+        "number": "5.4.9"
       },
       "definedIn": "dt"
     },
@@ -1172,7 +1293,7 @@
         "id": "extensions-to-mediatracksupportedconstraints",
         "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatracksupportedconstraints",
         "title": "Extensions to MediaTrackSupportedConstraints",
-        "number": "5.4.8"
+        "number": "5.4.9"
       },
       "definedIn": "dt"
     },
@@ -1193,7 +1314,7 @@
         "id": "extensions-to-mediatracksupportedconstraints",
         "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatracksupportedconstraints",
         "title": "Extensions to MediaTrackSupportedConstraints",
-        "number": "5.4.8"
+        "number": "5.4.9"
       },
       "definedIn": "dt"
     },
@@ -1214,7 +1335,7 @@
         "id": "extensions-to-mediatrackconstraintset",
         "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatrackconstraintset",
         "title": "Extensions to MediaTrackConstraintSet",
-        "number": "5.4.9"
+        "number": "5.4.10"
       },
       "definedIn": "dt"
     },
@@ -1235,7 +1356,7 @@
         "id": "extensions-to-mediatrackconstraintset",
         "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatrackconstraintset",
         "title": "Extensions to MediaTrackConstraintSet",
-        "number": "5.4.9"
+        "number": "5.4.10"
       },
       "definedIn": "dt"
     },
@@ -1256,7 +1377,7 @@
         "id": "extensions-to-mediatrackconstraintset",
         "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatrackconstraintset",
         "title": "Extensions to MediaTrackConstraintSet",
-        "number": "5.4.9"
+        "number": "5.4.10"
       },
       "definedIn": "dt"
     },
@@ -1277,7 +1398,7 @@
         "id": "extensions-to-mediatrackconstraintset",
         "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatrackconstraintset",
         "title": "Extensions to MediaTrackConstraintSet",
-        "number": "5.4.9"
+        "number": "5.4.10"
       },
       "definedIn": "dt"
     },
@@ -1298,7 +1419,7 @@
         "id": "extensions-to-mediatrackconstraintset",
         "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatrackconstraintset",
         "title": "Extensions to MediaTrackConstraintSet",
-        "number": "5.4.9"
+        "number": "5.4.10"
       },
       "definedIn": "dt"
     },
@@ -1319,7 +1440,7 @@
         "id": "extensions-to-mediatracksettings",
         "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatracksettings",
         "title": "Extensions to MediaTrackSettings",
-        "number": "5.4.10"
+        "number": "5.4.11"
       },
       "definedIn": "dt"
     },
@@ -1340,7 +1461,7 @@
         "id": "extensions-to-mediatracksettings",
         "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatracksettings",
         "title": "Extensions to MediaTrackSettings",
-        "number": "5.4.10"
+        "number": "5.4.11"
       },
       "definedIn": "dt"
     },
@@ -1361,7 +1482,7 @@
         "id": "extensions-to-mediatracksettings",
         "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatracksettings",
         "title": "Extensions to MediaTrackSettings",
-        "number": "5.4.10"
+        "number": "5.4.11"
       },
       "definedIn": "dt"
     },
@@ -1382,7 +1503,7 @@
         "id": "extensions-to-mediatracksettings",
         "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatracksettings",
         "title": "Extensions to MediaTrackSettings",
-        "number": "5.4.10"
+        "number": "5.4.11"
       },
       "definedIn": "dt"
     },
@@ -1403,7 +1524,7 @@
         "id": "extensions-to-mediatracksettings",
         "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatracksettings",
         "title": "Extensions to MediaTrackSettings",
-        "number": "5.4.10"
+        "number": "5.4.11"
       },
       "definedIn": "dt"
     },
@@ -1424,7 +1545,7 @@
         "id": "extensions-to-mediatrackcapabilities",
         "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatrackcapabilities",
         "title": "Extensions to MediaTrackCapabilities",
-        "number": "5.4.11"
+        "number": "5.4.12"
       },
       "definedIn": "dt"
     },
@@ -1445,7 +1566,7 @@
         "id": "extensions-to-mediatrackcapabilities",
         "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatrackcapabilities",
         "title": "Extensions to MediaTrackCapabilities",
-        "number": "5.4.11"
+        "number": "5.4.12"
       },
       "definedIn": "dt"
     },
@@ -1466,7 +1587,7 @@
         "id": "extensions-to-mediatrackcapabilities",
         "href": "https://www.w3.org/TR/screen-capture/#extensions-to-mediatrackcapabilities",
         "title": "Extensions to MediaTrackCapabilities",
-        "number": "5.4.11"
+        "number": "5.4.12"
       },
       "definedIn": "dt"
     },
@@ -1485,7 +1606,7 @@
         "id": "displaycapturesurfacetype",
         "href": "https://www.w3.org/TR/screen-capture/#displaycapturesurfacetype",
         "title": "DisplayCaptureSurfaceType",
-        "number": "5.4.12"
+        "number": "5.4.13"
       },
       "definedIn": "heading"
     },
@@ -1506,7 +1627,7 @@
         "id": "displaycapturesurfacetype",
         "href": "https://www.w3.org/TR/screen-capture/#displaycapturesurfacetype",
         "title": "DisplayCaptureSurfaceType",
-        "number": "5.4.12"
+        "number": "5.4.13"
       },
       "definedIn": "table"
     },
@@ -1527,7 +1648,7 @@
         "id": "displaycapturesurfacetype",
         "href": "https://www.w3.org/TR/screen-capture/#displaycapturesurfacetype",
         "title": "DisplayCaptureSurfaceType",
-        "number": "5.4.12"
+        "number": "5.4.13"
       },
       "definedIn": "table"
     },
@@ -1548,7 +1669,7 @@
         "id": "displaycapturesurfacetype",
         "href": "https://www.w3.org/TR/screen-capture/#displaycapturesurfacetype",
         "title": "DisplayCaptureSurfaceType",
-        "number": "5.4.12"
+        "number": "5.4.13"
       },
       "definedIn": "table"
     },
@@ -1567,7 +1688,7 @@
         "id": "cursorcaptureconstraint",
         "href": "https://www.w3.org/TR/screen-capture/#cursorcaptureconstraint",
         "title": "CursorCaptureConstraint",
-        "number": "5.4.13"
+        "number": "5.4.14"
       },
       "definedIn": "heading"
     },
@@ -1588,7 +1709,7 @@
         "id": "cursorcaptureconstraint",
         "href": "https://www.w3.org/TR/screen-capture/#cursorcaptureconstraint",
         "title": "CursorCaptureConstraint",
-        "number": "5.4.13"
+        "number": "5.4.14"
       },
       "definedIn": "table"
     },
@@ -1609,7 +1730,7 @@
         "id": "cursorcaptureconstraint",
         "href": "https://www.w3.org/TR/screen-capture/#cursorcaptureconstraint",
         "title": "CursorCaptureConstraint",
-        "number": "5.4.13"
+        "number": "5.4.14"
       },
       "definedIn": "table"
     },
@@ -1630,7 +1751,7 @@
         "id": "cursorcaptureconstraint",
         "href": "https://www.w3.org/TR/screen-capture/#cursorcaptureconstraint",
         "title": "CursorCaptureConstraint",
-        "number": "5.4.13"
+        "number": "5.4.14"
       },
       "definedIn": "table"
     },

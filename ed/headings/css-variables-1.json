@@ -8,7 +8,7 @@
       "id": "title",
       "href": "https://drafts.csswg.org/css-variables-1/#title",
       "level": 1,
-      "title": "224 TestsCSS Custom Properties for Cascading Variables Module Level 1"
+      "title": "CSS Custom Properties for Cascading Variables Module Level 1"
     },
     {
       "id": "abstract",
@@ -78,27 +78,6 @@
       "number": "3"
     },
     {
-      "id": "invalid-variables",
-      "href": "https://drafts.csswg.org/css-variables-1/#invalid-variables",
-      "level": 3,
-      "title": "Invalid Variables",
-      "number": "3.1"
-    },
-    {
-      "id": "variables-in-shorthands",
-      "href": "https://drafts.csswg.org/css-variables-1/#variables-in-shorthands",
-      "level": 3,
-      "title": "Variables in Shorthand Properties",
-      "number": "3.2"
-    },
-    {
-      "id": "long-variables",
-      "href": "https://drafts.csswg.org/css-variables-1/#long-variables",
-      "level": 3,
-      "title": "Safely Handling Overly-Long Variables",
-      "number": "3.3"
-    },
-    {
       "id": "apis",
       "href": "https://drafts.csswg.org/css-variables-1/#apis",
       "level": 2,
@@ -123,7 +102,7 @@
       "id": "changes-20220616",
       "href": "https://drafts.csswg.org/css-variables-1/#changes-20220616",
       "level": 3,
-      "title": "Changes Since the 16 June CR Snapshot",
+      "title": "Changes Since the 16 June 2022 CR Snapshot",
       "number": "5.1"
     },
     {

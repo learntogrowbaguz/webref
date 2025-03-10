@@ -36,10 +36,10 @@
       "number": "1"
     },
     {
-      "id": "technical-overview",
-      "href": "https://www.w3.org/TR/WGSL/#technical-overview",
+      "id": "overview",
+      "href": "https://www.w3.org/TR/WGSL/#overview",
       "level": 3,
-      "title": "Technical Overview",
+      "title": "Overview",
       "number": "1.1"
     },
     {
@@ -57,18 +57,60 @@
       "number": "1.3"
     },
     {
-      "id": "shader-lifecycle",
-      "href": "https://www.w3.org/TR/WGSL/#shader-lifecycle",
+      "id": "wgsl-module",
+      "href": "https://www.w3.org/TR/WGSL/#wgsl-module",
       "level": 2,
-      "title": "Shader Lifecycle",
+      "title": "WGSL Module",
       "number": "2"
     },
     {
-      "id": "processing-errors",
-      "href": "https://www.w3.org/TR/WGSL/#processing-errors",
+      "id": "shader-lifecycle",
+      "href": "https://www.w3.org/TR/WGSL/#shader-lifecycle",
       "level": 3,
-      "title": "Processing Errors",
+      "title": "Shader Lifecycle",
       "number": "2.1"
+    },
+    {
+      "id": "errors",
+      "href": "https://www.w3.org/TR/WGSL/#errors",
+      "level": 3,
+      "title": "Errors",
+      "number": "2.2"
+    },
+    {
+      "id": "diagnostics",
+      "href": "https://www.w3.org/TR/WGSL/#diagnostics",
+      "level": 3,
+      "title": "Diagnostics",
+      "number": "2.3"
+    },
+    {
+      "id": "diagnostic-processing",
+      "href": "https://www.w3.org/TR/WGSL/#diagnostic-processing",
+      "level": 4,
+      "title": "Diagnostic Processing",
+      "number": "2.3.1"
+    },
+    {
+      "id": "filterable-triggering-rules",
+      "href": "https://www.w3.org/TR/WGSL/#filterable-triggering-rules",
+      "level": 4,
+      "title": "Filterable Triggering Rules",
+      "number": "2.3.2"
+    },
+    {
+      "id": "diagnostic-filtering",
+      "href": "https://www.w3.org/TR/WGSL/#diagnostic-filtering",
+      "level": 4,
+      "title": "Diagnostic Filtering",
+      "number": "2.3.3"
+    },
+    {
+      "id": "limits",
+      "href": "https://www.w3.org/TR/WGSL/#limits",
+      "level": 3,
+      "title": "Limits",
+      "number": "2.4"
     },
     {
       "id": "textual-structure",
@@ -88,7 +130,7 @@
       "id": "blankspace-and-line-breaks",
       "href": "https://www.w3.org/TR/WGSL/#blankspace-and-line-breaks",
       "level": 3,
-      "title": "Blankspace and line breaks",
+      "title": "Blankspace and Line Breaks",
       "number": "3.2"
     },
     {
@@ -155,1285 +197,1628 @@
       "number": "3.8"
     },
     {
-      "id": "attributes",
-      "href": "https://www.w3.org/TR/WGSL/#attributes",
+      "id": "attribute-names",
+      "href": "https://www.w3.org/TR/WGSL/#attribute-names",
+      "level": 4,
+      "title": "Attribute Names",
+      "number": "3.8.1"
+    },
+    {
+      "id": "builtin-value-names",
+      "href": "https://www.w3.org/TR/WGSL/#builtin-value-names",
+      "level": 4,
+      "title": "Built-in Value Names",
+      "number": "3.8.2"
+    },
+    {
+      "id": "diagnostic-rule-names",
+      "href": "https://www.w3.org/TR/WGSL/#diagnostic-rule-names",
+      "level": 4,
+      "title": "Diagnostic Rule Names",
+      "number": "3.8.3"
+    },
+    {
+      "id": "diagnostic-severity-control-names",
+      "href": "https://www.w3.org/TR/WGSL/#diagnostic-severity-control-names",
+      "level": 4,
+      "title": "Diagnostic Severity Control Names",
+      "number": "3.8.4"
+    },
+    {
+      "id": "extension-names",
+      "href": "https://www.w3.org/TR/WGSL/#extension-names",
+      "level": 4,
+      "title": "Extension Names",
+      "number": "3.8.5"
+    },
+    {
+      "id": "interpolation-type-names",
+      "href": "https://www.w3.org/TR/WGSL/#interpolation-type-names",
+      "level": 4,
+      "title": "Interpolation Type Names",
+      "number": "3.8.6"
+    },
+    {
+      "id": "interpolation-sampling-names",
+      "href": "https://www.w3.org/TR/WGSL/#interpolation-sampling-names",
+      "level": 4,
+      "title": "Interpolation Sampling Names",
+      "number": "3.8.7"
+    },
+    {
+      "id": "swizzle-names",
+      "href": "https://www.w3.org/TR/WGSL/#swizzle-names",
+      "level": 4,
+      "title": "Swizzle Names",
+      "number": "3.8.8"
+    },
+    {
+      "id": "template-lists-sec",
+      "href": "https://www.w3.org/TR/WGSL/#template-lists-sec",
       "level": 3,
-      "title": "Attributes",
+      "title": "Template Lists",
       "number": "3.9"
     },
     {
       "id": "directives",
       "href": "https://www.w3.org/TR/WGSL/#directives",
-      "level": 3,
+      "level": 2,
       "title": "Directives",
-      "number": "3.10"
+      "number": "4"
+    },
+    {
+      "id": "extensions",
+      "href": "https://www.w3.org/TR/WGSL/#extensions",
+      "level": 3,
+      "title": "Extensions",
+      "number": "4.1"
+    },
+    {
+      "id": "enable-extensions-sec",
+      "href": "https://www.w3.org/TR/WGSL/#enable-extensions-sec",
+      "level": 4,
+      "title": "Enable Extensions",
+      "number": "4.1.1"
+    },
+    {
+      "id": "language-extensions-sec",
+      "href": "https://www.w3.org/TR/WGSL/#language-extensions-sec",
+      "level": 4,
+      "title": "Language Extensions",
+      "number": "4.1.2"
+    },
+    {
+      "id": "global-diagnostic-directive",
+      "href": "https://www.w3.org/TR/WGSL/#global-diagnostic-directive",
+      "level": 3,
+      "title": "Global Diagnostic Filter",
+      "number": "4.2"
     },
     {
       "id": "declaration-and-scope",
       "href": "https://www.w3.org/TR/WGSL/#declaration-and-scope",
       "level": 2,
       "title": "Declaration and Scope",
-      "number": "4"
+      "number": "5"
     },
     {
       "id": "types",
       "href": "https://www.w3.org/TR/WGSL/#types",
       "level": 2,
       "title": "Types",
-      "number": "5"
+      "number": "6"
     },
     {
       "id": "type-checking-section",
       "href": "https://www.w3.org/TR/WGSL/#type-checking-section",
       "level": 3,
       "title": "Type Checking",
-      "number": "5.1"
+      "number": "6.1"
     },
     {
       "id": "typing-tables-section",
       "href": "https://www.w3.org/TR/WGSL/#typing-tables-section",
       "level": 4,
       "title": "Type Rule Tables",
-      "number": "5.1.1"
+      "number": "6.1.1"
     },
     {
       "id": "conversion-rank",
       "href": "https://www.w3.org/TR/WGSL/#conversion-rank",
       "level": 4,
       "title": "Conversion Rank",
-      "number": "5.1.2"
+      "number": "6.1.2"
     },
     {
       "id": "overload-resolution-section",
       "href": "https://www.w3.org/TR/WGSL/#overload-resolution-section",
       "level": 4,
       "title": "Overload Resolution",
-      "number": "5.1.3"
+      "number": "6.1.3"
     },
     {
       "id": "plain-types-section",
       "href": "https://www.w3.org/TR/WGSL/#plain-types-section",
       "level": 3,
       "title": "Plain Types",
-      "number": "5.2"
+      "number": "6.2"
     },
     {
       "id": "abstract-types",
       "href": "https://www.w3.org/TR/WGSL/#abstract-types",
       "level": 4,
       "title": "Abstract Numeric Types",
-      "number": "5.2.1"
+      "number": "6.2.1"
     },
     {
       "id": "bool-type",
       "href": "https://www.w3.org/TR/WGSL/#bool-type",
       "level": 4,
       "title": "Boolean Type",
-      "number": "5.2.2"
+      "number": "6.2.2"
     },
     {
       "id": "integer-types",
       "href": "https://www.w3.org/TR/WGSL/#integer-types",
       "level": 4,
       "title": "Integer Types",
-      "number": "5.2.3"
+      "number": "6.2.3"
     },
     {
       "id": "floating-point-types",
       "href": "https://www.w3.org/TR/WGSL/#floating-point-types",
       "level": 4,
-      "title": "Floating Point Type",
-      "number": "5.2.4"
+      "title": "Floating Point Types",
+      "number": "6.2.4"
     },
     {
       "id": "scalar-types",
       "href": "https://www.w3.org/TR/WGSL/#scalar-types",
       "level": 4,
       "title": "Scalar Types",
-      "number": "5.2.5"
+      "number": "6.2.5"
     },
     {
       "id": "vector-types",
       "href": "https://www.w3.org/TR/WGSL/#vector-types",
       "level": 4,
       "title": "Vector Types",
-      "number": "5.2.6"
+      "number": "6.2.6"
     },
     {
       "id": "matrix-types",
       "href": "https://www.w3.org/TR/WGSL/#matrix-types",
       "level": 4,
       "title": "Matrix Types",
-      "number": "5.2.7"
+      "number": "6.2.7"
     },
     {
       "id": "atomic-types",
       "href": "https://www.w3.org/TR/WGSL/#atomic-types",
       "level": 4,
       "title": "Atomic Types",
-      "number": "5.2.8"
+      "number": "6.2.8"
     },
     {
       "id": "array-types",
       "href": "https://www.w3.org/TR/WGSL/#array-types",
       "level": 4,
       "title": "Array Types",
-      "number": "5.2.9"
+      "number": "6.2.9"
     },
     {
       "id": "struct-types",
       "href": "https://www.w3.org/TR/WGSL/#struct-types",
       "level": 4,
       "title": "Structure Types",
-      "number": "5.2.10"
+      "number": "6.2.10"
     },
     {
       "id": "composite-types",
       "href": "https://www.w3.org/TR/WGSL/#composite-types",
       "level": 4,
       "title": "Composite Types",
-      "number": "5.2.11"
+      "number": "6.2.11"
     },
     {
       "id": "constructible-types",
       "href": "https://www.w3.org/TR/WGSL/#constructible-types",
       "level": 4,
       "title": "Constructible Types",
-      "number": "5.2.12"
+      "number": "6.2.12"
     },
     {
       "id": "fixed-footprint-types",
       "href": "https://www.w3.org/TR/WGSL/#fixed-footprint-types",
       "level": 4,
       "title": "Fixed-Footprint Types",
-      "number": "5.2.13"
+      "number": "6.2.13"
     },
     {
-      "id": "memory",
-      "href": "https://www.w3.org/TR/WGSL/#memory",
+      "id": "enumeration-types",
+      "href": "https://www.w3.org/TR/WGSL/#enumeration-types",
       "level": 3,
-      "title": "Memory",
-      "number": "5.3"
+      "title": "Enumeration Types",
+      "number": "6.3"
     },
     {
-      "id": "memory-locations-section",
-      "href": "https://www.w3.org/TR/WGSL/#memory-locations-section",
+      "id": "predeclared-enumerants",
+      "href": "https://www.w3.org/TR/WGSL/#predeclared-enumerants",
       "level": 4,
-      "title": "Memory Locations",
-      "number": "5.3.1"
-    },
-    {
-      "id": "memory-access-mode",
-      "href": "https://www.w3.org/TR/WGSL/#memory-access-mode",
-      "level": 4,
-      "title": "Memory Access Mode",
-      "number": "5.3.2"
-    },
-    {
-      "id": "storable-types",
-      "href": "https://www.w3.org/TR/WGSL/#storable-types",
-      "level": 4,
-      "title": "Storable Types",
-      "number": "5.3.3"
-    },
-    {
-      "id": "host-shareable-types",
-      "href": "https://www.w3.org/TR/WGSL/#host-shareable-types",
-      "level": 4,
-      "title": "Host-shareable Types",
-      "number": "5.3.4"
-    },
-    {
-      "id": "address-space",
-      "href": "https://www.w3.org/TR/WGSL/#address-space",
-      "level": 4,
-      "title": "Address Spaces",
-      "number": "5.3.5"
-    },
-    {
-      "id": "memory-layouts",
-      "href": "https://www.w3.org/TR/WGSL/#memory-layouts",
-      "level": 4,
-      "title": "Memory Layout",
-      "number": "5.3.6"
-    },
-    {
-      "id": "alignment-and-size",
-      "href": "https://www.w3.org/TR/WGSL/#alignment-and-size",
-      "level": 5,
-      "title": "Alignment and Size",
-      "number": "5.3.6.1"
-    },
-    {
-      "id": "structure-member-layout",
-      "href": "https://www.w3.org/TR/WGSL/#structure-member-layout",
-      "level": 5,
-      "title": "Structure Member Layout",
-      "number": "5.3.6.2"
-    },
-    {
-      "id": "array-layout-examples",
-      "href": "https://www.w3.org/TR/WGSL/#array-layout-examples",
-      "level": 5,
-      "title": "Array Layout Examples",
-      "number": "5.3.6.3"
-    },
-    {
-      "id": "internal-value-layout",
-      "href": "https://www.w3.org/TR/WGSL/#internal-value-layout",
-      "level": 5,
-      "title": "Internal Layout of Values",
-      "number": "5.3.6.4"
-    },
-    {
-      "id": "address-space-layout-constraints",
-      "href": "https://www.w3.org/TR/WGSL/#address-space-layout-constraints",
-      "level": 5,
-      "title": "Address Space Layout Constraints",
-      "number": "5.3.6.5"
+      "title": "Predeclared enumerants",
+      "number": "6.3.1"
     },
     {
       "id": "memory-views",
       "href": "https://www.w3.org/TR/WGSL/#memory-views",
       "level": 3,
       "title": "Memory Views",
-      "number": "5.4"
+      "number": "6.4"
+    },
+    {
+      "id": "storable-types",
+      "href": "https://www.w3.org/TR/WGSL/#storable-types",
+      "level": 4,
+      "title": "Storable Types",
+      "number": "6.4.1"
+    },
+    {
+      "id": "host-shareable-types",
+      "href": "https://www.w3.org/TR/WGSL/#host-shareable-types",
+      "level": 4,
+      "title": "Host-shareable Types",
+      "number": "6.4.2"
     },
     {
       "id": "ref-ptr-types",
       "href": "https://www.w3.org/TR/WGSL/#ref-ptr-types",
       "level": 4,
       "title": "Reference and Pointer Types",
-      "number": "5.4.1"
+      "number": "6.4.3"
     },
     {
-      "id": "access-mode-defaults",
-      "href": "https://www.w3.org/TR/WGSL/#access-mode-defaults",
+      "id": "valid-invalid-memory-references",
+      "href": "https://www.w3.org/TR/WGSL/#valid-invalid-memory-references",
       "level": 4,
-      "title": "Access Mode Defaults",
-      "number": "5.4.2"
+      "title": "Valid and Invalid Memory References",
+      "number": "6.4.4"
     },
     {
       "id": "originating-variable-section",
       "href": "https://www.w3.org/TR/WGSL/#originating-variable-section",
       "level": 4,
       "title": "Originating Variable",
-      "number": "5.4.3"
+      "number": "6.4.5"
     },
     {
-      "id": "invalid-mem-reference",
-      "href": "https://www.w3.org/TR/WGSL/#invalid-mem-reference",
+      "id": "out-of-bounds-access-sec",
+      "href": "https://www.w3.org/TR/WGSL/#out-of-bounds-access-sec",
       "level": 4,
-      "title": "Invalid Memory Reference",
-      "number": "5.4.4"
+      "title": "Out-of-Bounds Access",
+      "number": "6.4.6"
     },
     {
       "id": "ref-ptr-use-cases",
       "href": "https://www.w3.org/TR/WGSL/#ref-ptr-use-cases",
       "level": 4,
       "title": "Use Cases for References and Pointers",
-      "number": "5.4.5"
+      "number": "6.4.7"
     },
     {
       "id": "forming-references-and-pointers",
       "href": "https://www.w3.org/TR/WGSL/#forming-references-and-pointers",
       "level": 4,
       "title": "Forming Reference and Pointer Values",
-      "number": "5.4.6"
+      "number": "6.4.8"
     },
     {
       "id": "pointers-other-languages",
       "href": "https://www.w3.org/TR/WGSL/#pointers-other-languages",
       "level": 4,
       "title": "Comparison with References and Pointers in Other Languages",
-      "number": "5.4.7"
+      "number": "6.4.9"
     },
     {
       "id": "texture-sampler-types",
       "href": "https://www.w3.org/TR/WGSL/#texture-sampler-types",
       "level": 3,
       "title": "Texture and Sampler Types",
-      "number": "5.5"
+      "number": "6.5"
     },
     {
       "id": "texel-formats",
       "href": "https://www.w3.org/TR/WGSL/#texel-formats",
       "level": 4,
       "title": "Texel Formats",
-      "number": "5.5.1"
+      "number": "6.5.1"
     },
     {
       "id": "sampled-texture-type",
       "href": "https://www.w3.org/TR/WGSL/#sampled-texture-type",
       "level": 4,
       "title": "Sampled Texture Types",
-      "number": "5.5.2"
+      "number": "6.5.2"
     },
     {
       "id": "multisampled-texture-type",
       "href": "https://www.w3.org/TR/WGSL/#multisampled-texture-type",
       "level": 4,
       "title": "Multisampled Texture Types",
-      "number": "5.5.3"
+      "number": "6.5.3"
     },
     {
       "id": "external-texture-type",
       "href": "https://www.w3.org/TR/WGSL/#external-texture-type",
       "level": 4,
       "title": "External Sampled Texture Types",
-      "number": "5.5.4"
+      "number": "6.5.4"
     },
     {
       "id": "texture-storage",
       "href": "https://www.w3.org/TR/WGSL/#texture-storage",
       "level": 4,
       "title": "Storage Texture Types",
-      "number": "5.5.5"
+      "number": "6.5.5"
     },
     {
       "id": "texture-depth",
       "href": "https://www.w3.org/TR/WGSL/#texture-depth",
       "level": 4,
       "title": "Depth Texture Types",
-      "number": "5.5.6"
+      "number": "6.5.6"
     },
     {
       "id": "sampler-type",
       "href": "https://www.w3.org/TR/WGSL/#sampler-type",
       "level": 4,
       "title": "Sampler Type",
-      "number": "5.5.7"
+      "number": "6.5.7"
     },
     {
-      "id": "texture-and-sampler-types-grammar",
-      "href": "https://www.w3.org/TR/WGSL/#texture-and-sampler-types-grammar",
-      "level": 4,
-      "title": "Texture and Sampler Types Grammar",
-      "number": "5.5.8"
+      "id": "alltypes-type",
+      "href": "https://www.w3.org/TR/WGSL/#alltypes-type",
+      "level": 3,
+      "title": "AllTypes Type",
+      "number": "6.6"
     },
     {
       "id": "type-aliases",
       "href": "https://www.w3.org/TR/WGSL/#type-aliases",
       "level": 3,
       "title": "Type Aliases",
-      "number": "5.6"
+      "number": "6.7"
     },
     {
       "id": "type-specifiers",
       "href": "https://www.w3.org/TR/WGSL/#type-specifiers",
       "level": 3,
       "title": "Type Specifier Grammar",
-      "number": "5.7"
+      "number": "6.8"
+    },
+    {
+      "id": "predeclared-types",
+      "href": "https://www.w3.org/TR/WGSL/#predeclared-types",
+      "level": 3,
+      "title": "Predeclared Types and Type-Generators Summary",
+      "number": "6.9"
     },
     {
       "id": "var-and-value",
       "href": "https://www.w3.org/TR/WGSL/#var-and-value",
       "level": 2,
       "title": "Variable and Value Declarations",
-      "number": "6"
+      "number": "7"
     },
     {
       "id": "var-vs-value",
       "href": "https://www.w3.org/TR/WGSL/#var-vs-value",
       "level": 3,
       "title": "Variables vs Values",
-      "number": "6.1"
+      "number": "7.1"
     },
     {
       "id": "value-decls",
       "href": "https://www.w3.org/TR/WGSL/#value-decls",
       "level": 3,
       "title": "Value Declarations",
-      "number": "6.2"
+      "number": "7.2"
     },
     {
       "id": "const-decls",
       "href": "https://www.w3.org/TR/WGSL/#const-decls",
       "level": 4,
       "title": "const Declarations",
-      "number": "6.2.1"
+      "number": "7.2.1"
     },
     {
       "id": "override-decls",
       "href": "https://www.w3.org/TR/WGSL/#override-decls",
       "level": 4,
       "title": "override Declarations",
-      "number": "6.2.2"
+      "number": "7.2.2"
     },
     {
       "id": "let-decls",
       "href": "https://www.w3.org/TR/WGSL/#let-decls",
       "level": 4,
       "title": "let Declarations",
-      "number": "6.2.3"
+      "number": "7.2.3"
     },
     {
       "id": "var-decls",
       "href": "https://www.w3.org/TR/WGSL/#var-decls",
       "level": 3,
       "title": "var Declarations",
-      "number": "6.3"
+      "number": "7.3"
     },
     {
       "id": "var-and-value-decl-grammar",
       "href": "https://www.w3.org/TR/WGSL/#var-and-value-decl-grammar",
       "level": 3,
       "title": "Variable and Value Declaration Grammar Summary",
-      "number": "6.4"
+      "number": "7.4"
     },
     {
       "id": "expressions",
       "href": "https://www.w3.org/TR/WGSL/#expressions",
       "level": 2,
       "title": "Expressions",
-      "number": "7"
+      "number": "8"
     },
     {
       "id": "early-eval-exprs",
       "href": "https://www.w3.org/TR/WGSL/#early-eval-exprs",
       "level": 3,
       "title": "Early Evaluation Expressions",
-      "number": "7.1"
+      "number": "8.1"
     },
     {
       "id": "const-expr",
       "href": "https://www.w3.org/TR/WGSL/#const-expr",
       "level": 4,
       "title": "const Expressions",
-      "number": "7.1.1"
+      "number": "8.1.1"
     },
     {
       "id": "override-expr",
       "href": "https://www.w3.org/TR/WGSL/#override-expr",
       "level": 4,
       "title": "override Expressions",
-      "number": "7.1.2"
+      "number": "8.1.2"
     },
     {
       "id": "indeterminate-values",
       "href": "https://www.w3.org/TR/WGSL/#indeterminate-values",
       "level": 3,
       "title": "Indeterminate values",
-      "number": "7.2"
+      "number": "8.2"
     },
     {
       "id": "literal-expressions",
       "href": "https://www.w3.org/TR/WGSL/#literal-expressions",
       "level": 3,
       "title": "Literal Value Expressions",
-      "number": "7.3"
+      "number": "8.3"
     },
     {
       "id": "parenthesized-expressions",
       "href": "https://www.w3.org/TR/WGSL/#parenthesized-expressions",
       "level": 3,
       "title": "Parenthesized Expressions",
-      "number": "7.4"
-    },
-    {
-      "id": "type-constructor-expr",
-      "href": "https://www.w3.org/TR/WGSL/#type-constructor-expr",
-      "level": 3,
-      "title": "Type Constructor Expressions",
-      "number": "7.5"
-    },
-    {
-      "id": "construction-from-components",
-      "href": "https://www.w3.org/TR/WGSL/#construction-from-components",
-      "level": 4,
-      "title": "Construction From Components",
-      "number": "7.5.1"
-    },
-    {
-      "id": "zero-value-expr",
-      "href": "https://www.w3.org/TR/WGSL/#zero-value-expr",
-      "level": 4,
-      "title": "Zero Value Expressions",
-      "number": "7.5.2"
-    },
-    {
-      "id": "conversion-expr",
-      "href": "https://www.w3.org/TR/WGSL/#conversion-expr",
-      "level": 4,
-      "title": "Conversion Expressions",
-      "number": "7.5.3"
-    },
-    {
-      "id": "bitcast-expr",
-      "href": "https://www.w3.org/TR/WGSL/#bitcast-expr",
-      "level": 3,
-      "title": "Reinterpretation of Representation Expressions",
-      "number": "7.6"
+      "number": "8.4"
     },
     {
       "id": "composite-value-decomposition-expr",
       "href": "https://www.w3.org/TR/WGSL/#composite-value-decomposition-expr",
       "level": 3,
       "title": "Composite Value Decomposition Expressions",
-      "number": "7.7"
+      "number": "8.5"
     },
     {
       "id": "vector-access-expr",
       "href": "https://www.w3.org/TR/WGSL/#vector-access-expr",
       "level": 4,
       "title": "Vector Access Expression",
-      "number": "7.7.1"
+      "number": "8.5.1"
     },
     {
       "id": "vector-single-component",
       "href": "https://www.w3.org/TR/WGSL/#vector-single-component",
       "level": 5,
       "title": "Vector Single Component Selection",
-      "number": "7.7.1.1"
+      "number": "8.5.1.1"
     },
     {
       "id": "vector-multi-component",
       "href": "https://www.w3.org/TR/WGSL/#vector-multi-component",
       "level": 5,
       "title": "Vector Multiple Component Selection",
-      "number": "7.7.1.2"
+      "number": "8.5.1.2"
     },
     {
-      "id": "component-reference-from-vector-reference",
-      "href": "https://www.w3.org/TR/WGSL/#component-reference-from-vector-reference",
+      "id": "component-reference-from-vector-memory-view",
+      "href": "https://www.w3.org/TR/WGSL/#component-reference-from-vector-memory-view",
       "level": 5,
-      "title": "Component Reference from Vector Reference",
-      "number": "7.7.1.3"
+      "title": "Component Reference from Vector Memory View",
+      "number": "8.5.1.3"
     },
     {
       "id": "matrix-access-expr",
       "href": "https://www.w3.org/TR/WGSL/#matrix-access-expr",
       "level": 4,
       "title": "Matrix Access Expression",
-      "number": "7.7.2"
+      "number": "8.5.2"
     },
     {
       "id": "array-access-expr",
       "href": "https://www.w3.org/TR/WGSL/#array-access-expr",
       "level": 4,
       "title": "Array Access Expression",
-      "number": "7.7.3"
+      "number": "8.5.3"
     },
     {
       "id": "struct-access-expr",
       "href": "https://www.w3.org/TR/WGSL/#struct-access-expr",
       "level": 4,
       "title": "Structure Access Expression",
-      "number": "7.7.4"
+      "number": "8.5.4"
     },
     {
       "id": "logical-expr",
       "href": "https://www.w3.org/TR/WGSL/#logical-expr",
       "level": 3,
       "title": "Logical Expressions",
-      "number": "7.8"
+      "number": "8.6"
     },
     {
       "id": "arithmetic-expr",
       "href": "https://www.w3.org/TR/WGSL/#arithmetic-expr",
       "level": 3,
       "title": "Arithmetic Expressions",
-      "number": "7.9"
+      "number": "8.7"
     },
     {
       "id": "comparison-expr",
       "href": "https://www.w3.org/TR/WGSL/#comparison-expr",
       "level": 3,
       "title": "Comparison Expressions",
-      "number": "7.10"
+      "number": "8.8"
     },
     {
       "id": "bit-expr",
       "href": "https://www.w3.org/TR/WGSL/#bit-expr",
       "level": 3,
       "title": "Bit Expressions",
-      "number": "7.11"
+      "number": "8.9"
     },
     {
       "id": "function-call-expr",
       "href": "https://www.w3.org/TR/WGSL/#function-call-expr",
       "level": 3,
       "title": "Function Call Expression",
-      "number": "7.12"
+      "number": "8.10"
     },
     {
       "id": "var-identifier-expr",
       "href": "https://www.w3.org/TR/WGSL/#var-identifier-expr",
       "level": 3,
       "title": "Variable Identifier Expression",
-      "number": "7.13"
+      "number": "8.11"
     },
     {
       "id": "formal-parameter-expr",
       "href": "https://www.w3.org/TR/WGSL/#formal-parameter-expr",
       "level": 3,
       "title": "Formal Parameter Expression",
-      "number": "7.14"
+      "number": "8.12"
     },
     {
       "id": "address-of-expr",
       "href": "https://www.w3.org/TR/WGSL/#address-of-expr",
       "level": 3,
       "title": "Address-Of Expression",
-      "number": "7.15"
+      "number": "8.13"
     },
     {
       "id": "indirection-expr",
       "href": "https://www.w3.org/TR/WGSL/#indirection-expr",
       "level": 3,
       "title": "Indirection Expression",
-      "number": "7.16"
+      "number": "8.14"
     },
     {
       "id": "value-identifier-expr",
       "href": "https://www.w3.org/TR/WGSL/#value-identifier-expr",
       "level": 3,
       "title": "Identifier Expressions for Value Declarations",
-      "number": "7.17"
+      "number": "8.15"
+    },
+    {
+      "id": "enum-expr",
+      "href": "https://www.w3.org/TR/WGSL/#enum-expr",
+      "level": 3,
+      "title": "Enumeration Expressions",
+      "number": "8.16"
+    },
+    {
+      "id": "type-expr",
+      "href": "https://www.w3.org/TR/WGSL/#type-expr",
+      "level": 3,
+      "title": "Type Expressions",
+      "number": "8.17"
     },
     {
       "id": "expression-grammar",
       "href": "https://www.w3.org/TR/WGSL/#expression-grammar",
       "level": 3,
       "title": "Expression Grammar Summary",
-      "number": "7.18"
+      "number": "8.18"
     },
     {
       "id": "operator-precedence-associativity",
       "href": "https://www.w3.org/TR/WGSL/#operator-precedence-associativity",
       "level": 3,
       "title": "Operator Precedence and Associativity",
-      "number": "7.19"
+      "number": "8.19"
     },
     {
       "id": "statements",
       "href": "https://www.w3.org/TR/WGSL/#statements",
       "level": 2,
       "title": "Statements",
-      "number": "8"
+      "number": "9"
     },
     {
       "id": "compound-statement-section",
       "href": "https://www.w3.org/TR/WGSL/#compound-statement-section",
       "level": 3,
       "title": "Compound Statement",
-      "number": "8.1"
+      "number": "9.1"
     },
     {
       "id": "assignment",
       "href": "https://www.w3.org/TR/WGSL/#assignment",
       "level": 3,
       "title": "Assignment Statement",
-      "number": "8.2"
+      "number": "9.2"
     },
     {
       "id": "simple-assignment-section",
       "href": "https://www.w3.org/TR/WGSL/#simple-assignment-section",
       "level": 4,
       "title": "Simple Assignment",
-      "number": "8.2.1"
+      "number": "9.2.1"
     },
     {
       "id": "phony-assignment-section",
       "href": "https://www.w3.org/TR/WGSL/#phony-assignment-section",
       "level": 4,
       "title": "Phony Assignment",
-      "number": "8.2.2"
+      "number": "9.2.2"
     },
     {
       "id": "compound-assignment-sec",
       "href": "https://www.w3.org/TR/WGSL/#compound-assignment-sec",
       "level": 4,
       "title": "Compound Assignment",
-      "number": "8.2.3"
+      "number": "9.2.3"
     },
     {
       "id": "increment-decrement",
       "href": "https://www.w3.org/TR/WGSL/#increment-decrement",
       "level": 3,
       "title": "Increment and Decrement Statements",
-      "number": "8.3"
+      "number": "9.3"
     },
     {
       "id": "control-flow",
       "href": "https://www.w3.org/TR/WGSL/#control-flow",
       "level": 3,
       "title": "Control Flow",
-      "number": "8.4"
+      "number": "9.4"
     },
     {
       "id": "if-statement",
       "href": "https://www.w3.org/TR/WGSL/#if-statement",
       "level": 4,
       "title": "If Statement",
-      "number": "8.4.1"
+      "number": "9.4.1"
     },
     {
       "id": "switch-statement",
       "href": "https://www.w3.org/TR/WGSL/#switch-statement",
       "level": 4,
       "title": "Switch Statement",
-      "number": "8.4.2"
+      "number": "9.4.2"
     },
     {
       "id": "loop-statement",
       "href": "https://www.w3.org/TR/WGSL/#loop-statement",
       "level": 4,
       "title": "Loop Statement",
-      "number": "8.4.3"
+      "number": "9.4.3"
     },
     {
       "id": "for-statement",
       "href": "https://www.w3.org/TR/WGSL/#for-statement",
       "level": 4,
       "title": "For Statement",
-      "number": "8.4.4"
+      "number": "9.4.4"
     },
     {
       "id": "while-statement",
       "href": "https://www.w3.org/TR/WGSL/#while-statement",
       "level": 4,
       "title": "While Statement",
-      "number": "8.4.5"
+      "number": "9.4.5"
     },
     {
       "id": "break-statement",
       "href": "https://www.w3.org/TR/WGSL/#break-statement",
       "level": 4,
       "title": "Break Statement",
-      "number": "8.4.6"
+      "number": "9.4.6"
     },
     {
       "id": "break-if-statement",
       "href": "https://www.w3.org/TR/WGSL/#break-if-statement",
       "level": 4,
       "title": "Break-If Statement",
-      "number": "8.4.7"
+      "number": "9.4.7"
     },
     {
       "id": "continue-statement",
       "href": "https://www.w3.org/TR/WGSL/#continue-statement",
       "level": 4,
       "title": "Continue Statement",
-      "number": "8.4.8"
+      "number": "9.4.8"
     },
     {
       "id": "continuing-statement",
       "href": "https://www.w3.org/TR/WGSL/#continuing-statement",
       "level": 4,
       "title": "Continuing Statement",
-      "number": "8.4.9"
+      "number": "9.4.9"
     },
     {
       "id": "return-statement",
       "href": "https://www.w3.org/TR/WGSL/#return-statement",
       "level": 4,
       "title": "Return Statement",
-      "number": "8.4.10"
+      "number": "9.4.10"
     },
     {
       "id": "discard-statement",
       "href": "https://www.w3.org/TR/WGSL/#discard-statement",
       "level": 4,
       "title": "Discard Statement",
-      "number": "8.4.11"
+      "number": "9.4.11"
     },
     {
       "id": "function-call-statement",
       "href": "https://www.w3.org/TR/WGSL/#function-call-statement",
       "level": 3,
       "title": "Function Call Statement",
-      "number": "8.5"
-    },
-    {
-      "id": "const-assert-statement",
-      "href": "https://www.w3.org/TR/WGSL/#const-assert-statement",
-      "level": 3,
-      "title": "Const Assertion Statement",
-      "number": "8.6"
+      "number": "9.5"
     },
     {
       "id": "statements-summary",
       "href": "https://www.w3.org/TR/WGSL/#statements-summary",
       "level": 3,
       "title": "Statements Grammar Summary",
-      "number": "8.7"
+      "number": "9.6"
     },
     {
       "id": "behaviors",
       "href": "https://www.w3.org/TR/WGSL/#behaviors",
       "level": 3,
       "title": "Statements Behavior Analysis",
-      "number": "8.8"
+      "number": "9.7"
     },
     {
       "id": "behaviors-rules",
       "href": "https://www.w3.org/TR/WGSL/#behaviors-rules",
       "level": 4,
       "title": "Rules",
-      "number": "8.8.1"
+      "number": "9.7.1"
     },
     {
       "id": "behaviors-notes",
       "href": "https://www.w3.org/TR/WGSL/#behaviors-notes",
       "level": 4,
       "title": "Notes",
-      "number": "8.8.2"
+      "number": "9.7.2"
     },
     {
       "id": "behaviors-examples",
       "href": "https://www.w3.org/TR/WGSL/#behaviors-examples",
       "level": 4,
       "title": "Examples",
-      "number": "8.8.3"
+      "number": "9.7.3"
+    },
+    {
+      "id": "assertions",
+      "href": "https://www.w3.org/TR/WGSL/#assertions",
+      "level": 2,
+      "title": "10. Assertions"
+    },
+    {
+      "id": "const-assert-statement",
+      "href": "https://www.w3.org/TR/WGSL/#const-assert-statement",
+      "level": 3,
+      "title": "Const Assertion Statement",
+      "number": "10.1"
     },
     {
       "id": "functions",
       "href": "https://www.w3.org/TR/WGSL/#functions",
       "level": 2,
-      "title": "Functions",
-      "number": "9"
+      "title": "11. Functions"
     },
     {
       "id": "function-declaration-sec",
       "href": "https://www.w3.org/TR/WGSL/#function-declaration-sec",
       "level": 3,
       "title": "Declaring a User-defined Function",
-      "number": "9.1"
+      "number": "11.1"
     },
     {
       "id": "function-calls",
       "href": "https://www.w3.org/TR/WGSL/#function-calls",
       "level": 3,
       "title": "Function Calls",
-      "number": "9.2"
+      "number": "11.2"
     },
     {
       "id": "const-funcs",
       "href": "https://www.w3.org/TR/WGSL/#const-funcs",
       "level": 3,
       "title": "const Functions",
-      "number": "9.3"
+      "number": "11.3"
     },
     {
       "id": "function-restriction",
       "href": "https://www.w3.org/TR/WGSL/#function-restriction",
       "level": 3,
       "title": "Restrictions on Functions",
-      "number": "9.4"
+      "number": "11.4"
     },
     {
       "id": "alias-analysis",
       "href": "https://www.w3.org/TR/WGSL/#alias-analysis",
       "level": 4,
       "title": "Alias Analysis",
-      "number": "9.4.1"
+      "number": "11.4.1"
     },
     {
       "id": "root-ident-sec",
       "href": "https://www.w3.org/TR/WGSL/#root-ident-sec",
       "level": 5,
       "title": "Root Identifier",
-      "number": "9.4.1.1"
+      "number": "11.4.1.1"
     },
     {
       "id": "aliasing",
       "href": "https://www.w3.org/TR/WGSL/#aliasing",
       "level": 5,
       "title": "Aliasing",
-      "number": "9.4.1.2"
+      "number": "11.4.1.2"
+    },
+    {
+      "id": "attributes",
+      "href": "https://www.w3.org/TR/WGSL/#attributes",
+      "level": 2,
+      "title": "12. Attributes"
+    },
+    {
+      "id": "align-attr",
+      "href": "https://www.w3.org/TR/WGSL/#align-attr",
+      "level": 3,
+      "title": "align",
+      "number": "12.1"
+    },
+    {
+      "id": "binding-attr",
+      "href": "https://www.w3.org/TR/WGSL/#binding-attr",
+      "level": 3,
+      "title": "binding",
+      "number": "12.2"
+    },
+    {
+      "id": "blend-src-attr",
+      "href": "https://www.w3.org/TR/WGSL/#blend-src-attr",
+      "level": 3,
+      "title": "blend_src",
+      "number": "12.3"
+    },
+    {
+      "id": "builtin-attr",
+      "href": "https://www.w3.org/TR/WGSL/#builtin-attr",
+      "level": 3,
+      "title": "builtin",
+      "number": "12.4"
+    },
+    {
+      "id": "const-attr",
+      "href": "https://www.w3.org/TR/WGSL/#const-attr",
+      "level": 3,
+      "title": "const",
+      "number": "12.5"
+    },
+    {
+      "id": "diagnostic-attr",
+      "href": "https://www.w3.org/TR/WGSL/#diagnostic-attr",
+      "level": 3,
+      "title": "diagnostic",
+      "number": "12.6"
+    },
+    {
+      "id": "group-attr",
+      "href": "https://www.w3.org/TR/WGSL/#group-attr",
+      "level": 3,
+      "title": "group",
+      "number": "12.7"
+    },
+    {
+      "id": "id-attr",
+      "href": "https://www.w3.org/TR/WGSL/#id-attr",
+      "level": 3,
+      "title": "id",
+      "number": "12.8"
+    },
+    {
+      "id": "interpolate-attr",
+      "href": "https://www.w3.org/TR/WGSL/#interpolate-attr",
+      "level": 3,
+      "title": "interpolate",
+      "number": "12.9"
+    },
+    {
+      "id": "invariant-attr",
+      "href": "https://www.w3.org/TR/WGSL/#invariant-attr",
+      "level": 3,
+      "title": "invariant",
+      "number": "12.10"
+    },
+    {
+      "id": "location-attr",
+      "href": "https://www.w3.org/TR/WGSL/#location-attr",
+      "level": 3,
+      "title": "location",
+      "number": "12.11"
+    },
+    {
+      "id": "must-use-attr",
+      "href": "https://www.w3.org/TR/WGSL/#must-use-attr",
+      "level": 3,
+      "title": "must_use",
+      "number": "12.12"
+    },
+    {
+      "id": "size-attr",
+      "href": "https://www.w3.org/TR/WGSL/#size-attr",
+      "level": 3,
+      "title": "size",
+      "number": "12.13"
+    },
+    {
+      "id": "workgroup-size-attr",
+      "href": "https://www.w3.org/TR/WGSL/#workgroup-size-attr",
+      "level": 3,
+      "title": "workgroup_size",
+      "number": "12.14"
+    },
+    {
+      "id": "shader-stage-attr",
+      "href": "https://www.w3.org/TR/WGSL/#shader-stage-attr",
+      "level": 3,
+      "title": "Shader Stage Attributes",
+      "number": "12.15"
+    },
+    {
+      "id": "vertex-attr",
+      "href": "https://www.w3.org/TR/WGSL/#vertex-attr",
+      "level": 4,
+      "title": "vertex",
+      "number": "12.15.1"
+    },
+    {
+      "id": "fragment-attr",
+      "href": "https://www.w3.org/TR/WGSL/#fragment-attr",
+      "level": 4,
+      "title": "fragment",
+      "number": "12.15.2"
+    },
+    {
+      "id": "compute-attr",
+      "href": "https://www.w3.org/TR/WGSL/#compute-attr",
+      "level": 4,
+      "title": "compute",
+      "number": "12.15.3"
     },
     {
       "id": "entry-points",
       "href": "https://www.w3.org/TR/WGSL/#entry-points",
       "level": 2,
-      "title": "10. Entry Points"
+      "title": "13. Entry Points"
     },
     {
       "id": "shader-stages-sec",
       "href": "https://www.w3.org/TR/WGSL/#shader-stages-sec",
       "level": 3,
       "title": "Shader Stages",
-      "number": "10.1"
+      "number": "13.1"
     },
     {
       "id": "entry-point-decl",
       "href": "https://www.w3.org/TR/WGSL/#entry-point-decl",
       "level": 3,
       "title": "Entry Point Declaration",
-      "number": "10.2"
+      "number": "13.2"
     },
     {
       "id": "entry-point-attributes",
       "href": "https://www.w3.org/TR/WGSL/#entry-point-attributes",
       "level": 4,
       "title": "Function Attributes for Entry Points",
-      "number": "10.2.1"
+      "number": "13.2.1"
     },
     {
       "id": "shader-interface",
       "href": "https://www.w3.org/TR/WGSL/#shader-interface",
       "level": 3,
       "title": "Shader Interface",
-      "number": "10.3"
+      "number": "13.3"
     },
     {
       "id": "stage-inputs-outputs",
       "href": "https://www.w3.org/TR/WGSL/#stage-inputs-outputs",
       "level": 4,
       "title": "Inter-stage Input and Output Interface",
-      "number": "10.3.1"
+      "number": "13.3.1"
     },
     {
       "id": "builtin-inputs-outputs",
       "href": "https://www.w3.org/TR/WGSL/#builtin-inputs-outputs",
       "level": 5,
       "title": "Built-in Inputs and Outputs",
-      "number": "10.3.1.1"
+      "number": "13.3.1.1"
+    },
+    {
+      "id": "clip-distances-builtin-value",
+      "href": "https://www.w3.org/TR/WGSL/#clip-distances-builtin-value",
+      "level": 6,
+      "title": "clip_distances",
+      "number": "13.3.1.1.1"
+    },
+    {
+      "id": "frag-depth-builtin-value",
+      "href": "https://www.w3.org/TR/WGSL/#frag-depth-builtin-value",
+      "level": 6,
+      "title": "frag_depth",
+      "number": "13.3.1.1.2"
+    },
+    {
+      "id": "front-facing-builtin-value",
+      "href": "https://www.w3.org/TR/WGSL/#front-facing-builtin-value",
+      "level": 6,
+      "title": "front_facing",
+      "number": "13.3.1.1.3"
+    },
+    {
+      "id": "global-invocation-id-builtin-value",
+      "href": "https://www.w3.org/TR/WGSL/#global-invocation-id-builtin-value",
+      "level": 6,
+      "title": "global_invocation_id",
+      "number": "13.3.1.1.4"
+    },
+    {
+      "id": "instance-index-builtin-value",
+      "href": "https://www.w3.org/TR/WGSL/#instance-index-builtin-value",
+      "level": 6,
+      "title": "instance_index",
+      "number": "13.3.1.1.5"
+    },
+    {
+      "id": "local-invocation-id-builtin-value",
+      "href": "https://www.w3.org/TR/WGSL/#local-invocation-id-builtin-value",
+      "level": 6,
+      "title": "local_invocation_id",
+      "number": "13.3.1.1.6"
+    },
+    {
+      "id": "local-invocation-index-builtin-value",
+      "href": "https://www.w3.org/TR/WGSL/#local-invocation-index-builtin-value",
+      "level": 6,
+      "title": "local_invocation_index",
+      "number": "13.3.1.1.7"
+    },
+    {
+      "id": "num-workgroups-index-builtin-value",
+      "href": "https://www.w3.org/TR/WGSL/#num-workgroups-index-builtin-value",
+      "level": 6,
+      "title": "num_workgroups",
+      "number": "13.3.1.1.8"
+    },
+    {
+      "id": "position-builtin-value",
+      "href": "https://www.w3.org/TR/WGSL/#position-builtin-value",
+      "level": 6,
+      "title": "position",
+      "number": "13.3.1.1.9"
+    },
+    {
+      "id": "sample-index-builtin-value",
+      "href": "https://www.w3.org/TR/WGSL/#sample-index-builtin-value",
+      "level": 6,
+      "title": "sample_index",
+      "number": "13.3.1.1.10"
+    },
+    {
+      "id": "sample-mask-builtin-value",
+      "href": "https://www.w3.org/TR/WGSL/#sample-mask-builtin-value",
+      "level": 6,
+      "title": "sample_mask",
+      "number": "13.3.1.1.11"
+    },
+    {
+      "id": "vertex-index-builtin-value",
+      "href": "https://www.w3.org/TR/WGSL/#vertex-index-builtin-value",
+      "level": 6,
+      "title": "vertex_index",
+      "number": "13.3.1.1.12"
+    },
+    {
+      "id": "workgroup-id-builtin-value",
+      "href": "https://www.w3.org/TR/WGSL/#workgroup-id-builtin-value",
+      "level": 6,
+      "title": "workgroup_id",
+      "number": "13.3.1.1.13"
+    },
+    {
+      "id": "subgroup-invocation-id-builtin-value",
+      "href": "https://www.w3.org/TR/WGSL/#subgroup-invocation-id-builtin-value",
+      "level": 6,
+      "title": "subgroup_invocation_id",
+      "number": "13.3.1.1.14"
+    },
+    {
+      "id": "subgroup-size-builtin-value",
+      "href": "https://www.w3.org/TR/WGSL/#subgroup-size-builtin-value",
+      "level": 6,
+      "title": "subgroup_size",
+      "number": "13.3.1.1.15"
     },
     {
       "id": "user-defined-inputs-outputs",
       "href": "https://www.w3.org/TR/WGSL/#user-defined-inputs-outputs",
       "level": 5,
       "title": "User-defined Inputs and Outputs",
-      "number": "10.3.1.2"
+      "number": "13.3.1.2"
     },
     {
       "id": "input-output-locations",
       "href": "https://www.w3.org/TR/WGSL/#input-output-locations",
       "level": 5,
       "title": "Input-output Locations",
-      "number": "10.3.1.3"
+      "number": "13.3.1.3"
     },
     {
       "id": "interpolation",
       "href": "https://www.w3.org/TR/WGSL/#interpolation",
       "level": 5,
       "title": "Interpolation",
-      "number": "10.3.1.4"
+      "number": "13.3.1.4"
     },
     {
       "id": "resource-interface",
       "href": "https://www.w3.org/TR/WGSL/#resource-interface",
       "level": 4,
       "title": "Resource Interface",
-      "number": "10.3.2"
+      "number": "13.3.2"
     },
     {
       "id": "resource-layout-compatibility",
       "href": "https://www.w3.org/TR/WGSL/#resource-layout-compatibility",
       "level": 4,
       "title": "Resource Layout Compatibility",
-      "number": "10.3.3"
+      "number": "13.3.3"
     },
     {
-      "id": "language-extensions",
-      "href": "https://www.w3.org/TR/WGSL/#language-extensions",
+      "id": "buffer-binding-determines-runtime-sized-array-element-count",
+      "href": "https://www.w3.org/TR/WGSL/#buffer-binding-determines-runtime-sized-array-element-count",
+      "level": 4,
+      "title": "Buffer Binding Determines Runtime-Sized Array Element Count",
+      "number": "13.3.4"
+    },
+    {
+      "id": "memory",
+      "href": "https://www.w3.org/TR/WGSL/#memory",
       "level": 2,
-      "title": "11. Language Extensions"
+      "title": "14. Memory"
     },
     {
-      "id": "enable-directive-section",
-      "href": "https://www.w3.org/TR/WGSL/#enable-directive-section",
+      "id": "memory-locations-section",
+      "href": "https://www.w3.org/TR/WGSL/#memory-locations-section",
       "level": 3,
-      "title": "Enable Directive",
-      "number": "11.1"
+      "title": "Memory Locations",
+      "number": "14.1"
     },
     {
-      "id": "extension-list",
-      "href": "https://www.w3.org/TR/WGSL/#extension-list",
+      "id": "memory-access-mode",
+      "href": "https://www.w3.org/TR/WGSL/#memory-access-mode",
       "level": 3,
-      "title": "Extensions List",
-      "number": "11.2"
+      "title": "Memory Access Mode",
+      "number": "14.2"
     },
     {
-      "id": "wgsl-program",
-      "href": "https://www.w3.org/TR/WGSL/#wgsl-program",
-      "level": 2,
-      "title": "12. WGSL Program"
-    },
-    {
-      "id": "limits",
-      "href": "https://www.w3.org/TR/WGSL/#limits",
+      "id": "address-space",
+      "href": "https://www.w3.org/TR/WGSL/#address-space",
       "level": 3,
-      "title": "Limits",
-      "number": "12.1"
+      "title": "Address Spaces",
+      "number": "14.3"
+    },
+    {
+      "id": "memory-layouts",
+      "href": "https://www.w3.org/TR/WGSL/#memory-layouts",
+      "level": 3,
+      "title": "Memory Layout",
+      "number": "14.4"
+    },
+    {
+      "id": "alignment-and-size",
+      "href": "https://www.w3.org/TR/WGSL/#alignment-and-size",
+      "level": 4,
+      "title": "Alignment and Size",
+      "number": "14.4.1"
+    },
+    {
+      "id": "structure-member-layout",
+      "href": "https://www.w3.org/TR/WGSL/#structure-member-layout",
+      "level": 4,
+      "title": "Structure Member Layout",
+      "number": "14.4.2"
+    },
+    {
+      "id": "array-layout-examples",
+      "href": "https://www.w3.org/TR/WGSL/#array-layout-examples",
+      "level": 4,
+      "title": "Array Layout Examples",
+      "number": "14.4.3"
+    },
+    {
+      "id": "internal-value-layout",
+      "href": "https://www.w3.org/TR/WGSL/#internal-value-layout",
+      "level": 4,
+      "title": "Internal Layout of Values",
+      "number": "14.4.4"
+    },
+    {
+      "id": "address-space-layout-constraints",
+      "href": "https://www.w3.org/TR/WGSL/#address-space-layout-constraints",
+      "level": 4,
+      "title": "Address Space Layout Constraints",
+      "number": "14.4.5"
+    },
+    {
+      "id": "memory-model",
+      "href": "https://www.w3.org/TR/WGSL/#memory-model",
+      "level": 3,
+      "title": "Memory Model",
+      "number": "14.5"
+    },
+    {
+      "id": "memory-operation",
+      "href": "https://www.w3.org/TR/WGSL/#memory-operation",
+      "level": 4,
+      "title": "Memory Operation",
+      "number": "14.5.1"
+    },
+    {
+      "id": "memory-model-reference",
+      "href": "https://www.w3.org/TR/WGSL/#memory-model-reference",
+      "level": 4,
+      "title": "Memory Model Reference",
+      "number": "14.5.2"
+    },
+    {
+      "id": "scoped-operations",
+      "href": "https://www.w3.org/TR/WGSL/#scoped-operations",
+      "level": 4,
+      "title": "Scoped Operations",
+      "number": "14.5.3"
+    },
+    {
+      "id": "memory-semantics",
+      "href": "https://www.w3.org/TR/WGSL/#memory-semantics",
+      "level": 4,
+      "title": "Memory Semantics",
+      "number": "14.5.4"
+    },
+    {
+      "id": "private-vs-non-private",
+      "href": "https://www.w3.org/TR/WGSL/#private-vs-non-private",
+      "level": 4,
+      "title": "Private vs Non-private",
+      "number": "14.5.5"
     },
     {
       "id": "execution",
       "href": "https://www.w3.org/TR/WGSL/#execution",
       "level": 2,
-      "title": "13. Execution"
+      "title": "15. Execution"
     },
     {
       "id": "program-order",
       "href": "https://www.w3.org/TR/WGSL/#program-order",
       "level": 3,
       "title": "Program Order Within an Invocation",
-      "number": "13.1"
+      "number": "15.1"
     },
     {
       "id": "uniformity",
       "href": "https://www.w3.org/TR/WGSL/#uniformity",
       "level": 3,
       "title": "Uniformity",
-      "number": "13.2"
+      "number": "15.2"
     },
     {
       "id": "uniformity-concepts",
       "href": "https://www.w3.org/TR/WGSL/#uniformity-concepts",
       "level": 4,
       "title": "Terminology and Concepts",
-      "number": "13.2.1"
+      "number": "15.2.1"
     },
     {
       "id": "uniformity-overview",
       "href": "https://www.w3.org/TR/WGSL/#uniformity-overview",
       "level": 4,
       "title": "Uniformity Analysis Overview",
-      "number": "13.2.2"
+      "number": "15.2.2"
     },
     {
       "id": "uniformity-function",
       "href": "https://www.w3.org/TR/WGSL/#uniformity-function",
       "level": 4,
       "title": "Analyzing the Uniformity Requirements of a Function",
-      "number": "13.2.3"
+      "number": "15.2.3"
     },
     {
       "id": "pointer-desugar",
       "href": "https://www.w3.org/TR/WGSL/#pointer-desugar",
       "level": 4,
       "title": "Pointer Desugaring",
-      "number": "13.2.4"
+      "number": "15.2.4"
     },
     {
       "id": "func-var-value-analysis",
       "href": "https://www.w3.org/TR/WGSL/#func-var-value-analysis",
       "level": 4,
       "title": "Function-scope Variable Value Analysis",
-      "number": "13.2.5"
+      "number": "15.2.5"
     },
     {
       "id": "uniformity-statements",
       "href": "https://www.w3.org/TR/WGSL/#uniformity-statements",
       "level": 4,
       "title": "Uniformity Rules for Statements",
-      "number": "13.2.6"
+      "number": "15.2.6"
     },
     {
       "id": "uniformity-function-calls",
       "href": "https://www.w3.org/TR/WGSL/#uniformity-function-calls",
       "level": 4,
       "title": "Uniformity Rules for Function Calls",
-      "number": "13.2.7"
+      "number": "15.2.7"
     },
     {
       "id": "uniformity-expressions",
       "href": "https://www.w3.org/TR/WGSL/#uniformity-expressions",
       "level": 4,
       "title": "Uniformity Rules for Expressions",
-      "number": "13.2.8"
+      "number": "15.2.8"
     },
     {
       "id": "uniformity-optional-diagnosis-mode",
       "href": "https://www.w3.org/TR/WGSL/#uniformity-optional-diagnosis-mode",
       "level": 4,
       "title": "Annotating the Uniformity of Every Point in the Control-flow",
-      "number": "13.2.9"
+      "number": "15.2.9"
     },
     {
       "id": "uniformity-examples",
       "href": "https://www.w3.org/TR/WGSL/#uniformity-examples",
       "level": 4,
       "title": "Examples",
-      "number": "13.2.10"
+      "number": "15.2.10"
     },
     {
       "id": "uniformity-example1",
       "href": "https://www.w3.org/TR/WGSL/#uniformity-example1",
       "level": 5,
       "title": "Invalid textureSample Function Call",
-      "number": "13.2.10.1"
+      "number": "15.2.10.1"
     },
     {
       "id": "uniformity-example2",
       "href": "https://www.w3.org/TR/WGSL/#uniformity-example2",
       "level": 5,
       "title": "Function-scope Variable Uniformity",
-      "number": "13.2.10.2"
+      "number": "15.2.10.2"
     },
     {
       "id": "uniformity-example3",
       "href": "https://www.w3.org/TR/WGSL/#uniformity-example3",
       "level": 5,
       "title": "Composite Value Analysis Limitations",
-      "number": "13.2.10.3"
+      "number": "15.2.10.3"
     },
     {
       "id": "uniformity-example4",
       "href": "https://www.w3.org/TR/WGSL/#uniformity-example4",
       "level": 5,
       "title": "Uniformity in a Loop",
-      "number": "13.2.10.4"
+      "number": "15.2.10.4"
     },
     {
       "id": "uniformity-example5",
       "href": "https://www.w3.org/TR/WGSL/#uniformity-example5",
       "level": 5,
       "title": "User-defined Function Calls",
-      "number": "13.2.10.5"
+      "number": "15.2.10.5"
     },
     {
       "id": "compute-shader-workgroups",
       "href": "https://www.w3.org/TR/WGSL/#compute-shader-workgroups",
       "level": 3,
       "title": "Compute Shaders and Workgroups",
-      "number": "13.3"
+      "number": "15.3"
     },
     {
       "id": "fragment-shaders-helper-invocations",
       "href": "https://www.w3.org/TR/WGSL/#fragment-shaders-helper-invocations",
       "level": 3,
       "title": "Fragment Shaders and Helper Invocations",
-      "number": "13.4"
+      "number": "15.4"
+    },
+    {
+      "id": "subgroups",
+      "href": "https://www.w3.org/TR/WGSL/#subgroups",
+      "level": 3,
+      "title": "Subgroups",
+      "number": "15.5"
     },
     {
       "id": "collective-operations",
       "href": "https://www.w3.org/TR/WGSL/#collective-operations",
       "level": 3,
       "title": "Collective Operations",
-      "number": "13.5"
+      "number": "15.6"
     },
     {
       "id": "barrier",
       "href": "https://www.w3.org/TR/WGSL/#barrier",
       "level": 4,
       "title": "Barriers",
-      "number": "13.5.1"
+      "number": "15.6.1"
     },
     {
       "id": "derivatives",
       "href": "https://www.w3.org/TR/WGSL/#derivatives",
       "level": 4,
       "title": "Derivatives",
-      "number": "13.5.2"
+      "number": "15.6.2"
+    },
+    {
+      "id": "subgroup-ops",
+      "href": "https://www.w3.org/TR/WGSL/#subgroup-ops",
+      "level": 4,
+      "title": "Subgroup Operations",
+      "number": "15.6.3"
+    },
+    {
+      "id": "quad-ops",
+      "href": "https://www.w3.org/TR/WGSL/#quad-ops",
+      "level": 4,
+      "title": "Quad Operations",
+      "number": "15.6.4"
     },
     {
       "id": "floating-point-evaluation",
       "href": "https://www.w3.org/TR/WGSL/#floating-point-evaluation",
       "level": 3,
       "title": "Floating Point Evaluation",
-      "number": "13.6"
+      "number": "15.7"
+    },
+    {
+      "id": "overview-of-ieee-754",
+      "href": "https://www.w3.org/TR/WGSL/#overview-of-ieee-754",
+      "level": 4,
+      "title": "Overview of IEEE-754",
+      "number": "15.7.1"
+    },
+    {
+      "id": "differences-from-ieee754",
+      "href": "https://www.w3.org/TR/WGSL/#differences-from-ieee754",
+      "level": 4,
+      "title": "Differences from IEEE-754",
+      "number": "15.7.2"
+    },
+    {
+      "id": "floating-point-rounding-and-overflow",
+      "href": "https://www.w3.org/TR/WGSL/#floating-point-rounding-and-overflow",
+      "level": 4,
+      "title": "Floating Point Rounding and Overflow",
+      "number": "15.7.3"
     },
     {
       "id": "floating-point-accuracy",
       "href": "https://www.w3.org/TR/WGSL/#floating-point-accuracy",
       "level": 4,
       "title": "Floating Point Accuracy",
-      "number": "13.6.1"
+      "number": "15.7.4"
+    },
+    {
+      "id": "concrete-float-accuracy",
+      "href": "https://www.w3.org/TR/WGSL/#concrete-float-accuracy",
+      "level": 5,
+      "title": "Accuracy of Concrete Floating Point Expressions",
+      "number": "15.7.4.1"
+    },
+    {
+      "id": "abstract-float-accuracy",
+      "href": "https://www.w3.org/TR/WGSL/#abstract-float-accuracy",
+      "level": 5,
+      "title": "Accuracy of AbstractFloat Expressions",
+      "number": "15.7.4.2"
+    },
+    {
+      "id": "reassociation-and-fusion",
+      "href": "https://www.w3.org/TR/WGSL/#reassociation-and-fusion",
+      "level": 4,
+      "title": "Reassociation and Fusion",
+      "number": "15.7.5"
     },
     {
       "id": "floating-point-conversion",
       "href": "https://www.w3.org/TR/WGSL/#floating-point-conversion",
       "level": 4,
       "title": "Floating Point Conversion",
-      "number": "13.6.2"
+      "number": "15.7.6"
     },
     {
-      "id": "memory-model",
-      "href": "https://www.w3.org/TR/WGSL/#memory-model",
-      "level": 2,
-      "title": "14. Memory Model"
-    },
-    {
-      "id": "memory-operation",
-      "href": "https://www.w3.org/TR/WGSL/#memory-operation",
-      "level": 3,
-      "title": "Memory Operation",
-      "number": "14.1"
-    },
-    {
-      "id": "memory-model-reference",
-      "href": "https://www.w3.org/TR/WGSL/#memory-model-reference",
-      "level": 3,
-      "title": "Memory Model Reference",
-      "number": "14.2"
-    },
-    {
-      "id": "scoped-operations",
-      "href": "https://www.w3.org/TR/WGSL/#scoped-operations",
-      "level": 3,
-      "title": "Scoped Operations",
-      "number": "14.3"
-    },
-    {
-      "id": "memory-semantics",
-      "href": "https://www.w3.org/TR/WGSL/#memory-semantics",
-      "level": 3,
-      "title": "Memory Semantics",
-      "number": "14.4"
-    },
-    {
-      "id": "private-vs-non-private",
-      "href": "https://www.w3.org/TR/WGSL/#private-vs-non-private",
-      "level": 3,
-      "title": "Private vs Non-private",
-      "number": "14.5"
+      "id": "domains-of-floating-point-expressions-and-builtins",
+      "href": "https://www.w3.org/TR/WGSL/#domains-of-floating-point-expressions-and-builtins",
+      "level": 4,
+      "title": "Domains of Floating Point Expressions and Built-in Functions",
+      "number": "15.7.7"
     },
     {
       "id": "grammar",
       "href": "https://www.w3.org/TR/WGSL/#grammar",
       "level": 2,
-      "title": "15. Keyword and Token Summary"
+      "title": "16. Keyword and Token Summary"
     },
     {
       "id": "keyword-summary",
       "href": "https://www.w3.org/TR/WGSL/#keyword-summary",
       "level": 3,
       "title": "Keyword Summary",
-      "number": "15.1"
-    },
-    {
-      "id": "type-defining-keywords",
-      "href": "https://www.w3.org/TR/WGSL/#type-defining-keywords",
-      "level": 4,
-      "title": "Type-defining Keywords",
-      "number": "15.1.1"
-    },
-    {
-      "id": "other-keywords",
-      "href": "https://www.w3.org/TR/WGSL/#other-keywords",
-      "level": 4,
-      "title": "Other Keywords",
-      "number": "15.1.2"
+      "number": "16.1"
     },
     {
       "id": "reserved-words",
       "href": "https://www.w3.org/TR/WGSL/#reserved-words",
       "level": 3,
       "title": "Reserved Words",
-      "number": "15.2"
+      "number": "16.2"
     },
     {
       "id": "syntactic-tokens",
       "href": "https://www.w3.org/TR/WGSL/#syntactic-tokens",
       "level": 3,
       "title": "Syntactic Tokens",
-      "number": "15.3"
-    },
-    {
-      "id": "context-dependent-name-tokens",
-      "href": "https://www.w3.org/TR/WGSL/#context-dependent-name-tokens",
-      "level": 3,
-      "title": "Context-Dependent Name Tokens",
-      "number": "15.4"
-    },
-    {
-      "id": "builtin-values",
-      "href": "https://www.w3.org/TR/WGSL/#builtin-values",
-      "level": 2,
-      "title": "16. Built-in Values"
+      "number": "16.3"
     },
     {
       "id": "builtin-functions",
@@ -1442,802 +1827,1285 @@
       "title": "17. Built-in Functions"
     },
     {
+      "id": "constructor-builtin-function",
+      "href": "https://www.w3.org/TR/WGSL/#constructor-builtin-function",
+      "level": 3,
+      "title": "Constructor Built-in Functions",
+      "number": "17.1"
+    },
+    {
+      "id": "zero-value-builtin-function",
+      "href": "https://www.w3.org/TR/WGSL/#zero-value-builtin-function",
+      "level": 4,
+      "title": "Zero Value Built-in Functions",
+      "number": "17.1.1"
+    },
+    {
+      "id": "value-constructor-builtin-function",
+      "href": "https://www.w3.org/TR/WGSL/#value-constructor-builtin-function",
+      "level": 4,
+      "title": "Value Constructor Built-in Functions",
+      "number": "17.1.2"
+    },
+    {
+      "id": "array-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#array-builtin",
+      "level": 5,
+      "title": "array",
+      "number": "17.1.2.1"
+    },
+    {
+      "id": "bool-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#bool-builtin",
+      "level": 5,
+      "title": "bool",
+      "number": "17.1.2.2"
+    },
+    {
+      "id": "f16-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#f16-builtin",
+      "level": 5,
+      "title": "f16",
+      "number": "17.1.2.3"
+    },
+    {
+      "id": "f32-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#f32-builtin",
+      "level": 5,
+      "title": "f32",
+      "number": "17.1.2.4"
+    },
+    {
+      "id": "i32-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#i32-builtin",
+      "level": 5,
+      "title": "i32",
+      "number": "17.1.2.5"
+    },
+    {
+      "id": "mat2x2-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#mat2x2-builtin",
+      "level": 5,
+      "title": "mat2x2",
+      "number": "17.1.2.6"
+    },
+    {
+      "id": "mat2x3-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#mat2x3-builtin",
+      "level": 5,
+      "title": "mat2x3",
+      "number": "17.1.2.7"
+    },
+    {
+      "id": "mat2x4-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#mat2x4-builtin",
+      "level": 5,
+      "title": "mat2x4",
+      "number": "17.1.2.8"
+    },
+    {
+      "id": "mat3x2-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#mat3x2-builtin",
+      "level": 5,
+      "title": "mat3x2",
+      "number": "17.1.2.9"
+    },
+    {
+      "id": "mat3x3-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#mat3x3-builtin",
+      "level": 5,
+      "title": "mat3x3",
+      "number": "17.1.2.10"
+    },
+    {
+      "id": "mat3x4-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#mat3x4-builtin",
+      "level": 5,
+      "title": "mat3x4",
+      "number": "17.1.2.11"
+    },
+    {
+      "id": "mat4x2-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#mat4x2-builtin",
+      "level": 5,
+      "title": "mat4x2",
+      "number": "17.1.2.12"
+    },
+    {
+      "id": "mat4x3-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#mat4x3-builtin",
+      "level": 5,
+      "title": "mat4x3",
+      "number": "17.1.2.13"
+    },
+    {
+      "id": "mat4x4-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#mat4x4-builtin",
+      "level": 5,
+      "title": "mat4x4",
+      "number": "17.1.2.14"
+    },
+    {
+      "id": "structures-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#structures-builtin",
+      "level": 5,
+      "title": "Structures",
+      "number": "17.1.2.15"
+    },
+    {
+      "id": "u32-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#u32-builtin",
+      "level": 5,
+      "title": "u32",
+      "number": "17.1.2.16"
+    },
+    {
+      "id": "vec2-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#vec2-builtin",
+      "level": 5,
+      "title": "vec2",
+      "number": "17.1.2.17"
+    },
+    {
+      "id": "vec3-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#vec3-builtin",
+      "level": 5,
+      "title": "vec3",
+      "number": "17.1.2.18"
+    },
+    {
+      "id": "vec4-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#vec4-builtin",
+      "level": 5,
+      "title": "vec4",
+      "number": "17.1.2.19"
+    },
+    {
+      "id": "bit-reinterp-builtin-functions",
+      "href": "https://www.w3.org/TR/WGSL/#bit-reinterp-builtin-functions",
+      "level": 3,
+      "title": "Bit Reinterpretation Built-in Functions",
+      "number": "17.2"
+    },
+    {
+      "id": "bitcast-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#bitcast-builtin",
+      "level": 4,
+      "title": "bitcast",
+      "number": "17.2.1"
+    },
+    {
       "id": "logical-builtin-functions",
       "href": "https://www.w3.org/TR/WGSL/#logical-builtin-functions",
       "level": 3,
       "title": "Logical Built-in Functions",
-      "number": "17.1"
+      "number": "17.3"
     },
     {
       "id": "all-builtin",
       "href": "https://www.w3.org/TR/WGSL/#all-builtin",
       "level": 4,
       "title": "all",
-      "number": "17.1.1"
+      "number": "17.3.1"
     },
     {
       "id": "any-builtin",
       "href": "https://www.w3.org/TR/WGSL/#any-builtin",
       "level": 4,
       "title": "any",
-      "number": "17.1.2"
+      "number": "17.3.2"
     },
     {
       "id": "select-builtin",
       "href": "https://www.w3.org/TR/WGSL/#select-builtin",
       "level": 4,
       "title": "select",
-      "number": "17.1.3"
+      "number": "17.3.3"
     },
     {
       "id": "array-builtin-functions",
       "href": "https://www.w3.org/TR/WGSL/#array-builtin-functions",
       "level": 3,
       "title": "Array Built-in Functions",
-      "number": "17.2"
+      "number": "17.4"
     },
     {
       "id": "arrayLength-builtin",
       "href": "https://www.w3.org/TR/WGSL/#arrayLength-builtin",
       "level": 4,
       "title": "arrayLength",
-      "number": "17.2.1"
+      "number": "17.4.1"
     },
     {
       "id": "numeric-builtin-functions",
       "href": "https://www.w3.org/TR/WGSL/#numeric-builtin-functions",
       "level": 3,
       "title": "Numeric Built-in Functions",
-      "number": "17.3"
+      "number": "17.5"
     },
     {
       "id": "abs-float-builtin",
       "href": "https://www.w3.org/TR/WGSL/#abs-float-builtin",
       "level": 4,
       "title": "abs",
-      "number": "17.3.1"
+      "number": "17.5.1"
     },
     {
       "id": "acos-builtin",
       "href": "https://www.w3.org/TR/WGSL/#acos-builtin",
       "level": 4,
       "title": "acos",
-      "number": "17.3.2"
+      "number": "17.5.2"
     },
     {
       "id": "acosh-builtin",
       "href": "https://www.w3.org/TR/WGSL/#acosh-builtin",
       "level": 4,
       "title": "acosh",
-      "number": "17.3.3"
+      "number": "17.5.3"
     },
     {
       "id": "asin-builtin",
       "href": "https://www.w3.org/TR/WGSL/#asin-builtin",
       "level": 4,
       "title": "asin",
-      "number": "17.3.4"
+      "number": "17.5.4"
     },
     {
       "id": "asinh-builtin",
       "href": "https://www.w3.org/TR/WGSL/#asinh-builtin",
       "level": 4,
       "title": "asinh",
-      "number": "17.3.5"
+      "number": "17.5.5"
     },
     {
       "id": "atan-builtin",
       "href": "https://www.w3.org/TR/WGSL/#atan-builtin",
       "level": 4,
       "title": "atan",
-      "number": "17.3.6"
+      "number": "17.5.6"
     },
     {
       "id": "atanh-builtin",
       "href": "https://www.w3.org/TR/WGSL/#atanh-builtin",
       "level": 4,
       "title": "atanh",
-      "number": "17.3.7"
+      "number": "17.5.7"
     },
     {
       "id": "atan2-builtin",
       "href": "https://www.w3.org/TR/WGSL/#atan2-builtin",
       "level": 4,
       "title": "atan2",
-      "number": "17.3.8"
+      "number": "17.5.8"
     },
     {
       "id": "ceil-builtin",
       "href": "https://www.w3.org/TR/WGSL/#ceil-builtin",
       "level": 4,
       "title": "ceil",
-      "number": "17.3.9"
+      "number": "17.5.9"
     },
     {
       "id": "clamp",
       "href": "https://www.w3.org/TR/WGSL/#clamp",
       "level": 4,
       "title": "clamp",
-      "number": "17.3.10"
+      "number": "17.5.10"
     },
     {
       "id": "cos-builtin",
       "href": "https://www.w3.org/TR/WGSL/#cos-builtin",
       "level": 4,
       "title": "cos",
-      "number": "17.3.11"
+      "number": "17.5.11"
     },
     {
       "id": "cosh-builtin",
       "href": "https://www.w3.org/TR/WGSL/#cosh-builtin",
       "level": 4,
       "title": "cosh",
-      "number": "17.3.12"
+      "number": "17.5.12"
     },
     {
       "id": "countLeadingZeros-builtin",
       "href": "https://www.w3.org/TR/WGSL/#countLeadingZeros-builtin",
       "level": 4,
       "title": "countLeadingZeros",
-      "number": "17.3.13"
+      "number": "17.5.13"
     },
     {
       "id": "countOneBits-builtin",
       "href": "https://www.w3.org/TR/WGSL/#countOneBits-builtin",
       "level": 4,
       "title": "countOneBits",
-      "number": "17.3.14"
+      "number": "17.5.14"
     },
     {
       "id": "countTrailingZeros-builtin",
       "href": "https://www.w3.org/TR/WGSL/#countTrailingZeros-builtin",
       "level": 4,
       "title": "countTrailingZeros",
-      "number": "17.3.15"
+      "number": "17.5.15"
     },
     {
       "id": "cross-builtin",
       "href": "https://www.w3.org/TR/WGSL/#cross-builtin",
       "level": 4,
       "title": "cross",
-      "number": "17.3.16"
+      "number": "17.5.16"
     },
     {
       "id": "degrees-builtin",
       "href": "https://www.w3.org/TR/WGSL/#degrees-builtin",
       "level": 4,
       "title": "degrees",
-      "number": "17.3.17"
+      "number": "17.5.17"
     },
     {
       "id": "determinant-builtin",
       "href": "https://www.w3.org/TR/WGSL/#determinant-builtin",
       "level": 4,
       "title": "determinant",
-      "number": "17.3.18"
+      "number": "17.5.18"
     },
     {
       "id": "distance-builtin",
       "href": "https://www.w3.org/TR/WGSL/#distance-builtin",
       "level": 4,
       "title": "distance",
-      "number": "17.3.19"
+      "number": "17.5.19"
     },
     {
       "id": "dot-builtin",
       "href": "https://www.w3.org/TR/WGSL/#dot-builtin",
       "level": 4,
       "title": "dot",
-      "number": "17.3.20"
+      "number": "17.5.20"
+    },
+    {
+      "id": "dot4U8Packed-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#dot4U8Packed-builtin",
+      "level": 4,
+      "title": "dot4U8Packed",
+      "number": "17.5.21"
+    },
+    {
+      "id": "dot4I8Packed-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#dot4I8Packed-builtin",
+      "level": 4,
+      "title": "dot4I8Packed",
+      "number": "17.5.22"
     },
     {
       "id": "exp-builtin",
       "href": "https://www.w3.org/TR/WGSL/#exp-builtin",
       "level": 4,
       "title": "exp",
-      "number": "17.3.21"
+      "number": "17.5.23"
     },
     {
       "id": "exp2-builtin",
       "href": "https://www.w3.org/TR/WGSL/#exp2-builtin",
       "level": 4,
       "title": "exp2",
-      "number": "17.3.22"
+      "number": "17.5.24"
     },
     {
       "id": "extractBits-signed-builtin",
       "href": "https://www.w3.org/TR/WGSL/#extractBits-signed-builtin",
       "level": 4,
       "title": "extractBits (signed)",
-      "number": "17.3.23"
+      "number": "17.5.25"
     },
     {
       "id": "extractBits-unsigned-builtin",
       "href": "https://www.w3.org/TR/WGSL/#extractBits-unsigned-builtin",
       "level": 4,
       "title": "extractBits (unsigned)",
-      "number": "17.3.24"
+      "number": "17.5.26"
     },
     {
       "id": "faceForward-builtin",
       "href": "https://www.w3.org/TR/WGSL/#faceForward-builtin",
       "level": 4,
       "title": "faceForward",
-      "number": "17.3.25"
+      "number": "17.5.27"
     },
     {
       "id": "firstLeadingBit-signed-builtin",
       "href": "https://www.w3.org/TR/WGSL/#firstLeadingBit-signed-builtin",
       "level": 4,
       "title": "firstLeadingBit (signed)",
-      "number": "17.3.26"
+      "number": "17.5.28"
     },
     {
       "id": "firstLeadingBit-unsigned-builtin",
       "href": "https://www.w3.org/TR/WGSL/#firstLeadingBit-unsigned-builtin",
       "level": 4,
       "title": "firstLeadingBit (unsigned)",
-      "number": "17.3.27"
+      "number": "17.5.29"
     },
     {
       "id": "firstTrailingBit-builtin",
       "href": "https://www.w3.org/TR/WGSL/#firstTrailingBit-builtin",
       "level": 4,
       "title": "firstTrailingBit",
-      "number": "17.3.28"
+      "number": "17.5.30"
     },
     {
       "id": "floor-builtin",
       "href": "https://www.w3.org/TR/WGSL/#floor-builtin",
       "level": 4,
       "title": "floor",
-      "number": "17.3.29"
+      "number": "17.5.31"
     },
     {
       "id": "fma-builtin",
       "href": "https://www.w3.org/TR/WGSL/#fma-builtin",
       "level": 4,
       "title": "fma",
-      "number": "17.3.30"
+      "number": "17.5.32"
     },
     {
       "id": "fract-builtin",
       "href": "https://www.w3.org/TR/WGSL/#fract-builtin",
       "level": 4,
       "title": "fract",
-      "number": "17.3.31"
+      "number": "17.5.33"
     },
     {
       "id": "frexp-builtin",
       "href": "https://www.w3.org/TR/WGSL/#frexp-builtin",
       "level": 4,
       "title": "frexp",
-      "number": "17.3.32"
+      "number": "17.5.34"
     },
     {
       "id": "insertBits-builtin",
       "href": "https://www.w3.org/TR/WGSL/#insertBits-builtin",
       "level": 4,
       "title": "insertBits",
-      "number": "17.3.33"
+      "number": "17.5.35"
     },
     {
       "id": "inverseSqrt-builtin",
       "href": "https://www.w3.org/TR/WGSL/#inverseSqrt-builtin",
       "level": 4,
       "title": "inverseSqrt",
-      "number": "17.3.34"
+      "number": "17.5.36"
     },
     {
       "id": "ldexp-builtin",
       "href": "https://www.w3.org/TR/WGSL/#ldexp-builtin",
       "level": 4,
       "title": "ldexp",
-      "number": "17.3.35"
+      "number": "17.5.37"
     },
     {
       "id": "length-builtin",
       "href": "https://www.w3.org/TR/WGSL/#length-builtin",
       "level": 4,
       "title": "length",
-      "number": "17.3.36"
+      "number": "17.5.38"
     },
     {
       "id": "log-builtin",
       "href": "https://www.w3.org/TR/WGSL/#log-builtin",
       "level": 4,
       "title": "log",
-      "number": "17.3.37"
+      "number": "17.5.39"
     },
     {
       "id": "log2-builtin",
       "href": "https://www.w3.org/TR/WGSL/#log2-builtin",
       "level": 4,
       "title": "log2",
-      "number": "17.3.38"
+      "number": "17.5.40"
     },
     {
       "id": "max-float-builtin",
       "href": "https://www.w3.org/TR/WGSL/#max-float-builtin",
       "level": 4,
       "title": "max",
-      "number": "17.3.39"
+      "number": "17.5.41"
     },
     {
       "id": "min-float-builtin",
       "href": "https://www.w3.org/TR/WGSL/#min-float-builtin",
       "level": 4,
       "title": "min",
-      "number": "17.3.40"
+      "number": "17.5.42"
     },
     {
       "id": "mix-builtin",
       "href": "https://www.w3.org/TR/WGSL/#mix-builtin",
       "level": 4,
       "title": "mix",
-      "number": "17.3.41"
+      "number": "17.5.43"
     },
     {
       "id": "modf-builtin",
       "href": "https://www.w3.org/TR/WGSL/#modf-builtin",
       "level": 4,
       "title": "modf",
-      "number": "17.3.42"
+      "number": "17.5.44"
     },
     {
       "id": "normalize-builtin",
       "href": "https://www.w3.org/TR/WGSL/#normalize-builtin",
       "level": 4,
       "title": "normalize",
-      "number": "17.3.43"
+      "number": "17.5.45"
     },
     {
       "id": "pow-builtin",
       "href": "https://www.w3.org/TR/WGSL/#pow-builtin",
       "level": 4,
       "title": "pow",
-      "number": "17.3.44"
+      "number": "17.5.46"
     },
     {
       "id": "quantizeToF16-builtin",
       "href": "https://www.w3.org/TR/WGSL/#quantizeToF16-builtin",
       "level": 4,
       "title": "quantizeToF16",
-      "number": "17.3.45"
+      "number": "17.5.47"
     },
     {
       "id": "radians-builtin",
       "href": "https://www.w3.org/TR/WGSL/#radians-builtin",
       "level": 4,
       "title": "radians",
-      "number": "17.3.46"
+      "number": "17.5.48"
     },
     {
       "id": "reflect-builtin",
       "href": "https://www.w3.org/TR/WGSL/#reflect-builtin",
       "level": 4,
       "title": "reflect",
-      "number": "17.3.47"
+      "number": "17.5.49"
     },
     {
       "id": "refract-builtin",
       "href": "https://www.w3.org/TR/WGSL/#refract-builtin",
       "level": 4,
       "title": "refract",
-      "number": "17.3.48"
+      "number": "17.5.50"
     },
     {
       "id": "reverseBits-builtin",
       "href": "https://www.w3.org/TR/WGSL/#reverseBits-builtin",
       "level": 4,
       "title": "reverseBits",
-      "number": "17.3.49"
+      "number": "17.5.51"
     },
     {
       "id": "round-builtin",
       "href": "https://www.w3.org/TR/WGSL/#round-builtin",
       "level": 4,
       "title": "round",
-      "number": "17.3.50"
+      "number": "17.5.52"
     },
     {
       "id": "saturate-float-builtin",
       "href": "https://www.w3.org/TR/WGSL/#saturate-float-builtin",
       "level": 4,
       "title": "saturate",
-      "number": "17.3.51"
+      "number": "17.5.53"
     },
     {
       "id": "sign-builtin",
       "href": "https://www.w3.org/TR/WGSL/#sign-builtin",
       "level": 4,
       "title": "sign",
-      "number": "17.3.52"
+      "number": "17.5.54"
     },
     {
       "id": "sin-builtin",
       "href": "https://www.w3.org/TR/WGSL/#sin-builtin",
       "level": 4,
       "title": "sin",
-      "number": "17.3.53"
+      "number": "17.5.55"
     },
     {
       "id": "sinh-builtin",
       "href": "https://www.w3.org/TR/WGSL/#sinh-builtin",
       "level": 4,
       "title": "sinh",
-      "number": "17.3.54"
+      "number": "17.5.56"
     },
     {
       "id": "smoothstep-builtin",
       "href": "https://www.w3.org/TR/WGSL/#smoothstep-builtin",
       "level": 4,
       "title": "smoothstep",
-      "number": "17.3.55"
+      "number": "17.5.57"
     },
     {
       "id": "sqrt-builtin",
       "href": "https://www.w3.org/TR/WGSL/#sqrt-builtin",
       "level": 4,
       "title": "sqrt",
-      "number": "17.3.56"
+      "number": "17.5.58"
     },
     {
       "id": "step-builtin",
       "href": "https://www.w3.org/TR/WGSL/#step-builtin",
       "level": 4,
       "title": "step",
-      "number": "17.3.57"
+      "number": "17.5.59"
     },
     {
       "id": "tan-builtin",
       "href": "https://www.w3.org/TR/WGSL/#tan-builtin",
       "level": 4,
       "title": "tan",
-      "number": "17.3.58"
+      "number": "17.5.60"
     },
     {
       "id": "tanh-builtin",
       "href": "https://www.w3.org/TR/WGSL/#tanh-builtin",
       "level": 4,
       "title": "tanh",
-      "number": "17.3.59"
+      "number": "17.5.61"
     },
     {
       "id": "transpose-builtin",
       "href": "https://www.w3.org/TR/WGSL/#transpose-builtin",
       "level": 4,
       "title": "transpose",
-      "number": "17.3.60"
+      "number": "17.5.62"
     },
     {
       "id": "trunc-builtin",
       "href": "https://www.w3.org/TR/WGSL/#trunc-builtin",
       "level": 4,
       "title": "trunc",
-      "number": "17.3.61"
+      "number": "17.5.63"
     },
     {
       "id": "derivative-builtin-functions",
       "href": "https://www.w3.org/TR/WGSL/#derivative-builtin-functions",
       "level": 3,
       "title": "Derivative Built-in Functions",
-      "number": "17.4"
+      "number": "17.6"
     },
     {
       "id": "dpdx-builtin",
       "href": "https://www.w3.org/TR/WGSL/#dpdx-builtin",
       "level": 4,
       "title": "dpdx",
-      "number": "17.4.1"
+      "number": "17.6.1"
     },
     {
       "id": "dpdxCoarse-builtin",
       "href": "https://www.w3.org/TR/WGSL/#dpdxCoarse-builtin",
       "level": 4,
       "title": "dpdxCoarse",
-      "number": "17.4.2"
+      "number": "17.6.2"
     },
     {
       "id": "dpdxFine-builtin",
       "href": "https://www.w3.org/TR/WGSL/#dpdxFine-builtin",
       "level": 4,
       "title": "dpdxFine",
-      "number": "17.4.3"
+      "number": "17.6.3"
     },
     {
       "id": "dpdy-builtin",
       "href": "https://www.w3.org/TR/WGSL/#dpdy-builtin",
       "level": 4,
       "title": "dpdy",
-      "number": "17.4.4"
+      "number": "17.6.4"
     },
     {
       "id": "dpdyCoarse-builtin",
       "href": "https://www.w3.org/TR/WGSL/#dpdyCoarse-builtin",
       "level": 4,
       "title": "dpdyCoarse",
-      "number": "17.4.5"
+      "number": "17.6.5"
     },
     {
       "id": "dpdyFine-builtin",
       "href": "https://www.w3.org/TR/WGSL/#dpdyFine-builtin",
       "level": 4,
       "title": "dpdyFine",
-      "number": "17.4.6"
+      "number": "17.6.6"
     },
     {
       "id": "fwidth-builtin",
       "href": "https://www.w3.org/TR/WGSL/#fwidth-builtin",
       "level": 4,
       "title": "fwidth",
-      "number": "17.4.7"
+      "number": "17.6.7"
     },
     {
       "id": "fwidthCoarse-builtin",
       "href": "https://www.w3.org/TR/WGSL/#fwidthCoarse-builtin",
       "level": 4,
       "title": "fwidthCoarse",
-      "number": "17.4.8"
+      "number": "17.6.8"
     },
     {
       "id": "fwidthFine-builtin",
       "href": "https://www.w3.org/TR/WGSL/#fwidthFine-builtin",
       "level": 4,
       "title": "fwidthFine",
-      "number": "17.4.9"
+      "number": "17.6.9"
     },
     {
       "id": "texture-builtin-functions",
       "href": "https://www.w3.org/TR/WGSL/#texture-builtin-functions",
       "level": 3,
       "title": "Texture Built-in Functions",
-      "number": "17.5"
+      "number": "17.7"
     },
     {
       "id": "texturedimensions",
       "href": "https://www.w3.org/TR/WGSL/#texturedimensions",
       "level": 4,
       "title": "textureDimensions",
-      "number": "17.5.1"
+      "number": "17.7.1"
     },
     {
       "id": "texturegather",
       "href": "https://www.w3.org/TR/WGSL/#texturegather",
       "level": 4,
       "title": "textureGather",
-      "number": "17.5.2"
+      "number": "17.7.2"
     },
     {
       "id": "texturegathercompare",
       "href": "https://www.w3.org/TR/WGSL/#texturegathercompare",
       "level": 4,
       "title": "textureGatherCompare",
-      "number": "17.5.3"
+      "number": "17.7.3"
     },
     {
       "id": "textureload",
       "href": "https://www.w3.org/TR/WGSL/#textureload",
       "level": 4,
       "title": "textureLoad",
-      "number": "17.5.4"
+      "number": "17.7.4"
     },
     {
       "id": "texturenumlayers",
       "href": "https://www.w3.org/TR/WGSL/#texturenumlayers",
       "level": 4,
       "title": "textureNumLayers",
-      "number": "17.5.5"
+      "number": "17.7.5"
     },
     {
       "id": "texturenumlevels",
       "href": "https://www.w3.org/TR/WGSL/#texturenumlevels",
       "level": 4,
       "title": "textureNumLevels",
-      "number": "17.5.6"
+      "number": "17.7.6"
     },
     {
       "id": "texturenumsamples",
       "href": "https://www.w3.org/TR/WGSL/#texturenumsamples",
       "level": 4,
       "title": "textureNumSamples",
-      "number": "17.5.7"
+      "number": "17.7.7"
     },
     {
       "id": "texturesample",
       "href": "https://www.w3.org/TR/WGSL/#texturesample",
       "level": 4,
       "title": "textureSample",
-      "number": "17.5.8"
+      "number": "17.7.8"
     },
     {
       "id": "texturesamplebias",
       "href": "https://www.w3.org/TR/WGSL/#texturesamplebias",
       "level": 4,
       "title": "textureSampleBias",
-      "number": "17.5.9"
+      "number": "17.7.9"
     },
     {
       "id": "texturesamplecompare",
       "href": "https://www.w3.org/TR/WGSL/#texturesamplecompare",
       "level": 4,
       "title": "textureSampleCompare",
-      "number": "17.5.10"
+      "number": "17.7.10"
     },
     {
       "id": "texturesamplecomparelevel",
       "href": "https://www.w3.org/TR/WGSL/#texturesamplecomparelevel",
       "level": 4,
       "title": "textureSampleCompareLevel",
-      "number": "17.5.11"
+      "number": "17.7.11"
     },
     {
       "id": "texturesamplegrad",
       "href": "https://www.w3.org/TR/WGSL/#texturesamplegrad",
       "level": 4,
       "title": "textureSampleGrad",
-      "number": "17.5.12"
+      "number": "17.7.12"
     },
     {
       "id": "texturesamplelevel",
       "href": "https://www.w3.org/TR/WGSL/#texturesamplelevel",
       "level": 4,
       "title": "textureSampleLevel",
-      "number": "17.5.13"
+      "number": "17.7.13"
     },
     {
       "id": "textureSampleBaseClampToEdge",
       "href": "https://www.w3.org/TR/WGSL/#textureSampleBaseClampToEdge",
       "level": 4,
       "title": "textureSampleBaseClampToEdge",
-      "number": "17.5.14"
+      "number": "17.7.14"
     },
     {
       "id": "texturestore",
       "href": "https://www.w3.org/TR/WGSL/#texturestore",
       "level": 4,
       "title": "textureStore",
-      "number": "17.5.15"
+      "number": "17.7.15"
     },
     {
       "id": "atomic-builtin-functions",
       "href": "https://www.w3.org/TR/WGSL/#atomic-builtin-functions",
       "level": 3,
       "title": "Atomic Built-in Functions",
-      "number": "17.6"
+      "number": "17.8"
     },
     {
       "id": "atomic-load",
       "href": "https://www.w3.org/TR/WGSL/#atomic-load",
       "level": 4,
-      "title": "Atomic Load",
-      "number": "17.6.1"
+      "title": "atomicLoad",
+      "number": "17.8.1"
     },
     {
       "id": "atomic-store",
       "href": "https://www.w3.org/TR/WGSL/#atomic-store",
       "level": 4,
-      "title": "Atomic Store",
-      "number": "17.6.2"
+      "title": "atomicStore",
+      "number": "17.8.2"
     },
     {
       "id": "atomic-rmw",
       "href": "https://www.w3.org/TR/WGSL/#atomic-rmw",
       "level": 4,
-      "title": "Atomic Read-modify-write",
-      "number": "17.6.3"
+      "title": "Atomic Read-modify-write Arithmetic and Logical Functions",
+      "number": "17.8.3"
+    },
+    {
+      "id": "atomic-add",
+      "href": "https://www.w3.org/TR/WGSL/#atomic-add",
+      "level": 5,
+      "title": "atomicAdd",
+      "number": "17.8.3.1"
+    },
+    {
+      "id": "atomic-sub",
+      "href": "https://www.w3.org/TR/WGSL/#atomic-sub",
+      "level": 5,
+      "title": "atomicSub",
+      "number": "17.8.3.2"
+    },
+    {
+      "id": "atomic-max",
+      "href": "https://www.w3.org/TR/WGSL/#atomic-max",
+      "level": 5,
+      "title": "atomicMax",
+      "number": "17.8.3.3"
+    },
+    {
+      "id": "atomic-min",
+      "href": "https://www.w3.org/TR/WGSL/#atomic-min",
+      "level": 5,
+      "title": "atomicMin",
+      "number": "17.8.3.4"
+    },
+    {
+      "id": "atomic-and",
+      "href": "https://www.w3.org/TR/WGSL/#atomic-and",
+      "level": 5,
+      "title": "atomicAnd",
+      "number": "17.8.3.5"
+    },
+    {
+      "id": "atomic-or",
+      "href": "https://www.w3.org/TR/WGSL/#atomic-or",
+      "level": 5,
+      "title": "atomicOr",
+      "number": "17.8.3.6"
+    },
+    {
+      "id": "atomic-xor",
+      "href": "https://www.w3.org/TR/WGSL/#atomic-xor",
+      "level": 5,
+      "title": "atomicXor",
+      "number": "17.8.3.7"
+    },
+    {
+      "id": "atomic-exchange",
+      "href": "https://www.w3.org/TR/WGSL/#atomic-exchange",
+      "level": 4,
+      "title": "atomicExchange",
+      "number": "17.8.4"
+    },
+    {
+      "id": "atomic-compare-exchange-weak",
+      "href": "https://www.w3.org/TR/WGSL/#atomic-compare-exchange-weak",
+      "level": 4,
+      "title": "atomicCompareExchangeWeak",
+      "number": "17.8.5"
     },
     {
       "id": "pack-builtin-functions",
       "href": "https://www.w3.org/TR/WGSL/#pack-builtin-functions",
       "level": 3,
       "title": "Data Packing Built-in Functions",
-      "number": "17.7"
+      "number": "17.9"
     },
     {
       "id": "pack4x8snorm-builtin",
       "href": "https://www.w3.org/TR/WGSL/#pack4x8snorm-builtin",
       "level": 4,
       "title": "pack4x8snorm",
-      "number": "17.7.1"
+      "number": "17.9.1"
     },
     {
       "id": "pack4x8unorm-builtin",
       "href": "https://www.w3.org/TR/WGSL/#pack4x8unorm-builtin",
       "level": 4,
       "title": "pack4x8unorm",
-      "number": "17.7.2"
+      "number": "17.9.2"
+    },
+    {
+      "id": "pack4xI8-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#pack4xI8-builtin",
+      "level": 4,
+      "title": "pack4xI8",
+      "number": "17.9.3"
+    },
+    {
+      "id": "pack4xU8-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#pack4xU8-builtin",
+      "level": 4,
+      "title": "pack4xU8",
+      "number": "17.9.4"
+    },
+    {
+      "id": "pack4xI8Clamp-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#pack4xI8Clamp-builtin",
+      "level": 4,
+      "title": "pack4xI8Clamp",
+      "number": "17.9.5"
+    },
+    {
+      "id": "pack4xU8Clamp-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#pack4xU8Clamp-builtin",
+      "level": 4,
+      "title": "pack4xU8Clamp",
+      "number": "17.9.6"
     },
     {
       "id": "pack2x16snorm-builtin",
       "href": "https://www.w3.org/TR/WGSL/#pack2x16snorm-builtin",
       "level": 4,
       "title": "pack2x16snorm",
-      "number": "17.7.3"
+      "number": "17.9.7"
     },
     {
       "id": "pack2x16unorm-builtin",
       "href": "https://www.w3.org/TR/WGSL/#pack2x16unorm-builtin",
       "level": 4,
       "title": "pack2x16unorm",
-      "number": "17.7.4"
+      "number": "17.9.8"
     },
     {
       "id": "pack2x16float-builtin",
       "href": "https://www.w3.org/TR/WGSL/#pack2x16float-builtin",
       "level": 4,
       "title": "pack2x16float",
-      "number": "17.7.5"
+      "number": "17.9.9"
     },
     {
       "id": "unpack-builtin-functions",
       "href": "https://www.w3.org/TR/WGSL/#unpack-builtin-functions",
       "level": 3,
       "title": "Data Unpacking Built-in Functions",
-      "number": "17.8"
+      "number": "17.10"
     },
     {
       "id": "unpack4x8snorm-builtin",
       "href": "https://www.w3.org/TR/WGSL/#unpack4x8snorm-builtin",
       "level": 4,
       "title": "unpack4x8snorm",
-      "number": "17.8.1"
+      "number": "17.10.1"
     },
     {
       "id": "unpack4x8unorm-builtin",
       "href": "https://www.w3.org/TR/WGSL/#unpack4x8unorm-builtin",
       "level": 4,
       "title": "unpack4x8unorm",
-      "number": "17.8.2"
+      "number": "17.10.2"
+    },
+    {
+      "id": "unpack4xI8-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#unpack4xI8-builtin",
+      "level": 4,
+      "title": "unpack4xI8",
+      "number": "17.10.3"
+    },
+    {
+      "id": "unpack4xU8-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#unpack4xU8-builtin",
+      "level": 4,
+      "title": "unpack4xU8",
+      "number": "17.10.4"
     },
     {
       "id": "unpack2x16snorm-builtin",
       "href": "https://www.w3.org/TR/WGSL/#unpack2x16snorm-builtin",
       "level": 4,
       "title": "unpack2x16snorm",
-      "number": "17.8.3"
+      "number": "17.10.5"
     },
     {
       "id": "unpack2x16unorm-builtin",
       "href": "https://www.w3.org/TR/WGSL/#unpack2x16unorm-builtin",
       "level": 4,
       "title": "unpack2x16unorm",
-      "number": "17.8.4"
+      "number": "17.10.6"
     },
     {
       "id": "unpack2x16float-builtin",
       "href": "https://www.w3.org/TR/WGSL/#unpack2x16float-builtin",
       "level": 4,
       "title": "unpack2x16float",
-      "number": "17.8.5"
+      "number": "17.10.7"
     },
     {
       "id": "sync-builtin-functions",
       "href": "https://www.w3.org/TR/WGSL/#sync-builtin-functions",
       "level": 3,
       "title": "Synchronization Built-in Functions",
-      "number": "17.9"
+      "number": "17.11"
     },
     {
       "id": "storageBarrier-builtin",
       "href": "https://www.w3.org/TR/WGSL/#storageBarrier-builtin",
       "level": 4,
       "title": "storageBarrier",
-      "number": "17.9.1"
+      "number": "17.11.1"
+    },
+    {
+      "id": "textureBarrier-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#textureBarrier-builtin",
+      "level": 4,
+      "title": "textureBarrier",
+      "number": "17.11.2"
     },
     {
       "id": "workgroupBarrier-builtin",
       "href": "https://www.w3.org/TR/WGSL/#workgroupBarrier-builtin",
       "level": 4,
       "title": "workgroupBarrier",
-      "number": "17.9.2"
+      "number": "17.11.3"
     },
     {
       "id": "workgroupUniformLoad-builtin",
       "href": "https://www.w3.org/TR/WGSL/#workgroupUniformLoad-builtin",
       "level": 4,
       "title": "workgroupUniformLoad",
-      "number": "17.9.3"
+      "number": "17.11.4"
+    },
+    {
+      "id": "subgroup-builtin-functions",
+      "href": "https://www.w3.org/TR/WGSL/#subgroup-builtin-functions",
+      "level": 3,
+      "title": "Subgroup Built-in Functions",
+      "number": "17.12"
+    },
+    {
+      "id": "subgroupadd-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#subgroupadd-builtin",
+      "level": 4,
+      "title": "subgroupAdd",
+      "number": "17.12.1"
+    },
+    {
+      "id": "subgroupexclusiveadd-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#subgroupexclusiveadd-builtin",
+      "level": 5,
+      "title": "subgroupExclusiveAdd",
+      "number": "17.12.1.1"
+    },
+    {
+      "id": "subgroupinclusiveadd-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#subgroupinclusiveadd-builtin",
+      "level": 5,
+      "title": "subgroupInclusiveAdd",
+      "number": "17.12.1.2"
+    },
+    {
+      "id": "subgroupall-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#subgroupall-builtin",
+      "level": 4,
+      "title": "subgroupAll",
+      "number": "17.12.2"
+    },
+    {
+      "id": "subgroupand-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#subgroupand-builtin",
+      "level": 4,
+      "title": "subgroupAnd",
+      "number": "17.12.3"
+    },
+    {
+      "id": "subgroupany-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#subgroupany-builtin",
+      "level": 4,
+      "title": "subgroupAny",
+      "number": "17.12.4"
+    },
+    {
+      "id": "subgroupballot-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#subgroupballot-builtin",
+      "level": 4,
+      "title": "subgroupBallot",
+      "number": "17.12.5"
+    },
+    {
+      "id": "subgroupbroadcast-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#subgroupbroadcast-builtin",
+      "level": 4,
+      "title": "subgroupBroadcast",
+      "number": "17.12.6"
+    },
+    {
+      "id": "subgroupbroadcastfirst-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#subgroupbroadcastfirst-builtin",
+      "level": 5,
+      "title": "subgroupBroadcastFirst",
+      "number": "17.12.6.1"
+    },
+    {
+      "id": "subgroupelect-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#subgroupelect-builtin",
+      "level": 4,
+      "title": "subgroupElect",
+      "number": "17.12.7"
+    },
+    {
+      "id": "subgroupmax-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#subgroupmax-builtin",
+      "level": 4,
+      "title": "subgroupMax",
+      "number": "17.12.8"
+    },
+    {
+      "id": "subgroupmin-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#subgroupmin-builtin",
+      "level": 4,
+      "title": "subgroupMin",
+      "number": "17.12.9"
+    },
+    {
+      "id": "subgroupmul-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#subgroupmul-builtin",
+      "level": 4,
+      "title": "subgroupMul",
+      "number": "17.12.10"
+    },
+    {
+      "id": "subgroupexclusivemul-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#subgroupexclusivemul-builtin",
+      "level": 5,
+      "title": "subgroupExclusiveMul",
+      "number": "17.12.10.1"
+    },
+    {
+      "id": "subgroupinclusivemul-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#subgroupinclusivemul-builtin",
+      "level": 5,
+      "title": "subgroupInclusiveMul",
+      "number": "17.12.10.2"
+    },
+    {
+      "id": "subgroupor-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#subgroupor-builtin",
+      "level": 4,
+      "title": "subgroupOr",
+      "number": "17.12.11"
+    },
+    {
+      "id": "subgroupshuffle-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#subgroupshuffle-builtin",
+      "level": 4,
+      "title": "subgroupShuffle",
+      "number": "17.12.12"
+    },
+    {
+      "id": "subgroupshuffledown-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#subgroupshuffledown-builtin",
+      "level": 5,
+      "title": "subgroupShuffleDown",
+      "number": "17.12.12.1"
+    },
+    {
+      "id": "subgroupshuffleup-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#subgroupshuffleup-builtin",
+      "level": 5,
+      "title": "subgroupShuffleUp",
+      "number": "17.12.12.2"
+    },
+    {
+      "id": "subgroupshufflexor-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#subgroupshufflexor-builtin",
+      "level": 5,
+      "title": "subgroupShuffleXor",
+      "number": "17.12.12.3"
+    },
+    {
+      "id": "subgroupxor-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#subgroupxor-builtin",
+      "level": 4,
+      "title": "subgroupXor",
+      "number": "17.12.13"
+    },
+    {
+      "id": "quad-builtin-functions",
+      "href": "https://www.w3.org/TR/WGSL/#quad-builtin-functions",
+      "level": 3,
+      "title": "Quad Operations",
+      "number": "17.13"
+    },
+    {
+      "id": "quadbroadcast-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#quadbroadcast-builtin",
+      "level": 4,
+      "title": "quadBroadcast",
+      "number": "17.13.1"
+    },
+    {
+      "id": "quadswapdiagonal-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#quadswapdiagonal-builtin",
+      "level": 4,
+      "title": "quadSwapDiagonal",
+      "number": "17.13.2"
+    },
+    {
+      "id": "quadswapx-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#quadswapx-builtin",
+      "level": 4,
+      "title": "quadSwapX",
+      "number": "17.13.3"
+    },
+    {
+      "id": "quadswapy-builtin",
+      "href": "https://www.w3.org/TR/WGSL/#quadswapy-builtin",
+      "level": 4,
+      "title": "quadSwapY",
+      "number": "17.13.4"
     },
     {
       "id": "grammar-recursive-descent",
@@ -2249,7 +3117,8 @@
       "id": "text-wgsl-media-type",
       "href": "https://www.w3.org/TR/WGSL/#text-wgsl-media-type",
       "level": 2,
-      "title": "Appendix A: The text/wgsl media type"
+      "title": "The text/wgsl Media Type",
+      "number": "A"
     },
     {
       "id": "w3c-conformance",
@@ -2304,12 +3173,6 @@
       "href": "https://www.w3.org/TR/WGSL/#informative",
       "level": 3,
       "title": "Informative References"
-    },
-    {
-      "id": "issues-index",
-      "href": "https://www.w3.org/TR/WGSL/#issues-index",
-      "level": 2,
-      "title": "Issues Index"
     }
   ]
 }

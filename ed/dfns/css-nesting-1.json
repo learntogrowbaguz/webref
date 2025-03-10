@@ -20,7 +20,26 @@
         "id": "nesting",
         "href": "https://drafts.csswg.org/css-nesting-1/#nesting",
         "title": "Nesting Style Rules",
-        "number": "2"
+        "number": "3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "contain-the-nesting-selector",
+      "href": "https://drafts.csswg.org/css-nesting-1/#contain-the-nesting-selector",
+      "linkingText": [
+        "contain the nesting selector"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "syntax",
+        "href": "https://drafts.csswg.org/css-nesting-1/#syntax",
+        "title": "Syntax",
+        "number": "3.1"
       },
       "definedIn": "prose"
     },
@@ -39,7 +58,7 @@
         "id": "conditionals",
         "href": "https://drafts.csswg.org/css-nesting-1/#conditionals",
         "title": "Nesting Other At-Rules",
-        "number": "2.2"
+        "number": "3.3"
       },
       "definedIn": "prose"
     },
@@ -58,7 +77,7 @@
         "id": "nest-selector",
         "href": "https://drafts.csswg.org/css-nesting-1/#nest-selector",
         "title": "Nesting Selector: the & selector",
-        "number": "3"
+        "number": "4"
       },
       "definedIn": "prose"
     },
@@ -77,136 +96,66 @@
         "id": "nest-selector",
         "href": "https://drafts.csswg.org/css-nesting-1/#nest-selector",
         "title": "Nesting Selector: the & selector",
-        "number": "3"
+        "number": "4"
       },
       "definedIn": "prose"
     },
     {
-      "id": "dom-cssstylerule-insertrule-rule-index-rule",
-      "href": "https://drafts.csswg.org/css-nesting-1/#dom-cssstylerule-insertrule-rule-index-rule",
+      "id": "nested-declarations-rule①",
+      "href": "https://drafts.csswg.org/css-nesting-1/#nested-declarations-rule%E2%91%A0",
       "linkingText": [
-        "rule"
+        "nested declarations rule"
       ],
       "localLinkingText": [],
-      "type": "argument",
-      "for": [
-        "CSSStyleRule/insertRule(rule, index)",
-        "CSSStyleRule/insertRule(rule)"
-      ],
+      "type": "dfn",
+      "for": [],
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cssom-style",
-        "href": "https://drafts.csswg.org/css-nesting-1/#cssom-style",
-        "title": "Modifications to CSSStyleRule",
-        "number": "4.1"
+        "id": "nested-declarations-rule",
+        "href": "https://drafts.csswg.org/css-nesting-1/#nested-declarations-rule",
+        "title": "The Nested Declarations Rule",
+        "number": "5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "cssnesteddeclarations",
+      "href": "https://drafts.csswg.org/css-nesting-1/#cssnesteddeclarations",
+      "linkingText": [
+        "CSSNestedDeclarations"
+      ],
+      "localLinkingText": [],
+      "type": "interface",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-cssnestrule",
+        "href": "https://drafts.csswg.org/css-nesting-1/#the-cssnestrule",
+        "title": "The CSSNestedDeclarations Interface",
+        "number": "6.1"
       },
       "definedIn": "pre"
     },
     {
-      "id": "dom-cssstylerule-insertrule-rule-index-index",
-      "href": "https://drafts.csswg.org/css-nesting-1/#dom-cssstylerule-insertrule-rule-index-index",
+      "id": "dom-cssnesteddeclarations-style",
+      "href": "https://drafts.csswg.org/css-nesting-1/#dom-cssnesteddeclarations-style",
       "linkingText": [
-        "index"
-      ],
-      "localLinkingText": [],
-      "type": "argument",
-      "for": [
-        "CSSStyleRule/insertRule(rule, index)",
-        "CSSStyleRule/insertRule(rule)"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "cssom-style",
-        "href": "https://drafts.csswg.org/css-nesting-1/#cssom-style",
-        "title": "Modifications to CSSStyleRule",
-        "number": "4.1"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-cssstylerule-deleterule-index-index",
-      "href": "https://drafts.csswg.org/css-nesting-1/#dom-cssstylerule-deleterule-index-index",
-      "linkingText": [
-        "index"
-      ],
-      "localLinkingText": [],
-      "type": "argument",
-      "for": [
-        "CSSStyleRule/deleteRule(index)"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "cssom-style",
-        "href": "https://drafts.csswg.org/css-nesting-1/#cssom-style",
-        "title": "Modifications to CSSStyleRule",
-        "number": "4.1"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-cssstylerule-cssrules",
-      "href": "https://drafts.csswg.org/css-nesting-1/#dom-cssstylerule-cssrules",
-      "linkingText": [
-        "cssRules"
+        "style"
       ],
       "localLinkingText": [],
       "type": "attribute",
       "for": [
-        "CSSStyleRule"
+        "CSSNestedDeclarations"
       ],
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cssom-style",
-        "href": "https://drafts.csswg.org/css-nesting-1/#cssom-style",
-        "title": "Modifications to CSSStyleRule",
-        "number": "4.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dom-cssstylerule-insertrule",
-      "href": "https://drafts.csswg.org/css-nesting-1/#dom-cssstylerule-insertrule",
-      "linkingText": [
-        "insertRule(rule, index)",
-        "insertRule(rule)"
-      ],
-      "localLinkingText": [],
-      "type": "method",
-      "for": [
-        "CSSStyleRule"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "cssom-style",
-        "href": "https://drafts.csswg.org/css-nesting-1/#cssom-style",
-        "title": "Modifications to CSSStyleRule",
-        "number": "4.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dom-cssstylerule-deleterule",
-      "href": "https://drafts.csswg.org/css-nesting-1/#dom-cssstylerule-deleterule",
-      "linkingText": [
-        "deleteRule(index)"
-      ],
-      "localLinkingText": [],
-      "type": "method",
-      "for": [
-        "CSSStyleRule"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "cssom-style",
-        "href": "https://drafts.csswg.org/css-nesting-1/#cssom-style",
-        "title": "Modifications to CSSStyleRule",
-        "number": "4.1"
+        "id": "the-cssnestrule",
+        "href": "https://drafts.csswg.org/css-nesting-1/#the-cssnestrule",
+        "title": "The CSSNestedDeclarations Interface",
+        "number": "6.1"
       },
       "definedIn": "prose"
     }

@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "Media Session Standard",
+    "title": "Media Session",
     "url": "https://www.w3.org/TR/mediasession/"
   },
   "headings": [
@@ -8,7 +8,7 @@
       "id": "title",
       "href": "https://www.w3.org/TR/mediasession/#title",
       "level": 1,
-      "title": "Media Session Standard"
+      "title": "Media Session"
     },
     {
       "id": "abstract",
@@ -36,101 +36,101 @@
       "number": "1"
     },
     {
-      "id": "conformance",
-      "href": "https://www.w3.org/TR/mediasession/#conformance",
+      "id": "privacy-considerations",
+      "href": "https://www.w3.org/TR/mediasession/#privacy-considerations",
       "level": 2,
-      "title": "Conformance",
+      "title": "Privacy Considerations",
       "number": "2"
-    },
-    {
-      "id": "dependencies",
-      "href": "https://www.w3.org/TR/mediasession/#dependencies",
-      "level": 2,
-      "title": "Dependencies",
-      "number": "3"
-    },
-    {
-      "id": "security-privacy-considerations",
-      "href": "https://www.w3.org/TR/mediasession/#security-privacy-considerations",
-      "level": 2,
-      "title": "Security and Privacy Considerations",
-      "number": "4"
-    },
-    {
-      "id": "user-interface-guidelines",
-      "href": "https://www.w3.org/TR/mediasession/#user-interface-guidelines",
-      "level": 3,
-      "title": "User interface guidelines",
-      "number": "4.1"
     },
     {
       "id": "incognito-mode-privacy",
       "href": "https://www.w3.org/TR/mediasession/#incognito-mode-privacy",
       "level": 3,
       "title": "Incognito mode",
-      "number": "4.2"
+      "number": "2.1"
     },
     {
       "id": "media-session-actions-privacy",
       "href": "https://www.w3.org/TR/mediasession/#media-session-actions-privacy",
       "level": 3,
       "title": "Media Session Actions",
-      "number": "4.3"
+      "number": "2.2"
+    },
+    {
+      "id": "security-considerations",
+      "href": "https://www.w3.org/TR/mediasession/#security-considerations",
+      "level": 2,
+      "title": "Security Considerations",
+      "number": "3"
+    },
+    {
+      "id": "user-interface-guidelines",
+      "href": "https://www.w3.org/TR/mediasession/#user-interface-guidelines",
+      "level": 3,
+      "title": "User interface guidelines",
+      "number": "3.1"
     },
     {
       "id": "model",
       "href": "https://www.w3.org/TR/mediasession/#model",
       "level": 2,
       "title": "Model",
-      "number": "5"
+      "number": "4"
     },
     {
       "id": "playback-state-model",
       "href": "https://www.w3.org/TR/mediasession/#playback-state-model",
       "level": 3,
       "title": "Playback State",
-      "number": "5.1"
+      "number": "4.1"
     },
     {
       "id": "media-session-routing",
       "href": "https://www.w3.org/TR/mediasession/#media-session-routing",
       "level": 3,
       "title": "Routing",
-      "number": "5.2"
+      "number": "4.2"
     },
     {
       "id": "metadata",
       "href": "https://www.w3.org/TR/mediasession/#metadata",
       "level": 3,
       "title": "Metadata",
-      "number": "5.3"
+      "number": "4.3"
     },
     {
       "id": "actions-model",
       "href": "https://www.w3.org/TR/mediasession/#actions-model",
       "level": 3,
       "title": "Actions",
-      "number": "5.4"
+      "number": "4.4"
     },
     {
-      "id": "position-state",
-      "href": "https://www.w3.org/TR/mediasession/#position-state",
+      "id": "position-state-sec",
+      "href": "https://www.w3.org/TR/mediasession/#position-state-sec",
       "level": 3,
       "title": "Position State",
-      "number": "5.5"
+      "number": "4.5"
     },
     {
       "id": "the-mediasession-interface",
       "href": "https://www.w3.org/TR/mediasession/#the-mediasession-interface",
       "level": 2,
       "title": "The MediaSession interface",
-      "number": "6"
+      "number": "5"
     },
     {
       "id": "the-mediametadata-interface",
       "href": "https://www.w3.org/TR/mediasession/#the-mediametadata-interface",
       "level": 2,
       "title": "The MediaMetadata interface",
+      "number": "6"
+    },
+    {
+      "id": "the-chapterinformation-interface",
+      "href": "https://www.w3.org/TR/mediasession/#the-chapterinformation-interface",
+      "level": 2,
+      "title": "The ChapterInformation interface",
       "number": "7"
     },
     {
@@ -154,10 +154,16 @@
       "title": "10. The MediaSessionActionDetails dictionary"
     },
     {
+      "id": "permissions-policy",
+      "href": "https://www.w3.org/TR/mediasession/#permissions-policy",
+      "level": 2,
+      "title": "11. Permissions Policy Integration"
+    },
+    {
       "id": "examples",
       "href": "https://www.w3.org/TR/mediasession/#examples",
       "level": 2,
-      "title": "11. Examples"
+      "title": "12. Examples"
     },
     {
       "id": "acknowledgments",

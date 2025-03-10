@@ -43,6 +43,557 @@
       "definedIn": "prose"
     },
     {
+      "id": "validation-error-domain-to-ascii",
+      "href": "https://url.spec.whatwg.org/#validation-error-domain-to-ascii",
+      "linkingText": [
+        "domain-to-ASCII"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "writing",
+        "href": "https://url.spec.whatwg.org/#writing",
+        "title": "Writing",
+        "number": "1.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "domain-invalid-code-point",
+      "href": "https://url.spec.whatwg.org/#domain-invalid-code-point",
+      "linkingText": [
+        "domain-invalid-code-point"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "writing",
+        "href": "https://url.spec.whatwg.org/#writing",
+        "title": "Writing",
+        "number": "1.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "domain-to-unicode",
+      "href": "https://url.spec.whatwg.org/#domain-to-unicode",
+      "linkingText": [
+        "domain-to-Unicode"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "writing",
+        "href": "https://url.spec.whatwg.org/#writing",
+        "title": "Writing",
+        "number": "1.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "host-invalid-code-point",
+      "href": "https://url.spec.whatwg.org/#host-invalid-code-point",
+      "linkingText": [
+        "host-invalid-code-point"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "writing",
+        "href": "https://url.spec.whatwg.org/#writing",
+        "title": "Writing",
+        "number": "1.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "ipv4-empty-part",
+      "href": "https://url.spec.whatwg.org/#ipv4-empty-part",
+      "linkingText": [
+        "IPv4-empty-part"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "writing",
+        "href": "https://url.spec.whatwg.org/#writing",
+        "title": "Writing",
+        "number": "1.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "ipv4-too-many-parts",
+      "href": "https://url.spec.whatwg.org/#ipv4-too-many-parts",
+      "linkingText": [
+        "IPv4-too-many-parts"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "writing",
+        "href": "https://url.spec.whatwg.org/#writing",
+        "title": "Writing",
+        "number": "1.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "ipv4-non-numeric-part",
+      "href": "https://url.spec.whatwg.org/#ipv4-non-numeric-part",
+      "linkingText": [
+        "IPv4-non-numeric-part"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "writing",
+        "href": "https://url.spec.whatwg.org/#writing",
+        "title": "Writing",
+        "number": "1.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "ipv4-non-decimal-part",
+      "href": "https://url.spec.whatwg.org/#ipv4-non-decimal-part",
+      "linkingText": [
+        "IPv4-non-decimal-part"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "writing",
+        "href": "https://url.spec.whatwg.org/#writing",
+        "title": "Writing",
+        "number": "1.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "ipv4-out-of-range-part",
+      "href": "https://url.spec.whatwg.org/#ipv4-out-of-range-part",
+      "linkingText": [
+        "IPv4-out-of-range-part"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "writing",
+        "href": "https://url.spec.whatwg.org/#writing",
+        "title": "Writing",
+        "number": "1.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "ipv6-unclosed",
+      "href": "https://url.spec.whatwg.org/#ipv6-unclosed",
+      "linkingText": [
+        "IPv6-unclosed"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "writing",
+        "href": "https://url.spec.whatwg.org/#writing",
+        "title": "Writing",
+        "number": "1.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "ipv6-invalid-compression",
+      "href": "https://url.spec.whatwg.org/#ipv6-invalid-compression",
+      "linkingText": [
+        "IPv6-invalid-compression"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "writing",
+        "href": "https://url.spec.whatwg.org/#writing",
+        "title": "Writing",
+        "number": "1.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "ipv6-too-many-pieces",
+      "href": "https://url.spec.whatwg.org/#ipv6-too-many-pieces",
+      "linkingText": [
+        "IPv6-too-many-pieces"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "writing",
+        "href": "https://url.spec.whatwg.org/#writing",
+        "title": "Writing",
+        "number": "1.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "ipv6-multiple-compression",
+      "href": "https://url.spec.whatwg.org/#ipv6-multiple-compression",
+      "linkingText": [
+        "IPv6-multiple-compression"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "writing",
+        "href": "https://url.spec.whatwg.org/#writing",
+        "title": "Writing",
+        "number": "1.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "ipv6-invalid-code-point",
+      "href": "https://url.spec.whatwg.org/#ipv6-invalid-code-point",
+      "linkingText": [
+        "IPv6-invalid-code-point"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "writing",
+        "href": "https://url.spec.whatwg.org/#writing",
+        "title": "Writing",
+        "number": "1.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "ipv6-too-few-pieces",
+      "href": "https://url.spec.whatwg.org/#ipv6-too-few-pieces",
+      "linkingText": [
+        "IPv6-too-few-pieces"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "writing",
+        "href": "https://url.spec.whatwg.org/#writing",
+        "title": "Writing",
+        "number": "1.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "ipv4-in-ipv6-too-many-pieces",
+      "href": "https://url.spec.whatwg.org/#ipv4-in-ipv6-too-many-pieces",
+      "linkingText": [
+        "IPv4-in-IPv6-too-many-pieces"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "writing",
+        "href": "https://url.spec.whatwg.org/#writing",
+        "title": "Writing",
+        "number": "1.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "ipv4-in-ipv6-invalid-code-point",
+      "href": "https://url.spec.whatwg.org/#ipv4-in-ipv6-invalid-code-point",
+      "linkingText": [
+        "IPv4-in-IPv6-invalid-code-point"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "writing",
+        "href": "https://url.spec.whatwg.org/#writing",
+        "title": "Writing",
+        "number": "1.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "ipv4-in-ipv6-out-of-range-part",
+      "href": "https://url.spec.whatwg.org/#ipv4-in-ipv6-out-of-range-part",
+      "linkingText": [
+        "IPv4-in-IPv6-out-of-range-part"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "writing",
+        "href": "https://url.spec.whatwg.org/#writing",
+        "title": "Writing",
+        "number": "1.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "ipv4-in-ipv6-too-few-parts",
+      "href": "https://url.spec.whatwg.org/#ipv4-in-ipv6-too-few-parts",
+      "linkingText": [
+        "IPv4-in-IPv6-too-few-parts"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "writing",
+        "href": "https://url.spec.whatwg.org/#writing",
+        "title": "Writing",
+        "number": "1.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "invalid-url-unit",
+      "href": "https://url.spec.whatwg.org/#invalid-url-unit",
+      "linkingText": [
+        "invalid-URL-unit"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "writing",
+        "href": "https://url.spec.whatwg.org/#writing",
+        "title": "Writing",
+        "number": "1.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "special-scheme-missing-following-solidus",
+      "href": "https://url.spec.whatwg.org/#special-scheme-missing-following-solidus",
+      "linkingText": [
+        "special-scheme-missing-following-solidus"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "writing",
+        "href": "https://url.spec.whatwg.org/#writing",
+        "title": "Writing",
+        "number": "1.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "missing-scheme-non-relative-url",
+      "href": "https://url.spec.whatwg.org/#missing-scheme-non-relative-url",
+      "linkingText": [
+        "missing-scheme-non-relative-URL"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "writing",
+        "href": "https://url.spec.whatwg.org/#writing",
+        "title": "Writing",
+        "number": "1.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "invalid-reverse-solidus",
+      "href": "https://url.spec.whatwg.org/#invalid-reverse-solidus",
+      "linkingText": [
+        "invalid-reverse-solidus"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "writing",
+        "href": "https://url.spec.whatwg.org/#writing",
+        "title": "Writing",
+        "number": "1.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "invalid-credentials",
+      "href": "https://url.spec.whatwg.org/#invalid-credentials",
+      "linkingText": [
+        "invalid-credentials"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "writing",
+        "href": "https://url.spec.whatwg.org/#writing",
+        "title": "Writing",
+        "number": "1.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "host-missing",
+      "href": "https://url.spec.whatwg.org/#host-missing",
+      "linkingText": [
+        "host-missing"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "writing",
+        "href": "https://url.spec.whatwg.org/#writing",
+        "title": "Writing",
+        "number": "1.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "port-out-of-range",
+      "href": "https://url.spec.whatwg.org/#port-out-of-range",
+      "linkingText": [
+        "port-out-of-range"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "writing",
+        "href": "https://url.spec.whatwg.org/#writing",
+        "title": "Writing",
+        "number": "1.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "port-invalid",
+      "href": "https://url.spec.whatwg.org/#port-invalid",
+      "linkingText": [
+        "port-invalid"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "writing",
+        "href": "https://url.spec.whatwg.org/#writing",
+        "title": "Writing",
+        "number": "1.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "file-invalid-windows-drive-letter",
+      "href": "https://url.spec.whatwg.org/#file-invalid-windows-drive-letter",
+      "linkingText": [
+        "file-invalid-Windows-drive-letter"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "writing",
+        "href": "https://url.spec.whatwg.org/#writing",
+        "title": "Writing",
+        "number": "1.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "file-invalid-windows-drive-letter-host",
+      "href": "https://url.spec.whatwg.org/#file-invalid-windows-drive-letter-host",
+      "linkingText": [
+        "file-invalid-Windows-drive-letter-host"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "writing",
+        "href": "https://url.spec.whatwg.org/#writing",
+        "title": "Writing",
+        "number": "1.1"
+      },
+      "definedIn": "table"
+    },
+    {
       "id": "eof-code-point",
       "href": "https://url.spec.whatwg.org/#eof-code-point",
       "linkingText": [
@@ -533,11 +1084,13 @@
       "id": "concept-ipv6-piece",
       "href": "https://url.spec.whatwg.org/#concept-ipv6-piece",
       "linkingText": [
-        "IPv6 piece"
+        "pieces"
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "IPv6 address"
+      ],
       "access": "public",
       "informative": false,
       "heading": {
@@ -991,6 +1544,25 @@
       "definedIn": "prose"
     },
     {
+      "id": "find-the-ipv6-address-compressed-piece-index",
+      "href": "https://url.spec.whatwg.org/#find-the-ipv6-address-compressed-piece-index",
+      "linkingText": [
+        "find the IPv6 address compressed piece index"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "host-serializing",
+        "href": "https://url.spec.whatwg.org/#host-serializing",
+        "title": "Host serializing",
+        "number": "3.6"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "concept-host-equals",
       "href": "https://url.spec.whatwg.org/#concept-host-equals",
       "linkingText": [
@@ -1210,6 +1782,25 @@
       "for": [
         "url"
       ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "url-representation",
+        "href": "https://url.spec.whatwg.org/#url-representation",
+        "title": "URL representation",
+        "number": "4.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "url-path",
+      "href": "https://url.spec.whatwg.org/#url-path",
+      "linkingText": [
+        "URL path"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
       "access": "public",
       "informative": false,
       "heading": {
@@ -2590,7 +3181,7 @@
       "informative": false,
       "heading": {
         "id": "application/x-www-form-urlencoded",
-        "href": "https://url.spec.whatwg.org/#application/x-www-form-urlencoded",
+        "href": "https://url.spec.whatwg.org/#application%2Fx-www-form-urlencoded",
         "title": "application/x-www-form-urlencoded",
         "number": "5"
       },
@@ -2740,6 +3331,94 @@
       "definedIn": "pre"
     },
     {
+      "id": "dom-url-parse-url-base-url",
+      "href": "https://url.spec.whatwg.org/#dom-url-parse-url-base-url",
+      "linkingText": [
+        "url"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "URL/parse(url, base)",
+        "URL/parse(url)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "url-class",
+        "href": "https://url.spec.whatwg.org/#url-class",
+        "title": "URL class",
+        "number": "6.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-url-parse-url-base-base",
+      "href": "https://url.spec.whatwg.org/#dom-url-parse-url-base-base",
+      "linkingText": [
+        "base"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "URL/parse(url, base)",
+        "URL/parse(url)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "url-class",
+        "href": "https://url.spec.whatwg.org/#url-class",
+        "title": "URL class",
+        "number": "6.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-url-canparse-url-base-url",
+      "href": "https://url.spec.whatwg.org/#dom-url-canparse-url-base-url",
+      "linkingText": [
+        "url"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "URL/canParse(url, base)",
+        "URL/canParse(url)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "url-class",
+        "href": "https://url.spec.whatwg.org/#url-class",
+        "title": "URL class",
+        "number": "6.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-url-canparse-url-base-base",
+      "href": "https://url.spec.whatwg.org/#dom-url-canparse-url-base-base",
+      "linkingText": [
+        "base"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "URL/canParse(url, base)",
+        "URL/canParse(url)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "url-class",
+        "href": "https://url.spec.whatwg.org/#url-class",
+        "title": "URL class",
+        "number": "6.1"
+      },
+      "definedIn": "pre"
+    },
+    {
       "id": "URL-stringification-behavior",
       "href": "https://url.spec.whatwg.org/#URL-stringification-behavior",
       "linkingText": [
@@ -2822,6 +3501,46 @@
       "definedIn": "prose"
     },
     {
+      "id": "api-url-parser",
+      "href": "https://url.spec.whatwg.org/#api-url-parser",
+      "linkingText": [
+        "API URL parser"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "url-class",
+        "href": "https://url.spec.whatwg.org/#url-class",
+        "title": "URL class",
+        "number": "6.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "url-initialize",
+      "href": "https://url.spec.whatwg.org/#url-initialize",
+      "linkingText": [
+        "initialize"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "URL"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "url-class",
+        "href": "https://url.spec.whatwg.org/#url-class",
+        "title": "URL class",
+        "number": "6.1"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "dom-url-url",
       "href": "https://url.spec.whatwg.org/#dom-url-url",
       "linkingText": [
@@ -2832,6 +3551,50 @@
       ],
       "localLinkingText": [],
       "type": "constructor",
+      "for": [
+        "URL"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "url-class",
+        "href": "https://url.spec.whatwg.org/#url-class",
+        "title": "URL class",
+        "number": "6.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-url-parse",
+      "href": "https://url.spec.whatwg.org/#dom-url-parse",
+      "linkingText": [
+        "parse(url, base)",
+        "parse(url)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "URL"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "url-class",
+        "href": "https://url.spec.whatwg.org/#url-class",
+        "title": "URL class",
+        "number": "6.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-url-canparse",
+      "href": "https://url.spec.whatwg.org/#dom-url-canparse",
+      "linkingText": [
+        "canParse(url, base)",
+        "canParse(url)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
       "for": [
         "URL"
       ],
@@ -3204,14 +3967,37 @@
       "definedIn": "pre"
     },
     {
-      "id": "dom-urlsearchparams-delete-name-name",
-      "href": "https://url.spec.whatwg.org/#dom-urlsearchparams-delete-name-name",
+      "id": "dom-urlsearchparams-delete-name-value-name",
+      "href": "https://url.spec.whatwg.org/#dom-urlsearchparams-delete-name-value-name",
       "linkingText": [
         "name"
       ],
       "localLinkingText": [],
       "type": "argument",
       "for": [
+        "URLSearchParams/delete(name, value)",
+        "URLSearchParams/delete(name)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interface-urlsearchparams",
+        "href": "https://url.spec.whatwg.org/#interface-urlsearchparams",
+        "title": "URLSearchParams class",
+        "number": "6.2"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-urlsearchparams-delete-name-value-value",
+      "href": "https://url.spec.whatwg.org/#dom-urlsearchparams-delete-name-value-value",
+      "linkingText": [
+        "value"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "URLSearchParams/delete(name, value)",
         "URLSearchParams/delete(name)"
       ],
       "access": "public",
@@ -3267,14 +4053,37 @@
       "definedIn": "pre"
     },
     {
-      "id": "dom-urlsearchparams-has-name-name",
-      "href": "https://url.spec.whatwg.org/#dom-urlsearchparams-has-name-name",
+      "id": "dom-urlsearchparams-has-name-value-name",
+      "href": "https://url.spec.whatwg.org/#dom-urlsearchparams-has-name-value-name",
       "linkingText": [
         "name"
       ],
       "localLinkingText": [],
       "type": "argument",
       "for": [
+        "URLSearchParams/has(name, value)",
+        "URLSearchParams/has(name)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interface-urlsearchparams",
+        "href": "https://url.spec.whatwg.org/#interface-urlsearchparams",
+        "title": "URLSearchParams class",
+        "number": "6.2"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-urlsearchparams-has-name-value-value",
+      "href": "https://url.spec.whatwg.org/#dom-urlsearchparams-has-name-value-value",
+      "linkingText": [
+        "value"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "URLSearchParams/has(name, value)",
         "URLSearchParams/has(name)"
       ],
       "access": "public",
@@ -3438,6 +4247,27 @@
       "definedIn": "prose"
     },
     {
+      "id": "dom-urlsearchparams-size",
+      "href": "https://url.spec.whatwg.org/#dom-urlsearchparams-size",
+      "linkingText": [
+        "size"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "URLSearchParams"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interface-urlsearchparams",
+        "href": "https://url.spec.whatwg.org/#interface-urlsearchparams",
+        "title": "URLSearchParams class",
+        "number": "6.2"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "dom-urlsearchparams-append",
       "href": "https://url.spec.whatwg.org/#dom-urlsearchparams-append",
       "linkingText": [
@@ -3462,6 +4292,7 @@
       "id": "dom-urlsearchparams-delete",
       "href": "https://url.spec.whatwg.org/#dom-urlsearchparams-delete",
       "linkingText": [
+        "delete(name, value)",
         "delete(name)"
       ],
       "localLinkingText": [],
@@ -3525,6 +4356,7 @@
       "id": "dom-urlsearchparams-has",
       "href": "https://url.spec.whatwg.org/#dom-urlsearchparams-has",
       "linkingText": [
+        "has(name, value)",
         "has(name)"
       ],
       "localLinkingText": [],

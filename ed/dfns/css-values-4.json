@@ -8,7 +8,8 @@
       "id": "css-value-definition-syntax",
       "href": "https://drafts.csswg.org/css-values-4/#css-value-definition-syntax",
       "linkingText": [
-        "value definition syntax"
+        "value definition syntax",
+        "CSS value definition syntax"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -235,6 +236,25 @@
       "definedIn": "prose"
     },
     {
+      "id": "css-grammar-production-block",
+      "href": "https://drafts.csswg.org/css-values-4/#css-grammar-production-block",
+      "linkingText": [
+        "CSS grammar production block"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "production-blocks",
+        "href": "https://drafts.csswg.org/css-values-4/#production-blocks",
+        "title": "Non-Terminal Definitions and Grammar Production Blocks",
+        "number": "2.8"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "combine",
       "href": "https://drafts.csswg.org/css-values-4/#combine",
       "linkingText": [
@@ -299,29 +319,6 @@
       "definedIn": "dt"
     },
     {
-      "id": "accumulation",
-      "href": "https://drafts.csswg.org/css-values-4/#accumulation",
-      "linkingText": [
-        "value accumulation",
-        "accumulation procedure"
-      ],
-      "localLinkingText": [
-        "accumulate",
-        "accumulation"
-      ],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "combining-values",
-        "href": "https://drafts.csswg.org/css-values-4/#combining-values",
-        "title": "Combining Values: Interpolation, Addition, and Accumulation",
-        "number": "3"
-      },
-      "definedIn": "dt"
-    },
-    {
       "id": "not-additive",
       "href": "https://drafts.csswg.org/css-values-4/#not-additive",
       "linkingText": [
@@ -341,84 +338,25 @@
       "definedIn": "prose"
     },
     {
-      "id": "funcdef-mix",
-      "href": "https://drafts.csswg.org/css-values-4/#funcdef-mix",
+      "id": "accumulation",
+      "href": "https://drafts.csswg.org/css-values-4/#accumulation",
       "linkingText": [
-        "mix()"
+        "value accumulation",
+        "accumulation procedure"
       ],
-      "localLinkingText": [],
-      "type": "function",
+      "localLinkingText": [
+        "accumulate",
+        "accumulation"
+      ],
+      "type": "dfn",
       "for": [],
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "interpolate",
-        "href": "https://drafts.csswg.org/css-values-4/#interpolate",
-        "title": "Representing Interpolated Values: the mix() notation",
-        "number": "3.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "valdef-mix-percentage",
-      "href": "https://drafts.csswg.org/css-values-4/#valdef-mix-percentage",
-      "linkingText": [
-        "<percentage>"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "mix()"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "interpolate",
-        "href": "https://drafts.csswg.org/css-values-4/#interpolate",
-        "title": "Representing Interpolated Values: the mix() notation",
-        "number": "3.1"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "typedef-mix-start-value",
-      "href": "https://drafts.csswg.org/css-values-4/#typedef-mix-start-value",
-      "linkingText": [
-        "<start-value>"
-      ],
-      "localLinkingText": [],
-      "type": "type",
-      "for": [
-        "mix()"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "interpolate",
-        "href": "https://drafts.csswg.org/css-values-4/#interpolate",
-        "title": "Representing Interpolated Values: the mix() notation",
-        "number": "3.1"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "typedef-mix-end-value",
-      "href": "https://drafts.csswg.org/css-values-4/#typedef-mix-end-value",
-      "linkingText": [
-        "<end-value>"
-      ],
-      "localLinkingText": [],
-      "type": "type",
-      "for": [
-        "mix()"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "interpolate",
-        "href": "https://drafts.csswg.org/css-values-4/#interpolate",
-        "title": "Representing Interpolated Values: the mix() notation",
-        "number": "3.1"
+        "id": "combining-values",
+        "href": "https://drafts.csswg.org/css-values-4/#combining-values",
+        "title": "Combining Values: Interpolation, Addition, and Accumulation",
+        "number": "3"
       },
       "definedIn": "dt"
     },
@@ -685,6 +623,25 @@
       "href": "https://drafts.csswg.org/css-values-4/#fetch-a-style-resource",
       "linkingText": [
         "fetch a style resource"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "url-processing",
+        "href": "https://drafts.csswg.org/css-values-4/#url-processing",
+        "title": "URL Processing Model",
+        "number": "4.5.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "url-request-modifier-steps",
+      "href": "https://drafts.csswg.org/css-values-4/#url-request-modifier-steps",
+      "linkingText": [
+        "URL request modifier steps"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1164,6 +1121,26 @@
       "definedIn": "prose"
     },
     {
+      "id": "snap-a-length-as-a-border-width",
+      "href": "https://drafts.csswg.org/css-values-4/#snap-a-length-as-a-border-width",
+      "linkingText": [
+        "snap a length as a border width",
+        "snap as a border width"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "lengths",
+        "href": "https://drafts.csswg.org/css-values-4/#lengths",
+        "title": "Distance Units: the <length> type",
+        "number": "6"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "relative-length",
       "href": "https://drafts.csswg.org/css-values-4/#relative-length",
       "linkingText": [
@@ -1211,7 +1188,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "font-relative-lengths",
@@ -1230,7 +1207,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "font-relative-lengths",
@@ -1244,7 +1221,8 @@
       "id": "em",
       "href": "https://drafts.csswg.org/css-values-4/#em",
       "linkingText": [
-        "em"
+        "em",
+        "em unit"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -1265,7 +1243,8 @@
       "id": "rem",
       "href": "https://drafts.csswg.org/css-values-4/#rem",
       "linkingText": [
-        "rem"
+        "rem",
+        "rem unit"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -1286,7 +1265,8 @@
       "id": "ex",
       "href": "https://drafts.csswg.org/css-values-4/#ex",
       "linkingText": [
-        "ex"
+        "ex",
+        "ex unit"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -1307,7 +1287,8 @@
       "id": "rex",
       "href": "https://drafts.csswg.org/css-values-4/#rex",
       "linkingText": [
-        "rex"
+        "rex",
+        "rex unit"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -1328,7 +1309,8 @@
       "id": "cap",
       "href": "https://drafts.csswg.org/css-values-4/#cap",
       "linkingText": [
-        "cap"
+        "cap",
+        "cap unit"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -1349,7 +1331,8 @@
       "id": "rcap",
       "href": "https://drafts.csswg.org/css-values-4/#rcap",
       "linkingText": [
-        "rcap"
+        "rcap",
+        "rcap unit"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -1370,7 +1353,8 @@
       "id": "ch",
       "href": "https://drafts.csswg.org/css-values-4/#ch",
       "linkingText": [
-        "ch"
+        "ch",
+        "ch unit"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -1412,7 +1396,8 @@
       "id": "rch",
       "href": "https://drafts.csswg.org/css-values-4/#rch",
       "linkingText": [
-        "rch"
+        "rch",
+        "rch unit"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -1433,7 +1418,8 @@
       "id": "ic",
       "href": "https://drafts.csswg.org/css-values-4/#ic",
       "linkingText": [
-        "ic"
+        "ic",
+        "ic unit"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -1454,7 +1440,8 @@
       "id": "ric",
       "href": "https://drafts.csswg.org/css-values-4/#ric",
       "linkingText": [
-        "ric"
+        "ric",
+        "ric unit"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -1475,7 +1462,8 @@
       "id": "lh",
       "href": "https://drafts.csswg.org/css-values-4/#lh",
       "linkingText": [
-        "lh"
+        "lh",
+        "lh unit"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -1496,7 +1484,8 @@
       "id": "rlh",
       "href": "https://drafts.csswg.org/css-values-4/#rlh",
       "linkingText": [
-        "rlh"
+        "rlh",
+        "rlh unit"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -1533,48 +1522,29 @@
       "definedIn": "prose"
     },
     {
-      "id": "ua-default-viewport-percentage-units",
-      "href": "https://drafts.csswg.org/css-values-4/#ua-default-viewport-percentage-units",
-      "linkingText": [
-        "UA-default viewport-percentage units"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "viewport-variants",
-        "href": "https://drafts.csswg.org/css-values-4/#viewport-variants",
-        "title": "The Large, Small, and Dynamic Viewport Sizes",
-        "number": "6.1.2.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "ua-default-viewport-size",
-      "href": "https://drafts.csswg.org/css-values-4/#ua-default-viewport-size",
-      "linkingText": [
-        "UA-default viewport size"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "viewport-variants",
-        "href": "https://drafts.csswg.org/css-values-4/#viewport-variants",
-        "title": "The Large, Small, and Dynamic Viewport Sizes",
-        "number": "6.1.2.1"
-      },
-      "definedIn": "prose"
-    },
-    {
       "id": "large-viewport-percentage-units",
       "href": "https://drafts.csswg.org/css-values-4/#large-viewport-percentage-units",
       "linkingText": [
         "large viewport-percentage units"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "viewport-variants",
+        "href": "https://drafts.csswg.org/css-values-4/#viewport-variants",
+        "title": "The Large, Small, and Dynamic Viewport Sizes",
+        "number": "6.1.2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "default-viewport-percentage-units",
+      "href": "https://drafts.csswg.org/css-values-4/#default-viewport-percentage-units",
+      "linkingText": [
+        "default viewport-percentage units"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1685,8 +1655,8 @@
       "definedIn": "prose"
     },
     {
-      "id": "valdef-length-vw",
-      "href": "https://drafts.csswg.org/css-values-4/#valdef-length-vw",
+      "id": "vw",
+      "href": "https://drafts.csswg.org/css-values-4/#vw",
       "linkingText": [
         "vw"
       ],
@@ -1706,8 +1676,8 @@
       "definedIn": "dt"
     },
     {
-      "id": "valdef-length-svw",
-      "href": "https://drafts.csswg.org/css-values-4/#valdef-length-svw",
+      "id": "svw",
+      "href": "https://drafts.csswg.org/css-values-4/#svw",
       "linkingText": [
         "svw"
       ],
@@ -1727,8 +1697,8 @@
       "definedIn": "dt"
     },
     {
-      "id": "valdef-length-lvw",
-      "href": "https://drafts.csswg.org/css-values-4/#valdef-length-lvw",
+      "id": "lvw",
+      "href": "https://drafts.csswg.org/css-values-4/#lvw",
       "linkingText": [
         "lvw"
       ],
@@ -1748,8 +1718,8 @@
       "definedIn": "dt"
     },
     {
-      "id": "valdef-length-dvw",
-      "href": "https://drafts.csswg.org/css-values-4/#valdef-length-dvw",
+      "id": "dvw",
+      "href": "https://drafts.csswg.org/css-values-4/#dvw",
       "linkingText": [
         "dvw"
       ],
@@ -1769,8 +1739,8 @@
       "definedIn": "dt"
     },
     {
-      "id": "valdef-length-vh",
-      "href": "https://drafts.csswg.org/css-values-4/#valdef-length-vh",
+      "id": "vh",
+      "href": "https://drafts.csswg.org/css-values-4/#vh",
       "linkingText": [
         "vh"
       ],
@@ -1790,8 +1760,8 @@
       "definedIn": "dt"
     },
     {
-      "id": "valdef-length-svh",
-      "href": "https://drafts.csswg.org/css-values-4/#valdef-length-svh",
+      "id": "svh",
+      "href": "https://drafts.csswg.org/css-values-4/#svh",
       "linkingText": [
         "svh"
       ],
@@ -1811,8 +1781,8 @@
       "definedIn": "dt"
     },
     {
-      "id": "valdef-length-lvh",
-      "href": "https://drafts.csswg.org/css-values-4/#valdef-length-lvh",
+      "id": "lvh",
+      "href": "https://drafts.csswg.org/css-values-4/#lvh",
       "linkingText": [
         "lvh"
       ],
@@ -1832,8 +1802,8 @@
       "definedIn": "dt"
     },
     {
-      "id": "valdef-length-dvh",
-      "href": "https://drafts.csswg.org/css-values-4/#valdef-length-dvh",
+      "id": "dvh",
+      "href": "https://drafts.csswg.org/css-values-4/#dvh",
       "linkingText": [
         "dvh"
       ],
@@ -1853,8 +1823,8 @@
       "definedIn": "dt"
     },
     {
-      "id": "valdef-length-vi",
-      "href": "https://drafts.csswg.org/css-values-4/#valdef-length-vi",
+      "id": "vi",
+      "href": "https://drafts.csswg.org/css-values-4/#vi",
       "linkingText": [
         "vi"
       ],
@@ -1874,8 +1844,8 @@
       "definedIn": "dt"
     },
     {
-      "id": "valdef-length-svi",
-      "href": "https://drafts.csswg.org/css-values-4/#valdef-length-svi",
+      "id": "svi",
+      "href": "https://drafts.csswg.org/css-values-4/#svi",
       "linkingText": [
         "svi"
       ],
@@ -1895,8 +1865,8 @@
       "definedIn": "dt"
     },
     {
-      "id": "valdef-length-lvi",
-      "href": "https://drafts.csswg.org/css-values-4/#valdef-length-lvi",
+      "id": "lvi",
+      "href": "https://drafts.csswg.org/css-values-4/#lvi",
       "linkingText": [
         "lvi"
       ],
@@ -1916,8 +1886,8 @@
       "definedIn": "dt"
     },
     {
-      "id": "valdef-length-dvi",
-      "href": "https://drafts.csswg.org/css-values-4/#valdef-length-dvi",
+      "id": "dvi",
+      "href": "https://drafts.csswg.org/css-values-4/#dvi",
       "linkingText": [
         "dvi"
       ],
@@ -1937,8 +1907,8 @@
       "definedIn": "dt"
     },
     {
-      "id": "valdef-length-vb",
-      "href": "https://drafts.csswg.org/css-values-4/#valdef-length-vb",
+      "id": "vb",
+      "href": "https://drafts.csswg.org/css-values-4/#vb",
       "linkingText": [
         "vb"
       ],
@@ -1958,8 +1928,8 @@
       "definedIn": "dt"
     },
     {
-      "id": "valdef-length-svb",
-      "href": "https://drafts.csswg.org/css-values-4/#valdef-length-svb",
+      "id": "svb",
+      "href": "https://drafts.csswg.org/css-values-4/#svb",
       "linkingText": [
         "svb"
       ],
@@ -1979,8 +1949,8 @@
       "definedIn": "dt"
     },
     {
-      "id": "valdef-length-lvb",
-      "href": "https://drafts.csswg.org/css-values-4/#valdef-length-lvb",
+      "id": "lvb",
+      "href": "https://drafts.csswg.org/css-values-4/#lvb",
       "linkingText": [
         "lvb"
       ],
@@ -2000,8 +1970,8 @@
       "definedIn": "dt"
     },
     {
-      "id": "valdef-length-dvb",
-      "href": "https://drafts.csswg.org/css-values-4/#valdef-length-dvb",
+      "id": "dvb",
+      "href": "https://drafts.csswg.org/css-values-4/#dvb",
       "linkingText": [
         "dvb"
       ],
@@ -2021,8 +1991,8 @@
       "definedIn": "dt"
     },
     {
-      "id": "valdef-length-vmin",
-      "href": "https://drafts.csswg.org/css-values-4/#valdef-length-vmin",
+      "id": "vmin",
+      "href": "https://drafts.csswg.org/css-values-4/#vmin",
       "linkingText": [
         "vmin"
       ],
@@ -2042,8 +2012,8 @@
       "definedIn": "dt"
     },
     {
-      "id": "valdef-length-svmin",
-      "href": "https://drafts.csswg.org/css-values-4/#valdef-length-svmin",
+      "id": "svmin",
+      "href": "https://drafts.csswg.org/css-values-4/#svmin",
       "linkingText": [
         "svmin"
       ],
@@ -2063,8 +2033,8 @@
       "definedIn": "dt"
     },
     {
-      "id": "valdef-length-lvmin",
-      "href": "https://drafts.csswg.org/css-values-4/#valdef-length-lvmin",
+      "id": "lvmin",
+      "href": "https://drafts.csswg.org/css-values-4/#lvmin",
       "linkingText": [
         "lvmin"
       ],
@@ -2084,8 +2054,8 @@
       "definedIn": "dt"
     },
     {
-      "id": "valdef-length-dvmin",
-      "href": "https://drafts.csswg.org/css-values-4/#valdef-length-dvmin",
+      "id": "dvmin",
+      "href": "https://drafts.csswg.org/css-values-4/#dvmin",
       "linkingText": [
         "dvmin"
       ],
@@ -2105,8 +2075,8 @@
       "definedIn": "dt"
     },
     {
-      "id": "valdef-length-vmax",
-      "href": "https://drafts.csswg.org/css-values-4/#valdef-length-vmax",
+      "id": "vmax",
+      "href": "https://drafts.csswg.org/css-values-4/#vmax",
       "linkingText": [
         "vmax"
       ],
@@ -2126,8 +2096,8 @@
       "definedIn": "dt"
     },
     {
-      "id": "valdef-length-svmax",
-      "href": "https://drafts.csswg.org/css-values-4/#valdef-length-svmax",
+      "id": "svmax",
+      "href": "https://drafts.csswg.org/css-values-4/#svmax",
       "linkingText": [
         "svmax"
       ],
@@ -2147,8 +2117,8 @@
       "definedIn": "dt"
     },
     {
-      "id": "valdef-length-lvmax",
-      "href": "https://drafts.csswg.org/css-values-4/#valdef-length-lvmax",
+      "id": "lvmax",
+      "href": "https://drafts.csswg.org/css-values-4/#lvmax",
       "linkingText": [
         "lvmax"
       ],
@@ -2168,8 +2138,8 @@
       "definedIn": "dt"
     },
     {
-      "id": "valdef-length-dvmax",
-      "href": "https://drafts.csswg.org/css-values-4/#valdef-length-dvmax",
+      "id": "dvmax",
+      "href": "https://drafts.csswg.org/css-values-4/#dvmax",
       "linkingText": [
         "dvmax"
       ],
@@ -2953,6 +2923,27 @@
       "definedIn": "prose"
     },
     {
+      "id": "valdef-clamp-none",
+      "href": "https://drafts.csswg.org/css-values-4/#valdef-clamp-none",
+      "linkingText": [
+        "none"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "clamp()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "comp-func",
+        "href": "https://drafts.csswg.org/css-values-4/#comp-func",
+        "title": "Comparison Functions: min(), max(), and clamp()",
+        "number": "10.2"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "funcdef-round",
       "href": "https://drafts.csswg.org/css-values-4/#funcdef-round",
       "linkingText": [
@@ -3414,9 +3405,9 @@
         "id": "calc-constants",
         "href": "https://drafts.csswg.org/css-values-4/#calc-constants",
         "title": "Numeric Constants: e, pi",
-        "number": "10.7"
+        "number": "10.7.1"
       },
-      "definedIn": "prose"
+      "definedIn": "dt"
     },
     {
       "id": "valdef-calc-pi",
@@ -3435,9 +3426,9 @@
         "id": "calc-constants",
         "href": "https://drafts.csswg.org/css-values-4/#calc-constants",
         "title": "Numeric Constants: e, pi",
-        "number": "10.7"
+        "number": "10.7.1"
       },
-      "definedIn": "prose"
+      "definedIn": "dt"
     },
     {
       "id": "valdef-calc-infinity",
@@ -3456,9 +3447,9 @@
         "id": "calc-error-constants",
         "href": "https://drafts.csswg.org/css-values-4/#calc-error-constants",
         "title": "Degenerate Numeric Constants: infinity, -infinity, NaN",
-        "number": "10.7.1"
+        "number": "10.7.2"
       },
-      "definedIn": "prose"
+      "definedIn": "dt"
     },
     {
       "id": "valdef-calc--infinity",
@@ -3477,9 +3468,9 @@
         "id": "calc-error-constants",
         "href": "https://drafts.csswg.org/css-values-4/#calc-error-constants",
         "title": "Degenerate Numeric Constants: infinity, -infinity, NaN",
-        "number": "10.7.1"
+        "number": "10.7.2"
       },
-      "definedIn": "prose"
+      "definedIn": "dt"
     },
     {
       "id": "valdef-calc-nan",
@@ -3498,9 +3489,9 @@
         "id": "calc-error-constants",
         "href": "https://drafts.csswg.org/css-values-4/#calc-error-constants",
         "title": "Degenerate Numeric Constants: infinity, -infinity, NaN",
-        "number": "10.7.1"
+        "number": "10.7.2"
       },
-      "definedIn": "prose"
+      "definedIn": "dt"
     },
     {
       "id": "typedef-calc-sum",
@@ -3560,10 +3551,10 @@
       "definedIn": "pre"
     },
     {
-      "id": "typedef-calc-constant",
-      "href": "https://drafts.csswg.org/css-values-4/#typedef-calc-constant",
+      "id": "typedef-calc-keyword",
+      "href": "https://drafts.csswg.org/css-values-4/#typedef-calc-keyword",
       "linkingText": [
-        "<calc-constant>"
+        "<calc-keyword>"
       ],
       "localLinkingText": [],
       "type": "type",
@@ -3598,6 +3589,74 @@
       "definedIn": "prose"
     },
     {
+      "id": "css-contain-a-percentage",
+      "href": "https://drafts.csswg.org/css-values-4/#css-contain-a-percentage",
+      "linkingText": [
+        "contain a percentage",
+        "percentage-containing"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "CSS"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "calc-type-checking",
+        "href": "https://drafts.csswg.org/css-values-4/#calc-type-checking",
+        "title": "Type Checking",
+        "number": "10.9"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "css-consistent-type",
+      "href": "https://drafts.csswg.org/css-values-4/#css-consistent-type",
+      "linkingText": [
+        "consistent type"
+      ],
+      "localLinkingText": [
+        "consistent"
+      ],
+      "type": "dfn",
+      "for": [
+        "CSS"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "calc-type-checking",
+        "href": "https://drafts.csswg.org/css-values-4/#calc-type-checking",
+        "title": "Type Checking",
+        "number": "10.9"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "css-make-a-type-consistent",
+      "href": "https://drafts.csswg.org/css-values-4/#css-make-a-type-consistent",
+      "linkingText": [
+        "make a type consistent",
+        "make consistent",
+        "made consistent"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "CSS"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "calc-type-checking",
+        "href": "https://drafts.csswg.org/css-values-4/#calc-type-checking",
+        "title": "Type Checking",
+        "number": "10.9"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "top-level-calculation",
       "href": "https://drafts.csswg.org/css-values-4/#top-level-calculation",
       "linkingText": [
@@ -3609,10 +3668,78 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "calc-type-checking",
-        "href": "https://drafts.csswg.org/css-values-4/#calc-type-checking",
-        "title": "Type Checking",
-        "number": "10.9"
+        "id": "calc-ieee",
+        "href": "https://drafts.csswg.org/css-values-4/#calc-ieee",
+        "title": "Infinities, NaN, and Signed Zero",
+        "number": "10.9.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "css-signed-zero",
+      "href": "https://drafts.csswg.org/css-values-4/#css-signed-zero",
+      "linkingText": [
+        "signed zero",
+        "positive zero",
+        "negative zero"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "CSS"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "calc-ieee",
+        "href": "https://drafts.csswg.org/css-values-4/#calc-ieee",
+        "title": "Infinities, NaN, and Signed Zero",
+        "number": "10.9.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "css-infinity",
+      "href": "https://drafts.csswg.org/css-values-4/#css-infinity",
+      "linkingText": [
+        "infinity",
+        "infinite",
+        "positive infinity",
+        "negative infinity"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "CSS"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "calc-ieee",
+        "href": "https://drafts.csswg.org/css-values-4/#calc-ieee",
+        "title": "Infinities, NaN, and Signed Zero",
+        "number": "10.9.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "css-nan",
+      "href": "https://drafts.csswg.org/css-values-4/#css-nan",
+      "linkingText": [
+        "NaN"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "CSS"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "calc-ieee",
+        "href": "https://drafts.csswg.org/css-values-4/#calc-ieee",
+        "title": "Infinities, NaN, and Signed Zero",
+        "number": "10.9.1"
       },
       "definedIn": "prose"
     },
@@ -3794,7 +3921,8 @@
       "heading": {
         "id": "linked-properties",
         "href": "https://drafts.csswg.org/css-values-4/#linked-properties",
-        "title": "Appendix A: Coordinating List-Valued Properties"
+        "title": "Coordinating List-Valued Properties",
+        "number": "A"
       },
       "definedIn": "prose"
     },
@@ -3812,7 +3940,8 @@
       "heading": {
         "id": "linked-properties",
         "href": "https://drafts.csswg.org/css-values-4/#linked-properties",
-        "title": "Appendix A: Coordinating List-Valued Properties"
+        "title": "Coordinating List-Valued Properties",
+        "number": "A"
       },
       "definedIn": "prose"
     },
@@ -3830,7 +3959,8 @@
       "heading": {
         "id": "linked-properties",
         "href": "https://drafts.csswg.org/css-values-4/#linked-properties",
-        "title": "Appendix A: Coordinating List-Valued Properties"
+        "title": "Coordinating List-Valued Properties",
+        "number": "A"
       },
       "definedIn": "prose"
     },
@@ -3848,7 +3978,8 @@
       "heading": {
         "id": "deprecated-quirky-length",
         "href": "https://drafts.csswg.org/css-values-4/#deprecated-quirky-length",
-        "title": "Appendix C: Quirky Lengths"
+        "title": "Quirky Lengths",
+        "number": "C"
       },
       "definedIn": "prose"
     }

@@ -8,7 +8,7 @@
       "id": "title",
       "href": "https://drafts.csswg.org/css-namespaces-3/#title",
       "level": 1,
-      "title": "No TestsCSS Namespaces Module Level 3"
+      "title": "CSS Namespaces Module Level 3"
     },
     {
       "id": "abstract",
@@ -88,6 +88,18 @@
       "href": "https://drafts.csswg.org/css-namespaces-3/#acks",
       "level": 2,
       "title": "Acknowledgments"
+    },
+    {
+      "id": "privacy",
+      "href": "https://drafts.csswg.org/css-namespaces-3/#privacy",
+      "level": 2,
+      "title": "Privacy Considerations"
+    },
+    {
+      "id": "security",
+      "href": "https://drafts.csswg.org/css-namespaces-3/#security",
+      "level": 2,
+      "title": "Security Considerations"
     },
     {
       "id": "index",

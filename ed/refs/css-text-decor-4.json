@@ -19,15 +19,15 @@
       },
       {
         "name": "CSS-COLOR-4",
-        "url": "https://drafts.csswg.org/css-color/"
+        "url": "https://drafts.csswg.org/css-color-4/"
+      },
+      {
+        "name": "CSS-COLOR-5",
+        "url": "https://drafts.csswg.org/css-color-5/"
       },
       {
         "name": "CSS-DISPLAY-4",
-        "url": "https://drafts.csswg.org/css-display-4/"
-      },
-      {
-        "name": "CSS-FONTS-3",
-        "url": "https://drafts.csswg.org/css-fonts-3/"
+        "url": "https://drafts.csswg.org/css-display/"
       },
       {
         "name": "CSS-FONTS-4",
@@ -70,6 +70,10 @@
         "url": "https://drafts.csswg.org/css-text-decor-4/"
       },
       {
+        "name": "CSS-UI-4",
+        "url": "https://drafts.csswg.org/css-ui-4/"
+      },
+      {
         "name": "CSS-VALUES-3",
         "url": "https://drafts.csswg.org/css-values-3/"
       },
@@ -86,42 +90,22 @@
         "url": "https://drafts.csswg.org/css2/"
       },
       {
-        "name": "DOM",
-        "url": "https://dom.spec.whatwg.org/"
-      },
-      {
         "name": "FILL-STROKE-3",
         "url": "https://drafts.fxtf.org/fill-stroke/"
       },
       {
         "name": "RFC2119",
         "url": "https://datatracker.ietf.org/doc/html/rfc2119"
-      },
-      {
-        "name": "SELECTORS-4",
-        "url": "https://drafts.csswg.org/selectors/"
-      },
-      {
-        "name": "UAX11",
-        "url": "https://www.unicode.org/reports/tr11/tr11-40.html"
-      },
-      {
-        "name": "UAX15",
-        "url": "https://www.unicode.org/reports/tr15/tr15-53.html"
-      },
-      {
-        "name": "UAX24",
-        "url": "https://www.unicode.org/reports/tr24/tr24-34.html"
-      },
-      {
-        "name": "UAX44",
-        "url": "https://www.unicode.org/reports/tr44/tr44-30.html"
       }
     ],
     "informative": [
       {
         "name": "CSS-CASCADE-6",
         "url": "https://drafts.csswg.org/css-cascade-6/"
+      },
+      {
+        "name": "CSS-FONTS-3",
+        "url": "https://drafts.csswg.org/css-fonts-3/"
       },
       {
         "name": "CSS-TEXT-DECOR-3",

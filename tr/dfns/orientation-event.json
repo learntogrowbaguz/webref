@@ -1,50 +1,246 @@
 {
   "spec": {
-    "title": "DeviceOrientation Event Specification",
+    "title": "Device Orientation and Motion",
     "url": "https://www.w3.org/TR/orientation-event/"
   },
   "dfns": [
     {
-      "id": "def-deviceorientation",
-      "href": "https://www.w3.org/TR/orientation-event/#def-deviceorientation",
+      "id": "device-orientation-x",
+      "href": "https://www.w3.org/TR/orientation-event/#device-orientation-x",
       "linkingText": [
-        "deviceorientation"
+        "x"
       ],
       "localLinkingText": [],
-      "type": "event",
+      "type": "dfn",
       "for": [
-        "Window"
+        "Device Orientation"
       ],
-      "access": "public",
+      "access": "private",
       "informative": false,
       "heading": {
-        "id": "deviceorientation",
-        "href": "https://www.w3.org/TR/orientation-event/#deviceorientation",
-        "title": "deviceorientation Event",
-        "number": "4.1"
+        "id": "device-orientation-model",
+        "href": "https://www.w3.org/TR/orientation-event/#device-orientation-model",
+        "title": "Device Orientation",
+        "number": "3.1"
       },
       "definedIn": "prose"
     },
     {
-      "id": "dom-window-ondeviceorientation",
-      "href": "https://www.w3.org/TR/orientation-event/#dom-window-ondeviceorientation",
+      "id": "device-orientation-y",
+      "href": "https://www.w3.org/TR/orientation-event/#device-orientation-y",
       "linkingText": [
-        "ondeviceorientation"
+        "y"
       ],
       "localLinkingText": [],
-      "type": "attribute",
+      "type": "dfn",
       "for": [
-        "Window"
+        "Device Orientation"
       ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "device-orientation-model",
+        "href": "https://www.w3.org/TR/orientation-event/#device-orientation-model",
+        "title": "Device Orientation",
+        "number": "3.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "device-orientation-z",
+      "href": "https://www.w3.org/TR/orientation-event/#device-orientation-z",
+      "linkingText": [
+        "z"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Device Orientation"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "device-orientation-model",
+        "href": "https://www.w3.org/TR/orientation-event/#device-orientation-model",
+        "title": "Device Orientation",
+        "number": "3.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "relative-device-orientation",
+      "href": "https://www.w3.org/TR/orientation-event/#relative-device-orientation",
+      "linkingText": [
+        "Relative device orientation"
+      ],
+      "localLinkingText": [
+        "relative orientation"
+      ],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "choice-of-reference-coordinate-system",
+        "href": "https://www.w3.org/TR/orientation-event/#choice-of-reference-coordinate-system",
+        "title": "Choice of reference coordinate system",
+        "number": "3.1.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "absolute-orientation",
+      "href": "https://www.w3.org/TR/orientation-event/#absolute-orientation",
+      "linkingText": [
+        "Absolute orientation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "choice-of-reference-coordinate-system",
+        "href": "https://www.w3.org/TR/orientation-event/#choice-of-reference-coordinate-system",
+        "title": "Choice of reference coordinate system",
+        "number": "3.1.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "linear-device-acceleration",
+      "href": "https://www.w3.org/TR/orientation-event/#linear-device-acceleration",
+      "linkingText": [
+        "Linear device acceleration"
+      ],
+      "localLinkingText": [
+        "linear acceleration"
+      ],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "device-motion-model",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-model",
+        "title": "Device Motion",
+        "number": "3.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "acceleration-with-gravity",
+      "href": "https://www.w3.org/TR/orientation-event/#acceleration-with-gravity",
+      "linkingText": [
+        "acceleration with gravity"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "device-motion-model",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-model",
+        "title": "Device Motion",
+        "number": "3.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "rotation-rate",
+      "href": "https://www.w3.org/TR/orientation-event/#rotation-rate",
+      "linkingText": [
+        "rotation rate"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "device-motion-model",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-model",
+        "title": "Device Motion",
+        "number": "3.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "permissiondef-accelerometer",
+      "href": "https://www.w3.org/TR/orientation-event/#permissiondef-accelerometer",
+      "linkingText": [
+        "\"accelerometer\""
+      ],
+      "localLinkingText": [],
+      "type": "permission",
+      "for": [],
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "deviceorientation",
-        "href": "https://www.w3.org/TR/orientation-event/#deviceorientation",
-        "title": "deviceorientation Event",
-        "number": "4.1"
+        "id": "permissions-integration",
+        "href": "https://www.w3.org/TR/orientation-event/#permissions-integration",
+        "title": "Permissions",
+        "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "prose"
+    },
+    {
+      "id": "permissiondef-gyroscope",
+      "href": "https://www.w3.org/TR/orientation-event/#permissiondef-gyroscope",
+      "linkingText": [
+        "\"gyroscope\""
+      ],
+      "localLinkingText": [],
+      "type": "permission",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "permissions-integration",
+        "href": "https://www.w3.org/TR/orientation-event/#permissions-integration",
+        "title": "Permissions",
+        "number": "4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "permissiondef-magnetometer",
+      "href": "https://www.w3.org/TR/orientation-event/#permissiondef-magnetometer",
+      "linkingText": [
+        "\"magnetometer\""
+      ],
+      "localLinkingText": [],
+      "type": "permission",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "permissions-integration",
+        "href": "https://www.w3.org/TR/orientation-event/#permissions-integration",
+        "title": "Permissions",
+        "number": "4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "device-motion-and-orientation-task-source",
+      "href": "https://www.w3.org/TR/orientation-event/#device-motion-and-orientation-task-source",
+      "linkingText": [
+        "device motion and orientation task source"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "taks-source",
+        "href": "https://www.w3.org/TR/orientation-event/#taks-source",
+        "title": "Task Source",
+        "number": "5"
+      },
+      "definedIn": "prose"
     },
     {
       "id": "deviceorientationevent",
@@ -61,7 +257,7 @@
         "id": "deviceorientation",
         "href": "https://www.w3.org/TR/orientation-event/#deviceorientation",
         "title": "deviceorientation Event",
-        "number": "4.1"
+        "number": "6.1"
       },
       "definedIn": "pre"
     },
@@ -85,7 +281,7 @@
         "id": "deviceorientation",
         "href": "https://www.w3.org/TR/orientation-event/#deviceorientation",
         "title": "deviceorientation Event",
-        "number": "4.1"
+        "number": "6.1"
       },
       "definedIn": "pre"
     },
@@ -109,7 +305,7 @@
         "id": "deviceorientation",
         "href": "https://www.w3.org/TR/orientation-event/#deviceorientation",
         "title": "deviceorientation Event",
-        "number": "4.1"
+        "number": "6.1"
       },
       "definedIn": "pre"
     },
@@ -133,83 +329,21 @@
         "id": "deviceorientation",
         "href": "https://www.w3.org/TR/orientation-event/#deviceorientation",
         "title": "deviceorientation Event",
-        "number": "4.1"
+        "number": "6.1"
       },
       "definedIn": "pre"
     },
     {
-      "id": "dom-deviceorientationevent-alpha",
-      "href": "https://www.w3.org/TR/orientation-event/#dom-deviceorientationevent-alpha",
-      "linkingText": [
-        "alpha"
-      ],
-      "localLinkingText": [],
-      "type": "attribute",
-      "for": [
-        "DeviceOrientationEvent"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "deviceorientation",
-        "href": "https://www.w3.org/TR/orientation-event/#deviceorientation",
-        "title": "deviceorientation Event",
-        "number": "4.1"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-deviceorientationevent-beta",
-      "href": "https://www.w3.org/TR/orientation-event/#dom-deviceorientationevent-beta",
-      "linkingText": [
-        "beta"
-      ],
-      "localLinkingText": [],
-      "type": "attribute",
-      "for": [
-        "DeviceOrientationEvent"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "deviceorientation",
-        "href": "https://www.w3.org/TR/orientation-event/#deviceorientation",
-        "title": "deviceorientation Event",
-        "number": "4.1"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-deviceorientationevent-gamma",
-      "href": "https://www.w3.org/TR/orientation-event/#dom-deviceorientationevent-gamma",
-      "linkingText": [
-        "gamma"
-      ],
-      "localLinkingText": [],
-      "type": "attribute",
-      "for": [
-        "DeviceOrientationEvent"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "deviceorientation",
-        "href": "https://www.w3.org/TR/orientation-event/#deviceorientation",
-        "title": "deviceorientation Event",
-        "number": "4.1"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-deviceorientationevent-absolute",
-      "href": "https://www.w3.org/TR/orientation-event/#dom-deviceorientationevent-absolute",
+      "id": "dom-deviceorientationevent-requestpermission-absolute-absolute",
+      "href": "https://www.w3.org/TR/orientation-event/#dom-deviceorientationevent-requestpermission-absolute-absolute",
       "linkingText": [
         "absolute"
       ],
       "localLinkingText": [],
-      "type": "attribute",
+      "type": "argument",
       "for": [
-        "DeviceOrientationEvent"
+        "DeviceOrientationEvent/requestPermission(absolute)",
+        "DeviceOrientationEvent/requestPermission()"
       ],
       "access": "public",
       "informative": false,
@@ -217,28 +351,7 @@
         "id": "deviceorientation",
         "href": "https://www.w3.org/TR/orientation-event/#deviceorientation",
         "title": "deviceorientation Event",
-        "number": "4.1"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-deviceorientationevent-requestpermission",
-      "href": "https://www.w3.org/TR/orientation-event/#dom-deviceorientationevent-requestpermission",
-      "linkingText": [
-        "requestPermission()"
-      ],
-      "localLinkingText": [],
-      "type": "method",
-      "for": [
-        "DeviceOrientationEvent"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "deviceorientation",
-        "href": "https://www.w3.org/TR/orientation-event/#deviceorientation",
-        "title": "deviceorientation Event",
-        "number": "4.1"
+        "number": "6.1"
       },
       "definedIn": "pre"
     },
@@ -257,7 +370,7 @@
         "id": "deviceorientation",
         "href": "https://www.w3.org/TR/orientation-event/#deviceorientation",
         "title": "deviceorientation Event",
-        "number": "4.1"
+        "number": "6.1"
       },
       "definedIn": "pre"
     },
@@ -278,7 +391,7 @@
         "id": "deviceorientation",
         "href": "https://www.w3.org/TR/orientation-event/#deviceorientation",
         "title": "deviceorientation Event",
-        "number": "4.1"
+        "number": "6.1"
       },
       "definedIn": "pre"
     },
@@ -299,7 +412,7 @@
         "id": "deviceorientation",
         "href": "https://www.w3.org/TR/orientation-event/#deviceorientation",
         "title": "deviceorientation Event",
-        "number": "4.1"
+        "number": "6.1"
       },
       "definedIn": "pre"
     },
@@ -320,7 +433,7 @@
         "id": "deviceorientation",
         "href": "https://www.w3.org/TR/orientation-event/#deviceorientation",
         "title": "deviceorientation Event",
-        "number": "4.1"
+        "number": "6.1"
       },
       "definedIn": "pre"
     },
@@ -341,15 +454,36 @@
         "id": "deviceorientation",
         "href": "https://www.w3.org/TR/orientation-event/#deviceorientation",
         "title": "deviceorientation Event",
-        "number": "4.1"
+        "number": "6.1"
       },
       "definedIn": "pre"
     },
     {
-      "id": "def-deviceorientationabsolute",
-      "href": "https://www.w3.org/TR/orientation-event/#def-deviceorientationabsolute",
+      "id": "dom-window-ondeviceorientation",
+      "href": "https://www.w3.org/TR/orientation-event/#dom-window-ondeviceorientation",
       "linkingText": [
-        "deviceorientationabsolute"
+        "ondeviceorientation"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "Window"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "deviceorientation",
+        "href": "https://www.w3.org/TR/orientation-event/#deviceorientation",
+        "title": "deviceorientation Event",
+        "number": "6.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "def-deviceorientation",
+      "href": "https://www.w3.org/TR/orientation-event/#def-deviceorientation",
+      "linkingText": [
+        "deviceorientation"
       ],
       "localLinkingText": [],
       "type": "event",
@@ -359,10 +493,154 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "deviceorientationabsolute",
-        "href": "https://www.w3.org/TR/orientation-event/#deviceorientationabsolute",
-        "title": "deviceorientationabsolute Event",
-        "number": "4.2"
+        "id": "deviceorientation",
+        "href": "https://www.w3.org/TR/orientation-event/#deviceorientation",
+        "title": "deviceorientation Event",
+        "number": "6.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-deviceorientationevent-alpha",
+      "href": "https://www.w3.org/TR/orientation-event/#dom-deviceorientationevent-alpha",
+      "linkingText": [
+        "alpha"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "DeviceOrientationEvent"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "deviceorientation",
+        "href": "https://www.w3.org/TR/orientation-event/#deviceorientation",
+        "title": "deviceorientation Event",
+        "number": "6.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-deviceorientationevent-beta",
+      "href": "https://www.w3.org/TR/orientation-event/#dom-deviceorientationevent-beta",
+      "linkingText": [
+        "beta"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "DeviceOrientationEvent"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "deviceorientation",
+        "href": "https://www.w3.org/TR/orientation-event/#deviceorientation",
+        "title": "deviceorientation Event",
+        "number": "6.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-deviceorientationevent-gamma",
+      "href": "https://www.w3.org/TR/orientation-event/#dom-deviceorientationevent-gamma",
+      "linkingText": [
+        "gamma"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "DeviceOrientationEvent"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "deviceorientation",
+        "href": "https://www.w3.org/TR/orientation-event/#deviceorientation",
+        "title": "deviceorientation Event",
+        "number": "6.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-deviceorientationevent-absolute",
+      "href": "https://www.w3.org/TR/orientation-event/#dom-deviceorientationevent-absolute",
+      "linkingText": [
+        "absolute"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "DeviceOrientationEvent"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "deviceorientation",
+        "href": "https://www.w3.org/TR/orientation-event/#deviceorientation",
+        "title": "deviceorientation Event",
+        "number": "6.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-deviceorientationevent-requestpermission",
+      "href": "https://www.w3.org/TR/orientation-event/#dom-deviceorientationevent-requestpermission",
+      "linkingText": [
+        "requestPermission(absolute)",
+        "requestPermission()"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "DeviceOrientationEvent"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "deviceorientation",
+        "href": "https://www.w3.org/TR/orientation-event/#deviceorientation",
+        "title": "deviceorientation Event",
+        "number": "6.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "fire-an-orientation-event",
+      "href": "https://www.w3.org/TR/orientation-event/#fire-an-orientation-event",
+      "linkingText": [
+        "fire an orientation event"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "deviceorientation",
+        "href": "https://www.w3.org/TR/orientation-event/#deviceorientation",
+        "title": "deviceorientation Event",
+        "number": "6.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "significant-change-in-orientation",
+      "href": "https://www.w3.org/TR/orientation-event/#significant-change-in-orientation",
+      "linkingText": [
+        "significant change in orientation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "deviceorientation",
+        "href": "https://www.w3.org/TR/orientation-event/#deviceorientation",
+        "title": "deviceorientation Event",
+        "number": "6.1"
       },
       "definedIn": "prose"
     },
@@ -383,15 +661,15 @@
         "id": "deviceorientationabsolute",
         "href": "https://www.w3.org/TR/orientation-event/#deviceorientationabsolute",
         "title": "deviceorientationabsolute Event",
-        "number": "4.2"
+        "number": "6.2"
       },
-      "definedIn": "pre"
+      "definedIn": "prose"
     },
     {
-      "id": "def-compassneedscalibration",
-      "href": "https://www.w3.org/TR/orientation-event/#def-compassneedscalibration",
+      "id": "def-deviceorientationabsolute",
+      "href": "https://www.w3.org/TR/orientation-event/#def-deviceorientationabsolute",
       "linkingText": [
-        "compassneedscalibration"
+        "deviceorientationabsolute"
       ],
       "localLinkingText": [],
       "type": "event",
@@ -401,75 +679,12 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "compassneedscalibration",
-        "href": "https://www.w3.org/TR/orientation-event/#compassneedscalibration",
-        "title": "compassneedscalibration Event",
-        "number": "4.3"
+        "id": "deviceorientationabsolute",
+        "href": "https://www.w3.org/TR/orientation-event/#deviceorientationabsolute",
+        "title": "deviceorientationabsolute Event",
+        "number": "6.2"
       },
       "definedIn": "prose"
-    },
-    {
-      "id": "dom-window-oncompassneedscalibration",
-      "href": "https://www.w3.org/TR/orientation-event/#dom-window-oncompassneedscalibration",
-      "linkingText": [
-        "oncompassneedscalibration"
-      ],
-      "localLinkingText": [],
-      "type": "attribute",
-      "for": [
-        "Window"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "compassneedscalibration",
-        "href": "https://www.w3.org/TR/orientation-event/#compassneedscalibration",
-        "title": "compassneedscalibration Event",
-        "number": "4.3"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "def-devicemotion",
-      "href": "https://www.w3.org/TR/orientation-event/#def-devicemotion",
-      "linkingText": [
-        "devicemotion"
-      ],
-      "localLinkingText": [],
-      "type": "event",
-      "for": [
-        "Window"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "devicemotion",
-        "href": "https://www.w3.org/TR/orientation-event/#devicemotion",
-        "title": "devicemotion Event",
-        "number": "4.4"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dom-window-ondevicemotion",
-      "href": "https://www.w3.org/TR/orientation-event/#dom-window-ondevicemotion",
-      "linkingText": [
-        "ondevicemotion"
-      ],
-      "localLinkingText": [],
-      "type": "attribute",
-      "for": [
-        "Window"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "devicemotion",
-        "href": "https://www.w3.org/TR/orientation-event/#devicemotion",
-        "title": "devicemotion Event",
-        "number": "4.4"
-      },
-      "definedIn": "pre"
     },
     {
       "id": "devicemotioneventacceleration",
@@ -483,12 +698,75 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "devicemotion",
-        "href": "https://www.w3.org/TR/orientation-event/#devicemotion",
-        "title": "devicemotion Event",
-        "number": "4.4"
+        "id": "device-motion-event-acceleration-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-acceleration-api",
+        "title": "The DeviceMotionEventAcceleration interface",
+        "number": "6.3.1"
       },
       "definedIn": "pre"
+    },
+    {
+      "id": "devicemotioneventacceleration-x-axis-acceleration",
+      "href": "https://www.w3.org/TR/orientation-event/#devicemotioneventacceleration-x-axis-acceleration",
+      "linkingText": [
+        "x axis acceleration"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "DeviceMotionEventAcceleration"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "device-motion-event-acceleration-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-acceleration-api",
+        "title": "The DeviceMotionEventAcceleration interface",
+        "number": "6.3.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "devicemotioneventacceleration-y-axis-acceleration",
+      "href": "https://www.w3.org/TR/orientation-event/#devicemotioneventacceleration-y-axis-acceleration",
+      "linkingText": [
+        "y axis acceleration"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "DeviceMotionEventAcceleration"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "device-motion-event-acceleration-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-acceleration-api",
+        "title": "The DeviceMotionEventAcceleration interface",
+        "number": "6.3.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "devicemotioneventacceleration-z-axis-acceleration",
+      "href": "https://www.w3.org/TR/orientation-event/#devicemotioneventacceleration-z-axis-acceleration",
+      "linkingText": [
+        "z axis acceleration"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "DeviceMotionEventAcceleration"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "device-motion-event-acceleration-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-acceleration-api",
+        "title": "The DeviceMotionEventAcceleration interface",
+        "number": "6.3.1"
+      },
+      "definedIn": "dt"
     },
     {
       "id": "dom-devicemotioneventacceleration-x",
@@ -504,12 +782,12 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "devicemotion",
-        "href": "https://www.w3.org/TR/orientation-event/#devicemotion",
-        "title": "devicemotion Event",
-        "number": "4.4"
+        "id": "device-motion-event-acceleration-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-acceleration-api",
+        "title": "The DeviceMotionEventAcceleration interface",
+        "number": "6.3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "prose"
     },
     {
       "id": "dom-devicemotioneventacceleration-y",
@@ -525,12 +803,12 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "devicemotion",
-        "href": "https://www.w3.org/TR/orientation-event/#devicemotion",
-        "title": "devicemotion Event",
-        "number": "4.4"
+        "id": "device-motion-event-acceleration-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-acceleration-api",
+        "title": "The DeviceMotionEventAcceleration interface",
+        "number": "6.3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "prose"
     },
     {
       "id": "dom-devicemotioneventacceleration-z",
@@ -546,12 +824,12 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "devicemotion",
-        "href": "https://www.w3.org/TR/orientation-event/#devicemotion",
-        "title": "devicemotion Event",
-        "number": "4.4"
+        "id": "device-motion-event-acceleration-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-acceleration-api",
+        "title": "The DeviceMotionEventAcceleration interface",
+        "number": "6.3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "prose"
     },
     {
       "id": "devicemotioneventrotationrate",
@@ -565,12 +843,75 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "devicemotion",
-        "href": "https://www.w3.org/TR/orientation-event/#devicemotion",
-        "title": "devicemotion Event",
-        "number": "4.4"
+        "id": "device-motion-event-rotation-rate-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-rotation-rate-api",
+        "title": "The DeviceMotionEventRotationRate interface",
+        "number": "6.3.2"
       },
       "definedIn": "pre"
+    },
+    {
+      "id": "devicemotioneventrotationrate-x-axis-rotation-rate",
+      "href": "https://www.w3.org/TR/orientation-event/#devicemotioneventrotationrate-x-axis-rotation-rate",
+      "linkingText": [
+        "x axis rotation rate"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "DeviceMotionEventRotationRate"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "device-motion-event-rotation-rate-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-rotation-rate-api",
+        "title": "The DeviceMotionEventRotationRate interface",
+        "number": "6.3.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "devicemotioneventrotationrate-y-axis-rotation-rate",
+      "href": "https://www.w3.org/TR/orientation-event/#devicemotioneventrotationrate-y-axis-rotation-rate",
+      "linkingText": [
+        "y axis rotation rate"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "DeviceMotionEventRotationRate"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "device-motion-event-rotation-rate-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-rotation-rate-api",
+        "title": "The DeviceMotionEventRotationRate interface",
+        "number": "6.3.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "devicemotioneventrotationrate-z-axis-rotation-rate",
+      "href": "https://www.w3.org/TR/orientation-event/#devicemotioneventrotationrate-z-axis-rotation-rate",
+      "linkingText": [
+        "z axis rotation rate"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "DeviceMotionEventRotationRate"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "device-motion-event-rotation-rate-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-rotation-rate-api",
+        "title": "The DeviceMotionEventRotationRate interface",
+        "number": "6.3.2"
+      },
+      "definedIn": "dt"
     },
     {
       "id": "dom-devicemotioneventrotationrate-alpha",
@@ -586,12 +927,12 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "devicemotion",
-        "href": "https://www.w3.org/TR/orientation-event/#devicemotion",
-        "title": "devicemotion Event",
-        "number": "4.4"
+        "id": "device-motion-event-rotation-rate-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-rotation-rate-api",
+        "title": "The DeviceMotionEventRotationRate interface",
+        "number": "6.3.2"
       },
-      "definedIn": "pre"
+      "definedIn": "prose"
     },
     {
       "id": "dom-devicemotioneventrotationrate-beta",
@@ -607,12 +948,12 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "devicemotion",
-        "href": "https://www.w3.org/TR/orientation-event/#devicemotion",
-        "title": "devicemotion Event",
-        "number": "4.4"
+        "id": "device-motion-event-rotation-rate-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-rotation-rate-api",
+        "title": "The DeviceMotionEventRotationRate interface",
+        "number": "6.3.2"
       },
-      "definedIn": "pre"
+      "definedIn": "prose"
     },
     {
       "id": "dom-devicemotioneventrotationrate-gamma",
@@ -628,12 +969,12 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "devicemotion",
-        "href": "https://www.w3.org/TR/orientation-event/#devicemotion",
-        "title": "devicemotion Event",
-        "number": "4.4"
+        "id": "device-motion-event-rotation-rate-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-rotation-rate-api",
+        "title": "The DeviceMotionEventRotationRate interface",
+        "number": "6.3.2"
       },
-      "definedIn": "pre"
+      "definedIn": "prose"
     },
     {
       "id": "devicemotionevent",
@@ -647,10 +988,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "devicemotion",
-        "href": "https://www.w3.org/TR/orientation-event/#devicemotion",
-        "title": "devicemotion Event",
-        "number": "4.4"
+        "id": "device-motion-event-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
       "definedIn": "pre"
     },
@@ -671,10 +1012,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "devicemotion",
-        "href": "https://www.w3.org/TR/orientation-event/#devicemotion",
-        "title": "devicemotion Event",
-        "number": "4.4"
+        "id": "device-motion-event-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
       "definedIn": "pre"
     },
@@ -695,10 +1036,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "devicemotion",
-        "href": "https://www.w3.org/TR/orientation-event/#devicemotion",
-        "title": "devicemotion Event",
-        "number": "4.4"
+        "id": "device-motion-event-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
       "definedIn": "pre"
     },
@@ -719,115 +1060,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "devicemotion",
-        "href": "https://www.w3.org/TR/orientation-event/#devicemotion",
-        "title": "devicemotion Event",
-        "number": "4.4"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-devicemotionevent-acceleration",
-      "href": "https://www.w3.org/TR/orientation-event/#dom-devicemotionevent-acceleration",
-      "linkingText": [
-        "acceleration"
-      ],
-      "localLinkingText": [],
-      "type": "attribute",
-      "for": [
-        "DeviceMotionEvent"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "devicemotion",
-        "href": "https://www.w3.org/TR/orientation-event/#devicemotion",
-        "title": "devicemotion Event",
-        "number": "4.4"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-devicemotionevent-accelerationincludinggravity",
-      "href": "https://www.w3.org/TR/orientation-event/#dom-devicemotionevent-accelerationincludinggravity",
-      "linkingText": [
-        "accelerationIncludingGravity"
-      ],
-      "localLinkingText": [],
-      "type": "attribute",
-      "for": [
-        "DeviceMotionEvent"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "devicemotion",
-        "href": "https://www.w3.org/TR/orientation-event/#devicemotion",
-        "title": "devicemotion Event",
-        "number": "4.4"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-devicemotionevent-rotationrate",
-      "href": "https://www.w3.org/TR/orientation-event/#dom-devicemotionevent-rotationrate",
-      "linkingText": [
-        "rotationRate"
-      ],
-      "localLinkingText": [],
-      "type": "attribute",
-      "for": [
-        "DeviceMotionEvent"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "devicemotion",
-        "href": "https://www.w3.org/TR/orientation-event/#devicemotion",
-        "title": "devicemotion Event",
-        "number": "4.4"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-devicemotionevent-interval",
-      "href": "https://www.w3.org/TR/orientation-event/#dom-devicemotionevent-interval",
-      "linkingText": [
-        "interval"
-      ],
-      "localLinkingText": [],
-      "type": "attribute",
-      "for": [
-        "DeviceMotionEvent"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "devicemotion",
-        "href": "https://www.w3.org/TR/orientation-event/#devicemotion",
-        "title": "devicemotion Event",
-        "number": "4.4"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-devicemotionevent-requestpermission",
-      "href": "https://www.w3.org/TR/orientation-event/#dom-devicemotionevent-requestpermission",
-      "linkingText": [
-        "requestPermission()"
-      ],
-      "localLinkingText": [],
-      "type": "method",
-      "for": [
-        "DeviceMotionEvent"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "devicemotion",
-        "href": "https://www.w3.org/TR/orientation-event/#devicemotion",
-        "title": "devicemotion Event",
-        "number": "4.4"
+        "id": "device-motion-event-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
       "definedIn": "pre"
     },
@@ -843,10 +1079,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "devicemotion",
-        "href": "https://www.w3.org/TR/orientation-event/#devicemotion",
-        "title": "devicemotion Event",
-        "number": "4.4"
+        "id": "device-motion-event-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
       "definedIn": "pre"
     },
@@ -864,10 +1100,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "devicemotion",
-        "href": "https://www.w3.org/TR/orientation-event/#devicemotion",
-        "title": "devicemotion Event",
-        "number": "4.4"
+        "id": "device-motion-event-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
       "definedIn": "pre"
     },
@@ -885,10 +1121,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "devicemotion",
-        "href": "https://www.w3.org/TR/orientation-event/#devicemotion",
-        "title": "devicemotion Event",
-        "number": "4.4"
+        "id": "device-motion-event-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
       "definedIn": "pre"
     },
@@ -906,10 +1142,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "devicemotion",
-        "href": "https://www.w3.org/TR/orientation-event/#devicemotion",
-        "title": "devicemotion Event",
-        "number": "4.4"
+        "id": "device-motion-event-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
       "definedIn": "pre"
     },
@@ -925,10 +1161,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "devicemotion",
-        "href": "https://www.w3.org/TR/orientation-event/#devicemotion",
-        "title": "devicemotion Event",
-        "number": "4.4"
+        "id": "device-motion-event-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
       "definedIn": "pre"
     },
@@ -946,10 +1182,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "devicemotion",
-        "href": "https://www.w3.org/TR/orientation-event/#devicemotion",
-        "title": "devicemotion Event",
-        "number": "4.4"
+        "id": "device-motion-event-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
       "definedIn": "pre"
     },
@@ -967,10 +1203,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "devicemotion",
-        "href": "https://www.w3.org/TR/orientation-event/#devicemotion",
-        "title": "devicemotion Event",
-        "number": "4.4"
+        "id": "device-motion-event-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
       "definedIn": "pre"
     },
@@ -988,10 +1224,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "devicemotion",
-        "href": "https://www.w3.org/TR/orientation-event/#devicemotion",
-        "title": "devicemotion Event",
-        "number": "4.4"
+        "id": "device-motion-event-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
       "definedIn": "pre"
     },
@@ -1007,10 +1243,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "devicemotion",
-        "href": "https://www.w3.org/TR/orientation-event/#devicemotion",
-        "title": "devicemotion Event",
-        "number": "4.4"
+        "id": "device-motion-event-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
       "definedIn": "pre"
     },
@@ -1028,10 +1264,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "devicemotion",
-        "href": "https://www.w3.org/TR/orientation-event/#devicemotion",
-        "title": "devicemotion Event",
-        "number": "4.4"
+        "id": "device-motion-event-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
       "definedIn": "pre"
     },
@@ -1049,10 +1285,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "devicemotion",
-        "href": "https://www.w3.org/TR/orientation-event/#devicemotion",
-        "title": "devicemotion Event",
-        "number": "4.4"
+        "id": "device-motion-event-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
       "definedIn": "pre"
     },
@@ -1070,10 +1306,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "devicemotion",
-        "href": "https://www.w3.org/TR/orientation-event/#devicemotion",
-        "title": "devicemotion Event",
-        "number": "4.4"
+        "id": "device-motion-event-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
       "definedIn": "pre"
     },
@@ -1091,29 +1327,271 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "devicemotion",
-        "href": "https://www.w3.org/TR/orientation-event/#devicemotion",
-        "title": "devicemotion Event",
-        "number": "4.4"
+        "id": "device-motion-event-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
       "definedIn": "pre"
     },
     {
-      "id": "permission",
-      "href": "https://www.w3.org/TR/orientation-event/#permission",
+      "id": "dom-window-ondevicemotion",
+      "href": "https://www.w3.org/TR/orientation-event/#dom-window-ondevicemotion",
       "linkingText": [
-        "permission"
+        "ondevicemotion"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "Window"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "device-motion-event-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "def-devicemotion",
+      "href": "https://www.w3.org/TR/orientation-event/#def-devicemotion",
+      "linkingText": [
+        "devicemotion"
+      ],
+      "localLinkingText": [],
+      "type": "event",
+      "for": [
+        "Window"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "device-motion-event-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-devicemotionevent-acceleration",
+      "href": "https://www.w3.org/TR/orientation-event/#dom-devicemotionevent-acceleration",
+      "linkingText": [
+        "acceleration"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "DeviceMotionEvent"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "device-motion-event-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-devicemotionevent-accelerationincludinggravity",
+      "href": "https://www.w3.org/TR/orientation-event/#dom-devicemotionevent-accelerationincludinggravity",
+      "linkingText": [
+        "accelerationIncludingGravity"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "DeviceMotionEvent"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "device-motion-event-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-devicemotionevent-rotationrate",
+      "href": "https://www.w3.org/TR/orientation-event/#dom-devicemotionevent-rotationrate",
+      "linkingText": [
+        "rotationRate"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "DeviceMotionEvent"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "device-motion-event-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-devicemotionevent-interval",
+      "href": "https://www.w3.org/TR/orientation-event/#dom-devicemotionevent-interval",
+      "linkingText": [
+        "interval"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "DeviceMotionEvent"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "device-motion-event-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-devicemotionevent-requestpermission",
+      "href": "https://www.w3.org/TR/orientation-event/#dom-devicemotionevent-requestpermission",
+      "linkingText": [
+        "requestPermission()"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "DeviceMotionEvent"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "device-motion-event-api",
+        "href": "https://www.w3.org/TR/orientation-event/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "parse-orientation-data-reading",
+      "href": "https://www.w3.org/TR/orientation-event/#parse-orientation-data-reading",
+      "linkingText": [
+        "parse orientation data reading"
       ],
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
-        "id": "id=permission-model",
-        "href": "https://www.w3.org/TR/orientation-event/#id=permission-model",
-        "title": "Permission model",
-        "number": "4.5"
+        "id": "parse-orientation-data-reading-algorithm",
+        "href": "https://www.w3.org/TR/orientation-event/#parse-orientation-data-reading-algorithm",
+        "title": "Parse orientation reading data algorithm",
+        "number": "9.1.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "absolute-orientation-virtual-sensor-type",
+      "href": "https://www.w3.org/TR/orientation-event/#absolute-orientation-virtual-sensor-type",
+      "linkingText": [
+        "absolute-orientation virtual sensor type"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "absolute-orientation-virtual-sensors",
+        "href": "https://www.w3.org/TR/orientation-event/#absolute-orientation-virtual-sensors",
+        "title": "The \"absolute-orientation\" virtual sensor type",
+        "number": "9.1.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "relative-orientation-virtual-sensor-type",
+      "href": "https://www.w3.org/TR/orientation-event/#relative-orientation-virtual-sensor-type",
+      "linkingText": [
+        "relative-orientation virtual sensor type"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "relative-orientation-virtual-sensors",
+        "href": "https://www.w3.org/TR/orientation-event/#relative-orientation-virtual-sensors",
+        "title": "The \"relative-orientation\" virtual sensor type",
+        "number": "9.1.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "accelerometer-virtual-sensor-type",
+      "href": "https://www.w3.org/TR/orientation-event/#accelerometer-virtual-sensor-type",
+      "linkingText": [
+        "accelerometer virtual sensor type"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "accelerometer-virtual-sensors",
+        "href": "https://www.w3.org/TR/orientation-event/#accelerometer-virtual-sensors",
+        "title": "The \"accelerometer\" virtual sensor type",
+        "number": "9.2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "linear-acceleration-virtual-sensor-type",
+      "href": "https://www.w3.org/TR/orientation-event/#linear-acceleration-virtual-sensor-type",
+      "linkingText": [
+        "linear-acceleration virtual sensor type"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "linear-acceleration-virtual-sensors",
+        "href": "https://www.w3.org/TR/orientation-event/#linear-acceleration-virtual-sensors",
+        "title": "The \"linear-acceleration\" virtual sensor type",
+        "number": "9.2.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "gyroscope-virtual-sensor-type",
+      "href": "https://www.w3.org/TR/orientation-event/#gyroscope-virtual-sensor-type",
+      "linkingText": [
+        "gyroscope virtual sensor type"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "gyroscope-virtual-sensors",
+        "href": "https://www.w3.org/TR/orientation-event/#gyroscope-virtual-sensors",
+        "title": "The \"gyroscope\" virtual sensor type",
+        "number": "9.2.3"
       },
       "definedIn": "prose"
     }

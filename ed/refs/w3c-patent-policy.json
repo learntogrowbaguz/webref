@@ -1,13 +1,13 @@
 {
   "spec": {
     "title": "W3C Patent Policy",
-    "url": "https://www.w3.org/Consortium/Patent-Policy/"
+    "url": "https://www.w3.org/policies/patent-policy/"
   },
   "refs": {
     "normative": [
       {
         "name": "PROCESS",
-        "url": "https://www.w3.org/Consortium/Process/"
+        "url": "https://www.w3.org/policies/process/"
       },
       {
         "name": "RFC2119",

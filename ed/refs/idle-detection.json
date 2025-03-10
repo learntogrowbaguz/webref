@@ -23,15 +23,15 @@
       },
       {
         "name": "PAGE-VISIBILITY-2",
-        "url": "https://www.w3.org/TR/page-visibility-2/"
+        "url": "https://w3c.github.io/page-visibility/"
       },
       {
         "name": "PERMISSIONS",
-        "url": "https://www.w3.org/TR/permissions/"
+        "url": "https://w3c.github.io/permissions/"
       },
       {
         "name": "PERMISSIONS-POLICY",
-        "url": "https://www.w3.org/TR/permissions-policy-1/"
+        "url": "https://w3c.github.io/webappsec-permissions-policy/"
       },
       {
         "name": "RFC2119",
@@ -45,19 +45,19 @@
     "informative": [
       {
         "name": "DEVICE-ORIENTATION",
-        "url": "https://www.w3.org/TR/orientation-event/"
+        "url": "https://w3c.github.io/deviceorientation/"
       },
       {
         "name": "FETCH",
         "url": "https://fetch.spec.whatwg.org/"
       },
       {
-        "name": "GEOLOCATION-API",
-        "url": "https://www.w3.org/TR/geolocation-API/"
+        "name": "GEOLOCATION",
+        "url": "https://w3c.github.io/geolocation/"
       },
       {
         "name": "PUSH-API",
-        "url": "https://www.w3.org/TR/push-api/"
+        "url": "https://w3c.github.io/push-api/"
       }
     ]
   }

@@ -66,6 +66,67 @@
       "definedIn": "prose"
     },
     {
+      "id": "file-system-access-result",
+      "href": "https://fs.spec.whatwg.org/#file-system-access-result",
+      "linkingText": [
+        "file system access result"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "concepts",
+        "href": "https://fs.spec.whatwg.org/#concepts",
+        "title": "Concepts",
+        "number": "2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "file-system-access-result-permission-state",
+      "href": "https://fs.spec.whatwg.org/#file-system-access-result-permission-state",
+      "linkingText": [
+        "permission state"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "file system access result"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "concepts",
+        "href": "https://fs.spec.whatwg.org/#concepts",
+        "title": "Concepts",
+        "number": "2.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "file-system-access-result-error-name",
+      "href": "https://fs.spec.whatwg.org/#file-system-access-result-error-name",
+      "linkingText": [
+        "error name"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "file system access result"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "concepts",
+        "href": "https://fs.spec.whatwg.org/#concepts",
+        "title": "Concepts",
+        "number": "2.1"
+      },
+      "definedIn": "dt"
+    },
+    {
       "id": "entry-name",
       "href": "https://fs.spec.whatwg.org/#entry-name",
       "linkingText": [
@@ -209,6 +270,25 @@
       "definedIn": "prose"
     },
     {
+      "id": "file-system-queue",
+      "href": "https://fs.spec.whatwg.org/#file-system-queue",
+      "linkingText": [
+        "file system queue"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "concepts",
+        "href": "https://fs.spec.whatwg.org/#concepts",
+        "title": "Concepts",
+        "number": "2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "file-entry-lock-take",
       "href": "https://fs.spec.whatwg.org/#file-entry-lock-take",
       "linkingText": [
@@ -312,15 +392,15 @@
       "definedIn": "prose"
     },
     {
-      "id": "entry-the-same-as",
-      "href": "https://fs.spec.whatwg.org/#entry-the-same-as",
+      "id": "file-system-entry-the-same-entry-as",
+      "href": "https://fs.spec.whatwg.org/#file-system-entry-the-same-entry-as",
       "linkingText": [
-        "the same as"
+        "the same entry as"
       ],
       "localLinkingText": [],
       "type": "dfn",
       "for": [
-        "entry"
+        "file system entry"
       ],
       "access": "private",
       "informative": false,
@@ -333,15 +413,253 @@
       "definedIn": "prose"
     },
     {
-      "id": "entry-resolve",
-      "href": "https://fs.spec.whatwg.org/#entry-resolve",
+      "id": "locator-resolve",
+      "href": "https://fs.spec.whatwg.org/#locator-resolve",
       "linkingText": [
         "resolve"
       ],
       "localLinkingText": [],
       "type": "dfn",
       "for": [
-        "file system entry"
+        "file system locator"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "concepts",
+        "href": "https://fs.spec.whatwg.org/#concepts",
+        "title": "Concepts",
+        "number": "2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "file-system-locator",
+      "href": "https://fs.spec.whatwg.org/#file-system-locator",
+      "linkingText": [
+        "file system locator"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "concepts",
+        "href": "https://fs.spec.whatwg.org/#concepts",
+        "title": "Concepts",
+        "number": "2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "locator-path",
+      "href": "https://fs.spec.whatwg.org/#locator-path",
+      "linkingText": [
+        "path"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "file system locator"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "concepts",
+        "href": "https://fs.spec.whatwg.org/#concepts",
+        "title": "Concepts",
+        "number": "2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "locator-kind",
+      "href": "https://fs.spec.whatwg.org/#locator-kind",
+      "linkingText": [
+        "kind"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "file system locator"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "concepts",
+        "href": "https://fs.spec.whatwg.org/#concepts",
+        "title": "Concepts",
+        "number": "2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "locator-root",
+      "href": "https://fs.spec.whatwg.org/#locator-root",
+      "linkingText": [
+        "root"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "file system locator"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "concepts",
+        "href": "https://fs.spec.whatwg.org/#concepts",
+        "title": "Concepts",
+        "number": "2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "file-locator",
+      "href": "https://fs.spec.whatwg.org/#file-locator",
+      "linkingText": [
+        "file locator"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "concepts",
+        "href": "https://fs.spec.whatwg.org/#concepts",
+        "title": "Concepts",
+        "number": "2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "directory-locator",
+      "href": "https://fs.spec.whatwg.org/#directory-locator",
+      "linkingText": [
+        "directory locator"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "concepts",
+        "href": "https://fs.spec.whatwg.org/#concepts",
+        "title": "Concepts",
+        "number": "2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "file-system-root",
+      "href": "https://fs.spec.whatwg.org/#file-system-root",
+      "linkingText": [
+        "file system root"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "concepts",
+        "href": "https://fs.spec.whatwg.org/#concepts",
+        "title": "Concepts",
+        "number": "2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "file-system-locator-the-same-locator-as",
+      "href": "https://fs.spec.whatwg.org/#file-system-locator-the-same-locator-as",
+      "linkingText": [
+        "the same locator as"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "file system locator"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "concepts",
+        "href": "https://fs.spec.whatwg.org/#concepts",
+        "title": "Concepts",
+        "number": "2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "locating-an-entry",
+      "href": "https://fs.spec.whatwg.org/#locating-an-entry",
+      "linkingText": [
+        "locating an entry"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "concepts",
+        "href": "https://fs.spec.whatwg.org/#concepts",
+        "title": "Concepts",
+        "number": "2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "getting-the-locator",
+      "href": "https://fs.spec.whatwg.org/#getting-the-locator",
+      "linkingText": [
+        "getting the locator"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "concepts",
+        "href": "https://fs.spec.whatwg.org/#concepts",
+        "title": "Concepts",
+        "number": "2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "file-system-path",
+      "href": "https://fs.spec.whatwg.org/#file-system-path",
+      "linkingText": [
+        "file system path"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "concepts",
+        "href": "https://fs.spec.whatwg.org/#concepts",
+        "title": "Concepts",
+        "number": "2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "file-system-path-the-same-path-as",
+      "href": "https://fs.spec.whatwg.org/#file-system-path-the-same-path-as",
+      "linkingText": [
+        "the same path as"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "file system path"
       ],
       "access": "private",
       "informative": false,
@@ -455,10 +773,31 @@
       "definedIn": "pre"
     },
     {
-      "id": "filesystemhandle-entry",
-      "href": "https://fs.spec.whatwg.org/#filesystemhandle-entry",
+      "id": "filesystemhandle-locator",
+      "href": "https://fs.spec.whatwg.org/#filesystemhandle-locator",
       "linkingText": [
-        "entry"
+        "locator"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "FileSystemHandle"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "api-filesystemhandle",
+        "href": "https://fs.spec.whatwg.org/#api-filesystemhandle",
+        "title": "The FileSystemHandle interface",
+        "number": "2.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "filesystemhandle-is-in-a-bucket-file-system",
+      "href": "https://fs.spec.whatwg.org/#filesystemhandle-is-in-a-bucket-file-system",
+      "linkingText": [
+        "is in a bucket file system"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -618,6 +957,44 @@
         "number": "2.3"
       },
       "definedIn": "pre"
+    },
+    {
+      "id": "creating-a-child-filesystemfilehandle",
+      "href": "https://fs.spec.whatwg.org/#creating-a-child-filesystemfilehandle",
+      "linkingText": [
+        "creating a child FileSystemFileHandle"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "api-filesystemfilehandle",
+        "href": "https://fs.spec.whatwg.org/#api-filesystemfilehandle",
+        "title": "The FileSystemFileHandle interface",
+        "number": "2.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "creating-a-new-filesystemfilehandle",
+      "href": "https://fs.spec.whatwg.org/#creating-a-new-filesystemfilehandle",
+      "linkingText": [
+        "creating a new FileSystemFileHandle"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "api-filesystemfilehandle",
+        "href": "https://fs.spec.whatwg.org/#api-filesystemfilehandle",
+        "title": "The FileSystemFileHandle interface",
+        "number": "2.3"
+      },
+      "definedIn": "prose"
     },
     {
       "id": "dom-filesystemfilehandle-getfile",
@@ -974,6 +1351,44 @@
         "number": "2.4"
       },
       "definedIn": "pre"
+    },
+    {
+      "id": "creating-a-child-filesystemdirectoryhandle",
+      "href": "https://fs.spec.whatwg.org/#creating-a-child-filesystemdirectoryhandle",
+      "linkingText": [
+        "creating a child FileSystemDirectoryHandle"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "api-filesystemdirectoryhandle",
+        "href": "https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle",
+        "title": "The FileSystemDirectoryHandle interface",
+        "number": "2.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "creating-a-new-filesystemdirectoryhandle",
+      "href": "https://fs.spec.whatwg.org/#creating-a-new-filesystemdirectoryhandle",
+      "linkingText": [
+        "creating a new FileSystemDirectoryHandle"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "api-filesystemdirectoryhandle",
+        "href": "https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle",
+        "title": "The FileSystemDirectoryHandle interface",
+        "number": "2.4"
+      },
+      "definedIn": "prose"
     },
     {
       "id": "filesystemdirectoryhandle-iterator-past-results",
@@ -1438,7 +1853,9 @@
       "linkingText": [
         "create a new FileSystemWritableFileStream"
       ],
-      "localLinkingText": [],
+      "localLinkingText": [
+        "creating a new FileSystemWritableFileStream"
+      ],
       "type": "dfn",
       "for": [],
       "access": "private",
@@ -1814,7 +2231,9 @@
       "linkingText": [
         "create a new FileSystemSyncAccessHandle"
       ],
-      "localLinkingText": [],
+      "localLinkingText": [
+        "creating a new FileSystemSyncAccessHandle"
+      ],
       "type": "dfn",
       "for": [],
       "access": "private",
@@ -1957,7 +2376,7 @@
       "id": "origin-private-file-system",
       "href": "https://fs.spec.whatwg.org/#origin-private-file-system",
       "linkingText": [
-        "origin private file system"
+        "bucket file system"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1967,7 +2386,7 @@
       "heading": {
         "id": "sandboxed-filesystem",
         "href": "https://fs.spec.whatwg.org/#sandboxed-filesystem",
-        "title": "Accessing the Origin Private File System",
+        "title": "Accessing the Bucket File System",
         "number": "3"
       },
       "definedIn": "prose"
@@ -1988,7 +2407,7 @@
       "heading": {
         "id": "sandboxed-filesystem",
         "href": "https://fs.spec.whatwg.org/#sandboxed-filesystem",
-        "title": "Accessing the Origin Private File System",
+        "title": "Accessing the Bucket File System",
         "number": "3"
       },
       "definedIn": "prose"

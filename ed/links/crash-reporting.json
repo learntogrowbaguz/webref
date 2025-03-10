@@ -4,31 +4,53 @@
     "url": "https://wicg.github.io/crash-reporting/"
   },
   "links": {
-    "http://www.w3.org/community/": {},
-    "https://heycam.github.io/webidl/": {
-      "anchors": [
-        "Exposed",
-        "Default",
-        "idl-object",
-        "idl-DOMString"
-      ]
+    "rawlinks": {
+      "http://www.w3.org/community/": {},
+      "https://dom.spec.whatwg.org/": {},
+      "https://w3c.github.io/reporting/": {
+        "anchors": [
+          "security",
+          "privacy"
+        ]
+      },
+      "https://webidl.spec.whatwg.org/": {},
+      "https://wicg.github.io/document-policy/": {},
+      "https://www.w3.org/community/about/agreements/cla/": {},
+      "https://www.w3.org/community/wicg/": {}
     },
-    "https://w3c.github.io/reporting/": {
-      "anchors": [
-        "report",
-        "report-type",
-        "reportbody",
-        "report-body",
-        "endpoint",
-        "security",
-        "privacy"
-      ],
-      "specShortname": "reporting-1"
-    },
-    "https://www.w3.org/TR/reporting-1/": {
-      "specShortname": "reporting-1"
-    },
-    "https://www.w3.org/community/about/agreements/cla/": {},
-    "https://www.w3.org/community/wicg/": {}
+    "autolinks": {
+      "https://dom.spec.whatwg.org/": {
+        "anchors": [
+          "concept-document"
+        ]
+      },
+      "https://tc39.es/proposal-error-stacks/": {
+        "anchors": [
+          "sec-get-error.prototype-stack"
+        ]
+      },
+      "https://w3c.github.io/reporting/": {
+        "anchors": [
+          "report",
+          "report-type",
+          "reportbody",
+          "report-body",
+          "endpoint"
+        ]
+      },
+      "https://webidl.spec.whatwg.org/": {
+        "anchors": [
+          "Exposed",
+          "Default",
+          "idl-object",
+          "idl-DOMString"
+        ]
+      },
+      "https://wicg.github.io/document-policy/": {
+        "anchors": [
+          "configuration-point"
+        ]
+      }
+    }
   }
 }

@@ -4,92 +4,123 @@
     "url": "https://wicg.github.io/capability-delegation/spec.html"
   },
   "links": {
-    "http://www.w3.org/community/": {},
-    "https://fullscreen.spec.whatwg.org/": {
-      "anchors": [
-        "dom-element-requestfullscreen"
-      ],
-      "specShortname": "fullscreen"
+    "rawlinks": {
+      "http://www.w3.org/community/": {},
+      "https://datatracker.ietf.org/doc/html/rfc2119": {},
+      "https://fullscreen.spec.whatwg.org/": {},
+      "https://github.com/w3c/webappsec-permissions-policy/blob/main/features.md": {},
+      "https://html.spec.whatwg.org/multipage/": {},
+      "https://html.spec.whatwg.org/multipage/iframe-embed-object.html": {
+        "anchors": [
+          "the-iframe-element",
+          "allowed-to-use"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/interaction.html": {
+        "anchors": [
+          "user-activation-gated-apis",
+          "activation-expiry",
+          "transient-activation",
+          "consume-user-activation"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/web-messaging.html": {
+        "anchors": [
+          "posting-messages",
+          "window-post-message-steps"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/window-object.html": {
+        "anchors": [
+          "concept-document-window",
+          "dom-windowpostmessageoptions-targetorigin"
+        ]
+      },
+      "https://infra.spec.whatwg.org/": {},
+      "https://w3c.github.io/hr-time/": {
+        "anchors": [
+          "dfn-current-high-resolution-time"
+        ]
+      },
+      "https://w3c.github.io/mediacapture-screen-share/": {},
+      "https://w3c.github.io/payment-request/": {},
+      "https://w3c.github.io/webappsec-permissions-policy/": {
+        "anchors": [
+          "ascii-serialization",
+          "supported-features"
+        ]
+      },
+      "https://w3c.github.io/webcrypto/": {},
+      "https://webidl.spec.whatwg.org/": {},
+      "https://www.w3.org/community/about/agreements/cla/": {},
+      "https://www.w3.org/community/wicg/": {}
     },
-    "https://github.com/w3c/webappsec-permissions-policy/blob/main/features.md": {},
-    "https://html.spec.whatwg.org/multipage/": {},
-    "https://html.spec.whatwg.org/multipage/browsers.html": {
-      "anchors": [
-        "browsing-context"
-      ]
-    },
-    "https://html.spec.whatwg.org/multipage/iframe-embed-object.html": {
-      "anchors": [
-        "the-iframe-element",
-        "dom-iframe-allow",
-        "allowed-to-use"
-      ]
-    },
-    "https://html.spec.whatwg.org/multipage/interaction.html": {
-      "anchors": [
-        "user-activation-gated-apis",
-        "activation-expiry",
-        "transient-activation",
-        "consume-user-activation"
-      ]
-    },
-    "https://html.spec.whatwg.org/multipage/web-messaging.html": {
-      "anchors": [
-        "posting-messages",
-        "window-post-message-steps"
-      ]
-    },
-    "https://html.spec.whatwg.org/multipage/webappapis.html": {
-      "anchors": [
-        "concept-settings-object-global"
-      ]
-    },
-    "https://html.spec.whatwg.org/multipage/window-object.html": {
-      "anchors": [
-        "dom-open",
-        "windowpostmessageoptions",
-        "concept-document-window",
-        "dom-windowpostmessageoptions-targetorigin",
-        "window"
-      ]
-    },
-    "https://infra.spec.whatwg.org/": {
-      "anchors": [
-        "ordered-map"
-      ],
-      "specShortname": "infra"
-    },
-    "https://tools.ietf.org/html/rfc2119": {},
-    "https://w3c.github.io/hr-time/": {
-      "anchors": [
-        "dfn-current-high-resolution-time"
-      ],
-      "specShortname": "hr-time-3"
-    },
-    "https://w3c.github.io/webappsec-permissions-policy/": {
-      "anchors": [
-        "supported-features"
-      ],
-      "specShortname": "permissions-policy-1"
-    },
-    "https://www.w3.org/TR/hr-time-2/": {
-      "anchors": [
-        "dom-domhighrestimestamp"
-      ]
-    },
-    "https://www.w3.org/TR/payment-request/": {
-      "anchors": [
-        "dom-paymentrequest-show"
-      ],
-      "specShortname": "payment-request-1.1"
-    },
-    "https://www.w3.org/TR/permissions-policy/": {
-      "anchors": [
-        "ascii-serialization"
-      ],
-      "specShortname": "permissions-policy-1"
-    },
-    "https://www.w3.org/community/about/agreements/cla/": {},
-    "https://www.w3.org/community/wicg/": {}
+    "autolinks": {
+      "https://fullscreen.spec.whatwg.org/": {
+        "anchors": [
+          "dom-element-requestfullscreen"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/document-sequences.html": {
+        "anchors": [
+          "browsing-context"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/iframe-embed-object.html": {
+        "anchors": [
+          "dom-iframe-allow"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/interaction.html": {
+        "anchors": [
+          "transient-activation"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/nav-history-apis.html": {
+        "anchors": [
+          "dom-open",
+          "windowpostmessageoptions",
+          "window"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/webappapis.html": {
+        "anchors": [
+          "concept-settings-object-global",
+          "concept-relevant-global"
+        ]
+      },
+      "https://infra.spec.whatwg.org/": {
+        "anchors": [
+          "ordered-map"
+        ]
+      },
+      "https://w3c.github.io/hr-time/": {
+        "anchors": [
+          "dom-domhighrestimestamp"
+        ]
+      },
+      "https://w3c.github.io/mediacapture-screen-share/": {
+        "anchors": [
+          "dom-mediadevices-getdisplaymedia"
+        ]
+      },
+      "https://w3c.github.io/payment-request/": {
+        "anchors": [
+          "dom-paymentrequest-show"
+        ]
+      },
+      "https://webidl.spec.whatwg.org/": {
+        "anchors": [
+          "reject",
+          "dom-domexception-name",
+          "invalidstateerror"
+        ]
+      },
+      "https://www.w3.org/TR/WebCryptoAPI/": {
+        "anchors": [
+          "dfn-DOMException"
+        ]
+      }
+    }
   }
 }

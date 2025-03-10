@@ -65,6 +65,20 @@
       "number": "3"
     },
     {
+      "id": "canon-terms",
+      "href": "https://www.w3.org/TR/rdf-canon/#canon-terms",
+      "level": 3,
+      "title": "Terms defined by this specification",
+      "number": "3.1"
+    },
+    {
+      "id": "terms-reference",
+      "href": "https://www.w3.org/TR/rdf-canon/#terms-reference",
+      "level": 3,
+      "title": "Terms defined by cited specifications",
+      "number": "3.2"
+    },
+    {
       "id": "canonicalization",
       "href": "https://www.w3.org/TR/rdf-canon/#canonicalization",
       "level": 2,
@@ -79,263 +93,305 @@
       "number": "4.1"
     },
     {
-      "id": "canon-terms",
-      "href": "https://www.w3.org/TR/rdf-canon/#canon-terms",
-      "level": 3,
-      "title": "Canonicalization Algorithm Terms",
-      "number": "4.2"
-    },
-    {
       "id": "canon-state",
       "href": "https://www.w3.org/TR/rdf-canon/#canon-state",
       "level": 3,
       "title": "Canonicalization State",
-      "number": "4.3"
+      "number": "4.2"
     },
     {
       "id": "bn-issuer-state",
       "href": "https://www.w3.org/TR/rdf-canon/#bn-issuer-state",
       "level": 3,
       "title": "Blank Node Identifier Issuer State",
-      "number": "4.4"
+      "number": "4.3"
     },
     {
       "id": "canon-algorithm",
       "href": "https://www.w3.org/TR/rdf-canon/#canon-algorithm",
       "level": 3,
       "title": "Canonicalization Algorithm",
-      "number": "4.5"
+      "number": "4.4"
     },
     {
       "id": "canon-algo-overview",
       "href": "https://www.w3.org/TR/rdf-canon/#canon-algo-overview",
       "level": 4,
       "title": "Overview",
-      "number": "4.5.1"
+      "number": "4.4.1"
     },
     {
       "id": "canon-algo-examples",
       "href": "https://www.w3.org/TR/rdf-canon/#canon-algo-examples",
       "level": 4,
       "title": "Examples",
-      "number": "4.5.2"
+      "number": "4.4.2"
     },
     {
       "id": "canon-algo-algo",
       "href": "https://www.w3.org/TR/rdf-canon/#canon-algo-algo",
       "level": 4,
       "title": "Algorithm",
-      "number": "4.5.3"
+      "number": "4.4.3"
     },
     {
       "id": "issue-identifier",
       "href": "https://www.w3.org/TR/rdf-canon/#issue-identifier",
       "level": 3,
       "title": "Issue Identifier Algorithm",
-      "number": "4.6"
+      "number": "4.5"
     },
     {
       "id": "issue-identifier-overview",
       "href": "https://www.w3.org/TR/rdf-canon/#issue-identifier-overview",
       "level": 4,
       "title": "Overview",
-      "number": "4.6.1"
+      "number": "4.5.1"
     },
     {
       "id": "issue-identifier-algorithm",
       "href": "https://www.w3.org/TR/rdf-canon/#issue-identifier-algorithm",
       "level": 4,
       "title": "Algorithm",
-      "number": "4.6.2"
+      "number": "4.5.2"
     },
     {
       "id": "hash-1d-quads",
       "href": "https://www.w3.org/TR/rdf-canon/#hash-1d-quads",
       "level": 3,
       "title": "Hash First Degree Quads",
-      "number": "4.7"
+      "number": "4.6"
     },
     {
       "id": "hash-1d-quads-overview",
       "href": "https://www.w3.org/TR/rdf-canon/#hash-1d-quads-overview",
       "level": 4,
       "title": "Overview",
-      "number": "4.7.1"
+      "number": "4.6.1"
     },
     {
       "id": "hash-1d-quads-examples",
       "href": "https://www.w3.org/TR/rdf-canon/#hash-1d-quads-examples",
       "level": 4,
       "title": "Examples",
-      "number": "4.7.2"
+      "number": "4.6.2"
     },
     {
       "id": "hash-1d-quads-algorithm",
       "href": "https://www.w3.org/TR/rdf-canon/#hash-1d-quads-algorithm",
       "level": 4,
       "title": "Algorithm",
-      "number": "4.7.3"
+      "number": "4.6.3"
     },
     {
       "id": "hash-related-blank-node",
       "href": "https://www.w3.org/TR/rdf-canon/#hash-related-blank-node",
       "level": 3,
       "title": "Hash Related Blank Node",
-      "number": "4.8"
+      "number": "4.7"
     },
     {
       "id": "hash-related-bn-overview",
       "href": "https://www.w3.org/TR/rdf-canon/#hash-related-bn-overview",
       "level": 4,
       "title": "Overview",
-      "number": "4.8.1"
+      "number": "4.7.1"
     },
     {
       "id": "hash-related-bn-examples",
       "href": "https://www.w3.org/TR/rdf-canon/#hash-related-bn-examples",
       "level": 4,
       "title": "Examples",
-      "number": "4.8.2"
+      "number": "4.7.2"
     },
     {
       "id": "hash-related-algorithm",
       "href": "https://www.w3.org/TR/rdf-canon/#hash-related-algorithm",
       "level": 4,
       "title": "Algorithm",
-      "number": "4.8.3"
+      "number": "4.7.3"
     },
     {
       "id": "hash-nd-quads",
       "href": "https://www.w3.org/TR/rdf-canon/#hash-nd-quads",
       "level": 3,
       "title": "Hash N-Degree Quads",
-      "number": "4.9"
+      "number": "4.8"
     },
     {
       "id": "hash-nd-quads-overview",
       "href": "https://www.w3.org/TR/rdf-canon/#hash-nd-quads-overview",
       "level": 4,
       "title": "Overview",
-      "number": "4.9.1"
+      "number": "4.8.1"
     },
     {
       "id": "hash-nd-quads-examples",
       "href": "https://www.w3.org/TR/rdf-canon/#hash-nd-quads-examples",
       "level": 4,
       "title": "Examples",
-      "number": "4.9.2"
+      "number": "4.8.2"
     },
     {
       "id": "hash-nd-quads-algorithm",
       "href": "https://www.w3.org/TR/rdf-canon/#hash-nd-quads-algorithm",
       "level": 4,
       "title": "Algorithm",
-      "number": "4.9.3"
+      "number": "4.8.3"
+    },
+    {
+      "id": "serialization",
+      "href": "https://www.w3.org/TR/rdf-canon/#serialization",
+      "level": 2,
+      "title": "Serialization",
+      "number": "5"
     },
     {
       "id": "privacy-considerations",
       "href": "https://www.w3.org/TR/rdf-canon/#privacy-considerations",
       "level": 2,
       "title": "Privacy Considerations",
-      "number": "5"
+      "number": "6"
     },
     {
       "id": "security-considerations",
       "href": "https://www.w3.org/TR/rdf-canon/#security-considerations",
       "level": 2,
       "title": "Security Considerations",
-      "number": "6"
+      "number": "7"
+    },
+    {
+      "id": "dataset-poisoning",
+      "href": "https://www.w3.org/TR/rdf-canon/#dataset-poisoning",
+      "level": 3,
+      "title": "Dataset Poisoning",
+      "number": "7.1"
+    },
+    {
+      "id": "insecure-hash-algorithms",
+      "href": "https://www.w3.org/TR/rdf-canon/#insecure-hash-algorithms",
+      "level": 3,
+      "title": "Insecure Hash Algorithms",
+      "number": "7.2"
     },
     {
       "id": "use-cases",
       "href": "https://www.w3.org/TR/rdf-canon/#use-cases",
       "level": 2,
       "title": "Use Cases",
-      "number": "7"
+      "number": "8"
     },
     {
       "id": "examples",
       "href": "https://www.w3.org/TR/rdf-canon/#examples",
       "level": 2,
       "title": "Examples",
-      "number": "8"
+      "number": "9"
     },
     {
       "id": "duplicate-paths-ex",
       "href": "https://www.w3.org/TR/rdf-canon/#duplicate-paths-ex",
       "level": 3,
       "title": "Duplicate Paths",
-      "number": "8.1"
+      "number": "9.1"
     },
     {
       "id": "double-circle-ex",
       "href": "https://www.w3.org/TR/rdf-canon/#double-circle-ex",
       "level": 3,
       "title": "Double Circle",
-      "number": "8.2"
+      "number": "9.2"
     },
     {
-      "id": "urgna2021",
-      "href": "https://www.w3.org/TR/rdf-canon/#urgna2021",
+      "id": "dataset-bn-graph-ex",
+      "href": "https://www.w3.org/TR/rdf-canon/#dataset-bn-graph-ex",
+      "level": 3,
+      "title": "Dataset with Blank Node Named Graph",
+      "number": "9.3"
+    },
+    {
+      "id": "canonical-quads",
+      "href": "https://www.w3.org/TR/rdf-canon/#canonical-quads",
+      "level": 2,
+      "title": "A Canonical form of N-Quads",
+      "number": "A"
+    },
+    {
+      "id": "urdna2015",
+      "href": "https://www.w3.org/TR/rdf-canon/#urdna2015",
+      "level": 2,
+      "title": "URDNA2015",
+      "number": "B"
+    },
+    {
+      "id": "urgna2012",
+      "href": "https://www.w3.org/TR/rdf-canon/#urgna2012",
       "level": 2,
       "title": "URGNA2012",
-      "number": "A"
+      "number": "C"
     },
     {
       "id": "index",
       "href": "https://www.w3.org/TR/rdf-canon/#index",
       "level": 2,
       "title": "Index",
-      "number": "B"
+      "number": "D"
     },
     {
       "id": "index-defined-here",
       "href": "https://www.w3.org/TR/rdf-canon/#index-defined-here",
       "level": 3,
       "title": "Terms defined by this specification",
-      "number": "B.1"
+      "number": "D.1"
     },
     {
       "id": "index-defined-elsewhere",
       "href": "https://www.w3.org/TR/rdf-canon/#index-defined-elsewhere",
       "level": 3,
       "title": "Terms defined by reference",
-      "number": "B.2"
+      "number": "D.2"
     },
     {
       "id": "changes-from-fpwd",
       "href": "https://www.w3.org/TR/rdf-canon/#changes-from-fpwd",
       "level": 2,
       "title": "Changes since the First Public Working Draft of 24 November 2022",
-      "number": "C"
+      "number": "E"
+    },
+    {
+      "id": "changes-from-cr",
+      "href": "https://www.w3.org/TR/rdf-canon/#changes-from-cr",
+      "level": 2,
+      "title": "Changes since the Candidate Recommentation Snapshot of 31 October 2023",
+      "number": "F"
     },
     {
       "id": "ack",
       "href": "https://www.w3.org/TR/rdf-canon/#ack",
       "level": 2,
       "title": "Acknowledgements",
-      "number": "D"
+      "number": "G"
     },
     {
       "id": "references",
       "href": "https://www.w3.org/TR/rdf-canon/#references",
       "level": 2,
       "title": "References",
-      "number": "E"
+      "number": "H"
     },
     {
       "id": "normative-references",
       "href": "https://www.w3.org/TR/rdf-canon/#normative-references",
       "level": 3,
       "title": "Normative references",
-      "number": "E.1"
+      "number": "H.1"
     },
     {
       "id": "informative-references",
       "href": "https://www.w3.org/TR/rdf-canon/#informative-references",
       "level": 3,
       "title": "Informative references",
-      "number": "E.2"
+      "number": "H.2"
     }
   ]
 }

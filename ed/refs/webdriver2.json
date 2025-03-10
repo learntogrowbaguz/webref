@@ -86,7 +86,7 @@
         "url": "https://html.spec.whatwg.org/multipage/"
       },
       {
-        "name": "infra",
+        "name": "INFRA",
         "url": "https://infra.spec.whatwg.org/"
       },
       {
@@ -108,10 +108,6 @@
       {
         "name": "RFC1928",
         "url": "https://www.rfc-editor.org/rfc/rfc1928"
-      },
-      {
-        "name": "RFC1929",
-        "url": "https://www.rfc-editor.org/rfc/rfc1929"
       },
       {
         "name": "RFC2397",
@@ -163,19 +159,15 @@
       },
       {
         "name": "UAX29",
-        "url": "https://www.unicode.org/reports/tr29/tr29-41.html"
+        "url": "https://www.unicode.org/reports/tr29/tr29-45.html"
       },
       {
         "name": "UAX44",
-        "url": "https://www.unicode.org/reports/tr44/tr44-30.html"
+        "url": "https://www.unicode.org/reports/tr44/tr44-34.html"
       },
       {
         "name": "UI-EVENTS",
         "url": "https://www.w3.org/TR/uievents/"
-      },
-      {
-        "name": "UIEVENTS-CODE",
-        "url": "https://www.w3.org/TR/uievents-code/"
       },
       {
         "name": "UIEVENTS-KEY",
@@ -198,12 +190,12 @@
         "url": "https://www.w3.org/TR/wai-aria-1.2/"
       },
       {
-        "name": "WEBIDL",
-        "url": "https://webidl.spec.whatwg.org/"
+        "name": "WebDriver-BiDi",
+        "url": "https://www.w3.org/TR/webdriver-bidi/"
       },
       {
-        "name": "XML-NAMES",
-        "url": "https://www.w3.org/TR/xml-names/"
+        "name": "WEBIDL",
+        "url": "https://webidl.spec.whatwg.org/"
       },
       {
         "name": "XPATH",

@@ -1,0 +1,123 @@
+{
+  "spec": {
+    "title": "SPARQL 1.2 Query Language",
+    "url": "https://w3c.github.io/sparql-query/spec/"
+  },
+  "dfns": [
+    {
+      "id": "dfn-string-literal",
+      "href": "https://w3c.github.io/sparql-query/spec/#dfn-string-literal",
+      "linkingText": [
+        "string literal"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "func-string",
+        "href": "https://w3c.github.io/sparql-query/spec/#func-string",
+        "title": "Functions on Strings",
+        "number": "17.4.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-argument-compatible",
+      "href": "https://w3c.github.io/sparql-query/spec/#dfn-argument-compatible",
+      "linkingText": [
+        "argument compatible"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "func-string",
+        "href": "https://w3c.github.io/sparql-query/spec/#func-string",
+        "title": "Functions on Strings",
+        "number": "17.4.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-sparqlquery",
+      "href": "https://w3c.github.io/sparql-query/spec/#dfn-sparqlquery",
+      "linkingText": [
+        "SPARQLQuery",
+        "SPARQL Query"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "idp2427544",
+        "href": "https://w3c.github.io/sparql-query/spec/#idp2427544",
+        "title": "SPARQL Query",
+        "number": "18.1.8"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-sparql-string",
+      "href": "https://w3c.github.io/sparql-query/spec/#dfn-sparql-string",
+      "linkingText": [
+        "SPARQL string"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "queryString",
+        "href": "https://w3c.github.io/sparql-query/spec/#queryString",
+        "title": "SPARQL String",
+        "number": "19.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-sparql-query-string",
+      "href": "https://w3c.github.io/sparql-query/spec/#dfn-sparql-query-string",
+      "linkingText": [
+        "SPARQL query string"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "queryString",
+        "href": "https://w3c.github.io/sparql-query/spec/#queryString",
+        "title": "SPARQL String",
+        "number": "19.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-sparql-update-string",
+      "href": "https://w3c.github.io/sparql-query/spec/#dfn-sparql-update-string",
+      "linkingText": [
+        "SPARQL update string"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "queryString",
+        "href": "https://w3c.github.io/sparql-query/spec/#queryString",
+        "title": "SPARQL String",
+        "number": "19.1"
+      },
+      "definedIn": "prose"
+    }
+  ]
+}

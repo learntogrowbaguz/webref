@@ -15,11 +15,15 @@
       },
       {
         "name": "CSS-DISPLAY-4",
-        "url": "https://drafts.csswg.org/css-display-4/"
+        "url": "https://drafts.csswg.org/css-display/"
       },
       {
         "name": "CSS-FLEXBOX-1",
         "url": "https://drafts.csswg.org/css-flexbox-1/"
+      },
+      {
+        "name": "CSS-FONTS-4",
+        "url": "https://drafts.csswg.org/css-fonts-4/"
       },
       {
         "name": "CSS-GRID-1",
@@ -42,6 +46,10 @@
         "url": "https://drafts.csswg.org/css-multicol/"
       },
       {
+        "name": "CSS-MULTICOL-2",
+        "url": "https://drafts.csswg.org/css-multicol-2/"
+      },
+      {
         "name": "CSS-OVERFLOW-3",
         "url": "https://drafts.csswg.org/css-overflow-3/"
       },
@@ -50,16 +58,16 @@
         "url": "https://drafts.csswg.org/css-position-3/"
       },
       {
+        "name": "CSS-SCROLL-SNAP-2",
+        "url": "https://drafts.csswg.org/css-scroll-snap-2/"
+      },
+      {
         "name": "CSS-SIZING-3",
         "url": "https://drafts.csswg.org/css-sizing-3/"
       },
       {
         "name": "CSS-SIZING-4",
         "url": "https://drafts.csswg.org/css-sizing-4/"
-      },
-      {
-        "name": "CSS-TABLES-3",
-        "url": "https://drafts.csswg.org/css-tables-3/"
       },
       {
         "name": "CSS-TEXT-3",
@@ -86,16 +94,16 @@
         "url": "https://drafts.csswg.org/css2/"
       },
       {
-        "name": "CSS22",
-        "url": "https://drafts.csswg.org/css2/"
-      },
-      {
         "name": "RFC2119",
         "url": "https://datatracker.ietf.org/doc/html/rfc2119"
       },
       {
         "name": "SELECTORS-3",
         "url": "https://drafts.csswg.org/selectors-3/"
+      },
+      {
+        "name": "SOURCEMAP",
+        "url": "https://tc39.es/source-map/"
       }
     ],
     "informative": [

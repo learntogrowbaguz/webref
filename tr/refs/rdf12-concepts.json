@@ -1,0 +1,272 @@
+{
+  "spec": {
+    "title": "RDF 1.2 Concepts and Abstract Syntax",
+    "url": "https://www.w3.org/TR/rdf12-concepts/"
+  },
+  "refs": {
+    "normative": [
+      {
+        "name": "BCP47",
+        "url": "https://www.rfc-editor.org/rfc/rfc5646"
+      },
+      {
+        "name": "DOM",
+        "url": "https://dom.spec.whatwg.org/"
+      },
+      {
+        "name": "HTML5",
+        "url": "https://www.w3.org/TR/html5/"
+      },
+      {
+        "name": "I18N-GLOSSARY",
+        "url": "https://www.w3.org/TR/i18n-glossary/"
+      },
+      {
+        "name": "INFRA",
+        "url": "https://infra.spec.whatwg.org/"
+      },
+      {
+        "name": "RDF11-TESTCASES",
+        "url": "https://www.w3.org/TR/rdf11-testcases/"
+      },
+      {
+        "name": "RDF12-N-QUADS",
+        "url": "https://www.w3.org/TR/rdf12-n-quads/"
+      },
+      {
+        "name": "RDF12-N-TRIPLES",
+        "url": "https://www.w3.org/TR/rdf12-n-triples/"
+      },
+      {
+        "name": "RDF12-TRIG",
+        "url": "https://www.w3.org/TR/rdf12-trig/"
+      },
+      {
+        "name": "RDF12-TURTLE",
+        "url": "https://www.w3.org/TR/rdf12-turtle/"
+      },
+      {
+        "name": "RFC2119",
+        "url": "https://www.rfc-editor.org/rfc/rfc2119"
+      },
+      {
+        "name": "RFC3629",
+        "url": "https://www.rfc-editor.org/rfc/rfc3629"
+      },
+      {
+        "name": "RFC3986",
+        "url": "https://www.rfc-editor.org/rfc/rfc3986"
+      },
+      {
+        "name": "RFC3987",
+        "url": "https://www.rfc-editor.org/rfc/rfc3987"
+      },
+      {
+        "name": "RFC7493",
+        "url": "https://www.rfc-editor.org/rfc/rfc7493"
+      },
+      {
+        "name": "RFC8174",
+        "url": "https://www.rfc-editor.org/rfc/rfc8174"
+      },
+      {
+        "name": "RFC8259",
+        "url": "https://www.rfc-editor.org/rfc/rfc8259"
+      },
+      {
+        "name": "RFC8615",
+        "url": "https://www.rfc-editor.org/rfc/rfc8615"
+      },
+      {
+        "name": "Unicode",
+        "url": "https://www.unicode.org/versions/latest/"
+      },
+      {
+        "name": "XML-NAMES",
+        "url": "https://www.w3.org/TR/xml-names/"
+      },
+      {
+        "name": "XML11",
+        "url": "https://www.w3.org/TR/xml11/"
+      },
+      {
+        "name": "XMLSCHEMA11-2",
+        "url": "https://www.w3.org/TR/xmlschema11-2/"
+      }
+    ],
+    "informative": [
+      {
+        "name": "ABNF",
+        "url": "https://www.rfc-editor.org/rfc/rfc5234"
+      },
+      {
+        "name": "COOLURIS",
+        "url": "https://www.w3.org/TR/cooluris/"
+      },
+      {
+        "name": "did-core",
+        "url": "https://www.w3.org/TR/did-core/"
+      },
+      {
+        "name": "HTML",
+        "url": "https://html.spec.whatwg.org/multipage/"
+      },
+      {
+        "name": "HTML-RDFA",
+        "url": "https://www.w3.org/TR/html-rdfa/"
+      },
+      {
+        "name": "JSON-LD11",
+        "url": "https://www.w3.org/TR/json-ld11/"
+      },
+      {
+        "name": "LINKED-DATA",
+        "url": "https://www.w3.org/DesignIssues/LinkedData.html"
+      },
+      {
+        "name": "OWL2-OVERVIEW",
+        "url": "https://www.w3.org/TR/owl2-overview/"
+      },
+      {
+        "name": "OWL2-SYNTAX",
+        "url": "https://www.w3.org/TR/owl2-syntax/"
+      },
+      {
+        "name": "RDF-CONCEPTS-20040210",
+        "url": "https://www.w3.org/TR/2004/REC-rdf-concepts-20040210/"
+      },
+      {
+        "name": "RDF11-CONCEPTS",
+        "url": "https://www.w3.org/TR/rdf11-concepts/"
+      },
+      {
+        "name": "RDF11-DATASETS",
+        "url": "https://www.w3.org/TR/rdf11-datasets/"
+      },
+      {
+        "name": "RDF12-NEW",
+        "url": "https://w3c.github.io/rdf-new/spec/"
+      },
+      {
+        "name": "RDF12-PRIMER",
+        "url": "https://w3c.github.io/rdf-primer/spec/"
+      },
+      {
+        "name": "RDF12-SCHEMA",
+        "url": "https://www.w3.org/TR/rdf12-schema/"
+      },
+      {
+        "name": "RDF12-SEMANTICS",
+        "url": "https://www.w3.org/TR/rdf12-semantics/"
+      },
+      {
+        "name": "RDF12-XML",
+        "url": "https://www.w3.org/TR/rdf12-xml/"
+      },
+      {
+        "name": "RDFA-CORE",
+        "url": "https://www.w3.org/TR/rdfa-core/"
+      },
+      {
+        "name": "RFC3023",
+        "url": "https://www.rfc-editor.org/rfc/rfc3023"
+      },
+      {
+        "name": "RFC5890",
+        "url": "https://www.rfc-editor.org/rfc/rfc5890"
+      },
+      {
+        "name": "RFC5892",
+        "url": "https://www.rfc-editor.org/rfc/rfc5892"
+      },
+      {
+        "name": "RFC6874",
+        "url": "https://www.rfc-editor.org/rfc/rfc6874"
+      },
+      {
+        "name": "RFC7230",
+        "url": "https://httpwg.org/specs/rfc7230.html"
+      },
+      {
+        "name": "SPARQL11-QUERY",
+        "url": "https://www.w3.org/TR/sparql11-query/"
+      },
+      {
+        "name": "SPARQL12-CONCEPTS",
+        "url": "https://w3c.github.io/sparql-concepts/spec/"
+      },
+      {
+        "name": "SPARQL12-ENTAILMENT",
+        "url": "https://www.w3.org/TR/sparql12-entailment/"
+      },
+      {
+        "name": "SPARQL12-FEDERATED-QUERY",
+        "url": "https://www.w3.org/TR/sparql12-federated-query/"
+      },
+      {
+        "name": "SPARQL12-GRAPH-STORE-PROTOCOL",
+        "url": "https://www.w3.org/TR/sparql12-graph-store-protocol/"
+      },
+      {
+        "name": "SPARQL12-NEW",
+        "url": "https://w3c.github.io/sparql-new/spec/"
+      },
+      {
+        "name": "SPARQL12-PROTOCOL",
+        "url": "https://www.w3.org/TR/sparql12-protocol/"
+      },
+      {
+        "name": "SPARQL12-QUERY",
+        "url": "https://www.w3.org/TR/sparql12-query/"
+      },
+      {
+        "name": "SPARQL12-RESULTS-CSV-TSV",
+        "url": "https://www.w3.org/TR/sparql12-results-csv-tsv/"
+      },
+      {
+        "name": "SPARQL12-RESULTS-JSON",
+        "url": "https://www.w3.org/TR/sparql12-results-json/"
+      },
+      {
+        "name": "SPARQL12-RESULTS-XML",
+        "url": "https://www.w3.org/TR/sparql12-results-xml/"
+      },
+      {
+        "name": "SPARQL12-SERVICE-DESCRIPTION",
+        "url": "https://www.w3.org/TR/sparql12-service-description/"
+      },
+      {
+        "name": "SPARQL12-UPDATE",
+        "url": "https://www.w3.org/TR/sparql12-update/"
+      },
+      {
+        "name": "STRING-META",
+        "url": "https://www.w3.org/TR/string-meta/"
+      },
+      {
+        "name": "SWBP-N-ARYRELATIONS",
+        "url": "https://www.w3.org/TR/swbp-n-aryRelations/"
+      },
+      {
+        "name": "SWBP-XSCH-DATATYPES",
+        "url": "https://www.w3.org/TR/swbp-xsch-datatypes/"
+      },
+      {
+        "name": "UNICODE-SECURITY",
+        "url": "https://www.unicode.org/reports/tr36/tr36-15.html"
+      },
+      {
+        "name": "URL",
+        "url": "https://url.spec.whatwg.org/"
+      },
+      {
+        "name": "VOCAB-ORG",
+        "url": "https://www.w3.org/TR/vocab-org/"
+      },
+      {
+        "name": "WEBARCH",
+        "url": "https://www.w3.org/TR/webarch/"
+      }
+    ]
+  }
+}

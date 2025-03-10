@@ -7,29 +7,34 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
+    # Starting with Ubuntu 23+, a security feature prevents running Puppeteer
+    # by default. It needs to be disabled. Using the "easiest" option, see:
+    # https://chromium.googlesource.com/chromium/src/+/main/docs/security/apparmor-userns-restrictions.md
+    # https://github.com/puppeteer/puppeteer/pull/13196/files
+    - name: Disable AppArmor
+      run: echo 0 | sudo tee /proc/sys/kernel/apparmor_restrict_unprivileged_userns
+
+    - name: Checkout repo
+      uses: actions/checkout@v4
+
     - name: Setup node.js
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v4
       with:
-        node-version: 14
+        node-version: 20
+        cache: 'npm'
 
-    - name: Install reffy
-      run: npm install reffy
-
-    # Use a separate checkout to reduce the chances
-    # that, by the time the crawl has ended, the underlying webref checkout
-    # that gets updated be no longer in sync with origin
-    - name: Checkout webref-fallback
-      uses: actions/checkout@v2
-      with:
-        path: webref-fallback
+    - name: Install dependencies
+      run: npm ci
 
     - name: Run Reffy's crawler
       run: |
         mkdir report
-        node_modules/.bin/reffy --release --post csscomplete --post annotatelinks --post patchdfns --output report --fallback webref-fallback/tr/index.json
+        node_modules/.bin/reffy --release --post csscomplete --post annotatelinks --post patchdfns --output report --fallback tr/index.json
 
+    # Update another Webref checkout to reduce the chances that the version we
+    # checked out is no longer in sync with origin by the time the crawl is over
     - name: Checkout webref
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       with:
         path: webref
 

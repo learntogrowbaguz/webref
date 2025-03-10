@@ -1,9 +1,280 @@
 {
   "spec": {
-    "title": "CSS Backgrounds and Borders Module Level 4",
+    "title": "CSS Backgrounds Module Level 4",
     "url": "https://drafts.csswg.org/css-backgrounds-4/"
   },
   "dfns": [
+    {
+      "id": "propdef-background-repeat-x",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#propdef-background-repeat-x",
+      "linkingText": [
+        "background-repeat-x"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "background-repeat-longhands",
+        "href": "https://drafts.csswg.org/css-backgrounds-4/#background-repeat-longhands",
+        "title": "Tiling Images: the background-repeat-x, background-repeat-y, background-repeat-block, and background-repeat-inline properties",
+        "number": "2.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "propdef-background-repeat-y",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#propdef-background-repeat-y",
+      "linkingText": [
+        "background-repeat-y"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "background-repeat-longhands",
+        "href": "https://drafts.csswg.org/css-backgrounds-4/#background-repeat-longhands",
+        "title": "Tiling Images: the background-repeat-x, background-repeat-y, background-repeat-block, and background-repeat-inline properties",
+        "number": "2.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "propdef-background-repeat-block",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#propdef-background-repeat-block",
+      "linkingText": [
+        "background-repeat-block"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "background-repeat-longhands",
+        "href": "https://drafts.csswg.org/css-backgrounds-4/#background-repeat-longhands",
+        "title": "Tiling Images: the background-repeat-x, background-repeat-y, background-repeat-block, and background-repeat-inline properties",
+        "number": "2.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "propdef-background-repeat-inline",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#propdef-background-repeat-inline",
+      "linkingText": [
+        "background-repeat-inline"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "background-repeat-longhands",
+        "href": "https://drafts.csswg.org/css-backgrounds-4/#background-repeat-longhands",
+        "title": "Tiling Images: the background-repeat-x, background-repeat-y, background-repeat-block, and background-repeat-inline properties",
+        "number": "2.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "typedef-repetition",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#typedef-repetition",
+      "linkingText": [
+        "<repetition>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "background-repeat-longhands",
+        "href": "https://drafts.csswg.org/css-backgrounds-4/#background-repeat-longhands",
+        "title": "Tiling Images: the background-repeat-x, background-repeat-y, background-repeat-block, and background-repeat-inline properties",
+        "number": "2.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "valdef-background-repeat-x-repeat",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#valdef-background-repeat-x-repeat",
+      "linkingText": [
+        "repeat"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "background-repeat-x",
+        "background-repeat-y",
+        "background-repeat-block",
+        "background-repeat-inline"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "background-repeat-longhands",
+        "href": "https://drafts.csswg.org/css-backgrounds-4/#background-repeat-longhands",
+        "title": "Tiling Images: the background-repeat-x, background-repeat-y, background-repeat-block, and background-repeat-inline properties",
+        "number": "2.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-background-repeat-x-space",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#valdef-background-repeat-x-space",
+      "linkingText": [
+        "space"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "background-repeat-x",
+        "background-repeat-y",
+        "background-repeat-block",
+        "background-repeat-inline"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "background-repeat-longhands",
+        "href": "https://drafts.csswg.org/css-backgrounds-4/#background-repeat-longhands",
+        "title": "Tiling Images: the background-repeat-x, background-repeat-y, background-repeat-block, and background-repeat-inline properties",
+        "number": "2.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-background-repeat-x-round",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#valdef-background-repeat-x-round",
+      "linkingText": [
+        "round"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "background-repeat-x",
+        "background-repeat-y",
+        "background-repeat-block",
+        "background-repeat-inline"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "background-repeat-longhands",
+        "href": "https://drafts.csswg.org/css-backgrounds-4/#background-repeat-longhands",
+        "title": "Tiling Images: the background-repeat-x, background-repeat-y, background-repeat-block, and background-repeat-inline properties",
+        "number": "2.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-background-repeat-x-no-repeat",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#valdef-background-repeat-x-no-repeat",
+      "linkingText": [
+        "no-repeat"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "background-repeat-x",
+        "background-repeat-y",
+        "background-repeat-block",
+        "background-repeat-inline"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "background-repeat-longhands",
+        "href": "https://drafts.csswg.org/css-backgrounds-4/#background-repeat-longhands",
+        "title": "Tiling Images: the background-repeat-x, background-repeat-y, background-repeat-block, and background-repeat-inline properties",
+        "number": "2.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "propdef-background-repeat",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#propdef-background-repeat",
+      "linkingText": [
+        "background-repeat"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "background-repeat",
+        "href": "https://drafts.csswg.org/css-backgrounds-4/#background-repeat",
+        "title": "Tiling Images Shorthand: the background-repeat property",
+        "number": "2.2"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "typedef-repeat-style",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#typedef-repeat-style",
+      "linkingText": [
+        "<repeat-style>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "background-repeat",
+        "href": "https://drafts.csswg.org/css-backgrounds-4/#background-repeat",
+        "title": "Tiling Images Shorthand: the background-repeat property",
+        "number": "2.2"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "valdef-background-repeat-repeat-x",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#valdef-background-repeat-repeat-x",
+      "linkingText": [
+        "repeat-x"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "background-repeat"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "background-repeat",
+        "href": "https://drafts.csswg.org/css-backgrounds-4/#background-repeat",
+        "title": "Tiling Images Shorthand: the background-repeat property",
+        "number": "2.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-background-repeat-repeat-y",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#valdef-background-repeat-repeat-y",
+      "linkingText": [
+        "repeat-y"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "background-repeat"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "background-repeat",
+        "href": "https://drafts.csswg.org/css-backgrounds-4/#background-repeat",
+        "title": "Tiling Images Shorthand: the background-repeat property",
+        "number": "2.2"
+      },
+      "definedIn": "dt"
+    },
     {
       "id": "propdef-background-position",
       "href": "https://drafts.csswg.org/css-backgrounds-4/#propdef-background-position",
@@ -19,15 +290,15 @@
         "id": "the-background-position",
         "href": "https://drafts.csswg.org/css-backgrounds-4/#the-background-position",
         "title": "Background Positioning: the background-position shorthand property",
-        "number": "2.1"
+        "number": "2.3"
       },
       "definedIn": "table"
     },
     {
-      "id": "typedef-position",
-      "href": "https://drafts.csswg.org/css-backgrounds-4/#typedef-position",
+      "id": "typedef-bg-position",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#typedef-bg-position",
       "linkingText": [
-        "<position>"
+        "<bg-position>"
       ],
       "localLinkingText": [],
       "type": "type",
@@ -38,7 +309,26 @@
         "id": "the-background-position",
         "href": "https://drafts.csswg.org/css-backgrounds-4/#the-background-position",
         "title": "Background Positioning: the background-position shorthand property",
-        "number": "2.1"
+        "number": "2.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "typedef-position-three",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#typedef-position-three",
+      "linkingText": [
+        "<position-three>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-background-position",
+        "href": "https://drafts.csswg.org/css-backgrounds-4/#the-background-position",
+        "title": "Background Positioning: the background-position shorthand property",
+        "number": "2.3"
       },
       "definedIn": "pre"
     },
@@ -57,7 +347,7 @@
         "id": "background-position-longhands",
         "href": "https://drafts.csswg.org/css-backgrounds-4/#background-position-longhands",
         "title": "Background Positioning Longhands: the background-position-x, background-position-y, background-position-inline, and background-position-block properties",
-        "number": "2.1.1"
+        "number": "2.3.1"
       },
       "definedIn": "table"
     },
@@ -76,7 +366,7 @@
         "id": "background-position-longhands",
         "href": "https://drafts.csswg.org/css-backgrounds-4/#background-position-longhands",
         "title": "Background Positioning Longhands: the background-position-x, background-position-y, background-position-inline, and background-position-block properties",
-        "number": "2.1.1"
+        "number": "2.3.1"
       },
       "definedIn": "table"
     },
@@ -95,7 +385,7 @@
         "id": "background-position-longhands",
         "href": "https://drafts.csswg.org/css-backgrounds-4/#background-position-longhands",
         "title": "Background Positioning Longhands: the background-position-x, background-position-y, background-position-inline, and background-position-block properties",
-        "number": "2.1.1"
+        "number": "2.3.1"
       },
       "definedIn": "table"
     },
@@ -114,7 +404,7 @@
         "id": "background-position-longhands",
         "href": "https://drafts.csswg.org/css-backgrounds-4/#background-position-longhands",
         "title": "Background Positioning Longhands: the background-position-x, background-position-y, background-position-inline, and background-position-block properties",
-        "number": "2.1.1"
+        "number": "2.3.1"
       },
       "definedIn": "table"
     },
@@ -133,7 +423,7 @@
         "id": "background-clip",
         "href": "https://drafts.csswg.org/css-backgrounds-4/#background-clip",
         "title": "Painting Area: the background-clip property",
-        "number": "2.2"
+        "number": "2.4"
       },
       "definedIn": "table"
     },
@@ -152,7 +442,7 @@
         "id": "background-clip",
         "href": "https://drafts.csswg.org/css-backgrounds-4/#background-clip",
         "title": "Painting Area: the background-clip property",
-        "number": "2.2"
+        "number": "2.4"
       },
       "definedIn": "prose"
     },
@@ -171,7 +461,7 @@
         "id": "background-clip",
         "href": "https://drafts.csswg.org/css-backgrounds-4/#background-clip",
         "title": "Painting Area: the background-clip property",
-        "number": "2.2"
+        "number": "2.4"
       },
       "definedIn": "pre"
     },
@@ -193,15 +483,15 @@
         "id": "background-clip",
         "href": "https://drafts.csswg.org/css-backgrounds-4/#background-clip",
         "title": "Painting Area: the background-clip property",
-        "number": "2.2"
+        "number": "2.4"
       },
       "definedIn": "dt"
     },
     {
-      "id": "valdef-background-clip-border",
-      "href": "https://drafts.csswg.org/css-backgrounds-4/#valdef-background-clip-border",
+      "id": "valdef-background-clip-border-area",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#valdef-background-clip-border-area",
       "linkingText": [
-        "border"
+        "border-area"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -215,15 +505,15 @@
         "id": "background-clip",
         "href": "https://drafts.csswg.org/css-backgrounds-4/#background-clip",
         "title": "Painting Area: the background-clip property",
-        "number": "2.2"
+        "number": "2.4"
       },
       "definedIn": "dt"
     },
     {
-      "id": "propdef-border-top-color",
-      "href": "https://drafts.csswg.org/css-backgrounds-4/#propdef-border-top-color",
+      "id": "propdef-background-tbd",
+      "href": "https://drafts.csswg.org/css-backgrounds-4/#propdef-background-tbd",
       "linkingText": [
-        "border-top-color"
+        "background-tbd"
       ],
       "localLinkingText": [],
       "type": "property",
@@ -231,425 +521,10 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "the-border-color",
-        "href": "https://drafts.csswg.org/css-backgrounds-4/#the-border-color",
-        "title": "Line Colors: the border-color properties",
-        "number": "3.1"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "propdef-border-right-color",
-      "href": "https://drafts.csswg.org/css-backgrounds-4/#propdef-border-right-color",
-      "linkingText": [
-        "border-right-color"
-      ],
-      "localLinkingText": [],
-      "type": "property",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "the-border-color",
-        "href": "https://drafts.csswg.org/css-backgrounds-4/#the-border-color",
-        "title": "Line Colors: the border-color properties",
-        "number": "3.1"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "propdef-border-bottom-color",
-      "href": "https://drafts.csswg.org/css-backgrounds-4/#propdef-border-bottom-color",
-      "linkingText": [
-        "border-bottom-color"
-      ],
-      "localLinkingText": [],
-      "type": "property",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "the-border-color",
-        "href": "https://drafts.csswg.org/css-backgrounds-4/#the-border-color",
-        "title": "Line Colors: the border-color properties",
-        "number": "3.1"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "propdef-border-left-color",
-      "href": "https://drafts.csswg.org/css-backgrounds-4/#propdef-border-left-color",
-      "linkingText": [
-        "border-left-color"
-      ],
-      "localLinkingText": [],
-      "type": "property",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "the-border-color",
-        "href": "https://drafts.csswg.org/css-backgrounds-4/#the-border-color",
-        "title": "Line Colors: the border-color properties",
-        "number": "3.1"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "propdef-border-color",
-      "href": "https://drafts.csswg.org/css-backgrounds-4/#propdef-border-color",
-      "linkingText": [
-        "border-color"
-      ],
-      "localLinkingText": [],
-      "type": "property",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "the-border-color",
-        "href": "https://drafts.csswg.org/css-backgrounds-4/#the-border-color",
-        "title": "Line Colors: the border-color properties",
-        "number": "3.1"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "propdef-border-radius",
-      "href": "https://drafts.csswg.org/css-backgrounds-4/#propdef-border-radius",
-      "linkingText": [
-        "border-radius"
-      ],
-      "localLinkingText": [],
-      "type": "property",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "corner-sizing",
-        "href": "https://drafts.csswg.org/css-backgrounds-4/#corner-sizing",
-        "title": "Corner Sizing: the border-radius property",
-        "number": "4.1"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "propdef-corner-shape",
-      "href": "https://drafts.csswg.org/css-backgrounds-4/#propdef-corner-shape",
-      "linkingText": [
-        "corner-shape"
-      ],
-      "localLinkingText": [],
-      "type": "property",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "corner-shaping",
-        "href": "https://drafts.csswg.org/css-backgrounds-4/#corner-shaping",
-        "title": "Corner Shaping: the corner-shape property",
-        "number": "4.2"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "valdef-corner-shape-round",
-      "href": "https://drafts.csswg.org/css-backgrounds-4/#valdef-corner-shape-round",
-      "linkingText": [
-        "round"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "corner-shape"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "corner-shaping",
-        "href": "https://drafts.csswg.org/css-backgrounds-4/#corner-shaping",
-        "title": "Corner Shaping: the corner-shape property",
-        "number": "4.2"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-corner-shape-angle",
-      "href": "https://drafts.csswg.org/css-backgrounds-4/#valdef-corner-shape-angle",
-      "linkingText": [
-        "angle"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "corner-shape"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "corner-shaping",
-        "href": "https://drafts.csswg.org/css-backgrounds-4/#corner-shaping",
-        "title": "Corner Shaping: the corner-shape property",
-        "number": "4.2"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "propdef-corners",
-      "href": "https://drafts.csswg.org/css-backgrounds-4/#propdef-corners",
-      "linkingText": [
-        "corners"
-      ],
-      "localLinkingText": [],
-      "type": "property",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "corners-shorthand",
-        "href": "https://drafts.csswg.org/css-backgrounds-4/#corners-shorthand",
-        "title": "Corner Shape and Size: the corners shorthand",
-        "number": "4.3"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "propdef-border-limit",
-      "href": "https://drafts.csswg.org/css-backgrounds-4/#propdef-border-limit",
-      "linkingText": [
-        "border-limit"
-      ],
-      "localLinkingText": [],
-      "type": "property",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "border-limit",
-        "href": "https://drafts.csswg.org/css-backgrounds-4/#border-limit",
-        "title": "Partial Borders: the border-limit property",
-        "number": "5.1"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "valdef-border-limit-sides",
-      "href": "https://drafts.csswg.org/css-backgrounds-4/#valdef-border-limit-sides",
-      "linkingText": [
-        "sides"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "border-limit"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "border-limit",
-        "href": "https://drafts.csswg.org/css-backgrounds-4/#border-limit",
-        "title": "Partial Borders: the border-limit property",
-        "number": "5.1"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-border-limit-corners",
-      "href": "https://drafts.csswg.org/css-backgrounds-4/#valdef-border-limit-corners",
-      "linkingText": [
-        "corners"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "border-limit"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "border-limit",
-        "href": "https://drafts.csswg.org/css-backgrounds-4/#border-limit",
-        "title": "Partial Borders: the border-limit property",
-        "number": "5.1"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-border-limit-left",
-      "href": "https://drafts.csswg.org/css-backgrounds-4/#valdef-border-limit-left",
-      "linkingText": [
-        "left"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "border-limit"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "border-limit",
-        "href": "https://drafts.csswg.org/css-backgrounds-4/#border-limit",
-        "title": "Partial Borders: the border-limit property",
-        "number": "5.1"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-border-limit-right",
-      "href": "https://drafts.csswg.org/css-backgrounds-4/#valdef-border-limit-right",
-      "linkingText": [
-        "right"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "border-limit"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "border-limit",
-        "href": "https://drafts.csswg.org/css-backgrounds-4/#border-limit",
-        "title": "Partial Borders: the border-limit property",
-        "number": "5.1"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-border-limit-top",
-      "href": "https://drafts.csswg.org/css-backgrounds-4/#valdef-border-limit-top",
-      "linkingText": [
-        "top"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "border-limit"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "border-limit",
-        "href": "https://drafts.csswg.org/css-backgrounds-4/#border-limit",
-        "title": "Partial Borders: the border-limit property",
-        "number": "5.1"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-border-limit-bottom",
-      "href": "https://drafts.csswg.org/css-backgrounds-4/#valdef-border-limit-bottom",
-      "linkingText": [
-        "bottom"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "border-limit"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "border-limit",
-        "href": "https://drafts.csswg.org/css-backgrounds-4/#border-limit",
-        "title": "Partial Borders: the border-limit property",
-        "number": "5.1"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "propdef-border-clip",
-      "href": "https://drafts.csswg.org/css-backgrounds-4/#propdef-border-clip",
-      "linkingText": [
-        "border-clip"
-      ],
-      "localLinkingText": [],
-      "type": "property",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "border-clip",
-        "href": "https://drafts.csswg.org/css-backgrounds-4/#border-clip",
-        "title": "The border-clip properties",
-        "number": "5.2"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "propdef-border-clip-top",
-      "href": "https://drafts.csswg.org/css-backgrounds-4/#propdef-border-clip-top",
-      "linkingText": [
-        "border-clip-top"
-      ],
-      "localLinkingText": [],
-      "type": "property",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "border-clip",
-        "href": "https://drafts.csswg.org/css-backgrounds-4/#border-clip",
-        "title": "The border-clip properties",
-        "number": "5.2"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "propdef-border-clip-right",
-      "href": "https://drafts.csswg.org/css-backgrounds-4/#propdef-border-clip-right",
-      "linkingText": [
-        "border-clip-right"
-      ],
-      "localLinkingText": [],
-      "type": "property",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "border-clip",
-        "href": "https://drafts.csswg.org/css-backgrounds-4/#border-clip",
-        "title": "The border-clip properties",
-        "number": "5.2"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "propdef-border-clip-bottom",
-      "href": "https://drafts.csswg.org/css-backgrounds-4/#propdef-border-clip-bottom",
-      "linkingText": [
-        "border-clip-bottom"
-      ],
-      "localLinkingText": [],
-      "type": "property",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "border-clip",
-        "href": "https://drafts.csswg.org/css-backgrounds-4/#border-clip",
-        "title": "The border-clip properties",
-        "number": "5.2"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "propdef-border-clip-left",
-      "href": "https://drafts.csswg.org/css-backgrounds-4/#propdef-border-clip-left",
-      "linkingText": [
-        "border-clip-left"
-      ],
-      "localLinkingText": [],
-      "type": "property",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "border-clip",
-        "href": "https://drafts.csswg.org/css-backgrounds-4/#border-clip",
-        "title": "The border-clip properties",
-        "number": "5.2"
+        "id": "background-layers",
+        "href": "https://drafts.csswg.org/css-backgrounds-4/#background-layers",
+        "title": "Background Image Layers: the background-tbd shorthand property",
+        "number": "2.5"
       },
       "definedIn": "table"
     }

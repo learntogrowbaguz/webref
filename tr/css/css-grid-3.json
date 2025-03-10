@@ -1,84 +1,335 @@
 {
   "spec": {
     "title": "CSS Grid Layout Module Level 3",
-    "url": "https://drafts.csswg.org/css-grid-3/"
+    "url": "https://www.w3.org/TR/css-grid-3/"
   },
   "properties": [
     {
-      "name": "grid-template-columns",
-      "newValues": "masonry",
-      "initial": "none",
-      "appliesTo": "grid containers",
+      "name": "item-slack",
+      "href": "https://www.w3.org/TR/css-grid-3/#propdef-item-slack",
+      "value": "<length-percentage> | infinite",
+      "initial": "1em",
+      "appliesTo": "masonry containers",
       "inherited": "no",
-      "percentages": "refer to corresponding dimension of the content area",
-      "computedValue": "the keyword none or the keyword masonry or a computed track list",
-      "animationType": "see CSS Grid",
+      "percentages": "relative to the grid-axis content box size of the masonry container",
+      "computedValue": "a computed <length-percentage> value",
+      "canonicalOrder": "per grammar",
+      "animationType": "as length",
+      "values": [
+        {
+          "name": "<length-percentage>",
+          "prose": "Specifies the tie threshold for the masonry container. Placement positions are considered to be equally good (“tied”) if they are within the specified distance from the shortest position.",
+          "href": "https://www.w3.org/TR/css-grid-3/#valdef-item-slack-length-percentage",
+          "type": "value",
+          "value": "<length-percentage>"
+        },
+        {
+          "name": "infinite",
+          "prose": "Specifies an infinite tie threshold. This makes items distribute themselves strictly in order, without considering the length of the tracks at all.",
+          "href": "https://www.w3.org/TR/css-grid-3/#valdef-item-slack-infinite",
+          "type": "value",
+          "value": "infinite"
+        }
+      ],
       "styleDeclaration": [
-        "grid-template-columns",
-        "gridTemplateColumns"
+        "item-slack",
+        "itemSlack"
       ]
     },
     {
-      "name": "grid-template-rows",
-      "newValues": "masonry",
-      "initial": "none",
-      "appliesTo": "grid containers",
+      "name": "item-direction",
+      "href": "https://www.w3.org/TR/css-grid-3/#propdef-item-direction",
+      "value": "auto | row | column | row-reverse | column-reverse",
+      "initial": "auto",
+      "appliesTo": "flex containers, grid containers, masonry containers",
       "inherited": "no",
-      "percentages": "refer to corresponding dimension of the content area",
-      "computedValue": "the keyword none or the keyword masonry or a computed track list",
-      "animationType": "see CSS Grid",
-      "styleDeclaration": [
-        "grid-template-rows",
-        "gridTemplateRows"
-      ]
-    },
-    {
-      "name": "masonry-auto-flow",
-      "value": "[ pack | next ] || [definite-first | ordered ]",
-      "initial": "pack",
-      "appliesTo": "grid containers with masonry layout",
-      "inherited": "no",
-      "percentages": "n/a",
-      "computedValue": "specified keyword(s)",
+      "percentages": "N/A",
+      "computedValue": "as specified",
       "canonicalOrder": "per grammar",
       "animationType": "discrete",
+      "values": [
+        {
+          "name": "auto",
+          "prose": "Computes to either row or column depending on the layout mode: On flex containers and grid containers, computes to row. On masonry containers, if grid-template-rows is not none and grid-template-columns is none, computes to the value representing row tracks; otherwise computes to the value representing column tracks.",
+          "href": "https://www.w3.org/TR/css-grid-3/#valdef-item-direction-auto",
+          "type": "value",
+          "value": "auto"
+        },
+        {
+          "name": "row",
+          "prose": "Track-oriented Option Represents placement into rows, i.e. tracks or lines parallel to the inline axis. Items are placed in start-to-end order in the inline axis in flex layout and grid layout, and in start-to-end order in the block axis in masonry layout. Flow-oriented Option Represents row-primary item placement, i.e. placing items start-to-end in the inline axis, producing flex row lines in flex layout, and column grid tracks in masonry layout.",
+          "href": "https://www.w3.org/TR/css-grid-3/#valdef-item-direction-row",
+          "type": "value",
+          "value": "row"
+        },
+        {
+          "name": "column",
+          "prose": "Track-oriented Option Represents placement into rows, i.e. tracks or lines parallel to the inline axis. Items are placed in start-to-end order in the inline axis in flex layout and grid layout, and in start-to-end order in the block axis in masonry layout. Flow-oriented Option Represents row-primary item placement, i.e. placing items start-to-end in the inline axis, producing flex row lines in flex layout, and column grid tracks in masonry layout.",
+          "href": "https://www.w3.org/TR/css-grid-3/#valdef-item-direction-column",
+          "type": "value",
+          "value": "column"
+        },
+        {
+          "name": "row-reverse",
+          "prose": "Same as row, but using end-to-start placement order.",
+          "href": "https://www.w3.org/TR/css-grid-3/#valdef-item-direction-row-reverse",
+          "type": "value",
+          "value": "row-reverse"
+        },
+        {
+          "name": "column-reverse",
+          "prose": "Same as column, but using end-to-start placement order.",
+          "href": "https://www.w3.org/TR/css-grid-3/#valdef-item-direction-column-reverse",
+          "type": "value",
+          "value": "column-reverse"
+        }
+      ],
       "styleDeclaration": [
-        "masonry-auto-flow",
-        "masonryAutoFlow"
+        "item-direction",
+        "itemDirection"
       ]
     },
     {
-      "name": "align-tracks",
-      "value": "[normal | <baseline-position> | <content-distribution> | <overflow-position>? <content-position>]#",
+      "name": "item-track",
+      "href": "https://www.w3.org/TR/css-grid-3/#propdef-item-track",
+      "value": "auto | row | column | row-reverse | column-reverse",
+      "initial": "auto",
+      "appliesTo": "flex containers, grid containers, masonry containers",
+      "inherited": "no",
+      "percentages": "N/A",
+      "computedValue": "as specified",
+      "canonicalOrder": "per grammar",
+      "animationType": "discrete",
+      "values": [
+        {
+          "name": "auto",
+          "prose": "Computes to either row or column depending on the layout mode: On flex containers and grid containers, computes to row. On masonry containers, if grid-template-rows is not none and grid-template-columns is none, computes to the value representing row tracks; otherwise computes to the value representing column tracks.",
+          "href": "https://www.w3.org/TR/css-grid-3/#valdef-item-direction-auto",
+          "type": "value",
+          "value": "auto"
+        },
+        {
+          "name": "row",
+          "prose": "Track-oriented Option Represents placement into rows, i.e. tracks or lines parallel to the inline axis. Items are placed in start-to-end order in the inline axis in flex layout and grid layout, and in start-to-end order in the block axis in masonry layout. Flow-oriented Option Represents row-primary item placement, i.e. placing items start-to-end in the inline axis, producing flex row lines in flex layout, and column grid tracks in masonry layout.",
+          "href": "https://www.w3.org/TR/css-grid-3/#valdef-item-direction-row",
+          "type": "value",
+          "value": "row"
+        },
+        {
+          "name": "column",
+          "prose": "Track-oriented Option Represents placement into rows, i.e. tracks or lines parallel to the inline axis. Items are placed in start-to-end order in the inline axis in flex layout and grid layout, and in start-to-end order in the block axis in masonry layout. Flow-oriented Option Represents row-primary item placement, i.e. placing items start-to-end in the inline axis, producing flex row lines in flex layout, and column grid tracks in masonry layout.",
+          "href": "https://www.w3.org/TR/css-grid-3/#valdef-item-direction-column",
+          "type": "value",
+          "value": "column"
+        },
+        {
+          "name": "row-reverse",
+          "prose": "Same as row, but using end-to-start placement order.",
+          "href": "https://www.w3.org/TR/css-grid-3/#valdef-item-direction-row-reverse",
+          "type": "value",
+          "value": "row-reverse"
+        },
+        {
+          "name": "column-reverse",
+          "prose": "Same as column, but using end-to-start placement order.",
+          "href": "https://www.w3.org/TR/css-grid-3/#valdef-item-direction-column-reverse",
+          "type": "value",
+          "value": "column-reverse"
+        }
+      ],
+      "styleDeclaration": [
+        "item-track",
+        "itemTrack"
+      ]
+    },
+    {
+      "name": "item-wrap",
+      "href": "https://www.w3.org/TR/css-grid-3/#propdef-item-wrap",
+      "value": "[ auto | nowrap | wrap ] || [ normal | reverse ] | wrap-reverse",
+      "initial": "auto",
+      "appliesTo": "flex containers, grid containers, masonry containers",
+      "inherited": "no",
+      "percentages": "N/A",
+      "computedValue": "as specified",
+      "canonicalOrder": "per grammar",
+      "animationType": "discrete",
+      "values": [
+        {
+          "name": "auto",
+          "prose": "Computes to nowrap on flex containers, and wrap on everything else.",
+          "href": "https://www.w3.org/TR/css-grid-3/#valdef-item-wrap-auto",
+          "type": "value",
+          "value": "auto"
+        },
+        {
+          "name": "nowrap",
+          "prose": "Items are placed in the primary placement axis forever, even if they run out of room. In flex layout this creates a single-line flex container; in grid layout this creates implicit tracks in the primary placement axis as necessary.",
+          "href": "https://www.w3.org/TR/css-grid-3/#valdef-item-wrap-nowrap",
+          "type": "value",
+          "value": "nowrap"
+        },
+        {
+          "name": "wrap",
+          "prose": "Items wrap when the primary placement axis runs out of space. In flex layout this creates a multi-line flex container; in grid layout auto-placement algorithm moves to the next row/column when it runs out of explicit tracks in the primary placement axis.",
+          "href": "https://www.w3.org/TR/css-grid-3/#valdef-item-wrap-wrap",
+          "type": "value",
+          "value": "wrap"
+        },
+        {
+          "name": "normal",
+          "prose": "Items are placed in start-to-end order in the axis opposite to the primary track axis.",
+          "href": "https://www.w3.org/TR/css-grid-3/#valdef-item-wrap-normal",
+          "type": "value",
+          "value": "normal"
+        },
+        {
+          "name": "reverse",
+          "prose": "Items are placed in end-to-start order in the axis opposite to the primary track axis.",
+          "href": "https://www.w3.org/TR/css-grid-3/#valdef-item-wrap-reverse",
+          "type": "value",
+          "value": "reverse"
+        },
+        {
+          "name": "wrap-reverse",
+          "prose": "Computes to wrap reverse.",
+          "href": "https://www.w3.org/TR/css-grid-3/#valdef-item-wrap-wrap-reverse",
+          "type": "value",
+          "value": "wrap-reverse"
+        }
+      ],
+      "styleDeclaration": [
+        "item-wrap",
+        "itemWrap"
+      ]
+    },
+    {
+      "name": "item-cross",
+      "href": "https://www.w3.org/TR/css-grid-3/#propdef-item-cross",
+      "value": "[ auto | nowrap | wrap ] || [ normal | reverse ] | wrap-reverse",
+      "initial": "auto",
+      "appliesTo": "flex containers, grid containers, masonry containers",
+      "inherited": "no",
+      "percentages": "N/A",
+      "computedValue": "as specified",
+      "canonicalOrder": "per grammar",
+      "animationType": "discrete",
+      "values": [
+        {
+          "name": "auto",
+          "prose": "Computes to nowrap on flex containers, and wrap on everything else.",
+          "href": "https://www.w3.org/TR/css-grid-3/#valdef-item-wrap-auto",
+          "type": "value",
+          "value": "auto"
+        },
+        {
+          "name": "nowrap",
+          "prose": "Items are placed in the primary placement axis forever, even if they run out of room. In flex layout this creates a single-line flex container; in grid layout this creates implicit tracks in the primary placement axis as necessary.",
+          "href": "https://www.w3.org/TR/css-grid-3/#valdef-item-wrap-nowrap",
+          "type": "value",
+          "value": "nowrap"
+        },
+        {
+          "name": "wrap",
+          "prose": "Items wrap when the primary placement axis runs out of space. In flex layout this creates a multi-line flex container; in grid layout auto-placement algorithm moves to the next row/column when it runs out of explicit tracks in the primary placement axis.",
+          "href": "https://www.w3.org/TR/css-grid-3/#valdef-item-wrap-wrap",
+          "type": "value",
+          "value": "wrap"
+        },
+        {
+          "name": "normal",
+          "prose": "Items are placed in start-to-end order in the axis opposite to the primary track axis.",
+          "href": "https://www.w3.org/TR/css-grid-3/#valdef-item-wrap-normal",
+          "type": "value",
+          "value": "normal"
+        },
+        {
+          "name": "reverse",
+          "prose": "Items are placed in end-to-start order in the axis opposite to the primary track axis.",
+          "href": "https://www.w3.org/TR/css-grid-3/#valdef-item-wrap-reverse",
+          "type": "value",
+          "value": "reverse"
+        },
+        {
+          "name": "wrap-reverse",
+          "prose": "Computes to wrap reverse.",
+          "href": "https://www.w3.org/TR/css-grid-3/#valdef-item-wrap-wrap-reverse",
+          "type": "value",
+          "value": "wrap-reverse"
+        }
+      ],
+      "styleDeclaration": [
+        "item-cross",
+        "itemCross"
+      ]
+    },
+    {
+      "name": "item-pack",
+      "href": "https://www.w3.org/TR/css-grid-3/#propdef-item-pack",
+      "value": "normal | dense || balance",
       "initial": "normal",
-      "appliesTo": "grid containers with masonry layout in their block axis",
+      "appliesTo": "flex containers, grid containers, masonry containers",
       "inherited": "no",
-      "percentages": "n/a",
-      "computedValue": "specified keyword(s)",
+      "percentages": "N/A",
+      "computedValue": "as specified",
       "canonicalOrder": "per grammar",
       "animationType": "discrete",
+      "values": [
+        {
+          "name": "normal",
+          "prose": "Uses the default packing strategy for the layout mode.",
+          "href": "https://www.w3.org/TR/css-grid-3/#valdef-item-pack-normal",
+          "type": "value",
+          "value": "normal"
+        },
+        {
+          "name": "dense",
+          "prose": "Allows backtracking to place items in earlier spaces that were skipped. (Such spaces can exist because earlier items were too big for those spaces.) For example, in flex layout this allows placing items on earlier lines that still have enough empty space left over.",
+          "href": "https://www.w3.org/TR/css-grid-3/#valdef-item-pack-dense",
+          "type": "value",
+          "value": "dense"
+        },
+        {
+          "name": "balance",
+          "prose": "In flex layout, this value balances the amount of content on each line (including the last line), similar to text-wrap-style: balance.",
+          "href": "https://www.w3.org/TR/css-grid-3/#valdef-item-pack-balance",
+          "type": "value",
+          "value": "balance"
+        }
+      ],
       "styleDeclaration": [
-        "align-tracks",
-        "alignTracks"
+        "item-pack",
+        "itemPack"
       ]
     },
     {
-      "name": "justify-tracks",
-      "value": "[normal | <content-distribution> | <overflow-position>? [ <content-position> | left | right ] ]#",
-      "initial": "normal",
-      "appliesTo": "grid containers with masonry layout in their inline axis",
-      "inherited": "no",
-      "percentages": "n/a",
-      "computedValue": "specified keyword(s)",
+      "name": "item-flow",
+      "href": "https://www.w3.org/TR/css-grid-3/#propdef-item-flow",
+      "value": "<'item-direction'> || <'item-wrap'> || <'item-pack'> || <'item-slack'>",
+      "initial": "see individual properties",
+      "appliesTo": "see individual properties",
+      "inherited": "see individual properties",
+      "percentages": "see individual properties",
+      "computedValue": "see individual properties",
+      "animationType": "see individual properties",
       "canonicalOrder": "per grammar",
-      "animationType": "discrete",
       "styleDeclaration": [
-        "justify-tracks",
-        "justifyTracks"
+        "item-flow",
+        "itemFlow"
       ]
     }
   ],
   "atrules": [],
   "selectors": [],
-  "values": []
+  "values": [],
+  "warnings": [
+    {
+      "msg": "Dangling value",
+      "name": "auto-areas",
+      "prose": "The new auto-areas value for the repeat() notation represents the number of repetitions necessary for the total number of explicit tracks to match the grid-template-areas / masonry-template-areas value in effect in the corresponding axis. If multiple tracks are listed for the repetition, the final repetition is truncated as necessary to produce the correct number of tracks.",
+      "href": "https://www.w3.org/TR/css-grid-3/#valdef-repeat-auto-areas",
+      "type": "value",
+      "value": "auto-areas",
+      "for": "repeat()"
+    }
+  ]
 }

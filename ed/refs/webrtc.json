@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "WebRTC 1.0: Real-Time Communication Between Browsers",
+    "title": "WebRTC: Real-Time Communication in Browsers",
     "url": "https://w3c.github.io/webrtc-pc/"
   },
   "refs": {
@@ -60,10 +60,6 @@
       {
         "name": "RFC3890",
         "url": "https://www.rfc-editor.org/rfc/rfc3890"
-      },
-      {
-        "name": "RFC3986",
-        "url": "https://www.rfc-editor.org/rfc/rfc3986"
       },
       {
         "name": "RFC4566",
@@ -150,10 +146,6 @@
         "url": "https://www.rfc-editor.org/rfc/rfc8826"
       },
       {
-        "name": "RFC8829",
-        "url": "https://www.rfc-editor.org/rfc/rfc8829"
-      },
-      {
         "name": "RFC8831",
         "url": "https://www.rfc-editor.org/rfc/rfc8831"
       },
@@ -194,12 +186,20 @@
         "url": "https://www.rfc-editor.org/rfc/rfc8863"
       },
       {
+        "name": "RFC9429",
+        "url": "https://www.rfc-editor.org/rfc/rfc9429"
+      },
+      {
         "name": "SDP",
         "url": "https://www.rfc-editor.org/rfc/rfc3264"
       },
       {
         "name": "STUN-PARAMETERS",
         "url": "https://www.iana.org/assignments/stun-parameters/stun-parameters.xhtml#stun-parameters-6"
+      },
+      {
+        "name": "url",
+        "url": "https://url.spec.whatwg.org/"
       },
       {
         "name": "WebCryptoAPI",

@@ -64,13 +64,6 @@
       "number": "2.3"
     },
     {
-      "id": "dir-reader",
-      "href": "https://wicg.github.io/entries-api/#dir-reader",
-      "level": 3,
-      "title": "Directory Reader",
-      "number": "2.4"
-    },
-    {
       "id": "algorithms",
       "href": "https://wicg.github.io/entries-api/#algorithms",
       "level": 2,
@@ -158,12 +151,6 @@
       "href": "https://wicg.github.io/entries-api/#w3c-conventions",
       "level": 3,
       "title": "Document conventions"
-    },
-    {
-      "id": "w3c-conformant-algorithms",
-      "href": "https://wicg.github.io/entries-api/#w3c-conformant-algorithms",
-      "level": 3,
-      "title": "Conformant Algorithms"
     },
     {
       "id": "index",

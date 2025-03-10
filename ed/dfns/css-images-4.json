@@ -90,7 +90,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "fetching-images",
@@ -504,13 +504,13 @@
       "definedIn": "prose"
     },
     {
-      "id": "funcdef-linear-gradient",
-      "href": "https://drafts.csswg.org/css-images-4/#funcdef-linear-gradient",
+      "id": "typedef-linear-gradient-syntax",
+      "href": "https://drafts.csswg.org/css-images-4/#typedef-linear-gradient-syntax",
       "linkingText": [
-        "linear-gradient()"
+        "<linear-gradient-syntax>"
       ],
       "localLinkingText": [],
-      "type": "function",
+      "type": "type",
       "for": [],
       "access": "public",
       "informative": false,
@@ -542,21 +542,21 @@
       "definedIn": "pre"
     },
     {
-      "id": "funcdef-radial-gradient",
-      "href": "https://drafts.csswg.org/css-images-4/#funcdef-radial-gradient",
+      "id": "typedef-radial-gradient-syntax",
+      "href": "https://drafts.csswg.org/css-images-4/#typedef-radial-gradient-syntax",
       "linkingText": [
-        "radial-gradient()"
+        "<radial-gradient-syntax>"
       ],
       "localLinkingText": [],
-      "type": "function",
+      "type": "type",
       "for": [],
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "radial-gradients",
-        "href": "https://drafts.csswg.org/css-images-4/#radial-gradients",
-        "title": "Radial Gradients: the radial-gradient() notation",
-        "number": "3.2"
+        "id": "radial-color-interpolation",
+        "href": "https://drafts.csswg.org/css-images-4/#radial-color-interpolation",
+        "title": "Adding <color-interpolation-method>",
+        "number": "3.2.1"
       },
       "definedIn": "pre"
     },
@@ -568,6 +568,25 @@
       ],
       "localLinkingText": [],
       "type": "function",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "conic-gradient-syntax",
+        "href": "https://drafts.csswg.org/css-images-4/#conic-gradient-syntax",
+        "title": "conic-gradient() Syntax",
+        "number": "3.3.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "typedef-conic-gradient-syntax",
+      "href": "https://drafts.csswg.org/css-images-4/#typedef-conic-gradient-syntax",
+      "linkingText": [
+        "<conic-gradient-syntax>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
       "for": [],
       "access": "public",
       "informative": false,
@@ -1243,7 +1262,8 @@
       "heading": {
         "id": "deprecated",
         "href": "https://drafts.csswg.org/css-images-4/#deprecated",
-        "title": "Appendix A: Deprecated Features and Aliases"
+        "title": "Deprecated Features and Aliases",
+        "number": "A"
       },
       "definedIn": "prose"
     }

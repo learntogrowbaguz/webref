@@ -17,17 +17,33 @@
  * node tools/prepare-curated.js [raw data folder] [curated folder]
  */
 
-const fs = require('fs').promises;
-const path = require('path');
-const rimraf = require('rimraf');
-const { crawlSpecs } = require('reffy');
-const {
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import { rimraf } from 'rimraf';
+import {
   createFolderIfNeeded,
   loadJSON,
-  copyFolder } = require('./utils');
-const { applyPatches } = require('./apply-patches');
-const { dropCSSPropertyDuplicates } = require('./drop-css-property-duplicates');
-const { curateEvents } = require('./amend-event-data');
+  copyFolder } from './utils.js';
+import { applyPatches } from './apply-patches.js';
+import { dropCSSPropertyDuplicates } from './drop-css-property-duplicates.js';
+import { curateEvents } from './amend-event-data.js';
+import { crawlSpecs } from 'reffy';
+
+
+/**
+ * Remove the spec from curation process
+*/
+async function removeFromCuration(spec, curatedFolder) {
+  for (const property of ['cddl', 'css', 'elements', 'events', 'idl']) {
+    if (spec[property] &&
+        (typeof spec[property] === 'string') &&
+        spec[property].match(/^[^\/]+\/[^\/]+\.(json|idl|cddl)$/)) {
+      const filename = path.join(curatedFolder, spec[property]);
+      console.log(`Removing ${spec.standing} ${spec.title} from curation: del ${filename}`);
+      await fs.unlink(filename);
+    }
+  }
+}
 
 
 /**
@@ -38,21 +54,19 @@ const { curateEvents } = require('./amend-event-data');
  * @param {Object} spec to parse and clean.
  */
 async function cleanCrawlOutcome(spec) {
-  await Promise.all(Object.keys(spec).map(async property => {
+  for (const property of Object.keys(spec)) {
     // Only consider properties that link to an extract
-    if (!spec[property] ||
-        (typeof spec[property] !== 'string') ||
-          !spec[property].match(/^[^\/]+\/[^\/]+\.(json|idl)$/)) {
-      return;
+    if (spec[property] &&
+        (typeof spec[property] === 'string') &&
+        spec[property].match(/^[^\/]+\/[^\/]+\.(json|idl|cddl)$/)) {
+      try {
+        await fs.lstat(path.join(curatedFolder, spec[property]));
+      }
+      catch (err) {
+        delete spec[property];
+      }
     }
-
-    try {
-      await fs.lstat(path.join(curatedFolder, spec[property]));
-    }
-    catch (err) {
-      delete spec[property];
-    }
-  }));
+  }
 }
 
 
@@ -68,7 +82,7 @@ async function prepareCurated(rawFolder, curatedFolder) {
   await createFolderIfNeeded(curatedFolder);
   console.log('- folder exists');
   try {
-    rimraf.sync(`${curatedFolder}/*`);
+    rimraf.sync(`${curatedFolder}/*`, { glob: true });
   }
   catch {
   }
@@ -89,11 +103,18 @@ async function prepareCurated(rawFolder, curatedFolder) {
   await curateEvents(curatedFolder);
   console.log('- patches applied');
 
-  let crawlIndexFile = path.join(curatedFolder, 'index.json');
-  let crawlIndex = await loadJSON(crawlIndexFile);
-  await Promise.all(crawlIndex.results.map(cleanCrawlOutcome));
+  console.log();
+  console.log('Adjust curated data and crawl index');
+  const crawlIndexFile = path.join(curatedFolder, 'index.json');
+  const crawlIndex = await loadJSON(crawlIndexFile);
+  for (const spec of crawlIndex.results) {
+    if (spec.standing !== 'good') {
+      await removeFromCuration(spec, curatedFolder);
+    }
+    await cleanCrawlOutcome(spec);
+  }
   await fs.writeFile(crawlIndexFile, JSON.stringify(crawlIndex, null, 2));
-  console.log('- crawl outcome adjusted');
+  console.log('- done');
 
   console.log();
   console.log('Drop duplicate CSS property definitions when possible');

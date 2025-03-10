@@ -512,10 +512,73 @@
       "definedIn": "dt"
     },
     {
+      "id": "dom-intersectionobserver-scrollmargin",
+      "href": "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-scrollmargin",
+      "linkingText": [
+        "scrollMargin"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "IntersectionObserver"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "intersection-observer-interface",
+        "href": "https://w3c.github.io/IntersectionObserver/#intersection-observer-interface",
+        "title": "The IntersectionObserver interface",
+        "number": "2.2"
+      },
+      "definedIn": "dt"
+    },
+    {
       "id": "dom-intersectionobserver-thresholds",
       "href": "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-thresholds",
       "linkingText": [
         "thresholds"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "IntersectionObserver"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "intersection-observer-interface",
+        "href": "https://w3c.github.io/IntersectionObserver/#intersection-observer-interface",
+        "title": "The IntersectionObserver interface",
+        "number": "2.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-intersectionobserver-delay",
+      "href": "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-delay",
+      "linkingText": [
+        "delay"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "IntersectionObserver"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "intersection-observer-interface",
+        "href": "https://w3c.github.io/IntersectionObserver/#intersection-observer-interface",
+        "title": "The IntersectionObserver interface",
+        "number": "2.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-intersectionobserver-trackvisibility",
+      "href": "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-trackvisibility",
+      "linkingText": [
+        "trackVisibility"
       ],
       "localLinkingText": [],
       "type": "attribute",
@@ -575,10 +638,29 @@
       "definedIn": "prose"
     },
     {
-      "id": "parse-a-root-margin",
-      "href": "https://w3c.github.io/IntersectionObserver/#parse-a-root-margin",
+      "id": "apply-scroll-margin-to-a-scrollport",
+      "href": "https://w3c.github.io/IntersectionObserver/#apply-scroll-margin-to-a-scrollport",
       "linkingText": [
-        "parse a root margin"
+        "apply scroll margin to a scrollport"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "intersection-observer-interface",
+        "href": "https://w3c.github.io/IntersectionObserver/#intersection-observer-interface",
+        "title": "The IntersectionObserver interface",
+        "number": "2.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "parse-a-margin",
+      "href": "https://w3c.github.io/IntersectionObserver/#parse-a-margin",
+      "linkingText": [
+        "parse a margin"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -781,6 +863,27 @@
       "definedIn": "pre"
     },
     {
+      "id": "dom-intersectionobserverentryinit-isvisible",
+      "href": "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverentryinit-isvisible",
+      "linkingText": [
+        "isVisible"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "IntersectionObserverEntryInit"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "intersection-observer-entry",
+        "href": "https://w3c.github.io/IntersectionObserver/#intersection-observer-entry",
+        "title": "The IntersectionObserverEntry interface",
+        "number": "2.3"
+      },
+      "definedIn": "pre"
+    },
+    {
       "id": "dom-intersectionobserverentryinit-intersectionratio",
       "href": "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverentryinit-intersectionratio",
       "linkingText": [
@@ -869,6 +972,27 @@
       "href": "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverentry-isintersecting",
       "linkingText": [
         "isIntersecting"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "IntersectionObserverEntry"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "intersection-observer-entry",
+        "href": "https://w3c.github.io/IntersectionObserver/#intersection-observer-entry",
+        "title": "The IntersectionObserverEntry interface",
+        "number": "2.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-intersectionobserverentry-isvisible",
+      "href": "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverentry-isvisible",
+      "linkingText": [
+        "isVisible"
       ],
       "localLinkingText": [],
       "type": "attribute",
@@ -1031,10 +1155,73 @@
       "definedIn": "dt"
     },
     {
+      "id": "dom-intersectionobserverinit-scrollmargin",
+      "href": "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverinit-scrollmargin",
+      "linkingText": [
+        "scrollMargin"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "IntersectionObserverInit"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "intersection-observer-init",
+        "href": "https://w3c.github.io/IntersectionObserver/#intersection-observer-init",
+        "title": "The IntersectionObserverInit dictionary",
+        "number": "2.4"
+      },
+      "definedIn": "dt"
+    },
+    {
       "id": "dom-intersectionobserverinit-threshold",
       "href": "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverinit-threshold",
       "linkingText": [
         "threshold"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "IntersectionObserverInit"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "intersection-observer-init",
+        "href": "https://w3c.github.io/IntersectionObserver/#intersection-observer-init",
+        "title": "The IntersectionObserverInit dictionary",
+        "number": "2.4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-intersectionobserverinit-delay",
+      "href": "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverinit-delay",
+      "linkingText": [
+        "delay"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "IntersectionObserverInit"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "intersection-observer-init",
+        "href": "https://w3c.github.io/IntersectionObserver/#intersection-observer-init",
+        "title": "The IntersectionObserverInit dictionary",
+        "number": "2.4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-intersectionobserverinit-trackvisibility",
+      "href": "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverinit-trackvisibility",
+      "linkingText": [
+        "trackVisibility"
       ],
       "localLinkingText": [],
       "type": "dict-member",
@@ -1195,6 +1382,48 @@
       "definedIn": "prose"
     },
     {
+      "id": "dom-intersectionobserverregistration-lastupdatetime",
+      "href": "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverregistration-lastupdatetime",
+      "linkingText": [
+        "lastUpdateTime"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "IntersectionObserverRegistration"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "element-private-slots",
+        "href": "https://w3c.github.io/IntersectionObserver/#element-private-slots",
+        "title": "Element",
+        "number": "3.1.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-intersectionobserverregistration-previousisvisible",
+      "href": "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverregistration-previousisvisible",
+      "linkingText": [
+        "previousIsVisible"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "IntersectionObserverRegistration"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "element-private-slots",
+        "href": "https://w3c.github.io/IntersectionObserver/#element-private-slots",
+        "title": "Element",
+        "number": "3.1.2"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "dom-intersectionobserver-queuedentries-slot",
       "href": "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-queuedentries-slot",
       "linkingText": [
@@ -1262,6 +1491,90 @@
       "href": "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-rootmargin-slot",
       "linkingText": [
         "[[rootMargin]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "IntersectionObserver"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "intersection-observer-private-slots",
+        "href": "https://w3c.github.io/IntersectionObserver/#intersection-observer-private-slots",
+        "title": "IntersectionObserver",
+        "number": "3.1.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-intersectionobserver-scrollmargin-slot",
+      "href": "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-scrollmargin-slot",
+      "linkingText": [
+        "[[scrollMargin]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "IntersectionObserver"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "intersection-observer-private-slots",
+        "href": "https://w3c.github.io/IntersectionObserver/#intersection-observer-private-slots",
+        "title": "IntersectionObserver",
+        "number": "3.1.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-intersectionobserver-thresholds-slot",
+      "href": "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-thresholds-slot",
+      "linkingText": [
+        "[[thresholds]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "IntersectionObserver"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "intersection-observer-private-slots",
+        "href": "https://w3c.github.io/IntersectionObserver/#intersection-observer-private-slots",
+        "title": "IntersectionObserver",
+        "number": "3.1.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-intersectionobserver-delay-slot",
+      "href": "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-delay-slot",
+      "linkingText": [
+        "[[delay]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "IntersectionObserver"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "intersection-observer-private-slots",
+        "href": "https://w3c.github.io/IntersectionObserver/#intersection-observer-private-slots",
+        "title": "IntersectionObserver",
+        "number": "3.1.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-intersectionobserver-trackvisibility-slot",
+      "href": "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-trackvisibility-slot",
+      "linkingText": [
+        "[[trackVisibility]]"
       ],
       "localLinkingText": [],
       "type": "attribute",
@@ -1431,6 +1744,44 @@
       "definedIn": "prose"
     },
     {
+      "id": "visibility",
+      "href": "https://w3c.github.io/IntersectionObserver/#visibility",
+      "linkingText": [
+        "visibility"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "calculate-visibility-algo",
+        "href": "https://w3c.github.io/IntersectionObserver/#calculate-visibility-algo",
+        "title": "Compute whether a Target is unoccluded, untransformed, unfiltered, and opaque.",
+        "number": "3.2.8"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "effective-transformation-matrix",
+      "href": "https://w3c.github.io/IntersectionObserver/#effective-transformation-matrix",
+      "linkingText": [
+        "effective transformation matrix"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "calculate-effective-transformation-matrix",
+        "href": "https://w3c.github.io/IntersectionObserver/#calculate-effective-transformation-matrix",
+        "title": "Calculate a target’s Effective Transformation Matrix",
+        "number": "3.2.9"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "run-the-update-intersection-observations-steps",
       "href": "https://w3c.github.io/IntersectionObserver/#run-the-update-intersection-observations-steps",
       "linkingText": [
@@ -1445,7 +1796,7 @@
         "id": "update-intersection-observations-algo",
         "href": "https://w3c.github.io/IntersectionObserver/#update-intersection-observations-algo",
         "title": "Run the Update Intersection Observations Steps",
-        "number": "3.2.8"
+        "number": "3.2.10"
       },
       "definedIn": "prose"
     },

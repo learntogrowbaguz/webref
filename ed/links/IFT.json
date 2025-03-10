@@ -4,162 +4,122 @@
     "url": "https://w3c.github.io/IFT/Overview.html"
   },
   "links": {
-    "http://www.microsoft.com/typography/otspec/default.htm": {},
-    "https://adobe-type-tools.github.io/font-tech-notes/pdfs/5176.CFF.pdf": {},
-    "https://datatracker.ietf.org/doc/html/draft-vandevenne-shared-brotli-format-09": {
-      "anchors": [
-        "section-3.2"
-      ]
+    "rawlinks": {
+      "https://datatracker.ietf.org/doc/html/draft-vandevenne-shared-brotli-format-09": {
+        "anchors": [
+          "section-3.2"
+        ]
+      },
+      "https://datatracker.ietf.org/doc/html/rfc2119": {},
+      "https://fetch.spec.whatwg.org/": {},
+      "https://github.com/harfbuzz/boring-expansion-spec/tree/main": {},
+      "https://github.com/harfbuzz/harfbuzz/blob/main/src/hb-subset-input.cc": {},
+      "https://github.com/w3c/IFT/commits/main/Overview.bs": {},
+      "https://github.com/w3c/PFE-analysis/blob/main/results/set_encoding_branch_factor.md": {},
+      "https://github.com/w3c/PFE/issues/new": {},
+      "https://harfbuzz.github.io/what-is-harfbuzz.html": {
+        "anchors": [
+          "what-is-text-shaping"
+        ]
+      },
+      "https://httpwg.org/specs/rfc9113.html": {},
+      "https://httpwg.org/specs/rfc9114.html": {},
+      "https://learn.microsoft.com/en-us/typography/opentype/spec": {},
+      "https://learn.microsoft.com/en-us/typography/opentype/spec/cff": {},
+      "https://learn.microsoft.com/en-us/typography/opentype/spec/cff2": {},
+      "https://learn.microsoft.com/en-us/typography/opentype/spec/cmap": {
+        "anchors": [
+          "format-14-unicode-variation-sequences"
+        ]
+      },
+      "https://learn.microsoft.com/en-us/typography/opentype/spec/featurelist": {},
+      "https://learn.microsoft.com/en-us/typography/opentype/spec/featuretags": {},
+      "https://learn.microsoft.com/en-us/typography/opentype/spec/glyf": {},
+      "https://learn.microsoft.com/en-us/typography/opentype/spec/gvar": {},
+      "https://learn.microsoft.com/en-us/typography/opentype/spec/loca": {},
+      "https://learn.microsoft.com/en-us/typography/opentype/spec/maxp": {},
+      "https://learn.microsoft.com/en-us/typography/opentype/spec/otff": {
+        "anchors": [
+          "table-directory",
+          "data-types"
+        ]
+      },
+      "https://learn.microsoft.com/en-us/typography/opentype/spec/otvaroverview": {
+        "anchors": [
+          "terminology",
+          "coordinate-scales-and-normalization"
+        ]
+      },
+      "https://www.iso.org/standard/87621.html": {},
+      "https://www.rfc-editor.org/rfc/rfc3629": {},
+      "https://www.rfc-editor.org/rfc/rfc3986": {
+        "anchors": [
+          "section-4.3",
+          "section-4.1",
+          "section-5"
+        ]
+      },
+      "https://www.rfc-editor.org/rfc/rfc4648": {
+        "anchors": [
+          "section-7",
+          "section-5"
+        ]
+      },
+      "https://www.rfc-editor.org/rfc/rfc6570": {
+        "anchors": [
+          "section-3"
+        ]
+      },
+      "https://www.rfc-editor.org/rfc/rfc7932": {
+        "anchors": [
+          "section-10"
+        ]
+      },
+      "https://www.tiro.com/articles/enabling-typography": {},
+      "https://www.unicode.org/versions/latest/": {},
+      "https://www.w3.org/TR/": {},
+      "https://www.w3.org/TR/2024/WD-IFT-20240709/": {},
+      "https://www.w3.org/TR/PFE-evaluation/": {
+        "anchors": [
+          "fail-subset",
+          "langtype",
+          "conclusions",
+          "codepredict"
+        ]
+      },
+      "https://www.w3.org/TR/WOFF/": {},
+      "https://www.w3.org/TR/WOFF2/": {
+        "anchors": [
+          "glyf_table_format",
+          "table_format"
+        ]
+      },
+      "https://www.w3.org/TR/css-conditional-5/": {},
+      "https://www.w3.org/TR/css-fonts-4/": {
+        "anchors": [
+          "font-tech-definitions",
+          "unicode-range-desc",
+          "font-fetching-requirements",
+          "sp201",
+          "sp208",
+          "web-fonts",
+          "font-palette-values"
+        ]
+      },
+      "https://www.w3.org/groups/wg/webfonts": {},
+      "https://www.w3.org/groups/wg/webfonts/ipr": {},
+      "https://www.w3.org/policies/patent-policy/20200915/": {
+        "anchors": [
+          "def-essential",
+          "sec-Disclosure"
+        ]
+      },
+      "https://www.w3.org/policies/process/20231103/": {
+        "anchors": [
+          "recs-and-notes"
+        ]
+      }
     },
-    "https://datatracker.ietf.org/doc/html/rfc2119": {},
-    "https://datatracker.ietf.org/doc/html/rfc7932": {
-      "anchors": [
-        "section-9.2"
-      ]
-    },
-    "https://developer.apple.com/fonts/TrueType-Reference-Manual/": {},
-    "https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6glyf.html": {},
-    "https://docs.google.com/document/d/1u-05ztF9MqftHbMKB_KiqeUhZKiXNFE4TRSUWFAPXsk/edit": {},
-    "https://docs.microsoft.com/en-us/typography/opentype/spec/cff": {},
-    "https://docs.microsoft.com/en-us/typography/opentype/spec/cff2": {
-      "anchors": [
-        "charStrings"
-      ]
-    },
-    "https://docs.microsoft.com/en-us/typography/opentype/spec/featuretags": {},
-    "https://docs.microsoft.com/en-us/typography/opentype/spec/fvar": {
-      "anchors": [
-        "variationaxisrecord"
-      ]
-    },
-    "https://docs.microsoft.com/en-us/typography/opentype/spec/glyf": {},
-    "https://docs.microsoft.com/en-us/typography/opentype/spec/otff": {
-      "anchors": [
-        "organization-of-an-opentype-font",
-        "table-directory"
-      ]
-    },
-    "https://docs.microsoft.com/en-us/typography/opentype/spec/otvaroverview": {
-      "anchors": [
-        "terminology"
-      ]
-    },
-    "https://drafts.csswg.org/css-fonts-4/": {
-      "anchors": [
-        "web-fonts",
-        "font-palette-values"
-      ],
-      "specShortname": "css-fonts-4"
-    },
-    "https://fetch.spec.whatwg.org/": {
-      "anchors": [
-        "fetching",
-        "concept-request-method",
-        "concept-request-destination",
-        "concept-request-mode",
-        "concept-request-cache-mode",
-        "concept-request-body",
-        "concept-header",
-        "concept-response-status",
-        "concept-response-body",
-        "concept-response",
-        "concept-status",
-        "http-redirect-fetch",
-        "concept-request-url"
-      ],
-      "specShortname": "fetch"
-    },
-    "https://github.com/w3c/IFT/issues/28": {},
-    "https://github.com/w3c/IFT/issues/58": {},
-    "https://github.com/w3c/IFT/issues/59": {},
-    "https://github.com/w3c/IFT/issues/60": {},
-    "https://github.com/w3c/IFT/issues/61": {},
-    "https://github.com/w3c/PFE-analysis/blob/main/results/set_encoding_branch_factor.md": {},
-    "https://github.com/w3c/PFE/issues/new": {},
-    "https://github.com/ztanml/fast-hash": {},
-    "https://url.spec.whatwg.org/": {
-      "anchors": [
-        "concept-url-scheme",
-        "concept-url-path"
-      ],
-      "specShortname": "url"
-    },
-    "https://www.rfc-editor.org/rfc/rfc3284": {},
-    "https://www.rfc-editor.org/rfc/rfc3629": {},
-    "https://www.rfc-editor.org/rfc/rfc4648": {},
-    "https://www.rfc-editor.org/rfc/rfc7932": {},
-    "https://www.rfc-editor.org/rfc/rfc8081": {
-      "anchors": [
-        "section-4.2"
-      ]
-    },
-    "https://www.rfc-editor.org/rfc/rfc8949": {},
-    "https://www.rfc-editor.org/rfc/rfc9110": {
-      "anchors": [
-        "name-get",
-        "range.requests",
-        "name-content-encoding",
-        "name-range"
-      ]
-    },
-    "https://www.rfc-editor.org/rfc/rfc9110.html": {
-      "anchors": [
-        "name-accept-ranges"
-      ]
-    },
-    "https://www.rfc-editor.org/rfc/rfc9111": {
-      "anchors": [
-        "name-field-definitions",
-        "name-freshness"
-      ]
-    },
-    "https://www.rfc-editor.org/rfc/rfc9112": {
-      "anchors": [
-        "section-6.1"
-      ]
-    },
-    "https://www.w3.org/2021/Process-20211102/": {
-      "anchors": [
-        "recs-and-notes"
-      ]
-    },
-    "https://www.w3.org/Consortium/Patent-Policy-20200915/": {
-      "anchors": [
-        "def-essential",
-        "sec-Disclosure"
-      ]
-    },
-    "https://www.w3.org/TR/": {},
-    "https://www.w3.org/TR/PFE-evaluation/": {
-      "anchors": [
-        "langtype",
-        "conclusions",
-        "fail-subset",
-        "codepredict",
-        "analysis",
-        "analysis-cjk"
-      ]
-    },
-    "https://www.w3.org/TR/WOFF/": {
-      "specShortname": "WOFF"
-    },
-    "https://www.w3.org/TR/WOFF2/": {
-      "specShortname": "WOFF2"
-    },
-    "https://www.w3.org/TR/css-fonts-4/": {
-      "anchors": [
-        "font-tech-definitions",
-        "font-fetching-requirements"
-      ],
-      "specShortname": "css-fonts-4"
-    },
-    "https://www.w3.org/TR/css-fonts-5/": {
-      "anchors": [
-        "at-font-face-rule"
-      ],
-      "specShortname": "css-fonts-5"
-    },
-    "https://www.w3.org/groups/wg/webfonts": {},
-    "https://www.w3.org/groups/wg/webfonts/ipr": {}
+    "autolinks": {}
   }
 }

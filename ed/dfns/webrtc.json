@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "WebRTC 1.0: Real-Time Communication Between Browsers",
+    "title": "WebRTC: Real-Time Communication in Browsers",
     "url": "https://w3c.github.io/webrtc-pc/"
   },
   "dfns": [
@@ -970,10 +970,10 @@
       "definedIn": "table"
     },
     {
-      "id": "dom-rtcpeerconnectionstate-connecting",
-      "href": "https://w3c.github.io/webrtc-pc/#dom-rtcpeerconnectionstate-connecting",
+      "id": "dom-rtcpeerconnectionstate-connected",
+      "href": "https://w3c.github.io/webrtc-pc/#dom-rtcpeerconnectionstate-connected",
       "linkingText": [
-        "connecting"
+        "connected"
       ],
       "localLinkingText": [],
       "type": "enum-value",
@@ -991,10 +991,10 @@
       "definedIn": "table"
     },
     {
-      "id": "dom-rtcpeerconnectionstate-connected",
-      "href": "https://w3c.github.io/webrtc-pc/#dom-rtcpeerconnectionstate-connected",
+      "id": "dom-rtcpeerconnectionstate-connecting",
+      "href": "https://w3c.github.io/webrtc-pc/#dom-rtcpeerconnectionstate-connecting",
       "linkingText": [
-        "connected"
+        "connecting"
       ],
       "localLinkingText": [],
       "type": "enum-value",
@@ -1178,82 +1178,6 @@
       "definedIn": "table"
     },
     {
-      "id": "dfn-signaling-state",
-      "href": "https://w3c.github.io/webrtc-pc/#dfn-signaling-state",
-      "linkingText": [
-        "signaling state"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "operation",
-        "href": "https://w3c.github.io/webrtc-pc/#operation",
-        "title": "Operation",
-        "number": "4.4.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-connection-state",
-      "href": "https://w3c.github.io/webrtc-pc/#dfn-connection-state",
-      "linkingText": [
-        "connection state"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "operation",
-        "href": "https://w3c.github.io/webrtc-pc/#operation",
-        "title": "Operation",
-        "number": "4.4.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-ice-gathering-state",
-      "href": "https://w3c.github.io/webrtc-pc/#dfn-ice-gathering-state",
-      "linkingText": [
-        "ICE gathering state"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "operation",
-        "href": "https://w3c.github.io/webrtc-pc/#operation",
-        "title": "Operation",
-        "number": "4.4.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-ice-connection-state",
-      "href": "https://w3c.github.io/webrtc-pc/#dfn-ice-connection-state",
-      "linkingText": [
-        "ICE connection state"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "operation",
-        "href": "https://w3c.github.io/webrtc-pc/#operation",
-        "title": "Operation",
-        "number": "4.4.1"
-      },
-      "definedIn": "prose"
-    },
-    {
       "id": "dfn-ice-agent",
       "href": "https://w3c.github.io/webrtc-pc/#dfn-ice-agent",
       "linkingText": [
@@ -1404,6 +1328,27 @@
       "definedIn": "prose"
     },
     {
+      "id": "dfn-datachannels",
+      "href": "https://w3c.github.io/webrtc-pc/#dfn-datachannels",
+      "linkingText": [
+        "[[DataChannels]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "constructor",
+        "href": "https://w3c.github.io/webrtc-pc/#constructor",
+        "title": "Constructor",
+        "number": "4.4.1.1"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "dfn-operations",
       "href": "https://w3c.github.io/webrtc-pc/#dfn-operations",
       "linkingText": [
@@ -1492,6 +1437,90 @@
       "href": "https://w3c.github.io/webrtc-pc/#dfn-earlycandidates",
       "linkingText": [
         "[[EarlyCandidates]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "constructor",
+        "href": "https://w3c.github.io/webrtc-pc/#constructor",
+        "title": "Constructor",
+        "number": "4.4.1.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-signalingstate",
+      "href": "https://w3c.github.io/webrtc-pc/#dfn-signalingstate",
+      "linkingText": [
+        "[[SignalingState]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "constructor",
+        "href": "https://w3c.github.io/webrtc-pc/#constructor",
+        "title": "Constructor",
+        "number": "4.4.1.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-iceconnectionstate",
+      "href": "https://w3c.github.io/webrtc-pc/#dfn-iceconnectionstate",
+      "linkingText": [
+        "[[IceConnectionState]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "constructor",
+        "href": "https://w3c.github.io/webrtc-pc/#constructor",
+        "title": "Constructor",
+        "number": "4.4.1.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-icegatheringstate",
+      "href": "https://w3c.github.io/webrtc-pc/#dfn-icegatheringstate",
+      "linkingText": [
+        "[[IceGatheringState]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "constructor",
+        "href": "https://w3c.github.io/webrtc-pc/#constructor",
+        "title": "Constructor",
+        "number": "4.4.1.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-connectionstate",
+      "href": "https://w3c.github.io/webrtc-pc/#dfn-connectionstate",
+      "linkingText": [
+        "[[ConnectionState]]"
       ],
       "localLinkingText": [],
       "type": "attribute",
@@ -1641,34 +1670,15 @@
         "chain an operation"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "chain-an-asynchronous-operation",
         "href": "https://w3c.github.io/webrtc-pc/#chain-an-asynchronous-operation",
         "title": "Chain an asynchronous operation",
         "number": "4.4.1.2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "update-ice-gathering-state",
-      "href": "https://w3c.github.io/webrtc-pc/#update-ice-gathering-state",
-      "linkingText": [
-        "update the ICE gathering state"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "update-the-ice-gathering-state",
-        "href": "https://w3c.github.io/webrtc-pc/#update-the-ice-gathering-state",
-        "title": "Update the ICE gathering state",
-        "number": "4.4.1.4"
       },
       "definedIn": "prose"
     },
@@ -1689,7 +1699,7 @@
         "id": "set-the-session-description",
         "href": "https://w3c.github.io/webrtc-pc/#set-the-session-description",
         "title": "Set the session description",
-        "number": "4.4.1.5"
+        "number": "4.4.1.4"
       },
       "definedIn": "prose"
     },
@@ -1710,7 +1720,7 @@
         "id": "set-the-session-description",
         "href": "https://w3c.github.io/webrtc-pc/#set-the-session-description",
         "title": "Set the session description",
-        "number": "4.4.1.5"
+        "number": "4.4.1.4"
       },
       "definedIn": "prose"
     },
@@ -1723,15 +1733,15 @@
         "set a session description"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "set-the-session-description",
         "href": "https://w3c.github.io/webrtc-pc/#set-the-session-description",
         "title": "Set the session description",
-        "number": "4.4.1.5"
+        "number": "4.4.1.4"
       },
       "definedIn": "prose"
     },
@@ -1743,15 +1753,15 @@
         "set a configuration"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "set-the-configuration",
         "href": "https://w3c.github.io/webrtc-pc/#set-the-configuration",
         "title": "Set the configuration",
-        "number": "4.4.1.6"
+        "number": "4.4.1.5"
       },
       "definedIn": "prose"
     },
@@ -1770,7 +1780,7 @@
         "id": "set-the-configuration",
         "href": "https://w3c.github.io/webrtc-pc/#set-the-configuration",
         "title": "Set the configuration",
-        "number": "4.4.1.6"
+        "number": "4.4.1.5"
       },
       "definedIn": "prose"
     },
@@ -1789,7 +1799,7 @@
         "id": "set-the-configuration",
         "href": "https://w3c.github.io/webrtc-pc/#set-the-configuration",
         "title": "Set the configuration",
-        "number": "4.4.1.6"
+        "number": "4.4.1.5"
       },
       "definedIn": "prose"
     },
@@ -1808,7 +1818,26 @@
         "id": "set-the-configuration",
         "href": "https://w3c.github.io/webrtc-pc/#set-the-configuration",
         "title": "Set the configuration",
-        "number": "4.4.1.6"
+        "number": "4.4.1.5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-validate-an-ice-server-url",
+      "href": "https://w3c.github.io/webrtc-pc/#dfn-validate-an-ice-server-url",
+      "linkingText": [
+        "validate an ICE server URL"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "set-the-configuration",
+        "href": "https://w3c.github.io/webrtc-pc/#set-the-configuration",
+        "title": "Set the configuration",
+        "number": "4.4.1.5"
       },
       "definedIn": "prose"
     },
@@ -2260,9 +2289,9 @@
         "create an offer"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "methods",
@@ -2278,9 +2307,9 @@
         "in-parallel steps to create an offer"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "methods",
@@ -2314,9 +2343,9 @@
         "final steps to create an offer"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "methods",
@@ -2358,9 +2387,9 @@
         "create an answer"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "methods",
@@ -2376,9 +2405,9 @@
         "in-parallel steps to create an answer"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "methods",
@@ -2412,9 +2441,9 @@
         "final steps to create an answer"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "methods",
@@ -2620,9 +2649,9 @@
         "close the connection"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "methods",
@@ -3190,9 +3219,9 @@
         "update the negotiation-needed flag"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "updating-the-negotiation-needed-flag",
@@ -3228,9 +3257,9 @@
         "check if negotiation is needed"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "updating-the-negotiation-needed-flag",
@@ -3310,9 +3339,9 @@
         "create an RTCIceCandidate"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "constructor-0",
@@ -4801,7 +4830,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "rtp-media-api",
@@ -4864,9 +4893,9 @@
         "CollectSenders"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "methods-5",
@@ -4930,9 +4959,9 @@
         "CollectTransceivers"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "methods-5",
@@ -5017,6 +5046,26 @@
         "title": "Methods"
       },
       "definedIn": "dt"
+    },
+    {
+      "id": "dfn-addtransceiver-sendencodings-validation-steps",
+      "href": "https://w3c.github.io/webrtc-pc/#dfn-addtransceiver-sendencodings-validation-steps",
+      "linkingText": [
+        "addTransceiver sendEncodings validation steps"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "RTCPeerConnection"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "methods-5",
+        "href": "https://w3c.github.io/webrtc-pc/#methods-5",
+        "title": "Methods"
+      },
+      "definedIn": "prose"
     },
     {
       "id": "dom-rtcrtptransceiverinit",
@@ -5227,9 +5276,9 @@
         "process remote tracks"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "processing-remote-mediastreamtracks",
@@ -5246,9 +5295,9 @@
         "process the addition of a remote track"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "processing-remote-mediastreamtracks",
@@ -5265,9 +5314,9 @@
         "process the removal of a remote track"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "processing-remote-mediastreamtracks",
@@ -5284,9 +5333,9 @@
         "set the associated remote streams"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "processing-remote-mediastreamtracks",
@@ -5322,9 +5371,9 @@
         "create an RTCRtpSender"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "rtcrtpsender-interface",
@@ -5450,7 +5499,7 @@
       "for": [
         "RTCRtpSender"
       ],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "rtcrtpsender-interface",
@@ -5492,7 +5541,7 @@
       "for": [
         "RTCRtpSender"
       ],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "rtcrtpsender-interface",
@@ -5593,11 +5642,50 @@
       "definedIn": "dt"
     },
     {
+      "id": "dfn-list-of-implemented-send-codecs",
+      "href": "https://w3c.github.io/webrtc-pc/#dfn-list-of-implemented-send-codecs",
+      "linkingText": [
+        "list of implemented send codecs"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "RTCRtpSender"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "methods-6",
+        "href": "https://w3c.github.io/webrtc-pc/#methods-6",
+        "title": "Methods"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-list-of-implemented-header-extensions-for-sending",
+      "href": "https://w3c.github.io/webrtc-pc/#dfn-list-of-implemented-header-extensions-for-sending",
+      "linkingText": [
+        "list of implemented header extensions for sending"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "methods-6",
+        "href": "https://w3c.github.io/webrtc-pc/#methods-6",
+        "title": "Methods"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "dom-rtcrtpsender-setparameters",
       "href": "https://w3c.github.io/webrtc-pc/#dom-rtcrtpsender-setparameters",
       "linkingText": [
         "setParameters()",
-        "setParameters(parameters)"
+        "setParameters(parameters)",
+        "setParameters(parameters, setParameterOptions)"
       ],
       "localLinkingText": [
         "RTCRtpSender.setParameters",
@@ -5616,6 +5704,26 @@
         "title": "Methods"
       },
       "definedIn": "dt"
+    },
+    {
+      "id": "dfn-setparameters-validation-steps",
+      "href": "https://w3c.github.io/webrtc-pc/#dfn-setparameters-validation-steps",
+      "linkingText": [
+        "setParameters validation steps"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "RTCRtpSender"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "methods-6",
+        "href": "https://w3c.github.io/webrtc-pc/#methods-6",
+        "title": "Methods"
+      },
+      "definedIn": "prose"
     },
     {
       "id": "dfn-read-only-parameter",
@@ -5969,6 +6077,26 @@
       "definedIn": "dt"
     },
     {
+      "id": "dom-rtcrtpencodingparameters-codec",
+      "href": "https://w3c.github.io/webrtc-pc/#dom-rtcrtpencodingparameters-codec",
+      "linkingText": [
+        "codec"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RTCRtpEncodingParameters"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dictionary-rtcrtpencodingparameters-members",
+        "href": "https://w3c.github.io/webrtc-pc/#dictionary-rtcrtpencodingparameters-members",
+        "title": "Dictionary RTCRtpEncodingParameters Members"
+      },
+      "definedIn": "dt"
+    },
+    {
       "id": "dom-rtcrtpencodingparameters-maxbitrate",
       "href": "https://w3c.github.io/webrtc-pc/#dom-rtcrtpencodingparameters-maxbitrate",
       "linkingText": [
@@ -6167,6 +6295,105 @@
       "definedIn": "dt"
     },
     {
+      "id": "dom-rtcrtpcodec",
+      "href": "https://w3c.github.io/webrtc-pc/#dom-rtcrtpcodec",
+      "linkingText": [
+        "RTCRtpCodec"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "rtcrtpcodec",
+        "href": "https://w3c.github.io/webrtc-pc/#rtcrtpcodec",
+        "title": "RTCRtpCodec Dictionary",
+        "number": "5.2.8"
+      },
+      "definedIn": "heading"
+    },
+    {
+      "id": "dom-rtcrtpcodec-mimetype",
+      "href": "https://w3c.github.io/webrtc-pc/#dom-rtcrtpcodec-mimetype",
+      "linkingText": [
+        "mimeType"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RTCRtpCodec"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dictionary-rtcrtpcodec-members",
+        "href": "https://w3c.github.io/webrtc-pc/#dictionary-rtcrtpcodec-members",
+        "title": "Dictionary RTCRtpCodec Members"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-rtcrtpcodec-clockrate",
+      "href": "https://w3c.github.io/webrtc-pc/#dom-rtcrtpcodec-clockrate",
+      "linkingText": [
+        "clockRate"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RTCRtpCodec"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dictionary-rtcrtpcodec-members",
+        "href": "https://w3c.github.io/webrtc-pc/#dictionary-rtcrtpcodec-members",
+        "title": "Dictionary RTCRtpCodec Members"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-rtcrtpcodec-channels",
+      "href": "https://w3c.github.io/webrtc-pc/#dom-rtcrtpcodec-channels",
+      "linkingText": [
+        "channels"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RTCRtpCodec"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dictionary-rtcrtpcodec-members",
+        "href": "https://w3c.github.io/webrtc-pc/#dictionary-rtcrtpcodec-members",
+        "title": "Dictionary RTCRtpCodec Members"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-rtcrtpcodec-sdpfmtpline",
+      "href": "https://w3c.github.io/webrtc-pc/#dom-rtcrtpcodec-sdpfmtpline",
+      "linkingText": [
+        "sdpFmtpLine"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RTCRtpCodec"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dictionary-rtcrtpcodec-members",
+        "href": "https://w3c.github.io/webrtc-pc/#dictionary-rtcrtpcodec-members",
+        "title": "Dictionary RTCRtpCodec Members"
+      },
+      "definedIn": "dt"
+    },
+    {
       "id": "dom-rtcrtpcodecparameters",
       "href": "https://w3c.github.io/webrtc-pc/#dom-rtcrtpcodecparameters",
       "linkingText": [
@@ -6181,7 +6408,7 @@
         "id": "rtcrtpcodecparameters",
         "href": "https://w3c.github.io/webrtc-pc/#rtcrtpcodecparameters",
         "title": "RTCRtpCodecParameters Dictionary",
-        "number": "5.2.8"
+        "number": "5.2.9"
       },
       "definedIn": "heading"
     },
@@ -6190,86 +6417,6 @@
       "href": "https://w3c.github.io/webrtc-pc/#dom-rtcrtpcodecparameters-payloadtype",
       "linkingText": [
         "payloadType"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "RTCRtpCodecParameters"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "dictionary-rtcrtpcodecparameters-members",
-        "href": "https://w3c.github.io/webrtc-pc/#dictionary-rtcrtpcodecparameters-members",
-        "title": "Dictionary RTCRtpCodecParameters Members"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "dom-rtcrtpcodecparameters-mimetype",
-      "href": "https://w3c.github.io/webrtc-pc/#dom-rtcrtpcodecparameters-mimetype",
-      "linkingText": [
-        "mimeType"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "RTCRtpCodecParameters"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "dictionary-rtcrtpcodecparameters-members",
-        "href": "https://w3c.github.io/webrtc-pc/#dictionary-rtcrtpcodecparameters-members",
-        "title": "Dictionary RTCRtpCodecParameters Members"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "dom-rtcrtpcodecparameters-clockrate",
-      "href": "https://w3c.github.io/webrtc-pc/#dom-rtcrtpcodecparameters-clockrate",
-      "linkingText": [
-        "clockRate"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "RTCRtpCodecParameters"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "dictionary-rtcrtpcodecparameters-members",
-        "href": "https://w3c.github.io/webrtc-pc/#dictionary-rtcrtpcodecparameters-members",
-        "title": "Dictionary RTCRtpCodecParameters Members"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "dom-rtcrtpcodecparameters-channels",
-      "href": "https://w3c.github.io/webrtc-pc/#dom-rtcrtpcodecparameters-channels",
-      "linkingText": [
-        "channels"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "RTCRtpCodecParameters"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "dictionary-rtcrtpcodecparameters-members",
-        "href": "https://w3c.github.io/webrtc-pc/#dictionary-rtcrtpcodecparameters-members",
-        "title": "Dictionary RTCRtpCodecParameters Members"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "dom-rtcrtpcodecparameters-sdpfmtpline",
-      "href": "https://w3c.github.io/webrtc-pc/#dom-rtcrtpcodecparameters-sdpfmtpline",
-      "linkingText": [
-        "sdpFmtpLine"
       ],
       "localLinkingText": [],
       "type": "dict-member",
@@ -6300,7 +6447,7 @@
         "id": "rtcrtpcapabilities",
         "href": "https://w3c.github.io/webrtc-pc/#rtcrtpcapabilities",
         "title": "RTCRtpCapabilities Dictionary",
-        "number": "5.2.9"
+        "number": "5.2.10"
       },
       "definedIn": "heading"
     },
@@ -6345,105 +6492,6 @@
       "definedIn": "dt"
     },
     {
-      "id": "dom-rtcrtpcodeccapability",
-      "href": "https://w3c.github.io/webrtc-pc/#dom-rtcrtpcodeccapability",
-      "linkingText": [
-        "RTCRtpCodecCapability"
-      ],
-      "localLinkingText": [],
-      "type": "dictionary",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "rtcrtpcodeccapability",
-        "href": "https://w3c.github.io/webrtc-pc/#rtcrtpcodeccapability",
-        "title": "RTCRtpCodecCapability Dictionary",
-        "number": "5.2.10"
-      },
-      "definedIn": "heading"
-    },
-    {
-      "id": "dom-rtcrtpcodeccapability-mimetype",
-      "href": "https://w3c.github.io/webrtc-pc/#dom-rtcrtpcodeccapability-mimetype",
-      "linkingText": [
-        "mimeType"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "RTCRtpCodecCapability"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "dictionary-rtcrtpcodeccapability-members",
-        "href": "https://w3c.github.io/webrtc-pc/#dictionary-rtcrtpcodeccapability-members",
-        "title": "Dictionary RTCRtpCodecCapability Members"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "dom-rtcrtpcodeccapability-clockrate",
-      "href": "https://w3c.github.io/webrtc-pc/#dom-rtcrtpcodeccapability-clockrate",
-      "linkingText": [
-        "clockRate"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "RTCRtpCodecCapability"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "dictionary-rtcrtpcodeccapability-members",
-        "href": "https://w3c.github.io/webrtc-pc/#dictionary-rtcrtpcodeccapability-members",
-        "title": "Dictionary RTCRtpCodecCapability Members"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "dom-rtcrtpcodeccapability-channels",
-      "href": "https://w3c.github.io/webrtc-pc/#dom-rtcrtpcodeccapability-channels",
-      "linkingText": [
-        "channels"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "RTCRtpCodecCapability"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "dictionary-rtcrtpcodeccapability-members",
-        "href": "https://w3c.github.io/webrtc-pc/#dictionary-rtcrtpcodeccapability-members",
-        "title": "Dictionary RTCRtpCodecCapability Members"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "dom-rtcrtpcodeccapability-sdpfmtpline",
-      "href": "https://w3c.github.io/webrtc-pc/#dom-rtcrtpcodeccapability-sdpfmtpline",
-      "linkingText": [
-        "sdpFmtpLine"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "RTCRtpCodecCapability"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "dictionary-rtcrtpcodeccapability-members",
-        "href": "https://w3c.github.io/webrtc-pc/#dictionary-rtcrtpcodeccapability-members",
-        "title": "Dictionary RTCRtpCodecCapability Members"
-      },
-      "definedIn": "dt"
-    },
-    {
       "id": "dom-rtcrtpheaderextensioncapability",
       "href": "https://w3c.github.io/webrtc-pc/#dom-rtcrtpheaderextensioncapability",
       "linkingText": [
@@ -6483,6 +6531,25 @@
       "definedIn": "dt"
     },
     {
+      "id": "dom-rtcsetparameteroptions",
+      "href": "https://w3c.github.io/webrtc-pc/#dom-rtcsetparameteroptions",
+      "linkingText": [
+        "RTCSetParameterOptions"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "rtcsetparameteroptions-dictionary",
+        "href": "https://w3c.github.io/webrtc-pc/#rtcsetparameteroptions-dictionary",
+        "title": "RTCSetParameterOptions Dictionary",
+        "number": "5.2.12"
+      },
+      "definedIn": "heading"
+    },
+    {
       "id": "dom-rtcrtpreceiver",
       "href": "https://w3c.github.io/webrtc-pc/#dom-rtcrtpreceiver",
       "linkingText": [
@@ -6508,9 +6575,9 @@
         "create an RTCRtpReceiver"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "rtcrtpreceiver-interface",
@@ -6550,7 +6617,7 @@
       "for": [
         "RTCRtpReceiver"
       ],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "rtcrtpreceiver-interface",
@@ -6687,6 +6754,27 @@
       "definedIn": "prose"
     },
     {
+      "id": "dfn-jitterbuffertarget",
+      "href": "https://w3c.github.io/webrtc-pc/#dfn-jitterbuffertarget",
+      "linkingText": [
+        "[[JitterBufferTarget]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "RTCRtpReceiver"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "rtcrtpreceiver-interface",
+        "href": "https://w3c.github.io/webrtc-pc/#rtcrtpreceiver-interface",
+        "title": "RTCRtpReceiver Interface",
+        "number": "5.3"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "dom-rtpreceiver-track",
       "href": "https://w3c.github.io/webrtc-pc/#dom-rtpreceiver-track",
       "linkingText": [
@@ -6731,6 +6819,64 @@
       "definedIn": "dt"
     },
     {
+      "id": "dom-rtcrtpreceiver-jitterbuffertarget",
+      "href": "https://w3c.github.io/webrtc-pc/#dom-rtcrtpreceiver-jitterbuffertarget",
+      "linkingText": [
+        "jitterBufferTarget"
+      ],
+      "localLinkingText": [
+        "RTCRtpReceiver.jitterBufferTarget"
+      ],
+      "type": "attribute",
+      "for": [
+        "RTCRtpReceiver"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "attributes-10",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-10",
+        "title": "Attributes"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dfn-minimum-allowed-target",
+      "href": "https://w3c.github.io/webrtc-pc/#dfn-minimum-allowed-target",
+      "linkingText": [
+        "minimum allowed target"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "attributes-10",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-10",
+        "title": "Attributes"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-maximum-allowed-target",
+      "href": "https://w3c.github.io/webrtc-pc/#dfn-maximum-allowed-target",
+      "linkingText": [
+        "maximum allowed target"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "attributes-10",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-10",
+        "title": "Attributes"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "dom-rtcrtpreceiver-getcapabilities",
       "href": "https://w3c.github.io/webrtc-pc/#dom-rtcrtpreceiver-getcapabilities",
       "linkingText": [
@@ -6754,6 +6900,42 @@
         "title": "Methods"
       },
       "definedIn": "dt"
+    },
+    {
+      "id": "dfn-list-of-implemented-receive-codecs",
+      "href": "https://w3c.github.io/webrtc-pc/#dfn-list-of-implemented-receive-codecs",
+      "linkingText": [
+        "list of implemented receive codecs"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "methods-7",
+        "href": "https://w3c.github.io/webrtc-pc/#methods-7",
+        "title": "Methods"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-list-of-implemented-header-extensions-for-receiving",
+      "href": "https://w3c.github.io/webrtc-pc/#dfn-list-of-implemented-header-extensions-for-receiving",
+      "linkingText": [
+        "list of implemented header extensions for receiving"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "methods-7",
+        "href": "https://w3c.github.io/webrtc-pc/#methods-7",
+        "title": "Methods"
+      },
+      "definedIn": "prose"
     },
     {
       "id": "dom-rtcrtpreceiver-getparameters",
@@ -7015,8 +7197,10 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
-      "access": "private",
+      "for": [
+        "RTCRtpTransceiver"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "rtcrtptransceiver-interface",
@@ -7033,9 +7217,9 @@
         "create an RTCRtpTransceiver"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "rtcrtptransceiver-interface",
@@ -7056,7 +7240,7 @@
       "for": [
         "RTCRtpTransceiver"
       ],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "rtcrtptransceiver-interface",
@@ -7224,7 +7408,7 @@
       "for": [
         "RTCRtpTransceiver"
       ],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "rtcrtptransceiver-interface",
@@ -7453,9 +7637,9 @@
         "stop sending and receiving"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "methods-8",
@@ -7471,9 +7655,9 @@
         "stop the RTCRtpTransceiver"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "methods-8",
@@ -7506,6 +7690,24 @@
         "title": "Methods"
       },
       "definedIn": "dt"
+    },
+    {
+      "id": "dfn-codec-dictionary-match",
+      "href": "https://w3c.github.io/webrtc-pc/#dfn-codec-dictionary-match",
+      "linkingText": [
+        "codec dictionary match"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "methods-8",
+        "href": "https://w3c.github.io/webrtc-pc/#methods-8",
+        "title": "Methods"
+      },
+      "definedIn": "prose"
     },
     {
       "id": "dfn-simulcast-envelope",
@@ -7927,9 +8129,9 @@
         "release early candidates"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "rtcicetransport",
@@ -7947,9 +8149,30 @@
         "surface a candidate"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "rtcicetransport",
+        "href": "https://w3c.github.io/webrtc-pc/#rtcicetransport",
+        "title": "RTCIceTransport Interface",
+        "number": "5.6"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-change-the-selected-candidate-pair-and-state",
+      "href": "https://w3c.github.io/webrtc-pc/#dfn-change-the-selected-candidate-pair-and-state",
+      "linkingText": [
+        "change the selected candidate pair and state"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "RTCIceTransport"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "rtcicetransport",
@@ -8383,17 +8606,79 @@
         "RTCIceCandidatePair"
       ],
       "localLinkingText": [],
-      "type": "dictionary",
+      "type": "interface",
       "for": [],
       "access": "public",
       "informative": false,
       "heading": {
         "id": "rtcicecandidatepair",
         "href": "https://w3c.github.io/webrtc-pc/#rtcicecandidatepair",
-        "title": "RTCIceCandidatePair Dictionary",
+        "title": "RTCIceCandidatePair Interface",
         "number": "5.6.2"
       },
       "definedIn": "heading"
+    },
+    {
+      "id": "dfn-creating-an-rtcicecandidatepair",
+      "href": "https://w3c.github.io/webrtc-pc/#dfn-creating-an-rtcicecandidatepair",
+      "linkingText": [
+        "creating an RTCIceCandidatePair",
+        "create an RTCIceCandidatePair"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "rtcicecandidatepair",
+        "href": "https://w3c.github.io/webrtc-pc/#rtcicecandidatepair",
+        "title": "RTCIceCandidatePair Interface",
+        "number": "5.6.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-local",
+      "href": "https://w3c.github.io/webrtc-pc/#dfn-local",
+      "linkingText": [
+        "[[Local]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "RTCIceCandidatePair"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rtcicecandidatepair",
+        "href": "https://w3c.github.io/webrtc-pc/#rtcicecandidatepair",
+        "title": "RTCIceCandidatePair Interface",
+        "number": "5.6.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-remote",
+      "href": "https://w3c.github.io/webrtc-pc/#dfn-remote",
+      "linkingText": [
+        "[[Remote]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "RTCIceCandidatePair"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rtcicecandidatepair",
+        "href": "https://w3c.github.io/webrtc-pc/#rtcicecandidatepair",
+        "title": "RTCIceCandidatePair Interface",
+        "number": "5.6.2"
+      },
+      "definedIn": "prose"
     },
     {
       "id": "dom-rtcicecandidatepair-local",
@@ -8401,17 +8686,19 @@
       "linkingText": [
         "local"
       ],
-      "localLinkingText": [],
-      "type": "dict-member",
+      "localLinkingText": [
+        "RTCIceCandidatePair.local"
+      ],
+      "type": "attribute",
       "for": [
         "RTCIceCandidatePair"
       ],
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "dictionary-rtcicecandidatepair-members",
-        "href": "https://w3c.github.io/webrtc-pc/#dictionary-rtcicecandidatepair-members",
-        "title": "Dictionary RTCIceCandidatePair Members"
+        "id": "attributes-14",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-14",
+        "title": "Attributes"
       },
       "definedIn": "dt"
     },
@@ -8421,17 +8708,19 @@
       "linkingText": [
         "remote"
       ],
-      "localLinkingText": [],
-      "type": "dict-member",
+      "localLinkingText": [
+        "RTCIceCandidatePair.remote"
+      ],
+      "type": "attribute",
       "for": [
         "RTCIceCandidatePair"
       ],
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "dictionary-rtcicecandidatepair-members",
-        "href": "https://w3c.github.io/webrtc-pc/#dictionary-rtcicecandidatepair-members",
-        "title": "Dictionary RTCIceCandidatePair Members"
+        "id": "attributes-14",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-14",
+        "title": "Attributes"
       },
       "definedIn": "dt"
     },
@@ -8537,6 +8826,69 @@
       "definedIn": "heading"
     },
     {
+      "id": "dom-rtcicetransportstate-closed",
+      "href": "https://w3c.github.io/webrtc-pc/#dom-rtcicetransportstate-closed",
+      "linkingText": [
+        "closed"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "RTCIceTransportState"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "rtcicetransportstate",
+        "href": "https://w3c.github.io/webrtc-pc/#rtcicetransportstate",
+        "title": "RTCIceTransportState Enum",
+        "number": "5.6.4"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "dom-rtcicetransportstate-failed",
+      "href": "https://w3c.github.io/webrtc-pc/#dom-rtcicetransportstate-failed",
+      "linkingText": [
+        "failed"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "RTCIceTransportState"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "rtcicetransportstate",
+        "href": "https://w3c.github.io/webrtc-pc/#rtcicetransportstate",
+        "title": "RTCIceTransportState Enum",
+        "number": "5.6.4"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "dom-rtcicetransportstate-disconnected",
+      "href": "https://w3c.github.io/webrtc-pc/#dom-rtcicetransportstate-disconnected",
+      "linkingText": [
+        "disconnected"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "RTCIceTransportState"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "rtcicetransportstate",
+        "href": "https://w3c.github.io/webrtc-pc/#rtcicetransportstate",
+        "title": "RTCIceTransportState Enum",
+        "number": "5.6.4"
+      },
+      "definedIn": "table"
+    },
+    {
       "id": "dom-rtcicetransportstate-new",
       "href": "https://w3c.github.io/webrtc-pc/#dom-rtcicetransportstate-new",
       "linkingText": [
@@ -8579,27 +8931,6 @@
       "definedIn": "table"
     },
     {
-      "id": "dom-rtcicetransportstate-connected",
-      "href": "https://w3c.github.io/webrtc-pc/#dom-rtcicetransportstate-connected",
-      "linkingText": [
-        "connected"
-      ],
-      "localLinkingText": [],
-      "type": "enum-value",
-      "for": [
-        "RTCIceTransportState"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "rtcicetransportstate",
-        "href": "https://w3c.github.io/webrtc-pc/#rtcicetransportstate",
-        "title": "RTCIceTransportState Enum",
-        "number": "5.6.4"
-      },
-      "definedIn": "table"
-    },
-    {
       "id": "dom-rtcicetransportstate-completed",
       "href": "https://w3c.github.io/webrtc-pc/#dom-rtcicetransportstate-completed",
       "linkingText": [
@@ -8621,52 +8952,10 @@
       "definedIn": "table"
     },
     {
-      "id": "dom-rtcicetransportstate-disconnected",
-      "href": "https://w3c.github.io/webrtc-pc/#dom-rtcicetransportstate-disconnected",
+      "id": "dom-rtcicetransportstate-connected",
+      "href": "https://w3c.github.io/webrtc-pc/#dom-rtcicetransportstate-connected",
       "linkingText": [
-        "disconnected"
-      ],
-      "localLinkingText": [],
-      "type": "enum-value",
-      "for": [
-        "RTCIceTransportState"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "rtcicetransportstate",
-        "href": "https://w3c.github.io/webrtc-pc/#rtcicetransportstate",
-        "title": "RTCIceTransportState Enum",
-        "number": "5.6.4"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "dom-rtcicetransportstate-failed",
-      "href": "https://w3c.github.io/webrtc-pc/#dom-rtcicetransportstate-failed",
-      "linkingText": [
-        "failed"
-      ],
-      "localLinkingText": [],
-      "type": "enum-value",
-      "for": [
-        "RTCIceTransportState"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "rtcicetransportstate",
-        "href": "https://w3c.github.io/webrtc-pc/#rtcicetransportstate",
-        "title": "RTCIceTransportState Enum",
-        "number": "5.6.4"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "dom-rtcicetransportstate-closed",
-      "href": "https://w3c.github.io/webrtc-pc/#dom-rtcicetransportstate-closed",
-      "linkingText": [
-        "closed"
+        "connected"
       ],
       "localLinkingText": [],
       "type": "enum-value",
@@ -8886,8 +9175,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-14",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-14",
+        "id": "attributes-15",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-15",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -8908,8 +9197,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-14",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-14",
+        "id": "attributes-15",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-15",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -8930,8 +9219,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-14",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-14",
+        "id": "attributes-15",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-15",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -8952,8 +9241,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-14",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-14",
+        "id": "attributes-15",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-15",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9072,8 +9361,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-15",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-15",
+        "id": "attributes-16",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-16",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9094,8 +9383,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-15",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-15",
+        "id": "attributes-16",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-16",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9152,9 +9441,9 @@
         "create an RTCSctpTransport"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "create-an-instance",
@@ -9234,9 +9523,9 @@
         "update the data max message size"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "update-max-message-size",
@@ -9282,8 +9571,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-16",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-16",
+        "id": "attributes-17",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-17",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9304,8 +9593,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-16",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-16",
+        "id": "attributes-17",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-17",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9326,8 +9615,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-16",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-16",
+        "id": "attributes-17",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-17",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9348,8 +9637,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-16",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-16",
+        "id": "attributes-17",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-17",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9370,8 +9659,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-16",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-16",
+        "id": "attributes-17",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-17",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9504,9 +9793,9 @@
         "create an RTCDataChannel"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "creating-a-data-channel",
@@ -9706,6 +9995,27 @@
       "definedIn": "prose"
     },
     {
+      "id": "dfn-istransferable",
+      "href": "https://w3c.github.io/webrtc-pc/#dfn-istransferable",
+      "linkingText": [
+        "[[IsTransferable]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "RTCDataChannel"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "creating-a-data-channel",
+        "href": "https://w3c.github.io/webrtc-pc/#creating-a-data-channel",
+        "title": "Creating a data channel",
+        "number": "6.2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "announce-datachannel-open",
       "href": "https://w3c.github.io/webrtc-pc/#announce-datachannel-open",
       "linkingText": [
@@ -9713,9 +10023,9 @@
         "announce an RTCDataChannel as open"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "announcing-a-data-channel-as-open",
@@ -9732,9 +10042,9 @@
         "closing procedure"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "closing-procedure",
@@ -9743,6 +10053,25 @@
         "number": "6.2.4"
       },
       "definedIn": "prose"
+    },
+    {
+      "id": "dfn-announcing-a-data-channel-as-closed",
+      "href": "https://w3c.github.io/webrtc-pc/#dfn-announcing-a-data-channel-as-closed",
+      "linkingText": [
+        "Announcing a data channel as closed"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "announcing-a-data-channel-as-closed",
+        "href": "https://w3c.github.io/webrtc-pc/#announcing-a-data-channel-as-closed",
+        "title": "Announcing a data channel as closed",
+        "number": "6.2.5"
+      },
+      "definedIn": "heading"
     },
     {
       "id": "data-transport-closed",
@@ -9780,9 +10109,28 @@
         "id": "error-on-creating-data-channels",
         "href": "https://w3c.github.io/webrtc-pc/#error-on-creating-data-channels",
         "title": "Error on creating data channels",
-        "number": "6.2.6"
+        "number": "6.2.7"
       },
       "definedIn": "prose"
+    },
+    {
+      "id": "dfn-receiving-messages-on-a-data-channel",
+      "href": "https://w3c.github.io/webrtc-pc/#dfn-receiving-messages-on-a-data-channel",
+      "linkingText": [
+        "Receiving messages on a data channel"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "receiving-messages-on-a-data-channel",
+        "href": "https://w3c.github.io/webrtc-pc/#receiving-messages-on-a-data-channel",
+        "title": "Receiving messages on a data channel",
+        "number": "6.2.8"
+      },
+      "definedIn": "heading"
     },
     {
       "id": "dom-datachannel-label",
@@ -9800,8 +10148,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9822,8 +10170,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9844,8 +10192,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9866,8 +10214,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9888,8 +10236,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9910,8 +10258,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9932,8 +10280,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9954,8 +10302,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9976,8 +10324,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -9998,8 +10346,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -10020,8 +10368,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -10042,8 +10390,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -10064,8 +10412,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -10086,8 +10434,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -10108,8 +10456,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -10130,8 +10478,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -10152,8 +10500,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-17",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-17",
+        "id": "attributes-18",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-18",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -10289,9 +10637,9 @@
         "send() algorithm"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "methods-12",
@@ -10601,8 +10949,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-18",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-18",
+        "id": "attributes-19",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-19",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -10661,8 +11009,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-19",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-19",
+        "id": "attributes-20",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-20",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -10693,9 +11041,9 @@
         "create an RTCDTMFSender"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "rtcdtmfsender",
@@ -10784,8 +11132,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-20",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-20",
+        "id": "attributes-21",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-21",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -10806,8 +11154,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-20",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-20",
+        "id": "attributes-21",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-21",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -10828,8 +11176,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-20",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-20",
+        "id": "attributes-21",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-21",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -10880,15 +11228,33 @@
       "definedIn": "prose"
     },
     {
+      "id": "dfn-dtmf-playout-task-steps",
+      "href": "https://w3c.github.io/webrtc-pc/#dfn-dtmf-playout-task-steps",
+      "linkingText": [
+        "DTMF playout task steps"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "methods-13",
+        "href": "https://w3c.github.io/webrtc-pc/#methods-13",
+        "title": "Methods"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "dfn-determine-if-dtmf-can-be-sent",
       "href": "https://w3c.github.io/webrtc-pc/#dfn-determine-if-dtmf-can-be-sent",
       "linkingText": [
         "determine if DTMF can be sent"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "caninsertdtmf-algorithm",
@@ -10959,8 +11325,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "attributes-21",
-        "href": "https://w3c.github.io/webrtc-pc/#attributes-21",
+        "id": "attributes-22",
+        "href": "https://w3c.github.io/webrtc-pc/#attributes-22",
         "title": "Attributes"
       },
       "definedIn": "dt"
@@ -11152,9 +11518,9 @@
         "stats selection algorithm"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "the-stats-selection-algorithm",

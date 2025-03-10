@@ -5,6 +5,25 @@
   },
   "dfns": [
     {
+      "id": "shape-detection-task-source",
+      "href": "https://wicg.github.io/shape-detection-api/#shape-detection-task-source",
+      "linkingText": [
+        "shape detection task source"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "api",
+        "href": "https://wicg.github.io/shape-detection-api/#api",
+        "title": "Shape Detection API",
+        "number": "2"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "facedetector",
       "href": "https://wicg.github.io/shape-detection-api/#facedetector",
       "linkingText": [

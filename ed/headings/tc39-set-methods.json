@@ -68,18 +68,25 @@
       "number": "9"
     },
     {
-      "id": "sec-getkeysiterator",
-      "href": "https://tc39.es/proposal-set-methods/#sec-getkeysiterator",
-      "title": "GetKeysIterator ( setRec )",
+      "id": "sec-setdatahas",
+      "href": "https://tc39.es/proposal-set-methods/#sec-setdatahas",
+      "title": "SetDataHas ( setData, value )",
       "level": 1,
       "number": "10"
     },
     {
-      "id": "sec-setdatahas",
-      "href": "https://tc39.es/proposal-set-methods/#sec-setdatahas",
-      "title": "SetDataHas ( resultSetData, value )",
+      "id": "sec-setdataindex",
+      "href": "https://tc39.es/proposal-set-methods/#sec-setdataindex",
+      "title": "SetDataIndex ( setData, value )",
       "level": 1,
       "number": "11"
+    },
+    {
+      "id": "sec-setdatasize",
+      "href": "https://tc39.es/proposal-set-methods/#sec-setdatasize",
+      "title": "SetDataSize ( setData )",
+      "level": 1,
+      "number": "12"
     }
   ]
 }

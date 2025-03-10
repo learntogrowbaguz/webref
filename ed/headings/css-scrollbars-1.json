@@ -64,6 +64,13 @@
       "number": "2"
     },
     {
+      "id": "color-compat",
+      "href": "https://drafts.csswg.org/css-scrollbars-1/#color-compat",
+      "level": 3,
+      "title": "Interaction with non-standard features",
+      "number": "2.1"
+    },
+    {
       "id": "scrollbar-width",
       "href": "https://drafts.csswg.org/css-scrollbars-1/#scrollbar-width",
       "level": 2,
@@ -71,16 +78,31 @@
       "number": "3"
     },
     {
+      "id": "width-compat",
+      "href": "https://drafts.csswg.org/css-scrollbars-1/#width-compat",
+      "level": 3,
+      "title": "Interaction with non-standard features",
+      "number": "3.1"
+    },
+    {
       "id": "acknowledgments",
       "href": "https://drafts.csswg.org/css-scrollbars-1/#acknowledgments",
       "level": 2,
-      "title": "Appendix A. Acknowledgments"
+      "title": "Acknowledgments",
+      "number": "A"
     },
     {
       "id": "changes",
       "href": "https://drafts.csswg.org/css-scrollbars-1/#changes",
       "level": 2,
-      "title": "Appendix B. Changes"
+      "title": "Changes",
+      "number": "B"
+    },
+    {
+      "id": "changes-since-2021-12-09",
+      "href": "https://drafts.csswg.org/css-scrollbars-1/#changes-since-2021-12-09",
+      "level": 3,
+      "title": "Changes since the 9 December 2021 Candidate Recommendation"
     },
     {
       "id": "changes-since-2021-12-02",
@@ -104,7 +126,8 @@
       "id": "security-privacy-considerations",
       "href": "https://drafts.csswg.org/css-scrollbars-1/#security-privacy-considerations",
       "level": 2,
-      "title": "Appendix C. Considerations for Security and Privacy"
+      "title": "Security and Privacy",
+      "number": "C"
     },
     {
       "id": "security-considerations",
@@ -122,13 +145,14 @@
       "id": "security-privacy-self-review",
       "href": "https://drafts.csswg.org/css-scrollbars-1/#security-privacy-self-review",
       "level": 3,
-      "title": "Self-review questionaire"
+      "title": "Self-review questionnaire"
     },
     {
       "id": "accessibility-considerations",
       "href": "https://drafts.csswg.org/css-scrollbars-1/#accessibility-considerations",
       "level": 2,
-      "title": "Appendix D. Considerations for accessibility"
+      "title": "Considerations for accessibility",
+      "number": "D"
     },
     {
       "id": "w3c-conformance",
@@ -165,12 +189,6 @@
       "href": "https://drafts.csswg.org/css-scrollbars-1/#w3c-testing",
       "level": 3,
       "title": "Non-experimental implementations"
-    },
-    {
-      "id": "w3c-cr-exit-criteria",
-      "href": "https://drafts.csswg.org/css-scrollbars-1/#w3c-cr-exit-criteria",
-      "level": 3,
-      "title": "CR exit criteria"
     },
     {
       "id": "index",

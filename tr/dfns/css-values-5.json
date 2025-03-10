@@ -1,12 +1,1516 @@
 {
   "spec": {
     "title": "CSS Values and Units Module Level 5",
-    "url": "https://drafts.csswg.org/css-values-5/"
+    "url": "https://www.w3.org/TR/css-values-5/"
   },
   "dfns": [
     {
+      "id": "comma-containing-productions",
+      "href": "https://www.w3.org/TR/css-values-5/#comma-containing-productions",
+      "linkingText": [
+        "comma-containing productions"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "component-function-commas",
+        "href": "https://www.w3.org/TR/css-values-5/#component-function-commas",
+        "title": "Commas in Function Arguments",
+        "number": "3.1.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "non-strict-comma-containing-production",
+      "href": "https://www.w3.org/TR/css-values-5/#non-strict-comma-containing-production",
+      "linkingText": [
+        "non-strict comma-containing production"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "component-function-commas",
+        "href": "https://www.w3.org/TR/css-values-5/#component-function-commas",
+        "title": "Commas in Function Arguments",
+        "number": "3.1.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "typedef-boolean-expr",
+      "href": "https://www.w3.org/TR/css-values-5/#typedef-boolean-expr",
+      "linkingText": [
+        "<boolean-expr[]>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "boolean",
+        "href": "https://www.w3.org/TR/css-values-5/#boolean",
+        "title": "Boolean Expression Multiplier <boolean-expr[]>",
+        "number": "3.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "typedef-syntax",
+      "href": "https://www.w3.org/TR/css-values-5/#typedef-syntax",
+      "linkingText": [
+        "<syntax>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "css-syntax",
+        "href": "https://www.w3.org/TR/css-values-5/#css-syntax",
+        "title": "Specifying CSS Syntax in CSS: the <syntax> type",
+        "number": "3.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "typedef-syntax-component",
+      "href": "https://www.w3.org/TR/css-values-5/#typedef-syntax-component",
+      "linkingText": [
+        "<syntax-component>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "css-syntax",
+        "href": "https://www.w3.org/TR/css-values-5/#css-syntax",
+        "title": "Specifying CSS Syntax in CSS: the <syntax> type",
+        "number": "3.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "typedef-syntax-single-component",
+      "href": "https://www.w3.org/TR/css-values-5/#typedef-syntax-single-component",
+      "linkingText": [
+        "<syntax-single-component>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "css-syntax",
+        "href": "https://www.w3.org/TR/css-values-5/#css-syntax",
+        "title": "Specifying CSS Syntax in CSS: the <syntax> type",
+        "number": "3.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "typedef-syntax-type-name",
+      "href": "https://www.w3.org/TR/css-values-5/#typedef-syntax-type-name",
+      "linkingText": [
+        "<syntax-type-name>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "css-syntax",
+        "href": "https://www.w3.org/TR/css-values-5/#css-syntax",
+        "title": "Specifying CSS Syntax in CSS: the <syntax> type",
+        "number": "3.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "typedef-syntax-combinator",
+      "href": "https://www.w3.org/TR/css-values-5/#typedef-syntax-combinator",
+      "linkingText": [
+        "<syntax-combinator>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "css-syntax",
+        "href": "https://www.w3.org/TR/css-values-5/#css-syntax",
+        "title": "Specifying CSS Syntax in CSS: the <syntax> type",
+        "number": "3.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "typedef-syntax-multiplier",
+      "href": "https://www.w3.org/TR/css-values-5/#typedef-syntax-multiplier",
+      "linkingText": [
+        "<syntax-multiplier>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "css-syntax",
+        "href": "https://www.w3.org/TR/css-values-5/#css-syntax",
+        "title": "Specifying CSS Syntax in CSS: the <syntax> type",
+        "number": "3.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "typedef-syntax-string",
+      "href": "https://www.w3.org/TR/css-values-5/#typedef-syntax-string",
+      "linkingText": [
+        "<syntax-string>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "css-syntax",
+        "href": "https://www.w3.org/TR/css-values-5/#css-syntax",
+        "title": "Specifying CSS Syntax in CSS: the <syntax> type",
+        "number": "3.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "parse-with-a-syntax",
+      "href": "https://www.w3.org/TR/css-values-5/#parse-with-a-syntax",
+      "linkingText": [
+        "parse with a <syntax>"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "parse-syntax",
+        "href": "https://www.w3.org/TR/css-values-5/#parse-syntax",
+        "title": "Parsing as <syntax>",
+        "number": "3.3.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "typedef-request-url-modifier",
+      "href": "https://www.w3.org/TR/css-values-5/#typedef-request-url-modifier",
+      "linkingText": [
+        "<request-url-modifier>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "request-url-modifiers",
+        "href": "https://www.w3.org/TR/css-values-5/#request-url-modifiers",
+        "title": "Request URL Modifiers",
+        "number": "4.1.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "typedef-request-url-modifier-crossorigin-modifier",
+      "href": "https://www.w3.org/TR/css-values-5/#typedef-request-url-modifier-crossorigin-modifier",
+      "linkingText": [
+        "<crossorigin-modifier>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [
+        "<request-url-modifier>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "request-url-modifiers",
+        "href": "https://www.w3.org/TR/css-values-5/#request-url-modifiers",
+        "title": "Request URL Modifiers",
+        "number": "4.1.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "funcdef-request-url-modifier-crossorigin",
+      "href": "https://www.w3.org/TR/css-values-5/#funcdef-request-url-modifier-crossorigin",
+      "linkingText": [
+        "crossorigin()"
+      ],
+      "localLinkingText": [],
+      "type": "function",
+      "for": [
+        "<request-url-modifier>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "request-url-modifiers",
+        "href": "https://www.w3.org/TR/css-values-5/#request-url-modifiers",
+        "title": "Request URL Modifiers",
+        "number": "4.1.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-request-url-modifier-anonymous",
+      "href": "https://www.w3.org/TR/css-values-5/#valdef-request-url-modifier-anonymous",
+      "linkingText": [
+        "anonymous"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<request-url-modifier>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "request-url-modifiers",
+        "href": "https://www.w3.org/TR/css-values-5/#request-url-modifiers",
+        "title": "Request URL Modifiers",
+        "number": "4.1.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-request-url-modifier-use-credentials",
+      "href": "https://www.w3.org/TR/css-values-5/#valdef-request-url-modifier-use-credentials",
+      "linkingText": [
+        "use-credentials"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<request-url-modifier>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "request-url-modifiers",
+        "href": "https://www.w3.org/TR/css-values-5/#request-url-modifiers",
+        "title": "Request URL Modifiers",
+        "number": "4.1.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "typedef-request-url-modifier-integrity-modifier",
+      "href": "https://www.w3.org/TR/css-values-5/#typedef-request-url-modifier-integrity-modifier",
+      "linkingText": [
+        "<integrity-modifier>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [
+        "<request-url-modifier>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "request-url-modifiers",
+        "href": "https://www.w3.org/TR/css-values-5/#request-url-modifiers",
+        "title": "Request URL Modifiers",
+        "number": "4.1.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "funcdef-request-url-modifier-integrity",
+      "href": "https://www.w3.org/TR/css-values-5/#funcdef-request-url-modifier-integrity",
+      "linkingText": [
+        "integrity()"
+      ],
+      "localLinkingText": [],
+      "type": "function",
+      "for": [
+        "<request-url-modifier>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "request-url-modifiers",
+        "href": "https://www.w3.org/TR/css-values-5/#request-url-modifiers",
+        "title": "Request URL Modifiers",
+        "number": "4.1.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "typedef-request-url-modifier-referrerpolicy-modifier",
+      "href": "https://www.w3.org/TR/css-values-5/#typedef-request-url-modifier-referrerpolicy-modifier",
+      "linkingText": [
+        "<referrerpolicy-modifier>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [
+        "<request-url-modifier>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "request-url-modifiers",
+        "href": "https://www.w3.org/TR/css-values-5/#request-url-modifiers",
+        "title": "Request URL Modifiers",
+        "number": "4.1.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "funcdef-request-url-modifier-referrerpolicy",
+      "href": "https://www.w3.org/TR/css-values-5/#funcdef-request-url-modifier-referrerpolicy",
+      "linkingText": [
+        "referrerpolicy()"
+      ],
+      "localLinkingText": [],
+      "type": "function",
+      "for": [
+        "<request-url-modifier>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "request-url-modifiers",
+        "href": "https://www.w3.org/TR/css-values-5/#request-url-modifiers",
+        "title": "Request URL Modifiers",
+        "number": "4.1.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-request-url-modifier-no-referrer",
+      "href": "https://www.w3.org/TR/css-values-5/#valdef-request-url-modifier-no-referrer",
+      "linkingText": [
+        "no-referrer"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<request-url-modifier>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "request-url-modifiers",
+        "href": "https://www.w3.org/TR/css-values-5/#request-url-modifiers",
+        "title": "Request URL Modifiers",
+        "number": "4.1.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-request-url-modifier-no-referrer-when-downgrade",
+      "href": "https://www.w3.org/TR/css-values-5/#valdef-request-url-modifier-no-referrer-when-downgrade",
+      "linkingText": [
+        "no-referrer-when-downgrade"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<request-url-modifier>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "request-url-modifiers",
+        "href": "https://www.w3.org/TR/css-values-5/#request-url-modifiers",
+        "title": "Request URL Modifiers",
+        "number": "4.1.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-request-url-modifier-same-origin",
+      "href": "https://www.w3.org/TR/css-values-5/#valdef-request-url-modifier-same-origin",
+      "linkingText": [
+        "same-origin"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<request-url-modifier>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "request-url-modifiers",
+        "href": "https://www.w3.org/TR/css-values-5/#request-url-modifiers",
+        "title": "Request URL Modifiers",
+        "number": "4.1.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-request-url-modifier-origin",
+      "href": "https://www.w3.org/TR/css-values-5/#valdef-request-url-modifier-origin",
+      "linkingText": [
+        "origin"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<request-url-modifier>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "request-url-modifiers",
+        "href": "https://www.w3.org/TR/css-values-5/#request-url-modifiers",
+        "title": "Request URL Modifiers",
+        "number": "4.1.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-request-url-modifier-strict-origin",
+      "href": "https://www.w3.org/TR/css-values-5/#valdef-request-url-modifier-strict-origin",
+      "linkingText": [
+        "strict-origin"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<request-url-modifier>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "request-url-modifiers",
+        "href": "https://www.w3.org/TR/css-values-5/#request-url-modifiers",
+        "title": "Request URL Modifiers",
+        "number": "4.1.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-request-url-modifier-origin-when-cross-origin",
+      "href": "https://www.w3.org/TR/css-values-5/#valdef-request-url-modifier-origin-when-cross-origin",
+      "linkingText": [
+        "origin-when-cross-origin"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<request-url-modifier>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "request-url-modifiers",
+        "href": "https://www.w3.org/TR/css-values-5/#request-url-modifiers",
+        "title": "Request URL Modifiers",
+        "number": "4.1.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-request-url-modifier-strict-origin-when-cross-origin",
+      "href": "https://www.w3.org/TR/css-values-5/#valdef-request-url-modifier-strict-origin-when-cross-origin",
+      "linkingText": [
+        "strict-origin-when-cross-origin"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<request-url-modifier>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "request-url-modifiers",
+        "href": "https://www.w3.org/TR/css-values-5/#request-url-modifiers",
+        "title": "Request URL Modifiers",
+        "number": "4.1.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-request-url-modifier-unsafe-url",
+      "href": "https://www.w3.org/TR/css-values-5/#valdef-request-url-modifier-unsafe-url",
+      "linkingText": [
+        "unsafe-url"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<request-url-modifier>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "request-url-modifiers",
+        "href": "https://www.w3.org/TR/css-values-5/#request-url-modifiers",
+        "title": "Request URL Modifiers",
+        "number": "4.1.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "apply-request-modifiers-from-url-value",
+      "href": "https://www.w3.org/TR/css-values-5/#apply-request-modifiers-from-url-value",
+      "linkingText": [
+        "apply request modifiers from URL value"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "request-url-modifiers",
+        "href": "https://www.w3.org/TR/css-values-5/#request-url-modifiers",
+        "title": "Request URL Modifiers",
+        "number": "4.1.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "typedef-position",
+      "href": "https://www.w3.org/TR/css-values-5/#typedef-position",
+      "linkingText": [
+        "<position>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position",
+        "href": "https://www.w3.org/TR/css-values-5/#position",
+        "title": "2D Positioning: the <position> type",
+        "number": "4.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "typedef-position-one",
+      "href": "https://www.w3.org/TR/css-values-5/#typedef-position-one",
+      "linkingText": [
+        "<position-one>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position",
+        "href": "https://www.w3.org/TR/css-values-5/#position",
+        "title": "2D Positioning: the <position> type",
+        "number": "4.2"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "typedef-position-two",
+      "href": "https://www.w3.org/TR/css-values-5/#typedef-position-two",
+      "linkingText": [
+        "<position-two>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position",
+        "href": "https://www.w3.org/TR/css-values-5/#position",
+        "title": "2D Positioning: the <position> type",
+        "number": "4.2"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "typedef-position-four",
+      "href": "https://www.w3.org/TR/css-values-5/#typedef-position-four",
+      "linkingText": [
+        "<position-four>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position",
+        "href": "https://www.w3.org/TR/css-values-5/#position",
+        "title": "2D Positioning: the <position> type",
+        "number": "4.2"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "valdef-position-top",
+      "href": "https://www.w3.org/TR/css-values-5/#valdef-position-top",
+      "linkingText": [
+        "top"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<position>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position",
+        "href": "https://www.w3.org/TR/css-values-5/#position",
+        "title": "2D Positioning: the <position> type",
+        "number": "4.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-position-right",
+      "href": "https://www.w3.org/TR/css-values-5/#valdef-position-right",
+      "linkingText": [
+        "right"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<position>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position",
+        "href": "https://www.w3.org/TR/css-values-5/#position",
+        "title": "2D Positioning: the <position> type",
+        "number": "4.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-position-bottom",
+      "href": "https://www.w3.org/TR/css-values-5/#valdef-position-bottom",
+      "linkingText": [
+        "bottom"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<position>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position",
+        "href": "https://www.w3.org/TR/css-values-5/#position",
+        "title": "2D Positioning: the <position> type",
+        "number": "4.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-position-left",
+      "href": "https://www.w3.org/TR/css-values-5/#valdef-position-left",
+      "linkingText": [
+        "left"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<position>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position",
+        "href": "https://www.w3.org/TR/css-values-5/#position",
+        "title": "2D Positioning: the <position> type",
+        "number": "4.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-position-y-start",
+      "href": "https://www.w3.org/TR/css-values-5/#valdef-position-y-start",
+      "linkingText": [
+        "y-start"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<position>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position",
+        "href": "https://www.w3.org/TR/css-values-5/#position",
+        "title": "2D Positioning: the <position> type",
+        "number": "4.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-position-y-end",
+      "href": "https://www.w3.org/TR/css-values-5/#valdef-position-y-end",
+      "linkingText": [
+        "y-end"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<position>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position",
+        "href": "https://www.w3.org/TR/css-values-5/#position",
+        "title": "2D Positioning: the <position> type",
+        "number": "4.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-position-x-start",
+      "href": "https://www.w3.org/TR/css-values-5/#valdef-position-x-start",
+      "linkingText": [
+        "x-start"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<position>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position",
+        "href": "https://www.w3.org/TR/css-values-5/#position",
+        "title": "2D Positioning: the <position> type",
+        "number": "4.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-position-x-end",
+      "href": "https://www.w3.org/TR/css-values-5/#valdef-position-x-end",
+      "linkingText": [
+        "x-end"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<position>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position",
+        "href": "https://www.w3.org/TR/css-values-5/#position",
+        "title": "2D Positioning: the <position> type",
+        "number": "4.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-position-block-start",
+      "href": "https://www.w3.org/TR/css-values-5/#valdef-position-block-start",
+      "linkingText": [
+        "block-start"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<position>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position",
+        "href": "https://www.w3.org/TR/css-values-5/#position",
+        "title": "2D Positioning: the <position> type",
+        "number": "4.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-position-block-end",
+      "href": "https://www.w3.org/TR/css-values-5/#valdef-position-block-end",
+      "linkingText": [
+        "block-end"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<position>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position",
+        "href": "https://www.w3.org/TR/css-values-5/#position",
+        "title": "2D Positioning: the <position> type",
+        "number": "4.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-position-inline-start",
+      "href": "https://www.w3.org/TR/css-values-5/#valdef-position-inline-start",
+      "linkingText": [
+        "inline-start"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<position>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position",
+        "href": "https://www.w3.org/TR/css-values-5/#position",
+        "title": "2D Positioning: the <position> type",
+        "number": "4.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-position-inline-end",
+      "href": "https://www.w3.org/TR/css-values-5/#valdef-position-inline-end",
+      "linkingText": [
+        "inline-end"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<position>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position",
+        "href": "https://www.w3.org/TR/css-values-5/#position",
+        "title": "2D Positioning: the <position> type",
+        "number": "4.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-position-center",
+      "href": "https://www.w3.org/TR/css-values-5/#valdef-position-center",
+      "linkingText": [
+        "center"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<position>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position",
+        "href": "https://www.w3.org/TR/css-values-5/#position",
+        "title": "2D Positioning: the <position> type",
+        "number": "4.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "progress-value",
+      "href": "https://www.w3.org/TR/css-values-5/#progress-value",
+      "linkingText": [
+        "progress value"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "progress",
+        "href": "https://www.w3.org/TR/css-values-5/#progress",
+        "title": "Interpolation Progress Functional Notations",
+        "number": "5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "progress-start-value",
+      "href": "https://www.w3.org/TR/css-values-5/#progress-start-value",
+      "linkingText": [
+        "progress start value"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "progress",
+        "href": "https://www.w3.org/TR/css-values-5/#progress",
+        "title": "Interpolation Progress Functional Notations",
+        "number": "5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "progress-end-value",
+      "href": "https://www.w3.org/TR/css-values-5/#progress-end-value",
+      "linkingText": [
+        "progress end value"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "progress",
+        "href": "https://www.w3.org/TR/css-values-5/#progress",
+        "title": "Interpolation Progress Functional Notations",
+        "number": "5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "calculate-a-progress-function",
+      "href": "https://www.w3.org/TR/css-values-5/#calculate-a-progress-function",
+      "linkingText": [
+        "calculate a progress function"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "progress",
+        "href": "https://www.w3.org/TR/css-values-5/#progress",
+        "title": "Interpolation Progress Functional Notations",
+        "number": "5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "funcdef-progress",
+      "href": "https://www.w3.org/TR/css-values-5/#funcdef-progress",
+      "linkingText": [
+        "progress()"
+      ],
+      "localLinkingText": [],
+      "type": "function",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "progress-func",
+        "href": "https://www.w3.org/TR/css-values-5/#progress-func",
+        "title": "Calculated Progress Values: the progress() notation",
+        "number": "5.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "typedef-progress-fn",
+      "href": "https://www.w3.org/TR/css-values-5/#typedef-progress-fn",
+      "linkingText": [
+        "<progress()>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "progress-func",
+        "href": "https://www.w3.org/TR/css-values-5/#progress-func",
+        "title": "Calculated Progress Values: the progress() notation",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "funcdef-media-progress",
+      "href": "https://www.w3.org/TR/css-values-5/#funcdef-media-progress",
+      "linkingText": [
+        "media-progress()"
+      ],
+      "localLinkingText": [],
+      "type": "function",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "media-progress-func",
+        "href": "https://www.w3.org/TR/css-values-5/#media-progress-func",
+        "title": "Media Query Progress Values: the media-progress() notation",
+        "number": "5.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "typedef-media-progress",
+      "href": "https://www.w3.org/TR/css-values-5/#typedef-media-progress",
+      "linkingText": [
+        "<media-progress()>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "media-progress-func",
+        "href": "https://www.w3.org/TR/css-values-5/#media-progress-func",
+        "title": "Media Query Progress Values: the media-progress() notation",
+        "number": "5.2"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "funcdef-container-progress",
+      "href": "https://www.w3.org/TR/css-values-5/#funcdef-container-progress",
+      "linkingText": [
+        "container-progress()"
+      ],
+      "localLinkingText": [],
+      "type": "function",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "container-progress-func",
+        "href": "https://www.w3.org/TR/css-values-5/#container-progress-func",
+        "title": "Container Query Progress Values: the container-progress() notation",
+        "number": "5.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "typedef-container-progress",
+      "href": "https://www.w3.org/TR/css-values-5/#typedef-container-progress",
+      "linkingText": [
+        "<container-progress()>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "container-progress-func",
+        "href": "https://www.w3.org/TR/css-values-5/#container-progress-func",
+        "title": "Container Query Progress Values: the container-progress() notation",
+        "number": "5.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "mix-notations",
+      "href": "https://www.w3.org/TR/css-values-5/#mix-notations",
+      "linkingText": [
+        "mix notations"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "mixing",
+        "href": "https://www.w3.org/TR/css-values-5/#mixing",
+        "title": "Mixing and Interpolation Notations: the *-mix() family",
+        "number": "6"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "mix-start-value",
+      "href": "https://www.w3.org/TR/css-values-5/#mix-start-value",
+      "linkingText": [
+        "mix start value"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "mixing",
+        "href": "https://www.w3.org/TR/css-values-5/#mixing",
+        "title": "Mixing and Interpolation Notations: the *-mix() family",
+        "number": "6"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "mix-end-value",
+      "href": "https://www.w3.org/TR/css-values-5/#mix-end-value",
+      "linkingText": [
+        "mix end value"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "mixing",
+        "href": "https://www.w3.org/TR/css-values-5/#mixing",
+        "title": "Mixing and Interpolation Notations: the *-mix() family",
+        "number": "6"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "mix-progress-value",
+      "href": "https://www.w3.org/TR/css-values-5/#mix-progress-value",
+      "linkingText": [
+        "mix progress value"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "mixing",
+        "href": "https://www.w3.org/TR/css-values-5/#mixing",
+        "title": "Mixing and Interpolation Notations: the *-mix() family",
+        "number": "6"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "typedef-progress",
+      "href": "https://www.w3.org/TR/css-values-5/#typedef-progress",
+      "linkingText": [
+        "<progress>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "progress-type",
+        "href": "https://www.w3.org/TR/css-values-5/#progress-type",
+        "title": "Representing Interpolation Progress: the <progress> type",
+        "number": "6.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "funcdef-calc-mix",
+      "href": "https://www.w3.org/TR/css-values-5/#funcdef-calc-mix",
+      "linkingText": [
+        "calc-mix()"
+      ],
+      "localLinkingText": [],
+      "type": "function",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "calc-mix",
+        "href": "https://www.w3.org/TR/css-values-5/#calc-mix",
+        "title": "Interpolated Numeric and Dimensional Values: the calc-mix() notation",
+        "number": "6.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "typedef-calc-mix",
+      "href": "https://www.w3.org/TR/css-values-5/#typedef-calc-mix",
+      "linkingText": [
+        "<calc-mix()>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "calc-mix",
+        "href": "https://www.w3.org/TR/css-values-5/#calc-mix",
+        "title": "Interpolated Numeric and Dimensional Values: the calc-mix() notation",
+        "number": "6.2"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "funcdef-transform-mix",
+      "href": "https://www.w3.org/TR/css-values-5/#funcdef-transform-mix",
+      "linkingText": [
+        "transform-mix()"
+      ],
+      "localLinkingText": [],
+      "type": "function",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "transform-mix",
+        "href": "https://www.w3.org/TR/css-values-5/#transform-mix",
+        "title": "Interpolated Transform Values: the transform-mix() notation",
+        "number": "6.5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "typedef-transform-mix",
+      "href": "https://www.w3.org/TR/css-values-5/#typedef-transform-mix",
+      "linkingText": [
+        "<transform-mix()>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "transform-mix",
+        "href": "https://www.w3.org/TR/css-values-5/#transform-mix",
+        "title": "Interpolated Transform Values: the transform-mix() notation",
+        "number": "6.5"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "funcdef-mix",
+      "href": "https://www.w3.org/TR/css-values-5/#funcdef-mix",
+      "linkingText": [
+        "mix()"
+      ],
+      "localLinkingText": [],
+      "type": "function",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "mix",
+        "href": "https://www.w3.org/TR/css-values-5/#mix",
+        "title": "Interpolated Property Values: the mix() notation",
+        "number": "6.6"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "typedef-mix",
+      "href": "https://www.w3.org/TR/css-values-5/#typedef-mix",
+      "linkingText": [
+        "<mix()>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "mix",
+        "href": "https://www.w3.org/TR/css-values-5/#mix",
+        "title": "Interpolated Property Values: the mix() notation",
+        "number": "6.6"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "whole-value",
+      "href": "https://www.w3.org/TR/css-values-5/#whole-value",
+      "linkingText": [
+        "<whole-value>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "whole-value",
+        "href": "https://www.w3.org/TR/css-values-5/#whole-value",
+        "title": "Representing An Entire Property Value: the <whole-value> type",
+        "number": "7.1"
+      },
+      "definedIn": "heading"
+    },
+    {
+      "id": "funcdef-first-valid",
+      "href": "https://www.w3.org/TR/css-values-5/#funcdef-first-valid",
+      "linkingText": [
+        "first-valid()"
+      ],
+      "localLinkingText": [],
+      "type": "function",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "first-valid",
+        "href": "https://www.w3.org/TR/css-values-5/#first-valid",
+        "title": "Selecting the First Supported Value: the first-valid() notation",
+        "number": "7.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "typedef-first-valid",
+      "href": "https://www.w3.org/TR/css-values-5/#typedef-first-valid",
+      "linkingText": [
+        "<first-valid()>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "first-valid",
+        "href": "https://www.w3.org/TR/css-values-5/#first-valid",
+        "title": "Selecting the First Supported Value: the first-valid() notation",
+        "number": "7.2"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "funcdef-if",
+      "href": "https://www.w3.org/TR/css-values-5/#funcdef-if",
+      "linkingText": [
+        "if()"
+      ],
+      "localLinkingText": [],
+      "type": "function",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "if-notation",
+        "href": "https://www.w3.org/TR/css-values-5/#if-notation",
+        "title": "Conditional Value Selection: the if() notation",
+        "number": "7.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "typedef-if",
+      "href": "https://www.w3.org/TR/css-values-5/#typedef-if",
+      "linkingText": [
+        "<if()>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "if-notation",
+        "href": "https://www.w3.org/TR/css-values-5/#if-notation",
+        "title": "Conditional Value Selection: the if() notation",
+        "number": "7.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "typedef-if-condition",
+      "href": "https://www.w3.org/TR/css-values-5/#typedef-if-condition",
+      "linkingText": [
+        "<if-condition>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "if-notation",
+        "href": "https://www.w3.org/TR/css-values-5/#if-notation",
+        "title": "Conditional Value Selection: the if() notation",
+        "number": "7.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "typedef-if-test",
+      "href": "https://www.w3.org/TR/css-values-5/#typedef-if-test",
+      "linkingText": [
+        "<if-test>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "if-notation",
+        "href": "https://www.w3.org/TR/css-values-5/#if-notation",
+        "title": "Conditional Value Selection: the if() notation",
+        "number": "7.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "valdef-if-else",
+      "href": "https://www.w3.org/TR/css-values-5/#valdef-if-else",
+      "linkingText": [
+        "else"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "if()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "if-notation",
+        "href": "https://www.w3.org/TR/css-values-5/#if-notation",
+        "title": "Conditional Value Selection: the if() notation",
+        "number": "7.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "resolve-an-if-function",
+      "href": "https://www.w3.org/TR/css-values-5/#resolve-an-if-function",
+      "linkingText": [
+        "resolve an if() function"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "if-notation",
+        "href": "https://www.w3.org/TR/css-values-5/#if-notation",
+        "title": "Conditional Value Selection: the if() notation",
+        "number": "7.3"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "funcdef-toggle",
-      "href": "https://drafts.csswg.org/css-values-5/#funcdef-toggle",
+      "href": "https://www.w3.org/TR/css-values-5/#funcdef-toggle",
       "linkingText": [
         "toggle()"
       ],
@@ -17,17 +1521,17 @@
       "informative": false,
       "heading": {
         "id": "toggle-notation",
-        "href": "https://drafts.csswg.org/css-values-5/#toggle-notation",
-        "title": "Toggling Between Values: toggle()",
-        "number": "1.2"
+        "href": "https://www.w3.org/TR/css-values-5/#toggle-notation",
+        "title": "Toggling Between Values: the toggle() notation",
+        "number": "7.4"
       },
       "definedIn": "prose"
     },
     {
-      "id": "typedef-toggle-value",
-      "href": "https://drafts.csswg.org/css-values-5/#typedef-toggle-value",
+      "id": "typedef-toggle",
+      "href": "https://www.w3.org/TR/css-values-5/#typedef-toggle",
       "linkingText": [
-        "<toggle-value>"
+        "<toggle()>"
       ],
       "localLinkingText": [],
       "type": "type",
@@ -36,15 +1540,72 @@
       "informative": false,
       "heading": {
         "id": "toggle-notation",
-        "href": "https://drafts.csswg.org/css-values-5/#toggle-notation",
-        "title": "Toggling Between Values: toggle()",
-        "number": "1.2"
+        "href": "https://www.w3.org/TR/css-values-5/#toggle-notation",
+        "title": "Toggling Between Values: the toggle() notation",
+        "number": "7.4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "funcdef-inherit",
+      "href": "https://www.w3.org/TR/css-values-5/#funcdef-inherit",
+      "linkingText": [
+        "inherit()"
+      ],
+      "localLinkingText": [],
+      "type": "function",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "inherit-notation",
+        "href": "https://www.w3.org/TR/css-values-5/#inherit-notation",
+        "title": "Inherited Value References: the inherit() notation",
+        "number": "7.6"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "typedef-inherit",
+      "href": "https://www.w3.org/TR/css-values-5/#typedef-inherit",
+      "linkingText": [
+        "<inherit()>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "inherit-notation",
+        "href": "https://www.w3.org/TR/css-values-5/#inherit-notation",
+        "title": "Inherited Value References: the inherit() notation",
+        "number": "7.6"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "resolve-an-inherit-function",
+      "href": "https://www.w3.org/TR/css-values-5/#resolve-an-inherit-function",
+      "linkingText": [
+        "resolve an inherit() function"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "inherit-notation",
+        "href": "https://www.w3.org/TR/css-values-5/#inherit-notation",
+        "title": "Inherited Value References: the inherit() notation",
+        "number": "7.6"
       },
       "definedIn": "prose"
     },
     {
       "id": "funcdef-attr",
-      "href": "https://drafts.csswg.org/css-values-5/#funcdef-attr",
+      "href": "https://www.w3.org/TR/css-values-5/#funcdef-attr",
       "linkingText": [
         "attr()"
       ],
@@ -55,17 +1616,17 @@
       "informative": false,
       "heading": {
         "id": "attr-notation",
-        "href": "https://drafts.csswg.org/css-values-5/#attr-notation",
-        "title": "Attribute References: the attr() function",
-        "number": "2"
+        "href": "https://www.w3.org/TR/css-values-5/#attr-notation",
+        "title": "Attribute References: the attr() notation",
+        "number": "7.7"
       },
       "definedIn": "prose"
     },
     {
-      "id": "typedef-attr-type",
-      "href": "https://drafts.csswg.org/css-values-5/#typedef-attr-type",
+      "id": "typedef-attr-name",
+      "href": "https://www.w3.org/TR/css-values-5/#typedef-attr-name",
       "linkingText": [
-        "<attr-type>"
+        "<attr-name>"
       ],
       "localLinkingText": [],
       "type": "type",
@@ -74,309 +1635,17 @@
       "informative": false,
       "heading": {
         "id": "attr-notation",
-        "href": "https://drafts.csswg.org/css-values-5/#attr-notation",
-        "title": "Attribute References: the attr() function",
-        "number": "2"
+        "href": "https://www.w3.org/TR/css-values-5/#attr-notation",
+        "title": "Attribute References: the attr() notation",
+        "number": "7.7"
       },
       "definedIn": "pre"
     },
     {
-      "id": "typedef-dimension-unit",
-      "href": "https://drafts.csswg.org/css-values-5/#typedef-dimension-unit",
+      "id": "resolve-an-attr-function",
+      "href": "https://www.w3.org/TR/css-values-5/#resolve-an-attr-function",
       "linkingText": [
-        "<dimension-unit>"
-      ],
-      "localLinkingText": [],
-      "type": "type",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "attr-notation",
-        "href": "https://drafts.csswg.org/css-values-5/#attr-notation",
-        "title": "Attribute References: the attr() function",
-        "number": "2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "attr-substitution-value",
-      "href": "https://drafts.csswg.org/css-values-5/#attr-substitution-value",
-      "linkingText": [
-        "substitution value"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "attr()"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "attr-notation",
-        "href": "https://drafts.csswg.org/css-values-5/#attr-notation",
-        "title": "Attribute References: the attr() function",
-        "number": "2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "valdef-attr-string",
-      "href": "https://drafts.csswg.org/css-values-5/#valdef-attr-string",
-      "linkingText": [
-        "string"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "attr()"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "attr-types",
-        "href": "https://drafts.csswg.org/css-values-5/#attr-types",
-        "title": "attr() Types",
-        "number": "2.1"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-attr-url",
-      "href": "https://drafts.csswg.org/css-values-5/#valdef-attr-url",
-      "linkingText": [
-        "url"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "attr()"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "attr-types",
-        "href": "https://drafts.csswg.org/css-values-5/#attr-types",
-        "title": "attr() Types",
-        "number": "2.1"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-attr-ident",
-      "href": "https://drafts.csswg.org/css-values-5/#valdef-attr-ident",
-      "linkingText": [
-        "ident"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "attr()"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "attr-types",
-        "href": "https://drafts.csswg.org/css-values-5/#attr-types",
-        "title": "attr() Types",
-        "number": "2.1"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-attr-color",
-      "href": "https://drafts.csswg.org/css-values-5/#valdef-attr-color",
-      "linkingText": [
-        "color"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "attr()"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "attr-types",
-        "href": "https://drafts.csswg.org/css-values-5/#attr-types",
-        "title": "attr() Types",
-        "number": "2.1"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-attr-number",
-      "href": "https://drafts.csswg.org/css-values-5/#valdef-attr-number",
-      "linkingText": [
-        "number"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "attr()"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "attr-types",
-        "href": "https://drafts.csswg.org/css-values-5/#attr-types",
-        "title": "attr() Types",
-        "number": "2.1"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-attr-percentage",
-      "href": "https://drafts.csswg.org/css-values-5/#valdef-attr-percentage",
-      "linkingText": [
-        "percentage"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "attr()"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "attr-types",
-        "href": "https://drafts.csswg.org/css-values-5/#attr-types",
-        "title": "attr() Types",
-        "number": "2.1"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-attr-length",
-      "href": "https://drafts.csswg.org/css-values-5/#valdef-attr-length",
-      "linkingText": [
-        "length"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "attr()"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "attr-types",
-        "href": "https://drafts.csswg.org/css-values-5/#attr-types",
-        "title": "attr() Types",
-        "number": "2.1"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-attr-angle",
-      "href": "https://drafts.csswg.org/css-values-5/#valdef-attr-angle",
-      "linkingText": [
-        "angle"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "attr()"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "attr-types",
-        "href": "https://drafts.csswg.org/css-values-5/#attr-types",
-        "title": "attr() Types",
-        "number": "2.1"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-attr-time",
-      "href": "https://drafts.csswg.org/css-values-5/#valdef-attr-time",
-      "linkingText": [
-        "time"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "attr()"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "attr-types",
-        "href": "https://drafts.csswg.org/css-values-5/#attr-types",
-        "title": "attr() Types",
-        "number": "2.1"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-attr-frequency",
-      "href": "https://drafts.csswg.org/css-values-5/#valdef-attr-frequency",
-      "linkingText": [
-        "frequency"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "attr()"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "attr-types",
-        "href": "https://drafts.csswg.org/css-values-5/#attr-types",
-        "title": "attr() Types",
-        "number": "2.1"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-attr-flex",
-      "href": "https://drafts.csswg.org/css-values-5/#valdef-attr-flex",
-      "linkingText": [
-        "flex"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "attr()"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "attr-types",
-        "href": "https://drafts.csswg.org/css-values-5/#attr-types",
-        "title": "attr() Types",
-        "number": "2.1"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-attr-dimension-unit",
-      "href": "https://drafts.csswg.org/css-values-5/#valdef-attr-dimension-unit",
-      "linkingText": [
-        "<dimension-unit>"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "attr()"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "attr-types",
-        "href": "https://drafts.csswg.org/css-values-5/#attr-types",
-        "title": "attr() Types",
-        "number": "2.1"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "substitute-an-attr",
-      "href": "https://drafts.csswg.org/css-values-5/#substitute-an-attr",
-      "linkingText": [
-        "substitute an attr()"
+        "resolve an attr() function"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -385,9 +1654,511 @@
       "informative": false,
       "heading": {
         "id": "attr-substitution",
-        "href": "https://drafts.csswg.org/css-values-5/#attr-substitution",
-        "title": "attr() Substitution",
-        "number": "2.2"
+        "href": "https://www.w3.org/TR/css-values-5/#attr-substitution",
+        "title": "Attribute Value Substitution: the attr() notation",
+        "number": "7.7.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "attr-taint",
+      "href": "https://www.w3.org/TR/css-values-5/#attr-taint",
+      "linkingText": [
+        "attr()-taint"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "attr-security",
+        "href": "https://www.w3.org/TR/css-values-5/#attr-security",
+        "title": "Security",
+        "number": "7.7.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "css-random-functions",
+      "href": "https://www.w3.org/TR/css-values-5/#css-random-functions",
+      "linkingText": [
+        "random functions"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "CSS"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "randomness",
+        "href": "https://www.w3.org/TR/css-values-5/#randomness",
+        "title": "Generating Random Values",
+        "number": "8"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "funcdef-random",
+      "href": "https://www.w3.org/TR/css-values-5/#funcdef-random",
+      "linkingText": [
+        "random()"
+      ],
+      "localLinkingText": [],
+      "type": "function",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "random",
+        "href": "https://www.w3.org/TR/css-values-5/#random",
+        "title": "Generating a Random Numeric Value: the random() function",
+        "number": "8.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "typedef-random-caching-options",
+      "href": "https://www.w3.org/TR/css-values-5/#typedef-random-caching-options",
+      "linkingText": [
+        "<random-caching-options>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "random",
+        "href": "https://www.w3.org/TR/css-values-5/#random",
+        "title": "Generating a Random Numeric Value: the random() function",
+        "number": "8.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "funcdef-random-item",
+      "href": "https://www.w3.org/TR/css-values-5/#funcdef-random-item",
+      "linkingText": [
+        "random-item()"
+      ],
+      "localLinkingText": [],
+      "type": "function",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "random-item",
+        "href": "https://www.w3.org/TR/css-values-5/#random-item",
+        "title": "Picking a Random Item From a List: the random-item() function",
+        "number": "8.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "random-caching-key",
+      "href": "https://www.w3.org/TR/css-values-5/#random-caching-key",
+      "linkingText": [
+        "random-caching key"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "random-caching",
+        "href": "https://www.w3.org/TR/css-values-5/#random-caching",
+        "title": "Generating/Caching Random Values: the <random-caching-options> value",
+        "number": "8.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "funcdef-sibling-count",
+      "href": "https://www.w3.org/TR/css-values-5/#funcdef-sibling-count",
+      "linkingText": [
+        "sibling-count()"
+      ],
+      "localLinkingText": [],
+      "type": "function",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "tree-counting",
+        "href": "https://www.w3.org/TR/css-values-5/#tree-counting",
+        "title": "Tree Counting Functions: the sibling-count() and sibling-index() notations",
+        "number": "9"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "funcdef-sibling-index",
+      "href": "https://www.w3.org/TR/css-values-5/#funcdef-sibling-index",
+      "linkingText": [
+        "sibling-index()"
+      ],
+      "localLinkingText": [],
+      "type": "function",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "tree-counting",
+        "href": "https://www.w3.org/TR/css-values-5/#tree-counting",
+        "title": "Tree Counting Functions: the sibling-count() and sibling-index() notations",
+        "number": "9"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "funcdef-calc-size",
+      "href": "https://www.w3.org/TR/css-values-5/#funcdef-calc-size",
+      "linkingText": [
+        "calc-size()"
+      ],
+      "localLinkingText": [],
+      "type": "function",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "calc-size",
+        "href": "https://www.w3.org/TR/css-values-5/#calc-size",
+        "title": "10. Calculating With Intrinsic Sizes: the calc-size() function"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "typedef-calc-size-basis",
+      "href": "https://www.w3.org/TR/css-values-5/#typedef-calc-size-basis",
+      "linkingText": [
+        "<calc-size-basis>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "calc-size",
+        "href": "https://www.w3.org/TR/css-values-5/#calc-size",
+        "title": "10. Calculating With Intrinsic Sizes: the calc-size() function"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "typedef-intrinsic-size-keyword",
+      "href": "https://www.w3.org/TR/css-values-5/#typedef-intrinsic-size-keyword",
+      "linkingText": [
+        "<intrinsic-size-keyword>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "calc-size",
+        "href": "https://www.w3.org/TR/css-values-5/#calc-size",
+        "title": "10. Calculating With Intrinsic Sizes: the calc-size() function"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "calc-size-basis",
+      "href": "https://www.w3.org/TR/css-values-5/#calc-size-basis",
+      "linkingText": [
+        "calc-size basis"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "calc-size",
+        "href": "https://www.w3.org/TR/css-values-5/#calc-size",
+        "title": "10. Calculating With Intrinsic Sizes: the calc-size() function"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "calc-size-calculation",
+      "href": "https://www.w3.org/TR/css-values-5/#calc-size-calculation",
+      "linkingText": [
+        "calc-size calculation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "calc-size",
+        "href": "https://www.w3.org/TR/css-values-5/#calc-size",
+        "title": "10. Calculating With Intrinsic Sizes: the calc-size() function"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "valdef-calc-size-size",
+      "href": "https://www.w3.org/TR/css-values-5/#valdef-calc-size-size",
+      "linkingText": [
+        "size"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "calc-size()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "calc-size",
+        "href": "https://www.w3.org/TR/css-values-5/#calc-size",
+        "title": "10. Calculating With Intrinsic Sizes: the calc-size() function"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "calc-size-canonicalize-for-interpolation",
+      "href": "https://www.w3.org/TR/css-values-5/#calc-size-canonicalize-for-interpolation",
+      "linkingText": [
+        "canonicalize for interpolation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "calc-size()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "simplifying-calc-size",
+        "href": "https://www.w3.org/TR/css-values-5/#simplifying-calc-size",
+        "title": "Simplifying calc-size()",
+        "number": "10.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "de-percentify-a-calc-size-calculation",
+      "href": "https://www.w3.org/TR/css-values-5/#de-percentify-a-calc-size-calculation",
+      "linkingText": [
+        "de-percentify a calc-size calculation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "simplifying-calc-size",
+        "href": "https://www.w3.org/TR/css-values-5/#simplifying-calc-size",
+        "title": "Simplifying calc-size()",
+        "number": "10.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "substitute-into-a-calc-size-calculation",
+      "href": "https://www.w3.org/TR/css-values-5/#substitute-into-a-calc-size-calculation",
+      "linkingText": [
+        "substitute into a calc-size calculation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "simplifying-calc-size",
+        "href": "https://www.w3.org/TR/css-values-5/#simplifying-calc-size",
+        "title": "Simplifying calc-size()",
+        "number": "10.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "valdef-calc-size-any",
+      "href": "https://www.w3.org/TR/css-values-5/#valdef-calc-size-any",
+      "linkingText": [
+        "any"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "calc-size()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "resolving-calc-size",
+        "href": "https://www.w3.org/TR/css-values-5/#resolving-calc-size",
+        "title": "Resolving calc-size()",
+        "number": "10.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "propdef-interpolate-size",
+      "href": "https://www.w3.org/TR/css-values-5/#propdef-interpolate-size",
+      "linkingText": [
+        "interpolate-size"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interpolate-size",
+        "href": "https://www.w3.org/TR/css-values-5/#interpolate-size",
+        "title": "Interpolating sizing keywords: the interpolate-size property",
+        "number": "10.4"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "valdef-interpolate-size-numeric-only",
+      "href": "https://www.w3.org/TR/css-values-5/#valdef-interpolate-size-numeric-only",
+      "linkingText": [
+        "numeric-only"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "interpolate-size"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interpolate-size",
+        "href": "https://www.w3.org/TR/css-values-5/#interpolate-size",
+        "title": "Interpolating sizing keywords: the interpolate-size property",
+        "number": "10.4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-interpolate-size-allow-keywords",
+      "href": "https://www.w3.org/TR/css-values-5/#valdef-interpolate-size-allow-keywords",
+      "linkingText": [
+        "allow-keywords"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "interpolate-size"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interpolate-size",
+        "href": "https://www.w3.org/TR/css-values-5/#interpolate-size",
+        "title": "Interpolating sizing keywords: the interpolate-size property",
+        "number": "10.4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "arbitrary-substitution-function",
+      "href": "https://www.w3.org/TR/css-values-5/#arbitrary-substitution-function",
+      "linkingText": [
+        "arbitrary substitution function"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "arbitrary-substitution",
+        "href": "https://www.w3.org/TR/css-values-5/#arbitrary-substitution",
+        "title": "Arbitrary Substitution Functions",
+        "number": "A"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "resolve-an-arbitrary-substitution-function",
+      "href": "https://www.w3.org/TR/css-values-5/#resolve-an-arbitrary-substitution-function",
+      "linkingText": [
+        "resolve an arbitrary substitution function"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "arbitrary-substitution",
+        "href": "https://www.w3.org/TR/css-values-5/#arbitrary-substitution",
+        "title": "Arbitrary Substitution Functions",
+        "number": "A"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "substitute-arbitrary-substitution-function",
+      "href": "https://www.w3.org/TR/css-values-5/#substitute-arbitrary-substitution-function",
+      "linkingText": [
+        "substitute arbitrary substitution function",
+        "arbitrary substitution"
+      ],
+      "localLinkingText": [
+        "substitute",
+        "substitution"
+      ],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "arbitrary-substitution",
+        "href": "https://www.w3.org/TR/css-values-5/#arbitrary-substitution",
+        "title": "Arbitrary Substitution Functions",
+        "number": "A"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "invalid-at-computed-value-time",
+      "href": "https://www.w3.org/TR/css-values-5/#invalid-at-computed-value-time",
+      "linkingText": [
+        "invalid at computed-value time"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "invalid-substitution",
+        "href": "https://www.w3.org/TR/css-values-5/#invalid-substitution",
+        "title": "Invalid Substitution"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "pending-substitution-value",
+      "href": "https://www.w3.org/TR/css-values-5/#pending-substitution-value",
+      "linkingText": [
+        "pending-substitution value"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "substitution-in-shorthands",
+        "href": "https://www.w3.org/TR/css-values-5/#substitution-in-shorthands",
+        "title": "Substitution in Shorthand Properties"
       },
       "definedIn": "prose"
     }

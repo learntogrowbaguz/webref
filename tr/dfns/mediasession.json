@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "Media Session Standard",
+    "title": "Media Session",
     "url": "https://www.w3.org/TR/mediasession/"
   },
   "dfns": [
@@ -19,7 +19,7 @@
         "id": "playback-state-model",
         "href": "https://www.w3.org/TR/mediasession/#playback-state-model",
         "title": "Playback State",
-        "number": "5.1"
+        "number": "4.1"
       },
       "definedIn": "prose"
     },
@@ -38,7 +38,7 @@
         "id": "playback-state-model",
         "href": "https://www.w3.org/TR/mediasession/#playback-state-model",
         "title": "Playback State",
-        "number": "5.1"
+        "number": "4.1"
       },
       "definedIn": "prose"
     },
@@ -57,7 +57,7 @@
         "id": "media-session-routing",
         "href": "https://www.w3.org/TR/mediasession/#media-session-routing",
         "title": "Routing",
-        "number": "5.2"
+        "number": "4.2"
       },
       "definedIn": "prose"
     },
@@ -76,7 +76,7 @@
         "id": "media-session-routing",
         "href": "https://www.w3.org/TR/mediasession/#media-session-routing",
         "title": "Routing",
-        "number": "5.2"
+        "number": "4.2"
       },
       "definedIn": "prose"
     },
@@ -95,7 +95,7 @@
         "id": "metadata",
         "href": "https://www.w3.org/TR/mediasession/#metadata",
         "title": "Metadata",
-        "number": "5.3"
+        "number": "4.3"
       },
       "definedIn": "prose"
     },
@@ -114,7 +114,7 @@
         "id": "metadata",
         "href": "https://www.w3.org/TR/mediasession/#metadata",
         "title": "Metadata",
-        "number": "5.3"
+        "number": "4.3"
       },
       "definedIn": "prose"
     },
@@ -133,7 +133,7 @@
         "id": "metadata",
         "href": "https://www.w3.org/TR/mediasession/#metadata",
         "title": "Metadata",
-        "number": "5.3"
+        "number": "4.3"
       },
       "definedIn": "prose"
     },
@@ -152,7 +152,7 @@
         "id": "actions-model",
         "href": "https://www.w3.org/TR/mediasession/#actions-model",
         "title": "Actions",
-        "number": "5.4"
+        "number": "4.4"
       },
       "definedIn": "prose"
     },
@@ -171,7 +171,7 @@
         "id": "actions-model",
         "href": "https://www.w3.org/TR/mediasession/#actions-model",
         "title": "Actions",
-        "number": "5.4"
+        "number": "4.4"
       },
       "definedIn": "prose"
     },
@@ -192,7 +192,7 @@
         "id": "actions-model",
         "href": "https://www.w3.org/TR/mediasession/#actions-model",
         "title": "Actions",
-        "number": "5.4"
+        "number": "4.4"
       },
       "definedIn": "prose"
     },
@@ -214,7 +214,7 @@
         "id": "actions-model",
         "href": "https://www.w3.org/TR/mediasession/#actions-model",
         "title": "Actions",
-        "number": "5.4"
+        "number": "4.4"
       },
       "definedIn": "prose"
     },
@@ -236,7 +236,7 @@
         "id": "actions-model",
         "href": "https://www.w3.org/TR/mediasession/#actions-model",
         "title": "Actions",
-        "number": "5.4"
+        "number": "4.4"
       },
       "definedIn": "prose"
     },
@@ -258,7 +258,7 @@
         "id": "actions-model",
         "href": "https://www.w3.org/TR/mediasession/#actions-model",
         "title": "Actions",
-        "number": "5.4"
+        "number": "4.4"
       },
       "definedIn": "prose"
     },
@@ -280,7 +280,7 @@
         "id": "actions-model",
         "href": "https://www.w3.org/TR/mediasession/#actions-model",
         "title": "Actions",
-        "number": "5.4"
+        "number": "4.4"
       },
       "definedIn": "prose"
     },
@@ -302,7 +302,7 @@
         "id": "actions-model",
         "href": "https://www.w3.org/TR/mediasession/#actions-model",
         "title": "Actions",
-        "number": "5.4"
+        "number": "4.4"
       },
       "definedIn": "prose"
     },
@@ -324,7 +324,7 @@
         "id": "actions-model",
         "href": "https://www.w3.org/TR/mediasession/#actions-model",
         "title": "Actions",
-        "number": "5.4"
+        "number": "4.4"
       },
       "definedIn": "prose"
     },
@@ -346,7 +346,7 @@
         "id": "actions-model",
         "href": "https://www.w3.org/TR/mediasession/#actions-model",
         "title": "Actions",
-        "number": "5.4"
+        "number": "4.4"
       },
       "definedIn": "prose"
     },
@@ -368,7 +368,7 @@
         "id": "actions-model",
         "href": "https://www.w3.org/TR/mediasession/#actions-model",
         "title": "Actions",
-        "number": "5.4"
+        "number": "4.4"
       },
       "definedIn": "prose"
     },
@@ -390,7 +390,7 @@
         "id": "actions-model",
         "href": "https://www.w3.org/TR/mediasession/#actions-model",
         "title": "Actions",
-        "number": "5.4"
+        "number": "4.4"
       },
       "definedIn": "prose"
     },
@@ -412,7 +412,7 @@
         "id": "actions-model",
         "href": "https://www.w3.org/TR/mediasession/#actions-model",
         "title": "Actions",
-        "number": "5.4"
+        "number": "4.4"
       },
       "definedIn": "prose"
     },
@@ -434,7 +434,29 @@
         "id": "actions-model",
         "href": "https://www.w3.org/TR/mediasession/#actions-model",
         "title": "Actions",
-        "number": "5.4"
+        "number": "4.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-mediasessionaction-togglescreenshare",
+      "href": "https://www.w3.org/TR/mediasession/#dom-mediasessionaction-togglescreenshare",
+      "linkingText": [
+        "\"togglescreenshare\"",
+        "togglescreenshare"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "MediaSessionAction"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "actions-model",
+        "href": "https://www.w3.org/TR/mediasession/#actions-model",
+        "title": "Actions",
+        "number": "4.4"
       },
       "definedIn": "prose"
     },
@@ -456,7 +478,7 @@
         "id": "actions-model",
         "href": "https://www.w3.org/TR/mediasession/#actions-model",
         "title": "Actions",
-        "number": "5.4"
+        "number": "4.4"
       },
       "definedIn": "prose"
     },
@@ -478,7 +500,7 @@
         "id": "actions-model",
         "href": "https://www.w3.org/TR/mediasession/#actions-model",
         "title": "Actions",
-        "number": "5.4"
+        "number": "4.4"
       },
       "definedIn": "prose"
     },
@@ -500,7 +522,51 @@
         "id": "actions-model",
         "href": "https://www.w3.org/TR/mediasession/#actions-model",
         "title": "Actions",
-        "number": "5.4"
+        "number": "4.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-mediasessionaction-enterpictureinpicture",
+      "href": "https://www.w3.org/TR/mediasession/#dom-mediasessionaction-enterpictureinpicture",
+      "linkingText": [
+        "\"enterpictureinpicture\"",
+        "enterpictureinpicture"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "MediaSessionAction"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "actions-model",
+        "href": "https://www.w3.org/TR/mediasession/#actions-model",
+        "title": "Actions",
+        "number": "4.4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-mediasessionaction-voiceactivity",
+      "href": "https://www.w3.org/TR/mediasession/#dom-mediasessionaction-voiceactivity",
+      "linkingText": [
+        "\"voiceactivity\"",
+        "voiceactivity"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "MediaSessionAction"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "actions-model",
+        "href": "https://www.w3.org/TR/mediasession/#actions-model",
+        "title": "Actions",
+        "number": "4.4"
       },
       "definedIn": "prose"
     },
@@ -519,7 +585,7 @@
         "id": "actions-model",
         "href": "https://www.w3.org/TR/mediasession/#actions-model",
         "title": "Actions",
-        "number": "5.4"
+        "number": "4.4"
       },
       "definedIn": "prose"
     },
@@ -538,7 +604,7 @@
         "id": "actions-model",
         "href": "https://www.w3.org/TR/mediasession/#actions-model",
         "title": "Actions",
-        "number": "5.4"
+        "number": "4.4"
       },
       "definedIn": "prose"
     },
@@ -557,7 +623,7 @@
         "id": "actions-model",
         "href": "https://www.w3.org/TR/mediasession/#actions-model",
         "title": "Actions",
-        "number": "5.4"
+        "number": "4.4"
       },
       "definedIn": "prose"
     },
@@ -576,13 +642,13 @@
         "id": "actions-model",
         "href": "https://www.w3.org/TR/mediasession/#actions-model",
         "title": "Actions",
-        "number": "5.4"
+        "number": "4.4"
       },
       "definedIn": "prose"
     },
     {
-      "id": "position-state①",
-      "href": "https://www.w3.org/TR/mediasession/#position-state%E2%91%A0",
+      "id": "position-state",
+      "href": "https://www.w3.org/TR/mediasession/#position-state",
       "linkingText": [
         "position state"
       ],
@@ -592,10 +658,10 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "position-state",
-        "href": "https://www.w3.org/TR/mediasession/#position-state",
+        "id": "position-state-sec",
+        "href": "https://www.w3.org/TR/mediasession/#position-state-sec",
         "title": "Position State",
-        "number": "5.5"
+        "number": "4.5"
       },
       "definedIn": "prose"
     },
@@ -611,10 +677,10 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "position-state",
-        "href": "https://www.w3.org/TR/mediasession/#position-state",
+        "id": "position-state-sec",
+        "href": "https://www.w3.org/TR/mediasession/#position-state-sec",
         "title": "Position State",
-        "number": "5.5"
+        "number": "4.5"
       },
       "definedIn": "prose"
     },
@@ -630,10 +696,10 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "position-state",
-        "href": "https://www.w3.org/TR/mediasession/#position-state",
+        "id": "position-state-sec",
+        "href": "https://www.w3.org/TR/mediasession/#position-state-sec",
         "title": "Position State",
-        "number": "5.5"
+        "number": "4.5"
       },
       "definedIn": "prose"
     },
@@ -649,10 +715,10 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "position-state",
-        "href": "https://www.w3.org/TR/mediasession/#position-state",
+        "id": "position-state-sec",
+        "href": "https://www.w3.org/TR/mediasession/#position-state-sec",
         "title": "Position State",
-        "number": "5.5"
+        "number": "4.5"
       },
       "definedIn": "prose"
     },
@@ -668,10 +734,10 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "position-state",
-        "href": "https://www.w3.org/TR/mediasession/#position-state",
+        "id": "position-state-sec",
+        "href": "https://www.w3.org/TR/mediasession/#position-state-sec",
         "title": "Position State",
-        "number": "5.5"
+        "number": "4.5"
       },
       "definedIn": "prose"
     },
@@ -687,10 +753,10 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "position-state",
-        "href": "https://www.w3.org/TR/mediasession/#position-state",
+        "id": "position-state-sec",
+        "href": "https://www.w3.org/TR/mediasession/#position-state-sec",
         "title": "Position State",
-        "number": "5.5"
+        "number": "4.5"
       },
       "definedIn": "prose"
     },
@@ -706,10 +772,10 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "position-state",
-        "href": "https://www.w3.org/TR/mediasession/#position-state",
+        "id": "position-state-sec",
+        "href": "https://www.w3.org/TR/mediasession/#position-state-sec",
         "title": "Position State",
-        "number": "5.5"
+        "number": "4.5"
       },
       "definedIn": "prose"
     },
@@ -728,7 +794,7 @@
         "id": "the-mediasession-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediasession-interface",
         "title": "The MediaSession interface",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "pre"
     },
@@ -747,7 +813,7 @@
         "id": "the-mediasession-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediasession-interface",
         "title": "The MediaSession interface",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "pre"
     },
@@ -766,7 +832,7 @@
         "id": "the-mediasession-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediasession-interface",
         "title": "The MediaSession interface",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "pre"
     },
@@ -787,7 +853,7 @@
         "id": "the-mediasession-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediasession-interface",
         "title": "The MediaSession interface",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "pre"
     },
@@ -806,7 +872,7 @@
         "id": "the-mediasession-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediasession-interface",
         "title": "The MediaSession interface",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "pre"
     },
@@ -827,7 +893,7 @@
         "id": "the-mediasession-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediasession-interface",
         "title": "The MediaSession interface",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "pre"
     },
@@ -848,7 +914,7 @@
         "id": "the-mediasession-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediasession-interface",
         "title": "The MediaSession interface",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "pre"
     },
@@ -870,7 +936,7 @@
         "id": "the-mediasession-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediasession-interface",
         "title": "The MediaSession interface",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "pre"
     },
@@ -891,7 +957,7 @@
         "id": "the-mediasession-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediasession-interface",
         "title": "The MediaSession interface",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "pre"
     },
@@ -912,7 +978,28 @@
         "id": "the-mediasession-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediasession-interface",
         "title": "The MediaSession interface",
-        "number": "6"
+        "number": "5"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-mediasession-setscreenshareactive-active-active",
+      "href": "https://www.w3.org/TR/mediasession/#dom-mediasession-setscreenshareactive-active-active",
+      "linkingText": [
+        "active"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "MediaSession/setScreenshareActive(active)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-mediasession-interface",
+        "href": "https://www.w3.org/TR/mediasession/#the-mediasession-interface",
+        "title": "The MediaSession interface",
+        "number": "5"
       },
       "definedIn": "pre"
     },
@@ -933,7 +1020,7 @@
         "id": "the-mediasession-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediasession-interface",
         "title": "The MediaSession interface",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "prose"
     },
@@ -954,7 +1041,7 @@
         "id": "the-mediasession-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediasession-interface",
         "title": "The MediaSession interface",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "prose"
     },
@@ -975,7 +1062,7 @@
         "id": "the-mediasession-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediasession-interface",
         "title": "The MediaSession interface",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "prose"
     },
@@ -996,7 +1083,7 @@
         "id": "the-mediasession-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediasession-interface",
         "title": "The MediaSession interface",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "prose"
     },
@@ -1015,7 +1102,7 @@
         "id": "the-mediasession-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediasession-interface",
         "title": "The MediaSession interface",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "prose"
     },
@@ -1037,7 +1124,7 @@
         "id": "the-mediasession-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediasession-interface",
         "title": "The MediaSession interface",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "prose"
     },
@@ -1059,7 +1146,7 @@
         "id": "the-mediasession-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediasession-interface",
         "title": "The MediaSession interface",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "prose"
     },
@@ -1081,7 +1168,7 @@
         "id": "the-mediasession-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediasession-interface",
         "title": "The MediaSession interface",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "prose"
     },
@@ -1102,7 +1189,7 @@
         "id": "the-mediasession-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediasession-interface",
         "title": "The MediaSession interface",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "prose"
     },
@@ -1124,7 +1211,7 @@
         "id": "the-mediasession-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediasession-interface",
         "title": "The MediaSession interface",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "prose"
     },
@@ -1145,7 +1232,7 @@
         "id": "the-mediasession-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediasession-interface",
         "title": "The MediaSession interface",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "prose"
     },
@@ -1166,7 +1253,66 @@
         "id": "the-mediasession-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediasession-interface",
         "title": "The MediaSession interface",
-        "number": "6"
+        "number": "5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-mediasession-setscreenshareactive",
+      "href": "https://www.w3.org/TR/mediasession/#dom-mediasession-setscreenshareactive",
+      "linkingText": [
+        "setScreenshareActive(active)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "MediaSession"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-mediasession-interface",
+        "href": "https://www.w3.org/TR/mediasession/#the-mediasession-interface",
+        "title": "The MediaSession interface",
+        "number": "5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "update-capture-state-algorithm",
+      "href": "https://www.w3.org/TR/mediasession/#update-capture-state-algorithm",
+      "linkingText": [
+        "update capture state algorithm"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-mediasession-interface",
+        "href": "https://www.w3.org/TR/mediasession/#the-mediasession-interface",
+        "title": "The MediaSession interface",
+        "number": "5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "pausing-all-input-sources",
+      "href": "https://www.w3.org/TR/mediasession/#pausing-all-input-sources",
+      "linkingText": [
+        "pausing all input sources"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-mediasession-interface",
+        "href": "https://www.w3.org/TR/mediasession/#the-mediasession-interface",
+        "title": "The MediaSession interface",
+        "number": "5"
       },
       "definedIn": "prose"
     },
@@ -1185,7 +1331,7 @@
         "id": "the-mediametadata-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediametadata-interface",
         "title": "The MediaMetadata interface",
-        "number": "7"
+        "number": "6"
       },
       "definedIn": "pre"
     },
@@ -1209,7 +1355,28 @@
         "id": "the-mediametadata-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediametadata-interface",
         "title": "The MediaMetadata interface",
-        "number": "7"
+        "number": "6"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-mediametadata-chapterinfo",
+      "href": "https://www.w3.org/TR/mediasession/#dom-mediametadata-chapterinfo",
+      "linkingText": [
+        "chapterInfo"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "MediaMetadata"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-mediametadata-interface",
+        "href": "https://www.w3.org/TR/mediasession/#the-mediametadata-interface",
+        "title": "The MediaMetadata interface",
+        "number": "6"
       },
       "definedIn": "pre"
     },
@@ -1228,7 +1395,7 @@
         "id": "the-mediametadata-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediametadata-interface",
         "title": "The MediaMetadata interface",
-        "number": "7"
+        "number": "6"
       },
       "definedIn": "pre"
     },
@@ -1249,7 +1416,7 @@
         "id": "the-mediametadata-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediametadata-interface",
         "title": "The MediaMetadata interface",
-        "number": "7"
+        "number": "6"
       },
       "definedIn": "pre"
     },
@@ -1270,7 +1437,7 @@
         "id": "the-mediametadata-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediametadata-interface",
         "title": "The MediaMetadata interface",
-        "number": "7"
+        "number": "6"
       },
       "definedIn": "pre"
     },
@@ -1291,7 +1458,7 @@
         "id": "the-mediametadata-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediametadata-interface",
         "title": "The MediaMetadata interface",
-        "number": "7"
+        "number": "6"
       },
       "definedIn": "pre"
     },
@@ -1312,7 +1479,28 @@
         "id": "the-mediametadata-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediametadata-interface",
         "title": "The MediaMetadata interface",
-        "number": "7"
+        "number": "6"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-mediametadatainit-chapterinfo",
+      "href": "https://www.w3.org/TR/mediasession/#dom-mediametadatainit-chapterinfo",
+      "linkingText": [
+        "chapterInfo"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "MediaMetadataInit"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-mediametadata-interface",
+        "href": "https://www.w3.org/TR/mediasession/#the-mediametadata-interface",
+        "title": "The MediaMetadata interface",
+        "number": "6"
       },
       "definedIn": "pre"
     },
@@ -1333,7 +1521,7 @@
         "id": "the-mediametadata-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediametadata-interface",
         "title": "The MediaMetadata interface",
-        "number": "7"
+        "number": "6"
       },
       "definedIn": "prose"
     },
@@ -1354,7 +1542,7 @@
         "id": "the-mediametadata-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediametadata-interface",
         "title": "The MediaMetadata interface",
-        "number": "7"
+        "number": "6"
       },
       "definedIn": "prose"
     },
@@ -1375,7 +1563,7 @@
         "id": "the-mediametadata-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediametadata-interface",
         "title": "The MediaMetadata interface",
-        "number": "7"
+        "number": "6"
       },
       "definedIn": "prose"
     },
@@ -1396,7 +1584,7 @@
         "id": "the-mediametadata-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediametadata-interface",
         "title": "The MediaMetadata interface",
-        "number": "7"
+        "number": "6"
       },
       "definedIn": "prose"
     },
@@ -1417,7 +1605,49 @@
         "id": "the-mediametadata-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediametadata-interface",
         "title": "The MediaMetadata interface",
-        "number": "7"
+        "number": "6"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "mediametadata-converted-artwork-images",
+      "href": "https://www.w3.org/TR/mediasession/#mediametadata-converted-artwork-images",
+      "linkingText": [
+        "converted artwork images"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "MediaMetadata"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-mediametadata-interface",
+        "href": "https://www.w3.org/TR/mediasession/#the-mediametadata-interface",
+        "title": "The MediaMetadata interface",
+        "number": "6"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "mediametadata-chapter-information",
+      "href": "https://www.w3.org/TR/mediasession/#mediametadata-chapter-information",
+      "linkingText": [
+        "chapter information"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "MediaMetadata"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-mediametadata-interface",
+        "href": "https://www.w3.org/TR/mediasession/#the-mediametadata-interface",
+        "title": "The MediaMetadata interface",
+        "number": "6"
       },
       "definedIn": "prose"
     },
@@ -1436,7 +1666,7 @@
         "id": "the-mediametadata-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediametadata-interface",
         "title": "The MediaMetadata interface",
-        "number": "7"
+        "number": "6"
       },
       "definedIn": "prose"
     },
@@ -1460,7 +1690,7 @@
         "id": "the-mediametadata-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediametadata-interface",
         "title": "The MediaMetadata interface",
-        "number": "7"
+        "number": "6"
       },
       "definedIn": "prose"
     },
@@ -1479,7 +1709,7 @@
         "id": "the-mediametadata-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediametadata-interface",
         "title": "The MediaMetadata interface",
-        "number": "7"
+        "number": "6"
       },
       "definedIn": "prose"
     },
@@ -1500,7 +1730,7 @@
         "id": "the-mediametadata-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediametadata-interface",
         "title": "The MediaMetadata interface",
-        "number": "7"
+        "number": "6"
       },
       "definedIn": "prose"
     },
@@ -1521,7 +1751,7 @@
         "id": "the-mediametadata-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediametadata-interface",
         "title": "The MediaMetadata interface",
-        "number": "7"
+        "number": "6"
       },
       "definedIn": "prose"
     },
@@ -1542,7 +1772,7 @@
         "id": "the-mediametadata-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediametadata-interface",
         "title": "The MediaMetadata interface",
-        "number": "7"
+        "number": "6"
       },
       "definedIn": "prose"
     },
@@ -1563,6 +1793,252 @@
         "id": "the-mediametadata-interface",
         "href": "https://www.w3.org/TR/mediasession/#the-mediametadata-interface",
         "title": "The MediaMetadata interface",
+        "number": "6"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "chapterinformation",
+      "href": "https://www.w3.org/TR/mediasession/#chapterinformation",
+      "linkingText": [
+        "ChapterInformation"
+      ],
+      "localLinkingText": [],
+      "type": "interface",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-chapterinformation-interface",
+        "href": "https://www.w3.org/TR/mediasession/#the-chapterinformation-interface",
+        "title": "The ChapterInformation interface",
+        "number": "7"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dictdef-chapterinformationinit",
+      "href": "https://www.w3.org/TR/mediasession/#dictdef-chapterinformationinit",
+      "linkingText": [
+        "ChapterInformationInit"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-chapterinformation-interface",
+        "href": "https://www.w3.org/TR/mediasession/#the-chapterinformation-interface",
+        "title": "The ChapterInformation interface",
+        "number": "7"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-chapterinformationinit-title",
+      "href": "https://www.w3.org/TR/mediasession/#dom-chapterinformationinit-title",
+      "linkingText": [
+        "title"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "ChapterInformationInit"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-chapterinformation-interface",
+        "href": "https://www.w3.org/TR/mediasession/#the-chapterinformation-interface",
+        "title": "The ChapterInformation interface",
+        "number": "7"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-chapterinformationinit-starttime",
+      "href": "https://www.w3.org/TR/mediasession/#dom-chapterinformationinit-starttime",
+      "linkingText": [
+        "startTime"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "ChapterInformationInit"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-chapterinformation-interface",
+        "href": "https://www.w3.org/TR/mediasession/#the-chapterinformation-interface",
+        "title": "The ChapterInformation interface",
+        "number": "7"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-chapterinformationinit-artwork",
+      "href": "https://www.w3.org/TR/mediasession/#dom-chapterinformationinit-artwork",
+      "linkingText": [
+        "artwork"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "ChapterInformationInit"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-chapterinformation-interface",
+        "href": "https://www.w3.org/TR/mediasession/#the-chapterinformation-interface",
+        "title": "The ChapterInformation interface",
+        "number": "7"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "chapterinformation-title",
+      "href": "https://www.w3.org/TR/mediasession/#chapterinformation-title",
+      "linkingText": [
+        "title"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "ChapterInformation"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-chapterinformation-interface",
+        "href": "https://www.w3.org/TR/mediasession/#the-chapterinformation-interface",
+        "title": "The ChapterInformation interface",
+        "number": "7"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "chapterinformation-starttime",
+      "href": "https://www.w3.org/TR/mediasession/#chapterinformation-starttime",
+      "linkingText": [
+        "startTime"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "ChapterInformation"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-chapterinformation-interface",
+        "href": "https://www.w3.org/TR/mediasession/#the-chapterinformation-interface",
+        "title": "The ChapterInformation interface",
+        "number": "7"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "chapterinformation-artwork-images",
+      "href": "https://www.w3.org/TR/mediasession/#chapterinformation-artwork-images",
+      "linkingText": [
+        "artwork images"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "ChapterInformation"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-chapterinformation-interface",
+        "href": "https://www.w3.org/TR/mediasession/#the-chapterinformation-interface",
+        "title": "The ChapterInformation interface",
+        "number": "7"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "create-a-chapterinformation",
+      "href": "https://www.w3.org/TR/mediasession/#create-a-chapterinformation",
+      "linkingText": [
+        "create a ChapterInformation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-chapterinformation-interface",
+        "href": "https://www.w3.org/TR/mediasession/#the-chapterinformation-interface",
+        "title": "The ChapterInformation interface",
+        "number": "7"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-chapterinformation-title",
+      "href": "https://www.w3.org/TR/mediasession/#dom-chapterinformation-title",
+      "linkingText": [
+        "title"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "ChapterInformation"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-chapterinformation-interface",
+        "href": "https://www.w3.org/TR/mediasession/#the-chapterinformation-interface",
+        "title": "The ChapterInformation interface",
+        "number": "7"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-chapterinformation-starttime",
+      "href": "https://www.w3.org/TR/mediasession/#dom-chapterinformation-starttime",
+      "linkingText": [
+        "startTime"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "ChapterInformation"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-chapterinformation-interface",
+        "href": "https://www.w3.org/TR/mediasession/#the-chapterinformation-interface",
+        "title": "The ChapterInformation interface",
+        "number": "7"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-chapterinformation-artwork",
+      "href": "https://www.w3.org/TR/mediasession/#dom-chapterinformation-artwork",
+      "linkingText": [
+        "artwork"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "ChapterInformation"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-chapterinformation-interface",
+        "href": "https://www.w3.org/TR/mediasession/#the-chapterinformation-interface",
+        "title": "The ChapterInformation interface",
         "number": "7"
       },
       "definedIn": "prose"
@@ -1608,17 +2084,17 @@
       "definedIn": "prose"
     },
     {
-      "id": "mediaimage-source",
-      "href": "https://www.w3.org/TR/mediasession/#mediaimage-source",
+      "id": "dom-mediaimage-source",
+      "href": "https://www.w3.org/TR/mediasession/#dom-mediaimage-source",
       "linkingText": [
         "source"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "attribute",
       "for": [
         "MediaImage"
       ],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "the-mediaimage-dictionary",
@@ -1771,6 +2247,26 @@
       "definedIn": "pre"
     },
     {
+      "id": "dom-mediasessionactiondetails-isactivating",
+      "href": "https://www.w3.org/TR/mediasession/#dom-mediasessionactiondetails-isactivating",
+      "linkingText": [
+        "isActivating"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "MediaSessionActionDetails"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-mediasessionactiondetails-dictionary",
+        "href": "https://www.w3.org/TR/mediasession/#the-mediasessionactiondetails-dictionary",
+        "title": "10. The MediaSessionActionDetails dictionary"
+      },
+      "definedIn": "pre"
+    },
+    {
       "id": "dom-mediasessionactiondetails-action",
       "href": "https://www.w3.org/TR/mediasession/#dom-mediasessionactiondetails-action",
       "linkingText": [
@@ -1840,6 +2336,26 @@
       "type": "dict-member",
       "for": [
         "MediaSessionActionDetails"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-mediasessionactiondetails-dictionary",
+        "href": "https://www.w3.org/TR/mediasession/#the-mediasessionactiondetails-dictionary",
+        "title": "10. The MediaSessionActionDetails dictionary"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-mediasessionactioncapturedetails-isactivating",
+      "href": "https://www.w3.org/TR/mediasession/#dom-mediasessionactioncapturedetails-isactivating",
+      "linkingText": [
+        "isActivating"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "MediaSessionActionCaptureDetails"
       ],
       "access": "public",
       "informative": false,

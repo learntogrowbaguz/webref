@@ -101,27 +101,6 @@
       "definedIn": "prose"
     },
     {
-      "id": "dfn-spatialscalability",
-      "href": "https://w3c.github.io/webrtc-svc/#dfn-spatialscalability",
-      "linkingText": [
-        "spatialScalability"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "VideoConfiguration"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "terminology",
-        "href": "https://w3c.github.io/webrtc-svc/#terminology",
-        "title": "Terminology",
-        "number": "3"
-      },
-      "definedIn": "prose"
-    },
-    {
       "id": "dom-rtcrtpencodingparameters-scalabilitymode",
       "href": "https://w3c.github.io/webrtc-svc/#dom-rtcrtpencodingparameters-scalabilitymode",
       "linkingText": [
@@ -142,26 +121,6 @@
       "definedIn": "dt"
     },
     {
-      "id": "dom-rtcrtpcodeccapability-scalabilitymodes",
-      "href": "https://w3c.github.io/webrtc-svc/#dom-rtcrtpcodeccapability-scalabilitymodes",
-      "linkingText": [
-        "scalabilityModes"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "RTCRtpCodecCapability"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "dictionary-rtcrtpcodeccapability-members",
-        "href": "https://w3c.github.io/webrtc-svc/#dictionary-rtcrtpcodeccapability-members",
-        "title": "Dictionary RTCRtpCodecCapability Members"
-      },
-      "definedIn": "dt"
-    },
-    {
       "id": "dfn-l1t1",
       "href": "https://w3c.github.io/webrtc-svc/#dfn-l1t1",
       "linkingText": [
@@ -176,7 +135,7 @@
         "id": "scalabilitymodes*",
         "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
         "title": "Scalability modes",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "table"
     },
@@ -195,7 +154,7 @@
         "id": "scalabilitymodes*",
         "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
         "title": "Scalability modes",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "table"
     },
@@ -214,7 +173,7 @@
         "id": "scalabilitymodes*",
         "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
         "title": "Scalability modes",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "table"
     },
@@ -233,7 +192,7 @@
         "id": "scalabilitymodes*",
         "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
         "title": "Scalability modes",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "table"
     },
@@ -252,7 +211,7 @@
         "id": "scalabilitymodes*",
         "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
         "title": "Scalability modes",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "table"
     },
@@ -271,7 +230,7 @@
         "id": "scalabilitymodes*",
         "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
         "title": "Scalability modes",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "table"
     },
@@ -290,7 +249,7 @@
         "id": "scalabilitymodes*",
         "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
         "title": "Scalability modes",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "table"
     },
@@ -309,7 +268,7 @@
         "id": "scalabilitymodes*",
         "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
         "title": "Scalability modes",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "table"
     },
@@ -328,7 +287,7 @@
         "id": "scalabilitymodes*",
         "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
         "title": "Scalability modes",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "table"
     },
@@ -347,7 +306,7 @@
         "id": "scalabilitymodes*",
         "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
         "title": "Scalability modes",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "table"
     },
@@ -366,7 +325,7 @@
         "id": "scalabilitymodes*",
         "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
         "title": "Scalability modes",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "table"
     },
@@ -385,7 +344,64 @@
         "id": "scalabilitymodes*",
         "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
         "title": "Scalability modes",
-        "number": "6"
+        "number": "5"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "dfn-l3t1h",
+      "href": "https://w3c.github.io/webrtc-svc/#dfn-l3t1h",
+      "linkingText": [
+        "\"L3T1h\""
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scalabilitymodes*",
+        "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
+        "title": "Scalability modes",
+        "number": "5"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "dfn-l3t2h",
+      "href": "https://w3c.github.io/webrtc-svc/#dfn-l3t2h",
+      "linkingText": [
+        "\"L3T2h\""
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scalabilitymodes*",
+        "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
+        "title": "Scalability modes",
+        "number": "5"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "dfn-l3t3h",
+      "href": "https://w3c.github.io/webrtc-svc/#dfn-l3t3h",
+      "linkingText": [
+        "\"L3T3h\""
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scalabilitymodes*",
+        "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
+        "title": "Scalability modes",
+        "number": "5"
       },
       "definedIn": "table"
     },
@@ -404,7 +420,7 @@
         "id": "scalabilitymodes*",
         "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
         "title": "Scalability modes",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "table"
     },
@@ -423,7 +439,7 @@
         "id": "scalabilitymodes*",
         "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
         "title": "Scalability modes",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "table"
     },
@@ -442,7 +458,7 @@
         "id": "scalabilitymodes*",
         "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
         "title": "Scalability modes",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "table"
     },
@@ -461,7 +477,7 @@
         "id": "scalabilitymodes*",
         "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
         "title": "Scalability modes",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "table"
     },
@@ -480,7 +496,7 @@
         "id": "scalabilitymodes*",
         "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
         "title": "Scalability modes",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "table"
     },
@@ -499,7 +515,7 @@
         "id": "scalabilitymodes*",
         "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
         "title": "Scalability modes",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "table"
     },
@@ -518,7 +534,7 @@
         "id": "scalabilitymodes*",
         "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
         "title": "Scalability modes",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "table"
     },
@@ -537,7 +553,7 @@
         "id": "scalabilitymodes*",
         "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
         "title": "Scalability modes",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "table"
     },
@@ -556,7 +572,7 @@
         "id": "scalabilitymodes*",
         "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
         "title": "Scalability modes",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "table"
     },
@@ -575,7 +591,7 @@
         "id": "scalabilitymodes*",
         "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
         "title": "Scalability modes",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "table"
     },
@@ -594,7 +610,7 @@
         "id": "scalabilitymodes*",
         "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
         "title": "Scalability modes",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "table"
     },
@@ -613,7 +629,7 @@
         "id": "scalabilitymodes*",
         "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
         "title": "Scalability modes",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "table"
     },
@@ -632,7 +648,7 @@
         "id": "scalabilitymodes*",
         "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
         "title": "Scalability modes",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "table"
     },
@@ -651,7 +667,7 @@
         "id": "scalabilitymodes*",
         "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
         "title": "Scalability modes",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "table"
     },
@@ -670,7 +686,7 @@
         "id": "scalabilitymodes*",
         "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
         "title": "Scalability modes",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "table"
     },
@@ -689,7 +705,26 @@
         "id": "scalabilitymodes*",
         "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
         "title": "Scalability modes",
-        "number": "6"
+        "number": "5"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "dfn-l3t1_key",
+      "href": "https://w3c.github.io/webrtc-svc/#dfn-l3t1_key",
+      "linkingText": [
+        "\"L3T1_KEY\""
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scalabilitymodes*",
+        "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
+        "title": "Scalability modes",
+        "number": "5"
       },
       "definedIn": "table"
     },
@@ -708,7 +743,7 @@
         "id": "scalabilitymodes*",
         "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
         "title": "Scalability modes",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "table"
     },
@@ -727,7 +762,7 @@
         "id": "scalabilitymodes*",
         "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
         "title": "Scalability modes",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "table"
     },
@@ -746,7 +781,7 @@
         "id": "scalabilitymodes*",
         "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
         "title": "Scalability modes",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "table"
     },
@@ -765,7 +800,7 @@
         "id": "scalabilitymodes*",
         "href": "https://w3c.github.io/webrtc-svc/#scalabilitymodes*",
         "title": "Scalability modes",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "table"
     }

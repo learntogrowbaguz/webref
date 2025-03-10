@@ -15,7 +15,7 @@
       },
       {
         "name": "ENCRYPTED-MEDIA",
-        "url": "https://www.w3.org/TR/encrypted-media/"
+        "url": "https://www.w3.org/TR/encrypted-media-2/"
       },
       {
         "name": "ENCRYPTED-MEDIA-DRAFT",
@@ -31,7 +31,7 @@
       },
       {
         "name": "MEDIA-SOURCE",
-        "url": "https://www.w3.org/TR/media-source/"
+        "url": "https://www.w3.org/TR/media-source-2/"
       },
       {
         "name": "MIMESNIFF",
@@ -40,10 +40,6 @@
       {
         "name": "RFC2119",
         "url": "https://datatracker.ietf.org/doc/html/rfc2119"
-      },
-      {
-        "name": "SECURE-CONTEXTS",
-        "url": "https://www.w3.org/TR/secure-contexts/"
       },
       {
         "name": "SMPTE-ST-2084",
@@ -72,20 +68,12 @@
     ],
     "informative": [
       {
-        "name": "BATTERY-STATUS",
-        "url": "https://www.w3.org/TR/battery-status/"
-      },
-      {
-        "name": "MEDIA-PLAYBACK-QUALITY",
-        "url": "https://w3c.github.io/media-playback-quality/"
+        "name": "IANA-MEDIA-TYPES",
+        "url": "https://www.iana.org/assignments/media-types/"
       },
       {
         "name": "MEDIASTREAM-RECORDING",
         "url": "https://www.w3.org/TR/mediastream-recording/"
-      },
-      {
-        "name": "RFC4855",
-        "url": "https://www.rfc-editor.org/rfc/rfc4855"
       },
       {
         "name": "RFC6838",
@@ -93,7 +81,7 @@
       },
       {
         "name": "RFC9110",
-        "url": "https://www.rfc-editor.org/rfc/rfc9110"
+        "url": "https://httpwg.org/specs/rfc9110.html"
       },
       {
         "name": "WEBRTC-SVC",

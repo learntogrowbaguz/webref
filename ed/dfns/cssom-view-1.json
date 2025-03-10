@@ -330,6 +330,27 @@
       "definedIn": "prose"
     },
     {
+      "id": "viewport-perform-a-scroll",
+      "href": "https://drafts.csswg.org/cssom-view-1/#viewport-perform-a-scroll",
+      "linkingText": [
+        "perform a scroll"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "viewport"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scrolling",
+        "href": "https://drafts.csswg.org/cssom-view-1/#scrolling",
+        "title": "Scrolling",
+        "number": "3.1"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "scroll-completed",
       "href": "https://drafts.csswg.org/cssom-view-1/#scroll-completed",
       "linkingText": [
@@ -486,6 +507,27 @@
       "href": "https://drafts.csswg.org/cssom-view-1/#dom-scrollbehavior-auto",
       "linkingText": [
         "\"auto\""
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "ScrollBehavior"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extensions-to-the-window-interface",
+        "href": "https://drafts.csswg.org/cssom-view-1/#extensions-to-the-window-interface",
+        "title": "Extensions to the Window Interface",
+        "number": "4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-scrollbehavior-instant",
+      "href": "https://drafts.csswg.org/cssom-view-1/#dom-scrollbehavior-instant",
+      "linkingText": [
+        "\"instant\""
       ],
       "localLinkingText": [],
       "type": "enum-value",
@@ -2349,14 +2391,15 @@
       "definedIn": "pre"
     },
     {
-      "id": "dom-document-caretpositionfrompoint-x-y-x",
-      "href": "https://drafts.csswg.org/cssom-view-1/#dom-document-caretpositionfrompoint-x-y-x",
+      "id": "dom-document-caretpositionfrompoint-x-y-options-x",
+      "href": "https://drafts.csswg.org/cssom-view-1/#dom-document-caretpositionfrompoint-x-y-options-x",
       "linkingText": [
         "x"
       ],
       "localLinkingText": [],
       "type": "argument",
       "for": [
+        "Document/caretPositionFromPoint(x, y, options)",
         "Document/caretPositionFromPoint(x, y)"
       ],
       "access": "public",
@@ -2370,15 +2413,78 @@
       "definedIn": "pre"
     },
     {
-      "id": "dom-document-caretpositionfrompoint-x-y-y",
-      "href": "https://drafts.csswg.org/cssom-view-1/#dom-document-caretpositionfrompoint-x-y-y",
+      "id": "dom-document-caretpositionfrompoint-x-y-options-y",
+      "href": "https://drafts.csswg.org/cssom-view-1/#dom-document-caretpositionfrompoint-x-y-options-y",
       "linkingText": [
         "y"
       ],
       "localLinkingText": [],
       "type": "argument",
       "for": [
+        "Document/caretPositionFromPoint(x, y, options)",
         "Document/caretPositionFromPoint(x, y)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extensions-to-the-document-interface",
+        "href": "https://drafts.csswg.org/cssom-view-1/#extensions-to-the-document-interface",
+        "title": "Extensions to the Document Interface",
+        "number": "5"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-document-caretpositionfrompoint-x-y-options-options",
+      "href": "https://drafts.csswg.org/cssom-view-1/#dom-document-caretpositionfrompoint-x-y-options-options",
+      "linkingText": [
+        "options"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Document/caretPositionFromPoint(x, y, options)",
+        "Document/caretPositionFromPoint(x, y)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extensions-to-the-document-interface",
+        "href": "https://drafts.csswg.org/cssom-view-1/#extensions-to-the-document-interface",
+        "title": "Extensions to the Document Interface",
+        "number": "5"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dictdef-caretpositionfrompointoptions",
+      "href": "https://drafts.csswg.org/cssom-view-1/#dictdef-caretpositionfrompointoptions",
+      "linkingText": [
+        "CaretPositionFromPointOptions"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extensions-to-the-document-interface",
+        "href": "https://drafts.csswg.org/cssom-view-1/#extensions-to-the-document-interface",
+        "title": "Extensions to the Document Interface",
+        "number": "5"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-caretpositionfrompointoptions-shadowroots",
+      "href": "https://drafts.csswg.org/cssom-view-1/#dom-caretpositionfrompointoptions-shadowroots",
+      "linkingText": [
+        "shadowRoots"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "CaretPositionFromPointOptions"
       ],
       "access": "public",
       "informative": false,
@@ -2436,6 +2542,7 @@
       "id": "dom-document-caretpositionfrompoint",
       "href": "https://drafts.csswg.org/cssom-view-1/#dom-document-caretpositionfrompoint",
       "linkingText": [
+        "caretPositionFromPoint(x, y, options)",
         "caretPositionFromPoint(x, y)"
       ],
       "localLinkingText": [],
@@ -2517,25 +2624,6 @@
       "href": "https://drafts.csswg.org/cssom-view-1/#caret-offset",
       "linkingText": [
         "caret offset"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "the-caretposition-interface",
-        "href": "https://drafts.csswg.org/cssom-view-1/#the-caretposition-interface",
-        "title": "The CaretPosition Interface",
-        "number": "5.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "caret-range",
-      "href": "https://drafts.csswg.org/cssom-view-1/#caret-range",
-      "linkingText": [
-        "caret range"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -2797,6 +2885,88 @@
       "definedIn": "pre"
     },
     {
+      "id": "dom-scrollintoviewoptions-container",
+      "href": "https://drafts.csswg.org/cssom-view-1/#dom-scrollintoviewoptions-container",
+      "linkingText": [
+        "container"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "ScrollIntoViewOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extension-to-the-element-interface",
+        "href": "https://drafts.csswg.org/cssom-view-1/#extension-to-the-element-interface",
+        "title": "Extensions to the Element Interface",
+        "number": "6"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "enumdef-scrollintoviewcontainer",
+      "href": "https://drafts.csswg.org/cssom-view-1/#enumdef-scrollintoviewcontainer",
+      "linkingText": [
+        "ScrollIntoViewContainer"
+      ],
+      "localLinkingText": [],
+      "type": "enum",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extension-to-the-element-interface",
+        "href": "https://drafts.csswg.org/cssom-view-1/#extension-to-the-element-interface",
+        "title": "Extensions to the Element Interface",
+        "number": "6"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-scrollintoviewcontainer-all",
+      "href": "https://drafts.csswg.org/cssom-view-1/#dom-scrollintoviewcontainer-all",
+      "linkingText": [
+        "\"all\""
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "ScrollIntoViewContainer"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extension-to-the-element-interface",
+        "href": "https://drafts.csswg.org/cssom-view-1/#extension-to-the-element-interface",
+        "title": "Extensions to the Element Interface",
+        "number": "6"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-scrollintoviewcontainer-nearest",
+      "href": "https://drafts.csswg.org/cssom-view-1/#dom-scrollintoviewcontainer-nearest",
+      "linkingText": [
+        "\"nearest\""
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "ScrollIntoViewContainer"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extension-to-the-element-interface",
+        "href": "https://drafts.csswg.org/cssom-view-1/#extension-to-the-element-interface",
+        "title": "Extensions to the Element Interface",
+        "number": "6"
+      },
+      "definedIn": "pre"
+    },
+    {
       "id": "dictdef-checkvisibilityoptions",
       "href": "https://drafts.csswg.org/cssom-view-1/#dictdef-checkvisibilityoptions",
       "linkingText": [
@@ -2841,6 +3011,69 @@
       "href": "https://drafts.csswg.org/cssom-view-1/#dom-checkvisibilityoptions-checkvisibilitycss",
       "linkingText": [
         "checkVisibilityCSS"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "CheckVisibilityOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extension-to-the-element-interface",
+        "href": "https://drafts.csswg.org/cssom-view-1/#extension-to-the-element-interface",
+        "title": "Extensions to the Element Interface",
+        "number": "6"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-checkvisibilityoptions-contentvisibilityauto",
+      "href": "https://drafts.csswg.org/cssom-view-1/#dom-checkvisibilityoptions-contentvisibilityauto",
+      "linkingText": [
+        "contentVisibilityAuto"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "CheckVisibilityOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extension-to-the-element-interface",
+        "href": "https://drafts.csswg.org/cssom-view-1/#extension-to-the-element-interface",
+        "title": "Extensions to the Element Interface",
+        "number": "6"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-checkvisibilityoptions-opacityproperty",
+      "href": "https://drafts.csswg.org/cssom-view-1/#dom-checkvisibilityoptions-opacityproperty",
+      "linkingText": [
+        "opacityProperty"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "CheckVisibilityOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extension-to-the-element-interface",
+        "href": "https://drafts.csswg.org/cssom-view-1/#extension-to-the-element-interface",
+        "title": "Extensions to the Element Interface",
+        "number": "6"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-checkvisibilityoptions-visibilityproperty",
+      "href": "https://drafts.csswg.org/cssom-view-1/#dom-checkvisibilityoptions-visibilityproperty",
+      "linkingText": [
+        "visibilityProperty"
       ],
       "localLinkingText": [],
       "type": "dict-member",
@@ -3434,6 +3667,46 @@
         "href": "https://drafts.csswg.org/cssom-view-1/#extension-to-the-element-interface",
         "title": "Extensions to the Element Interface",
         "number": "6"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dom-element-currentcsszoom",
+      "href": "https://drafts.csswg.org/cssom-view-1/#dom-element-currentcsszoom",
+      "linkingText": [
+        "currentCSSZoom"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "Element"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extension-to-the-element-interface",
+        "href": "https://drafts.csswg.org/cssom-view-1/#extension-to-the-element-interface",
+        "title": "Extensions to the Element Interface",
+        "number": "6"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "determine-the-scroll-into-view-position",
+      "href": "https://drafts.csswg.org/cssom-view-1/#determine-the-scroll-into-view-position",
+      "linkingText": [
+        "determine the scroll-into-view position"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "element-scrolling-members",
+        "href": "https://drafts.csswg.org/cssom-view-1/#element-scrolling-members",
+        "title": "Element Scrolling Members",
+        "number": "6.1"
       },
       "definedIn": "prose"
     },
@@ -4883,7 +5156,8 @@
       "type": "event",
       "for": [
         "Document",
-        "Element"
+        "Element",
+        "VisualViewport"
       ],
       "access": "public",
       "informative": false,
@@ -4894,6 +5168,24 @@
         "number": "13.3"
       },
       "definedIn": "table"
+    },
+    {
+      "id": "run-snapshot-post-layout-state-steps",
+      "href": "https://drafts.csswg.org/cssom-view-1/#run-snapshot-post-layout-state-steps",
+      "linkingText": [
+        "run snapshot post-layout state steps"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "post-layout-snapshot",
+        "href": "https://drafts.csswg.org/cssom-view-1/#post-layout-snapshot",
+        "title": "14. Post-Layout State Snapshotting"
+      },
+      "definedIn": "prose"
     }
   ]
 }

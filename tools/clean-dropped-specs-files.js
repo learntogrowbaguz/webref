@@ -17,16 +17,20 @@
  * remain subject to human review.
  */
 
-const fs = require("fs").promises;
-const path = require("path");
-const { loadJSON } = require('./utils');
+import fs from "node:fs/promises";
+import path from "node:path";
+import { loadJSON } from './utils.js';
 
 async function cleanExtractFolder(folder, crawlResults) {
   const dir = await fs.readdir(folder);
   for (const filename of dir) {
     const specname = path.basename(filename, path.extname(filename));
     const spec = crawlResults
-      .find(s => s.shortname === specname || s.series?.shortname === specname);
+      .find(s => s.shortname === specname ||
+        s.series?.shortname === specname ||
+        // CDDL extracts may end with CDDL module name
+        specname.startsWith(s.shortname + '-')
+      );
     if (!spec) {
       const fileToDrop = path.join(folder, filename);
       await fs.unlink(fileToDrop);

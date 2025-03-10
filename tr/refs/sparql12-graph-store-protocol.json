@@ -1,0 +1,64 @@
+{
+  "spec": {
+    "title": "SPARQL 1.2 Graph Store Protocol",
+    "url": "https://www.w3.org/TR/sparql12-graph-store-protocol/"
+  },
+  "refs": {
+    "normative": [
+      {
+        "name": "RFC2119",
+        "url": "https://www.rfc-editor.org/rfc/rfc2119"
+      },
+      {
+        "name": "RFC8174",
+        "url": "https://www.rfc-editor.org/rfc/rfc8174"
+      }
+    ],
+    "informative": [
+      {
+        "name": "SPARQL12-CONCEPTS",
+        "url": "https://w3c.github.io/sparql-concepts/spec/"
+      },
+      {
+        "name": "SPARQL12-ENTAILMENT",
+        "url": "https://www.w3.org/TR/sparql12-entailment/"
+      },
+      {
+        "name": "SPARQL12-FEDERATED-QUERY",
+        "url": "https://www.w3.org/TR/sparql12-federated-query/"
+      },
+      {
+        "name": "SPARQL12-NEW",
+        "url": "https://w3c.github.io/sparql-new/spec/"
+      },
+      {
+        "name": "SPARQL12-PROTOCOL",
+        "url": "https://www.w3.org/TR/sparql12-protocol/"
+      },
+      {
+        "name": "SPARQL12-QUERY",
+        "url": "https://www.w3.org/TR/sparql12-query/"
+      },
+      {
+        "name": "SPARQL12-RESULTS-CSV-TSV",
+        "url": "https://www.w3.org/TR/sparql12-results-csv-tsv/"
+      },
+      {
+        "name": "SPARQL12-RESULTS-JSON",
+        "url": "https://www.w3.org/TR/sparql12-results-json/"
+      },
+      {
+        "name": "SPARQL12-RESULTS-XML",
+        "url": "https://www.w3.org/TR/sparql12-results-xml/"
+      },
+      {
+        "name": "SPARQL12-SERVICE-DESCRIPTION",
+        "url": "https://www.w3.org/TR/sparql12-service-description/"
+      },
+      {
+        "name": "SPARQL12-UPDATE",
+        "url": "https://www.w3.org/TR/sparql12-update/"
+      }
+    ]
+  }
+}

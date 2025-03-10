@@ -1,21 +1,148 @@
 {
   "spec": {
-    "title": "Source Map Revision 3 Proposal",
-    "url": "https://sourcemaps.info/spec.html"
+    "title": "Source map format specification",
+    "url": "https://tc39.es/ecma426/"
   },
   "links": {
-    "https://docs.google.com/document/d/1U1RGAehQwRypUTovF1KRlpiOFze0b-_2gc6fAH0KY0k/edit": {
-      "anchors": [
-        "heading=h.djovrt4kdvga"
-      ]
+    "rawlinks": {
+      "https://datatracker.ietf.org/doc/html/rfc4648": {},
+      "https://docs.google.com/document/d/1xi12LrcqjqIHTtZzrzZKmQ3lbTv9mKrN076UB-j3UZQ/": {},
+      "https://ecma-international.org/": {},
+      "https://ecma-international.org/memento/codeofconduct.htm": {},
+      "https://en.wikipedia.org/wiki/Variable-length_quantity": {},
+      "https://encoding.spec.whatwg.org/": {
+        "anchors": [
+          "utf-8-decode"
+        ]
+      },
+      "https://fetch.spec.whatwg.org/": {
+        "anchors": [
+          "concept-fetch",
+          "http-newline-byte",
+          "process-response-end-of-body",
+          "concept-request",
+          "concept-request-url",
+          "http-scheme"
+        ]
+      },
+      "https://github.com/bterlson/ecmarkup": {},
+      "https://github.com/domenic/ecmarkdown": {},
+      "https://github.com/rbuckton/grammarkdown": {},
+      "https://github.com/takikawa": {},
+      "https://github.com/tc39/ecma262/pull/3540": {},
+      "https://github.com/tc39/ecma426": {},
+      "https://github.com/tc39/ecma426/issues": {},
+      "https://github.com/tc39/ecma426/issues/new": {},
+      "https://github.com/tc39/ecma426/pulls": {},
+      "https://github.com/tc39/ecma426/pulls/new": {},
+      "https://github.com/tc39/source-map-tests/": {},
+      "https://infra.spec.whatwg.org/": {
+        "anchors": [
+          "byte-sequence",
+          "byte-sequence-prefix"
+        ]
+      },
+      "https://speced.github.io/bikeshed/": {},
+      "https://tc39.es/ecma262/": {
+        "anchors": [
+          "sec-notational-conventions",
+          "sec-algorithm-conventions-abstract-operations",
+          "sec-completion-record-specification-type",
+          "integer",
+          "sec-returnifabrupt",
+          "sec-completion-ao",
+          "sec-throwcompletion",
+          "sec-ecmascript-language-types-string-type",
+          "sec-ecmascript-language-types-number-type",
+          "sec-ecmascript-language-types-boolean-type",
+          "sec-ecmascript-language-types-null-type",
+          "sec-object-type",
+          "integer-index",
+          "sec-call",
+          "sec-json.parse",
+          "assert",
+          "sec-list-and-record-specification-type",
+          "integral-number",
+          "%E2%84%9D",
+          "sec-tostring",
+          "%F0%9D%94%BD",
+          "substring",
+          "eqn-min",
+          "eqn-modulo",
+          "eqn-floor",
+          "sec-ecmascript-language-lexical-grammar",
+          "sec-algorithm-conventions-syntax-directed-operations",
+          "prod-IdentifierName",
+          "prod-PrivateIdentifier",
+          "prod-Punctuator",
+          "prod-DivPunctuator",
+          "prod-RightBracePunctuator",
+          "prod-NumericLiteral",
+          "prod-RegularExpressionLiteral",
+          "prod-Comment",
+          "prod-HashbangComment",
+          "prod-StringLiteral",
+          "prod-Template",
+          "prod-TemplateSubstitutionTail",
+          "prod-WhiteSpace",
+          "prod-LineTerminator",
+          "sec-syntactic-grammar",
+          "prod-BindingIdentifier",
+          "prod-LexicalDeclaration",
+          "prod-VariableStatement",
+          "prod-FunctionDeclaration",
+          "prod-FunctionExpression",
+          "prod-AsyncFunctionDeclaration",
+          "prod-AsyncFunctionExpression",
+          "prod-GeneratorDeclaration",
+          "prod-GeneratorExpression",
+          "prod-AsyncGeneratorDeclaration",
+          "prod-AsyncGeneratorExpression",
+          "prod-FormalParameters",
+          "prod-ArrowFunction",
+          "prod-AsyncArrowFunction",
+          "prod-ArrowParameters",
+          "prod-AsyncArrowBindingIdentifier",
+          "prod-ArrowFormalParameters",
+          "prod-ClassElementName",
+          "prod-MethodDefinition",
+          "prod-IdentifierReference",
+          "string-concatenation",
+          "sec-get-o-p",
+          "list-concatenation",
+          "prod-SingleLineComment",
+          "prod-MultiLineComment",
+          "prod-LineTerminatorSequence",
+          "sec-stringtocodepoints",
+          "sec-codepointstostring",
+          "sec-regexpcreate",
+          "sec-regexpexec",
+          "sec-data-blocks",
+          "sec-newpromisecapability",
+          "sec-promise-constructor",
+          "sec-abstract-closure",
+          "sec-ifabruptrejectpromise"
+        ]
+      },
+      "https://tc39.es/ecma426/": {},
+      "https://url.spec.whatwg.org/": {
+        "anchors": [
+          "concept-url-scheme",
+          "concept-url",
+          "url-parsing"
+        ]
+      },
+      "https://web.archive.org/web/20120814122523/http://blog.getfirebug.com/2009/08/11/give-your-eval-a-name-with-sourceurl/": {},
+      "https://www.ecma-international.org/publications-and-standards/standards/ecma-404/": {},
+      "https://www.w3.org/TR/wasm-core-2/": {
+        "anchors": [
+          "custom-section%E2%91%A0",
+          "modules%E2%91%A0%E2%91%A4",
+          "embed-error",
+          "names%E2%91%A2"
+        ]
+      }
     },
-    "https://docs.google.com/document/d/1xi12LrcqjqIHTtZzrzZKmQ3lbTv9mKrN076UB-j3UZQ/edit?hl=en_US": {},
-    "https://www.google.com/url?q=http%3A%2F%2Fblog.getfirebug.com%2F2009%2F08%2F11%2Fgive-your-eval-a-name-with-sourceurl%2F&sa=D&sntz=1&usg=AFQjCNGTmo1oeVMYYnkym1sNCKRubqEdZQ": {},
-    "https://www.google.com/url?q=http%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby-sa%2F3.0%2F&sa=D&sntz=1&usg=AFQjCNG4j2oPozXv2_VqmmLiVAToFtwKdA": {},
-    "https://www.google.com/url?q=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBase64&sa=D&sntz=1&usg=AFQjCNFBXL8z0E0DI1EBVFe0p1xFhqM-nQ": {},
-    "https://www.google.com/url?q=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDomain-specific_language&sa=D&sntz=1&usg=AFQjCNHHFC688Gk030MFph_E9e5bb91vxw": {},
-    "https://www.google.com/url?q=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FVariable-length_quantity&sa=D&sntz=1&usg=AFQjCNGbaYv9IZBJ4F8r1CT_hcPd6G5W7g": {},
-    "https://www.google.com/url?q=http%3A%2F%2Fgoogleonlinesecurity.blogspot.com%2F2011%2F05%2Fwebsite-security-for-webmasters.html&sa=D&sntz=1&usg=AFQjCNGfEVwZAC-5zTvoGFDCjdNE25PBcw": {},
-    "https://www.google.com/url?q=https%3A%2F%2Flists.mozilla.org%2Flistinfo%2Fdev-js-sourcemap&sa=D&sntz=1&usg=AFQjCNF_VYjErD9aXQLjMPShAAmNZ4uWGA": {}
+    "autolinks": {}
   }
 }

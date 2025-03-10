@@ -716,25 +716,6 @@
       "definedIn": "prose"
     },
     {
-      "id": "dfn-code-unit",
-      "href": "https://webidl.spec.whatwg.org/#dfn-code-unit",
-      "linkingText": [
-        "code units"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "idl-operations",
-        "href": "https://webidl.spec.whatwg.org/#idl-operations",
-        "title": "Operations",
-        "number": "2.5.3"
-      },
-      "definedIn": "prose"
-    },
-    {
       "id": "method-steps",
       "href": "https://webidl.spec.whatwg.org/#method-steps",
       "linkingText": [
@@ -2157,48 +2138,6 @@
       "definedIn": "prose"
     },
     {
-      "id": "dfn-exception-error-name",
-      "href": "https://webidl.spec.whatwg.org/#dfn-exception-error-name",
-      "linkingText": [
-        "error name"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "exception"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "idl-exceptions",
-        "href": "https://webidl.spec.whatwg.org/#idl-exceptions",
-        "title": "Exceptions",
-        "number": "2.8"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-exception-message",
-      "href": "https://webidl.spec.whatwg.org/#dfn-exception-message",
-      "linkingText": [
-        "message"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "exception"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "idl-exceptions",
-        "href": "https://webidl.spec.whatwg.org/#idl-exceptions",
-        "title": "Exceptions",
-        "number": "2.8"
-      },
-      "definedIn": "prose"
-    },
-    {
       "id": "dfn-simple-exception",
       "href": "https://webidl.spec.whatwg.org/#dfn-simple-exception",
       "linkingText": [
@@ -2316,7 +2255,7 @@
       "id": "dfn-create-exception",
       "href": "https://webidl.spec.whatwg.org/#dfn-create-exception",
       "linkingText": [
-        "created"
+        "create"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -2358,7 +2297,7 @@
       "id": "dfn-error-names-table",
       "href": "https://webidl.spec.whatwg.org/#dfn-error-names-table",
       "linkingText": [
-        "error names table"
+        "DOMException names table"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -2368,7 +2307,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "prose"
@@ -2387,7 +2326,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -2408,7 +2347,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -2427,7 +2366,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -2448,7 +2387,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -2467,7 +2406,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -2488,7 +2427,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -2507,7 +2446,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -2528,7 +2467,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -2547,7 +2486,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -2568,7 +2507,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -2587,7 +2526,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -2608,7 +2547,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -2627,7 +2566,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -2648,7 +2587,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -2667,7 +2606,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -2688,7 +2627,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -2707,7 +2646,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -2728,7 +2667,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -2747,7 +2686,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -2768,7 +2707,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -2787,7 +2726,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -2808,7 +2747,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -2827,7 +2766,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -2848,7 +2787,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -2867,7 +2806,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -2888,7 +2827,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -2907,7 +2846,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -2928,7 +2867,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -2947,7 +2886,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -2968,7 +2907,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -2987,7 +2926,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -3008,7 +2947,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -3027,7 +2966,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -3048,7 +2987,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -3067,7 +3006,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -3088,7 +3027,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -3107,7 +3046,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -3128,7 +3067,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -3147,7 +3086,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -3168,7 +3107,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -3187,7 +3126,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -3208,7 +3147,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -3227,7 +3166,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -3248,7 +3187,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -3267,7 +3206,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -3286,7 +3225,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -3305,7 +3244,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -3324,7 +3263,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -3343,7 +3282,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -3362,7 +3301,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -3381,7 +3320,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -3400,7 +3339,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -3419,7 +3358,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -3438,7 +3377,7 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
@@ -3457,10 +3396,31 @@
       "heading": {
         "id": "idl-DOMException-error-names",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException-error-names",
-        "title": "Error names",
+        "title": "Base DOMException error names",
         "number": "2.8.1"
       },
       "definedIn": "table"
+    },
+    {
+      "id": "protocolxerror-error-code",
+      "href": "https://webidl.spec.whatwg.org/#protocolxerror-error-code",
+      "linkingText": [
+        "error code"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "ProtocolXError"
+      ],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "idl-DOMException-derived-interfaces",
+        "href": "https://webidl.spec.whatwg.org/#idl-DOMException-derived-interfaces",
+        "title": "DOMException derived interfaces",
+        "number": "2.8.2"
+      },
+      "definedIn": "example"
     },
     {
       "id": "dfn-enumeration",
@@ -3673,10 +3633,48 @@
       "definedIn": "prose"
     },
     {
+      "id": "buffer-types",
+      "href": "https://webidl.spec.whatwg.org/#buffer-types",
+      "linkingText": [
+        "buffer types"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "idl-types",
+        "href": "https://webidl.spec.whatwg.org/#idl-types",
+        "title": "Types",
+        "number": "2.13"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "dfn-typed-array-type",
       "href": "https://webidl.spec.whatwg.org/#dfn-typed-array-type",
       "linkingText": [
         "typed array types"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "idl-types",
+        "href": "https://webidl.spec.whatwg.org/#idl-types",
+        "title": "Types",
+        "number": "2.13"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "buffer-view-types",
+      "href": "https://webidl.spec.whatwg.org/#buffer-view-types",
+      "linkingText": [
+        "buffer view types"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -4637,6 +4635,25 @@
       "definedIn": "table"
     },
     {
+      "id": "idl-SharedArrayBuffer",
+      "href": "https://webidl.spec.whatwg.org/#idl-SharedArrayBuffer",
+      "linkingText": [
+        "SharedArrayBuffer"
+      ],
+      "localLinkingText": [],
+      "type": "interface",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "idl-buffer-source-types",
+        "href": "https://webidl.spec.whatwg.org/#idl-buffer-source-types",
+        "title": "Buffer source types",
+        "number": "2.13.33"
+      },
+      "definedIn": "table"
+    },
+    {
       "id": "idl-DataView",
       "href": "https://webidl.spec.whatwg.org/#idl-DataView",
       "linkingText": [
@@ -4812,6 +4829,25 @@
       "href": "https://webidl.spec.whatwg.org/#idl-Uint8ClampedArray",
       "linkingText": [
         "Uint8ClampedArray"
+      ],
+      "localLinkingText": [],
+      "type": "interface",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "idl-buffer-source-types",
+        "href": "https://webidl.spec.whatwg.org/#idl-buffer-source-types",
+        "title": "Buffer source types",
+        "number": "2.13.33"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "idl-Float16Array",
+      "href": "https://webidl.spec.whatwg.org/#idl-Float16Array",
+      "linkingText": [
+        "Float16Array"
       ],
       "localLinkingText": [],
       "type": "interface",
@@ -5162,17 +5198,18 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "ecmascript-binding",
-        "href": "https://webidl.spec.whatwg.org/#ecmascript-binding",
-        "title": "ECMAScript binding",
+        "id": "javascript-binding",
+        "href": "https://webidl.spec.whatwg.org/#javascript-binding",
+        "title": "JavaScript binding",
         "number": "3"
       },
       "definedIn": "prose"
     },
     {
-      "id": "ecmascript-throw",
-      "href": "https://webidl.spec.whatwg.org/#ecmascript-throw",
+      "id": "javascript-throw",
+      "href": "https://webidl.spec.whatwg.org/#javascript-throw",
       "linkingText": [
+        "JavaScript throw",
         "ECMAScript throw"
       ],
       "localLinkingText": [
@@ -5180,14 +5217,14 @@
       ],
       "type": "dfn",
       "for": [
-        "ECMAScript"
+        "JavaScript"
       ],
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "ecmascript-binding",
-        "href": "https://webidl.spec.whatwg.org/#ecmascript-binding",
-        "title": "ECMAScript binding",
+        "id": "javascript-binding",
+        "href": "https://webidl.spec.whatwg.org/#javascript-binding",
+        "title": "JavaScript binding",
         "number": "3"
       },
       "definedIn": "prose"
@@ -5204,9 +5241,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-environment",
-        "href": "https://webidl.spec.whatwg.org/#es-environment",
-        "title": "ECMAScript environment",
+        "id": "js-environment",
+        "href": "https://webidl.spec.whatwg.org/#js-environment",
+        "title": "JavaScript environment",
         "number": "3.1"
       },
       "definedIn": "prose"
@@ -5223,9 +5260,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-environment",
-        "href": "https://webidl.spec.whatwg.org/#es-environment",
-        "title": "ECMAScript environment",
+        "id": "js-environment",
+        "href": "https://webidl.spec.whatwg.org/#js-environment",
+        "title": "JavaScript environment",
         "number": "3.1"
       },
       "definedIn": "prose"
@@ -5243,17 +5280,19 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-type-mapping",
-        "href": "https://webidl.spec.whatwg.org/#es-type-mapping",
-        "title": "ECMAScript type mapping",
+        "id": "js-type-mapping",
+        "href": "https://webidl.spec.whatwg.org/#js-type-mapping",
+        "title": "JavaScript type mapping",
         "number": "3.2"
       },
       "definedIn": "prose"
     },
     {
-      "id": "dfn-convert-idl-to-ecmascript-value",
-      "href": "https://webidl.spec.whatwg.org/#dfn-convert-idl-to-ecmascript-value",
+      "id": "dfn-convert-idl-to-javascript-value",
+      "href": "https://webidl.spec.whatwg.org/#dfn-convert-idl-to-javascript-value",
       "linkingText": [
+        "converted to a JavaScript value",
+        "converted to JavaScript values",
         "converted to an ECMAScript value",
         "converted to ECMAScript values"
       ],
@@ -5263,9 +5302,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-type-mapping",
-        "href": "https://webidl.spec.whatwg.org/#es-type-mapping",
-        "title": "ECMAScript type mapping",
+        "id": "js-type-mapping",
+        "href": "https://webidl.spec.whatwg.org/#js-type-mapping",
+        "title": "JavaScript type mapping",
         "number": "3.2"
       },
       "definedIn": "prose"
@@ -5282,8 +5321,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-integer-types-abstract-ops",
-        "href": "https://webidl.spec.whatwg.org/#es-integer-types-abstract-ops",
+        "id": "js-integer-types-abstract-ops",
+        "href": "https://webidl.spec.whatwg.org/#js-integer-types-abstract-ops",
         "title": "Abstract operations",
         "number": "3.2.4.9"
       },
@@ -5301,8 +5340,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-integer-types-abstract-ops",
-        "href": "https://webidl.spec.whatwg.org/#es-integer-types-abstract-ops",
+        "id": "js-integer-types-abstract-ops",
+        "href": "https://webidl.spec.whatwg.org/#js-integer-types-abstract-ops",
         "title": "Abstract operations",
         "number": "3.2.4.9"
       },
@@ -5320,8 +5359,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-bigint",
-        "href": "https://webidl.spec.whatwg.org/#es-bigint",
+        "id": "js-bigint",
+        "href": "https://webidl.spec.whatwg.org/#js-bigint",
         "title": "bigint",
         "number": "3.2.9"
       },
@@ -5358,8 +5397,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-promise-manipulation",
-        "href": "https://webidl.spec.whatwg.org/#es-promise-manipulation",
+        "id": "js-promise-manipulation",
+        "href": "https://webidl.spec.whatwg.org/#js-promise-manipulation",
         "title": "Creating and manipulating Promises",
         "number": "3.2.23.1"
       },
@@ -5377,8 +5416,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-promise-manipulation",
-        "href": "https://webidl.spec.whatwg.org/#es-promise-manipulation",
+        "id": "js-promise-manipulation",
+        "href": "https://webidl.spec.whatwg.org/#js-promise-manipulation",
         "title": "Creating and manipulating Promises",
         "number": "3.2.23.1"
       },
@@ -5396,8 +5435,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-promise-manipulation",
-        "href": "https://webidl.spec.whatwg.org/#es-promise-manipulation",
+        "id": "js-promise-manipulation",
+        "href": "https://webidl.spec.whatwg.org/#js-promise-manipulation",
         "title": "Creating and manipulating Promises",
         "number": "3.2.23.1"
       },
@@ -5415,8 +5454,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-promise-manipulation",
-        "href": "https://webidl.spec.whatwg.org/#es-promise-manipulation",
+        "id": "js-promise-manipulation",
+        "href": "https://webidl.spec.whatwg.org/#js-promise-manipulation",
         "title": "Creating and manipulating Promises",
         "number": "3.2.23.1"
       },
@@ -5434,8 +5473,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-promise-manipulation",
-        "href": "https://webidl.spec.whatwg.org/#es-promise-manipulation",
+        "id": "js-promise-manipulation",
+        "href": "https://webidl.spec.whatwg.org/#js-promise-manipulation",
         "title": "Creating and manipulating Promises",
         "number": "3.2.23.1"
       },
@@ -5456,8 +5495,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-promise-manipulation",
-        "href": "https://webidl.spec.whatwg.org/#es-promise-manipulation",
+        "id": "js-promise-manipulation",
+        "href": "https://webidl.spec.whatwg.org/#js-promise-manipulation",
         "title": "Creating and manipulating Promises",
         "number": "3.2.23.1"
       },
@@ -5475,8 +5514,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-promise-manipulation",
-        "href": "https://webidl.spec.whatwg.org/#es-promise-manipulation",
+        "id": "js-promise-manipulation",
+        "href": "https://webidl.spec.whatwg.org/#js-promise-manipulation",
         "title": "Creating and manipulating Promises",
         "number": "3.2.23.1"
       },
@@ -5494,8 +5533,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-promise-manipulation",
-        "href": "https://webidl.spec.whatwg.org/#es-promise-manipulation",
+        "id": "js-promise-manipulation",
+        "href": "https://webidl.spec.whatwg.org/#js-promise-manipulation",
         "title": "Creating and manipulating Promises",
         "number": "3.2.23.1"
       },
@@ -5514,8 +5553,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-promise-manipulation",
-        "href": "https://webidl.spec.whatwg.org/#es-promise-manipulation",
+        "id": "js-promise-manipulation",
+        "href": "https://webidl.spec.whatwg.org/#js-promise-manipulation",
         "title": "Creating and manipulating Promises",
         "number": "3.2.23.1"
       },
@@ -5534,8 +5573,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-promise-manipulation",
-        "href": "https://webidl.spec.whatwg.org/#es-promise-manipulation",
+        "id": "js-promise-manipulation",
+        "href": "https://webidl.spec.whatwg.org/#js-promise-manipulation",
         "title": "Creating and manipulating Promises",
         "number": "3.2.23.1"
       },
@@ -5554,8 +5593,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-promise-manipulation",
-        "href": "https://webidl.spec.whatwg.org/#es-promise-manipulation",
+        "id": "js-promise-manipulation",
+        "href": "https://webidl.spec.whatwg.org/#js-promise-manipulation",
         "title": "Creating and manipulating Promises",
         "number": "3.2.23.1"
       },
@@ -5575,8 +5614,8 @@
       "access": "private",
       "informative": true,
       "heading": {
-        "id": "es-promise-examples",
-        "href": "https://webidl.spec.whatwg.org/#es-promise-examples",
+        "id": "js-promise-examples",
+        "href": "https://webidl.spec.whatwg.org/#js-promise-examples",
         "title": "Examples",
         "number": "3.2.23.2"
       },
@@ -5596,8 +5635,29 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-buffer-source-types",
-        "href": "https://webidl.spec.whatwg.org/#es-buffer-source-types",
+        "id": "js-buffer-source-types",
+        "href": "https://webidl.spec.whatwg.org/#js-buffer-source-types",
+        "title": "Buffer source types",
+        "number": "3.2.25"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "sharedarraybuffer-create",
+      "href": "https://webidl.spec.whatwg.org/#sharedarraybuffer-create",
+      "linkingText": [
+        "create"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "SharedArrayBuffer"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "js-buffer-source-types",
+        "href": "https://webidl.spec.whatwg.org/#js-buffer-source-types",
         "title": "Buffer source types",
         "number": "3.2.25"
       },
@@ -5617,8 +5677,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-buffer-source-types",
-        "href": "https://webidl.spec.whatwg.org/#es-buffer-source-types",
+        "id": "js-buffer-source-types",
+        "href": "https://webidl.spec.whatwg.org/#js-buffer-source-types",
         "title": "Buffer source types",
         "number": "3.2.25"
       },
@@ -5637,8 +5697,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-buffer-source-types",
-        "href": "https://webidl.spec.whatwg.org/#es-buffer-source-types",
+        "id": "js-buffer-source-types",
+        "href": "https://webidl.spec.whatwg.org/#js-buffer-source-types",
         "title": "Buffer source types",
         "number": "3.2.25"
       },
@@ -5658,8 +5718,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-buffer-source-types",
-        "href": "https://webidl.spec.whatwg.org/#es-buffer-source-types",
+        "id": "js-buffer-source-types",
+        "href": "https://webidl.spec.whatwg.org/#js-buffer-source-types",
         "title": "Buffer source types",
         "number": "3.2.25"
       },
@@ -5679,8 +5739,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-buffer-source-types",
-        "href": "https://webidl.spec.whatwg.org/#es-buffer-source-types",
+        "id": "js-buffer-source-types",
+        "href": "https://webidl.spec.whatwg.org/#js-buffer-source-types",
         "title": "Buffer source types",
         "number": "3.2.25"
       },
@@ -5695,13 +5755,14 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [
-        "ArrayBuffer"
+        "ArrayBuffer",
+        "SharedArrayBuffer"
       ],
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-buffer-source-types",
-        "href": "https://webidl.spec.whatwg.org/#es-buffer-source-types",
+        "id": "js-buffer-source-types",
+        "href": "https://webidl.spec.whatwg.org/#js-buffer-source-types",
         "title": "Buffer source types",
         "number": "3.2.25"
       },
@@ -5716,13 +5777,14 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [
-        "ArrayBuffer/write"
+        "ArrayBuffer/write",
+        "SharedArrayBuffer/write"
       ],
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-buffer-source-types",
-        "href": "https://webidl.spec.whatwg.org/#es-buffer-source-types",
+        "id": "js-buffer-source-types",
+        "href": "https://webidl.spec.whatwg.org/#js-buffer-source-types",
         "title": "Buffer source types",
         "number": "3.2.25"
       },
@@ -5742,8 +5804,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-buffer-source-types",
-        "href": "https://webidl.spec.whatwg.org/#es-buffer-source-types",
+        "id": "js-buffer-source-types",
+        "href": "https://webidl.spec.whatwg.org/#js-buffer-source-types",
         "title": "Buffer source types",
         "number": "3.2.25"
       },
@@ -5763,8 +5825,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-buffer-source-types",
-        "href": "https://webidl.spec.whatwg.org/#es-buffer-source-types",
+        "id": "js-buffer-source-types",
+        "href": "https://webidl.spec.whatwg.org/#js-buffer-source-types",
         "title": "Buffer source types",
         "number": "3.2.25"
       },
@@ -5784,8 +5846,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-buffer-source-types",
-        "href": "https://webidl.spec.whatwg.org/#es-buffer-source-types",
+        "id": "js-buffer-source-types",
+        "href": "https://webidl.spec.whatwg.org/#js-buffer-source-types",
         "title": "Buffer source types",
         "number": "3.2.25"
       },
@@ -5805,8 +5867,29 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-buffer-source-types",
-        "href": "https://webidl.spec.whatwg.org/#es-buffer-source-types",
+        "id": "js-buffer-source-types",
+        "href": "https://webidl.spec.whatwg.org/#js-buffer-source-types",
+        "title": "Buffer source types",
+        "number": "3.2.25"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "buffersource-transferable",
+      "href": "https://webidl.spec.whatwg.org/#buffersource-transferable",
+      "linkingText": [
+        "transferable"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "BufferSource"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "js-buffer-source-types",
+        "href": "https://webidl.spec.whatwg.org/#js-buffer-source-types",
         "title": "Buffer source types",
         "number": "3.2.25"
       },
@@ -5826,8 +5909,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-buffer-source-types",
-        "href": "https://webidl.spec.whatwg.org/#es-buffer-source-types",
+        "id": "js-buffer-source-types",
+        "href": "https://webidl.spec.whatwg.org/#js-buffer-source-types",
         "title": "Buffer source types",
         "number": "3.2.25"
       },
@@ -5846,8 +5929,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-frozen-array",
-        "href": "https://webidl.spec.whatwg.org/#es-frozen-array",
+        "id": "js-frozen-array",
+        "href": "https://webidl.spec.whatwg.org/#js-frozen-array",
         "title": "Frozen arrays — FrozenArray<T>",
         "number": "3.2.26"
       },
@@ -5884,8 +5967,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-observable-array",
-        "href": "https://webidl.spec.whatwg.org/#es-observable-array",
+        "id": "js-observable-array",
+        "href": "https://webidl.spec.whatwg.org/#js-observable-array",
         "title": "Observable arrays — ObservableArray<T>",
         "number": "3.2.27"
       },
@@ -6147,6 +6230,27 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "Global",
+        "href": "https://webidl.spec.whatwg.org/#Global",
+        "title": "[Global]",
+        "number": "3.3.8"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "realm-is-global-prototype-chain-mutable",
+      "href": "https://webidl.spec.whatwg.org/#realm-is-global-prototype-chain-mutable",
+      "linkingText": [
+        "is global prototype chain mutable"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "realm"
+      ],
       "access": "public",
       "informative": false,
       "heading": {
@@ -6549,8 +6653,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-security",
-        "href": "https://webidl.spec.whatwg.org/#es-security",
+        "id": "js-security",
+        "href": "https://webidl.spec.whatwg.org/#js-security",
         "title": "Security",
         "number": "3.5"
       },
@@ -6568,8 +6672,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-overloads",
-        "href": "https://webidl.spec.whatwg.org/#es-overloads",
+        "id": "js-overloads",
+        "href": "https://webidl.spec.whatwg.org/#js-overloads",
         "title": "Overload resolution algorithm",
         "number": "3.6"
       },
@@ -6587,8 +6691,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-interfaces",
-        "href": "https://webidl.spec.whatwg.org/#es-interfaces",
+        "id": "js-interfaces",
+        "href": "https://webidl.spec.whatwg.org/#js-interfaces",
         "title": "Interfaces",
         "number": "3.7"
       },
@@ -6606,8 +6710,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-interfaces",
-        "href": "https://webidl.spec.whatwg.org/#es-interfaces",
+        "id": "js-interfaces",
+        "href": "https://webidl.spec.whatwg.org/#js-interfaces",
         "title": "Interfaces",
         "number": "3.7"
       },
@@ -6628,8 +6732,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-interfaces",
-        "href": "https://webidl.spec.whatwg.org/#es-interfaces",
+        "id": "js-interfaces",
+        "href": "https://webidl.spec.whatwg.org/#js-interfaces",
         "title": "Interfaces",
         "number": "3.7"
       },
@@ -6780,8 +6884,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-constants",
-        "href": "https://webidl.spec.whatwg.org/#es-constants",
+        "id": "js-constants",
+        "href": "https://webidl.spec.whatwg.org/#js-constants",
         "title": "Constants",
         "number": "3.7.5"
       },
@@ -6799,8 +6903,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-attributes",
-        "href": "https://webidl.spec.whatwg.org/#es-attributes",
+        "id": "js-attributes",
+        "href": "https://webidl.spec.whatwg.org/#js-attributes",
         "title": "Attributes",
         "number": "3.7.6"
       },
@@ -6818,8 +6922,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-attributes",
-        "href": "https://webidl.spec.whatwg.org/#es-attributes",
+        "id": "js-attributes",
+        "href": "https://webidl.spec.whatwg.org/#js-attributes",
         "title": "Attributes",
         "number": "3.7.6"
       },
@@ -6837,8 +6941,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-attributes",
-        "href": "https://webidl.spec.whatwg.org/#es-attributes",
+        "id": "js-attributes",
+        "href": "https://webidl.spec.whatwg.org/#js-attributes",
         "title": "Attributes",
         "number": "3.7.6"
       },
@@ -6856,8 +6960,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-attributes",
-        "href": "https://webidl.spec.whatwg.org/#es-attributes",
+        "id": "js-attributes",
+        "href": "https://webidl.spec.whatwg.org/#js-attributes",
         "title": "Attributes",
         "number": "3.7.6"
       },
@@ -6875,8 +6979,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-attributes",
-        "href": "https://webidl.spec.whatwg.org/#es-attributes",
+        "id": "js-attributes",
+        "href": "https://webidl.spec.whatwg.org/#js-attributes",
         "title": "Attributes",
         "number": "3.7.6"
       },
@@ -6894,8 +6998,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-attributes",
-        "href": "https://webidl.spec.whatwg.org/#es-attributes",
+        "id": "js-attributes",
+        "href": "https://webidl.spec.whatwg.org/#js-attributes",
         "title": "Attributes",
         "number": "3.7.6"
       },
@@ -6913,8 +7017,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-operations",
-        "href": "https://webidl.spec.whatwg.org/#es-operations",
+        "id": "js-operations",
+        "href": "https://webidl.spec.whatwg.org/#js-operations",
         "title": "Operations",
         "number": "3.7.7"
       },
@@ -6932,8 +7036,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-operations",
-        "href": "https://webidl.spec.whatwg.org/#es-operations",
+        "id": "js-operations",
+        "href": "https://webidl.spec.whatwg.org/#js-operations",
         "title": "Operations",
         "number": "3.7.7"
       },
@@ -6951,8 +7055,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-operations",
-        "href": "https://webidl.spec.whatwg.org/#es-operations",
+        "id": "js-operations",
+        "href": "https://webidl.spec.whatwg.org/#js-operations",
         "title": "Operations",
         "number": "3.7.7"
       },
@@ -6970,8 +7074,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-operations",
-        "href": "https://webidl.spec.whatwg.org/#es-operations",
+        "id": "js-operations",
+        "href": "https://webidl.spec.whatwg.org/#js-operations",
         "title": "Operations",
         "number": "3.7.7"
       },
@@ -6989,8 +7093,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-operations",
-        "href": "https://webidl.spec.whatwg.org/#es-operations",
+        "id": "js-operations",
+        "href": "https://webidl.spec.whatwg.org/#js-operations",
         "title": "Operations",
         "number": "3.7.7"
       },
@@ -7009,8 +7113,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-default-operations",
-        "href": "https://webidl.spec.whatwg.org/#es-default-operations",
+        "id": "js-default-operations",
+        "href": "https://webidl.spec.whatwg.org/#js-default-operations",
         "title": "Default operations",
         "number": "3.7.7.1"
       },
@@ -7028,8 +7132,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-default-operations",
-        "href": "https://webidl.spec.whatwg.org/#es-default-operations",
+        "id": "js-default-operations",
+        "href": "https://webidl.spec.whatwg.org/#js-default-operations",
         "title": "Default operations",
         "number": "3.7.7.1"
       },
@@ -7047,8 +7151,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-default-tojson",
-        "href": "https://webidl.spec.whatwg.org/#es-default-tojson",
+        "id": "js-default-tojson",
+        "href": "https://webidl.spec.whatwg.org/#js-default-tojson",
         "title": "Default toJSON operation",
         "number": "3.7.7.1.1"
       },
@@ -7066,8 +7170,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-default-tojson",
-        "href": "https://webidl.spec.whatwg.org/#es-default-tojson",
+        "id": "js-default-tojson",
+        "href": "https://webidl.spec.whatwg.org/#js-default-tojson",
         "title": "Default toJSON operation",
         "number": "3.7.7.1.1"
       },
@@ -7085,8 +7189,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-default-tojson",
-        "href": "https://webidl.spec.whatwg.org/#es-default-tojson",
+        "id": "js-default-tojson",
+        "href": "https://webidl.spec.whatwg.org/#js-default-tojson",
         "title": "Default toJSON operation",
         "number": "3.7.7.1.1"
       },
@@ -7104,8 +7208,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-default-tojson",
-        "href": "https://webidl.spec.whatwg.org/#es-default-tojson",
+        "id": "js-default-tojson",
+        "href": "https://webidl.spec.whatwg.org/#js-default-tojson",
         "title": "Default toJSON operation",
         "number": "3.7.7.1.1"
       },
@@ -7123,8 +7227,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-iterable",
-        "href": "https://webidl.spec.whatwg.org/#es-iterable",
+        "id": "js-iterable",
+        "href": "https://webidl.spec.whatwg.org/#js-iterable",
         "title": "Iterable declarations",
         "number": "3.7.9"
       },
@@ -7142,8 +7246,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-default-iterator-object",
-        "href": "https://webidl.spec.whatwg.org/#es-default-iterator-object",
+        "id": "js-default-iterator-object",
+        "href": "https://webidl.spec.whatwg.org/#js-default-iterator-object",
         "title": "Default iterator objects",
         "number": "3.7.9.1"
       },
@@ -7163,8 +7267,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-default-iterator-object",
-        "href": "https://webidl.spec.whatwg.org/#es-default-iterator-object",
+        "id": "js-default-iterator-object",
+        "href": "https://webidl.spec.whatwg.org/#js-default-iterator-object",
         "title": "Default iterator objects",
         "number": "3.7.9.1"
       },
@@ -7184,8 +7288,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-default-iterator-object",
-        "href": "https://webidl.spec.whatwg.org/#es-default-iterator-object",
+        "id": "js-default-iterator-object",
+        "href": "https://webidl.spec.whatwg.org/#js-default-iterator-object",
         "title": "Default iterator objects",
         "number": "3.7.9.1"
       },
@@ -7205,8 +7309,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-default-iterator-object",
-        "href": "https://webidl.spec.whatwg.org/#es-default-iterator-object",
+        "id": "js-default-iterator-object",
+        "href": "https://webidl.spec.whatwg.org/#js-default-iterator-object",
         "title": "Default iterator objects",
         "number": "3.7.9.1"
       },
@@ -7224,8 +7328,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-iterator-prototype-object",
-        "href": "https://webidl.spec.whatwg.org/#es-iterator-prototype-object",
+        "id": "js-iterator-prototype-object",
+        "href": "https://webidl.spec.whatwg.org/#js-iterator-prototype-object",
         "title": "Iterator prototype object",
         "number": "3.7.9.2"
       },
@@ -7243,8 +7347,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-iterator-prototype-object",
-        "href": "https://webidl.spec.whatwg.org/#es-iterator-prototype-object",
+        "id": "js-iterator-prototype-object",
+        "href": "https://webidl.spec.whatwg.org/#js-iterator-prototype-object",
         "title": "Iterator prototype object",
         "number": "3.7.9.2"
       },
@@ -7262,8 +7366,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-asynchronous-iterable",
-        "href": "https://webidl.spec.whatwg.org/#es-asynchronous-iterable",
+        "id": "js-asynchronous-iterable",
+        "href": "https://webidl.spec.whatwg.org/#js-asynchronous-iterable",
         "title": "Asynchronous iterable declarations",
         "number": "3.7.10"
       },
@@ -7281,8 +7385,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-asynchronous-iterable",
-        "href": "https://webidl.spec.whatwg.org/#es-asynchronous-iterable",
+        "id": "js-asynchronous-iterable",
+        "href": "https://webidl.spec.whatwg.org/#js-asynchronous-iterable",
         "title": "Asynchronous iterable declarations",
         "number": "3.7.10"
       },
@@ -7300,8 +7404,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-default-asynchronous-iterator-object",
-        "href": "https://webidl.spec.whatwg.org/#es-default-asynchronous-iterator-object",
+        "id": "js-default-asynchronous-iterator-object",
+        "href": "https://webidl.spec.whatwg.org/#js-default-asynchronous-iterator-object",
         "title": "Default asynchronous iterator objects",
         "number": "3.7.10.1"
       },
@@ -7321,8 +7425,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-default-asynchronous-iterator-object",
-        "href": "https://webidl.spec.whatwg.org/#es-default-asynchronous-iterator-object",
+        "id": "js-default-asynchronous-iterator-object",
+        "href": "https://webidl.spec.whatwg.org/#js-default-asynchronous-iterator-object",
         "title": "Default asynchronous iterator objects",
         "number": "3.7.10.1"
       },
@@ -7342,8 +7446,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-default-asynchronous-iterator-object",
-        "href": "https://webidl.spec.whatwg.org/#es-default-asynchronous-iterator-object",
+        "id": "js-default-asynchronous-iterator-object",
+        "href": "https://webidl.spec.whatwg.org/#js-default-asynchronous-iterator-object",
         "title": "Default asynchronous iterator objects",
         "number": "3.7.10.1"
       },
@@ -7363,8 +7467,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-default-asynchronous-iterator-object",
-        "href": "https://webidl.spec.whatwg.org/#es-default-asynchronous-iterator-object",
+        "id": "js-default-asynchronous-iterator-object",
+        "href": "https://webidl.spec.whatwg.org/#js-default-asynchronous-iterator-object",
         "title": "Default asynchronous iterator objects",
         "number": "3.7.10.1"
       },
@@ -7384,8 +7488,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-default-asynchronous-iterator-object",
-        "href": "https://webidl.spec.whatwg.org/#es-default-asynchronous-iterator-object",
+        "id": "js-default-asynchronous-iterator-object",
+        "href": "https://webidl.spec.whatwg.org/#js-default-asynchronous-iterator-object",
         "title": "Default asynchronous iterator objects",
         "number": "3.7.10.1"
       },
@@ -7403,8 +7507,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-asynchronous-iterator-prototype-object",
-        "href": "https://webidl.spec.whatwg.org/#es-asynchronous-iterator-prototype-object",
+        "id": "js-asynchronous-iterator-prototype-object",
+        "href": "https://webidl.spec.whatwg.org/#js-asynchronous-iterator-prototype-object",
         "title": "Asynchronous iterator prototype object",
         "number": "3.7.10.2"
       },
@@ -7422,8 +7526,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-map-size",
-        "href": "https://webidl.spec.whatwg.org/#es-map-size",
+        "id": "js-map-size",
+        "href": "https://webidl.spec.whatwg.org/#js-map-size",
         "title": "size",
         "number": "3.7.11.1"
       },
@@ -7441,9 +7545,9 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-map-iterator",
-        "href": "https://webidl.spec.whatwg.org/#es-map-iterator",
-        "title": "@@iterator",
+        "id": "js-map-iterator",
+        "href": "https://webidl.spec.whatwg.org/#js-map-iterator",
+        "title": "%Symbol.iterator%",
         "number": "3.7.11.2"
       },
       "definedIn": "prose"
@@ -7460,8 +7564,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-set-size",
-        "href": "https://webidl.spec.whatwg.org/#es-set-size",
+        "id": "js-set-size",
+        "href": "https://webidl.spec.whatwg.org/#js-set-size",
         "title": "size",
         "number": "3.7.12.1"
       },
@@ -7479,9 +7583,9 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-set-iterator",
-        "href": "https://webidl.spec.whatwg.org/#es-set-iterator",
-        "title": "@@iterator",
+        "id": "js-set-iterator",
+        "href": "https://webidl.spec.whatwg.org/#js-set-iterator",
+        "title": "%Symbol.iterator%",
         "number": "3.7.12.2"
       },
       "definedIn": "prose"
@@ -7498,8 +7602,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-platform-objects",
-        "href": "https://webidl.spec.whatwg.org/#es-platform-objects",
+        "id": "js-platform-objects",
+        "href": "https://webidl.spec.whatwg.org/#js-platform-objects",
         "title": "Platform objects implementing interfaces",
         "number": "3.8"
       },
@@ -7517,8 +7621,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-platform-objects",
-        "href": "https://webidl.spec.whatwg.org/#es-platform-objects",
+        "id": "js-platform-objects",
+        "href": "https://webidl.spec.whatwg.org/#js-platform-objects",
         "title": "Platform objects implementing interfaces",
         "number": "3.8"
       },
@@ -7536,8 +7640,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-platform-objects",
-        "href": "https://webidl.spec.whatwg.org/#es-platform-objects",
+        "id": "js-platform-objects",
+        "href": "https://webidl.spec.whatwg.org/#js-platform-objects",
         "title": "Platform objects implementing interfaces",
         "number": "3.8"
       },
@@ -7555,8 +7659,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-platform-objects",
-        "href": "https://webidl.spec.whatwg.org/#es-platform-objects",
+        "id": "js-platform-objects",
+        "href": "https://webidl.spec.whatwg.org/#js-platform-objects",
         "title": "Platform objects implementing interfaces",
         "number": "3.8"
       },
@@ -7574,8 +7678,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-platform-objects",
-        "href": "https://webidl.spec.whatwg.org/#es-platform-objects",
+        "id": "js-platform-objects",
+        "href": "https://webidl.spec.whatwg.org/#js-platform-objects",
         "title": "Platform objects implementing interfaces",
         "number": "3.8"
       },
@@ -7593,8 +7697,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-platform-objects",
-        "href": "https://webidl.spec.whatwg.org/#es-platform-objects",
+        "id": "js-platform-objects",
+        "href": "https://webidl.spec.whatwg.org/#js-platform-objects",
         "title": "Platform objects implementing interfaces",
         "number": "3.8"
       },
@@ -7614,8 +7718,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-platform-objects",
-        "href": "https://webidl.spec.whatwg.org/#es-platform-objects",
+        "id": "js-platform-objects",
+        "href": "https://webidl.spec.whatwg.org/#js-platform-objects",
         "title": "Platform objects implementing interfaces",
         "number": "3.8"
       },
@@ -7633,8 +7737,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-legacy-platform-objects",
-        "href": "https://webidl.spec.whatwg.org/#es-legacy-platform-objects",
+        "id": "js-legacy-platform-objects",
+        "href": "https://webidl.spec.whatwg.org/#js-legacy-platform-objects",
         "title": "Legacy platform objects",
         "number": "3.9"
       },
@@ -7769,8 +7873,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-observable-arrays",
-        "href": "https://webidl.spec.whatwg.org/#es-observable-arrays",
+        "id": "js-observable-arrays",
+        "href": "https://webidl.spec.whatwg.org/#js-observable-arrays",
         "title": "Observable array exotic objects",
         "number": "3.10"
       },
@@ -7788,8 +7892,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-observable-arrays",
-        "href": "https://webidl.spec.whatwg.org/#es-observable-arrays",
+        "id": "js-observable-arrays",
+        "href": "https://webidl.spec.whatwg.org/#js-observable-arrays",
         "title": "Observable array exotic objects",
         "number": "3.10"
       },
@@ -7810,8 +7914,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-observable-array-abstract-operations",
-        "href": "https://webidl.spec.whatwg.org/#es-observable-array-abstract-operations",
+        "id": "js-observable-array-abstract-operations",
+        "href": "https://webidl.spec.whatwg.org/#js-observable-array-abstract-operations",
         "title": "Abstract operations",
         "number": "3.10.9"
       },
@@ -7832,8 +7936,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-observable-array-abstract-operations",
-        "href": "https://webidl.spec.whatwg.org/#es-observable-array-abstract-operations",
+        "id": "js-observable-array-abstract-operations",
+        "href": "https://webidl.spec.whatwg.org/#js-observable-array-abstract-operations",
         "title": "Abstract operations",
         "number": "3.10.9"
       },
@@ -7851,8 +7955,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-user-objects",
-        "href": "https://webidl.spec.whatwg.org/#es-user-objects",
+        "id": "js-user-objects",
+        "href": "https://webidl.spec.whatwg.org/#js-user-objects",
         "title": "Callback interfaces",
         "number": "3.11"
       },
@@ -7872,8 +7976,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-user-objects",
-        "href": "https://webidl.spec.whatwg.org/#es-user-objects",
+        "id": "js-user-objects",
+        "href": "https://webidl.spec.whatwg.org/#js-user-objects",
         "title": "Callback interfaces",
         "number": "3.11"
       },
@@ -7891,8 +7995,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-user-objects",
-        "href": "https://webidl.spec.whatwg.org/#es-user-objects",
+        "id": "js-user-objects",
+        "href": "https://webidl.spec.whatwg.org/#js-user-objects",
         "title": "Callback interfaces",
         "number": "3.11"
       },
@@ -7910,8 +8014,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-user-objects",
-        "href": "https://webidl.spec.whatwg.org/#es-user-objects",
+        "id": "js-user-objects",
+        "href": "https://webidl.spec.whatwg.org/#js-user-objects",
         "title": "Callback interfaces",
         "number": "3.11"
       },
@@ -7967,8 +8071,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-invoking-callback-functions",
-        "href": "https://webidl.spec.whatwg.org/#es-invoking-callback-functions",
+        "id": "js-invoking-callback-functions",
+        "href": "https://webidl.spec.whatwg.org/#js-invoking-callback-functions",
         "title": "Invoking callback functions",
         "number": "3.12"
       },
@@ -7986,8 +8090,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-invoking-callback-functions",
-        "href": "https://webidl.spec.whatwg.org/#es-invoking-callback-functions",
+        "id": "js-invoking-callback-functions",
+        "href": "https://webidl.spec.whatwg.org/#js-invoking-callback-functions",
         "title": "Invoking callback functions",
         "number": "3.12"
       },
@@ -8005,8 +8109,8 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "es-namespaces",
-        "href": "https://webidl.spec.whatwg.org/#es-namespaces",
+        "id": "js-namespaces",
+        "href": "https://webidl.spec.whatwg.org/#js-namespaces",
         "title": "Namespaces",
         "number": "3.13"
       },
@@ -8032,8 +8136,8 @@
       "definedIn": "prose"
     },
     {
-      "id": "es-exception-objects",
-      "href": "https://webidl.spec.whatwg.org/#es-exception-objects",
+      "id": "js-exception-objects",
+      "href": "https://webidl.spec.whatwg.org/#js-exception-objects",
       "linkingText": [
         "Exception objects"
       ],
@@ -8043,8 +8147,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-exception-objects",
-        "href": "https://webidl.spec.whatwg.org/#es-exception-objects",
+        "id": "js-exception-objects",
+        "href": "https://webidl.spec.whatwg.org/#js-exception-objects",
         "title": "Exception objects",
         "number": "3.14.2"
       },
@@ -8062,8 +8166,8 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "es-handling-exceptions",
-        "href": "https://webidl.spec.whatwg.org/#es-handling-exceptions",
+        "id": "js-handling-exceptions",
+        "href": "https://webidl.spec.whatwg.org/#js-handling-exceptions",
         "title": "Handling exceptions",
         "number": "3.14.4"
       },
@@ -8108,6 +8212,25 @@
       "definedIn": "heading"
     },
     {
+      "id": "AllowSharedBufferSource",
+      "href": "https://webidl.spec.whatwg.org/#AllowSharedBufferSource",
+      "linkingText": [
+        "AllowSharedBufferSource"
+      ],
+      "localLinkingText": [],
+      "type": "typedef",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "AllowSharedBufferSource",
+        "href": "https://webidl.spec.whatwg.org/#AllowSharedBufferSource",
+        "title": "AllowSharedBufferSource",
+        "number": "4.3"
+      },
+      "definedIn": "heading"
+    },
+    {
       "id": "idl-DOMException",
       "href": "https://webidl.spec.whatwg.org/#idl-DOMException",
       "linkingText": [
@@ -8122,7 +8245,7 @@
         "id": "idl-DOMException",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException",
         "title": "DOMException",
-        "number": "4.3"
+        "number": "4.4"
       },
       "definedIn": "heading"
     },
@@ -8148,7 +8271,7 @@
         "id": "idl-DOMException",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException",
         "title": "DOMException",
-        "number": "4.3"
+        "number": "4.4"
       },
       "definedIn": "pre"
     },
@@ -8174,7 +8297,7 @@
         "id": "idl-DOMException",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException",
         "title": "DOMException",
-        "number": "4.3"
+        "number": "4.4"
       },
       "definedIn": "pre"
     },
@@ -8195,7 +8318,7 @@
         "id": "idl-DOMException",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException",
         "title": "DOMException",
-        "number": "4.3"
+        "number": "4.4"
       },
       "definedIn": "pre"
     },
@@ -8216,7 +8339,7 @@
         "id": "idl-DOMException",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException",
         "title": "DOMException",
-        "number": "4.3"
+        "number": "4.4"
       },
       "definedIn": "pre"
     },
@@ -8237,7 +8360,7 @@
         "id": "idl-DOMException",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException",
         "title": "DOMException",
-        "number": "4.3"
+        "number": "4.4"
       },
       "definedIn": "pre"
     },
@@ -8252,13 +8375,13 @@
       "for": [
         "DOMException"
       ],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "idl-DOMException",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException",
         "title": "DOMException",
-        "number": "4.3"
+        "number": "4.4"
       },
       "definedIn": "prose"
     },
@@ -8273,13 +8396,13 @@
       "for": [
         "DOMException"
       ],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "idl-DOMException",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException",
         "title": "DOMException",
-        "number": "4.3"
+        "number": "4.4"
       },
       "definedIn": "prose"
     },
@@ -8305,7 +8428,7 @@
         "id": "idl-DOMException",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException",
         "title": "DOMException",
-        "number": "4.3"
+        "number": "4.4"
       },
       "definedIn": "prose"
     },
@@ -8326,7 +8449,7 @@
         "id": "idl-DOMException",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException",
         "title": "DOMException",
-        "number": "4.3"
+        "number": "4.4"
       },
       "definedIn": "prose"
     },
@@ -8347,7 +8470,7 @@
         "id": "idl-DOMException",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException",
         "title": "DOMException",
-        "number": "4.3"
+        "number": "4.4"
       },
       "definedIn": "prose"
     },
@@ -8368,7 +8491,7 @@
         "id": "idl-DOMException",
         "href": "https://webidl.spec.whatwg.org/#idl-DOMException",
         "title": "DOMException",
-        "number": "4.3"
+        "number": "4.4"
       },
       "definedIn": "prose"
     },
@@ -8387,7 +8510,7 @@
         "id": "Function",
         "href": "https://webidl.spec.whatwg.org/#Function",
         "title": "Function",
-        "number": "4.4"
+        "number": "4.5"
       },
       "definedIn": "heading"
     },
@@ -8408,7 +8531,7 @@
         "id": "Function",
         "href": "https://webidl.spec.whatwg.org/#Function",
         "title": "Function",
-        "number": "4.4"
+        "number": "4.5"
       },
       "definedIn": "pre"
     },
@@ -8427,7 +8550,7 @@
         "id": "VoidFunction",
         "href": "https://webidl.spec.whatwg.org/#VoidFunction",
         "title": "VoidFunction",
-        "number": "4.5"
+        "number": "4.6"
       },
       "definedIn": "heading"
     },
@@ -8486,10 +8609,10 @@
       "definedIn": "dt"
     },
     {
-      "id": "dfn-conforming-ecmascript-implementation",
-      "href": "https://webidl.spec.whatwg.org/#dfn-conforming-ecmascript-implementation",
+      "id": "dfn-conforming-javascript-implementation",
+      "href": "https://webidl.spec.whatwg.org/#dfn-conforming-javascript-implementation",
       "linkingText": [
-        "conforming ECMAScript implementation"
+        "conforming JavaScript implementation"
       ],
       "localLinkingText": [],
       "type": "dfn",

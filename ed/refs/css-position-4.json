@@ -1,0 +1,104 @@
+{
+  "spec": {
+    "title": "CSS Positioned Layout Module Level 4",
+    "url": "https://drafts.csswg.org/css-position-4/"
+  },
+  "refs": {
+    "normative": [
+      {
+        "name": "CSS-ANCHOR-POSITION-1",
+        "url": "https://drafts.csswg.org/css-anchor-position-1/"
+      },
+      {
+        "name": "CSS-BOX-4",
+        "url": "https://drafts.csswg.org/css-box-4/"
+      },
+      {
+        "name": "CSS-BREAK-4",
+        "url": "https://drafts.csswg.org/css-break-4/"
+      },
+      {
+        "name": "CSS-CASCADE-6",
+        "url": "https://drafts.csswg.org/css-cascade-6/"
+      },
+      {
+        "name": "CSS-CONTENT-3",
+        "url": "https://drafts.csswg.org/css-content-3/"
+      },
+      {
+        "name": "CSS-DISPLAY-4",
+        "url": "https://drafts.csswg.org/css-display/"
+      },
+      {
+        "name": "CSS-OVERFLOW-3",
+        "url": "https://drafts.csswg.org/css-overflow-3/"
+      },
+      {
+        "name": "CSS-POSITION-3",
+        "url": "https://drafts.csswg.org/css-position-3/"
+      },
+      {
+        "name": "CSS-PSEUDO-4",
+        "url": "https://drafts.csswg.org/css-pseudo-4/"
+      },
+      {
+        "name": "CSS-TABLES-3",
+        "url": "https://drafts.csswg.org/css-tables-3/"
+      },
+      {
+        "name": "CSS-UI-4",
+        "url": "https://drafts.csswg.org/css-ui-4/"
+      },
+      {
+        "name": "CSS-VALUES-4",
+        "url": "https://drafts.csswg.org/css-values-4/"
+      },
+      {
+        "name": "CSS2",
+        "url": "https://drafts.csswg.org/css2/"
+      },
+      {
+        "name": "DOM",
+        "url": "https://dom.spec.whatwg.org/"
+      },
+      {
+        "name": "INFRA",
+        "url": "https://infra.spec.whatwg.org/"
+      },
+      {
+        "name": "RFC2119",
+        "url": "https://datatracker.ietf.org/doc/html/rfc2119"
+      },
+      {
+        "name": "SELECTORS-4",
+        "url": "https://drafts.csswg.org/selectors/"
+      }
+    ],
+    "informative": [
+      {
+        "name": "CSS-COLOR-4",
+        "url": "https://drafts.csswg.org/css-color-4/"
+      },
+      {
+        "name": "CSS-EASING-2",
+        "url": "https://drafts.csswg.org/css-easing/"
+      },
+      {
+        "name": "CSS-MASKING-1",
+        "url": "https://drafts.fxtf.org/css-masking-1/"
+      },
+      {
+        "name": "CSS-TRANSITIONS-1",
+        "url": "https://drafts.csswg.org/css-transitions/"
+      },
+      {
+        "name": "CSS-WRITING-MODES-3",
+        "url": "https://drafts.csswg.org/css-writing-modes-3/"
+      },
+      {
+        "name": "FULLSCREEN",
+        "url": "https://fullscreen.spec.whatwg.org/"
+      }
+    ]
+  }
+}

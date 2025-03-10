@@ -405,7 +405,8 @@
       "targets": [
         "GlobalEventHandlers",
         "Text"
-      ]
+      ],
+      "cancelable": true
     },
     {
       "href": "https://html.spec.whatwg.org/multipage/dnd.html#event-dnd-drag",
@@ -417,7 +418,8 @@
       "targets": [
         "GlobalEventHandlers",
         "Text"
-      ]
+      ],
+      "cancelable": true
     },
     {
       "href": "https://html.spec.whatwg.org/multipage/dnd.html#event-dnd-dragenter",
@@ -428,7 +430,8 @@
       "type": "dragenter",
       "targets": [
         "GlobalEventHandlers"
-      ]
+      ],
+      "cancelable": true
     },
     {
       "href": "https://html.spec.whatwg.org/multipage/dnd.html#event-dnd-dragleave",
@@ -439,7 +442,8 @@
       "type": "dragleave",
       "targets": [
         "GlobalEventHandlers"
-      ]
+      ],
+      "cancelable": false
     },
     {
       "href": "https://html.spec.whatwg.org/multipage/dnd.html#event-dnd-dragover",
@@ -450,7 +454,8 @@
       "type": "dragover",
       "targets": [
         "GlobalEventHandlers"
-      ]
+      ],
+      "cancelable": true
     },
     {
       "href": "https://html.spec.whatwg.org/multipage/dnd.html#event-dnd-drop",
@@ -461,7 +466,8 @@
       "type": "drop",
       "targets": [
         "GlobalEventHandlers"
-      ]
+      ],
+      "cancelable": true
     },
     {
       "href": "https://html.spec.whatwg.org/multipage/dnd.html#event-dnd-dragend",
@@ -473,7 +479,8 @@
       "targets": [
         "GlobalEventHandlers",
         "Text"
-      ]
+      ],
+      "cancelable": false
     },
     {
       "href": "https://html.spec.whatwg.org/multipage/indices.html#event-domcontentloaded",
@@ -525,6 +532,19 @@
       "interface": "Event"
     },
     {
+      "href": "https://html.spec.whatwg.org/multipage/indices.html#event-beforetoggle",
+      "src": {
+        "format": "summary table",
+        "href": "https://html.spec.whatwg.org/multipage/indices.html#event-beforetoggle"
+      },
+      "type": "beforetoggle",
+      "targets": [
+        "HTMLElement"
+      ],
+      "interface": "ToggleEvent",
+      "cancelable": true
+    },
+    {
       "href": "https://html.spec.whatwg.org/multipage/indices.html#event-beforeunload",
       "src": {
         "format": "summary table",
@@ -534,7 +554,8 @@
       "targets": [
         "Window"
       ],
-      "interface": "BeforeUnloadEvent"
+      "interface": "BeforeUnloadEvent",
+      "cancelable": true
     },
     {
       "href": "https://html.spec.whatwg.org/multipage/indices.html#event-blur",
@@ -557,6 +578,7 @@
       },
       "type": "cancel",
       "targets": [
+        "CloseWatcher",
         "HTMLElement"
       ],
       "interface": "Event",
@@ -579,7 +601,7 @@
       "href": "https://w3c.github.io/uievents/#event-type-click",
       "src": {
         "format": "summary table",
-        "href": "https://html.spec.whatwg.org/multipage/indices.html#events-2:event-click"
+        "href": "https://html.spec.whatwg.org/multipage/indices.html#events-2%3Aevent-click"
       },
       "type": "click",
       "targets": [
@@ -596,9 +618,24 @@
       },
       "type": "close",
       "targets": [
-        "HTMLElement"
+        "CloseWatcher",
+        "HTMLElement",
+        "MessagePort"
       ],
       "interface": "Event"
+    },
+    {
+      "href": "https://html.spec.whatwg.org/multipage/indices.html#event-command",
+      "src": {
+        "format": "summary table",
+        "href": "https://html.spec.whatwg.org/multipage/indices.html#event-command"
+      },
+      "type": "command",
+      "targets": [
+        "HTMLElement"
+      ],
+      "interface": "CommandEvent",
+      "cancelable": true
     },
     {
       "href": "https://html.spec.whatwg.org/multipage/indices.html#event-workerglobalscope-connect",
@@ -623,7 +660,8 @@
         "HTMLElement",
         "OffscreenCanvas"
       ],
-      "interface": "Event"
+      "interface": "Event",
+      "cancelable": true
     },
     {
       "href": "https://html.spec.whatwg.org/multipage/indices.html#event-contextrestored",
@@ -635,6 +673,30 @@
       "targets": [
         "HTMLElement",
         "OffscreenCanvas"
+      ],
+      "interface": "Event"
+    },
+    {
+      "href": "https://html.spec.whatwg.org/multipage/indices.html#event-currententrychange",
+      "src": {
+        "format": "summary table",
+        "href": "https://html.spec.whatwg.org/multipage/indices.html#event-currententrychange"
+      },
+      "type": "currententrychange",
+      "targets": [
+        "Navigation"
+      ],
+      "interface": "NavigationCurrentEntryChangeEvent"
+    },
+    {
+      "href": "https://html.spec.whatwg.org/multipage/indices.html#event-dispose",
+      "src": {
+        "format": "summary table",
+        "href": "https://html.spec.whatwg.org/multipage/indices.html#event-dispose"
+      },
+      "type": "dispose",
+      "targets": [
+        "NavigationHistoryEntry"
       ],
       "interface": "Event"
     },
@@ -654,7 +716,8 @@
         "SharedWorker",
         "AbstractWorker"
       ],
-      "interface": "Event"
+      "interface": "Event",
+      "cancelable": true
     },
     {
       "href": "https://html.spec.whatwg.org/multipage/indices.html#event-focus",
@@ -698,7 +761,7 @@
       "href": "https://w3c.github.io/uievents/#event-type-input",
       "src": {
         "format": "summary table",
-        "href": "https://html.spec.whatwg.org/multipage/indices.html#events-2:event-input-2"
+        "href": "https://html.spec.whatwg.org/multipage/indices.html#events-2%3Aevent-input-2"
       },
       "type": "input",
       "targets": [
@@ -718,7 +781,8 @@
       "targets": [
         "HTMLElement"
       ],
-      "interface": "Event"
+      "interface": "Event",
+      "cancelable": true
     },
     {
       "href": "https://html.spec.whatwg.org/multipage/indices.html#event-languagechange",
@@ -782,6 +846,42 @@
       "interface": "MessageEvent"
     },
     {
+      "href": "https://html.spec.whatwg.org/multipage/indices.html#event-navigate",
+      "src": {
+        "format": "summary table",
+        "href": "https://html.spec.whatwg.org/multipage/indices.html#event-navigate"
+      },
+      "type": "navigate",
+      "targets": [
+        "Navigation"
+      ],
+      "interface": "NavigateEvent"
+    },
+    {
+      "href": "https://html.spec.whatwg.org/multipage/indices.html#event-navigateerror",
+      "src": {
+        "format": "summary table",
+        "href": "https://html.spec.whatwg.org/multipage/indices.html#event-navigateerror"
+      },
+      "type": "navigateerror",
+      "targets": [
+        "Navigation"
+      ],
+      "interface": "ErrorEvent"
+    },
+    {
+      "href": "https://html.spec.whatwg.org/multipage/indices.html#event-navigatesuccess",
+      "src": {
+        "format": "summary table",
+        "href": "https://html.spec.whatwg.org/multipage/indices.html#event-navigatesuccess"
+      },
+      "type": "navigatesuccess",
+      "targets": [
+        "Navigation"
+      ],
+      "interface": "Event"
+    },
+    {
       "href": "https://html.spec.whatwg.org/multipage/indices.html#event-offline",
       "src": {
         "format": "summary table",
@@ -820,6 +920,18 @@
       "interface": "Event"
     },
     {
+      "href": "https://html.spec.whatwg.org/multipage/indices.html#event-pageswap",
+      "src": {
+        "format": "summary table",
+        "href": "https://html.spec.whatwg.org/multipage/indices.html#event-pageswap"
+      },
+      "type": "pageswap",
+      "targets": [
+        "Window"
+      ],
+      "interface": "PageSwapEvent"
+    },
+    {
       "href": "https://html.spec.whatwg.org/multipage/indices.html#event-pagehide",
       "src": {
         "format": "summary table",
@@ -830,6 +942,18 @@
         "Window"
       ],
       "interface": "PageTransitionEvent"
+    },
+    {
+      "href": "https://html.spec.whatwg.org/multipage/indices.html#event-pagereveal",
+      "src": {
+        "format": "summary table",
+        "href": "https://html.spec.whatwg.org/multipage/indices.html#event-pagereveal"
+      },
+      "type": "pagereveal",
+      "targets": [
+        "Window"
+      ],
+      "interface": "PageRevealEvent"
     },
     {
       "href": "https://html.spec.whatwg.org/multipage/indices.html#event-pageshow",
@@ -847,7 +971,7 @@
       "href": "https://w3c.github.io/pointerevents/#the-pointercancel-event",
       "src": {
         "format": "summary table",
-        "href": "https://html.spec.whatwg.org/multipage/indices.html#events-2:event-pointercancel"
+        "href": "https://html.spec.whatwg.org/multipage/indices.html#events-2%3Aevent-pointercancel"
       },
       "type": "pointercancel",
       "targets": [
@@ -904,7 +1028,8 @@
         "HTMLElement"
       ],
       "interface": "Event",
-      "bubbles": true
+      "bubbles": true,
+      "cancelable": true
     },
     {
       "href": "https://html.spec.whatwg.org/multipage/indices.html#event-select",
@@ -942,7 +1067,8 @@
         "HTMLElement"
       ],
       "interface": "SubmitEvent",
-      "bubbles": true
+      "bubbles": true,
+      "cancelable": true
     },
     {
       "href": "https://html.spec.whatwg.org/multipage/indices.html#event-toggle",
@@ -954,7 +1080,7 @@
       "targets": [
         "HTMLElement"
       ],
-      "interface": "Event"
+      "interface": "ToggleEvent"
     },
     {
       "href": "https://html.spec.whatwg.org/multipage/indices.html#event-unhandledrejection",
@@ -967,7 +1093,8 @@
         "Window",
         "WorkerGlobalScope"
       ],
-      "interface": "PromiseRejectionEvent"
+      "interface": "PromiseRejectionEvent",
+      "cancelable": true
     },
     {
       "href": "https://html.spec.whatwg.org/multipage/indices.html#event-unload",

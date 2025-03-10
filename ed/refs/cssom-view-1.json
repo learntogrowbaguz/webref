@@ -23,7 +23,7 @@
       },
       {
         "name": "CSS-COLOR-4",
-        "url": "https://drafts.csswg.org/css-color/"
+        "url": "https://drafts.csswg.org/css-color-4/"
       },
       {
         "name": "CSS-CONTAIN-2",
@@ -31,11 +31,11 @@
       },
       {
         "name": "CSS-DEVICE-ADAPT",
-        "url": "https://drafts.csswg.org/css-device-adapt/"
+        "url": "https://drafts.csswg.org/css-viewport/"
       },
       {
         "name": "CSS-DISPLAY-4",
-        "url": "https://drafts.csswg.org/css-display-4/"
+        "url": "https://drafts.csswg.org/css-display/"
       },
       {
         "name": "CSS-OVERFLOW-3",
@@ -52,6 +52,14 @@
       {
         "name": "CSS-SCOPING-1",
         "url": "https://drafts.csswg.org/css-scoping/"
+      },
+      {
+        "name": "CSS-SCROLL-SNAP-1",
+        "url": "https://drafts.csswg.org/css-scroll-snap-1/"
+      },
+      {
+        "name": "CSS-SCROLL-SNAP-2",
+        "url": "https://drafts.csswg.org/css-scroll-snap-2/"
       },
       {
         "name": "CSS-TEXT-3",
@@ -78,7 +86,7 @@
         "url": "https://drafts.csswg.org/css-writing-modes-4/"
       },
       {
-        "name": "CSS22",
+        "name": "CSS2",
         "url": "https://drafts.csswg.org/css2/"
       },
       {
@@ -108,6 +116,10 @@
       {
         "name": "RFC2119",
         "url": "https://datatracker.ietf.org/doc/html/rfc2119"
+      },
+      {
+        "name": "SELECTORS-4",
+        "url": "https://drafts.csswg.org/selectors/"
       },
       {
         "name": "SVG11",

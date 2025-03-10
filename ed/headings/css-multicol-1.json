@@ -8,7 +8,7 @@
       "id": "title",
       "href": "https://drafts.csswg.org/css-multicol-1/#title",
       "level": 1,
-      "title": "133 TestsCSS Multi-column Layout Module Level 1"
+      "title": "CSS Multi-column Layout Module Level 1"
     },
     {
       "id": "abstract",
@@ -200,7 +200,8 @@
       "id": "changes",
       "href": "https://drafts.csswg.org/css-multicol-1/#changes",
       "level": 2,
-      "title": "Appendix B. Changes"
+      "title": "Changes",
+      "number": "B"
     },
     {
       "id": "changes-from-20211012",
@@ -297,6 +298,12 @@
       "href": "https://drafts.csswg.org/css-multicol-1/#w3c-testing",
       "level": 3,
       "title": "Non-experimental implementations"
+    },
+    {
+      "id": "w3c-cr-exit-criteria",
+      "href": "https://drafts.csswg.org/css-multicol-1/#w3c-cr-exit-criteria",
+      "level": 3,
+      "title": "CR exit criteria"
     },
     {
       "id": "index",

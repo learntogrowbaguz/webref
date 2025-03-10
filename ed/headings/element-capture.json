@@ -1,0 +1,202 @@
+{
+  "spec": {
+    "title": "Element Capture",
+    "url": "https://screen-share.github.io/element-capture/"
+  },
+  "headings": [
+    {
+      "id": "title",
+      "href": "https://screen-share.github.io/element-capture/#title",
+      "level": 1,
+      "title": "Element Capture"
+    },
+    {
+      "id": "toc",
+      "href": "https://screen-share.github.io/element-capture/#toc",
+      "level": 2,
+      "title": "Table of Contents"
+    },
+    {
+      "id": "conformance",
+      "href": "https://screen-share.github.io/element-capture/#conformance",
+      "level": 2,
+      "title": "Conformance",
+      "number": "1"
+    },
+    {
+      "id": "use-cases",
+      "href": "https://screen-share.github.io/element-capture/#use-cases",
+      "level": 2,
+      "title": "Use Cases",
+      "number": "2"
+    },
+    {
+      "id": "generic-use-case",
+      "href": "https://screen-share.github.io/element-capture/#generic-use-case",
+      "level": 3,
+      "title": "Generic Use-Case",
+      "number": "2.1"
+    },
+    {
+      "id": "practical-use-case-1",
+      "href": "https://screen-share.github.io/element-capture/#practical-use-case-1",
+      "level": 3,
+      "title": "Practical Use-Case #1: Recording part of an app",
+      "number": "2.2"
+    },
+    {
+      "id": "practical-use-case-2",
+      "href": "https://screen-share.github.io/element-capture/#practical-use-case-2",
+      "level": 3,
+      "title": "Practical Use-Case #2: Collaborative tools during video-conferencing",
+      "number": "2.3"
+    },
+    {
+      "id": "solution-overview",
+      "href": "https://screen-share.github.io/element-capture/#solution-overview",
+      "level": 2,
+      "title": "Solution Overview",
+      "number": "3"
+    },
+    {
+      "id": "produce-restriction-target",
+      "href": "https://screen-share.github.io/element-capture/#produce-restriction-target",
+      "level": 2,
+      "title": "RestrictionTarget Production",
+      "number": "4"
+    },
+    {
+      "id": "restriction-target-motivation",
+      "href": "https://screen-share.github.io/element-capture/#restriction-target-motivation",
+      "level": 3,
+      "title": "Motivation for defining RestrictionTarget",
+      "number": "4.1"
+    },
+    {
+      "id": "restriction-target",
+      "href": "https://screen-share.github.io/element-capture/#restriction-target",
+      "level": 3,
+      "title": "RestrictionTarget Definition",
+      "number": "4.2"
+    },
+    {
+      "id": "restricting-a-track",
+      "href": "https://screen-share.github.io/element-capture/#restricting-a-track",
+      "level": 2,
+      "title": "Restriction Mechanism",
+      "number": "5"
+    },
+    {
+      "id": "definitions",
+      "href": "https://screen-share.github.io/element-capture/#definitions",
+      "level": 3,
+      "title": "Definitions",
+      "number": "5.1"
+    },
+    {
+      "id": "restrictable-tracks",
+      "href": "https://screen-share.github.io/element-capture/#restrictable-tracks",
+      "level": 4,
+      "title": "Restrictable tracks",
+      "number": "5.1.1"
+    },
+    {
+      "id": "elements-eligible-for-restriction",
+      "href": "https://screen-share.github.io/element-capture/#elements-eligible-for-restriction",
+      "level": 4,
+      "title": "Elements eligible for restriction",
+      "number": "5.1.2"
+    },
+    {
+      "id": "valid-restriction-targets",
+      "href": "https://screen-share.github.io/element-capture/#valid-restriction-targets",
+      "level": 4,
+      "title": "Valid restriction targets",
+      "number": "5.1.3"
+    },
+    {
+      "id": "browser-capture-media-stream-track-extension",
+      "href": "https://screen-share.github.io/element-capture/#browser-capture-media-stream-track-extension",
+      "level": 3,
+      "title": "BrowserCaptureMediaStreamTrack extension",
+      "number": "5.2"
+    },
+    {
+      "id": "applying-the-restriction-transformation",
+      "href": "https://screen-share.github.io/element-capture/#applying-the-restriction-transformation",
+      "level": 2,
+      "title": "Applying the restriction transformation",
+      "number": "6"
+    },
+    {
+      "id": "sample-code",
+      "href": "https://screen-share.github.io/element-capture/#sample-code",
+      "level": 2,
+      "title": "Sample Code",
+      "number": "7"
+    },
+    {
+      "id": "privacy-and-security-considerations",
+      "href": "https://screen-share.github.io/element-capture/#privacy-and-security-considerations",
+      "level": 2,
+      "title": "Privacy and Security Considerations",
+      "number": "8"
+    },
+    {
+      "id": "benefits-of-this-api",
+      "href": "https://screen-share.github.io/element-capture/#benefits-of-this-api",
+      "level": 3,
+      "title": "Benefits of this API",
+      "number": "8.1"
+    },
+    {
+      "id": "concerns-about-this-api",
+      "href": "https://screen-share.github.io/element-capture/#concerns-about-this-api",
+      "level": 3,
+      "title": "Concerns about this API",
+      "number": "8.2"
+    },
+    {
+      "id": "reading-cross-origin-pixels",
+      "href": "https://screen-share.github.io/element-capture/#reading-cross-origin-pixels",
+      "level": 4,
+      "title": "Reading cross-origin pixels",
+      "number": "8.2.1"
+    },
+    {
+      "id": "aggravating-old-attack-vectors",
+      "href": "https://screen-share.github.io/element-capture/#aggravating-old-attack-vectors",
+      "level": 4,
+      "title": "Aggravating old attack vectors",
+      "number": "8.2.2"
+    },
+    {
+      "id": "reading-occluded-content",
+      "href": "https://screen-share.github.io/element-capture/#reading-occluded-content",
+      "level": 4,
+      "title": "Reading occluded content",
+      "number": "8.2.3"
+    },
+    {
+      "id": "interaction-with-region-capture",
+      "href": "https://screen-share.github.io/element-capture/#interaction-with-region-capture",
+      "level": 4,
+      "title": "Interaction with Region Capture",
+      "number": "8.2.4"
+    },
+    {
+      "id": "references",
+      "href": "https://screen-share.github.io/element-capture/#references",
+      "level": 2,
+      "title": "References",
+      "number": "A"
+    },
+    {
+      "id": "normative-references",
+      "href": "https://screen-share.github.io/element-capture/#normative-references",
+      "level": 3,
+      "title": "Normative references",
+      "number": "A.1"
+    }
+  ]
+}

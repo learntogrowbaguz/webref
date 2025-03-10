@@ -8,13 +8,13 @@
       "id": "pagetitle",
       "href": "https://svgwg.org/svg2-draft/#pagetitle",
       "level": 1,
-      "title": "No TestsScalable Vector Graphics (SVG) 2"
+      "title": "Scalable Vector Graphics (SVG) 2"
     },
     {
       "id": "pagesubtitle",
       "href": "https://svgwg.org/svg2-draft/#pagesubtitle",
       "level": 2,
-      "title": "W3C Editor’s Draft 10 January 2023"
+      "title": "W3C Editor’s Draft 08 March 2023"
     },
     {
       "id": "abstract",
@@ -2950,7 +2950,8 @@
       "id": "mimereg",
       "href": "https://svgwg.org/svg2-draft/mimereg.html#mimereg",
       "level": 1,
-      "title": "Appendix J: Media Type Registration for image/svg+xml"
+      "title": "Media Type Registration for image/svg+xml",
+      "number": "J"
     },
     {
       "id": "toc",

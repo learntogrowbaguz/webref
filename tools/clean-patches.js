@@ -3,11 +3,13 @@
  * a pull request to drop patches that should no longer be needed.
  */
 
-const core = require('@actions/core');
-const Octokit = require("./octokit");
-const fs = require("fs");
-const path = require("path");
-
+import fs from "node:fs";
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import core from '@actions/core';
+import Octokit from "./octokit.js";
+import { loadJSON } from "./utils.js";
+const scriptPath = path.dirname(fileURLToPath(import.meta.url));
 
 /**
  * Check GitHub issues and PR referenced by patch files and drop patch files
@@ -19,7 +21,7 @@ const path = require("path");
  *   empty string when there are no patches to drop.
  */
 async function dropPatchesWhenPossible() {
-  const rootDir = path.join(__dirname, "..", "ed");
+  const rootDir = path.join(scriptPath, "..", "ed");
 
   console.log("Gather patch files");
   let patches = [];
@@ -45,7 +47,7 @@ async function dropPatchesWhenPossible() {
     const contents = fs.readFileSync(path.join(rootDir, patch.name), "utf8");
     const desc = contents.substring(0, contents.match(diffStart)?.index);
     const patchIssues = [...desc.matchAll(issueUrl)];
-    for (patchIssue of patchIssues) {
+    for (const patchIssue of patchIssues) {
       if (!patch.issues) {
         patch.issues = [];
       }
@@ -102,13 +104,8 @@ async function dropPatchesWhenPossible() {
 /*******************************************************************************
 Retrieve GH_TOKEN from environment, prepare Octokit and kick things off
 *******************************************************************************/
-const GH_TOKEN = (() => {
-  try {
-    return require("../config.json").GH_TOKEN;
-  } catch {
-    return process.env.GH_TOKEN;
-  }
-})();
+const config = await loadJSON("config.json");
+const GH_TOKEN = config?.GH_TOKEN ?? process.env.GH_TOKEN;
 if (!GH_TOKEN) {
   console.error("GH_TOKEN must be set to some personal access token as an env variable or in a config.json file");
   process.exit(1);

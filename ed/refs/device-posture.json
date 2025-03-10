@@ -10,10 +10,6 @@
         "url": "https://dom.spec.whatwg.org/"
       },
       {
-        "name": "FULLSCREEN",
-        "url": "https://fullscreen.spec.whatwg.org/"
-      },
-      {
         "name": "HTML",
         "url": "https://html.spec.whatwg.org/multipage/"
       },
@@ -24,10 +20,6 @@
       {
         "name": "MEDIAQ",
         "url": "https://www.w3.org/TR/mediaqueries-4/"
-      },
-      {
-        "name": "PAGE-VISIBILITY",
-        "url": "https://www.w3.org/TR/page-visibility/"
       },
       {
         "name": "RFC2119",
@@ -42,10 +34,27 @@
         "url": "https://www.w3.org/TR/screen-orientation/"
       },
       {
+        "name": "WEBDRIVER2",
+        "url": "https://www.w3.org/TR/webdriver2/"
+      },
+      {
         "name": "webidl",
         "url": "https://webidl.spec.whatwg.org/"
       }
     ],
-    "informative": []
+    "informative": [
+      {
+        "name": "clreq",
+        "url": "https://www.w3.org/TR/clreq/"
+      },
+      {
+        "name": "jlreq",
+        "url": "https://www.w3.org/TR/jlreq/"
+      },
+      {
+        "name": "klreq",
+        "url": "https://www.w3.org/TR/klreq/"
+      }
+    ]
   }
 }

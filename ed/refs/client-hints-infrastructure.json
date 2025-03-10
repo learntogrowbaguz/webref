@@ -6,8 +6,16 @@
   "refs": {
     "normative": [
       {
+        "name": "CLEAR-SITE-DATA",
+        "url": "https://w3c.github.io/webappsec-clear-site-data/"
+      },
+      {
         "name": "FETCH",
         "url": "https://fetch.spec.whatwg.org/"
+      },
+      {
+        "name": "HR-TIME-3",
+        "url": "https://w3c.github.io/hr-time/"
       },
       {
         "name": "HTML",
@@ -18,7 +26,11 @@
         "url": "https://infra.spec.whatwg.org/"
       },
       {
-        "name": "PERMISSIONS-POLICY",
+        "name": "NAVIGATION-TIMING-2",
+        "url": "https://w3c.github.io/navigation-timing/"
+      },
+      {
+        "name": "PERMISSIONS-POLICY-1",
         "url": "https://w3c.github.io/webappsec-permissions-policy/"
       },
       {
@@ -42,6 +54,10 @@
       {
         "name": "CLIENT-HINT-RELIABILITY",
         "url": "https://datatracker.ietf.org/doc/html/draft-davidben-http-client-hint-reliability"
+      },
+      {
+        "name": "PERMISSIONS-POLICY",
+        "url": "https://w3c.github.io/webappsec-permissions-policy/"
       }
     ]
   }

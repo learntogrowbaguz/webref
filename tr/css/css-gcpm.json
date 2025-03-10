@@ -6,13 +6,15 @@
   "properties": [
     {
       "name": "string-set",
-      "value": "[[ <custom-ident> <content-list>] [, <custom-ident> <content-list>]* ] | none",
+      "href": "https://www.w3.org/TR/css-gcpm-3/#propdef-string-set",
+      "value": "[ <custom-ident> <content-list> ]# | none",
       "initial": "none",
       "appliesTo": "all elements, but not pseudo-elements",
       "inherited": "no",
-      "media": "all",
-      "computedValue": "specified value",
       "percentages": "N/A",
+      "computedValue": "specified value",
+      "canonicalOrder": "per grammar",
+      "animationType": "discrete",
       "styleDeclaration": [
         "string-set",
         "stringSet"
@@ -20,16 +22,14 @@
     },
     {
       "name": "position",
-      "newValues": "running()",
-      "media": "paged",
+      "newValues": "<running()>",
       "styleDeclaration": [
         "position"
       ]
     },
     {
       "name": "content",
-      "newValues": "element() | leader()",
-      "media": "paged",
+      "newValues": "<element()>",
       "styleDeclaration": [
         "content"
       ]
@@ -37,11 +37,11 @@
     {
       "name": "float",
       "newValues": "footnote",
-      "media": "paged",
       "values": [
         {
           "name": "footnote",
           "prose": "each footnote element is placed in the footnote area of the page",
+          "href": "https://www.w3.org/TR/css-gcpm-3/#valdef-float-footnote",
           "type": "value",
           "value": "footnote"
         }
@@ -52,29 +52,34 @@
     },
     {
       "name": "footnote-display",
+      "href": "https://www.w3.org/TR/css-gcpm-3/#propdef-footnote-display",
       "value": "block | inline | compact",
       "initial": "block",
       "appliesTo": "elements",
       "inherited": "no",
-      "media": "paged",
-      "computedValue": "specified value",
       "percentages": "N/A",
+      "computedValue": "specified value",
+      "canonicalOrder": "per grammar",
+      "animationType": "discrete",
       "values": [
         {
           "name": "block",
           "prose": "The footnote element is placed in the footnote area as a block element",
+          "href": "https://www.w3.org/TR/css-gcpm-3/#footnote-display-block",
           "type": "value",
           "value": "block"
         },
         {
           "name": "inline",
           "prose": "The footnote element is placed in the footnote area as an inline element",
+          "href": "https://www.w3.org/TR/css-gcpm-3/#footnote-display-inline",
           "type": "value",
           "value": "inline"
         },
         {
           "name": "compact",
           "prose": "The user agent determines whether a given footnote element is placed as a block element or an inline element. If two or more footnotes could fit on the same line in the footnote area, they should be placed inline.",
+          "href": "https://www.w3.org/TR/css-gcpm-3/#footnote-display-compact",
           "type": "value",
           "value": "compact"
         }
@@ -86,29 +91,34 @@
     },
     {
       "name": "footnote-policy",
+      "href": "https://www.w3.org/TR/css-gcpm-3/#propdef-footnote-policy",
       "value": "auto | line | block",
       "initial": "auto",
       "appliesTo": "elements",
       "inherited": "no",
-      "media": "paged",
-      "computedValue": "specified value",
       "percentages": "N/A",
+      "computedValue": "specified value",
+      "canonicalOrder": "per grammar",
+      "animationType": "discrete",
       "values": [
         {
           "name": "auto",
           "prose": "The user agent chooses how to render footnotes, and may place the footnote body on a later page than the footnote reference. A footnote body must never be placed on a page before the footnote reference.",
+          "href": "https://www.w3.org/TR/css-gcpm-3/#valdef-footnote-policy-auto",
           "type": "value",
           "value": "auto"
         },
         {
           "name": "line",
           "prose": "If a given footnote body cannot be placed on the current page due to lack of space, the user agent introduces a forced page break at the start of the line containing the footnote reference, so that both the reference and the footnote body fall on the next page. Note that the user agent must honor widow and orphan settings when doing this, and so may need to insert the page break on an earlier line.",
+          "href": "https://www.w3.org/TR/css-gcpm-3/#footnote-policy-line",
           "type": "value",
           "value": "line"
         },
         {
           "name": "block",
           "prose": "As with line, except a forced page break is introduced before the paragraph that contains the footnote.",
+          "href": "https://www.w3.org/TR/css-gcpm-3/#valdef-footnote-policy-block",
           "type": "value",
           "value": "block"
         }
@@ -117,104 +127,40 @@
         "footnote-policy",
         "footnotePolicy"
       ]
-    },
-    {
-      "name": "bookmark-level",
-      "value": "none | <integer>",
-      "initial": "none",
-      "appliesTo": "all elements",
-      "inherited": "no",
-      "media": "paged",
-      "computedValue": "specified value",
-      "percentages": "N/A",
-      "styleDeclaration": [
-        "bookmark-level",
-        "bookmarkLevel"
-      ]
-    },
-    {
-      "name": "bookmark-label",
-      "value": "<content-list> | none",
-      "initial": "none",
-      "appliesTo": "all elements",
-      "inherited": "no",
-      "media": "paged",
-      "computedValue": "specified value",
-      "percentages": "N/A",
-      "styleDeclaration": [
-        "bookmark-label",
-        "bookmarkLabel"
-      ]
-    },
-    {
-      "name": "bookmark-state",
-      "value": "open | closed",
-      "initial": "open",
-      "appliesTo": "block-level elements",
-      "inherited": "no",
-      "media": "paged",
-      "computedValue": "specified value",
-      "percentages": "N/A",
-      "styleDeclaration": [
-        "bookmark-state",
-        "bookmarkState"
-      ]
     }
   ],
   "atrules": [],
-  "selectors": [],
+  "selectors": [
+    {
+      "name": ":nth()",
+      "href": "https://www.w3.org/TR/css-gcpm-3/#selectordef-nth",
+      "value": ":nth( <an+b> [of <custom-ident>]? )"
+    }
+  ],
   "values": [
     {
+      "name": "<content-list>",
+      "href": "https://www.w3.org/TR/css-gcpm-3/#content-list",
+      "type": "type",
+      "value": "[ <string> | <counter()> | <counters()> | <content()> | <attr()> ]+"
+    },
+    {
       "name": "content()",
+      "href": "https://www.w3.org/TR/css-gcpm-3/#funcdef-content",
       "type": "function",
       "value": "content([text | before | after | first-letter ])"
     },
     {
-      "name": "string()",
-      "type": "function",
-      "value": "string( <custom-ident> [ , [ first | start | last | first-except] ]? )"
-    },
-    {
       "name": "running()",
+      "href": "https://www.w3.org/TR/css-gcpm-3/#funcdef-running",
       "type": "function",
-      "value": "string( <custom-ident> )"
+      "value": "running( <custom-ident> )"
     },
     {
       "name": "element()",
+      "href": "https://www.w3.org/TR/css-gcpm-3/#funcdef-element",
       "type": "function",
-      "value": "string( <custom-ident> [ , [ first | start | last | first-except] ]? )"
-    },
-    {
-      "name": "nth()",
-      "type": "function",
-      "value": "( An+B [of <custom-ident>]?)"
-    },
-    {
-      "name": "leader()",
-      "type": "function",
-      "value": "leader( [dotted | solid | space] | <string>);"
-    },
-    {
-      "name": "target-counter()",
-      "type": "function",
-      "value": "target-counter( <url> , <custom-ident> [ , <counter-style> ]? )"
-    },
-    {
-      "name": "target-counters()",
-      "type": "function",
-      "value": "target-counter( <url> , <custom-ident> , <string> [ , <counter-style> ]? )"
-    },
-    {
-      "name": "target-text()",
-      "type": "function",
-      "value": "target-counter( <url> [ , [ content | before | after | first-letter] ]? )"
-    }
-  ],
-  "warnings": [
-    {
-      "msg": "Missing definition",
-      "name": "content-list",
-      "value": "[ <string> | <counter()> | <counters()> | <content()> | attr(<identifier>) ]+"
+      "value": "element( <custom-ident> , [ first | start | last | first-except ]? )"
     }
   ]
 }

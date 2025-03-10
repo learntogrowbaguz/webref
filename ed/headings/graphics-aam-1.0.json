@@ -33,8 +33,9 @@
     {
       "id": "conformance-0",
       "href": "https://w3c.github.io/graphics-aam/#conformance-0",
-      "level": 2,
-      "title": "Conformance"
+      "level": 3,
+      "title": "Conformance",
+      "number": "2.1"
     },
     {
       "id": "mapping",
@@ -84,6 +85,27 @@
       "level": 3,
       "title": "Role Mapping Table",
       "number": "6.2"
+    },
+    {
+      "id": "graphics-document",
+      "href": "https://w3c.github.io/graphics-aam/#graphics-document",
+      "level": 4,
+      "title": "graphics-document",
+      "number": "6.2.1"
+    },
+    {
+      "id": "graphics-object",
+      "href": "https://w3c.github.io/graphics-aam/#graphics-object",
+      "level": 4,
+      "title": "graphics-object",
+      "number": "6.2.2"
+    },
+    {
+      "id": "graphics-symbol",
+      "href": "https://w3c.github.io/graphics-aam/#graphics-symbol",
+      "level": 4,
+      "title": "graphics-symbol",
+      "number": "6.2.3"
     },
     {
       "id": "changelog",

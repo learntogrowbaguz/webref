@@ -4,595 +4,310 @@
     "url": "https://w3c.github.io/mathml-core/"
   },
   "links": {
-    "http://standards.iso.org/ittf/PubliclyAvailableStandards/c052136_ISO_IEC_14496-22_2009%28E%29.zip": {},
-    "https://dom.spec.whatwg.org/": {
-      "anchors": [
-        "concept-shadow-tree",
-        "element",
-        "concept-reflect",
-        "concept-element"
-      ],
-      "specShortname": "dom"
+    "rawlinks": {
+      "http://standards.iso.org/ittf/PubliclyAvailableStandards/c052136_ISO_IEC_14496-22_2009%28E%29.zip": {},
+      "https://dom.spec.whatwg.org/": {
+        "anchors": [
+          "concept-shadow-tree",
+          "concept-element"
+        ]
+      },
+      "https://drafts.css-houdini.org/": {},
+      "https://frederic-wang.fr/2016/04/16/opentype-math-in-harfbuzz/": {},
+      "https://github.com/w3c/mathml-core/issues/76": {},
+      "https://github.com/w3c/mathml-core/issues/77": {},
+      "https://github.com/w3c/mathml-core/issues/78": {},
+      "https://github.com/w3c/mathml-core/issues/?q=is%3Aissue+is%3Aopen+label%3A%22css%2Fhtml5%22": {},
+      "https://github.com/w3c/mathml-core/issues/?q=is%3Aissue+is%3Aopen+label%3A%22need+specification+update%22": {},
+      "https://github.com/w3c/mathml-core/issues/?q=is%3Aissue+is%3Aopen+label%3A%22needs-tests%22": {},
+      "https://github.com/w3c/mathml-core/issues/?q=is%3Aissue+is%3Aopen+label%3A%22opentype%2Ftex%22": {},
+      "https://github.com/w3c/mathml/issues?q=is%3Aissue+is%3Aopen+label%3A%22MathML+Core%22": {},
+      "https://github.com/whatwg/html/pull/5248": {},
+      "https://html.spec.whatwg.org/": {
+        "anchors": [
+          "embedding-custom-non-visible-data-with-the-data-*-attributes",
+          "presentational-hints",
+          "event-handlers-on-elements,-document-objects,-and-window-objects",
+          "webappapis",
+          "htmlorsvgelement",
+          "focus",
+          "algorithm-for-processing-rows",
+          "html-integration-point",
+          "security-with-canvas-elements"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/": {},
+      "https://html.spec.whatwg.org/multipage/custom-elements.html": {
+        "anchors": [
+          "custom-element"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/forms.html": {
+        "anchors": [
+          "the-form-element"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/webappapis.html": {
+        "anchors": [
+          "event-handler-content-attributes"
+        ]
+      },
+      "https://infra.spec.whatwg.org/": {
+        "anchors": [
+          "mathml-namespace",
+          "ascii-case-insensitive",
+          "ascii-lowercase",
+          "assert"
+        ]
+      },
+      "https://w3c.github.io/mathml/": {},
+      "https://webidl.spec.whatwg.org/": {
+        "anchors": [
+          "Exposed"
+        ]
+      },
+      "https://www.rfc-editor.org/rfc/rfc2119": {},
+      "https://www.tug.org/TUGboat/tb30-1/tb94vieth.pdf": {},
+      "https://www.unicode.org/versions/latest/": {},
+      "https://www.w3.org/TR/": {},
+      "https://www.w3.org/TR/CSS21/": {},
+      "https://www.w3.org/TR/CSS21/box.html": {
+        "anchors": [
+          "collapsing-margins"
+        ]
+      },
+      "https://www.w3.org/TR/CSS21/zindex.html": {
+        "anchors": [
+          "painting-order"
+        ]
+      },
+      "https://www.w3.org/TR/CSS22/": {
+        "anchors": [
+          "propdef-float"
+        ]
+      },
+      "https://www.w3.org/TR/MathML3/": {},
+      "https://www.w3.org/TR/MathML3/appendixe.html": {},
+      "https://www.w3.org/TR/SVG/": {},
+      "https://www.w3.org/TR/SVG/embedded.html": {
+        "anchors": [
+          "ForeignObjectElement"
+        ]
+      },
+      "https://www.w3.org/TR/SVG/text.html": {
+        "anchors": [
+          "TermBaseline"
+        ]
+      },
+      "https://www.w3.org/TR/css-align-3/": {
+        "anchors": [
+          "first-baseline-set",
+          "last-baseline-set"
+        ]
+      },
+      "https://www.w3.org/TR/css-backgrounds-3/": {
+        "anchors": [
+          "propdef-background-color",
+          "propdef-border-width"
+        ]
+      },
+      "https://www.w3.org/TR/css-box-4/": {
+        "anchors": [
+          "content-box",
+          "padding-box",
+          "padding",
+          "border-box",
+          "margin-box",
+          "propdef-margin"
+        ]
+      },
+      "https://www.w3.org/TR/css-cascade-4/": {
+        "anchors": [
+          "initial-values",
+          "applies-to",
+          "inherited-property",
+          "computed"
+        ]
+      },
+      "https://www.w3.org/TR/css-color-4/": {
+        "anchors": [
+          "propdef-color"
+        ]
+      },
+      "https://www.w3.org/TR/css-display-3/": {
+        "anchors": [
+          "unbox-mathml",
+          "in-flow",
+          "block-box",
+          "propdef-visibility",
+          "valdef-display-table",
+          "propdef-display",
+          "typedef-display-outside",
+          "typedef-display-inside"
+        ]
+      },
+      "https://www.w3.org/TR/css-fonts-4/": {
+        "anchors": [
+          "propdef-font-family",
+          "valdef-font-family-math",
+          "propdef-font-size",
+          "first-available-font",
+          "propdef-font-variant-alternates",
+          "security"
+        ]
+      },
+      "https://www.w3.org/TR/css-layout-api-1/": {
+        "anchors": [
+          "registering-layout"
+        ]
+      },
+      "https://www.w3.org/TR/css-position-3/": {
+        "anchors": [
+          "absolute-position",
+          "fixed-position"
+        ]
+      },
+      "https://www.w3.org/TR/css-pseudo-4/": {
+        "anchors": [
+          "selectordef-first-line",
+          "selectordef-first-letter"
+        ]
+      },
+      "https://www.w3.org/TR/css-sizing-3/": {
+        "anchors": [
+          "min-content-inline-size",
+          "max-content-inline-size",
+          "propdef-width",
+          "propdef-height"
+        ]
+      },
+      "https://www.w3.org/TR/css-text-3/": {
+        "anchors": [
+          "forced-line-break",
+          "soft-wrap-opportunity",
+          "propdef-text-transform"
+        ]
+      },
+      "https://www.w3.org/TR/css-text-4/": {},
+      "https://www.w3.org/TR/css-text-decor-4/": {
+        "anchors": [
+          "propdef-text-decoration-thickness"
+        ]
+      },
+      "https://www.w3.org/TR/css-values-4/": {
+        "anchors": [
+          "integer-value",
+          "typedef-length-percentage",
+          "value-defs",
+          "comb-any",
+          "comb-one"
+        ]
+      },
+      "https://www.w3.org/TR/css-values/": {
+        "anchors": [
+          "percentages"
+        ]
+      },
+      "https://www.w3.org/TR/css-writing-modes-4/": {
+        "anchors": [
+          "propdef-direction",
+          "writing-mode",
+          "abstract-dimensions",
+          "block-dimension",
+          "inline-dimension",
+          "block-axis",
+          "inline-axis",
+          "block-size",
+          "inline-size",
+          "flow-relative-direction",
+          "inline-start",
+          "inline-end",
+          "block-start",
+          "line-relative-direction",
+          "line-left",
+          "line-over",
+          "line-under",
+          "propdef-writing-mode",
+          "logical-height"
+        ]
+      },
+      "https://www.w3.org/TR/cssom-view-1/": {},
+      "https://www.w3.org/TR/cssom/": {
+        "anchors": [
+          "serializing-css-values"
+        ]
+      },
+      "https://www.w3.org/TR/selectors-3/": {
+        "anchors": [
+          "title"
+        ]
+      },
+      "https://www.w3.org/TR/web-animations/": {
+        "anchors": [
+          "animation-type"
+        ]
+      },
+      "https://www.w3.org/TR/xml-entity-names/": {},
+      "https://www.w3.org/groups/wg/math": {},
+      "https://www.w3.org/groups/wg/math/ipr": {},
+      "https://www.w3.org/policies/patent-policy/": {
+        "anchors": [
+          "def-essential",
+          "sec-Disclosure"
+        ]
+      },
+      "https://www.w3.org/policies/process/20231103/": {}
     },
-    "https://drafts.css-houdini.org/": {},
-    "https://frederic-wang.fr/opentype-math-in-harfbuzz.html": {},
-    "https://github.com/w3c/mathml-core/issues/75": {},
-    "https://github.com/w3c/mathml-core/issues/76": {},
-    "https://github.com/w3c/mathml-core/issues/77": {},
-    "https://github.com/w3c/mathml-core/issues/78": {},
-    "https://github.com/w3c/mathml-core/issues/?q=is%3Aissue+is%3Aopen+label%3A%22Agenda%22": {},
-    "https://github.com/w3c/mathml-core/issues/?q=is%3Aissue+is%3Aopen+label%3A%22css+%2F+html5%22": {},
-    "https://github.com/w3c/mathml-core/issues/?q=is%3Aissue+is%3Aopen+label%3A%22need+specification+update%22": {},
-    "https://github.com/w3c/mathml-core/issues/?q=is%3Aissue+is%3Aopen+label%3A%22needs-tests%22": {},
-    "https://github.com/w3c/mathml-core/issues/?q=is%3Aissue+is%3Aopen+label%3A%22opentype%2Ftex%22": {},
-    "https://github.com/w3c/mathml/issues?q=is%3Aissue+is%3Aopen+label%3A%22MathML+Core%22": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/direction/direction-006.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/direction/direction-007.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/direction/direction-008.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/direction/direction-010.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/direction/direction-overall.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/direction/direction-token.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/direction/direction.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/fractions/frac-1.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/fractions/frac-bar-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/fractions/frac-bar-002.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/fractions/frac-color-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/fractions/frac-color-002.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/fractions/frac-created-dynamically-2.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/fractions/frac-created-dynamically-3.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/fractions/frac-created-dynamically.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/fractions/frac-default-padding.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/fractions/frac-invalid-2.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/fractions/frac-invalid-3.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/fractions/frac-invalid.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/fractions/frac-legacy-bevelled-attribute.tentative.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/fractions/frac-linethickness-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/fractions/frac-linethickness-002.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/fractions/frac-linethickness-003.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/fractions/frac-linethickness-004.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/fractions/frac-mrow-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/fractions/frac-numalign-denomalign-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/fractions/frac-parameters-1.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/fractions/frac-parameters-2.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/fractions/frac-parameters-3.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/fractions/frac-parameters-gap-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/fractions/frac-parameters-gap-002.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/fractions/frac-parameters-gap-003.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/fractions/frac-parameters-gap-004.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/fractions/frac-parameters-gap-005.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/fractions/frac-parameters-gap-006.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/fractions/frac-rendering-from-in-flow.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/fractions/frac-visibility-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/mpadded/legacy-orthogonal-pseudo-units.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/mpadded/mpadded-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/mpadded/mpadded-002.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/mpadded/mpadded-003.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/mrow/dynamic-mrow-like-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/mrow/inferred-mrow-baseline.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/mrow/inferred-mrow-stretchy.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/mrow/legacy-mfenced-element-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/mrow/legacy-mrow-like-elements-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/mrow/legacy-mrow-like-elements-002.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/mrow/legacy-mstyle-attributes.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/mrow/merror-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/mrow/mrow-painting-order.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/mrow/mrow-preferred-width.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/mrow/no-spacing.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/mrow/spacing.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/mrow/stretch-along-block-axis-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/embellished-operator-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/embellished-operator-002.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/embellished-operator-003.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/embellished-operator-dynamic-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/embellished-operator-dynamic-002.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/mo-axis-height-1.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/mo-font-relative-lengths-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/mo-form-dynamic-002.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/mo-form-dynamic.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/mo-form-fallback.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/mo-form-minus-plus.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/mo-form.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/mo-lspace-rspace-dynamic.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/mo-minsize-maxsize-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/mo-movablelimits-and-embellished-operator.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/mo-movablelimits-default.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/mo-movablelimits-dynamic.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/mo-movablelimits-from-in-flow.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/mo-movablelimits.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/mo-not-in-dictionary-lspace-rspace.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/mo-not-in-dictionary-movablelimits.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/mo-paint-lspace-rspace.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/mo-single-char-and-children.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/mo-stretch-properties-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/mo-stretch-properties-dynamic-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/operator-dictionary-combining.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/operator-dictionary-largeop-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/operator-dictionary-largeop-002.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/operator-dictionary-largeop-003.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/operator-dictionary-largeop-004.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/operator-dictionary-largeop-005.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/operator-dictionary-largeop-006.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/operator-dictionary-movablelimits-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/operator-dictionary-movablelimits-002.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/operator-dictionary-movablelimits-003.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/operator-dictionary-movablelimits-004.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/operator-dictionary-movablelimits-005.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/operator-dictionary-movablelimits-006.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/operator-dictionary-spacing-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/operator-dictionary-spacing-002.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/operator-dictionary-spacing-003.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/operator-dictionary-spacing-004.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/operator-dictionary-spacing-005.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/operator-dictionary-spacing-006.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/operator-dictionary-stretchy-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/operator-dictionary-stretchy-002.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/operator-dictionary-stretchy-003.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/operator-dictionary-stretchy-004.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/operator-dictionary-stretchy-005.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/operator-dictionary-stretchy-006.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/operator-dictionary-symmetric-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/operator-dictionary-symmetric-002.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/operator-dictionary-symmetric-003.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/operator-dictionary-symmetric-004.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/operator-dictionary-symmetric-005.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/operators/operator-dictionary-symmetric-006.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/radicals/dynamic-radical-paint-invalidation-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/radicals/radical-rendering-from-in-flow.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/radicals/root-parameters-1.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/radicals/root-parameters-2.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/scripts/cramped-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/scripts/empty-underover.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/scripts/mover-accent-dynamic-change.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/scripts/subsup-1.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/scripts/subsup-2.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/scripts/subsup-3.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/scripts/subsup-4.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/scripts/subsup-5.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/scripts/subsup-6.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/scripts/subsup-legacy-scriptshift-attributes-001.tentative.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/scripts/subsup-parameters-1.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/scripts/subsup-parameters-2.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/scripts/underover-1.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/scripts/underover-legacy-align-attribute-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/scripts/underover-parameters-1.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/scripts/underover-parameters-2.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/scripts/underover-parameters-3.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/scripts/underover-parameters-4.tentative.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/scripts/underover-parameters-and-embellished-operator-1.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/scripts/underover-parameters-and-embellished-operator-2.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/scripts/underover-stretchy-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/scripts/underover-stretchy-002.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/scripts/underover-stretchy-003.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/spaces/mspace-children.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/spaces/space-1.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/spaces/space-2.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/spaces/space-like-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/spaces/space-like-002.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/spaces/space-like-003.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/spaces/space-like-004.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/spaces/space-vertical-align.tentative.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/tables/dynamic-table-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/tables/table-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/tables/table-002.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/tables/table-003.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/tables/table-axis-height.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/tables/table-cell-mrow-layout.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/tables/table-default-styles-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/tokens/dynamic-mtext-like-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/presentation-markup/tokens/ms-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/attribute-mapping-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/attribute-mapping-002.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/blur-filter.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/clip-path.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/clip.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/color-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/color-002.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/color-003.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/color-004.tentative.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/color-005.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/default-font-family.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/default-properties-on-semantics-and-maction.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/default-properties-on-the-math-root.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/display-1.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/display-2.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/display-contents.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/displaystyle-011.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/displaystyle-012.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/displaystyle-013.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/displaystyle-014.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/displaystyle-015.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/displaystyle-1.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/displaystyle-2.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/displaystyle-3.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/dynamic-dir-1.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/ignored-properties-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/legacy-scriptminsize-attribute.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/legacy-scriptsizemultiplier-attribute.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/lengths-1.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/lengths-2.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/mathbackground-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/mathbackground-002.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/mathbackground-003.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/mathbackground-004.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/mathcolor-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/mathcolor-002.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/mathcolor-003.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/mathcolor-004.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/mathcolor-mathbackground-css.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/mathsize-attribute-css-keywords.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/mathsize-attribute-legacy-values.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/mathsize-attribute.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/mathvariant-auto.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/mathvariant-bold-fraktur.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/mathvariant-bold-italic.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/mathvariant-bold-sans-serif.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/mathvariant-bold-script.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/mathvariant-bold.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/mathvariant-case-sensitivity.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/mathvariant-double-struck.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/mathvariant-fraktur.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/mathvariant-initial.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/mathvariant-italic.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/mathvariant-looped.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/mathvariant-monospace.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/mathvariant-sans-serif-bold-italic.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/mathvariant-sans-serif-italic.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/mathvariant-sans-serif.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/mathvariant-script.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/mathvariant-stretched.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/mathvariant-tailed.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/multi-column-layout.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/not-participating-to-parent-layout.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/padding-border-margin/border-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/padding-border-margin/border-002.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/padding-border-margin/margin-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/padding-border-margin/margin-002.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/padding-border-margin/margin-003.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/padding-border-margin/padding-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/padding-border-margin/padding-002.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/padding-border-margin/padding-border-margin-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/padding-border-margin/padding-border-margin-002.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/padding-border-margin/padding-border-margin-003.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/presentational-hints-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/presentational-hints-002.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/scriptlevel-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/transform.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/visibility-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/visibility-002.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/visibility-003.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/visibility-004.tentative.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/visibility-005.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/width-height-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/writing-mode/writing-mode-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/css-styling/writing-mode/writing-mode-002.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/html5-tree/class-1.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/html5-tree/class-2.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/html5-tree/clipboard-event-handlers.tentative.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/html5-tree/color-attributes-1.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/html5-tree/content-editable.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/html5-tree/css-inline-style-dynamic.tentative.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/html5-tree/css-inline-style-interface.tentative.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/html5-tree/display-1.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/html5-tree/display-2.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/html5-tree/dynamic-1.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/html5-tree/dynamic-2.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/html5-tree/dynamic-childlist-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/html5-tree/dynamic-childlist-002.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/html5-tree/href-click-1.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/html5-tree/href-click-2.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/html5-tree/href-click-3.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/html5-tree/html-or-foreign-element-interfaces.tentative.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/html5-tree/integration-point-1.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/html5-tree/integration-point-2.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/html5-tree/integration-point-3.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/html5-tree/integration-point-4.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/html5-tree/integration-point-5.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/html5-tree/math-global-event-handlers.tentative.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/html5-tree/required-extensions-2.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/html5-tree/tabindex-001.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/html5-tree/tabindex-002.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/html5-tree/unique-identifier-1.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/html5-tree/unique-identifier-2.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/html5-tree/unique-identifier-3.html": {},
-    "https://github.com/web-platform-tests/wpt/tree/master/mathml/relations/text-and-math/use-typo-metrics-1.html": {},
-    "https://github.com/whatwg/html/pull/5248": {},
-    "https://html.spec.whatwg.org/": {
-      "anchors": [
-        "embedding-custom-non-visible-data-with-the-data-*-attributes",
-        "presentational-hints",
-        "event-handlers-on-elements,-document-objects,-and-window-objects",
-        "parsing",
-        "html-integration-point",
-        "mathml-text-integration-point",
-        "tree-construction-dispatcher",
-        "mathml",
-        "svg-0",
-        "webappapis",
-        "htmlorsvgelement",
-        "focus",
-        "security-with-canvas-elements"
-      ]
-    },
-    "https://html.spec.whatwg.org/multipage/": {},
-    "https://html.spec.whatwg.org/multipage/canvas.html": {
-      "anchors": [
-        "canvas",
-        "dom-context-2d-getimagedata"
-      ]
-    },
-    "https://html.spec.whatwg.org/multipage/custom-elements.html": {
-      "anchors": [
-        "custom-element"
-      ]
-    },
-    "https://html.spec.whatwg.org/multipage/dom.html": {
-      "anchors": [
-        "flow-content-2",
-        "phrasing-content-2"
-      ]
-    },
-    "https://html.spec.whatwg.org/multipage/forms.html": {
-      "anchors": [
-        "the-form-element"
-      ]
-    },
-    "https://html.spec.whatwg.org/multipage/tables.html": {
-      "anchors": [
-        "the-table-element",
-        "the-tr-element",
-        "the-td-element",
-        "attr-tdth-colspan"
-      ]
-    },
-    "https://html.spec.whatwg.org/multipage/webappapis.html": {
-      "anchors": [
-        "event-handler-content-attributes",
-        "globaleventhandlers"
-      ]
-    },
-    "https://infra.spec.whatwg.org/": {
-      "anchors": [
-        "mathml-namespace",
-        "ascii-case-insensitive",
-        "ascii-lowercase",
-        "assert"
-      ],
-      "specShortname": "infra"
-    },
-    "https://w3c.github.io/mathml/": {},
-    "https://webidl.spec.whatwg.org/": {
-      "anchors": [
-        "Exposed",
-        "securityerror"
-      ],
-      "specShortname": "webidl"
-    },
-    "https://wpt.fyi/results/?label=master&label=experimental&aligned&q=math%20%20not%28path%3A%2Fjs%29": {},
-    "https://www.rfc-editor.org/rfc/rfc2119": {},
-    "https://www.tug.org/TUGboat/tb30-1/tb94vieth.pdf": {},
-    "https://www.unicode.org/versions/latest/": {},
-    "https://www.w3.org/2021/Process-20211102/": {
-      "anchors": [
-        "recs-and-notes",
-        "dfn-wide-review"
-      ]
-    },
-    "https://www.w3.org/Consortium/Patent-Policy/": {
-      "anchors": [
-        "sec-Requirements",
-        "def-essential",
-        "sec-Disclosure"
-      ],
-      "specShortname": "w3c-patent-policy"
-    },
-    "https://www.w3.org/TR/": {},
-    "https://www.w3.org/TR/CSS21/": {
-      "specShortname": "CSS21"
-    },
-    "https://www.w3.org/TR/CSS21/box.html": {
-      "anchors": [
-        "collapsing-margins"
-      ],
-      "specShortname": "CSS21"
-    },
-    "https://www.w3.org/TR/CSS21/zindex.html": {
-      "anchors": [
-        "painting-order"
-      ]
-    },
-    "https://www.w3.org/TR/CSS22/": {
-      "anchors": [
-        "propdef-float"
-      ],
-      "specShortname": "CSS22"
-    },
-    "https://www.w3.org/TR/MathML3/": {},
-    "https://www.w3.org/TR/MathML3/appendixe.html": {},
-    "https://www.w3.org/TR/SVG/": {
-      "specShortname": "SVG2"
-    },
-    "https://www.w3.org/TR/SVG/embedded.html": {
-      "anchors": [
-        "ForeignObjectElement"
-      ],
-      "specShortname": "SVG2"
-    },
-    "https://www.w3.org/TR/SVG/struct.html": {
-      "anchors": [
-        "RequiredExtensionsAttribute"
-      ],
-      "specShortname": "SVG2"
-    },
-    "https://www.w3.org/TR/SVG/text.html": {
-      "anchors": [
-        "TermBaseline"
-      ],
-      "specShortname": "SVG2"
-    },
-    "https://www.w3.org/TR/css-align-3/": {
-      "anchors": [
-        "first-baseline-set",
-        "last-baseline-set"
-      ],
-      "specShortname": "css-align-3"
-    },
-    "https://www.w3.org/TR/css-backgrounds-3/": {
-      "anchors": [
-        "propdef-background-color",
-        "propdef-border-width"
-      ],
-      "specShortname": "css-backgrounds-3"
-    },
-    "https://www.w3.org/TR/css-box-4/": {
-      "anchors": [
-        "content-box",
-        "padding-box",
-        "padding",
-        "border-box",
-        "margin-box",
-        "propdef-margin"
-      ],
-      "specShortname": "css-box-4"
-    },
-    "https://www.w3.org/TR/css-cascade-4/": {
-      "anchors": [
-        "initial-values",
-        "applies-to",
-        "inherited-property",
-        "computed"
-      ],
-      "specShortname": "css-cascade-4"
-    },
-    "https://www.w3.org/TR/css-color-4/": {
-      "anchors": [
-        "typedef-color",
-        "propdef-color"
-      ],
-      "specShortname": "css-color-4"
-    },
-    "https://www.w3.org/TR/css-display-3/": {
-      "anchors": [
-        "unbox-mathml",
-        "in-flow",
-        "block-box",
-        "propdef-visibility",
-        "valdef-display-table",
-        "propdef-display",
-        "typedef-display-outside",
-        "typedef-display-inside"
-      ],
-      "specShortname": "css-display-3"
-    },
-    "https://www.w3.org/TR/css-fonts-4/": {
-      "anchors": [
-        "propdef-font-family",
-        "valdef-font-family-math",
-        "propdef-font-size",
-        "propdef-font-variant-alternates",
-        "first-available-font",
-        "security"
-      ],
-      "specShortname": "css-fonts-4"
-    },
-    "https://www.w3.org/TR/css-layout-api-1/": {
-      "anchors": [
-        "registering-layout"
-      ],
-      "specShortname": "css-layout-api-1"
-    },
-    "https://www.w3.org/TR/css-position-3/": {
-      "anchors": [
-        "absolute-position",
-        "fixed-position"
-      ],
-      "specShortname": "css-position-3"
-    },
-    "https://www.w3.org/TR/css-sizing-3/": {
-      "anchors": [
-        "min-content-inline-size",
-        "max-content-inline-size"
-      ],
-      "specShortname": "css-sizing-3"
-    },
-    "https://www.w3.org/TR/css-text-3/": {
-      "anchors": [
-        "propdef-text-transform",
-        "forced-line-break",
-        "soft-wrap-opportunity"
-      ],
-      "specShortname": "css-text-3"
-    },
-    "https://www.w3.org/TR/css-text-decor-4/": {
-      "anchors": [
-        "propdef-text-decoration-thickness"
-      ],
-      "specShortname": "css-text-decor-4"
-    },
-    "https://www.w3.org/TR/css-values-4/": {
-      "anchors": [
-        "integer-value",
-        "typedef-length-percentage",
-        "value-defs",
-        "comb-any",
-        "comb-one"
-      ],
-      "specShortname": "css-values-4"
-    },
-    "https://www.w3.org/TR/css-values/": {
-      "anchors": [
-        "percentages"
-      ],
-      "specShortname": "css-values-4"
-    },
-    "https://www.w3.org/TR/css-writing-modes-4/": {
-      "anchors": [
-        "propdef-direction",
-        "writing-mode",
-        "abstract-dimensions",
-        "block-dimension",
-        "inline-dimension",
-        "block-axis",
-        "inline-axis",
-        "block-size",
-        "inline-size",
-        "flow-relative-direction",
-        "inline-start",
-        "inline-end",
-        "block-start",
-        "line-relative-direction",
-        "line-left",
-        "line-over",
-        "line-under",
-        "propdef-writing-mode",
-        "logical-height"
-      ],
-      "specShortname": "css-writing-modes-4"
-    },
-    "https://www.w3.org/TR/cssom-view-1/": {
-      "anchors": [
-        "dom-element-getboundingclientrect"
-      ],
-      "specShortname": "cssom-view-1"
-    },
-    "https://www.w3.org/TR/cssom/": {
-      "anchors": [
-        "serializing-css-values"
-      ],
-      "specShortname": "cssom-1"
-    },
-    "https://www.w3.org/TR/selectors-3/": {
-      "anchors": [
-        "title"
-      ],
-      "specShortname": "selectors-3"
-    },
-    "https://www.w3.org/TR/web-animations/": {
-      "anchors": [
-        "animation-type"
-      ],
-      "specShortname": "web-animations-1"
-    },
-    "https://www.w3.org/groups/wg/math": {},
-    "https://www.w3.org/groups/wg/math/ipr": {}
+    "autolinks": {
+      "https://dom.spec.whatwg.org/": {
+        "anchors": [
+          "element"
+        ]
+      },
+      "https://html.spec.whatwg.org/": {
+        "anchors": [
+          "htmlorsvgelement"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/canvas.html": {
+        "anchors": [
+          "canvas",
+          "dom-context-2d-getimagedata"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/tables.html": {
+        "anchors": [
+          "the-table-element",
+          "the-tr-element",
+          "the-td-element",
+          "attr-tdth-colspan"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/webappapis.html": {
+        "anchors": [
+          "globaleventhandlers"
+        ]
+      },
+      "https://webidl.spec.whatwg.org/": {
+        "anchors": [
+          "securityerror"
+        ]
+      },
+      "https://www.w3.org/TR/SVG/struct.html": {
+        "anchors": [
+          "RequiredExtensionsAttribute"
+        ]
+      },
+      "https://www.w3.org/TR/css-values-4/": {
+        "anchors": [
+          "comb-one"
+        ]
+      },
+      "https://www.w3.org/TR/cssom-view-1/": {
+        "anchors": [
+          "dom-element-getboundingclientrect"
+        ]
+      }
+    }
   }
 }

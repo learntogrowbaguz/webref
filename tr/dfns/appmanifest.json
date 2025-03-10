@@ -36,7 +36,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "web-application-manifest",
@@ -68,29 +68,10 @@
       "definedIn": "prose"
     },
     {
-      "id": "dfn-base-direction",
-      "href": "https://www.w3.org/TR/appmanifest/#dfn-base-direction",
+      "id": "dfn-default-direction",
+      "href": "https://www.w3.org/TR/appmanifest/#dfn-default-direction",
       "linkingText": [
-        "base direction"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "dir-member",
-        "href": "https://www.w3.org/TR/appmanifest/#dir-member",
-        "title": "dir member",
-        "number": "1.2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-localizable-members",
-      "href": "https://www.w3.org/TR/appmanifest/#dfn-localizable-members",
-      "linkingText": [
-        "localizable members"
+        "default direction"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -251,25 +232,6 @@
       "href": "https://www.w3.org/TR/appmanifest/#dfn-language-tag",
       "linkingText": [
         "language tag"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "lang-member",
-        "href": "https://www.w3.org/TR/appmanifest/#lang-member",
-        "title": "lang member",
-        "number": "1.3"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-subtags",
-      "href": "https://www.w3.org/TR/appmanifest/#dfn-subtags",
-      "linkingText": [
-        "subtags"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -554,7 +516,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "start_url-member",
@@ -702,86 +664,6 @@
       "definedIn": "prose"
     },
     {
-      "id": "dfn-related-application",
-      "href": "https://www.w3.org/TR/appmanifest/#dfn-related-application",
-      "linkingText": [
-        "related application"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "related_applications-member",
-        "href": "https://www.w3.org/TR/appmanifest/#related_applications-member",
-        "title": "related_applications member",
-        "number": "1.13"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-related_applications",
-      "href": "https://www.w3.org/TR/appmanifest/#dfn-related_applications",
-      "linkingText": [
-        "related_applications"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "manifest"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "related_applications-member",
-        "href": "https://www.w3.org/TR/appmanifest/#related_applications-member",
-        "title": "related_applications member",
-        "number": "1.13"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-process-the-related_applications-member",
-      "href": "https://www.w3.org/TR/appmanifest/#dfn-process-the-related_applications-member",
-      "linkingText": [
-        "process the related_applications member"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "related_applications-member",
-        "href": "https://www.w3.org/TR/appmanifest/#related_applications-member",
-        "title": "related_applications member",
-        "number": "1.13"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-prefer_related_applications",
-      "href": "https://www.w3.org/TR/appmanifest/#dfn-prefer_related_applications",
-      "linkingText": [
-        "prefer_related_applications"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "manifest"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "prefer_related_applications-member",
-        "href": "https://www.w3.org/TR/appmanifest/#prefer_related_applications-member",
-        "title": "prefer_related_applications member",
-        "number": "1.14"
-      },
-      "definedIn": "prose"
-    },
-    {
       "id": "dfn-background_color",
       "href": "https://www.w3.org/TR/appmanifest/#dfn-background_color",
       "linkingText": [
@@ -798,7 +680,7 @@
         "id": "background_color-member",
         "href": "https://www.w3.org/TR/appmanifest/#background_color-member",
         "title": "background_color member",
-        "number": "1.15"
+        "number": "1.13"
       },
       "definedIn": "prose"
     },
@@ -819,7 +701,7 @@
         "id": "shortcuts-member",
         "href": "https://www.w3.org/TR/appmanifest/#shortcuts-member",
         "title": "shortcuts member",
-        "number": "1.16"
+        "number": "1.14"
       },
       "definedIn": "prose"
     },
@@ -838,7 +720,245 @@
         "id": "shortcuts-member",
         "href": "https://www.w3.org/TR/appmanifest/#shortcuts-member",
         "title": "shortcuts member",
-        "number": "1.16"
+        "number": "1.14"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-localizable-member",
+      "href": "https://www.w3.org/TR/appmanifest/#dfn-localizable-member",
+      "linkingText": [
+        "localizable member"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "x_localized-members",
+        "href": "https://www.w3.org/TR/appmanifest/#x_localized-members",
+        "title": "*_localized members",
+        "number": "1.15"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-_localized",
+      "href": "https://www.w3.org/TR/appmanifest/#dfn-_localized",
+      "linkingText": [
+        "*_localized"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "manifest"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "x_localized-members",
+        "href": "https://www.w3.org/TR/appmanifest/#x_localized-members",
+        "title": "*_localized members",
+        "number": "1.15"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-language-map",
+      "href": "https://www.w3.org/TR/appmanifest/#dfn-language-map",
+      "linkingText": [
+        "language map"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "x_localized-members",
+        "href": "https://www.w3.org/TR/appmanifest/#x_localized-members",
+        "title": "*_localized members",
+        "number": "1.15"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-localized-value",
+      "href": "https://www.w3.org/TR/appmanifest/#dfn-localized-value",
+      "linkingText": [
+        "localized value"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "x_localized-members",
+        "href": "https://www.w3.org/TR/appmanifest/#x_localized-members",
+        "title": "*_localized members",
+        "number": "1.15"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-default-representation",
+      "href": "https://www.w3.org/TR/appmanifest/#dfn-default-representation",
+      "linkingText": [
+        "default representation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "localizable member"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "x_localized-members",
+        "href": "https://www.w3.org/TR/appmanifest/#x_localized-members",
+        "title": "*_localized members",
+        "number": "1.15"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-localized-text-object",
+      "href": "https://www.w3.org/TR/appmanifest/#dfn-localized-text-object",
+      "linkingText": [
+        "localized text object"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "localizing-text-values",
+        "href": "https://www.w3.org/TR/appmanifest/#localizing-text-values",
+        "title": "Localizing text values",
+        "number": "1.15.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-value",
+      "href": "https://www.w3.org/TR/appmanifest/#dfn-value",
+      "linkingText": [
+        "value"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "manifest/*_localized"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "localizing-text-values",
+        "href": "https://www.w3.org/TR/appmanifest/#localizing-text-values",
+        "title": "Localizing text values",
+        "number": "1.15.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dfn-dir-0",
+      "href": "https://www.w3.org/TR/appmanifest/#dfn-dir-0",
+      "linkingText": [
+        "dir"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "manifest/*_localized"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "localizing-text-values",
+        "href": "https://www.w3.org/TR/appmanifest/#localizing-text-values",
+        "title": "Localizing text values",
+        "number": "1.15.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dfn-lang-0",
+      "href": "https://www.w3.org/TR/appmanifest/#dfn-lang-0",
+      "linkingText": [
+        "lang"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "manifest/*_localized"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "localizing-text-values",
+        "href": "https://www.w3.org/TR/appmanifest/#localizing-text-values",
+        "title": "Localizing text values",
+        "number": "1.15.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dfn-process-a-_localized-text-member",
+      "href": "https://www.w3.org/TR/appmanifest/#dfn-process-a-_localized-text-member",
+      "linkingText": [
+        "process a *_localized text member"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "localizing-text-values",
+        "href": "https://www.w3.org/TR/appmanifest/#localizing-text-values",
+        "title": "Localizing text values",
+        "number": "1.15.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-process-a-localized-text-object",
+      "href": "https://www.w3.org/TR/appmanifest/#dfn-process-a-localized-text-object",
+      "linkingText": [
+        "process a localized text object"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "localizing-text-values",
+        "href": "https://www.w3.org/TR/appmanifest/#localizing-text-values",
+        "title": "Localizing text values",
+        "number": "1.15.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-process-a-_localized-image-resource-member",
+      "href": "https://www.w3.org/TR/appmanifest/#dfn-process-a-_localized-image-resource-member",
+      "linkingText": [
+        "process a *_localized image resource member"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "localizing-image-resources",
+        "href": "https://www.w3.org/TR/appmanifest/#localizing-image-resources",
+        "title": "Localizing image resources",
+        "number": "1.15.2"
       },
       "definedIn": "prose"
     },
@@ -857,7 +977,7 @@
         "id": "processing",
         "href": "https://www.w3.org/TR/appmanifest/#processing",
         "title": "Processing the manifest",
-        "number": "1.17.1"
+        "number": "1.16.1"
       },
       "definedIn": "prose"
     },
@@ -878,7 +998,7 @@
         "id": "processing",
         "href": "https://www.w3.org/TR/appmanifest/#processing",
         "title": "Processing the manifest",
-        "number": "1.17.1"
+        "number": "1.16.1"
       },
       "definedIn": "prose"
     },
@@ -900,7 +1020,7 @@
         "id": "processing",
         "href": "https://www.w3.org/TR/appmanifest/#processing",
         "title": "Processing the manifest",
-        "number": "1.17.1"
+        "number": "1.16.1"
       },
       "definedIn": "prose"
     },
@@ -921,7 +1041,7 @@
         "id": "processing",
         "href": "https://www.w3.org/TR/appmanifest/#processing",
         "title": "Processing the manifest",
-        "number": "1.17.1"
+        "number": "1.16.1"
       },
       "definedIn": "prose"
     },
@@ -940,7 +1060,7 @@
         "id": "processing-color-members",
         "href": "https://www.w3.org/TR/appmanifest/#processing-color-members",
         "title": "Processing color members",
-        "number": "1.17.2"
+        "number": "1.16.2"
       },
       "definedIn": "prose"
     },
@@ -959,31 +1079,28 @@
         "id": "processing-text-members",
         "href": "https://www.w3.org/TR/appmanifest/#processing-text-members",
         "title": "Processing text members",
-        "number": "1.17.3"
+        "number": "1.16.3"
       },
       "definedIn": "prose"
     },
     {
-      "id": "dfn-applied",
-      "href": "https://www.w3.org/TR/appmanifest/#dfn-applied",
+      "id": "dfn-apply",
+      "href": "https://www.w3.org/TR/appmanifest/#dfn-apply",
       "linkingText": [
-        "applied",
         "apply",
-        "applying"
+        "applying",
+        "applied"
       ],
-      "localLinkingText": [
-        "apply",
-        "applying"
-      ],
+      "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "public",
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "applying-the-manifest",
         "href": "https://www.w3.org/TR/appmanifest/#applying-the-manifest",
         "title": "Applying the manifest",
-        "number": "1.17.4"
+        "number": "1.16.5"
       },
       "definedIn": "prose"
     },
@@ -1002,7 +1119,7 @@
         "id": "applying-the-manifest",
         "href": "https://www.w3.org/TR/appmanifest/#applying-the-manifest",
         "title": "Applying the manifest",
-        "number": "1.17.4"
+        "number": "1.16.5"
       },
       "definedIn": "prose"
     },
@@ -1021,7 +1138,7 @@
         "id": "updating",
         "href": "https://www.w3.org/TR/appmanifest/#updating",
         "title": "Updating the manifest",
-        "number": "1.17.5"
+        "number": "1.16.6"
       },
       "definedIn": "prose"
     },
@@ -1427,254 +1544,6 @@
       "definedIn": "prose"
     },
     {
-      "id": "dfn-external-application-resource",
-      "href": "https://www.w3.org/TR/appmanifest/#dfn-external-application-resource",
-      "linkingText": [
-        "external application resource",
-        "external application resource's"
-      ],
-      "localLinkingText": [
-        "external application resource's"
-      ],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "external-application-resource",
-        "href": "https://www.w3.org/TR/appmanifest/#external-application-resource",
-        "title": "External application resource",
-        "number": "4"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-valid-external-application-resource",
-      "href": "https://www.w3.org/TR/appmanifest/#dfn-valid-external-application-resource",
-      "linkingText": [
-        "valid external application resource"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "external-application-resource",
-        "href": "https://www.w3.org/TR/appmanifest/#external-application-resource",
-        "title": "External application resource",
-        "number": "4"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-platform",
-      "href": "https://www.w3.org/TR/appmanifest/#dfn-platform",
-      "linkingText": [
-        "platform"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "external application resource"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "platform-member",
-        "href": "https://www.w3.org/TR/appmanifest/#platform-member",
-        "title": "platform member",
-        "number": "4.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-platform-0",
-      "href": "https://www.w3.org/TR/appmanifest/#dfn-platform-0",
-      "linkingText": [
-        "platform"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "platform-member",
-        "href": "https://www.w3.org/TR/appmanifest/#platform-member",
-        "title": "platform member",
-        "number": "4.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-url-0",
-      "href": "https://www.w3.org/TR/appmanifest/#dfn-url-0",
-      "linkingText": [
-        "url"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "external application resource"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "url-member-0",
-        "href": "https://www.w3.org/TR/appmanifest/#url-member-0",
-        "title": "url member",
-        "number": "4.2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-process-the-url-member-of-an-application",
-      "href": "https://www.w3.org/TR/appmanifest/#dfn-process-the-url-member-of-an-application",
-      "linkingText": [
-        "process the url member of an application"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "url-member-0",
-        "href": "https://www.w3.org/TR/appmanifest/#url-member-0",
-        "title": "url member",
-        "number": "4.2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-id-0",
-      "href": "https://www.w3.org/TR/appmanifest/#dfn-id-0",
-      "linkingText": [
-        "id"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "external application resource"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "id-member-0",
-        "href": "https://www.w3.org/TR/appmanifest/#id-member-0",
-        "title": "id member",
-        "number": "4.3"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-min_version",
-      "href": "https://www.w3.org/TR/appmanifest/#dfn-min_version",
-      "linkingText": [
-        "min_version"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "external application resource"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "min_version-member",
-        "href": "https://www.w3.org/TR/appmanifest/#min_version-member",
-        "title": "min_version member",
-        "number": "4.4"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-fingerprints",
-      "href": "https://www.w3.org/TR/appmanifest/#dfn-fingerprints",
-      "linkingText": [
-        "fingerprints"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "external application resource"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "fingerprints-member",
-        "href": "https://www.w3.org/TR/appmanifest/#fingerprints-member",
-        "title": "fingerprints member",
-        "number": "4.5"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-fingerprints-0",
-      "href": "https://www.w3.org/TR/appmanifest/#dfn-fingerprints-0",
-      "linkingText": [
-        "fingerprint",
-        "fingerprints"
-      ],
-      "localLinkingText": [
-        "fingerprints"
-      ],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "fingerprints-member",
-        "href": "https://www.w3.org/TR/appmanifest/#fingerprints-member",
-        "title": "fingerprints member",
-        "number": "4.5"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-type",
-      "href": "https://www.w3.org/TR/appmanifest/#dfn-type",
-      "linkingText": [
-        "type"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "fingerprint"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "fingerprints-member",
-        "href": "https://www.w3.org/TR/appmanifest/#fingerprints-member",
-        "title": "fingerprints member",
-        "number": "4.5"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-value",
-      "href": "https://www.w3.org/TR/appmanifest/#dfn-value",
-      "linkingText": [
-        "value"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "fingerprint"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "fingerprints-member",
-        "href": "https://www.w3.org/TR/appmanifest/#fingerprints-member",
-        "title": "fingerprints member",
-        "number": "4.5"
-      },
-      "definedIn": "prose"
-    },
-    {
       "id": "dfn-installed",
       "href": "https://www.w3.org/TR/appmanifest/#dfn-installed",
       "linkingText": [
@@ -1695,7 +1564,7 @@
         "id": "installable-web-applications",
         "href": "https://www.w3.org/TR/appmanifest/#installable-web-applications",
         "title": "Installable web applications",
-        "number": "5"
+        "number": "4"
       },
       "definedIn": "prose"
     },
@@ -1714,7 +1583,7 @@
         "id": "installable-web-applications",
         "href": "https://www.w3.org/TR/appmanifest/#installable-web-applications",
         "title": "Installable web applications",
-        "number": "5"
+        "number": "4"
       },
       "definedIn": "prose"
     },
@@ -1733,7 +1602,7 @@
         "id": "application-s-name",
         "href": "https://www.w3.org/TR/appmanifest/#application-s-name",
         "title": "Application's name",
-        "number": "5.1"
+        "number": "4.1"
       },
       "definedIn": "prose"
     },
@@ -1753,7 +1622,7 @@
         "id": "launching-a-web-application",
         "href": "https://www.w3.org/TR/appmanifest/#launching-a-web-application",
         "title": "Launching a web application",
-        "number": "5.2"
+        "number": "4.2"
       },
       "definedIn": "prose"
     },
@@ -1772,7 +1641,7 @@
         "id": "launching-a-web-application",
         "href": "https://www.w3.org/TR/appmanifest/#launching-a-web-application",
         "title": "Launching a web application",
-        "number": "5.2"
+        "number": "4.2"
       },
       "definedIn": "prose"
     },
@@ -1794,7 +1663,7 @@
         "id": "nav-scope",
         "href": "https://www.w3.org/TR/appmanifest/#nav-scope",
         "title": "Navigation scope",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "prose"
     },
@@ -1815,7 +1684,7 @@
         "id": "nav-scope",
         "href": "https://www.w3.org/TR/appmanifest/#nav-scope",
         "title": "Navigation scope",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "prose"
     },
@@ -1836,7 +1705,7 @@
         "id": "nav-scope",
         "href": "https://www.w3.org/TR/appmanifest/#nav-scope",
         "title": "Navigation scope",
-        "number": "6"
+        "number": "5"
       },
       "definedIn": "prose"
     },
@@ -1855,9 +1724,112 @@
         "id": "deep-links",
         "href": "https://www.w3.org/TR/appmanifest/#deep-links",
         "title": "Deep links",
-        "number": "6.2"
+        "number": "5.2"
       },
       "definedIn": "prose"
+    },
+    {
+      "id": "dfn-display-mode",
+      "href": "https://www.w3.org/TR/appmanifest/#dfn-display-mode",
+      "linkingText": [
+        "display mode"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "display-modes",
+        "href": "https://www.w3.org/TR/appmanifest/#display-modes",
+        "title": "Display modes",
+        "number": "6"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-fullscreen",
+      "href": "https://www.w3.org/TR/appmanifest/#dfn-fullscreen",
+      "linkingText": [
+        "fullscreen"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "display mode"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "display-modes",
+        "href": "https://www.w3.org/TR/appmanifest/#display-modes",
+        "title": "Display modes",
+        "number": "6"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dfn-standalone",
+      "href": "https://www.w3.org/TR/appmanifest/#dfn-standalone",
+      "linkingText": [
+        "standalone"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "display mode"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "display-modes",
+        "href": "https://www.w3.org/TR/appmanifest/#display-modes",
+        "title": "Display modes",
+        "number": "6"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dfn-minimal-ui",
+      "href": "https://www.w3.org/TR/appmanifest/#dfn-minimal-ui",
+      "linkingText": [
+        "minimal-ui"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "display mode"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "display-modes",
+        "href": "https://www.w3.org/TR/appmanifest/#display-modes",
+        "title": "Display modes",
+        "number": "6"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dfn-browser",
+      "href": "https://www.w3.org/TR/appmanifest/#dfn-browser",
+      "linkingText": [
+        "browser"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "display mode"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "display-modes",
+        "href": "https://www.w3.org/TR/appmanifest/#display-modes",
+        "title": "Display modes",
+        "number": "6"
+      },
+      "definedIn": "dt"
     },
     {
       "id": "dfn-default-display-mode",
@@ -1871,10 +1843,10 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "choosing-a-display-mode",
-        "href": "https://www.w3.org/TR/appmanifest/#choosing-a-display-mode",
-        "title": "Choosing a display mode",
-        "number": "7"
+        "id": "display-modes",
+        "href": "https://www.w3.org/TR/appmanifest/#display-modes",
+        "title": "Display modes",
+        "number": "6"
       },
       "definedIn": "prose"
     },
@@ -1890,10 +1862,10 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "choosing-a-display-mode",
-        "href": "https://www.w3.org/TR/appmanifest/#choosing-a-display-mode",
-        "title": "Choosing a display mode",
-        "number": "7"
+        "id": "display-modes",
+        "href": "https://www.w3.org/TR/appmanifest/#display-modes",
+        "title": "Display modes",
+        "number": "6"
       },
       "definedIn": "prose"
     },
@@ -1909,10 +1881,10 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "choosing-a-display-mode",
-        "href": "https://www.w3.org/TR/appmanifest/#choosing-a-display-mode",
-        "title": "Choosing a display mode",
-        "number": "7"
+        "id": "display-modes",
+        "href": "https://www.w3.org/TR/appmanifest/#display-modes",
+        "title": "Display modes",
+        "number": "6"
       },
       "definedIn": "prose"
     },
@@ -1928,10 +1900,10 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "choosing-a-display-mode",
-        "href": "https://www.w3.org/TR/appmanifest/#choosing-a-display-mode",
-        "title": "Choosing a display mode",
-        "number": "7"
+        "id": "display-modes",
+        "href": "https://www.w3.org/TR/appmanifest/#display-modes",
+        "title": "Display modes",
+        "number": "6"
       },
       "definedIn": "prose"
     },

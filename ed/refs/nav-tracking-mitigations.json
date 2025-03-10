@@ -1,0 +1,96 @@
+{
+  "spec": {
+    "title": "Navigational-Tracking Mitigations",
+    "url": "https://privacycg.github.io/nav-tracking-mitigations/"
+  },
+  "refs": {
+    "normative": [
+      {
+        "name": "COOKIES",
+        "url": "https://httpwg.org/specs/rfc6265.html"
+      },
+      {
+        "name": "CSS-COLOR-3",
+        "url": "https://drafts.csswg.org/css-color-3/"
+      },
+      {
+        "name": "DOM",
+        "url": "https://dom.spec.whatwg.org/"
+      },
+      {
+        "name": "FETCH",
+        "url": "https://fetch.spec.whatwg.org/"
+      },
+      {
+        "name": "HR-TIME-3",
+        "url": "https://w3c.github.io/hr-time/"
+      },
+      {
+        "name": "HTML",
+        "url": "https://html.spec.whatwg.org/multipage/"
+      },
+      {
+        "name": "INFRA",
+        "url": "https://infra.spec.whatwg.org/"
+      },
+      {
+        "name": "PARTITIONED-COOKIES",
+        "url": "https://datatracker.ietf.org/doc/html/draft-cutler-httpbis-partitioned-cookies"
+      },
+      {
+        "name": "RFC2119",
+        "url": "https://datatracker.ietf.org/doc/html/rfc2119"
+      },
+      {
+        "name": "RFC9111",
+        "url": "https://httpwg.org/specs/rfc9111.html"
+      },
+      {
+        "name": "SERVICE-WORKERS",
+        "url": "https://w3c.github.io/ServiceWorker/"
+      },
+      {
+        "name": "STORAGE",
+        "url": "https://storage.spec.whatwg.org/"
+      },
+      {
+        "name": "URL",
+        "url": "https://url.spec.whatwg.org/"
+      },
+      {
+        "name": "WEBAUTHN-3",
+        "url": "https://w3c.github.io/webauthn/"
+      },
+      {
+        "name": "WebDriver",
+        "url": "https://w3c.github.io/webdriver/"
+      },
+      {
+        "name": "WEBDRIVER2",
+        "url": "https://w3c.github.io/webdriver/"
+      }
+    ],
+    "informative": [
+      {
+        "name": "CLEAR-SITE-DATA",
+        "url": "https://w3c.github.io/webappsec-clear-site-data/"
+      },
+      {
+        "name": "FSN-2021-Q4",
+        "url": "https://wiki.mozilla.org/Firefox_Security_Newsletter/FSN-2021-Q4"
+      },
+      {
+        "name": "MOZILLA-TRACKING-POLICY",
+        "url": "https://wiki.mozilla.org/Security/Anti_tracking_policy"
+      },
+      {
+        "name": "TRACKING-DNT",
+        "url": "https://w3c.github.io/dnt/drafts/tracking-dnt.html"
+      },
+      {
+        "name": "WEBKIT-TRACKING-PREVENTION",
+        "url": "https://webkit.org/tracking-prevention/"
+      }
+    ]
+  }
+}

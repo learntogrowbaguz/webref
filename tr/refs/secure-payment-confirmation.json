@@ -14,12 +14,20 @@
         "url": "https://tc39.es/ecma262/multipage/"
       },
       {
+        "name": "FETCH",
+        "url": "https://fetch.spec.whatwg.org/"
+      },
+      {
         "name": "HTML",
         "url": "https://html.spec.whatwg.org/multipage/"
       },
       {
         "name": "I18N-GLOSSARY",
         "url": "https://www.w3.org/TR/i18n-glossary/"
+      },
+      {
+        "name": "IANA-WebAuthn-Registries",
+        "url": "https://www.rfc-editor.org/rfc/rfc8809.html"
       },
       {
         "name": "IMAGE-RESOURCE",
@@ -42,12 +50,12 @@
         "url": "https://datatracker.ietf.org/doc/html/rfc2119"
       },
       {
-        "name": "URL",
-        "url": "https://url.spec.whatwg.org/"
+        "name": "RFC8809",
+        "url": "https://www.rfc-editor.org/rfc/rfc8809"
       },
       {
-        "name": "WEBAUTHN-1",
-        "url": "https://www.w3.org/TR/webauthn-1/"
+        "name": "URL",
+        "url": "https://url.spec.whatwg.org/"
       },
       {
         "name": "WEBAUTHN-3",

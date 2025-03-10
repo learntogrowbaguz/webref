@@ -1,0 +1,38 @@
+{
+  "spec": {
+    "title": "Media Source Extensions Byte Stream Format Registry",
+    "url": "https://www.w3.org/TR/mse-byte-stream-format-registry/"
+  },
+  "links": {
+    "rawlinks": {
+      "https://github.com/w3c/media-source": {},
+      "https://github.com/w3c/mse-byte-stream-format-registry/issues": {},
+      "https://github.com/w3c/mse-byte-stream-format-registry/issues/": {},
+      "https://www.w3.org/TR/": {},
+      "https://www.w3.org/TR/media-source-2/": {
+        "anchors": [
+          "byte-stream-formats"
+        ]
+      },
+      "https://www.w3.org/TR/mse-byte-stream-format-isobmff/": {},
+      "https://www.w3.org/TR/mse-byte-stream-format-mp2t/": {},
+      "https://www.w3.org/TR/mse-byte-stream-format-mpeg-audio/": {},
+      "https://www.w3.org/TR/mse-byte-stream-format-webm/": {},
+      "https://www.w3.org/groups/wg/media": {},
+      "https://www.w3.org/policies/patent-policy/": {},
+      "https://www.w3.org/policies/process/20231103/": {
+        "anchors": [
+          "recs-and-notes"
+        ]
+      }
+    },
+    "autolinks": {
+      "https://www.w3.org/TR/media-source-2/": {
+        "anchors": [
+          "dom-sourcebuffer",
+          "dfn-generate-timestamps-flag"
+        ]
+      }
+    }
+  }
+}

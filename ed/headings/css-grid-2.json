@@ -534,11 +534,11 @@
       "id": "layout-algorithm",
       "href": "https://drafts.csswg.org/css-grid-2/#layout-algorithm",
       "level": 2,
-      "title": "12. Grid Sizing"
+      "title": "12. Grid Layout Algorithm"
     },
     {
-      "id": "algo-overview",
-      "href": "https://drafts.csswg.org/css-grid-2/#algo-overview",
+      "id": "algo-grid-sizing",
+      "href": "https://drafts.csswg.org/css-grid-2/#algo-grid-sizing",
       "level": 3,
       "title": "Grid Sizing Algorithm",
       "number": "12.1"
@@ -661,7 +661,7 @@
       "id": "changes-2",
       "href": "https://drafts.csswg.org/css-grid-2/#changes-2",
       "level": 3,
-      "title": "Additions Since Level 2",
+      "title": "Additions Since Level 1",
       "number": "16.3"
     },
     {

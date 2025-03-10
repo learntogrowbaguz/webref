@@ -8,7 +8,7 @@
       "id": "title",
       "href": "https://drafts.csswg.org/css-color-3/#title",
       "level": 1,
-      "title": "13 Tests PaleMoon engine test detailsCSS Color Module Level 3"
+      "title": "CSS Color Module Level 3"
     },
     {
       "id": "abstract",
@@ -46,25 +46,29 @@
       "id": "color",
       "href": "https://drafts.csswg.org/css-color-3/#color",
       "level": 2,
-      "title": "9 Tests PaleMoon engine test details3. Color properties"
+      "title": "Color properties",
+      "number": "3"
     },
     {
       "id": "foreground",
       "href": "https://drafts.csswg.org/css-color-3/#foreground",
       "level": 3,
-      "title": "2 Tests PaleMoon engine test details3.1. Foreground color: the ‘color’ property"
+      "title": "Foreground color: the ‘color’ property",
+      "number": "3.1"
     },
     {
       "id": "transparency",
       "href": "https://drafts.csswg.org/css-color-3/#transparency",
       "level": 3,
-      "title": "7 Tests PaleMoon engine test details3.2. Transparency: the ‘opacity’ property"
+      "title": "Transparency: the ‘opacity’ property",
+      "number": "3.2"
     },
     {
       "id": "colorunits",
       "href": "https://drafts.csswg.org/css-color-3/#colorunits",
       "level": 2,
-      "title": "4 Tests PaleMoon engine test details4. Color units"
+      "title": "Color units",
+      "number": "4"
     },
     {
       "id": "html4",
@@ -77,7 +81,8 @@
       "id": "numerical",
       "href": "https://drafts.csswg.org/css-color-3/#numerical",
       "level": 3,
-      "title": "1 Test PaleMoon engine test details4.2. Numerical color values"
+      "title": "Numerical color values",
+      "number": "4.2"
     },
     {
       "id": "rgb-color",
@@ -90,7 +95,8 @@
       "id": "rgba-color",
       "href": "https://drafts.csswg.org/css-color-3/#rgba-color",
       "level": 4,
-      "title": "1 Test PaleMoon engine test details4.2.2. RGBA color values"
+      "title": "RGBA color values",
+      "number": "4.2.2"
     },
     {
       "id": "transparent",
@@ -131,7 +137,8 @@
       "id": "currentcolor",
       "href": "https://drafts.csswg.org/css-color-3/#currentcolor",
       "level": 3,
-      "title": "3 Tests PaleMoon engine test details4.4. ‘currentColor’ color keyword"
+      "title": "‘currentColor’ color keyword",
+      "number": "4.4"
     },
     {
       "id": "css-system",
@@ -183,13 +190,6 @@
       "number": "8"
     },
     {
-      "id": "dropped",
-      "href": "https://drafts.csswg.org/css-color-3/#dropped",
-      "level": 2,
-      "title": "Call for Implementations of dropped features",
-      "number": "9"
-    },
-    {
       "id": "future",
       "href": "https://drafts.csswg.org/css-color-3/#future",
       "level": 2,
@@ -207,6 +207,12 @@
       "href": "https://drafts.csswg.org/css-color-3/#changes",
       "level": 2,
       "title": "11. Changes"
+    },
+    {
+      "id": "changes-20210805",
+      "href": "https://drafts.csswg.org/css-color-3/#changes-20210805",
+      "level": 3,
+      "title": "Changes since the 05 August 2021 Recommendation"
     },
     {
       "id": "changes-20180619",
@@ -251,6 +257,18 @@
       "href": "https://drafts.csswg.org/css-color-3/#index",
       "level": 2,
       "title": "Index"
+    },
+    {
+      "id": "privacy",
+      "href": "https://drafts.csswg.org/css-color-3/#privacy",
+      "level": 2,
+      "title": "Privacy Considerations"
+    },
+    {
+      "id": "security",
+      "href": "https://drafts.csswg.org/css-color-3/#security",
+      "level": 2,
+      "title": "Security Considerations"
     },
     {
       "id": "property",

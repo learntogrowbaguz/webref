@@ -5,6 +5,25 @@
   },
   "dfns": [
     {
+      "id": "step-unit",
+      "href": "https://drafts.csswg.org/css-rhythm-1/#step-unit",
+      "linkingText": [
+        "step unit"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "intro",
+        "href": "https://drafts.csswg.org/css-rhythm-1/#intro",
+        "title": "Introduction",
+        "number": "1"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "propdef-block-step-size",
       "href": "https://drafts.csswg.org/css-rhythm-1/#propdef-block-step-size",
       "linkingText": [
@@ -43,10 +62,10 @@
       "definedIn": "table"
     },
     {
-      "id": "valdef-block-step-insert-margin",
-      "href": "https://drafts.csswg.org/css-rhythm-1/#valdef-block-step-insert-margin",
+      "id": "valdef-block-step-insert-margin-box",
+      "href": "https://drafts.csswg.org/css-rhythm-1/#valdef-block-step-insert-margin-box",
       "linkingText": [
-        "margin"
+        "margin-box"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -64,10 +83,31 @@
       "definedIn": "dt"
     },
     {
-      "id": "valdef-block-step-insert-padding",
-      "href": "https://drafts.csswg.org/css-rhythm-1/#valdef-block-step-insert-padding",
+      "id": "valdef-block-step-insert-padding-box",
+      "href": "https://drafts.csswg.org/css-rhythm-1/#valdef-block-step-insert-padding-box",
       "linkingText": [
-        "padding"
+        "padding-box"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "block-step-insert"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "block-step-insert",
+        "href": "https://drafts.csswg.org/css-rhythm-1/#block-step-insert",
+        "title": "Specifying the Spacing Type: the block-step-insert property",
+        "number": "2.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-block-step-insert-content-box",
+      "href": "https://drafts.csswg.org/css-rhythm-1/#valdef-block-step-insert-content-box",
+      "linkingText": [
+        "content-box"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -306,25 +346,6 @@
         "number": "3"
       },
       "definedIn": "table"
-    },
-    {
-      "id": "step-unit",
-      "href": "https://drafts.csswg.org/css-rhythm-1/#step-unit",
-      "linkingText": [
-        "step unit"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "line-height-step",
-        "href": "https://drafts.csswg.org/css-rhythm-1/#line-height-step",
-        "title": "Adjusting Line Box Heights: the line-height-step property",
-        "number": "3"
-      },
-      "definedIn": "prose"
     }
   ]
 }

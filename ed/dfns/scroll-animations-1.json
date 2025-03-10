@@ -13,7 +13,26 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "intro",
+        "href": "https://drafts.csswg.org/scroll-animations-1/#intro",
+        "title": "Introduction",
+        "number": "1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "scroll-driven-timelines",
+      "href": "https://drafts.csswg.org/scroll-animations-1/#scroll-driven-timelines",
+      "linkingText": [
+        "scroll-driven timelines"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "intro",
@@ -57,7 +76,7 @@
         "id": "scroll-notation",
         "href": "https://drafts.csswg.org/scroll-animations-1/#scroll-notation",
         "title": "The scroll() notation",
-        "number": "2.1.1"
+        "number": "2.2.1"
       },
       "definedIn": "prose"
     },
@@ -76,7 +95,7 @@
         "id": "scroll-notation",
         "href": "https://drafts.csswg.org/scroll-animations-1/#scroll-notation",
         "title": "The scroll() notation",
-        "number": "2.1.1"
+        "number": "2.2.1"
       },
       "definedIn": "pre"
     },
@@ -95,7 +114,7 @@
         "id": "scroll-notation",
         "href": "https://drafts.csswg.org/scroll-animations-1/#scroll-notation",
         "title": "The scroll() notation",
-        "number": "2.1.1"
+        "number": "2.2.1"
       },
       "definedIn": "pre"
     },
@@ -118,7 +137,7 @@
         "id": "scroll-notation",
         "href": "https://drafts.csswg.org/scroll-animations-1/#scroll-notation",
         "title": "The scroll() notation",
-        "number": "2.1.1"
+        "number": "2.2.1"
       },
       "definedIn": "dt"
     },
@@ -141,15 +160,15 @@
         "id": "scroll-notation",
         "href": "https://drafts.csswg.org/scroll-animations-1/#scroll-notation",
         "title": "The scroll() notation",
-        "number": "2.1.1"
+        "number": "2.2.1"
       },
       "definedIn": "dt"
     },
     {
-      "id": "valdef-scroll-vertical",
-      "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-scroll-vertical",
+      "id": "valdef-scroll-x",
+      "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-scroll-x",
       "linkingText": [
-        "vertical"
+        "x"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -164,15 +183,15 @@
         "id": "scroll-notation",
         "href": "https://drafts.csswg.org/scroll-animations-1/#scroll-notation",
         "title": "The scroll() notation",
-        "number": "2.1.1"
+        "number": "2.2.1"
       },
       "definedIn": "dt"
     },
     {
-      "id": "valdef-scroll-horizontal",
-      "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-scroll-horizontal",
+      "id": "valdef-scroll-y",
+      "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-scroll-y",
       "linkingText": [
-        "horizontal"
+        "y"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -187,7 +206,7 @@
         "id": "scroll-notation",
         "href": "https://drafts.csswg.org/scroll-animations-1/#scroll-notation",
         "title": "The scroll() notation",
-        "number": "2.1.1"
+        "number": "2.2.1"
       },
       "definedIn": "dt"
     },
@@ -210,7 +229,7 @@
         "id": "scroll-notation",
         "href": "https://drafts.csswg.org/scroll-animations-1/#scroll-notation",
         "title": "The scroll() notation",
-        "number": "2.1.1"
+        "number": "2.2.1"
       },
       "definedIn": "dt"
     },
@@ -233,7 +252,30 @@
         "id": "scroll-notation",
         "href": "https://drafts.csswg.org/scroll-animations-1/#scroll-notation",
         "title": "The scroll() notation",
-        "number": "2.1.1"
+        "number": "2.2.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-scroll-self",
+      "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-scroll-self",
+      "linkingText": [
+        "self"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "scroll()",
+        "scroll-timeline-axis",
+        "view-timeline-axis"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scroll-notation",
+        "href": "https://drafts.csswg.org/scroll-animations-1/#scroll-notation",
+        "title": "The scroll() notation",
+        "number": "2.2.1"
       },
       "definedIn": "dt"
     },
@@ -252,7 +294,7 @@
         "id": "scrolltimeline-interface",
         "href": "https://drafts.csswg.org/scroll-animations-1/#scrolltimeline-interface",
         "title": "The ScrollTimeline Interface",
-        "number": "2.1.2"
+        "number": "2.2.2"
       },
       "definedIn": "pre"
     },
@@ -273,7 +315,7 @@
         "id": "scrolltimeline-interface",
         "href": "https://drafts.csswg.org/scroll-animations-1/#scrolltimeline-interface",
         "title": "The ScrollTimeline Interface",
-        "number": "2.1.2"
+        "number": "2.2.2"
       },
       "definedIn": "pre"
     },
@@ -294,15 +336,15 @@
         "id": "scrolltimeline-interface",
         "href": "https://drafts.csswg.org/scroll-animations-1/#scrolltimeline-interface",
         "title": "The ScrollTimeline Interface",
-        "number": "2.1.2"
+        "number": "2.2.2"
       },
       "definedIn": "pre"
     },
     {
-      "id": "dom-scrollaxis-horizontal",
-      "href": "https://drafts.csswg.org/scroll-animations-1/#dom-scrollaxis-horizontal",
+      "id": "dom-scrollaxis-x",
+      "href": "https://drafts.csswg.org/scroll-animations-1/#dom-scrollaxis-x",
       "linkingText": [
-        "\"horizontal\""
+        "\"x\""
       ],
       "localLinkingText": [],
       "type": "enum-value",
@@ -315,15 +357,15 @@
         "id": "scrolltimeline-interface",
         "href": "https://drafts.csswg.org/scroll-animations-1/#scrolltimeline-interface",
         "title": "The ScrollTimeline Interface",
-        "number": "2.1.2"
+        "number": "2.2.2"
       },
       "definedIn": "pre"
     },
     {
-      "id": "dom-scrollaxis-vertical",
-      "href": "https://drafts.csswg.org/scroll-animations-1/#dom-scrollaxis-vertical",
+      "id": "dom-scrollaxis-y",
+      "href": "https://drafts.csswg.org/scroll-animations-1/#dom-scrollaxis-y",
       "linkingText": [
-        "\"vertical\""
+        "\"y\""
       ],
       "localLinkingText": [],
       "type": "enum-value",
@@ -336,7 +378,7 @@
         "id": "scrolltimeline-interface",
         "href": "https://drafts.csswg.org/scroll-animations-1/#scrolltimeline-interface",
         "title": "The ScrollTimeline Interface",
-        "number": "2.1.2"
+        "number": "2.2.2"
       },
       "definedIn": "pre"
     },
@@ -355,7 +397,7 @@
         "id": "scrolltimeline-interface",
         "href": "https://drafts.csswg.org/scroll-animations-1/#scrolltimeline-interface",
         "title": "The ScrollTimeline Interface",
-        "number": "2.1.2"
+        "number": "2.2.2"
       },
       "definedIn": "pre"
     },
@@ -376,7 +418,7 @@
         "id": "scrolltimeline-interface",
         "href": "https://drafts.csswg.org/scroll-animations-1/#scrolltimeline-interface",
         "title": "The ScrollTimeline Interface",
-        "number": "2.1.2"
+        "number": "2.2.2"
       },
       "definedIn": "pre"
     },
@@ -397,7 +439,7 @@
         "id": "scrolltimeline-interface",
         "href": "https://drafts.csswg.org/scroll-animations-1/#scrolltimeline-interface",
         "title": "The ScrollTimeline Interface",
-        "number": "2.1.2"
+        "number": "2.2.2"
       },
       "definedIn": "pre"
     },
@@ -416,7 +458,7 @@
         "id": "scrolltimeline-interface",
         "href": "https://drafts.csswg.org/scroll-animations-1/#scrolltimeline-interface",
         "title": "The ScrollTimeline Interface",
-        "number": "2.1.2"
+        "number": "2.2.2"
       },
       "definedIn": "pre"
     },
@@ -440,7 +482,7 @@
         "id": "scrolltimeline-interface",
         "href": "https://drafts.csswg.org/scroll-animations-1/#scrolltimeline-interface",
         "title": "The ScrollTimeline Interface",
-        "number": "2.1.2"
+        "number": "2.2.2"
       },
       "definedIn": "pre"
     },
@@ -461,7 +503,7 @@
         "id": "scrolltimeline-interface",
         "href": "https://drafts.csswg.org/scroll-animations-1/#scrolltimeline-interface",
         "title": "The ScrollTimeline Interface",
-        "number": "2.1.2"
+        "number": "2.2.2"
       },
       "definedIn": "dt"
     },
@@ -482,7 +524,7 @@
         "id": "scrolltimeline-interface",
         "href": "https://drafts.csswg.org/scroll-animations-1/#scrolltimeline-interface",
         "title": "The ScrollTimeline Interface",
-        "number": "2.1.2"
+        "number": "2.2.2"
       },
       "definedIn": "dt"
     },
@@ -506,9 +548,28 @@
         "id": "scrolltimeline-interface",
         "href": "https://drafts.csswg.org/scroll-animations-1/#scrolltimeline-interface",
         "title": "The ScrollTimeline Interface",
-        "number": "2.1.2"
+        "number": "2.2.2"
       },
       "definedIn": "dt"
+    },
+    {
+      "id": "named-scroll-progress-timelines",
+      "href": "https://drafts.csswg.org/scroll-animations-1/#named-scroll-progress-timelines",
+      "linkingText": [
+        "named scroll progress timelines"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "scroll-timelines-named",
+        "href": "https://drafts.csswg.org/scroll-animations-1/#scroll-timelines-named",
+        "title": "Named Scroll Progress Timelines",
+        "number": "2.3"
+      },
+      "definedIn": "prose"
     },
     {
       "id": "propdef-scroll-timeline-name",
@@ -525,7 +586,7 @@
         "id": "scroll-timeline-name",
         "href": "https://drafts.csswg.org/scroll-animations-1/#scroll-timeline-name",
         "title": "Naming a Scroll Progress Timeline: the scroll-timeline-name property",
-        "number": "2.2.1"
+        "number": "2.3.1"
       },
       "definedIn": "table"
     },
@@ -544,7 +605,7 @@
         "id": "scroll-timeline-axis",
         "href": "https://drafts.csswg.org/scroll-animations-1/#scroll-timeline-axis",
         "title": "Axis of a Scroll Progress Timeline: the scroll-timeline-axis property",
-        "number": "2.2.2"
+        "number": "2.3.2"
       },
       "definedIn": "table"
     },
@@ -563,7 +624,7 @@
         "id": "scroll-timeline-shorthand",
         "href": "https://drafts.csswg.org/scroll-animations-1/#scroll-timeline-shorthand",
         "title": "Scroll Timeline Shorthand: the scroll-timeline shorthand",
-        "number": "2.2.3"
+        "number": "2.3.3"
       },
       "definedIn": "table"
     },
@@ -690,6 +751,48 @@
       "definedIn": "dt"
     },
     {
+      "id": "valdef-animation-timeline-range-entry-crossing",
+      "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-animation-timeline-range-entry-crossing",
+      "linkingText": [
+        "entry-crossing"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "animation-timeline-range"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "view-timelines-ranges",
+        "href": "https://drafts.csswg.org/scroll-animations-1/#view-timelines-ranges",
+        "title": "View Progress Timeline Ranges",
+        "number": "3.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-animation-timeline-range-exit-crossing",
+      "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-animation-timeline-range-exit-crossing",
+      "linkingText": [
+        "exit-crossing"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "animation-timeline-range"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "view-timelines-ranges",
+        "href": "https://drafts.csswg.org/scroll-animations-1/#view-timelines-ranges",
+        "title": "View Progress Timeline Ranges",
+        "number": "3.1"
+      },
+      "definedIn": "dt"
+    },
+    {
       "id": "funcdef-view",
       "href": "https://drafts.csswg.org/scroll-animations-1/#funcdef-view",
       "linkingText": [
@@ -704,7 +807,7 @@
         "id": "view-notation",
         "href": "https://drafts.csswg.org/scroll-animations-1/#view-notation",
         "title": "The view() notation",
-        "number": "3.2.1"
+        "number": "3.3.1"
       },
       "definedIn": "prose"
     },
@@ -723,7 +826,7 @@
         "id": "viewtimeline-interface",
         "href": "https://drafts.csswg.org/scroll-animations-1/#viewtimeline-interface",
         "title": "The ViewTimeline Interface",
-        "number": "3.2.2"
+        "number": "3.3.2"
       },
       "definedIn": "pre"
     },
@@ -744,7 +847,7 @@
         "id": "viewtimeline-interface",
         "href": "https://drafts.csswg.org/scroll-animations-1/#viewtimeline-interface",
         "title": "The ViewTimeline Interface",
-        "number": "3.2.2"
+        "number": "3.3.2"
       },
       "definedIn": "pre"
     },
@@ -765,7 +868,28 @@
         "id": "viewtimeline-interface",
         "href": "https://drafts.csswg.org/scroll-animations-1/#viewtimeline-interface",
         "title": "The ViewTimeline Interface",
-        "number": "3.2.2"
+        "number": "3.3.2"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-viewtimelineoptions-inset",
+      "href": "https://drafts.csswg.org/scroll-animations-1/#dom-viewtimelineoptions-inset",
+      "linkingText": [
+        "inset"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "ViewTimelineOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "viewtimeline-interface",
+        "href": "https://drafts.csswg.org/scroll-animations-1/#viewtimeline-interface",
+        "title": "The ViewTimeline Interface",
+        "number": "3.3.2"
       },
       "definedIn": "pre"
     },
@@ -784,7 +908,7 @@
         "id": "viewtimeline-interface",
         "href": "https://drafts.csswg.org/scroll-animations-1/#viewtimeline-interface",
         "title": "The ViewTimeline Interface",
-        "number": "3.2.2"
+        "number": "3.3.2"
       },
       "definedIn": "pre"
     },
@@ -808,7 +932,7 @@
         "id": "viewtimeline-interface",
         "href": "https://drafts.csswg.org/scroll-animations-1/#viewtimeline-interface",
         "title": "The ViewTimeline Interface",
-        "number": "3.2.2"
+        "number": "3.3.2"
       },
       "definedIn": "pre"
     },
@@ -829,7 +953,7 @@
         "id": "viewtimeline-interface",
         "href": "https://drafts.csswg.org/scroll-animations-1/#viewtimeline-interface",
         "title": "The ViewTimeline Interface",
-        "number": "3.2.2"
+        "number": "3.3.2"
       },
       "definedIn": "dt"
     },
@@ -850,7 +974,7 @@
         "id": "viewtimeline-interface",
         "href": "https://drafts.csswg.org/scroll-animations-1/#viewtimeline-interface",
         "title": "The ViewTimeline Interface",
-        "number": "3.2.2"
+        "number": "3.3.2"
       },
       "definedIn": "dt"
     },
@@ -871,7 +995,7 @@
         "id": "viewtimeline-interface",
         "href": "https://drafts.csswg.org/scroll-animations-1/#viewtimeline-interface",
         "title": "The ViewTimeline Interface",
-        "number": "3.2.2"
+        "number": "3.3.2"
       },
       "definedIn": "dt"
     },
@@ -895,9 +1019,28 @@
         "id": "viewtimeline-interface",
         "href": "https://drafts.csswg.org/scroll-animations-1/#viewtimeline-interface",
         "title": "The ViewTimeline Interface",
-        "number": "3.2.2"
+        "number": "3.3.2"
       },
       "definedIn": "dt"
+    },
+    {
+      "id": "named-view-progress-timelines",
+      "href": "https://drafts.csswg.org/scroll-animations-1/#named-view-progress-timelines",
+      "linkingText": [
+        "named view progress timelines"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "view-timelines-named",
+        "href": "https://drafts.csswg.org/scroll-animations-1/#view-timelines-named",
+        "title": "Named View Progress Timelines",
+        "number": "3.4"
+      },
+      "definedIn": "prose"
     },
     {
       "id": "propdef-view-timeline-name",
@@ -914,7 +1057,7 @@
         "id": "view-timeline-name",
         "href": "https://drafts.csswg.org/scroll-animations-1/#view-timeline-name",
         "title": "Naming a View Progress Timeline: the view-timeline-name property",
-        "number": "3.3.1"
+        "number": "3.4.1"
       },
       "definedIn": "table"
     },
@@ -933,7 +1076,7 @@
         "id": "view-timeline-axis",
         "href": "https://drafts.csswg.org/scroll-animations-1/#view-timeline-axis",
         "title": "Axis of a View Progress Timeline: the view-timeline-axis property",
-        "number": "3.3.2"
+        "number": "3.4.2"
       },
       "definedIn": "table"
     },
@@ -952,7 +1095,7 @@
         "id": "view-timeline-inset",
         "href": "https://drafts.csswg.org/scroll-animations-1/#view-timeline-inset",
         "title": "Inset of a View Progress Timeline: the view-timeline-inset property",
-        "number": "3.3.3"
+        "number": "3.4.3"
       },
       "definedIn": "table"
     },
@@ -971,7 +1114,7 @@
         "id": "view-timeline-inset",
         "href": "https://drafts.csswg.org/scroll-animations-1/#view-timeline-inset",
         "title": "Inset of a View Progress Timeline: the view-timeline-inset property",
-        "number": "3.3.3"
+        "number": "3.4.3"
       },
       "definedIn": "prose"
     },
@@ -992,7 +1135,7 @@
         "id": "view-timeline-inset",
         "href": "https://drafts.csswg.org/scroll-animations-1/#view-timeline-inset",
         "title": "Inset of a View Progress Timeline: the view-timeline-inset property",
-        "number": "3.3.3"
+        "number": "3.4.3"
       },
       "definedIn": "dt"
     },
@@ -1011,7 +1154,7 @@
         "id": "view-timeline-shorthand",
         "href": "https://drafts.csswg.org/scroll-animations-1/#view-timeline-shorthand",
         "title": "View Timeline Shorthand: the view-timeline shorthand",
-        "number": "3.3.4"
+        "number": "3.4.4"
       },
       "definedIn": "table"
     },
@@ -1027,10 +1170,29 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "avoiding-cycles",
-        "href": "https://drafts.csswg.org/scroll-animations-1/#avoiding-cycles",
-        "title": "Avoiding cycles with layout",
-        "number": "5"
+        "id": "event-loop",
+        "href": "https://drafts.csswg.org/scroll-animations-1/#event-loop",
+        "title": "HTML Processing Model: Event loop",
+        "number": "5.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "stale-timelines",
+      "href": "https://drafts.csswg.org/scroll-animations-1/#stale-timelines",
+      "linkingText": [
+        "stale timelines"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "event-loop",
+        "href": "https://drafts.csswg.org/scroll-animations-1/#event-loop",
+        "title": "HTML Processing Model: Event loop",
+        "number": "5.1"
       },
       "definedIn": "prose"
     },
@@ -1046,9 +1208,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "timeline-ranges",
-        "href": "https://drafts.csswg.org/scroll-animations-1/#timeline-ranges",
-        "title": "Appendix A: Named Timeline Ranges"
+        "id": "named-ranges",
+        "href": "https://drafts.csswg.org/scroll-animations-1/#named-ranges",
+        "title": "Named Timeline Ranges"
       },
       "definedIn": "prose"
     },
@@ -1064,20 +1226,22 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "timeline-ranges",
-        "href": "https://drafts.csswg.org/scroll-animations-1/#timeline-ranges",
-        "title": "Appendix A: Named Timeline Ranges"
+        "id": "named-ranges",
+        "href": "https://drafts.csswg.org/scroll-animations-1/#named-ranges",
+        "title": "Named Timeline Ranges"
       },
       "definedIn": "prose"
     },
     {
-      "id": "propdef-animation-delay",
-      "href": "https://drafts.csswg.org/scroll-animations-1/#propdef-animation-delay",
+      "id": "animation-attachment-range",
+      "href": "https://drafts.csswg.org/scroll-animations-1/#animation-attachment-range",
       "linkingText": [
-        "animation-delay"
+        "animation attachment range"
       ],
-      "localLinkingText": [],
-      "type": "property",
+      "localLinkingText": [
+        "attachment range"
+      ],
+      "type": "dfn",
       "for": [],
       "access": "public",
       "informative": false,
@@ -1086,7 +1250,7 @@
         "href": "https://drafts.csswg.org/scroll-animations-1/#named-range-animation-declaration",
         "title": "Attaching Animations to Timeline Ranges"
       },
-      "definedIn": "table"
+      "definedIn": "prose"
     },
     {
       "id": "propdef-animation-range",
@@ -1100,17 +1264,17 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "named-range-animation-declaration",
-        "href": "https://drafts.csswg.org/scroll-animations-1/#named-range-animation-declaration",
-        "title": "Attaching Animations to Timeline Ranges"
+        "id": "animation-range",
+        "href": "https://drafts.csswg.org/scroll-animations-1/#animation-range",
+        "title": "Specifying an Animation’s Timeline Range: the animation-range shorthand"
       },
       "definedIn": "table"
     },
     {
-      "id": "propdef-animation-delay-start",
-      "href": "https://drafts.csswg.org/scroll-animations-1/#propdef-animation-delay-start",
+      "id": "propdef-animation-range-start",
+      "href": "https://drafts.csswg.org/scroll-animations-1/#propdef-animation-range-start",
       "linkingText": [
-        "animation-delay-start"
+        "animation-range-start"
       ],
       "localLinkingText": [],
       "type": "property",
@@ -1118,38 +1282,57 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "named-range-animation-declaration",
-        "href": "https://drafts.csswg.org/scroll-animations-1/#named-range-animation-declaration",
-        "title": "Attaching Animations to Timeline Ranges"
+        "id": "animation-range-start",
+        "href": "https://drafts.csswg.org/scroll-animations-1/#animation-range-start",
+        "title": "Specifying an Animation’s Timeline Range Start: the animation-range-start property"
       },
       "definedIn": "table"
     },
     {
-      "id": "valdef-animation-delay-start-timeline-range-name-percentage",
-      "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-animation-delay-start-timeline-range-name-percentage",
+      "id": "valdef-animation-range-start-normal",
+      "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-animation-range-start-normal",
       "linkingText": [
-        "<timeline-range-name> <percentage>"
+        "normal"
       ],
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "animation-delay-start",
-        "animation-delay-end"
+        "animation-range-start"
       ],
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "named-range-animation-declaration",
-        "href": "https://drafts.csswg.org/scroll-animations-1/#named-range-animation-declaration",
-        "title": "Attaching Animations to Timeline Ranges"
+        "id": "animation-range-start",
+        "href": "https://drafts.csswg.org/scroll-animations-1/#animation-range-start",
+        "title": "Specifying an Animation’s Timeline Range Start: the animation-range-start property"
       },
       "definedIn": "dt"
     },
     {
-      "id": "propdef-animation-delay-end",
-      "href": "https://drafts.csswg.org/scroll-animations-1/#propdef-animation-delay-end",
+      "id": "valdef-animation-range-start-timeline-range-name-length-percentage",
+      "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-animation-range-start-timeline-range-name-length-percentage",
       "linkingText": [
-        "animation-delay-end"
+        "<timeline-range-name> <length-percentage>?"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "animation-range-start"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "animation-range-start",
+        "href": "https://drafts.csswg.org/scroll-animations-1/#animation-range-start",
+        "title": "Specifying an Animation’s Timeline Range Start: the animation-range-start property"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "propdef-animation-range-end",
+      "href": "https://drafts.csswg.org/scroll-animations-1/#propdef-animation-range-end",
+      "linkingText": [
+        "animation-range-end"
       ],
       "localLinkingText": [],
       "type": "property",
@@ -1157,54 +1340,109 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "named-range-animation-declaration",
-        "href": "https://drafts.csswg.org/scroll-animations-1/#named-range-animation-declaration",
-        "title": "Attaching Animations to Timeline Ranges"
+        "id": "animation-range-end",
+        "href": "https://drafts.csswg.org/scroll-animations-1/#animation-range-end",
+        "title": "Specifying an Animation’s Timeline Range End: the animation-range-end property"
       },
       "definedIn": "table"
     },
     {
-      "id": "dom-animationtimeline-getcurrenttime-rangename-rangename",
-      "href": "https://drafts.csswg.org/scroll-animations-1/#dom-animationtimeline-getcurrenttime-rangename-rangename",
+      "id": "valdef-animation-range-end-normal",
+      "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-animation-range-end-normal",
       "linkingText": [
-        "rangeName"
+        "normal"
       ],
       "localLinkingText": [],
-      "type": "argument",
+      "type": "value",
       "for": [
-        "AnimationTimeline/getCurrentTime(rangeName)",
-        "AnimationTimeline/getCurrentTime()"
+        "animation-range-end"
       ],
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "named-range-get-time",
-        "href": "https://drafts.csswg.org/scroll-animations-1/#named-range-get-time",
-        "title": "Reporting Timeline Range Progress: the getCurrentTime() method"
+        "id": "animation-range-end",
+        "href": "https://drafts.csswg.org/scroll-animations-1/#animation-range-end",
+        "title": "Specifying an Animation’s Timeline Range End: the animation-range-end property"
       },
-      "definedIn": "pre"
+      "definedIn": "dt"
     },
     {
-      "id": "dom-animationtimeline-getcurrenttime",
-      "href": "https://drafts.csswg.org/scroll-animations-1/#dom-animationtimeline-getcurrenttime",
+      "id": "valdef-animation-range-end-timeline-range-name-length-percentage",
+      "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-animation-range-end-timeline-range-name-length-percentage",
       "linkingText": [
-        "getCurrentTime(rangeName)",
-        "getCurrentTime()",
-        "getCurrentTime(optionalrangeName)"
+        "<timeline-range-name> <length-percentage>?"
       ],
       "localLinkingText": [],
-      "type": "method",
+      "type": "value",
       "for": [
-        "AnimationTimeline"
+        "animation-range-end"
       ],
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "named-range-get-time",
-        "href": "https://drafts.csswg.org/scroll-animations-1/#named-range-get-time",
-        "title": "Reporting Timeline Range Progress: the getCurrentTime() method"
+        "id": "animation-range-end",
+        "href": "https://drafts.csswg.org/scroll-animations-1/#animation-range-end",
+        "title": "Specifying an Animation’s Timeline Range End: the animation-range-end property"
       },
-      "definedIn": "prose"
+      "definedIn": "dt"
+    },
+    {
+      "id": "propdef-timeline-scope",
+      "href": "https://drafts.csswg.org/scroll-animations-1/#propdef-timeline-scope",
+      "linkingText": [
+        "timeline-scope"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "timeline-scope",
+        "href": "https://drafts.csswg.org/scroll-animations-1/#timeline-scope",
+        "title": "Declaring a Named Timeline’s Scope: the timeline-scope property"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "valdef-timeline-scope-none",
+      "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-timeline-scope-none",
+      "linkingText": [
+        "none"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "timeline-scope"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "timeline-scope",
+        "href": "https://drafts.csswg.org/scroll-animations-1/#timeline-scope",
+        "title": "Declaring a Named Timeline’s Scope: the timeline-scope property"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "valdef-timeline-scope-all",
+      "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-timeline-scope-all",
+      "linkingText": [
+        "all"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "timeline-scope"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "timeline-scope",
+        "href": "https://drafts.csswg.org/scroll-animations-1/#timeline-scope",
+        "title": "Declaring a Named Timeline’s Scope: the timeline-scope property"
+      },
+      "definedIn": "dt"
     }
   ]
 }

@@ -19,7 +19,7 @@
       },
       {
         "name": "CSS-DISPLAY-4",
-        "url": "https://drafts.csswg.org/css-display-4/"
+        "url": "https://drafts.csswg.org/css-display/"
       },
       {
         "name": "CSS-IMAGES-3",
@@ -28,6 +28,10 @@
       {
         "name": "CSS-INLINE-3",
         "url": "https://drafts.csswg.org/css-inline-3/"
+      },
+      {
+        "name": "CSS-MULTICOL-2",
+        "url": "https://drafts.csswg.org/css-multicol-2/"
       },
       {
         "name": "CSS-OVERFLOW-3",
@@ -63,10 +67,6 @@
       },
       {
         "name": "CSS2",
-        "url": "https://drafts.csswg.org/css2/"
-      },
-      {
-        "name": "CSS22",
         "url": "https://drafts.csswg.org/css2/"
       },
       {
@@ -111,19 +111,19 @@
       },
       {
         "name": "UAX11",
-        "url": "https://www.unicode.org/reports/tr11/tr11-40.html"
+        "url": "https://www.unicode.org/reports/tr11/tr11-43.html"
       },
       {
         "name": "UAX24",
-        "url": "https://www.unicode.org/reports/tr24/tr24-34.html"
+        "url": "https://www.unicode.org/reports/tr24/tr24-38.html"
       },
       {
         "name": "UAX50",
-        "url": "https://www.unicode.org/reports/tr50/tr50-28.html"
+        "url": "https://www.unicode.org/reports/tr50/tr50-31.html"
       },
       {
         "name": "UAX9",
-        "url": "https://www.unicode.org/reports/tr9/tr9-46.html"
+        "url": "https://www.unicode.org/reports/tr9/tr9-50.html"
       },
       {
         "name": "UNICODE",

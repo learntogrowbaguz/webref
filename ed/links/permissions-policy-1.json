@@ -4,159 +4,210 @@
     "url": "https://w3c.github.io/webappsec-permissions-policy/"
   },
   "links": {
-    "https://datatracker.ietf.org/doc/html/rfc2119": {},
-    "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy": {},
-    "https://dom.spec.whatwg.org/": {
-      "anchors": [
-        "document",
-        "node",
-        "element",
-        "concept-node-document",
-        "concept-document"
-      ],
-      "specShortname": "dom"
+    "rawlinks": {
+      "https://datatracker.ietf.org/doc/html/rfc2119": {},
+      "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy": {},
+      "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Permissions-Policy": {},
+      "https://dom.spec.whatwg.org/": {},
+      "https://fetch.spec.whatwg.org/": {},
+      "https://fullscreen.spec.whatwg.org/": {},
+      "https://github.com/w3c/webappsec": {},
+      "https://github.com/w3c/webappsec-feature-policy/pull/": {},
+      "https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md": {},
+      "https://github.com/w3c/webappsec-permissions-policy/issues/207": {},
+      "https://github.com/w3c/webappsec-permissions-policy/pull/324": {},
+      "https://github.com/w3c/webappsec-permissions-policy/pull/325": {},
+      "https://github.com/w3c/webappsec-permissions-policy/pull/326": {},
+      "https://github.com/w3c/webappsec-permissions-policy/pull/378": {},
+      "https://github.com/w3c/webappsec-permissions-policy/pull/379": {},
+      "https://github.com/w3c/webappsec-permissions-policy/pull/383": {},
+      "https://html.spec.whatwg.org/": {
+        "anchors": [
+          "shared-document-creation-infrastructure"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/": {},
+      "https://html.spec.whatwg.org/multipage/iframe-embed-object.html": {
+        "anchors": [
+          "iframe-load-event-steps"
+        ]
+      },
+      "https://httpwg.org/specs/rfc8941.html": {},
+      "https://infra.spec.whatwg.org/": {},
+      "https://lists.w3.org/Archives/Public/public-webappsec/": {},
+      "https://url.spec.whatwg.org/": {},
+      "https://w3c.github.io/mediacapture-main/": {},
+      "https://w3c.github.io/permissions/": {},
+      "https://w3c.github.io/reporting/": {},
+      "https://w3c.github.io/webappsec-csp/": {},
+      "https://webidl.spec.whatwg.org/": {},
+      "https://www.rfc-editor.org/rfc/rfc3864": {},
+      "https://www.w3.org/Mail/Request": {},
+      "https://www.w3.org/TR/html5/": {},
+      "https://www.w3.org/groups/wg/webappsec": {},
+      "https://www.w3.org/groups/wg/webappsec/ipr": {},
+      "https://www.w3.org/policies/patent-policy/": {
+        "anchors": [
+          "def-essential",
+          "sec-Disclosure"
+        ]
+      },
+      "https://www.w3.org/policies/process/20231103/": {}
     },
-    "https://fetch.spec.whatwg.org/": {
-      "anchors": [
-        "concept-response-response",
-        "concept-header-list-get-structured-header",
-        "concept-request",
-        "concept-request-window",
-        "concept-request-origin"
-      ],
-      "specShortname": "fetch"
-    },
-    "https://fullscreen.spec.whatwg.org/": {
-      "anchors": [
-        "dom-element-requestfullscreen"
-      ],
-      "specShortname": "fullscreen"
-    },
-    "https://github.com/w3c/webappsec": {},
-    "https://github.com/w3c/webappsec-feature-policy/pull/": {},
-    "https://github.com/w3c/webappsec-permissions-policy/blob/master/features.md": {},
-    "https://github.com/w3c/webappsec-permissions-policy/issues/207": {},
-    "https://github.com/w3c/webappsec-permissions-policy/pull/324": {},
-    "https://github.com/w3c/webappsec-permissions-policy/pull/325": {},
-    "https://github.com/w3c/webappsec-permissions-policy/pull/326": {},
-    "https://github.com/w3c/webappsec-permissions-policy/pull/378": {},
-    "https://github.com/w3c/webappsec-permissions-policy/pull/379": {},
-    "https://github.com/w3c/webappsec-permissions-policy/pull/383": {},
-    "https://html.spec.whatwg.org/multipage/": {},
-    "https://html.spec.whatwg.org/multipage/browsers.html": {
-      "anchors": [
-        "same-origin-domain",
-        "ascii-serialisation-of-an-origin",
-        "sandboxed-origin-browsing-context-flag",
-        "same-origin"
-      ]
-    },
-    "https://html.spec.whatwg.org/multipage/document-sequences.html": {
-      "anchors": [
-        "top-level-browsing-context",
-        "browsing-context"
-      ]
-    },
-    "https://html.spec.whatwg.org/multipage/iframe-embed-object.html": {
-      "anchors": [
-        "attr-iframe-sandbox",
-        "the-iframe-element",
-        "attr-iframe-src",
-        "htmliframeelement",
-        "attr-iframe-srcdoc"
-      ]
-    },
-    "https://html.spec.whatwg.org/multipage/nav-history-apis.html": {
-      "anchors": [
-        "window",
-        "concept-document-window"
-      ]
-    },
-    "https://html.spec.whatwg.org/multipage/webappapis.html": {
-      "anchors": [
-        "environment-settings-object"
-      ]
-    },
-    "https://html.spec.whatwg.org/multipage/workers.html": {
-      "anchors": [
-        "workerglobalscope"
-      ]
-    },
-    "https://html.spec.whatwg.org/multipage/worklets.html": {
-      "anchors": [
-        "workletglobalscope"
-      ]
-    },
-    "https://httpwg.org/http-extensions/draft-ietf-httpbis-header-structure.html": {
-      "anchors": [
-        "dictionary"
-      ]
-    },
-    "https://infra.spec.whatwg.org/": {
-      "anchors": [
-        "ordered-set",
-        "ordered-map",
-        "strictly-split",
-        "split-on-ascii-whitespace",
-        "ascii-case-insensitive"
-      ],
-      "specShortname": "infra"
-    },
-    "https://lists.w3.org/Archives/Public/public-webappsec/": {},
-    "https://tools.ietf.org/html/draft-ietf-httpbis-header-structure-18": {},
-    "https://url.spec.whatwg.org/": {
-      "anchors": [
-        "concept-url-origin",
-        "concept-url-parser"
-      ],
-      "specShortname": "url"
-    },
-    "https://w3c.github.io/permissions/": {
-      "anchors": [
-        "dfn-powerful-feature"
-      ],
-      "specShortname": "permissions"
-    },
-    "https://w3c.github.io/reporting/": {
-      "anchors": [
-        "report-type",
-        "visible-to-reportingobservers",
-        "reportbody",
-        "report-body",
-        "report",
-        "generate-and-queue-a-report"
-      ],
-      "specShortname": "reporting-1"
-    },
-    "https://w3c.github.io/webappsec-csp/": {
-      "anchors": [
-        "sandbox"
-      ],
-      "specShortname": "CSP3"
-    },
-    "https://webidl.spec.whatwg.org/": {
-      "anchors": [
-        "Exposed",
-        "idl-boolean",
-        "idl-DOMString",
-        "idl-sequence",
-        "SameObject",
-        "idl-long"
-      ],
-      "specShortname": "webidl"
-    },
-    "https://www.rfc-editor.org/rfc/rfc3864": {},
-    "https://www.w3.org/2021/Process-20211102/": {},
-    "https://www.w3.org/Consortium/Patent-Policy/": {
-      "anchors": [
-        "def-essential",
-        "sec-Disclosure"
-      ],
-      "specShortname": "w3c-patent-policy"
-    },
-    "https://www.w3.org/Mail/Request": {},
-    "https://www.w3.org/groups/wg/webappsec": {},
-    "https://www.w3.org/groups/wg/webappsec/ipr": {},
-    "https://www.w3.org/html/wg/drafts/html/master/": {}
+    "autolinks": {
+      "https://datatracker.ietf.org/doc/html/rfc8941": {
+        "anchors": [
+          "dictionary"
+        ]
+      },
+      "https://dom.spec.whatwg.org/": {
+        "anchors": [
+          "document",
+          "concept-document-origin",
+          "node",
+          "element",
+          "concept-node-document",
+          "clone-a-node-document",
+          "concept-element"
+        ]
+      },
+      "https://fetch.spec.whatwg.org/": {
+        "anchors": [
+          "concept-response-response",
+          "concept-header-list-get-structured-header",
+          "concept-response-header-list",
+          "concept-request",
+          "concept-request-window",
+          "concept-request-origin"
+        ]
+      },
+      "https://fullscreen.spec.whatwg.org/": {
+        "anchors": [
+          "dom-element-requestfullscreen"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/browsers.html": {
+        "anchors": [
+          "same-origin",
+          "same-origin-domain",
+          "concept-origin-opaque",
+          "ascii-serialisation-of-an-origin",
+          "sandboxed-origin-browsing-context-flag"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/document-sequences.html": {
+        "anchors": [
+          "descendant-navigables",
+          "top-level-traversable",
+          "child-navigable",
+          "navigable-container",
+          "navigable",
+          "nav-document",
+          "nav-parent",
+          "content-navigable"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/dom.html": {
+        "anchors": [
+          "concept-document-permissions-policy"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/iframe-embed-object.html": {
+        "anchors": [
+          "attr-iframe-allow",
+          "the-iframe-element",
+          "attr-iframe-sandbox",
+          "attr-iframe-allowfullscreen",
+          "attr-iframe-src",
+          "htmliframeelement",
+          "attr-iframe-srcdoc"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/nav-history-apis.html": {
+        "anchors": [
+          "window",
+          "concept-document-window"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/webappapis.html": {
+        "anchors": [
+          "environment-settings-object"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/workers.html": {
+        "anchors": [
+          "workerglobalscope"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/worklets.html": {
+        "anchors": [
+          "workletglobalscope"
+        ]
+      },
+      "https://infra.spec.whatwg.org/": {
+        "anchors": [
+          "struct",
+          "struct-item",
+          "ordered-map",
+          "string",
+          "list-iterate",
+          "map-iterate",
+          "iteration-continue",
+          "list",
+          "list-append",
+          "strictly-split",
+          "split-on-ascii-whitespace",
+          "ascii-case-insensitive",
+          "map-exists",
+          "map-set"
+        ]
+      },
+      "https://url.spec.whatwg.org/": {
+        "anchors": [
+          "concept-url-origin",
+          "concept-url-parser"
+        ]
+      },
+      "https://w3c.github.io/mediacapture-main/": {
+        "anchors": [
+          "dom-mediadevices-getusermedia"
+        ]
+      },
+      "https://w3c.github.io/permissions/": {
+        "anchors": [
+          "dfn-powerful-feature"
+        ]
+      },
+      "https://w3c.github.io/reporting/": {
+        "anchors": [
+          "report-type",
+          "visible-to-reportingobservers",
+          "reportbody",
+          "report-body",
+          "generate-and-queue-a-report",
+          "report"
+        ]
+      },
+      "https://w3c.github.io/webappsec-csp/": {
+        "anchors": [
+          "sandbox",
+          "match-url-to-source-expression",
+          "grammardef-scheme-source",
+          "grammardef-host-source"
+        ]
+      },
+      "https://webidl.spec.whatwg.org/": {
+        "anchors": [
+          "Exposed",
+          "idl-boolean",
+          "idl-DOMString",
+          "idl-sequence",
+          "SameObject",
+          "Default",
+          "idl-object",
+          "idl-long"
+        ]
+      }
+    }
   }
 }

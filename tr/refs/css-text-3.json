@@ -74,40 +74,44 @@
         "url": "https://www.w3.org/TR/cssom-1/"
       },
       {
+        "name": "HTML",
+        "url": "https://html.spec.whatwg.org/multipage/"
+      },
+      {
+        "name": "INFRA",
+        "url": "https://infra.spec.whatwg.org/"
+      },
+      {
         "name": "RFC2119",
         "url": "https://datatracker.ietf.org/doc/html/rfc2119"
       },
       {
-        "name": "SELECTORS-4",
-        "url": "https://www.w3.org/TR/selectors-4/"
-      },
-      {
         "name": "UAX11",
-        "url": "https://www.unicode.org/reports/tr11/tr11-39.html"
+        "url": "https://www.unicode.org/reports/tr11/tr11-41.html"
       },
       {
         "name": "UAX14",
-        "url": "https://www.unicode.org/reports/tr14/tr14-47.html"
+        "url": "https://www.unicode.org/reports/tr14/tr14-51.html"
       },
       {
         "name": "UAX24",
-        "url": "https://www.unicode.org/reports/tr24/tr24-32.html"
+        "url": "https://www.unicode.org/reports/tr24/tr24-36.html"
       },
       {
         "name": "UAX29",
-        "url": "https://www.unicode.org/reports/tr29/tr29-39.html"
+        "url": "https://www.unicode.org/reports/tr29/tr29-43.html"
       },
       {
         "name": "UAX44",
-        "url": "https://www.unicode.org/reports/tr44/tr44-28.html"
+        "url": "https://www.unicode.org/reports/tr44/tr44-32.html"
       },
       {
         "name": "UAX50",
-        "url": "https://www.unicode.org/reports/tr50/tr50-26.html"
+        "url": "https://www.unicode.org/reports/tr50/tr50-29.html"
       },
       {
         "name": "UAX9",
-        "url": "https://www.unicode.org/reports/tr9/tr9-44.html"
+        "url": "https://www.unicode.org/reports/tr9/tr9-48.html"
       },
       {
         "name": "UNICODE",
@@ -132,16 +136,8 @@
         "url": "https://dom.spec.whatwg.org/"
       },
       {
-        "name": "HTML",
-        "url": "https://html.spec.whatwg.org/multipage/"
-      },
-      {
         "name": "ILREQ",
         "url": "https://www.w3.org/TR/ilreq/"
-      },
-      {
-        "name": "INFRA",
-        "url": "https://infra.spec.whatwg.org/"
       },
       {
         "name": "ISO15924"

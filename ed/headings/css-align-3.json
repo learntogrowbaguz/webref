@@ -8,7 +8,7 @@
       "id": "title",
       "href": "https://drafts.csswg.org/css-align-3/#title",
       "level": 1,
-      "title": "490 TestsCSS Box Alignment Module Level 3"
+      "title": "CSS Box Alignment Module Level 3"
     },
     {
       "id": "abstract",
@@ -106,6 +106,34 @@
       "number": "4.4"
     },
     {
+      "id": "auto-safety",
+      "href": "https://drafts.csswg.org/css-align-3/#auto-safety",
+      "level": 4,
+      "title": "Automatic Overflow Alignment Safety",
+      "number": "4.4.1"
+    },
+    {
+      "id": "auto-safety-scroll",
+      "href": "https://drafts.csswg.org/css-align-3/#auto-safety-scroll",
+      "level": 5,
+      "title": "Content Distribution for Scroll Containers",
+      "number": "4.4.1.1"
+    },
+    {
+      "id": "auto-safety-position",
+      "href": "https://drafts.csswg.org/css-align-3/#auto-safety-position",
+      "level": 5,
+      "title": "Self-Alignment for Absolutely Positioned Boxes",
+      "number": "4.4.1.2"
+    },
+    {
+      "id": "auto-safety-default",
+      "href": "https://drafts.csswg.org/css-align-3/#auto-safety-default",
+      "level": 5,
+      "title": "All Other Alignment",
+      "number": "4.4.1.3"
+    },
+    {
       "id": "content-distribution",
       "href": "https://drafts.csswg.org/css-align-3/#content-distribution",
       "level": 2,
@@ -179,7 +207,7 @@
       "id": "justify-self-property",
       "href": "https://drafts.csswg.org/css-align-3/#justify-self-property",
       "level": 3,
-      "title": "Inline-Axis (or Main-Axis) Alignment: the justify-self property",
+      "title": "Inline-Axis (or Main-Axis) Self-Alignment: the justify-self property",
       "number": "6.1"
     },
     {
@@ -221,7 +249,7 @@
       "id": "align-self-property",
       "href": "https://drafts.csswg.org/css-align-3/#align-self-property",
       "level": 3,
-      "title": "Block-Axis (or Cross-Axis) Alignment: the align-self property",
+      "title": "Block-Axis (or Cross-Axis) Self-Alignment: the align-self property",
       "number": "6.2"
     },
     {
@@ -291,21 +319,21 @@
       "id": "justify-items-property",
       "href": "https://drafts.csswg.org/css-align-3/#justify-items-property",
       "level": 3,
-      "title": "Inline-Axis (or Main-Axis) Alignment: the justify-items property",
+      "title": "Inline-Axis (or Main-Axis) Default Alignment: the justify-items property",
       "number": "7.1"
     },
     {
       "id": "align-items-property",
       "href": "https://drafts.csswg.org/css-align-3/#align-items-property",
       "level": 3,
-      "title": "Block-Axis (or Cross-Axis) Alignment: the align-items property",
+      "title": "Block-Axis (or Cross-Axis) Default Alignment: the align-items property",
       "number": "7.2"
     },
     {
       "id": "place-items-property",
       "href": "https://drafts.csswg.org/css-align-3/#place-items-property",
       "level": 3,
-      "title": "Self-Alignment Shorthand: the place-items property",
+      "title": "Default Alignment Shorthand: the place-items property",
       "number": "7.3"
     },
     {
@@ -375,7 +403,8 @@
       "id": "staticpos-rect",
       "href": "https://drafts.csswg.org/css-align-3/#staticpos-rect",
       "level": 2,
-      "title": "Appendix A: Static Position Terminology"
+      "title": "Static Position Terminology",
+      "number": "A"
     },
     {
       "id": "changes",

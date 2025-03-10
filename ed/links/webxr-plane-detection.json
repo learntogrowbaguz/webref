@@ -1,0 +1,74 @@
+{
+  "spec": {
+    "title": "WebXR Plane Detection Module",
+    "url": "https://immersive-web.github.io/real-world-geometry/plane-detection.html"
+  },
+  "links": {
+    "rawlinks": {
+      "https://datatracker.ietf.org/doc/html/rfc2119": {},
+      "https://drafts.fxtf.org/geometry/": {},
+      "https://github.com/immersive-web/semantic-labels": {},
+      "https://immersive-web.github.io/anchors/": {
+        "anchors": [
+          "native-anchor",
+          "privacy-security"
+        ]
+      },
+      "https://immersive-web.github.io/webxr/": {
+        "anchors": [
+          "security"
+        ]
+      },
+      "https://w3c.github.io/hr-time/": {},
+      "https://webidl.spec.whatwg.org/": {}
+    },
+    "autolinks": {
+      "https://drafts.fxtf.org/geometry-1/": {
+        "anchors": [
+          "dompointreadonly"
+        ]
+      },
+      "https://immersive-web.github.io/anchors/": {
+        "anchors": [
+          "xr-anchor"
+        ]
+      },
+      "https://immersive-web.github.io/webxr/": {
+        "anchors": [
+          "feature-descriptor",
+          "capable-of-supporting",
+          "inline-xr-device",
+          "xrsession-list-of-frame-updates",
+          "xrspace",
+          "xrspace-native-origin",
+          "xrsystem",
+          "dom-xrframe-getpose",
+          "xrframe",
+          "xrframe-active",
+          "xrsession",
+          "dom-xrframe-session",
+          "xrsession-xr-device",
+          "xrframe-time",
+          "xrspace-session",
+          "rounding",
+          "quantization"
+        ]
+      },
+      "https://w3c.github.io/hr-time/": {
+        "anchors": [
+          "dom-domhighrestimestamp"
+        ]
+      },
+      "https://webidl.spec.whatwg.org/": {
+        "anchors": [
+          "SameObject",
+          "idl-frozen-array",
+          "idl-DOMString",
+          "invalidstateerror",
+          "idl-promise",
+          "idl-undefined"
+        ]
+      }
+    }
+  }
+}

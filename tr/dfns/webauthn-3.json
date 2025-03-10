@@ -309,10 +309,105 @@
       "definedIn": "dt"
     },
     {
-      "id": "biometric-recognition",
-      "href": "https://www.w3.org/TR/webauthn-3/#biometric-recognition",
+      "id": "backed-up",
+      "href": "https://www.w3.org/TR/webauthn-3/#backed-up",
       "linkingText": [
-        "Biometric Recognition"
+        "Backed Up"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-terminology",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "backup-eligibility",
+      "href": "https://www.w3.org/TR/webauthn-3/#backup-eligibility",
+      "linkingText": [
+        "Backup Eligibility"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-terminology",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "backup-eligible",
+      "href": "https://www.w3.org/TR/webauthn-3/#backup-eligible",
+      "linkingText": [
+        "Backup Eligible"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-terminology",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "multi-device-credential",
+      "href": "https://www.w3.org/TR/webauthn-3/#multi-device-credential",
+      "linkingText": [
+        "multi-device credential"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-terminology",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "single-device-credential",
+      "href": "https://www.w3.org/TR/webauthn-3/#single-device-credential",
+      "linkingText": [
+        "single-device credential"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-terminology",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "backup-state",
+      "href": "https://www.w3.org/TR/webauthn-3/#backup-state",
+      "linkingText": [
+        "Backup State"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -347,6 +442,25 @@
       "definedIn": "dt"
     },
     {
+      "id": "biometric-recognition",
+      "href": "https://www.w3.org/TR/webauthn-3/#biometric-recognition",
+      "linkingText": [
+        "Biometric Recognition"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-terminology",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "dt"
+    },
+    {
       "id": "bound-credential",
       "href": "https://www.w3.org/TR/webauthn-3/#bound-credential",
       "linkingText": [
@@ -364,6 +478,44 @@
         "number": "4"
       },
       "definedIn": "dt"
+    },
+    {
+      "id": "contains",
+      "href": "https://www.w3.org/TR/webauthn-3/#contains",
+      "linkingText": [
+        "contains"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-terminology",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "created-on",
+      "href": "https://www.w3.org/TR/webauthn-3/#created-on",
+      "linkingText": [
+        "created on"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-terminology",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "prose"
     },
     {
       "id": "ceremony",
@@ -556,6 +708,25 @@
       "definedIn": "dt"
     },
     {
+      "id": "passkey",
+      "href": "https://www.w3.org/TR/webauthn-3/#passkey",
+      "linkingText": [
+        "Passkey"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-terminology",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "dt"
+    },
+    {
       "id": "resident-credential",
       "href": "https://www.w3.org/TR/webauthn-3/#resident-credential",
       "linkingText": [
@@ -727,10 +898,278 @@
       "definedIn": "dt"
     },
     {
+      "id": "credential-record",
+      "href": "https://www.w3.org/TR/webauthn-3/#credential-record",
+      "linkingText": [
+        "Credential Record"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-terminology",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "abstract-opdef-credential-record-type",
+      "href": "https://www.w3.org/TR/webauthn-3/#abstract-opdef-credential-record-type",
+      "linkingText": [
+        "type"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
+      "for": [
+        "credential record"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-terminology",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "abstract-opdef-credential-record-id",
+      "href": "https://www.w3.org/TR/webauthn-3/#abstract-opdef-credential-record-id",
+      "linkingText": [
+        "id"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
+      "for": [
+        "credential record"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-terminology",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "abstract-opdef-credential-record-publickey",
+      "href": "https://www.w3.org/TR/webauthn-3/#abstract-opdef-credential-record-publickey",
+      "linkingText": [
+        "publicKey"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
+      "for": [
+        "credential record"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-terminology",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "abstract-opdef-credential-record-signcount",
+      "href": "https://www.w3.org/TR/webauthn-3/#abstract-opdef-credential-record-signcount",
+      "linkingText": [
+        "signCount"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
+      "for": [
+        "credential record"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-terminology",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "abstract-opdef-credential-record-transports",
+      "href": "https://www.w3.org/TR/webauthn-3/#abstract-opdef-credential-record-transports",
+      "linkingText": [
+        "transports"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
+      "for": [
+        "credential record"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-terminology",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "abstract-opdef-credential-record-uvinitialized",
+      "href": "https://www.w3.org/TR/webauthn-3/#abstract-opdef-credential-record-uvinitialized",
+      "linkingText": [
+        "uvInitialized"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
+      "for": [
+        "credential record"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-terminology",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "abstract-opdef-credential-record-backupeligible",
+      "href": "https://www.w3.org/TR/webauthn-3/#abstract-opdef-credential-record-backupeligible",
+      "linkingText": [
+        "backupEligible"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
+      "for": [
+        "credential record"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-terminology",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "abstract-opdef-credential-record-backupstate",
+      "href": "https://www.w3.org/TR/webauthn-3/#abstract-opdef-credential-record-backupstate",
+      "linkingText": [
+        "backupState"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
+      "for": [
+        "credential record"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-terminology",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "abstract-opdef-credential-record-attestationobject",
+      "href": "https://www.w3.org/TR/webauthn-3/#abstract-opdef-credential-record-attestationobject",
+      "linkingText": [
+        "attestationObject"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
+      "for": [
+        "credential record"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-terminology",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "abstract-opdef-credential-record-attestationclientdatajson",
+      "href": "https://www.w3.org/TR/webauthn-3/#abstract-opdef-credential-record-attestationclientdatajson",
+      "linkingText": [
+        "attestationClientDataJSON"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
+      "for": [
+        "credential record"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-terminology",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "credential-descriptor-for-a-credential-record",
+      "href": "https://www.w3.org/TR/webauthn-3/#credential-descriptor-for-a-credential-record",
+      "linkingText": [
+        "credential descriptor for a credential record"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-terminology",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "generating-authenticator",
+      "href": "https://www.w3.org/TR/webauthn-3/#generating-authenticator",
+      "linkingText": [
+        "Generating Authenticator"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-terminology",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "dt"
+    },
+    {
       "id": "human-palatability",
       "href": "https://www.w3.org/TR/webauthn-3/#human-palatability",
       "linkingText": [
-        "Human Palatability"
+        "human palatability",
+        "human-palatable"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -750,6 +1189,44 @@
       "href": "https://www.w3.org/TR/webauthn-3/#non-discoverable-credential",
       "linkingText": [
         "Non-Discoverable Credential"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-terminology",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "registrable-origin-label",
+      "href": "https://www.w3.org/TR/webauthn-3/#registrable-origin-label",
+      "linkingText": [
+        "Registrable Origin Label"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-terminology",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "public-key-credential",
+      "href": "https://www.w3.org/TR/webauthn-3/#public-key-credential",
+      "linkingText": [
+        "Public Key Credential"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -952,25 +1429,6 @@
       "definedIn": "prose"
     },
     {
-      "id": "public-key-credential",
-      "href": "https://www.w3.org/TR/webauthn-3/#public-key-credential",
-      "linkingText": [
-        "Public Key Credential"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "sctn-terminology",
-        "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
-        "title": "Terminology",
-        "number": "4"
-      },
-      "definedIn": "dt"
-    },
-    {
       "id": "rate-limiting",
       "href": "https://www.w3.org/TR/webauthn-3/#rate-limiting",
       "linkingText": [
@@ -1047,6 +1505,44 @@
       "definedIn": "dt"
     },
     {
+      "id": "webauthn-relying-party",
+      "href": "https://www.w3.org/TR/webauthn-3/#webauthn-relying-party",
+      "linkingText": [
+        "WebAuthn Relying Party"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-terminology",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "web-application",
+      "href": "https://www.w3.org/TR/webauthn-3/#web-application",
+      "linkingText": [
+        "web application"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-terminology",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "relying-party-identifier",
       "href": "https://www.w3.org/TR/webauthn-3/#relying-party-identifier",
       "linkingText": [
@@ -1094,14 +1590,14 @@
       "type": "dfn",
       "for": [],
       "access": "private",
-      "informative": true,
+      "informative": false,
       "heading": {
         "id": "sctn-terminology",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
         "title": "Terminology",
         "number": "4"
       },
-      "definedIn": "note"
+      "definedIn": "prose"
     },
     {
       "id": "determines-the-set-of-origins-on-which-the-public-key-credential-may-be-exercised",
@@ -1113,14 +1609,14 @@
       "type": "dfn",
       "for": [],
       "access": "private",
-      "informative": true,
+      "informative": false,
       "heading": {
         "id": "sctn-terminology",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
         "title": "Terminology",
         "number": "4"
       },
-      "definedIn": "note"
+      "definedIn": "prose"
     },
     {
       "id": "server-side-public-key-credential-source",
@@ -1199,6 +1695,25 @@
       "definedIn": "dt"
     },
     {
+      "id": "user-account",
+      "href": "https://www.w3.org/TR/webauthn-3/#user-account",
+      "linkingText": [
+        "User Account"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-terminology",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
+        "title": "Terminology",
+        "number": "4"
+      },
+      "definedIn": "dt"
+    },
+    {
       "id": "user-consent",
       "href": "https://www.w3.org/TR/webauthn-3/#user-consent",
       "linkingText": [
@@ -1237,25 +1752,6 @@
       "definedIn": "dt"
     },
     {
-      "id": "user-verification",
-      "href": "https://www.w3.org/TR/webauthn-3/#user-verification",
-      "linkingText": [
-        "User Verification"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "sctn-terminology",
-        "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
-        "title": "Terminology",
-        "number": "4"
-      },
-      "definedIn": "dt"
-    },
-    {
       "id": "concept-user-present",
       "href": "https://www.w3.org/TR/webauthn-3/#concept-user-present",
       "linkingText": [
@@ -1275,10 +1771,10 @@
       "definedIn": "dt"
     },
     {
-      "id": "up",
-      "href": "https://www.w3.org/TR/webauthn-3/#up",
+      "id": "user-verification",
+      "href": "https://www.w3.org/TR/webauthn-3/#user-verification",
       "linkingText": [
-        "UP"
+        "User Verification"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1311,63 +1807,6 @@
         "number": "4"
       },
       "definedIn": "dt"
-    },
-    {
-      "id": "uv",
-      "href": "https://www.w3.org/TR/webauthn-3/#uv",
-      "linkingText": [
-        "UV"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "sctn-terminology",
-        "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
-        "title": "Terminology",
-        "number": "4"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "webauthn-relying-party",
-      "href": "https://www.w3.org/TR/webauthn-3/#webauthn-relying-party",
-      "linkingText": [
-        "WebAuthn Relying Party"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "sctn-terminology",
-        "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
-        "title": "Terminology",
-        "number": "4"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "web-application",
-      "href": "https://www.w3.org/TR/webauthn-3/#web-application",
-      "linkingText": [
-        "web application"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "sctn-terminology",
-        "href": "https://www.w3.org/TR/webauthn-3/#sctn-terminology",
-        "title": "Terminology",
-        "number": "4"
-      },
-      "definedIn": "prose"
     },
     {
       "id": "web-authentication-api",
@@ -1450,6 +1889,48 @@
       "definedIn": "pre"
     },
     {
+      "id": "dom-publickeycredential-isconditionalmediationavailable",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredential-isconditionalmediationavailable",
+      "linkingText": [
+        "isConditionalMediationAvailable()"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "PublicKeyCredential"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "iface-pkcredential",
+        "href": "https://www.w3.org/TR/webauthn-3/#iface-pkcredential",
+        "title": "PublicKeyCredential Interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredential-tojson",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredential-tojson",
+      "linkingText": [
+        "toJSON()"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "PublicKeyCredential"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "iface-pkcredential",
+        "href": "https://www.w3.org/TR/webauthn-3/#iface-pkcredential",
+        "title": "PublicKeyCredential Interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
       "id": "dom-publickeycredential-response",
       "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredential-response",
       "linkingText": [
@@ -1469,6 +1950,622 @@
         "number": "5.1"
       },
       "definedIn": "dt"
+    },
+    {
+      "id": "dom-publickeycredential-authenticatorattachment",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredential-authenticatorattachment",
+      "linkingText": [
+        "authenticatorAttachment"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "PublicKeyCredential"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "iface-pkcredential",
+        "href": "https://www.w3.org/TR/webauthn-3/#iface-pkcredential",
+        "title": "PublicKeyCredential Interface",
+        "number": "5.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "typedefdef-base64urlstring",
+      "href": "https://www.w3.org/TR/webauthn-3/#typedefdef-base64urlstring",
+      "linkingText": [
+        "Base64URLString"
+      ],
+      "localLinkingText": [],
+      "type": "typedef",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "iface-pkcredential",
+        "href": "https://www.w3.org/TR/webauthn-3/#iface-pkcredential",
+        "title": "PublicKeyCredential Interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "typedefdef-publickeycredentialjson",
+      "href": "https://www.w3.org/TR/webauthn-3/#typedefdef-publickeycredentialjson",
+      "linkingText": [
+        "PublicKeyCredentialJSON"
+      ],
+      "localLinkingText": [],
+      "type": "typedef",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "iface-pkcredential",
+        "href": "https://www.w3.org/TR/webauthn-3/#iface-pkcredential",
+        "title": "PublicKeyCredential Interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dictdef-registrationresponsejson",
+      "href": "https://www.w3.org/TR/webauthn-3/#dictdef-registrationresponsejson",
+      "linkingText": [
+        "RegistrationResponseJSON"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "iface-pkcredential",
+        "href": "https://www.w3.org/TR/webauthn-3/#iface-pkcredential",
+        "title": "PublicKeyCredential Interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-registrationresponsejson-id",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-registrationresponsejson-id",
+      "linkingText": [
+        "id"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RegistrationResponseJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "iface-pkcredential",
+        "href": "https://www.w3.org/TR/webauthn-3/#iface-pkcredential",
+        "title": "PublicKeyCredential Interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-registrationresponsejson-rawid",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-registrationresponsejson-rawid",
+      "linkingText": [
+        "rawId"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RegistrationResponseJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "iface-pkcredential",
+        "href": "https://www.w3.org/TR/webauthn-3/#iface-pkcredential",
+        "title": "PublicKeyCredential Interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-registrationresponsejson-response",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-registrationresponsejson-response",
+      "linkingText": [
+        "response"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RegistrationResponseJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "iface-pkcredential",
+        "href": "https://www.w3.org/TR/webauthn-3/#iface-pkcredential",
+        "title": "PublicKeyCredential Interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-registrationresponsejson-authenticatorattachment",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-registrationresponsejson-authenticatorattachment",
+      "linkingText": [
+        "authenticatorAttachment"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RegistrationResponseJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "iface-pkcredential",
+        "href": "https://www.w3.org/TR/webauthn-3/#iface-pkcredential",
+        "title": "PublicKeyCredential Interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-registrationresponsejson-clientextensionresults",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-registrationresponsejson-clientextensionresults",
+      "linkingText": [
+        "clientExtensionResults"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RegistrationResponseJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "iface-pkcredential",
+        "href": "https://www.w3.org/TR/webauthn-3/#iface-pkcredential",
+        "title": "PublicKeyCredential Interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-registrationresponsejson-type",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-registrationresponsejson-type",
+      "linkingText": [
+        "type"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RegistrationResponseJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "iface-pkcredential",
+        "href": "https://www.w3.org/TR/webauthn-3/#iface-pkcredential",
+        "title": "PublicKeyCredential Interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dictdef-authenticatorattestationresponsejson",
+      "href": "https://www.w3.org/TR/webauthn-3/#dictdef-authenticatorattestationresponsejson",
+      "linkingText": [
+        "AuthenticatorAttestationResponseJSON"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "iface-pkcredential",
+        "href": "https://www.w3.org/TR/webauthn-3/#iface-pkcredential",
+        "title": "PublicKeyCredential Interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-authenticatorattestationresponsejson-clientdatajson",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-authenticatorattestationresponsejson-clientdatajson",
+      "linkingText": [
+        "clientDataJSON"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "AuthenticatorAttestationResponseJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "iface-pkcredential",
+        "href": "https://www.w3.org/TR/webauthn-3/#iface-pkcredential",
+        "title": "PublicKeyCredential Interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-authenticatorattestationresponsejson-authenticatordata",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-authenticatorattestationresponsejson-authenticatordata",
+      "linkingText": [
+        "authenticatorData"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "AuthenticatorAttestationResponseJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "iface-pkcredential",
+        "href": "https://www.w3.org/TR/webauthn-3/#iface-pkcredential",
+        "title": "PublicKeyCredential Interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-authenticatorattestationresponsejson-transports",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-authenticatorattestationresponsejson-transports",
+      "linkingText": [
+        "transports"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "AuthenticatorAttestationResponseJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "iface-pkcredential",
+        "href": "https://www.w3.org/TR/webauthn-3/#iface-pkcredential",
+        "title": "PublicKeyCredential Interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-authenticatorattestationresponsejson-publickey",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-authenticatorattestationresponsejson-publickey",
+      "linkingText": [
+        "publicKey"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "AuthenticatorAttestationResponseJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "iface-pkcredential",
+        "href": "https://www.w3.org/TR/webauthn-3/#iface-pkcredential",
+        "title": "PublicKeyCredential Interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-authenticatorattestationresponsejson-publickeyalgorithm",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-authenticatorattestationresponsejson-publickeyalgorithm",
+      "linkingText": [
+        "publicKeyAlgorithm"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "AuthenticatorAttestationResponseJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "iface-pkcredential",
+        "href": "https://www.w3.org/TR/webauthn-3/#iface-pkcredential",
+        "title": "PublicKeyCredential Interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-authenticatorattestationresponsejson-attestationobject",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-authenticatorattestationresponsejson-attestationobject",
+      "linkingText": [
+        "attestationObject"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "AuthenticatorAttestationResponseJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "iface-pkcredential",
+        "href": "https://www.w3.org/TR/webauthn-3/#iface-pkcredential",
+        "title": "PublicKeyCredential Interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dictdef-authenticationresponsejson",
+      "href": "https://www.w3.org/TR/webauthn-3/#dictdef-authenticationresponsejson",
+      "linkingText": [
+        "AuthenticationResponseJSON"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "iface-pkcredential",
+        "href": "https://www.w3.org/TR/webauthn-3/#iface-pkcredential",
+        "title": "PublicKeyCredential Interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-authenticationresponsejson-id",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-authenticationresponsejson-id",
+      "linkingText": [
+        "id"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "AuthenticationResponseJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "iface-pkcredential",
+        "href": "https://www.w3.org/TR/webauthn-3/#iface-pkcredential",
+        "title": "PublicKeyCredential Interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-authenticationresponsejson-rawid",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-authenticationresponsejson-rawid",
+      "linkingText": [
+        "rawId"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "AuthenticationResponseJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "iface-pkcredential",
+        "href": "https://www.w3.org/TR/webauthn-3/#iface-pkcredential",
+        "title": "PublicKeyCredential Interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-authenticationresponsejson-response",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-authenticationresponsejson-response",
+      "linkingText": [
+        "response"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "AuthenticationResponseJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "iface-pkcredential",
+        "href": "https://www.w3.org/TR/webauthn-3/#iface-pkcredential",
+        "title": "PublicKeyCredential Interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-authenticationresponsejson-authenticatorattachment",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-authenticationresponsejson-authenticatorattachment",
+      "linkingText": [
+        "authenticatorAttachment"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "AuthenticationResponseJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "iface-pkcredential",
+        "href": "https://www.w3.org/TR/webauthn-3/#iface-pkcredential",
+        "title": "PublicKeyCredential Interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-authenticationresponsejson-clientextensionresults",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-authenticationresponsejson-clientextensionresults",
+      "linkingText": [
+        "clientExtensionResults"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "AuthenticationResponseJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "iface-pkcredential",
+        "href": "https://www.w3.org/TR/webauthn-3/#iface-pkcredential",
+        "title": "PublicKeyCredential Interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-authenticationresponsejson-type",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-authenticationresponsejson-type",
+      "linkingText": [
+        "type"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "AuthenticationResponseJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "iface-pkcredential",
+        "href": "https://www.w3.org/TR/webauthn-3/#iface-pkcredential",
+        "title": "PublicKeyCredential Interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dictdef-authenticatorassertionresponsejson",
+      "href": "https://www.w3.org/TR/webauthn-3/#dictdef-authenticatorassertionresponsejson",
+      "linkingText": [
+        "AuthenticatorAssertionResponseJSON"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "iface-pkcredential",
+        "href": "https://www.w3.org/TR/webauthn-3/#iface-pkcredential",
+        "title": "PublicKeyCredential Interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-authenticatorassertionresponsejson-clientdatajson",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-authenticatorassertionresponsejson-clientdatajson",
+      "linkingText": [
+        "clientDataJSON"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "AuthenticatorAssertionResponseJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "iface-pkcredential",
+        "href": "https://www.w3.org/TR/webauthn-3/#iface-pkcredential",
+        "title": "PublicKeyCredential Interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-authenticatorassertionresponsejson-authenticatordata",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-authenticatorassertionresponsejson-authenticatordata",
+      "linkingText": [
+        "authenticatorData"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "AuthenticatorAssertionResponseJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "iface-pkcredential",
+        "href": "https://www.w3.org/TR/webauthn-3/#iface-pkcredential",
+        "title": "PublicKeyCredential Interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-authenticatorassertionresponsejson-signature",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-authenticatorassertionresponsejson-signature",
+      "linkingText": [
+        "signature"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "AuthenticatorAssertionResponseJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "iface-pkcredential",
+        "href": "https://www.w3.org/TR/webauthn-3/#iface-pkcredential",
+        "title": "PublicKeyCredential Interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-authenticatorassertionresponsejson-userhandle",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-authenticatorassertionresponsejson-userhandle",
+      "linkingText": [
+        "userHandle"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "AuthenticatorAssertionResponseJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "iface-pkcredential",
+        "href": "https://www.w3.org/TR/webauthn-3/#iface-pkcredential",
+        "title": "PublicKeyCredential Interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dictdef-authenticationextensionsclientoutputsjson",
+      "href": "https://www.w3.org/TR/webauthn-3/#dictdef-authenticationextensionsclientoutputsjson",
+      "linkingText": [
+        "AuthenticationExtensionsClientOutputsJSON"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "iface-pkcredential",
+        "href": "https://www.w3.org/TR/webauthn-3/#iface-pkcredential",
+        "title": "PublicKeyCredential Interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre"
     },
     {
       "id": "dom-publickeycredential-type-slot",
@@ -1612,10 +2709,10 @@
       "heading": {
         "id": "sctn-createCredential",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-createCredential",
-        "title": "Create a New Credential - PublicKeyCredential’s [[Create]](origin, options, sameOriginWithAncestors) Method",
+        "title": "Create a New Credential - PublicKeyCredential’s [[Create]](origin, options, sameOriginWithAncestors) Internal Method",
         "number": "5.1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "heading"
     },
     {
       "id": "dom-publickeycredential-create-origin-options-sameoriginwithancestors-origin",
@@ -1633,7 +2730,7 @@
       "heading": {
         "id": "sctn-createCredential",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-createCredential",
-        "title": "Create a New Credential - PublicKeyCredential’s [[Create]](origin, options, sameOriginWithAncestors) Method",
+        "title": "Create a New Credential - PublicKeyCredential’s [[Create]](origin, options, sameOriginWithAncestors) Internal Method",
         "number": "5.1.3"
       },
       "definedIn": "dt"
@@ -1654,7 +2751,7 @@
       "heading": {
         "id": "sctn-createCredential",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-createCredential",
-        "title": "Create a New Credential - PublicKeyCredential’s [[Create]](origin, options, sameOriginWithAncestors) Method",
+        "title": "Create a New Credential - PublicKeyCredential’s [[Create]](origin, options, sameOriginWithAncestors) Internal Method",
         "number": "5.1.3"
       },
       "definedIn": "dt"
@@ -1675,7 +2772,7 @@
       "heading": {
         "id": "sctn-createCredential",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-createCredential",
-        "title": "Create a New Credential - PublicKeyCredential’s [[Create]](origin, options, sameOriginWithAncestors) Method",
+        "title": "Create a New Credential - PublicKeyCredential’s [[Create]](origin, options, sameOriginWithAncestors) Internal Method",
         "number": "5.1.3"
       },
       "definedIn": "dt"
@@ -1696,7 +2793,7 @@
       "heading": {
         "id": "sctn-createCredential",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-createCredential",
-        "title": "Create a New Credential - PublicKeyCredential’s [[Create]](origin, options, sameOriginWithAncestors) Method",
+        "title": "Create a New Credential - PublicKeyCredential’s [[Create]](origin, options, sameOriginWithAncestors) Internal Method",
         "number": "5.1.3"
       },
       "definedIn": "prose"
@@ -1715,7 +2812,7 @@
       "heading": {
         "id": "sctn-createCredential",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-createCredential",
-        "title": "Create a New Credential - PublicKeyCredential’s [[Create]](origin, options, sameOriginWithAncestors) Method",
+        "title": "Create a New Credential - PublicKeyCredential’s [[Create]](origin, options, sameOriginWithAncestors) Internal Method",
         "number": "5.1.3"
       },
       "definedIn": "prose"
@@ -1734,7 +2831,7 @@
       "heading": {
         "id": "sctn-createCredential",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-createCredential",
-        "title": "Create a New Credential - PublicKeyCredential’s [[Create]](origin, options, sameOriginWithAncestors) Method",
+        "title": "Create a New Credential - PublicKeyCredential’s [[Create]](origin, options, sameOriginWithAncestors) Internal Method",
         "number": "5.1.3"
       },
       "definedIn": "prose"
@@ -1755,7 +2852,7 @@
       "heading": {
         "id": "sctn-createCredential",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-createCredential",
-        "title": "Create a New Credential - PublicKeyCredential’s [[Create]](origin, options, sameOriginWithAncestors) Method",
+        "title": "Create a New Credential - PublicKeyCredential’s [[Create]](origin, options, sameOriginWithAncestors) Internal Method",
         "number": "5.1.3"
       },
       "definedIn": "prose"
@@ -1776,7 +2873,7 @@
       "heading": {
         "id": "sctn-createCredential",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-createCredential",
-        "title": "Create a New Credential - PublicKeyCredential’s [[Create]](origin, options, sameOriginWithAncestors) Method",
+        "title": "Create a New Credential - PublicKeyCredential’s [[Create]](origin, options, sameOriginWithAncestors) Internal Method",
         "number": "5.1.3"
       },
       "definedIn": "dt"
@@ -1797,7 +2894,7 @@
       "heading": {
         "id": "sctn-createCredential",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-createCredential",
-        "title": "Create a New Credential - PublicKeyCredential’s [[Create]](origin, options, sameOriginWithAncestors) Method",
+        "title": "Create a New Credential - PublicKeyCredential’s [[Create]](origin, options, sameOriginWithAncestors) Internal Method",
         "number": "5.1.3"
       },
       "definedIn": "dt"
@@ -1818,7 +2915,7 @@
       "heading": {
         "id": "sctn-createCredential",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-createCredential",
-        "title": "Create a New Credential - PublicKeyCredential’s [[Create]](origin, options, sameOriginWithAncestors) Method",
+        "title": "Create a New Credential - PublicKeyCredential’s [[Create]](origin, options, sameOriginWithAncestors) Internal Method",
         "number": "5.1.3"
       },
       "definedIn": "dt"
@@ -1839,31 +2936,10 @@
       "heading": {
         "id": "sctn-createCredential",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-createCredential",
-        "title": "Create a New Credential - PublicKeyCredential’s [[Create]](origin, options, sameOriginWithAncestors) Method",
+        "title": "Create a New Credential - PublicKeyCredential’s [[Create]](origin, options, sameOriginWithAncestors) Internal Method",
         "number": "5.1.3"
       },
       "definedIn": "dt"
-    },
-    {
-      "id": "dom-publickeycredential-collectfromcredentialstore-slot",
-      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredential-collectfromcredentialstore-slot",
-      "linkingText": [
-        "[[CollectFromCredentialStore]](origin, options, sameOriginWithAncestors)"
-      ],
-      "localLinkingText": [],
-      "type": "method",
-      "for": [
-        "PublicKeyCredential"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "sctn-getAssertion",
-        "href": "https://www.w3.org/TR/webauthn-3/#sctn-getAssertion",
-        "title": "Use an Existing Credential to Make an Assertion - PublicKeyCredential’s [[Get]](options) Method",
-        "number": "5.1.4"
-      },
-      "definedIn": "prose"
     },
     {
       "id": "dom-publickeycredential-discoverfromexternalsource-slot",
@@ -1881,7 +2957,7 @@
       "heading": {
         "id": "sctn-discover-from-external-source",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-discover-from-external-source",
-        "title": "PublicKeyCredential’s [[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors) Method",
+        "title": "PublicKeyCredential’s [[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors) Internal Method",
         "number": "5.1.4.1"
       },
       "definedIn": "heading"
@@ -1902,7 +2978,7 @@
       "heading": {
         "id": "sctn-discover-from-external-source",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-discover-from-external-source",
-        "title": "PublicKeyCredential’s [[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors) Method",
+        "title": "PublicKeyCredential’s [[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors) Internal Method",
         "number": "5.1.4.1"
       },
       "definedIn": "dt"
@@ -1923,7 +2999,7 @@
       "heading": {
         "id": "sctn-discover-from-external-source",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-discover-from-external-source",
-        "title": "PublicKeyCredential’s [[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors) Method",
+        "title": "PublicKeyCredential’s [[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors) Internal Method",
         "number": "5.1.4.1"
       },
       "definedIn": "dt"
@@ -1944,29 +3020,10 @@
       "heading": {
         "id": "sctn-discover-from-external-source",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-discover-from-external-source",
-        "title": "PublicKeyCredential’s [[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors) Method",
+        "title": "PublicKeyCredential’s [[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors) Internal Method",
         "number": "5.1.4.1"
       },
       "definedIn": "dt"
-    },
-    {
-      "id": "effective-user-verification-requirement-for-assertion",
-      "href": "https://www.w3.org/TR/webauthn-3/#effective-user-verification-requirement-for-assertion",
-      "linkingText": [
-        "effective user verification requirement for assertion"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "sctn-discover-from-external-source",
-        "href": "https://www.w3.org/TR/webauthn-3/#sctn-discover-from-external-source",
-        "title": "PublicKeyCredential’s [[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors) Method",
-        "number": "5.1.4.1"
-      },
-      "definedIn": "prose"
     },
     {
       "id": "assertioncreationdata-credentialidresult",
@@ -1984,7 +3041,7 @@
       "heading": {
         "id": "sctn-discover-from-external-source",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-discover-from-external-source",
-        "title": "PublicKeyCredential’s [[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors) Method",
+        "title": "PublicKeyCredential’s [[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors) Internal Method",
         "number": "5.1.4.1"
       },
       "definedIn": "dt"
@@ -2005,7 +3062,7 @@
       "heading": {
         "id": "sctn-discover-from-external-source",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-discover-from-external-source",
-        "title": "PublicKeyCredential’s [[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors) Method",
+        "title": "PublicKeyCredential’s [[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors) Internal Method",
         "number": "5.1.4.1"
       },
       "definedIn": "dt"
@@ -2026,7 +3083,7 @@
       "heading": {
         "id": "sctn-discover-from-external-source",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-discover-from-external-source",
-        "title": "PublicKeyCredential’s [[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors) Method",
+        "title": "PublicKeyCredential’s [[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors) Internal Method",
         "number": "5.1.4.1"
       },
       "definedIn": "dt"
@@ -2047,7 +3104,7 @@
       "heading": {
         "id": "sctn-discover-from-external-source",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-discover-from-external-source",
-        "title": "PublicKeyCredential’s [[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors) Method",
+        "title": "PublicKeyCredential’s [[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors) Internal Method",
         "number": "5.1.4.1"
       },
       "definedIn": "dt"
@@ -2068,7 +3125,7 @@
       "heading": {
         "id": "sctn-discover-from-external-source",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-discover-from-external-source",
-        "title": "PublicKeyCredential’s [[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors) Method",
+        "title": "PublicKeyCredential’s [[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors) Internal Method",
         "number": "5.1.4.1"
       },
       "definedIn": "dt"
@@ -2089,10 +3146,176 @@
       "heading": {
         "id": "sctn-discover-from-external-source",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-discover-from-external-source",
-        "title": "PublicKeyCredential’s [[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors) Method",
+        "title": "PublicKeyCredential’s [[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors) Internal Method",
         "number": "5.1.4.1"
       },
       "definedIn": "dt"
+    },
+    {
+      "id": "publickeycredential-issuing-a-credential-request-to-an-authenticator",
+      "href": "https://www.w3.org/TR/webauthn-3/#publickeycredential-issuing-a-credential-request-to-an-authenticator",
+      "linkingText": [
+        "Issuing a Credential Request to an Authenticator"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "PublicKeyCredential"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-issuing-cred-request-to-authenticator",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-issuing-cred-request-to-authenticator",
+        "title": "Issuing a Credential Request to an Authenticator",
+        "number": "5.1.4.2"
+      },
+      "definedIn": "heading"
+    },
+    {
+      "id": "dom-issuing-a-credential-request-to-an-authenticator-authenticator",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-issuing-a-credential-request-to-an-authenticator-authenticator",
+      "linkingText": [
+        "authenticator"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Issuing a credential request to an authenticator"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-issuing-cred-request-to-authenticator",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-issuing-cred-request-to-authenticator",
+        "title": "Issuing a Credential Request to an Authenticator",
+        "number": "5.1.4.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-issuing-a-credential-request-to-an-authenticator-savedcredentialids",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-issuing-a-credential-request-to-an-authenticator-savedcredentialids",
+      "linkingText": [
+        "savedCredentialIds"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Issuing a credential request to an authenticator"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-issuing-cred-request-to-authenticator",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-issuing-cred-request-to-authenticator",
+        "title": "Issuing a Credential Request to an Authenticator",
+        "number": "5.1.4.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-issuing-a-credential-request-to-an-authenticator-pkoptions",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-issuing-a-credential-request-to-an-authenticator-pkoptions",
+      "linkingText": [
+        "pkOptions"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Issuing a credential request to an authenticator"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-issuing-cred-request-to-authenticator",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-issuing-cred-request-to-authenticator",
+        "title": "Issuing a Credential Request to an Authenticator",
+        "number": "5.1.4.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-issuing-a-credential-request-to-an-authenticator-rpid",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-issuing-a-credential-request-to-an-authenticator-rpid",
+      "linkingText": [
+        "rpId"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Issuing a credential request to an authenticator"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-issuing-cred-request-to-authenticator",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-issuing-cred-request-to-authenticator",
+        "title": "Issuing a Credential Request to an Authenticator",
+        "number": "5.1.4.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-issuing-a-credential-request-to-an-authenticator-clientdatahash",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-issuing-a-credential-request-to-an-authenticator-clientdatahash",
+      "linkingText": [
+        "clientDataHash"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Issuing a credential request to an authenticator"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-issuing-cred-request-to-authenticator",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-issuing-cred-request-to-authenticator",
+        "title": "Issuing a Credential Request to an Authenticator",
+        "number": "5.1.4.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-issuing-a-credential-request-to-an-authenticator-authenticatorextensions",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-issuing-a-credential-request-to-an-authenticator-authenticatorextensions",
+      "linkingText": [
+        "authenticatorExtensions"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Issuing a credential request to an authenticator"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-issuing-cred-request-to-authenticator",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-issuing-cred-request-to-authenticator",
+        "title": "Issuing a Credential Request to an Authenticator",
+        "number": "5.1.4.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "effective-user-verification-requirement-for-assertion",
+      "href": "https://www.w3.org/TR/webauthn-3/#effective-user-verification-requirement-for-assertion",
+      "linkingText": [
+        "effective user verification requirement for assertion"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-issuing-cred-request-to-authenticator",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-issuing-cred-request-to-authenticator",
+        "title": "Issuing a Credential Request to an Authenticator",
+        "number": "5.1.4.2"
+      },
+      "definedIn": "prose"
     },
     {
       "id": "dom-publickeycredential-store-slot",
@@ -2110,7 +3333,7 @@
       "heading": {
         "id": "sctn-storeCredential",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-storeCredential",
-        "title": "Store an Existing Credential - PublicKeyCredential’s [[Store]](credential, sameOriginWithAncestors) Method",
+        "title": "Store an Existing Credential - PublicKeyCredential’s [[Store]](credential, sameOriginWithAncestors) Internal Method",
         "number": "5.1.5"
       },
       "definedIn": "prose"
@@ -2131,7 +3354,7 @@
       "heading": {
         "id": "sctn-storeCredential",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-storeCredential",
-        "title": "Store an Existing Credential - PublicKeyCredential’s [[Store]](credential, sameOriginWithAncestors) Method",
+        "title": "Store an Existing Credential - PublicKeyCredential’s [[Store]](credential, sameOriginWithAncestors) Internal Method",
         "number": "5.1.5"
       },
       "definedIn": "dt"
@@ -2152,31 +3375,10 @@
       "heading": {
         "id": "sctn-storeCredential",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-storeCredential",
-        "title": "Store an Existing Credential - PublicKeyCredential’s [[Store]](credential, sameOriginWithAncestors) Method",
+        "title": "Store an Existing Credential - PublicKeyCredential’s [[Store]](credential, sameOriginWithAncestors) Internal Method",
         "number": "5.1.5"
       },
       "definedIn": "dt"
-    },
-    {
-      "id": "dom-publickeycredential-preventsilentaccess-slot",
-      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredential-preventsilentaccess-slot",
-      "linkingText": [
-        "[[preventSilentAccess]](credential, sameOriginWithAncestors)"
-      ],
-      "localLinkingText": [],
-      "type": "method",
-      "for": [
-        "PublicKeyCredential"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "sctn-preventSilentAccessCredential",
-        "href": "https://www.w3.org/TR/webauthn-3/#sctn-preventSilentAccessCredential",
-        "title": "Preventing Silent Access to an Existing Credential - PublicKeyCredential’s [[preventSilentAccess]](credential, sameOriginWithAncestors) Method",
-        "number": "5.1.6"
-      },
-      "definedIn": "prose"
     },
     {
       "id": "dom-publickeycredential-isuserverifyingplatformauthenticatoravailable",
@@ -2195,9 +3397,1226 @@
         "id": "sctn-isUserVerifyingPlatformAuthenticatorAvailable",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-isUserVerifyingPlatformAuthenticatorAvailable",
         "title": "Availability of User-Verifying Platform Authenticator - PublicKeyCredential’s isUserVerifyingPlatformAuthenticatorAvailable() Method",
+        "number": "5.1.6"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredential-getclientcapabilities",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredential-getclientcapabilities",
+      "linkingText": [
+        "getClientCapabilities()"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "PublicKeyCredential"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-getClientCapabilities",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-getClientCapabilities",
+        "title": "Availability of client capabilities - PublicKeyCredential’s getClientCapabilities() Method",
         "number": "5.1.7"
       },
       "definedIn": "pre"
+    },
+    {
+      "id": "typedefdef-publickeycredentialclientcapabilities",
+      "href": "https://www.w3.org/TR/webauthn-3/#typedefdef-publickeycredentialclientcapabilities",
+      "linkingText": [
+        "PublicKeyCredentialClientCapabilities"
+      ],
+      "localLinkingText": [],
+      "type": "typedef",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-getClientCapabilities",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-getClientCapabilities",
+        "title": "Availability of client capabilities - PublicKeyCredential’s getClientCapabilities() Method",
+        "number": "5.1.7"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredential-parsecreationoptionsfromjson",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredential-parsecreationoptionsfromjson",
+      "linkingText": [
+        "parseCreationOptionsFromJSON(options)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "PublicKeyCredential"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-parseCreationOptionsFromJSON",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseCreationOptionsFromJSON",
+        "title": "Deserialize Registration ceremony options - PublicKeyCredential’s parseCreationOptionsFromJSON() Method",
+        "number": "5.1.8"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredential-parsecreationoptionsfromjson-options-options",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredential-parsecreationoptionsfromjson-options-options",
+      "linkingText": [
+        "options"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "PublicKeyCredential/parseCreationOptionsFromJSON(options)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-parseCreationOptionsFromJSON",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseCreationOptionsFromJSON",
+        "title": "Deserialize Registration ceremony options - PublicKeyCredential’s parseCreationOptionsFromJSON() Method",
+        "number": "5.1.8"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dictdef-publickeycredentialcreationoptionsjson",
+      "href": "https://www.w3.org/TR/webauthn-3/#dictdef-publickeycredentialcreationoptionsjson",
+      "linkingText": [
+        "PublicKeyCredentialCreationOptionsJSON"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-parseCreationOptionsFromJSON",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseCreationOptionsFromJSON",
+        "title": "Deserialize Registration ceremony options - PublicKeyCredential’s parseCreationOptionsFromJSON() Method",
+        "number": "5.1.8"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredentialcreationoptionsjson-rp",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialcreationoptionsjson-rp",
+      "linkingText": [
+        "rp"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "PublicKeyCredentialCreationOptionsJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-parseCreationOptionsFromJSON",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseCreationOptionsFromJSON",
+        "title": "Deserialize Registration ceremony options - PublicKeyCredential’s parseCreationOptionsFromJSON() Method",
+        "number": "5.1.8"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredentialcreationoptionsjson-user",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialcreationoptionsjson-user",
+      "linkingText": [
+        "user"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "PublicKeyCredentialCreationOptionsJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-parseCreationOptionsFromJSON",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseCreationOptionsFromJSON",
+        "title": "Deserialize Registration ceremony options - PublicKeyCredential’s parseCreationOptionsFromJSON() Method",
+        "number": "5.1.8"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredentialcreationoptionsjson-challenge",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialcreationoptionsjson-challenge",
+      "linkingText": [
+        "challenge"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "PublicKeyCredentialCreationOptionsJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-parseCreationOptionsFromJSON",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseCreationOptionsFromJSON",
+        "title": "Deserialize Registration ceremony options - PublicKeyCredential’s parseCreationOptionsFromJSON() Method",
+        "number": "5.1.8"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredentialcreationoptionsjson-pubkeycredparams",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialcreationoptionsjson-pubkeycredparams",
+      "linkingText": [
+        "pubKeyCredParams"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "PublicKeyCredentialCreationOptionsJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-parseCreationOptionsFromJSON",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseCreationOptionsFromJSON",
+        "title": "Deserialize Registration ceremony options - PublicKeyCredential’s parseCreationOptionsFromJSON() Method",
+        "number": "5.1.8"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredentialcreationoptionsjson-timeout",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialcreationoptionsjson-timeout",
+      "linkingText": [
+        "timeout"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "PublicKeyCredentialCreationOptionsJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-parseCreationOptionsFromJSON",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseCreationOptionsFromJSON",
+        "title": "Deserialize Registration ceremony options - PublicKeyCredential’s parseCreationOptionsFromJSON() Method",
+        "number": "5.1.8"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredentialcreationoptionsjson-excludecredentials",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialcreationoptionsjson-excludecredentials",
+      "linkingText": [
+        "excludeCredentials"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "PublicKeyCredentialCreationOptionsJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-parseCreationOptionsFromJSON",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseCreationOptionsFromJSON",
+        "title": "Deserialize Registration ceremony options - PublicKeyCredential’s parseCreationOptionsFromJSON() Method",
+        "number": "5.1.8"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredentialcreationoptionsjson-authenticatorselection",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialcreationoptionsjson-authenticatorselection",
+      "linkingText": [
+        "authenticatorSelection"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "PublicKeyCredentialCreationOptionsJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-parseCreationOptionsFromJSON",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseCreationOptionsFromJSON",
+        "title": "Deserialize Registration ceremony options - PublicKeyCredential’s parseCreationOptionsFromJSON() Method",
+        "number": "5.1.8"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredentialcreationoptionsjson-hints",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialcreationoptionsjson-hints",
+      "linkingText": [
+        "hints"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "PublicKeyCredentialCreationOptionsJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-parseCreationOptionsFromJSON",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseCreationOptionsFromJSON",
+        "title": "Deserialize Registration ceremony options - PublicKeyCredential’s parseCreationOptionsFromJSON() Method",
+        "number": "5.1.8"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredentialcreationoptionsjson-attestation",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialcreationoptionsjson-attestation",
+      "linkingText": [
+        "attestation"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "PublicKeyCredentialCreationOptionsJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-parseCreationOptionsFromJSON",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseCreationOptionsFromJSON",
+        "title": "Deserialize Registration ceremony options - PublicKeyCredential’s parseCreationOptionsFromJSON() Method",
+        "number": "5.1.8"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredentialcreationoptionsjson-attestationformats",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialcreationoptionsjson-attestationformats",
+      "linkingText": [
+        "attestationFormats"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "PublicKeyCredentialCreationOptionsJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-parseCreationOptionsFromJSON",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseCreationOptionsFromJSON",
+        "title": "Deserialize Registration ceremony options - PublicKeyCredential’s parseCreationOptionsFromJSON() Method",
+        "number": "5.1.8"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredentialcreationoptionsjson-extensions",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialcreationoptionsjson-extensions",
+      "linkingText": [
+        "extensions"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "PublicKeyCredentialCreationOptionsJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-parseCreationOptionsFromJSON",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseCreationOptionsFromJSON",
+        "title": "Deserialize Registration ceremony options - PublicKeyCredential’s parseCreationOptionsFromJSON() Method",
+        "number": "5.1.8"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dictdef-publickeycredentialuserentityjson",
+      "href": "https://www.w3.org/TR/webauthn-3/#dictdef-publickeycredentialuserentityjson",
+      "linkingText": [
+        "PublicKeyCredentialUserEntityJSON"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-parseCreationOptionsFromJSON",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseCreationOptionsFromJSON",
+        "title": "Deserialize Registration ceremony options - PublicKeyCredential’s parseCreationOptionsFromJSON() Method",
+        "number": "5.1.8"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredentialuserentityjson-id",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialuserentityjson-id",
+      "linkingText": [
+        "id"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "PublicKeyCredentialUserEntityJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-parseCreationOptionsFromJSON",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseCreationOptionsFromJSON",
+        "title": "Deserialize Registration ceremony options - PublicKeyCredential’s parseCreationOptionsFromJSON() Method",
+        "number": "5.1.8"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredentialuserentityjson-name",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialuserentityjson-name",
+      "linkingText": [
+        "name"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "PublicKeyCredentialUserEntityJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-parseCreationOptionsFromJSON",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseCreationOptionsFromJSON",
+        "title": "Deserialize Registration ceremony options - PublicKeyCredential’s parseCreationOptionsFromJSON() Method",
+        "number": "5.1.8"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredentialuserentityjson-displayname",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialuserentityjson-displayname",
+      "linkingText": [
+        "displayName"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "PublicKeyCredentialUserEntityJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-parseCreationOptionsFromJSON",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseCreationOptionsFromJSON",
+        "title": "Deserialize Registration ceremony options - PublicKeyCredential’s parseCreationOptionsFromJSON() Method",
+        "number": "5.1.8"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dictdef-publickeycredentialdescriptorjson",
+      "href": "https://www.w3.org/TR/webauthn-3/#dictdef-publickeycredentialdescriptorjson",
+      "linkingText": [
+        "PublicKeyCredentialDescriptorJSON"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-parseCreationOptionsFromJSON",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseCreationOptionsFromJSON",
+        "title": "Deserialize Registration ceremony options - PublicKeyCredential’s parseCreationOptionsFromJSON() Method",
+        "number": "5.1.8"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredentialdescriptorjson-type",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialdescriptorjson-type",
+      "linkingText": [
+        "type"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "PublicKeyCredentialDescriptorJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-parseCreationOptionsFromJSON",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseCreationOptionsFromJSON",
+        "title": "Deserialize Registration ceremony options - PublicKeyCredential’s parseCreationOptionsFromJSON() Method",
+        "number": "5.1.8"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredentialdescriptorjson-id",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialdescriptorjson-id",
+      "linkingText": [
+        "id"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "PublicKeyCredentialDescriptorJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-parseCreationOptionsFromJSON",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseCreationOptionsFromJSON",
+        "title": "Deserialize Registration ceremony options - PublicKeyCredential’s parseCreationOptionsFromJSON() Method",
+        "number": "5.1.8"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredentialdescriptorjson-transports",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialdescriptorjson-transports",
+      "linkingText": [
+        "transports"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "PublicKeyCredentialDescriptorJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-parseCreationOptionsFromJSON",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseCreationOptionsFromJSON",
+        "title": "Deserialize Registration ceremony options - PublicKeyCredential’s parseCreationOptionsFromJSON() Method",
+        "number": "5.1.8"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dictdef-authenticationextensionsclientinputsjson",
+      "href": "https://www.w3.org/TR/webauthn-3/#dictdef-authenticationextensionsclientinputsjson",
+      "linkingText": [
+        "AuthenticationExtensionsClientInputsJSON"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-parseCreationOptionsFromJSON",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseCreationOptionsFromJSON",
+        "title": "Deserialize Registration ceremony options - PublicKeyCredential’s parseCreationOptionsFromJSON() Method",
+        "number": "5.1.8"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredential-parserequestoptionsfromjson",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredential-parserequestoptionsfromjson",
+      "linkingText": [
+        "parseRequestOptionsFromJSON(options)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "PublicKeyCredential"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-parseRequestOptionsFromJSON",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseRequestOptionsFromJSON",
+        "title": "Deserialize Authentication ceremony options - PublicKeyCredential’s parseRequestOptionsFromJSON() Methods",
+        "number": "5.1.9"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredential-parserequestoptionsfromjson-options-options",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredential-parserequestoptionsfromjson-options-options",
+      "linkingText": [
+        "options"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "PublicKeyCredential/parseRequestOptionsFromJSON(options)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-parseRequestOptionsFromJSON",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseRequestOptionsFromJSON",
+        "title": "Deserialize Authentication ceremony options - PublicKeyCredential’s parseRequestOptionsFromJSON() Methods",
+        "number": "5.1.9"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dictdef-publickeycredentialrequestoptionsjson",
+      "href": "https://www.w3.org/TR/webauthn-3/#dictdef-publickeycredentialrequestoptionsjson",
+      "linkingText": [
+        "PublicKeyCredentialRequestOptionsJSON"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-parseRequestOptionsFromJSON",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseRequestOptionsFromJSON",
+        "title": "Deserialize Authentication ceremony options - PublicKeyCredential’s parseRequestOptionsFromJSON() Methods",
+        "number": "5.1.9"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredentialrequestoptionsjson-challenge",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialrequestoptionsjson-challenge",
+      "linkingText": [
+        "challenge"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "PublicKeyCredentialRequestOptionsJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-parseRequestOptionsFromJSON",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseRequestOptionsFromJSON",
+        "title": "Deserialize Authentication ceremony options - PublicKeyCredential’s parseRequestOptionsFromJSON() Methods",
+        "number": "5.1.9"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredentialrequestoptionsjson-timeout",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialrequestoptionsjson-timeout",
+      "linkingText": [
+        "timeout"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "PublicKeyCredentialRequestOptionsJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-parseRequestOptionsFromJSON",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseRequestOptionsFromJSON",
+        "title": "Deserialize Authentication ceremony options - PublicKeyCredential’s parseRequestOptionsFromJSON() Methods",
+        "number": "5.1.9"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredentialrequestoptionsjson-rpid",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialrequestoptionsjson-rpid",
+      "linkingText": [
+        "rpId"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "PublicKeyCredentialRequestOptionsJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-parseRequestOptionsFromJSON",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseRequestOptionsFromJSON",
+        "title": "Deserialize Authentication ceremony options - PublicKeyCredential’s parseRequestOptionsFromJSON() Methods",
+        "number": "5.1.9"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredentialrequestoptionsjson-allowcredentials",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialrequestoptionsjson-allowcredentials",
+      "linkingText": [
+        "allowCredentials"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "PublicKeyCredentialRequestOptionsJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-parseRequestOptionsFromJSON",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseRequestOptionsFromJSON",
+        "title": "Deserialize Authentication ceremony options - PublicKeyCredential’s parseRequestOptionsFromJSON() Methods",
+        "number": "5.1.9"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredentialrequestoptionsjson-userverification",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialrequestoptionsjson-userverification",
+      "linkingText": [
+        "userVerification"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "PublicKeyCredentialRequestOptionsJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-parseRequestOptionsFromJSON",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseRequestOptionsFromJSON",
+        "title": "Deserialize Authentication ceremony options - PublicKeyCredential’s parseRequestOptionsFromJSON() Methods",
+        "number": "5.1.9"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredentialrequestoptionsjson-hints",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialrequestoptionsjson-hints",
+      "linkingText": [
+        "hints"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "PublicKeyCredentialRequestOptionsJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-parseRequestOptionsFromJSON",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseRequestOptionsFromJSON",
+        "title": "Deserialize Authentication ceremony options - PublicKeyCredential’s parseRequestOptionsFromJSON() Methods",
+        "number": "5.1.9"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredentialrequestoptionsjson-extensions",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialrequestoptionsjson-extensions",
+      "linkingText": [
+        "extensions"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "PublicKeyCredentialRequestOptionsJSON"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-parseRequestOptionsFromJSON",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseRequestOptionsFromJSON",
+        "title": "Deserialize Authentication ceremony options - PublicKeyCredential’s parseRequestOptionsFromJSON() Methods",
+        "number": "5.1.9"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredential-signalunknowncredential",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredential-signalunknowncredential",
+      "linkingText": [
+        "signalUnknownCredential(options)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "PublicKeyCredential"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-signal-methods",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-signal-methods",
+        "title": "Signal Credential Changes to the Authenticator - PublicKeyCredential’s signal methods",
+        "number": "5.1.10"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredential-signalunknowncredential-options-options",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredential-signalunknowncredential-options-options",
+      "linkingText": [
+        "options"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "PublicKeyCredential/signalUnknownCredential(options)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-signal-methods",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-signal-methods",
+        "title": "Signal Credential Changes to the Authenticator - PublicKeyCredential’s signal methods",
+        "number": "5.1.10"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredential-signalallacceptedcredentials",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredential-signalallacceptedcredentials",
+      "linkingText": [
+        "signalAllAcceptedCredentials(options)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "PublicKeyCredential"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-signal-methods",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-signal-methods",
+        "title": "Signal Credential Changes to the Authenticator - PublicKeyCredential’s signal methods",
+        "number": "5.1.10"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredential-signalallacceptedcredentials-options-options",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredential-signalallacceptedcredentials-options-options",
+      "linkingText": [
+        "options"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "PublicKeyCredential/signalAllAcceptedCredentials(options)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-signal-methods",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-signal-methods",
+        "title": "Signal Credential Changes to the Authenticator - PublicKeyCredential’s signal methods",
+        "number": "5.1.10"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredential-signalcurrentuserdetails",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredential-signalcurrentuserdetails",
+      "linkingText": [
+        "signalCurrentUserDetails(options)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "PublicKeyCredential"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-signal-methods",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-signal-methods",
+        "title": "Signal Credential Changes to the Authenticator - PublicKeyCredential’s signal methods",
+        "number": "5.1.10"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-publickeycredential-signalcurrentuserdetails-options-options",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredential-signalcurrentuserdetails-options-options",
+      "linkingText": [
+        "options"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "PublicKeyCredential/signalCurrentUserDetails(options)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-signal-methods",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-signal-methods",
+        "title": "Signal Credential Changes to the Authenticator - PublicKeyCredential’s signal methods",
+        "number": "5.1.10"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dictdef-unknowncredentialoptions",
+      "href": "https://www.w3.org/TR/webauthn-3/#dictdef-unknowncredentialoptions",
+      "linkingText": [
+        "UnknownCredentialOptions"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-signal-methods",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-signal-methods",
+        "title": "Signal Credential Changes to the Authenticator - PublicKeyCredential’s signal methods",
+        "number": "5.1.10"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-unknowncredentialoptions-rpid",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-unknowncredentialoptions-rpid",
+      "linkingText": [
+        "rpId"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "UnknownCredentialOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-signal-methods",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-signal-methods",
+        "title": "Signal Credential Changes to the Authenticator - PublicKeyCredential’s signal methods",
+        "number": "5.1.10"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-unknowncredentialoptions-credentialid",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-unknowncredentialoptions-credentialid",
+      "linkingText": [
+        "credentialId"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "UnknownCredentialOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-signal-methods",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-signal-methods",
+        "title": "Signal Credential Changes to the Authenticator - PublicKeyCredential’s signal methods",
+        "number": "5.1.10"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dictdef-allacceptedcredentialsoptions",
+      "href": "https://www.w3.org/TR/webauthn-3/#dictdef-allacceptedcredentialsoptions",
+      "linkingText": [
+        "AllAcceptedCredentialsOptions"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-signal-methods",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-signal-methods",
+        "title": "Signal Credential Changes to the Authenticator - PublicKeyCredential’s signal methods",
+        "number": "5.1.10"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-allacceptedcredentialsoptions-rpid",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-allacceptedcredentialsoptions-rpid",
+      "linkingText": [
+        "rpId"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "AllAcceptedCredentialsOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-signal-methods",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-signal-methods",
+        "title": "Signal Credential Changes to the Authenticator - PublicKeyCredential’s signal methods",
+        "number": "5.1.10"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-allacceptedcredentialsoptions-userid",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-allacceptedcredentialsoptions-userid",
+      "linkingText": [
+        "userId"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "AllAcceptedCredentialsOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-signal-methods",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-signal-methods",
+        "title": "Signal Credential Changes to the Authenticator - PublicKeyCredential’s signal methods",
+        "number": "5.1.10"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-allacceptedcredentialsoptions-allacceptedcredentialids",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-allacceptedcredentialsoptions-allacceptedcredentialids",
+      "linkingText": [
+        "allAcceptedCredentialIds"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "AllAcceptedCredentialsOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-signal-methods",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-signal-methods",
+        "title": "Signal Credential Changes to the Authenticator - PublicKeyCredential’s signal methods",
+        "number": "5.1.10"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dictdef-currentuserdetailsoptions",
+      "href": "https://www.w3.org/TR/webauthn-3/#dictdef-currentuserdetailsoptions",
+      "linkingText": [
+        "CurrentUserDetailsOptions"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-signal-methods",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-signal-methods",
+        "title": "Signal Credential Changes to the Authenticator - PublicKeyCredential’s signal methods",
+        "number": "5.1.10"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-currentuserdetailsoptions-rpid",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-currentuserdetailsoptions-rpid",
+      "linkingText": [
+        "rpId"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "CurrentUserDetailsOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-signal-methods",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-signal-methods",
+        "title": "Signal Credential Changes to the Authenticator - PublicKeyCredential’s signal methods",
+        "number": "5.1.10"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-currentuserdetailsoptions-userid",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-currentuserdetailsoptions-userid",
+      "linkingText": [
+        "userId"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "CurrentUserDetailsOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-signal-methods",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-signal-methods",
+        "title": "Signal Credential Changes to the Authenticator - PublicKeyCredential’s signal methods",
+        "number": "5.1.10"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-currentuserdetailsoptions-name",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-currentuserdetailsoptions-name",
+      "linkingText": [
+        "name"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "CurrentUserDetailsOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-signal-methods",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-signal-methods",
+        "title": "Signal Credential Changes to the Authenticator - PublicKeyCredential’s signal methods",
+        "number": "5.1.10"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-currentuserdetailsoptions-displayname",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-currentuserdetailsoptions-displayname",
+      "linkingText": [
+        "displayName"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "CurrentUserDetailsOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-signal-methods",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-signal-methods",
+        "title": "Signal Credential Changes to the Authenticator - PublicKeyCredential’s signal methods",
+        "number": "5.1.10"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "signal-methods",
+      "href": "https://www.w3.org/TR/webauthn-3/#signal-methods",
+      "linkingText": [
+        "signal methods"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-signal-methods",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-signal-methods",
+        "title": "Signal Credential Changes to the Authenticator - PublicKeyCredential’s signal methods",
+        "number": "5.1.10"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "signal-method-authenticator-actions",
+      "href": "https://www.w3.org/TR/webauthn-3/#signal-method-authenticator-actions",
+      "linkingText": [
+        "authenticator actions"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "signal method"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-signal-methods",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-signal-methods",
+        "title": "Signal Credential Changes to the Authenticator - PublicKeyCredential’s signal methods",
+        "number": "5.1.10"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "abstract-opdef-asynchronous-rp-id-validation-algorithm",
+      "href": "https://www.w3.org/TR/webauthn-3/#abstract-opdef-asynchronous-rp-id-validation-algorithm",
+      "linkingText": [
+        "Asynchronous RP ID validation algorithm"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-signal-methods-async-rp-id-validation",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-signal-methods-async-rp-id-validation",
+        "title": "Asynchronous RP ID validation algorithm",
+        "number": "5.1.10.1"
+      },
+      "definedIn": "heading"
+    },
+    {
+      "id": "signal-method-authenticator-action-unknowncredentialid",
+      "href": "https://www.w3.org/TR/webauthn-3/#signal-method-authenticator-action-unknowncredentialid",
+      "linkingText": [
+        "unknownCredentialId"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "signal method/authenticator action"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-signalUnknownCredential",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-signalUnknownCredential",
+        "title": "signalUnknownCredential(options)",
+        "number": "5.1.10.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "signal-method-authenticator-actions-allacceptedcredentialids",
+      "href": "https://www.w3.org/TR/webauthn-3/#signal-method-authenticator-actions-allacceptedcredentialids",
+      "linkingText": [
+        "allAcceptedCredentialIds"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "signal method/authenticator actions"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-signalAllAcceptedCredentials",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-signalAllAcceptedCredentials",
+        "title": "signalAllAcceptedCredentials(options)",
+        "number": "5.1.10.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "signal-method-authenticator-actions-currentuserdetails",
+      "href": "https://www.w3.org/TR/webauthn-3/#signal-method-authenticator-actions-currentuserdetails",
+      "linkingText": [
+        "currentUserDetails"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "signal method/authenticator actions"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-signalCurrentUserDetails",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-signalCurrentUserDetails",
+        "title": "signalCurrentUserDetails(options)",
+        "number": "5.1.10.4"
+      },
+      "definedIn": "prose"
     },
     {
       "id": "authenticatorresponse",
@@ -2694,10 +5113,52 @@
       "definedIn": "dt"
     },
     {
+      "id": "dom-publickeycredentialcreationoptions-hints",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialcreationoptions-hints",
+      "linkingText": [
+        "hints"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "PublicKeyCredentialCreationOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dictionary-makecredentialoptions",
+        "href": "https://www.w3.org/TR/webauthn-3/#dictionary-makecredentialoptions",
+        "title": "Options for Credential Creation (dictionary PublicKeyCredentialCreationOptions)",
+        "number": "5.4"
+      },
+      "definedIn": "dt"
+    },
+    {
       "id": "dom-publickeycredentialcreationoptions-attestation",
       "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialcreationoptions-attestation",
       "linkingText": [
         "attestation"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "PublicKeyCredentialCreationOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dictionary-makecredentialoptions",
+        "href": "https://www.w3.org/TR/webauthn-3/#dictionary-makecredentialoptions",
+        "title": "Options for Credential Creation (dictionary PublicKeyCredentialCreationOptions)",
+        "number": "5.4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-publickeycredentialcreationoptions-attestationformats",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialcreationoptions-attestationformats",
+      "linkingText": [
+        "attestationFormats"
       ],
       "localLinkingText": [],
       "type": "dict-member",
@@ -3378,6 +5839,27 @@
       "definedIn": "dt"
     },
     {
+      "id": "dom-publickeycredentialrequestoptions-hints",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialrequestoptions-hints",
+      "linkingText": [
+        "hints"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "PublicKeyCredentialRequestOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dictionary-assertion-options",
+        "href": "https://www.w3.org/TR/webauthn-3/#dictionary-assertion-options",
+        "title": "Options for Assertion Generation (dictionary PublicKeyCredentialRequestOptions)",
+        "number": "5.5"
+      },
+      "definedIn": "dt"
+    },
+    {
       "id": "dom-publickeycredentialrequestoptions-extensions",
       "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialrequestoptions-extensions",
       "linkingText": [
@@ -3597,10 +6079,10 @@
       "definedIn": "dt"
     },
     {
-      "id": "dom-collectedclientdata-tokenbinding",
-      "href": "https://www.w3.org/TR/webauthn-3/#dom-collectedclientdata-tokenbinding",
+      "id": "dom-collectedclientdata-toporigin",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-collectedclientdata-toporigin",
       "linkingText": [
-        "tokenBinding"
+        "topOrigin"
       ],
       "localLinkingText": [],
       "type": "dict-member",
@@ -3608,6 +6090,27 @@
         "CollectedClientData"
       ],
       "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dictionary-client-data",
+        "href": "https://www.w3.org/TR/webauthn-3/#dictionary-client-data",
+        "title": "Client Data Used in WebAuthn Signatures (dictionary CollectedClientData)",
+        "number": "5.8.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-collectedclientdata-tokenbinding",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-collectedclientdata-tokenbinding",
+      "linkingText": [
+        "tokenBinding"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "CollectedClientData"
+      ],
+      "access": "private",
       "informative": false,
       "heading": {
         "id": "dictionary-client-data",
@@ -3973,6 +6476,50 @@
       "definedIn": "dt"
     },
     {
+      "id": "dom-authenticatortransport-smart-card",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-authenticatortransport-smart-card",
+      "linkingText": [
+        "\"smart-card\"",
+        "smart-card"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "AuthenticatorTransport"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "enum-transport",
+        "href": "https://www.w3.org/TR/webauthn-3/#enum-transport",
+        "title": "Authenticator Transport Enumeration (enum AuthenticatorTransport)",
+        "number": "5.8.4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-authenticatortransport-hybrid",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-authenticatortransport-hybrid",
+      "linkingText": [
+        "\"hybrid\"",
+        "hybrid"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "AuthenticatorTransport"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "enum-transport",
+        "href": "https://www.w3.org/TR/webauthn-3/#enum-transport",
+        "title": "Authenticator Transport Enumeration (enum AuthenticatorTransport)",
+        "number": "5.8.4"
+      },
+      "definedIn": "dt"
+    },
+    {
       "id": "dom-authenticatortransport-internal",
       "href": "https://www.w3.org/TR/webauthn-3/#dom-authenticatortransport-internal",
       "linkingText": [
@@ -4099,6 +6646,327 @@
       "definedIn": "dt"
     },
     {
+      "id": "enumdef-clientcapability",
+      "href": "https://www.w3.org/TR/webauthn-3/#enumdef-clientcapability",
+      "linkingText": [
+        "ClientCapability"
+      ],
+      "localLinkingText": [],
+      "type": "enum",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "enum-clientCapability",
+        "href": "https://www.w3.org/TR/webauthn-3/#enum-clientCapability",
+        "title": "Client Capability Enumeration (enum ClientCapability)",
+        "number": "5.8.7"
+      },
+      "definedIn": "heading"
+    },
+    {
+      "id": "dom-clientcapability-conditionalcreate",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-clientcapability-conditionalcreate",
+      "linkingText": [
+        "\"conditionalCreate\"",
+        "conditionalCreate"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "ClientCapability"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "enum-clientCapability",
+        "href": "https://www.w3.org/TR/webauthn-3/#enum-clientCapability",
+        "title": "Client Capability Enumeration (enum ClientCapability)",
+        "number": "5.8.7"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-clientcapability-conditionalget",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-clientcapability-conditionalget",
+      "linkingText": [
+        "\"conditionalGet\"",
+        "conditionalGet"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "ClientCapability"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "enum-clientCapability",
+        "href": "https://www.w3.org/TR/webauthn-3/#enum-clientCapability",
+        "title": "Client Capability Enumeration (enum ClientCapability)",
+        "number": "5.8.7"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-clientcapability-hybridtransport",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-clientcapability-hybridtransport",
+      "linkingText": [
+        "\"hybridTransport\"",
+        "hybridTransport"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "ClientCapability"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "enum-clientCapability",
+        "href": "https://www.w3.org/TR/webauthn-3/#enum-clientCapability",
+        "title": "Client Capability Enumeration (enum ClientCapability)",
+        "number": "5.8.7"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-clientcapability-passkeyplatformauthenticator",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-clientcapability-passkeyplatformauthenticator",
+      "linkingText": [
+        "\"passkeyPlatformAuthenticator\"",
+        "passkeyPlatformAuthenticator"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "ClientCapability"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "enum-clientCapability",
+        "href": "https://www.w3.org/TR/webauthn-3/#enum-clientCapability",
+        "title": "Client Capability Enumeration (enum ClientCapability)",
+        "number": "5.8.7"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-clientcapability-userverifyingplatformauthenticator",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-clientcapability-userverifyingplatformauthenticator",
+      "linkingText": [
+        "\"userVerifyingPlatformAuthenticator\"",
+        "userVerifyingPlatformAuthenticator"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "ClientCapability"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "enum-clientCapability",
+        "href": "https://www.w3.org/TR/webauthn-3/#enum-clientCapability",
+        "title": "Client Capability Enumeration (enum ClientCapability)",
+        "number": "5.8.7"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-clientcapability-relatedorigins",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-clientcapability-relatedorigins",
+      "linkingText": [
+        "\"relatedOrigins\"",
+        "relatedOrigins"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "ClientCapability"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "enum-clientCapability",
+        "href": "https://www.w3.org/TR/webauthn-3/#enum-clientCapability",
+        "title": "Client Capability Enumeration (enum ClientCapability)",
+        "number": "5.8.7"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-clientcapability-signalallacceptedcredentials",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-clientcapability-signalallacceptedcredentials",
+      "linkingText": [
+        "\"signalAllAcceptedCredentials\"",
+        "signalAllAcceptedCredentials"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "ClientCapability"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "enum-clientCapability",
+        "href": "https://www.w3.org/TR/webauthn-3/#enum-clientCapability",
+        "title": "Client Capability Enumeration (enum ClientCapability)",
+        "number": "5.8.7"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-clientcapability-signalcurrentuserdetails",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-clientcapability-signalcurrentuserdetails",
+      "linkingText": [
+        "\"signalCurrentUserDetails\"",
+        "signalCurrentUserDetails"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "ClientCapability"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "enum-clientCapability",
+        "href": "https://www.w3.org/TR/webauthn-3/#enum-clientCapability",
+        "title": "Client Capability Enumeration (enum ClientCapability)",
+        "number": "5.8.7"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-clientcapability-signalunknowncredential",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-clientcapability-signalunknowncredential",
+      "linkingText": [
+        "\"signalUnknownCredential\"",
+        "signalUnknownCredential"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "ClientCapability"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "enum-clientCapability",
+        "href": "https://www.w3.org/TR/webauthn-3/#enum-clientCapability",
+        "title": "Client Capability Enumeration (enum ClientCapability)",
+        "number": "5.8.7"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "enumdef-publickeycredentialhint",
+      "href": "https://www.w3.org/TR/webauthn-3/#enumdef-publickeycredentialhint",
+      "linkingText": [
+        "PublicKeyCredentialHint"
+      ],
+      "localLinkingText": [],
+      "type": "enum",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "enum-hints",
+        "href": "https://www.w3.org/TR/webauthn-3/#enum-hints",
+        "title": "User-agent Hints Enumeration (enum PublicKeyCredentialHint)",
+        "number": "5.8.8"
+      },
+      "definedIn": "heading"
+    },
+    {
+      "id": "dom-publickeycredentialhint-security-key",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialhint-security-key",
+      "linkingText": [
+        "\"security-key\"",
+        "security-key"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "PublicKeyCredentialHint"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "enum-hints",
+        "href": "https://www.w3.org/TR/webauthn-3/#enum-hints",
+        "title": "User-agent Hints Enumeration (enum PublicKeyCredentialHint)",
+        "number": "5.8.8"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-publickeycredentialhint-client-device",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialhint-client-device",
+      "linkingText": [
+        "\"client-device\"",
+        "client-device"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "PublicKeyCredentialHint"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "enum-hints",
+        "href": "https://www.w3.org/TR/webauthn-3/#enum-hints",
+        "title": "User-agent Hints Enumeration (enum PublicKeyCredentialHint)",
+        "number": "5.8.8"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-publickeycredentialhint-hybrid",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-publickeycredentialhint-hybrid",
+      "linkingText": [
+        "\"hybrid\"",
+        "hybrid"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "PublicKeyCredentialHint"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "enum-hints",
+        "href": "https://www.w3.org/TR/webauthn-3/#enum-hints",
+        "title": "User-agent Hints Enumeration (enum PublicKeyCredentialHint)",
+        "number": "5.8.8"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "publickey-credentials-create-feature",
+      "href": "https://www.w3.org/TR/webauthn-3/#publickey-credentials-create-feature",
+      "linkingText": [
+        "publickey-credentials-create-feature"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-permissions-policy",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-permissions-policy",
+        "title": "Permissions Policy integration",
+        "number": "5.9"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "publickey-credentials-get-feature",
       "href": "https://www.w3.org/TR/webauthn-3/#publickey-credentials-get-feature",
       "linkingText": [
@@ -4114,6 +6982,25 @@
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-permissions-policy",
         "title": "Permissions Policy integration",
         "number": "5.9"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "abstract-opdef-related-origins-validation-procedure",
+      "href": "https://www.w3.org/TR/webauthn-3/#abstract-opdef-related-origins-validation-procedure",
+      "linkingText": [
+        "related origins validation procedure"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sctn-validating-relation-origin",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-validating-relation-origin",
+        "title": "Validating Related Origins",
+        "number": "5.11.1"
       },
       "definedIn": "prose"
     },
@@ -4147,6 +7034,25 @@
       "for": [
         "authenticator"
       ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-authenticator-model",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-authenticator-model",
+        "title": "WebAuthn Authenticator Model",
+        "number": "6"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "aaguid",
+      "href": "https://www.w3.org/TR/webauthn-3/#aaguid",
+      "linkingText": [
+        "AAGUID"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
       "access": "private",
       "informative": false,
       "heading": {
@@ -4234,14 +7140,16 @@
       "definedIn": "prose"
     },
     {
-      "id": "rpidhash",
-      "href": "https://www.w3.org/TR/webauthn-3/#rpidhash",
+      "id": "authdata-rpidhash",
+      "href": "https://www.w3.org/TR/webauthn-3/#authdata-rpidhash",
       "linkingText": [
         "rpIdHash"
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "authData"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -4253,14 +7161,16 @@
       "definedIn": "table"
     },
     {
-      "id": "flags",
-      "href": "https://www.w3.org/TR/webauthn-3/#flags",
+      "id": "authdata-flags",
+      "href": "https://www.w3.org/TR/webauthn-3/#authdata-flags",
       "linkingText": [
         "flags"
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "authData"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -4272,14 +7182,142 @@
       "definedIn": "table"
     },
     {
-      "id": "signcount",
-      "href": "https://www.w3.org/TR/webauthn-3/#signcount",
+      "id": "authdata-flags-up",
+      "href": "https://www.w3.org/TR/webauthn-3/#authdata-flags-up",
+      "linkingText": [
+        "UP"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "authData/flags"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-authenticator-data",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-authenticator-data",
+        "title": "Authenticator Data",
+        "number": "6.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "authdata-flags-uv",
+      "href": "https://www.w3.org/TR/webauthn-3/#authdata-flags-uv",
+      "linkingText": [
+        "UV"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "authData/flags"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-authenticator-data",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-authenticator-data",
+        "title": "Authenticator Data",
+        "number": "6.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "authdata-flags-be",
+      "href": "https://www.w3.org/TR/webauthn-3/#authdata-flags-be",
+      "linkingText": [
+        "BE"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "authData/flags"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-authenticator-data",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-authenticator-data",
+        "title": "Authenticator Data",
+        "number": "6.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "authdata-flags-bs",
+      "href": "https://www.w3.org/TR/webauthn-3/#authdata-flags-bs",
+      "linkingText": [
+        "BS"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "authData/flags"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-authenticator-data",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-authenticator-data",
+        "title": "Authenticator Data",
+        "number": "6.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "authdata-flags-at",
+      "href": "https://www.w3.org/TR/webauthn-3/#authdata-flags-at",
+      "linkingText": [
+        "AT"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "authData/flags"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-authenticator-data",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-authenticator-data",
+        "title": "Authenticator Data",
+        "number": "6.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "authdata-flags-ed",
+      "href": "https://www.w3.org/TR/webauthn-3/#authdata-flags-ed",
+      "linkingText": [
+        "ED"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "authData/flags"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-authenticator-data",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-authenticator-data",
+        "title": "Authenticator Data",
+        "number": "6.1"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "authdata-signcount",
+      "href": "https://www.w3.org/TR/webauthn-3/#authdata-signcount",
       "linkingText": [
         "signCount"
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "authData"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -4291,14 +7329,16 @@
       "definedIn": "table"
     },
     {
-      "id": "attestedcredentialdata",
-      "href": "https://www.w3.org/TR/webauthn-3/#attestedcredentialdata",
+      "id": "authdata-attestedcredentialdata",
+      "href": "https://www.w3.org/TR/webauthn-3/#authdata-attestedcredentialdata",
       "linkingText": [
         "attestedCredentialData"
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "authData"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -4310,14 +7350,16 @@
       "definedIn": "table"
     },
     {
-      "id": "authdataextensions",
-      "href": "https://www.w3.org/TR/webauthn-3/#authdataextensions",
+      "id": "authdata-extensions",
+      "href": "https://www.w3.org/TR/webauthn-3/#authdata-extensions",
       "linkingText": [
-        "authDataExtensions"
+        "extensions"
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "authData"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -4445,10 +7487,29 @@
       "definedIn": "table"
     },
     {
-      "id": "first-factor-roaming-authenticator",
-      "href": "https://www.w3.org/TR/webauthn-3/#first-factor-roaming-authenticator",
+      "id": "passkey-roaming-authenticator",
+      "href": "https://www.w3.org/TR/webauthn-3/#passkey-roaming-authenticator",
       "linkingText": [
-        "First-factor roaming authenticator"
+        "Passkey roaming authenticator"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-authenticator-taxonomy",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-authenticator-taxonomy",
+        "title": "Authenticator Taxonomy",
+        "number": "6.2"
+      },
+      "definedIn": "table"
+    },
+    {
+      "id": "passkey-platform-authenticator",
+      "href": "https://www.w3.org/TR/webauthn-3/#passkey-platform-authenticator",
+      "linkingText": [
+        "Passkey platform authenticator"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -4846,6 +7907,107 @@
       "definedIn": "heading"
     },
     {
+      "id": "silentcredentialdiscovery",
+      "href": "https://www.w3.org/TR/webauthn-3/#silentcredentialdiscovery",
+      "linkingText": [
+        "silentCredentialDiscovery"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-op-silent-discovery",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-op-silent-discovery",
+        "title": "The silentCredentialDiscovery operation",
+        "number": "6.3.5"
+      },
+      "definedIn": "heading"
+    },
+    {
+      "id": "discoverablecredentialmetadata",
+      "href": "https://www.w3.org/TR/webauthn-3/#discoverablecredentialmetadata",
+      "linkingText": [
+        "DiscoverableCredentialMetadata"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-op-silent-discovery",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-op-silent-discovery",
+        "title": "The silentCredentialDiscovery operation",
+        "number": "6.3.5"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "discoverablecredentialmetadata-type",
+      "href": "https://www.w3.org/TR/webauthn-3/#discoverablecredentialmetadata-type",
+      "linkingText": [
+        "type"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "DiscoverableCredentialMetadata"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-op-silent-discovery",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-op-silent-discovery",
+        "title": "The silentCredentialDiscovery operation",
+        "number": "6.3.5"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "discoverablecredentialmetadata-id",
+      "href": "https://www.w3.org/TR/webauthn-3/#discoverablecredentialmetadata-id",
+      "linkingText": [
+        "id"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "DiscoverableCredentialMetadata"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-op-silent-discovery",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-op-silent-discovery",
+        "title": "The silentCredentialDiscovery operation",
+        "number": "6.3.5"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "discoverablecredentialmetadata-otherui",
+      "href": "https://www.w3.org/TR/webauthn-3/#discoverablecredentialmetadata-otherui",
+      "linkingText": [
+        "otherUI"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "DiscoverableCredentialMetadata"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-op-silent-discovery",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-op-silent-discovery",
+        "title": "The silentCredentialDiscovery operation",
+        "number": "6.3.5"
+      },
+      "definedIn": "dt"
+    },
+    {
       "id": "attestation-object",
       "href": "https://www.w3.org/TR/webauthn-3/#attestation-object",
       "linkingText": [
@@ -4941,14 +8103,16 @@
       "definedIn": "prose"
     },
     {
-      "id": "aaguid",
-      "href": "https://www.w3.org/TR/webauthn-3/#aaguid",
+      "id": "authdata-attestedcredentialdata-aaguid",
+      "href": "https://www.w3.org/TR/webauthn-3/#authdata-attestedcredentialdata-aaguid",
       "linkingText": [
         "aaguid"
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "authData/attestedCredentialData"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -4960,14 +8124,16 @@
       "definedIn": "table"
     },
     {
-      "id": "credentialidlength",
-      "href": "https://www.w3.org/TR/webauthn-3/#credentialidlength",
+      "id": "authdata-attestedcredentialdata-credentialidlength",
+      "href": "https://www.w3.org/TR/webauthn-3/#authdata-attestedcredentialdata-credentialidlength",
       "linkingText": [
         "credentialIdLength"
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "authData/attestedCredentialData"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -4979,14 +8145,16 @@
       "definedIn": "table"
     },
     {
-      "id": "credentialid",
-      "href": "https://www.w3.org/TR/webauthn-3/#credentialid",
+      "id": "authdata-attestedcredentialdata-credentialid",
+      "href": "https://www.w3.org/TR/webauthn-3/#authdata-attestedcredentialdata-credentialid",
       "linkingText": [
         "credentialId"
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "authData/attestedCredentialData"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -4998,14 +8166,16 @@
       "definedIn": "table"
     },
     {
-      "id": "credentialpublickey",
-      "href": "https://www.w3.org/TR/webauthn-3/#credentialpublickey",
+      "id": "authdata-attestedcredentialdata-credentialpublickey",
+      "href": "https://www.w3.org/TR/webauthn-3/#authdata-attestedcredentialdata-credentialpublickey",
       "linkingText": [
         "credentialPublicKey"
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "authData/attestedCredentialData"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -5587,6 +8757,25 @@
       "definedIn": "prose"
     },
     {
+      "id": "unsigned-extension-outputs",
+      "href": "https://www.w3.org/TR/webauthn-3/#unsigned-extension-outputs",
+      "linkingText": [
+        "Unsigned extension outputs"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-authenticator-extension-processing",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-authenticator-extension-processing",
+        "title": "Authenticator Extension Processing",
+        "number": "9.5"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "appid",
       "href": "https://www.w3.org/TR/webauthn-3/#appid",
       "linkingText": [
@@ -5601,7 +8790,7 @@
         "id": "sctn-appid-extension",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-appid-extension",
         "title": "FIDO AppID Extension (appid)",
-        "number": "10.1"
+        "number": "10.1.1"
       },
       "definedIn": "heading"
     },
@@ -5622,7 +8811,7 @@
         "id": "sctn-appid-extension",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-appid-extension",
         "title": "FIDO AppID Extension (appid)",
-        "number": "10.1"
+        "number": "10.1.1"
       },
       "definedIn": "pre"
     },
@@ -5643,7 +8832,7 @@
         "id": "sctn-appid-extension",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-appid-extension",
         "title": "FIDO AppID Extension (appid)",
-        "number": "10.1"
+        "number": "10.1.1"
       },
       "definedIn": "pre"
     },
@@ -5664,7 +8853,7 @@
         "id": "sctn-appid-exclude-extension",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-appid-exclude-extension",
         "title": "FIDO AppID Exclusion Extension (appidExclude)",
-        "number": "10.2"
+        "number": "10.1.2"
       },
       "definedIn": "pre"
     },
@@ -5685,106 +8874,7 @@
         "id": "sctn-appid-exclude-extension",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-appid-exclude-extension",
         "title": "FIDO AppID Exclusion Extension (appidExclude)",
-        "number": "10.2"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "user-verification-method",
-      "href": "https://www.w3.org/TR/webauthn-3/#user-verification-method",
-      "linkingText": [
-        "User Verification Method"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "sctn-uvm-extension",
-        "href": "https://www.w3.org/TR/webauthn-3/#sctn-uvm-extension",
-        "title": "User Verification Method Extension (uvm)",
-        "number": "10.3"
-      },
-      "definedIn": "heading"
-    },
-    {
-      "id": "dom-authenticationextensionsclientinputs-uvm",
-      "href": "https://www.w3.org/TR/webauthn-3/#dom-authenticationextensionsclientinputs-uvm",
-      "linkingText": [
-        "uvm"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "AuthenticationExtensionsClientInputs"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "sctn-uvm-extension",
-        "href": "https://www.w3.org/TR/webauthn-3/#sctn-uvm-extension",
-        "title": "User Verification Method Extension (uvm)",
-        "number": "10.3"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "typedefdef-uvmentry",
-      "href": "https://www.w3.org/TR/webauthn-3/#typedefdef-uvmentry",
-      "linkingText": [
-        "UvmEntry"
-      ],
-      "localLinkingText": [],
-      "type": "typedef",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "sctn-uvm-extension",
-        "href": "https://www.w3.org/TR/webauthn-3/#sctn-uvm-extension",
-        "title": "User Verification Method Extension (uvm)",
-        "number": "10.3"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "typedefdef-uvmentries",
-      "href": "https://www.w3.org/TR/webauthn-3/#typedefdef-uvmentries",
-      "linkingText": [
-        "UvmEntries"
-      ],
-      "localLinkingText": [],
-      "type": "typedef",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "sctn-uvm-extension",
-        "href": "https://www.w3.org/TR/webauthn-3/#sctn-uvm-extension",
-        "title": "User Verification Method Extension (uvm)",
-        "number": "10.3"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-authenticationextensionsclientoutputs-uvm",
-      "href": "https://www.w3.org/TR/webauthn-3/#dom-authenticationextensionsclientoutputs-uvm",
-      "linkingText": [
-        "uvm"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "AuthenticationExtensionsClientOutputs"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "sctn-uvm-extension",
-        "href": "https://www.w3.org/TR/webauthn-3/#sctn-uvm-extension",
-        "title": "User Verification Method Extension (uvm)",
-        "number": "10.3"
+        "number": "10.1.2"
       },
       "definedIn": "pre"
     },
@@ -5803,7 +8893,7 @@
         "id": "sctn-authenticator-credential-properties-extension",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-authenticator-credential-properties-extension",
         "title": "Credential Properties Extension (credProps)",
-        "number": "10.4"
+        "number": "10.1.3"
       },
       "definedIn": "heading"
     },
@@ -5824,7 +8914,7 @@
         "id": "sctn-authenticator-credential-properties-extension",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-authenticator-credential-properties-extension",
         "title": "Credential Properties Extension (credProps)",
-        "number": "10.4"
+        "number": "10.1.3"
       },
       "definedIn": "pre"
     },
@@ -5843,7 +8933,7 @@
         "id": "sctn-authenticator-credential-properties-extension",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-authenticator-credential-properties-extension",
         "title": "Credential Properties Extension (credProps)",
-        "number": "10.4"
+        "number": "10.1.3"
       },
       "definedIn": "pre"
     },
@@ -5864,7 +8954,7 @@
         "id": "sctn-authenticator-credential-properties-extension",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-authenticator-credential-properties-extension",
         "title": "Credential Properties Extension (credProps)",
-        "number": "10.4"
+        "number": "10.1.3"
       },
       "definedIn": "pre"
     },
@@ -5885,30 +8975,9 @@
         "id": "sctn-authenticator-credential-properties-extension",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-authenticator-credential-properties-extension",
         "title": "Credential Properties Extension (credProps)",
-        "number": "10.4"
+        "number": "10.1.3"
       },
       "definedIn": "dt"
-    },
-    {
-      "id": "credentialpropertiesoutput-resident-key-credential-property",
-      "href": "https://www.w3.org/TR/webauthn-3/#credentialpropertiesoutput-resident-key-credential-property",
-      "linkingText": [
-        "resident key credential property"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "CredentialPropertiesOutput"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "sctn-authenticator-credential-properties-extension",
-        "href": "https://www.w3.org/TR/webauthn-3/#sctn-authenticator-credential-properties-extension",
-        "title": "Credential Properties Extension (credProps)",
-        "number": "10.4"
-      },
-      "definedIn": "prose"
     },
     {
       "id": "credentialpropertiesoutput-client-side-discoverable-credential-property",
@@ -5927,9 +8996,274 @@
         "id": "sctn-authenticator-credential-properties-extension",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-authenticator-credential-properties-extension",
         "title": "Credential Properties Extension (credProps)",
-        "number": "10.4"
+        "number": "10.1.3"
       },
       "definedIn": "prose"
+    },
+    {
+      "id": "credentialpropertiesoutput-resident-key-credential-property",
+      "href": "https://www.w3.org/TR/webauthn-3/#credentialpropertiesoutput-resident-key-credential-property",
+      "linkingText": [
+        "resident key credential property"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "CredentialPropertiesOutput"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-authenticator-credential-properties-extension",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-authenticator-credential-properties-extension",
+        "title": "Credential Properties Extension (credProps)",
+        "number": "10.1.3"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "prf",
+      "href": "https://www.w3.org/TR/webauthn-3/#prf",
+      "linkingText": [
+        "prf"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "prf-extension",
+        "href": "https://www.w3.org/TR/webauthn-3/#prf-extension",
+        "title": "Pseudo-random function extension (prf)",
+        "number": "10.1.4"
+      },
+      "definedIn": "heading"
+    },
+    {
+      "id": "dictdef-authenticationextensionsprfvalues",
+      "href": "https://www.w3.org/TR/webauthn-3/#dictdef-authenticationextensionsprfvalues",
+      "linkingText": [
+        "AuthenticationExtensionsPRFValues"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "prf-extension",
+        "href": "https://www.w3.org/TR/webauthn-3/#prf-extension",
+        "title": "Pseudo-random function extension (prf)",
+        "number": "10.1.4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-authenticationextensionsprfvalues-first",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-authenticationextensionsprfvalues-first",
+      "linkingText": [
+        "first"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "AuthenticationExtensionsPRFValues"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "prf-extension",
+        "href": "https://www.w3.org/TR/webauthn-3/#prf-extension",
+        "title": "Pseudo-random function extension (prf)",
+        "number": "10.1.4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-authenticationextensionsprfvalues-second",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-authenticationextensionsprfvalues-second",
+      "linkingText": [
+        "second"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "AuthenticationExtensionsPRFValues"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "prf-extension",
+        "href": "https://www.w3.org/TR/webauthn-3/#prf-extension",
+        "title": "Pseudo-random function extension (prf)",
+        "number": "10.1.4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dictdef-authenticationextensionsprfinputs",
+      "href": "https://www.w3.org/TR/webauthn-3/#dictdef-authenticationextensionsprfinputs",
+      "linkingText": [
+        "AuthenticationExtensionsPRFInputs"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "prf-extension",
+        "href": "https://www.w3.org/TR/webauthn-3/#prf-extension",
+        "title": "Pseudo-random function extension (prf)",
+        "number": "10.1.4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-authenticationextensionsclientinputs-prf",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-authenticationextensionsclientinputs-prf",
+      "linkingText": [
+        "prf"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "AuthenticationExtensionsClientInputs"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "prf-extension",
+        "href": "https://www.w3.org/TR/webauthn-3/#prf-extension",
+        "title": "Pseudo-random function extension (prf)",
+        "number": "10.1.4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-authenticationextensionsprfinputs-eval",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-authenticationextensionsprfinputs-eval",
+      "linkingText": [
+        "eval"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "AuthenticationExtensionsPRFInputs"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "prf-extension",
+        "href": "https://www.w3.org/TR/webauthn-3/#prf-extension",
+        "title": "Pseudo-random function extension (prf)",
+        "number": "10.1.4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-authenticationextensionsprfinputs-evalbycredential",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-authenticationextensionsprfinputs-evalbycredential",
+      "linkingText": [
+        "evalByCredential"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "AuthenticationExtensionsPRFInputs"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "prf-extension",
+        "href": "https://www.w3.org/TR/webauthn-3/#prf-extension",
+        "title": "Pseudo-random function extension (prf)",
+        "number": "10.1.4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dictdef-authenticationextensionsprfoutputs",
+      "href": "https://www.w3.org/TR/webauthn-3/#dictdef-authenticationextensionsprfoutputs",
+      "linkingText": [
+        "AuthenticationExtensionsPRFOutputs"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "prf-extension",
+        "href": "https://www.w3.org/TR/webauthn-3/#prf-extension",
+        "title": "Pseudo-random function extension (prf)",
+        "number": "10.1.4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-authenticationextensionsclientoutputs-prf",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-authenticationextensionsclientoutputs-prf",
+      "linkingText": [
+        "prf"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "AuthenticationExtensionsClientOutputs"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "prf-extension",
+        "href": "https://www.w3.org/TR/webauthn-3/#prf-extension",
+        "title": "Pseudo-random function extension (prf)",
+        "number": "10.1.4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-authenticationextensionsprfoutputs-enabled",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-authenticationextensionsprfoutputs-enabled",
+      "linkingText": [
+        "enabled"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "AuthenticationExtensionsPRFOutputs"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "prf-extension",
+        "href": "https://www.w3.org/TR/webauthn-3/#prf-extension",
+        "title": "Pseudo-random function extension (prf)",
+        "number": "10.1.4"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-authenticationextensionsprfoutputs-results",
+      "href": "https://www.w3.org/TR/webauthn-3/#dom-authenticationextensionsprfoutputs-results",
+      "linkingText": [
+        "results"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "AuthenticationExtensionsPRFOutputs"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "prf-extension",
+        "href": "https://www.w3.org/TR/webauthn-3/#prf-extension",
+        "title": "Pseudo-random function extension (prf)",
+        "number": "10.1.4"
+      },
+      "definedIn": "dt"
     },
     {
       "id": "largeblob",
@@ -5946,7 +9280,7 @@
         "id": "sctn-large-blob-extension",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-large-blob-extension",
         "title": "Large blob storage extension (largeBlob)",
-        "number": "10.5"
+        "number": "10.1.5"
       },
       "definedIn": "heading"
     },
@@ -5967,7 +9301,7 @@
         "id": "sctn-large-blob-extension",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-large-blob-extension",
         "title": "Large blob storage extension (largeBlob)",
-        "number": "10.5"
+        "number": "10.1.5"
       },
       "definedIn": "pre"
     },
@@ -5986,7 +9320,7 @@
         "id": "sctn-large-blob-extension",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-large-blob-extension",
         "title": "Large blob storage extension (largeBlob)",
-        "number": "10.5"
+        "number": "10.1.5"
       },
       "definedIn": "pre"
     },
@@ -6007,7 +9341,7 @@
         "id": "sctn-large-blob-extension",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-large-blob-extension",
         "title": "Large blob storage extension (largeBlob)",
-        "number": "10.5"
+        "number": "10.1.5"
       },
       "definedIn": "pre"
     },
@@ -6028,7 +9362,7 @@
         "id": "sctn-large-blob-extension",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-large-blob-extension",
         "title": "Large blob storage extension (largeBlob)",
-        "number": "10.5"
+        "number": "10.1.5"
       },
       "definedIn": "pre"
     },
@@ -6047,7 +9381,7 @@
         "id": "sctn-large-blob-extension",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-large-blob-extension",
         "title": "Large blob storage extension (largeBlob)",
-        "number": "10.5"
+        "number": "10.1.5"
       },
       "definedIn": "pre"
     },
@@ -6068,7 +9402,7 @@
         "id": "sctn-large-blob-extension",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-large-blob-extension",
         "title": "Large blob storage extension (largeBlob)",
-        "number": "10.5"
+        "number": "10.1.5"
       },
       "definedIn": "dt"
     },
@@ -6089,7 +9423,7 @@
         "id": "sctn-large-blob-extension",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-large-blob-extension",
         "title": "Large blob storage extension (largeBlob)",
-        "number": "10.5"
+        "number": "10.1.5"
       },
       "definedIn": "dt"
     },
@@ -6110,7 +9444,7 @@
         "id": "sctn-large-blob-extension",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-large-blob-extension",
         "title": "Large blob storage extension (largeBlob)",
-        "number": "10.5"
+        "number": "10.1.5"
       },
       "definedIn": "dt"
     },
@@ -6131,7 +9465,7 @@
         "id": "sctn-large-blob-extension",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-large-blob-extension",
         "title": "Large blob storage extension (largeBlob)",
-        "number": "10.5"
+        "number": "10.1.5"
       },
       "definedIn": "pre"
     },
@@ -6150,7 +9484,7 @@
         "id": "sctn-large-blob-extension",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-large-blob-extension",
         "title": "Large blob storage extension (largeBlob)",
-        "number": "10.5"
+        "number": "10.1.5"
       },
       "definedIn": "pre"
     },
@@ -6171,7 +9505,7 @@
         "id": "sctn-large-blob-extension",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-large-blob-extension",
         "title": "Large blob storage extension (largeBlob)",
-        "number": "10.5"
+        "number": "10.1.5"
       },
       "definedIn": "dt"
     },
@@ -6192,7 +9526,7 @@
         "id": "sctn-large-blob-extension",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-large-blob-extension",
         "title": "Large blob storage extension (largeBlob)",
-        "number": "10.5"
+        "number": "10.1.5"
       },
       "definedIn": "dt"
     },
@@ -6213,7 +9547,7 @@
         "id": "sctn-large-blob-extension",
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-large-blob-extension",
         "title": "Large blob storage extension (largeBlob)",
-        "number": "10.5"
+        "number": "10.1.5"
       },
       "definedIn": "dt"
     },
@@ -6465,6 +9799,44 @@
       "definedIn": "heading"
     },
     {
+      "id": "set-credential-properties",
+      "href": "https://www.w3.org/TR/webauthn-3/#set-credential-properties",
+      "linkingText": [
+        "Set Credential Properties"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-automation-set-credential-properties",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-automation-set-credential-properties",
+        "title": "Set Credential Properties",
+        "number": "11.10"
+      },
+      "definedIn": "heading"
+    },
+    {
+      "id": "set-credential-properties-parameters",
+      "href": "https://www.w3.org/TR/webauthn-3/#set-credential-properties-parameters",
+      "linkingText": [
+        "Set Credential Properties Parameters"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-automation-set-credential-properties",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-automation-set-credential-properties",
+        "title": "Set Credential Properties",
+        "number": "11.10"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "ui-redressing",
       "href": "https://www.w3.org/TR/webauthn-3/#ui-redressing",
       "linkingText": [
@@ -6480,6 +9852,25 @@
         "href": "https://www.w3.org/TR/webauthn-3/#sctn-seccons-visibility",
         "title": "Visibility Considerations for Embedded Usage",
         "number": "13.4.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "recommended-range-and-default-for-a-webauthn-ceremony-timeout",
+      "href": "https://www.w3.org/TR/webauthn-3/#recommended-range-and-default-for-a-webauthn-ceremony-timeout",
+      "linkingText": [
+        "recommended range and default for a WebAuthn ceremony timeout"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sctn-timeout-recommended-range",
+        "href": "https://www.w3.org/TR/webauthn-3/#sctn-timeout-recommended-range",
+        "title": "Recommended Range for Ceremony Timeouts",
+        "number": "15.1"
       },
       "definedIn": "prose"
     }

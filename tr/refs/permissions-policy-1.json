@@ -22,20 +22,12 @@
         "url": "https://fullscreen.spec.whatwg.org/"
       },
       {
-        "name": "HEADER-STRUCTURE",
-        "url": "https://tools.ietf.org/html/draft-ietf-httpbis-header-structure-18"
-      },
-      {
         "name": "HTML",
         "url": "https://html.spec.whatwg.org/multipage/"
       },
       {
         "name": "INFRA",
         "url": "https://infra.spec.whatwg.org/"
-      },
-      {
-        "name": "PERMISSIONS",
-        "url": "https://www.w3.org/TR/permissions/"
       },
       {
         "name": "REPORTING-1",
@@ -48,6 +40,10 @@
       {
         "name": "RFC3864",
         "url": "https://www.rfc-editor.org/rfc/rfc3864"
+      },
+      {
+        "name": "RFC8941",
+        "url": "https://httpwg.org/specs/rfc8941.html"
       },
       {
         "name": "URL",
@@ -66,6 +62,14 @@
       {
         "name": "HTML5",
         "url": "https://www.w3.org/TR/html5/"
+      },
+      {
+        "name": "MEDIACAPTURE-STREAMS",
+        "url": "https://www.w3.org/TR/mediacapture-streams/"
+      },
+      {
+        "name": "PERMISSIONS",
+        "url": "https://www.w3.org/TR/permissions/"
       }
     ]
   }

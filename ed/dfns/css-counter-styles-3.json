@@ -101,6 +101,25 @@
       "definedIn": "prose"
     },
     {
+      "id": "non-overridable-counter-style-names",
+      "href": "https://drafts.csswg.org/css-counter-styles-3/#non-overridable-counter-style-names",
+      "linkingText": [
+        "non-overridable counter-style names"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-counter-style-rule",
+        "href": "https://drafts.csswg.org/css-counter-styles-3/#the-counter-style-rule",
+        "title": "Defining Custom Counter Styles: the @counter-style rule",
+        "number": "3"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "descdef-counter-style-system",
       "href": "https://drafts.csswg.org/css-counter-styles-3/#descdef-counter-style-system",
       "linkingText": [
@@ -1842,7 +1861,7 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<counter-style>"
+        "<counter-style-name>"
       ],
       "access": "public",
       "informative": false,
@@ -1863,7 +1882,7 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "<counter-style>"
+        "<counter-style-name>"
       ],
       "access": "public",
       "informative": false,

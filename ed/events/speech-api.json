@@ -1,9 +1,21 @@
 {
   "spec": {
     "title": "Web Speech API",
-    "url": "https://wicg.github.io/speech-api/"
+    "url": "https://webaudio.github.io/web-speech-api/"
   },
   "events": [
+    {
+      "src": {
+        "format": "fire an event phrasing",
+        "href": "https://webaudio.github.io/web-speech-api/#ref-for-concept-event-fire"
+      },
+      "href": "https://webaudio.github.io/web-speech-api/#eventdef-speechrecognition-start",
+      "type": "start",
+      "targets": [
+        "SpeechRecognition"
+      ],
+      "interface": "Event"
+    },
     {
       "type": "audiostart",
       "targets": [
@@ -12,7 +24,7 @@
       "src": {
         "format": "IDL eventHandler"
       },
-      "href": "https://wicg.github.io/speech-api/#eventdef-speechrecognition-audiostart"
+      "href": "https://webaudio.github.io/web-speech-api/#eventdef-speechrecognition-audiostart"
     },
     {
       "type": "soundstart",
@@ -22,7 +34,7 @@
       "src": {
         "format": "IDL eventHandler"
       },
-      "href": "https://wicg.github.io/speech-api/#eventdef-speechrecognition-soundstart"
+      "href": "https://webaudio.github.io/web-speech-api/#eventdef-speechrecognition-soundstart"
     },
     {
       "type": "speechstart",
@@ -32,7 +44,7 @@
       "src": {
         "format": "IDL eventHandler"
       },
-      "href": "https://wicg.github.io/speech-api/#eventdef-speechrecognition-speechstart"
+      "href": "https://webaudio.github.io/web-speech-api/#eventdef-speechrecognition-speechstart"
     },
     {
       "type": "speechend",
@@ -42,7 +54,7 @@
       "src": {
         "format": "IDL eventHandler"
       },
-      "href": "https://wicg.github.io/speech-api/#eventdef-speechrecognition-speechend"
+      "href": "https://webaudio.github.io/web-speech-api/#eventdef-speechrecognition-speechend"
     },
     {
       "type": "soundend",
@@ -52,7 +64,7 @@
       "src": {
         "format": "IDL eventHandler"
       },
-      "href": "https://wicg.github.io/speech-api/#eventdef-speechrecognition-soundend"
+      "href": "https://webaudio.github.io/web-speech-api/#eventdef-speechrecognition-soundend"
     },
     {
       "type": "audioend",
@@ -62,7 +74,7 @@
       "src": {
         "format": "IDL eventHandler"
       },
-      "href": "https://wicg.github.io/speech-api/#eventdef-speechrecognition-audioend"
+      "href": "https://webaudio.github.io/web-speech-api/#eventdef-speechrecognition-audioend"
     },
     {
       "type": "result",
@@ -72,7 +84,7 @@
       "src": {
         "format": "IDL eventHandler"
       },
-      "href": "https://wicg.github.io/speech-api/#eventdef-speechrecognition-result"
+      "href": "https://webaudio.github.io/web-speech-api/#eventdef-speechrecognition-result"
     },
     {
       "type": "nomatch",
@@ -82,7 +94,7 @@
       "src": {
         "format": "IDL eventHandler"
       },
-      "href": "https://wicg.github.io/speech-api/#eventdef-speechrecognition-nomatch"
+      "href": "https://webaudio.github.io/web-speech-api/#eventdef-speechrecognition-nomatch"
     },
     {
       "type": "error",
@@ -92,7 +104,7 @@
       "src": {
         "format": "IDL eventHandler"
       },
-      "href": "https://wicg.github.io/speech-api/#eventdef-speechrecognition-error"
+      "href": "https://webaudio.github.io/web-speech-api/#eventdef-speechrecognition-error"
     },
     {
       "type": "error",
@@ -102,27 +114,7 @@
       "src": {
         "format": "IDL eventHandler"
       },
-      "href": "https://wicg.github.io/speech-api/#eventdef-speechsynthesisutterance-error"
-    },
-    {
-      "type": "start",
-      "targets": [
-        "SpeechRecognition"
-      ],
-      "src": {
-        "format": "IDL eventHandler"
-      },
-      "href": "https://wicg.github.io/speech-api/#eventdef-speechrecognition-start"
-    },
-    {
-      "type": "start",
-      "targets": [
-        "SpeechSynthesisUtterance"
-      ],
-      "src": {
-        "format": "IDL eventHandler"
-      },
-      "href": "https://wicg.github.io/speech-api/#eventdef-speechsynthesisutterance-start"
+      "href": "https://webaudio.github.io/web-speech-api/#eventdef-speechsynthesisutterance-error"
     },
     {
       "type": "end",
@@ -132,7 +124,7 @@
       "src": {
         "format": "IDL eventHandler"
       },
-      "href": "https://wicg.github.io/speech-api/#eventdef-speechrecognition-end"
+      "href": "https://webaudio.github.io/web-speech-api/#eventdef-speechrecognition-end"
     },
     {
       "type": "end",
@@ -142,7 +134,7 @@
       "src": {
         "format": "IDL eventHandler"
       },
-      "href": "https://wicg.github.io/speech-api/#eventdef-speechsynthesisutterance-end"
+      "href": "https://webaudio.github.io/web-speech-api/#eventdef-speechsynthesisutterance-end"
     },
     {
       "type": "voiceschanged",
@@ -152,7 +144,7 @@
       "src": {
         "format": "IDL eventHandler"
       },
-      "href": "https://wicg.github.io/speech-api/#eventdef-speechsynthesis-voiceschanged"
+      "href": "https://webaudio.github.io/web-speech-api/#eventdef-speechsynthesis-voiceschanged"
     },
     {
       "type": "pause",
@@ -162,7 +154,7 @@
       "src": {
         "format": "IDL eventHandler"
       },
-      "href": "https://wicg.github.io/speech-api/#eventdef-speechsynthesisutterance-pause"
+      "href": "https://webaudio.github.io/web-speech-api/#eventdef-speechsynthesisutterance-pause"
     },
     {
       "type": "resume",
@@ -172,7 +164,7 @@
       "src": {
         "format": "IDL eventHandler"
       },
-      "href": "https://wicg.github.io/speech-api/#eventdef-speechsynthesisutterance-resume"
+      "href": "https://webaudio.github.io/web-speech-api/#eventdef-speechsynthesisutterance-resume"
     },
     {
       "type": "mark",
@@ -182,7 +174,7 @@
       "src": {
         "format": "IDL eventHandler"
       },
-      "href": "https://wicg.github.io/speech-api/#eventdef-speechsynthesisutterance-mark"
+      "href": "https://webaudio.github.io/web-speech-api/#eventdef-speechsynthesisutterance-mark"
     },
     {
       "type": "boundary",
@@ -192,7 +184,18 @@
       "src": {
         "format": "IDL eventHandler"
       },
-      "href": "https://wicg.github.io/speech-api/#eventdef-speechsynthesisutterance-boundary"
+      "href": "https://webaudio.github.io/web-speech-api/#eventdef-speechsynthesisutterance-boundary"
+    },
+    {
+      "type": "start",
+      "targets": [
+        "SpeechSynthesisUtterance"
+      ],
+      "src": {
+        "format": "dfn",
+        "href": "https://webaudio.github.io/web-speech-api/#eventdef-speechsynthesisutterance-start"
+      },
+      "href": "https://webaudio.github.io/web-speech-api/#eventdef-speechsynthesisutterance-start"
     }
   ]
 }

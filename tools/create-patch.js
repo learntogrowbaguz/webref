@@ -7,28 +7,31 @@
  * node tools/create-patch.js
  */
 
-const fs = require('fs/promises');
-const util = require('util');
-const path = require('path');
-const exec = util.promisify(require('child_process').exec);
-const execFile = util.promisify(require('child_process').execFile);
+import fs from 'node:fs/promises';
+import util from 'node:util';
+import path from 'node:path';
+import { exec as execCb, execFile as execFileCb } from 'node:child_process';
+const exec = util.promisify(execCb);
+const execFile = util.promisify(execFileCb);
 
 async function main() {
-  console.log('Check last commit touches one and only one CSS/Elements/IDL file...');
+  console.log('Check last commit touches one and only one CDDL/CSS/Elements/IDL file...');
   const { stdout: diffOut } = await execFile('git', ['diff', '--name-only', 'HEAD', 'HEAD~1']);
   const files = diffOut.split(/[\r\n]/).filter(f => !!f);
   if (files.length !== 1) {
-    throw new Error('Last commit should only touch one CSS/Elements/IDL file');
+    throw new Error('Last commit should only touch one CDDL/CSS/Elements/IDL file');
   }
   const commitFile = files[0];
   if (!commitFile.startsWith('ed/idl/') &&
+      !commitFile.startsWith('ed/cddl/') &&
       !commitFile.startsWith('ed/css/') &&
       !commitFile.startsWith('ed/elements/')) {
-    throw new Error('Last commit did not touch a CSS/Elements/IDL file');
+    throw new Error('Last commit did not touch a CDD/CSS/Elements/IDL file');
   }
   const patchType =
     commitFile.startsWith('ed/idl/') ? 'idl' :
-    commitFile.startsWith('ed/elements/') ? 'elements' : 'css';
+    commitFile.startsWith('ed/elements/') ? 'elements' :
+    commitFile.startsWith('ed/cddl/') ? 'cddl' : 'css';
   const patchFile = commitFile.substring(`ed/${patchType}/`.length);
   console.log('  done');
 

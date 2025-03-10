@@ -10,10 +10,11 @@
  * and update (default is "curated")
  */
 
-const fs = require('fs').promises;
-const path = require('path');
-const loadJSON = require('./utils').loadJSON;
-const expandCrawlResult = require('reffy').expandCrawlResult;
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { loadJSON } from './utils.js';
+import { expandCrawlResult } from 'reffy';
 
 const patches = {
   'IndexedDB-3': [
@@ -37,6 +38,13 @@ const patches = {
       }
     }
   ],
+  'audio-session': [
+    {
+      pattern: { type: 'statechange' },
+      matched: 1,
+      change: { interface: 'Event' }
+    }
+  ],
   'background-fetch': [
     {
       pattern: { type: /^backgroundfetch(success|fail)$/ },
@@ -57,45 +65,28 @@ const patches = {
       change: { interface: "Event" }
     }
   ],
+  // Bubbles heuristic in Reffy is not smart enough to trap:
+  // "bubbles and cancelable attributes set to false"
+  // and incorrectly thinks occurence of "bubbles" means that the event bubbles.
+  'captured-mouse-events': [
+    {
+      pattern: { type: 'capturedmousechange' },
+      matched: 1,
+      change: { bubbles: false }
+    }
+  ],
   // pending https://github.com/w3c/clipboard-apis/pull/181
   // see also https://github.com/w3c/clipboard-apis/issues/74
   'clipboard-apis': [
     {
-      add: {
-        type: "clipboardchange",
+      pattern: { type: /^(cut|clipboardchange|paste|copy)$/ },
+      matched: 4,
+      change: {
         interface: "ClipboardEvent",
         targets: ["GlobalEventHandlers"],
-        bubbles: true,
-        href: "https://w3c.github.io/clipboard-apis/#clipboardchange"
+        bubbles: true
       }
-    },
-    {
-      add: {
-        type: "copy",
-        interface: "ClipboardEvent",
-        targets: ["GlobalEventHandlers"],
-        bubbles: true,
-        href: "https://w3c.github.io/clipboard-apis/#copy"
-      }
-    },
-    {
-      add: {
-        type: "cut",
-        interface: "ClipboardEvent",
-        targets: ["GlobalEventHandlers"],
-        bubbles: true,
-        href: "https://w3c.github.io/clipboard-apis/#cut"
-      }
-    },
-    {
-      add: {
-        type: "paste",
-        interface: "ClipboardEvent",
-        targets: ["GlobalEventHandlers"],
-        bubbles: true,
-        href: "https://w3c.github.io/clipboard-apis/#paste"
-      }
-    },
+    }
   ],
   'compat': [
     {
@@ -127,9 +118,9 @@ const patches = {
   // tense as part of the resolution)
   'css-contain-2': [
     {
-      pattern: { type: 'contentvisibilityautostatechanged' },
+      pattern: { type: 'contentvisibilityautostatechange' },
       matched: 1,
-      change: { interface: 'ContentVisibilityAutoStateChangedEvent' }
+      change: { interface: 'ContentVisibilityAutoStateChangeEvent' }
     }
   ],
   'css-font-loading-3': [
@@ -156,45 +147,9 @@ const patches = {
   'css-scroll-snap-2': [
     // deleting until we have clarity on the events https://github.com/w3c/csswg-drafts/issues/7442
     {
-      pattern: { type: /^snapChang(ed|ing)$/ },
+      pattern: { type: /^scrollsnapchang(e|ing)$/ },
       matched: 2,
       delete: true
-    }
-  ],
-  // pending https://github.com/w3c/edit-context/pull/31
-  'edit-context': [
-    {
-      pattern: { type: "beforeinput" },
-      matched: 1,
-      change: {
-        isExtension: true,
-        href: "https://w3c.github.io/uievents/#beforeinput",
-        interface: "InputEvent"
-      }
-    },
-    {
-      pattern: { type: "textupdate" },
-      matched: 1,
-      change: { interface: "TextUpdateEvent" }
-    },
-    {
-      pattern: { type: "characterboundsupdate" },
-      matched: 1,
-      change: { interface: "CharacterBoundsUpdateEvent" }
-    },
-    {
-      pattern: { type: "textformatupdate"},
-      matched: 1,
-      delete: true
-    },
-    {
-      pattern: { type: "textformateupdate"},
-      matched: 1,
-      change: {
-        type: "textformatupdate",
-        targets: ["EditContext"],
-        interface: "TextFormatUpdateEvent"
-      }
     }
   ],
   'fullscreen': [
@@ -229,15 +184,42 @@ const patches = {
       matched: 7,
       change: { interface: 'DragEvent', bubbles: true }
     },
+    // The "HTMLElement" base interface receives most HTML events in theory,
+    // but some of the events only fire on specific HTML elements in practice.
+    // The following updates refine the target interfaces of these events.
+    // (This is not a temporary fix: "HTMLElement" is the correct target
+    // interface from a spec perspective, that's where the event handlers are
+    // defined)
+    // Also, the "cancel" event bubbles but is not cancelable on input elements
+    // while it is (potentially) cancelable but does not bubble on other target
+    // interfaces, so we need to duplicate the entry in the extract.
     {
       pattern: { type: "cancel"},
       matched: 1,
-      change: { targets: ["HTMLDialogElement", "HTMLInputElement"] }
+      change: {
+        bubbles: true,
+        cancelable: false,
+        targets: ["HTMLInputElement"]
+      }
+    },
+    {
+      add: {
+        type: "cancel",
+        interface: "Event",
+        bubbles: false,
+        cancelable: true,
+        targets: ["CloseWatcher", "HTMLDialogElement"],
+        href: "https://html.spec.whatwg.org/multipage/indices.html#event-cancel",
+        src: {
+          format: "summary table",
+          href: "https://html.spec.whatwg.org/multipage/indices.html#event-cancel"
+        }
+      }
     },
     {
       pattern: { type: "close"},
       matched: 1,
-      change: { targets: ["HTMLDialogElement"   ] }
+      change: { targets: ["CloseWatcher", "HTMLDialogElement", "MessagePort"] }
     },
     {
       pattern: { type: "change", targets: "HTMLElement"},
@@ -288,11 +270,13 @@ const patches = {
       change: { bubbles: false}
     }
   ],
-  'navigation-api': [
+  'mediacapture-surface-control': [
+    // Pending clarification on the notion of "viewport":
+    // https://github.com/w3c/mediacapture-surface-control/issues/51
     {
-      pattern: { type: "navigate" },
+      pattern: { type: 'wheel' },
       matched: 1,
-      change: { interface: "NavigateEvent" }
+      delete: true
     }
   ],
   'notifications': [
@@ -300,6 +284,27 @@ const patches = {
       pattern: { type: /^notification(click|close)$/ },
       matched: 2,
       change: { interface: "NotificationEvent" }
+    }
+  ],
+  'orientation-event': [
+    // Spec uses an indirect "fire an orientation event" algo to fire events:
+    // https://w3c.github.io/deviceorientation/#fire-an-orientation-event
+    {
+      pattern: { type: /^deviceorientation/ },
+      matched: 2,
+      change: { interface: 'DeviceOrientationEvent' }
+    }
+  ],
+  'payment-request': [
+    // Spec uses an indirect algo to fire events:
+    // https://www.w3.org/TR/payment-request/#dfn-paymentrequest-updated-algorithm
+    // That said, extraction could perhaps process the informative events
+    // summary table to extract the interface name at some point:
+    // https://www.w3.org/TR/payment-request/#summary
+    {
+      pattern: { type: /^(shipping|payer).*change$/ },
+      matched: 3,
+      change: { interface: "PaymentRequestUpdateEvent" }
     }
   ],
   // TODO: to-be-idenfied bug in reffy, see https://github.com/w3c/webref/commit/348b90a37475563d924f4da8156c290ca27d77e2#diff-3877beb696dd5561959ba0c9b8c1485e9c78fbed53b1ec6723ae68621940e0c7
@@ -365,6 +370,12 @@ const patches = {
       pattern: { href: "https://wicg.github.io/BackgroundSync/spec/#sync" },
       matched: 1,
       change: { href: "https://wicg.github.io/background-sync/spec/#sync"}
+    },
+    // pending https://github.com/w3c/ServiceWorker/pull/1706
+    {
+      pattern: { type: "install" },
+      matched: 1,
+      change: { interface: "InstallEvent" }
     }
   ],
   'speech-api': [
@@ -423,12 +434,21 @@ const patches = {
       change: { interface: "Event" }
     }
   ],
-  'webaudio': [
+  'xhr': [
     {
-      pattern: { type: 'update' },
-      matched: 1,
-      change: { interface: 'AudioRenderCapacityEvent' }
-    },
+      pattern: { targets: 'XMLHttpRequestEventTarget' },
+      matched: 7,
+      change: { targets: ['XMLHttpRequest', 'XMLHttpRequestUpload'] }
+    }
+  ],
+  'web-bluetooth': [
+    {
+      pattern: { type: /^(advertisementreceived|gattserverdisconnected)$/ },
+      matched: 2,
+      change: { targets: ['BluetoothDevice'], bubbles: true }
+    }
+  ],
+  'webaudio-1.1': [
     {
       pattern: { type: 'ended' },
       matched: 1,
@@ -584,7 +604,8 @@ function applyEventPatches(spec) {
 
 async function curateEvents(folder) {
   const rawIndex = await loadJSON(path.join(folder, 'index.json'));
-  const index = await expandCrawlResult(rawIndex, folder, ['events']);
+  const index = JSON.parse(JSON.stringify(rawIndex));
+  await expandCrawlResult(index, folder, ['events']);
 
   async function saveEvents(spec) {
     const pathname = path.join(folder, 'events', spec.shortname + '.json');
@@ -631,7 +652,7 @@ async function curateEvents(folder) {
       delete s.events;
     }
     else if (!s.events && index.results.find(ss => ss.url === s.url).events?.length > 0) {
-      s.events = `events/${spec.shortname}.json`;
+      s.events = `events/${s.shortname}.json`;
     }
   });
   const json = JSON.stringify(rawIndex, null, 2) + '\n';
@@ -647,12 +668,12 @@ async function curateEvents(folder) {
 /**************************************************
 Export methods for use as module
 **************************************************/
-module.exports.curateEvents = curateEvents;
+export { curateEvents };
 
 /**************************************************
 Code run if the code is run as a stand-alone module
 **************************************************/
-if (require.main === module) {
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const folder = process.argv[2] ?? 'curated';
 
   curateEvents(folder).catch(e => {

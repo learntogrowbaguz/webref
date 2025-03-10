@@ -6,6 +6,14 @@
   "refs": {
     "normative": [
       {
+        "name": "CSS-EASING-1",
+        "url": "https://drafts.csswg.org/css-easing/"
+      },
+      {
+        "name": "CSS-POSITION-3",
+        "url": "https://drafts.csswg.org/css-position-3/"
+      },
+      {
         "name": "CSS-VALUES-3",
         "url": "https://drafts.csswg.org/css-values-3/"
       },
@@ -24,8 +32,8 @@
     ],
     "informative": [
       {
-        "name": "CSSOM",
-        "url": "https://drafts.csswg.org/cssom/"
+        "name": "CSS-TYPED-OM-1",
+        "url": "https://drafts.css-houdini.org/css-typed-om-1/"
       },
       {
         "name": "FUND-COMP-GRAPHICS"

@@ -8,7 +8,7 @@
       "id": "title",
       "href": "https://drafts.csswg.org/css-rhythm-1/#title",
       "level": 1,
-      "title": "No TestsCSS Rhythmic Sizing"
+      "title": "CSS Rhythmic Sizing"
     },
     {
       "id": "abstract",
@@ -111,6 +111,13 @@
       "level": 2,
       "title": "Acknowledgments",
       "number": "5"
+    },
+    {
+      "id": "changes",
+      "href": "https://drafts.csswg.org/css-rhythm-1/#changes",
+      "level": 2,
+      "title": "Changes",
+      "number": "6"
     },
     {
       "id": "w3c-conformance",

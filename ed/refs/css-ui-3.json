@@ -10,12 +10,24 @@
         "url": "https://www.w3.org/TR/css-backgrounds-3/"
       },
       {
+        "name": "CSS-BORDERS-4",
+        "url": "https://drafts.csswg.org/css-borders-4/"
+      },
+      {
         "name": "CSS-COLOR-4",
         "url": "https://www.w3.org/TR/css-color-4/"
       },
       {
+        "name": "CSS-COLOR-5",
+        "url": "https://www.w3.org/TR/css-color-5/"
+      },
+      {
         "name": "CSS-IMAGES-3",
         "url": "https://www.w3.org/TR/css-images-3/"
+      },
+      {
+        "name": "CSS-OVERFLOW-3",
+        "url": "https://www.w3.org/TR/css-overflow-3/"
       },
       {
         "name": "CSS-VALUES-3",
@@ -26,8 +38,8 @@
         "url": "https://www.w3.org/TR/css-values-4/"
       },
       {
-        "name": "CSS-WRITING-MODES-3",
-        "url": "https://www.w3.org/TR/css-writing-modes-3/"
+        "name": "CSS-WRITING-MODES-4",
+        "url": "https://www.w3.org/TR/css-writing-modes-4/"
       },
       {
         "name": "CSS2",
@@ -39,7 +51,7 @@
       },
       {
         "name": "PNG",
-        "url": "https://www.w3.org/TR/PNG/"
+        "url": "https://www.w3.org/TR/png-3/"
       },
       {
         "name": "RFC2119",
@@ -55,7 +67,7 @@
       },
       {
         "name": "UAX29",
-        "url": "https://www.unicode.org/reports/tr29/tr29-41.html"
+        "url": "https://www.unicode.org/reports/tr29/tr29-45.html"
       }
     ],
     "informative": [
@@ -70,6 +82,10 @@
       {
         "name": "CSS-TRANSITIONS-1",
         "url": "https://www.w3.org/TR/css-transitions-1/"
+      },
+      {
+        "name": "CSS-WRITING-MODES-3",
+        "url": "https://www.w3.org/TR/css-writing-modes-3/"
       },
       {
         "name": "CSS1",

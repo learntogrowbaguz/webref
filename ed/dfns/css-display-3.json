@@ -110,10 +110,10 @@
       "definedIn": "prose"
     },
     {
-      "id": "text-run",
-      "href": "https://drafts.csswg.org/css-display-3/#text-run",
+      "id": "css-text-sequence",
+      "href": "https://drafts.csswg.org/css-display-3/#css-text-sequence",
       "linkingText": [
-        "text run"
+        "text sequence"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -652,7 +652,7 @@
       "type": "value",
       "for": [
         "display",
-        "<display-list-item>"
+        "<display-listitem>"
       ],
       "access": "public",
       "informative": false,
@@ -1425,7 +1425,8 @@
       "heading": {
         "id": "glossary",
         "href": "https://drafts.csswg.org/css-display-3/#glossary",
-        "title": "Appendix A: Glossary"
+        "title": "Glossary",
+        "number": "A"
       },
       "definedIn": "dt"
     },
@@ -1443,7 +1444,8 @@
       "heading": {
         "id": "glossary",
         "href": "https://drafts.csswg.org/css-display-3/#glossary",
-        "title": "Appendix A: Glossary"
+        "title": "Glossary",
+        "number": "A"
       },
       "definedIn": "dt"
     },
@@ -1462,7 +1464,8 @@
       "heading": {
         "id": "glossary",
         "href": "https://drafts.csswg.org/css-display-3/#glossary",
-        "title": "Appendix A: Glossary"
+        "title": "Glossary",
+        "number": "A"
       },
       "definedIn": "dt"
     },
@@ -1481,7 +1484,8 @@
       "heading": {
         "id": "glossary",
         "href": "https://drafts.csswg.org/css-display-3/#glossary",
-        "title": "Appendix A: Glossary"
+        "title": "Glossary",
+        "number": "A"
       },
       "definedIn": "dt"
     },
@@ -1499,7 +1503,8 @@
       "heading": {
         "id": "glossary",
         "href": "https://drafts.csswg.org/css-display-3/#glossary",
-        "title": "Appendix A: Glossary"
+        "title": "Glossary",
+        "number": "A"
       },
       "definedIn": "dt"
     },
@@ -1517,7 +1522,8 @@
       "heading": {
         "id": "glossary",
         "href": "https://drafts.csswg.org/css-display-3/#glossary",
-        "title": "Appendix A: Glossary"
+        "title": "Glossary",
+        "number": "A"
       },
       "definedIn": "dt"
     },
@@ -1536,7 +1542,8 @@
       "heading": {
         "id": "glossary",
         "href": "https://drafts.csswg.org/css-display-3/#glossary",
-        "title": "Appendix A: Glossary"
+        "title": "Glossary",
+        "number": "A"
       },
       "definedIn": "dt"
     },
@@ -1555,7 +1562,8 @@
       "heading": {
         "id": "glossary",
         "href": "https://drafts.csswg.org/css-display-3/#glossary",
-        "title": "Appendix A: Glossary"
+        "title": "Glossary",
+        "number": "A"
       },
       "definedIn": "dt"
     },
@@ -1573,7 +1581,8 @@
       "heading": {
         "id": "glossary",
         "href": "https://drafts.csswg.org/css-display-3/#glossary",
-        "title": "Appendix A: Glossary"
+        "title": "Glossary",
+        "number": "A"
       },
       "definedIn": "dt"
     },
@@ -1591,7 +1600,8 @@
       "heading": {
         "id": "glossary",
         "href": "https://drafts.csswg.org/css-display-3/#glossary",
-        "title": "Appendix A: Glossary"
+        "title": "Glossary",
+        "number": "A"
       },
       "definedIn": "dt"
     },
@@ -1610,7 +1620,8 @@
       "heading": {
         "id": "glossary",
         "href": "https://drafts.csswg.org/css-display-3/#glossary",
-        "title": "Appendix A: Glossary"
+        "title": "Glossary",
+        "number": "A"
       },
       "definedIn": "dt"
     },
@@ -1629,7 +1640,8 @@
       "heading": {
         "id": "glossary",
         "href": "https://drafts.csswg.org/css-display-3/#glossary",
-        "title": "Appendix A: Glossary"
+        "title": "Glossary",
+        "number": "A"
       },
       "definedIn": "prose"
     },
@@ -1647,7 +1659,8 @@
       "heading": {
         "id": "glossary",
         "href": "https://drafts.csswg.org/css-display-3/#glossary",
-        "title": "Appendix A: Glossary"
+        "title": "Glossary",
+        "number": "A"
       },
       "definedIn": "dt"
     },
@@ -1665,7 +1678,8 @@
       "heading": {
         "id": "glossary",
         "href": "https://drafts.csswg.org/css-display-3/#glossary",
-        "title": "Appendix A: Glossary"
+        "title": "Glossary",
+        "number": "A"
       },
       "definedIn": "dt"
     },
@@ -1683,7 +1697,8 @@
       "heading": {
         "id": "glossary",
         "href": "https://drafts.csswg.org/css-display-3/#glossary",
-        "title": "Appendix A: Glossary"
+        "title": "Glossary",
+        "number": "A"
       },
       "definedIn": "dt"
     },
@@ -1701,7 +1716,8 @@
       "heading": {
         "id": "glossary",
         "href": "https://drafts.csswg.org/css-display-3/#glossary",
-        "title": "Appendix A: Glossary"
+        "title": "Glossary",
+        "number": "A"
       },
       "definedIn": "dt"
     },
@@ -1719,7 +1735,8 @@
       "heading": {
         "id": "glossary",
         "href": "https://drafts.csswg.org/css-display-3/#glossary",
-        "title": "Appendix A: Glossary"
+        "title": "Glossary",
+        "number": "A"
       },
       "definedIn": "dt"
     },
@@ -1740,7 +1757,8 @@
       "heading": {
         "id": "glossary",
         "href": "https://drafts.csswg.org/css-display-3/#glossary",
-        "title": "Appendix A: Glossary"
+        "title": "Glossary",
+        "number": "A"
       },
       "definedIn": "prose"
     },
@@ -1758,7 +1776,8 @@
       "heading": {
         "id": "glossary",
         "href": "https://drafts.csswg.org/css-display-3/#glossary",
-        "title": "Appendix A: Glossary"
+        "title": "Glossary",
+        "number": "A"
       },
       "definedIn": "dt"
     },
@@ -1776,7 +1795,8 @@
       "heading": {
         "id": "glossary",
         "href": "https://drafts.csswg.org/css-display-3/#glossary",
-        "title": "Appendix A: Glossary"
+        "title": "Glossary",
+        "number": "A"
       },
       "definedIn": "dt"
     },
@@ -1794,7 +1814,8 @@
       "heading": {
         "id": "glossary",
         "href": "https://drafts.csswg.org/css-display-3/#glossary",
-        "title": "Appendix A: Glossary"
+        "title": "Glossary",
+        "number": "A"
       },
       "definedIn": "dt"
     },
@@ -1812,7 +1833,8 @@
       "heading": {
         "id": "glossary",
         "href": "https://drafts.csswg.org/css-display-3/#glossary",
-        "title": "Appendix A: Glossary"
+        "title": "Glossary",
+        "number": "A"
       },
       "definedIn": "dt"
     },
@@ -1830,7 +1852,8 @@
       "heading": {
         "id": "glossary",
         "href": "https://drafts.csswg.org/css-display-3/#glossary",
-        "title": "Appendix A: Glossary"
+        "title": "Glossary",
+        "number": "A"
       },
       "definedIn": "dt"
     },
@@ -1849,7 +1872,8 @@
       "heading": {
         "id": "glossary",
         "href": "https://drafts.csswg.org/css-display-3/#glossary",
-        "title": "Appendix A: Glossary"
+        "title": "Glossary",
+        "number": "A"
       },
       "definedIn": "dt"
     },
@@ -1868,7 +1892,8 @@
       "heading": {
         "id": "glossary",
         "href": "https://drafts.csswg.org/css-display-3/#glossary",
-        "title": "Appendix A: Glossary"
+        "title": "Glossary",
+        "number": "A"
       },
       "definedIn": "dt"
     },
@@ -1886,7 +1911,8 @@
       "heading": {
         "id": "glossary",
         "href": "https://drafts.csswg.org/css-display-3/#glossary",
-        "title": "Appendix A: Glossary"
+        "title": "Glossary",
+        "number": "A"
       },
       "definedIn": "dt"
     }

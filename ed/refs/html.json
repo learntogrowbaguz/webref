@@ -58,151 +58,159 @@
       },
       {
         "name": "CSS",
-        "url": "https://w3c.github.io/csswg-drafts/css2/"
+        "url": "https://drafts.csswg.org/css2/"
       },
       {
         "name": "CSSALIGN",
-        "url": "https://w3c.github.io/csswg-drafts/css-align/"
+        "url": "https://drafts.csswg.org/css-align/"
+      },
+      {
+        "name": "CSSANCHOR",
+        "url": "https://drafts.csswg.org/css-anchor-position/"
       },
       {
         "name": "CSSANIMATIONS",
-        "url": "https://w3c.github.io/csswg-drafts/css-animations/"
+        "url": "https://drafts.csswg.org/css-animations/"
       },
       {
         "name": "CSSATTR",
-        "url": "https://w3c.github.io/csswg-drafts/css-style-attr/"
+        "url": "https://drafts.csswg.org/css-style-attr/"
       },
       {
         "name": "CSSBG",
-        "url": "https://w3c.github.io/csswg-drafts/css-backgrounds/"
+        "url": "https://drafts.csswg.org/css-backgrounds/"
       },
       {
         "name": "CSSBOX",
-        "url": "https://w3c.github.io/csswg-drafts/css-box-3/"
+        "url": "https://drafts.csswg.org/css-box-3/"
       },
       {
         "name": "CSSCASCADE",
-        "url": "https://w3c.github.io/csswg-drafts/css-cascade/"
+        "url": "https://drafts.csswg.org/css-cascade/"
       },
       {
         "name": "CSSCONTAIN",
-        "url": "https://w3c.github.io/csswg-drafts/css-contain/"
+        "url": "https://drafts.csswg.org/css-contain/"
       },
       {
         "name": "CSSCOLOR",
-        "url": "https://w3c.github.io/csswg-drafts/css-color/"
+        "url": "https://drafts.csswg.org/css-color/"
       },
       {
         "name": "CSSCOLORADJUST",
-        "url": "https://w3c.github.io/csswg-drafts/css-color-adjust/"
+        "url": "https://drafts.csswg.org/css-color-adjust/"
       },
       {
         "name": "CSSDEVICEADAPT",
-        "url": "https://w3c.github.io/csswg-drafts/css-device-adapt/"
+        "url": "https://drafts.csswg.org/css-device-adapt/"
       },
       {
         "name": "CSSDISPLAY",
-        "url": "https://w3c.github.io/csswg-drafts/css-display/"
+        "url": "https://drafts.csswg.org/css-display/"
       },
       {
         "name": "CSSFONTLOAD",
-        "url": "https://w3c.github.io/csswg-drafts/css-font-loading/"
+        "url": "https://drafts.csswg.org/css-font-loading/"
       },
       {
         "name": "CSSFONTS",
-        "url": "https://w3c.github.io/csswg-drafts/css-fonts/"
+        "url": "https://drafts.csswg.org/css-fonts/"
       },
       {
         "name": "CSSFLEXBOX",
-        "url": "https://w3c.github.io/csswg-drafts/css-flexbox/"
+        "url": "https://drafts.csswg.org/css-flexbox/"
       },
       {
         "name": "CSSGC",
-        "url": "https://w3c.github.io/csswg-drafts/css-content/"
+        "url": "https://drafts.csswg.org/css-content/"
       },
       {
         "name": "CSSGRID",
-        "url": "https://w3c.github.io/csswg-drafts/css-grid/"
+        "url": "https://drafts.csswg.org/css-grid/"
       },
       {
         "name": "CSSIMAGES",
-        "url": "https://w3c.github.io/csswg-drafts/css-images/"
+        "url": "https://drafts.csswg.org/css-images/"
       },
       {
         "name": "CSSIMAGES4",
-        "url": "https://w3c.github.io/csswg-drafts/css-images-4/"
+        "url": "https://drafts.csswg.org/css-images-4/"
       },
       {
         "name": "CSSINLINE",
-        "url": "https://w3c.github.io/csswg-drafts/css-inline/"
+        "url": "https://drafts.csswg.org/css-inline/"
       },
       {
         "name": "CSSLISTS",
-        "url": "https://w3c.github.io/csswg-drafts/css-lists/"
+        "url": "https://drafts.csswg.org/css-lists/"
       },
       {
         "name": "CSSLOGICAL",
-        "url": "https://w3c.github.io/csswg-drafts/css-logical/"
+        "url": "https://drafts.csswg.org/css-logical/"
       },
       {
         "name": "CSSMULTICOL",
-        "url": "https://w3c.github.io/csswg-drafts/css-multicol/"
+        "url": "https://drafts.csswg.org/css-multicol/"
       },
       {
         "name": "CSSOM",
-        "url": "https://w3c.github.io/csswg-drafts/cssom/"
+        "url": "https://drafts.csswg.org/cssom/"
       },
       {
         "name": "CSSOMVIEW",
-        "url": "https://w3c.github.io/csswg-drafts/cssom-view/"
+        "url": "https://drafts.csswg.org/cssom-view/"
       },
       {
         "name": "CSSOVERFLOW",
-        "url": "https://w3c.github.io/csswg-drafts/css-overflow-3/"
+        "url": "https://drafts.csswg.org/css-overflow-3/"
       },
       {
         "name": "CSSPOSITION",
-        "url": "https://w3c.github.io/csswg-drafts/css-position/"
+        "url": "https://drafts.csswg.org/css-position/"
       },
       {
         "name": "CSSPSEUDO",
-        "url": "https://w3c.github.io/csswg-drafts/css-pseudo/"
+        "url": "https://drafts.csswg.org/css-pseudo/"
       },
       {
         "name": "CSSRUBY",
-        "url": "https://w3c.github.io/csswg-drafts/css-ruby/"
+        "url": "https://drafts.csswg.org/css-ruby/"
       },
       {
         "name": "CSSSCOPING",
-        "url": "https://w3c.github.io/csswg-drafts/css-scoping/"
+        "url": "https://drafts.csswg.org/css-scoping/"
       },
       {
         "name": "CSSSIZING",
-        "url": "https://w3c.github.io/csswg-drafts/css-sizing/"
+        "url": "https://drafts.csswg.org/css-sizing/"
       },
       {
         "name": "CSSSYNTAX",
-        "url": "https://w3c.github.io/csswg-drafts/css-syntax/"
+        "url": "https://drafts.csswg.org/css-syntax/"
       },
       {
         "name": "CSSTABLE",
-        "url": "https://w3c.github.io/csswg-drafts/css-tables/"
+        "url": "https://drafts.csswg.org/css-tables/"
       },
       {
         "name": "CSSTEXT",
-        "url": "https://w3c.github.io/csswg-drafts/css-text/"
+        "url": "https://drafts.csswg.org/css-text/"
       },
       {
         "name": "CSSVALUES",
-        "url": "https://w3c.github.io/csswg-drafts/css-values/"
+        "url": "https://drafts.csswg.org/css-values/"
+      },
+      {
+        "name": "CSSVIEWTRANSITIONS",
+        "url": "https://drafts.csswg.org/css-view-transitions/"
       },
       {
         "name": "CSSUI",
-        "url": "https://w3c.github.io/csswg-drafts/css-ui/"
+        "url": "https://drafts.csswg.org/css-ui/"
       },
       {
         "name": "CSSWM",
-        "url": "https://w3c.github.io/csswg-drafts/css-writing-modes/"
+        "url": "https://drafts.csswg.org/css-writing-modes/"
       },
       {
         "name": "DASH",
@@ -230,6 +238,10 @@
       {
         "name": "FETCH",
         "url": "https://fetch.spec.whatwg.org/"
+      },
+      {
+        "name": "FETCH-METADATA",
+        "url": "https://w3c.github.io/webappsec-fetch-metadata/"
       },
       {
         "name": "FILEAPI",
@@ -277,7 +289,7 @@
       },
       {
         "name": "RESIZEOBSERVER",
-        "url": "http://w3c.github.io/csswg-drafts/resize-observer-1/"
+        "url": "https://drafts.csswg.org/resize-observer-1/"
       },
       {
         "name": "ISO3166",
@@ -300,16 +312,8 @@
         "url": "https://www.w3.org/Graphics/JPEG/jfif3.pdf"
       },
       {
-        "name": "JSIMPORTASSERTIONS",
-        "url": "https://tc39.es/proposal-import-assertions/"
-      },
-      {
-        "name": "JSJSONMODULES",
-        "url": "https://tc39.es/proposal-json-modules/"
-      },
-      {
-        "name": "JSRESIZABLEBUFFERS",
-        "url": "https://tc39.es/proposal-resizablearraybuffer/"
+        "name": "JSDYNAMICCODEBRANDCHECKS",
+        "url": "https://tc39.es/proposal-dynamic-code-brand-checks/"
       },
       {
         "name": "JSINTL",
@@ -320,16 +324,24 @@
         "url": "https://www.rfc-editor.org/rfc/rfc8259"
       },
       {
+        "name": "JSTEMPORAL",
+        "url": "https://tc39.es/proposal-temporal/"
+      },
+      {
         "name": "LONGTASKS",
         "url": "https://w3c.github.io/longtasks/"
+      },
+      {
+        "name": "LONGANIMATIONFRAMES",
+        "url": "https://w3c.github.io/long-animation-frames/"
       },
       {
         "name": "MANIFEST",
         "url": "https://www.w3.org/TR/appmanifest/"
       },
       {
-        "name": "MATHML",
-        "url": "https://www.w3.org/Math/draft-spec/"
+        "name": "MATHMLCORE",
+        "url": "https://w3c.github.io/mathml-core/"
       },
       {
         "name": "MEDIAFRAG",
@@ -371,7 +383,7 @@
       },
       {
         "name": "MQ",
-        "url": "https://w3c.github.io/csswg-drafts/mediaqueries/"
+        "url": "https://drafts.csswg.org/mediaqueries/"
       },
       {
         "name": "NAVIGATIONTIMING",
@@ -394,6 +406,10 @@
         "url": "https://w3c.github.io/payment-request/"
       },
       {
+        "name": "PERFORMANCETIMELINE",
+        "url": "https://w3c.github.io/performance-timeline/"
+      },
+      {
         "name": "PERMISSIONSPOLICY",
         "url": "https://w3c.github.io/webappsec-feature-policy/"
       },
@@ -414,10 +430,6 @@
         "url": "https://w3c.github.io/pointerlock/"
       },
       {
-        "name": "PRELOAD",
-        "url": "https://w3c.github.io/preload/"
-      },
-      {
         "name": "PRESENTATION",
         "url": "https://w3c.github.io/presentation-api/"
       },
@@ -430,8 +442,8 @@
         "url": "https://w3c.github.io/requestidlecallback/"
       },
       {
-        "name": "RESOURCEHINTS",
-        "url": "https://w3c.github.io/resource-hints/"
+        "name": "RESOURCETIMING",
+        "url": "https://w3c.github.io/resource-timing/"
       },
       {
         "name": "RFC1034",
@@ -490,6 +502,10 @@
         "url": "https://www.rfc-editor.org/rfc/rfc6596"
       },
       {
+        "name": "RFC6903",
+        "url": "https://www.rfc-editor.org/rfc/rfc6903"
+      },
+      {
         "name": "RFC7303",
         "url": "https://www.rfc-editor.org/rfc/rfc7303"
       },
@@ -515,7 +531,7 @@
       },
       {
         "name": "SELECTORS",
-        "url": "https://w3c.github.io/csswg-drafts/selectors/"
+        "url": "https://drafts.csswg.org/selectors/"
       },
       {
         "name": "STRUCTURED-FIELDS",
@@ -542,6 +558,10 @@
         "url": "https://w3c.github.io/touch-events/"
       },
       {
+        "name": "TRUSTED-TYPES",
+        "url": "https://w3c.github.io/trusted-types/dist/spec/"
+      },
+      {
         "name": "UIEVENTS",
         "url": "https://w3c.github.io/uievents/"
       },
@@ -558,8 +578,16 @@
         "url": "https://www.rfc-editor.org/rfc/rfc2141"
       },
       {
+        "name": "WASM",
+        "url": "https://webassembly.github.io/spec/core/bikeshed/index.html"
+      },
+      {
+        "name": "WASMESM",
+        "url": "https://webassembly.github.io/esm-integration/js-api/index.html"
+      },
+      {
         "name": "WEBANIMATIONS",
-        "url": "https://w3c.github.io/csswg-drafts/web-animations-1/"
+        "url": "https://drafts.csswg.org/web-animations-1/"
       },
       {
         "name": "WEBAUTHN",
@@ -604,6 +632,10 @@
       {
         "name": "WEBSOCKETS",
         "url": "https://websockets.spec.whatwg.org/"
+      },
+      {
+        "name": "WEBTRANSPORT",
+        "url": "https://w3c.github.io/webtransport/"
       },
       {
         "name": "WEBVTT",
@@ -679,6 +711,10 @@
         "url": "http://www.turingarchive.org/browse.php/B/12"
       },
       {
+        "name": "COMPUTEPRESSURE",
+        "url": "https://w3c.github.io/compute-pressure/"
+      },
+      {
         "name": "CSSPAINT",
         "url": "https://drafts.css-houdini.org/css-paint-api/"
       },
@@ -741,6 +777,10 @@
         "url": "https://www.adobe.com/content/dam/Adobe/en/devnet/acrobat/pdfs/PDF32000_2008.pdf"
       },
       {
+        "name": "PICTUREINPICTURE",
+        "url": "https://w3c.github.io/picture-in-picture/"
+      },
+      {
         "name": "PPUTF8",
         "url": "https://www.sw.it.aoyama.ac.jp/2012/pub/IUC11-UTF-8.pdf"
       },
@@ -801,8 +841,16 @@
         "url": "https://webaudio.github.io/web-audio-api/"
       },
       {
+        "name": "WEBLOCKS",
+        "url": "https://w3c.github.io/web-locks/"
+      },
+      {
         "name": "WEBNFC",
         "url": "https://w3c.github.io/web-nfc/"
+      },
+      {
+        "name": "WEBRTC",
+        "url": "https://w3c.github.io/webrtc-pc/"
       },
       {
         "name": "XKCD1288",

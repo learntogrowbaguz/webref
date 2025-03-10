@@ -14,6 +14,10 @@
         "url": "https://tc39.es/ecma262/multipage/"
       },
       {
+        "name": "encoding",
+        "url": "https://encoding.spec.whatwg.org/"
+      },
+      {
         "name": "FIPS-180-4",
         "url": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf"
       },
@@ -26,7 +30,7 @@
         "url": "https://html.spec.whatwg.org/multipage/"
       },
       {
-        "name": "infra",
+        "name": "Infra",
         "url": "https://infra.spec.whatwg.org/"
       },
       {
@@ -56,10 +60,6 @@
       {
         "name": "RFC2315",
         "url": "https://www.rfc-editor.org/rfc/rfc2315"
-      },
-      {
-        "name": "RFC3279",
-        "url": "https://www.rfc-editor.org/rfc/rfc3279"
       },
       {
         "name": "RFC3394",
@@ -98,12 +98,28 @@
         "url": "https://www.rfc-editor.org/rfc/rfc6090"
       },
       {
+        "name": "RFC7748",
+        "url": "https://www.rfc-editor.org/rfc/rfc7748"
+      },
+      {
         "name": "RFC8018",
         "url": "https://www.rfc-editor.org/rfc/rfc8018"
       },
       {
+        "name": "RFC8032",
+        "url": "https://www.rfc-editor.org/rfc/rfc8032"
+      },
+      {
+        "name": "RFC8037",
+        "url": "https://www.rfc-editor.org/rfc/rfc8037"
+      },
+      {
         "name": "RFC8174",
         "url": "https://www.rfc-editor.org/rfc/rfc8174"
+      },
+      {
+        "name": "RFC8410",
+        "url": "https://www.rfc-editor.org/rfc/rfc8410"
       },
       {
         "name": "SEC1",
@@ -122,18 +138,6 @@
       {
         "name": "INDEXEDDB",
         "url": "https://www.w3.org/TR/IndexedDB/"
-      },
-      {
-        "name": "RFC4055",
-        "url": "https://www.rfc-editor.org/rfc/rfc4055"
-      },
-      {
-        "name": "RFC5756",
-        "url": "https://www.rfc-editor.org/rfc/rfc5756"
-      },
-      {
-        "name": "RFC5958",
-        "url": "https://www.rfc-editor.org/rfc/rfc5958"
       }
     ]
   }

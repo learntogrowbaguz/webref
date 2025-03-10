@@ -5,18 +5,28 @@
   },
   "events": [
     {
-      "type": "snapChanged",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#eventdef-snapevent-scrollsnapchange",
       "src": {
-        "format": "dfn",
-        "href": "https://drafts.csswg.org/css-scroll-snap-2/#eventhandlers"
-      }
+        "format": "summary table",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#eventdef-snapevent-scrollsnapchange"
+      },
+      "type": "scrollsnapchange",
+      "targets": [
+        "SnapEvent"
+      ],
+      "interface": "SnapEvent"
     },
     {
-      "type": "snapChanging",
+      "href": "https://drafts.csswg.org/css-scroll-snap-2/#eventdef-snapevent-scrollsnapchanging",
       "src": {
-        "format": "dfn",
-        "href": "https://drafts.csswg.org/css-scroll-snap-2/#eventhandlers"
-      }
+        "format": "summary table",
+        "href": "https://drafts.csswg.org/css-scroll-snap-2/#eventdef-snapevent-scrollsnapchanging"
+      },
+      "type": "scrollsnapchanging",
+      "targets": [
+        "SnapEvent"
+      ],
+      "interface": "SnapEvent"
     }
   ]
 }

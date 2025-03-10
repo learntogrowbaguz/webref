@@ -10,12 +10,20 @@
         "url": "https://www.w3.org/TR/credential-management-1/"
       },
       {
+        "name": "CSP2",
+        "url": "https://www.w3.org/TR/CSP2/"
+      },
+      {
+        "name": "CSS21",
+        "url": "https://www.w3.org/TR/CSS21/"
+      },
+      {
         "name": "DOM4",
         "url": "https://dom.spec.whatwg.org/"
       },
       {
         "name": "ECMAScript",
-        "url": "https://tc39.es/ecma262/"
+        "url": "https://tc39.es/ecma262/multipage/"
       },
       {
         "name": "ENCODING",
@@ -31,7 +39,7 @@
       },
       {
         "name": "FIDO-CTAP",
-        "url": "https://fidoalliance.org/specs/fido-v2.0-ps-20190130/fido-client-to-authenticator-protocol-v2.0-ps-20190130.html"
+        "url": "https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html"
       },
       {
         "name": "FIDO-Privacy-Principles",
@@ -39,19 +47,23 @@
       },
       {
         "name": "FIDO-Registry",
-        "url": "https://fidoalliance.org/specs/fido-v2.0-id-20180227/fido-registry-v2.0-id-20180227.html"
+        "url": "https://fidoalliance.org/specs/common-specs/fido-registry-v2.1-ps-20191217.html"
       },
       {
         "name": "FIDO-U2F-Message-Formats",
         "url": "https://fidoalliance.org/specs/fido-u2f-v1.1-id-20160915/fido-u2f-raw-message-formats-v1.1-id-20160915.html"
       },
       {
-        "name": "FileAPI",
-        "url": "https://www.w3.org/TR/FileAPI/"
+        "name": "FIDO-V2.1",
+        "url": "https://fidoalliance.org/specs/fido-v2.1-ps-20210615/fido-client-to-authenticator-protocol-v2.1-ps-errata-20220621.html"
       },
       {
         "name": "HTML",
         "url": "https://html.spec.whatwg.org/multipage/"
+      },
+      {
+        "name": "I18N-GLOSSARY",
+        "url": "https://www.w3.org/TR/i18n-glossary/"
       },
       {
         "name": "IANA-COSE-ALGS-REG",
@@ -66,76 +78,80 @@
         "url": "https://infra.spec.whatwg.org/"
       },
       {
-        "name": "PAGE-VISIBILITY",
-        "url": "https://www.w3.org/TR/page-visibility/"
-      },
-      {
         "name": "Permissions-Policy",
         "url": "https://www.w3.org/TR/permissions-policy-1/"
       },
       {
+        "name": "PRIVATE-AGGREGATION-API",
+        "url": "https://patcg-individual-drafts.github.io/private-aggregation-api/"
+      },
+      {
         "name": "RFC2119",
-        "url": "https://tools.ietf.org/html/rfc2119"
+        "url": "https://datatracker.ietf.org/doc/html/rfc2119"
       },
       {
         "name": "RFC3986",
-        "url": "https://datatracker.ietf.org/doc/html/rfc3986"
+        "url": "https://www.rfc-editor.org/rfc/rfc3986"
       },
       {
         "name": "RFC4648",
-        "url": "https://datatracker.ietf.org/doc/html/rfc4648"
+        "url": "https://www.rfc-editor.org/rfc/rfc4648"
       },
       {
         "name": "RFC4949",
-        "url": "https://datatracker.ietf.org/doc/html/rfc4949"
+        "url": "https://www.rfc-editor.org/rfc/rfc4949"
       },
       {
         "name": "RFC5234",
-        "url": "https://datatracker.ietf.org/doc/html/rfc5234"
+        "url": "https://www.rfc-editor.org/rfc/rfc5234"
       },
       {
         "name": "RFC5280",
-        "url": "https://datatracker.ietf.org/doc/html/rfc5280"
-      },
-      {
-        "name": "RFC5646",
-        "url": "https://datatracker.ietf.org/doc/html/rfc5646"
+        "url": "https://www.rfc-editor.org/rfc/rfc5280"
       },
       {
         "name": "RFC5890",
-        "url": "https://datatracker.ietf.org/doc/html/rfc5890"
+        "url": "https://www.rfc-editor.org/rfc/rfc5890"
       },
       {
         "name": "RFC6454",
-        "url": "https://datatracker.ietf.org/doc/html/rfc6454"
+        "url": "https://www.rfc-editor.org/rfc/rfc6454"
       },
       {
         "name": "RFC7515",
-        "url": "https://datatracker.ietf.org/doc/html/rfc7515"
+        "url": "https://www.rfc-editor.org/rfc/rfc7515"
       },
       {
         "name": "RFC8152",
-        "url": "https://datatracker.ietf.org/doc/html/rfc8152"
+        "url": "https://www.rfc-editor.org/rfc/rfc8152"
+      },
+      {
+        "name": "RFC8174",
+        "url": "https://www.rfc-editor.org/rfc/rfc8174"
       },
       {
         "name": "RFC8230",
-        "url": "https://datatracker.ietf.org/doc/html/rfc8230"
+        "url": "https://www.rfc-editor.org/rfc/rfc8230"
       },
       {
         "name": "RFC8264",
-        "url": "https://datatracker.ietf.org/doc/html/rfc8264"
+        "url": "https://www.rfc-editor.org/rfc/rfc8264"
       },
       {
         "name": "RFC8265",
-        "url": "https://datatracker.ietf.org/doc/html/rfc8265"
+        "url": "https://www.rfc-editor.org/rfc/rfc8265"
       },
       {
         "name": "RFC8266",
-        "url": "https://datatracker.ietf.org/doc/html/rfc8266"
+        "url": "https://www.rfc-editor.org/rfc/rfc8266"
       },
       {
         "name": "RFC8610",
         "url": "https://tools.ietf.org/html/rfc8610"
+      },
+      {
+        "name": "RFC8615",
+        "url": "https://www.rfc-editor.org/rfc/rfc8615"
       },
       {
         "name": "RFC8809",
@@ -143,7 +159,15 @@
       },
       {
         "name": "RFC8949",
-        "url": "https://datatracker.ietf.org/doc/html/rfc8949"
+        "url": "https://www.rfc-editor.org/rfc/rfc8949"
+      },
+      {
+        "name": "RFC9052",
+        "url": "https://www.rfc-editor.org/rfc/rfc9052"
+      },
+      {
+        "name": "RFC9053",
+        "url": "https://www.rfc-editor.org/rfc/rfc9053"
       },
       {
         "name": "SEC1",
@@ -163,7 +187,7 @@
       },
       {
         "name": "TPMv2-EK-Profile",
-        "url": "https://www.trustedcomputinggroup.org/wp-content/uploads/Credential_Profile_EK_V2.0_R14_published.pdf"
+        "url": "https://trustedcomputinggroup.org/wp-content/uploads/TCG-EK-Credential-Profile-V-2.5-R2_published.pdf"
       },
       {
         "name": "TPMv2-Part1",
@@ -182,20 +206,28 @@
         "url": "https://url.spec.whatwg.org/"
       },
       {
-        "name": "UTR29",
-        "url": "http://www.unicode.org/reports/tr29/"
-      },
-      {
         "name": "WCAG21",
         "url": "https://www.w3.org/TR/WCAG21/"
+      },
+      {
+        "name": "WEBAUTHN-2-20210408",
+        "url": "https://www.w3.org/TR/2021/REC-webauthn-2-20210408/"
+      },
+      {
+        "name": "WEBAUTHN-3",
+        "url": "https://www.w3.org/TR/webauthn-3/"
       },
       {
         "name": "WebDriver",
         "url": "https://www.w3.org/TR/webdriver1/"
       },
       {
+        "name": "WEBDRIVER2",
+        "url": "https://www.w3.org/TR/webdriver2/"
+      },
+      {
         "name": "WebIDL",
-        "url": "https://heycam.github.io/webidl/"
+        "url": "https://webidl.spec.whatwg.org/"
       }
     ],
     "informative": [
@@ -241,23 +273,35 @@
       },
       {
         "name": "RFC3279",
-        "url": "https://datatracker.ietf.org/doc/html/rfc3279"
+        "url": "https://www.rfc-editor.org/rfc/rfc3279"
+      },
+      {
+        "name": "RFC5869",
+        "url": "https://www.rfc-editor.org/rfc/rfc5869"
       },
       {
         "name": "RFC5958",
-        "url": "https://datatracker.ietf.org/doc/html/rfc5958"
+        "url": "https://www.rfc-editor.org/rfc/rfc5958"
       },
       {
         "name": "RFC6265",
         "url": "https://httpwg.org/specs/rfc6265.html"
       },
       {
+        "name": "RFC6979",
+        "url": "https://www.rfc-editor.org/rfc/rfc6979"
+      },
+      {
         "name": "RFC8017",
-        "url": "https://datatracker.ietf.org/doc/html/rfc8017"
+        "url": "https://www.rfc-editor.org/rfc/rfc8017"
       },
       {
         "name": "UAFProtocol",
         "url": "https://fidoalliance.org/specs/fido-uaf-v1.0-ps-20141208/fido-uaf-protocol-v1.0-ps-20141208.html"
+      },
+      {
+        "name": "UAX29",
+        "url": "http://www.unicode.org/reports/tr29/"
       },
       {
         "name": "WebAuthn-1",

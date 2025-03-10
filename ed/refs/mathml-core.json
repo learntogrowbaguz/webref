@@ -38,12 +38,20 @@
         "url": "https://www.w3.org/TR/css-position-3/"
       },
       {
+        "name": "css-pseudo-4",
+        "url": "https://www.w3.org/TR/css-pseudo-4/"
+      },
+      {
         "name": "css-sizing-3",
         "url": "https://www.w3.org/TR/css-sizing-3/"
       },
       {
-        "name": "CSS-TEXT-3",
+        "name": "css-text-3",
         "url": "https://www.w3.org/TR/css-text-3/"
+      },
+      {
+        "name": "CSS-TEXT-4",
+        "url": "https://www.w3.org/TR/css-text-4/"
       },
       {
         "name": "CSS-VALUES-4",
@@ -90,10 +98,6 @@
         "url": "https://www.w3.org/TR/SVG/"
       },
       {
-        "name": "UNICODE",
-        "url": "https://www.unicode.org/versions/latest/"
-      },
-      {
         "name": "webidl",
         "url": "https://webidl.spec.whatwg.org/"
       }
@@ -129,10 +133,18 @@
       },
       {
         "name": "OPEN-TYPE-MATH-IN-HARFBUZZ",
-        "url": "https://frederic-wang.fr/opentype-math-in-harfbuzz.html"
+        "url": "https://frederic-wang.fr/2016/04/16/opentype-math-in-harfbuzz/"
       },
       {
         "name": "TEXBOOK"
+      },
+      {
+        "name": "UNICODE",
+        "url": "https://www.unicode.org/versions/latest/"
+      },
+      {
+        "name": "xml-entity-names",
+        "url": "https://www.w3.org/TR/xml-entity-names/"
       }
     ]
   }

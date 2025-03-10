@@ -157,6 +157,25 @@
       "definedIn": "prose"
     },
     {
+      "id": "dfn-has-scheduled-selectionchange-event",
+      "href": "https://www.w3.org/TR/selection-api/#dfn-has-scheduled-selectionchange-event",
+      "linkingText": [
+        "has scheduled selectionchange event"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "definition",
+        "href": "https://www.w3.org/TR/selection-api/#definition",
+        "title": "Definition",
+        "number": "2"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "dom-selection",
       "href": "https://www.w3.org/TR/selection-api/#dom-selection",
       "linkingText": [
@@ -176,19 +195,34 @@
       "definedIn": "pre"
     },
     {
-      "id": "dom-selection-stringifier",
-      "href": "https://www.w3.org/TR/selection-api/#dom-selection-stringifier",
+      "id": "dom-getcomposedrangesoptions",
+      "href": "https://www.w3.org/TR/selection-api/#dom-getcomposedrangesoptions",
       "linkingText": [
-        "stringifier()"
+        "GetComposedRangesOptions"
       ],
-      "localLinkingText": [
-        "Selection.stringifier",
-        "Selection.stringifier()",
-        "stringifier"
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "selection-interface",
+        "href": "https://www.w3.org/TR/selection-api/#selection-interface",
+        "title": "Selection interface",
+        "number": "3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-getcomposedrangesoptions-shadowroots",
+      "href": "https://www.w3.org/TR/selection-api/#dom-getcomposedrangesoptions-shadowroots",
+      "linkingText": [
+        "shadowRoots"
       ],
-      "type": "method",
+      "localLinkingText": [],
+      "type": "dict-member",
       "for": [
-        "Selection"
+        "GetComposedRangesOptions"
       ],
       "access": "public",
       "informative": false,
@@ -362,6 +396,29 @@
       "definedIn": "dt"
     },
     {
+      "id": "dom-selection-direction",
+      "href": "https://www.w3.org/TR/selection-api/#dom-selection-direction",
+      "linkingText": [
+        "direction"
+      ],
+      "localLinkingText": [
+        "Selection.direction"
+      ],
+      "type": "attribute",
+      "for": [
+        "Selection"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "selection-interface",
+        "href": "https://www.w3.org/TR/selection-api/#selection-interface",
+        "title": "Selection interface",
+        "number": "3"
+      },
+      "definedIn": "dt"
+    },
+    {
       "id": "dom-selection-getrangeat",
       "href": "https://www.w3.org/TR/selection-api/#dom-selection-getrangeat",
       "linkingText": [
@@ -490,16 +547,16 @@
       "definedIn": "dt"
     },
     {
-      "id": "dom-selection-getcomposedrange",
-      "href": "https://www.w3.org/TR/selection-api/#dom-selection-getcomposedrange",
+      "id": "dom-selection-getcomposedranges",
+      "href": "https://www.w3.org/TR/selection-api/#dom-selection-getcomposedranges",
       "linkingText": [
-        "getComposedRange()",
-        "getComposedRange(shadowRoots)"
+        "getComposedRanges()",
+        "getComposedRanges(options)"
       ],
       "localLinkingText": [
-        "Selection.getComposedRange",
-        "Selection.getComposedRange()",
-        "getComposedRange"
+        "Selection.getComposedRanges",
+        "Selection.getComposedRanges()",
+        "getComposedRanges"
       ],
       "type": "method",
       "for": [
@@ -779,6 +836,31 @@
       "definedIn": "dt"
     },
     {
+      "id": "dom-selection-stringifier",
+      "href": "https://www.w3.org/TR/selection-api/#dom-selection-stringifier",
+      "linkingText": [
+        "stringifier()"
+      ],
+      "localLinkingText": [
+        "Selection.stringifier",
+        "Selection.stringifier()",
+        "stringifier"
+      ],
+      "type": "method",
+      "for": [
+        "Selection"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "selection-interface",
+        "href": "https://www.w3.org/TR/selection-api/#selection-interface",
+        "title": "Selection interface",
+        "number": "3"
+      },
+      "definedIn": "dt"
+    },
+    {
       "id": "dom-document-getselection",
       "href": "https://www.w3.org/TR/selection-api/#dom-document-getselection",
       "linkingText": [
@@ -911,6 +993,44 @@
         "number": "6.2"
       },
       "definedIn": "heading"
+    },
+    {
+      "id": "dfn-schedule-a-selectionchange-event",
+      "href": "https://www.w3.org/TR/selection-api/#dfn-schedule-a-selectionchange-event",
+      "linkingText": [
+        "schedule a selectionchange event"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "scheduling-selectionchange-event",
+        "href": "https://www.w3.org/TR/selection-api/#scheduling-selectionchange-event",
+        "title": "Scheduling selectionchange event",
+        "number": "6.2.1"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "dfn-fire-a-selectionchange-event",
+      "href": "https://www.w3.org/TR/selection-api/#dfn-fire-a-selectionchange-event",
+      "linkingText": [
+        "fire a selectionchange event"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "firing-selectionchange-event",
+        "href": "https://www.w3.org/TR/selection-api/#firing-selectionchange-event",
+        "title": "Firing selectionchange event",
+        "number": "6.2.2"
+      },
+      "definedIn": "prose"
     }
   ]
 }

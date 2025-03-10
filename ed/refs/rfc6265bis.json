@@ -18,8 +18,8 @@
         "url": "https://html.spec.whatwg.org/"
       },
       {
-        "name": "HTTPSEM",
-        "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-semantics-19"
+        "name": "HTTP",
+        "url": "https://www.rfc-editor.org/rfc/rfc9110"
       },
       {
         "name": "RFC1034",
@@ -32,10 +32,6 @@
       {
         "name": "RFC2119",
         "url": "https://www.rfc-editor.org/rfc/rfc2119"
-      },
-      {
-        "name": "RFC3490",
-        "url": "https://www.rfc-editor.org/rfc/rfc3490"
       },
       {
         "name": "RFC4790",
@@ -58,12 +54,12 @@
         "url": "https://www.rfc-editor.org/rfc/rfc8126"
       },
       {
-        "name": "SAMESITE",
-        "url": "https://html.spec.whatwg.org/#same-site"
+        "name": "RFC8174",
+        "url": "https://www.rfc-editor.org/rfc/rfc8174"
       },
       {
-        "name": "SERVICE-WORKERS",
-        "url": "http://www.w3.org/TR/service-workers/"
+        "name": "SAMESITE",
+        "url": "https://html.spec.whatwg.org/#same-site"
       },
       {
         "name": "USASCII"
@@ -83,16 +79,8 @@
         "url": "http://portal.acm.org/citation.cfm?id=1455770.1455782"
       },
       {
-        "name": "I-D.ietf-httpbis-cookie-alone",
-        "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-cookie-alone-01"
-      },
-      {
-        "name": "I-D.ietf-httpbis-cookie-prefixes",
-        "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-cookie-prefixes-00"
-      },
-      {
-        "name": "I-D.ietf-httpbis-cookie-same-site",
-        "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-cookie-same-site-00"
+        "name": "HttpFieldNameRegistry",
+        "url": "https://www.iana.org/assignments/http-fields/"
       },
       {
         "name": "prerendering",
@@ -107,24 +95,12 @@
         "url": "https://www.rfc-editor.org/rfc/rfc2109"
       },
       {
-        "name": "RFC2818",
-        "url": "https://www.rfc-editor.org/rfc/rfc2818"
-      },
-      {
-        "name": "RFC3864",
-        "url": "https://www.rfc-editor.org/rfc/rfc3864"
-      },
-      {
         "name": "RFC3986",
         "url": "https://www.rfc-editor.org/rfc/rfc3986"
       },
       {
         "name": "RFC4648",
         "url": "https://www.rfc-editor.org/rfc/rfc4648"
-      },
-      {
-        "name": "RFC5895",
-        "url": "https://www.rfc-editor.org/rfc/rfc5895"
       },
       {
         "name": "RFC6265",
@@ -135,8 +111,20 @@
         "url": "https://www.rfc-editor.org/rfc/rfc7034"
       },
       {
-        "name": "UTS46",
-        "url": "http://unicode.org/reports/tr46/"
+        "name": "RFC9113",
+        "url": "https://www.rfc-editor.org/rfc/rfc9113"
+      },
+      {
+        "name": "RFC9114",
+        "url": "https://www.rfc-editor.org/rfc/rfc9114"
+      },
+      {
+        "name": "SERVICE-WORKERS",
+        "url": "https://www.w3.org/TR/service-workers/"
+      },
+      {
+        "name": "TLS13",
+        "url": "https://www.rfc-editor.org/rfc/rfc8446"
       }
     ]
   }

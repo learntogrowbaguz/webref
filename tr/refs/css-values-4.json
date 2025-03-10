@@ -6,6 +6,10 @@
   "refs": {
     "normative": [
       {
+        "name": "CSS-2023",
+        "url": "https://www.w3.org/TR/css-2023/"
+      },
+      {
         "name": "CSS-BOX-4",
         "url": "https://www.w3.org/TR/css-box-4/"
       },
@@ -16,6 +20,10 @@
       {
         "name": "CSS-COLOR-4",
         "url": "https://www.w3.org/TR/css-color-4/"
+      },
+      {
+        "name": "CSS-COLOR-5",
+        "url": "https://www.w3.org/TR/css-color-5/"
       },
       {
         "name": "CSS-CONDITIONAL-3",
@@ -38,6 +46,10 @@
         "url": "https://www.w3.org/TR/css-fonts-4/"
       },
       {
+        "name": "CSS-FONTS-5",
+        "url": "https://www.w3.org/TR/css-fonts-5/"
+      },
+      {
         "name": "CSS-GRID-2",
         "url": "https://www.w3.org/TR/css-grid-2/"
       },
@@ -54,12 +66,20 @@
         "url": "https://www.w3.org/TR/css-masking-1/"
       },
       {
+        "name": "CSS-OVERFLOW-3",
+        "url": "https://www.w3.org/TR/css-overflow-3/"
+      },
+      {
         "name": "CSS-PAGE-3",
         "url": "https://www.w3.org/TR/css-page-3/"
       },
       {
         "name": "CSS-POSITION-3",
         "url": "https://www.w3.org/TR/css-position-3/"
+      },
+      {
+        "name": "CSS-SCOPING-1",
+        "url": "https://www.w3.org/TR/css-scoping-1/"
       },
       {
         "name": "CSS-SHAPES-1",
@@ -74,24 +94,16 @@
         "url": "https://www.w3.org/TR/css-syntax-3/"
       },
       {
-        "name": "CSS-TEXT-3",
-        "url": "https://www.w3.org/TR/css-text-3/"
+        "name": "CSS-TEXT-4",
+        "url": "https://www.w3.org/TR/css-text-4/"
       },
       {
         "name": "CSS-TYPED-OM-1",
         "url": "https://www.w3.org/TR/css-typed-om-1/"
       },
       {
-        "name": "CSS-UI-3",
-        "url": "https://www.w3.org/TR/css-ui-3/"
-      },
-      {
-        "name": "CSS-VALUES-3",
-        "url": "https://www.w3.org/TR/css-values-3/"
-      },
-      {
         "name": "CSS-VALUES-5",
-        "url": "https://www.w3.org/TR/css-values-5/"
+        "url": "https://drafts.csswg.org/css-values-5/"
       },
       {
         "name": "CSS-VARIABLES-1",
@@ -102,8 +114,12 @@
         "url": "https://www.w3.org/TR/css-writing-modes-4/"
       },
       {
-        "name": "CSS21",
+        "name": "CSS2",
         "url": "https://www.w3.org/TR/CSS21/"
+      },
+      {
+        "name": "CSS22",
+        "url": "https://www.w3.org/TR/CSS22/"
       },
       {
         "name": "CSS3-BACKGROUND",
@@ -176,14 +192,6 @@
         "url": "https://www.w3.org/TR/css-color-3/"
       },
       {
-        "name": "CSS-COLOR-5",
-        "url": "https://www.w3.org/TR/css-color-5/"
-      },
-      {
-        "name": "CSS-FONTS-5",
-        "url": "https://www.w3.org/TR/css-fonts-5/"
-      },
-      {
         "name": "CSS-GRID-1",
         "url": "https://www.w3.org/TR/css-grid-1/"
       },
@@ -196,12 +204,20 @@
         "url": "https://www.w3.org/TR/css-rhythm-1/"
       },
       {
-        "name": "CSS-TEXT-DECOR-3",
-        "url": "https://www.w3.org/TR/css-text-decor-3/"
+        "name": "CSS-TEXT-3",
+        "url": "https://www.w3.org/TR/css-text-3/"
+      },
+      {
+        "name": "CSS-TEXT-DECOR-4",
+        "url": "https://www.w3.org/TR/css-text-decor-4/"
       },
       {
         "name": "CSS-TRANSFORMS-1",
         "url": "https://www.w3.org/TR/css-transforms-1/"
+      },
+      {
+        "name": "CSS-UI-4",
+        "url": "https://www.w3.org/TR/css-ui-4/"
       },
       {
         "name": "MEDIAQ",

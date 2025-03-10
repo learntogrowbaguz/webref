@@ -39,7 +39,7 @@
       },
       {
         "name": "CSS-DISPLAY-4",
-        "url": "https://drafts.csswg.org/css-display-4/"
+        "url": "https://drafts.csswg.org/css-display/"
       },
       {
         "name": "CSS-IMAGES-3",
@@ -64,6 +64,10 @@
       {
         "name": "CSS-POSITION-3",
         "url": "https://drafts.csswg.org/css-position-3/"
+      },
+      {
+        "name": "CSS-POSITION-4",
+        "url": "https://drafts.csswg.org/css-position-4/"
       },
       {
         "name": "CSS-PSEUDO-4",
@@ -102,6 +106,10 @@
         "url": "https://drafts.csswg.org/css-values-4/"
       },
       {
+        "name": "CSS-VIEW-TRANSITIONS-1",
+        "url": "https://drafts.csswg.org/css-view-transitions-1/"
+      },
+      {
         "name": "CSS-WRITING-MODES-3",
         "url": "https://drafts.csswg.org/css-writing-modes-3/"
       },
@@ -120,10 +128,6 @@
       {
         "name": "DOM",
         "url": "https://dom.spec.whatwg.org/"
-      },
-      {
-        "name": "FULLSCREEN",
-        "url": "https://fullscreen.spec.whatwg.org/"
       },
       {
         "name": "HTML",
@@ -146,6 +150,10 @@
         "url": "https://svgwg.org/svg2-draft/"
       },
       {
+        "name": "WEB-ANIMATIONS-1",
+        "url": "https://drafts.csswg.org/web-animations-1/"
+      },
+      {
         "name": "WEBIDL",
         "url": "https://webidl.spec.whatwg.org/"
       }
@@ -158,6 +166,10 @@
       {
         "name": "CSS-MULTICOL-1",
         "url": "https://drafts.csswg.org/css-multicol/"
+      },
+      {
+        "name": "CSS-OVERFLOW-5",
+        "url": "https://drafts.csswg.org/css-overflow-5/"
       },
       {
         "name": "CSS-PAGE-3",

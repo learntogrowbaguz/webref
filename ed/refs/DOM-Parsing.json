@@ -11,11 +11,7 @@
       },
       {
         "name": "ECMA-262",
-        "url": "https://tc39.es/ecma262/"
-      },
-      {
-        "name": "HTML",
-        "url": "https://html.spec.whatwg.org/multipage/"
+        "url": "https://tc39.es/ecma262/multipage/"
       },
       {
         "name": "HTML5",
@@ -23,7 +19,7 @@
       },
       {
         "name": "WEBIDL",
-        "url": "https://heycam.github.io/webidl/"
+        "url": "https://webidl.spec.whatwg.org/"
       },
       {
         "name": "XML10",

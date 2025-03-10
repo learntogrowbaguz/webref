@@ -1,0 +1,178 @@
+{
+  "spec": {
+    "title": "CSS Functions and Mixins Module",
+    "url": "https://drafts.csswg.org/css-mixins-1/"
+  },
+  "links": {
+    "rawlinks": {
+      "http://lists.w3.org/Archives/Public/public-css-testsuite": {},
+      "http://www.w3.org/Style/CSS/Test/": {},
+      "http://www.w3.org/TR/CSS/": {
+        "anchors": [
+          "future-proofing",
+          "unstable",
+          "proprietary-extension"
+        ]
+      },
+      "http://www.w3.org/TR/CSS21/conform.html": {
+        "anchors": [
+          "style-sheet",
+          "user-agent",
+          "ignore"
+        ]
+      },
+      "https://datatracker.ietf.org/doc/html/rfc2119": {},
+      "https://drafts.css-houdini.org/css-properties-values-api-1/": {
+        "anchors": [
+          "calculation-of-computed-values"
+        ]
+      },
+      "https://drafts.csswg.org/css-animations/": {},
+      "https://drafts.csswg.org/css-cascade-5/": {},
+      "https://drafts.csswg.org/css-conditional-3/": {
+        "anchors": [
+          "processing"
+        ]
+      },
+      "https://drafts.csswg.org/css-conditional-5/": {},
+      "https://drafts.csswg.org/css-nesting/": {},
+      "https://drafts.csswg.org/css-scoping/": {},
+      "https://drafts.csswg.org/css-syntax/": {},
+      "https://drafts.csswg.org/css-values-4/": {},
+      "https://drafts.csswg.org/css-values-5/": {},
+      "https://drafts.csswg.org/css-variables-1/": {
+        "anchors": [
+          "cycles"
+        ]
+      },
+      "https://drafts.csswg.org/css-variables-2/": {},
+      "https://drafts.csswg.org/css-variables/": {},
+      "https://drafts.csswg.org/cssom/": {},
+      "https://drafts.csswg.org/selectors/": {},
+      "https://github.com/w3c/csswg-drafts/issues": {},
+      "https://lists.w3.org/Archives/Public/public-css-archive/": {},
+      "https://lists.w3.org/Archives/Public/www-style/": {},
+      "https://webidl.spec.whatwg.org/": {},
+      "https://www.w3.org/TR/CSS/": {},
+      "https://www.w3.org/policies/process/20231103/": {}
+    },
+    "autolinks": {
+      "https://drafts.css-houdini.org/css-properties-values-api-1/": {
+        "anchors": [
+          "syntax-definition",
+          "equivalent-token-sequence",
+          "custom-property-registration",
+          "universal-syntax-definition"
+        ]
+      },
+      "https://drafts.csswg.org/css-animations-1/": {
+        "anchors": [
+          "at-ruledef-keyframes"
+        ]
+      },
+      "https://drafts.csswg.org/css-cascade-5/": {
+        "anchors": [
+          "valdef-all-initial",
+          "valdef-all-inherit",
+          "computed-value",
+          "specified-value",
+          "inherited-value"
+        ]
+      },
+      "https://drafts.csswg.org/css-conditional-3/": {
+        "anchors": [
+          "conditional-group-rule",
+          "at-ruledef-media"
+        ]
+      },
+      "https://drafts.csswg.org/css-conditional-5/": {
+        "anchors": [
+          "at-ruledef-container"
+        ]
+      },
+      "https://drafts.csswg.org/css-nesting-1/": {
+        "anchors": [
+          "nested-group-rules",
+          "cssnesteddeclarations"
+        ]
+      },
+      "https://drafts.csswg.org/css-scoping-1/": {
+        "anchors": [
+          "css-tree-scoped-name",
+          "css-tree-scoped-reference"
+        ]
+      },
+      "https://drafts.csswg.org/css-syntax-3/": {
+        "anchors": [
+          "typedef-function-token",
+          "typedef-declaration-rule-list",
+          "typedef-declaration-value",
+          "style-rule",
+          "declaration"
+        ]
+      },
+      "https://drafts.csswg.org/css-values-4/": {
+        "anchors": [
+          "mult-comma",
+          "mult-opt",
+          "comb-one",
+          "typedef-dashed-ident",
+          "functional-notation",
+          "mult-zero-plus",
+          "css-wide-keywords"
+        ]
+      },
+      "https://drafts.csswg.org/css-values-5/": {
+        "anchors": [
+          "arbitrary-substitution-function",
+          "substitute-arbitrary-substitution-function",
+          "typedef-syntax-component",
+          "typedef-syntax",
+          "typedef-syntax-combinator",
+          "invalid-at-computed-value-time",
+          "comma-containing-productions",
+          "funcdef-attr"
+        ]
+      },
+      "https://drafts.csswg.org/css-variables-2/": {
+        "anchors": [
+          "custom-property",
+          "funcdef-var",
+          "typedef-custom-property-name",
+          "guaranteed-invalid-value"
+        ]
+      },
+      "https://drafts.csswg.org/cssom-1/": {
+        "anchors": [
+          "cssgroupingrule",
+          "cssstyledeclaration",
+          "cssomstring",
+          "cssrule",
+          "cssstyledeclaration-computed-flag",
+          "cssstyledeclaration-readonly-flag",
+          "cssstyledeclaration-declarations",
+          "concept-declarations-specified-order",
+          "cssstyledeclaration-parent-css-rule",
+          "cssstyledeclaration-owner-node",
+          "serialize-a-css-rule",
+          "css-declaration-block",
+          "serialize-a-css-declaration-block"
+        ]
+      },
+      "https://drafts.csswg.org/selectors-4/": {
+        "anchors": [
+          "featureless"
+        ]
+      },
+      "https://webidl.spec.whatwg.org/": {
+        "anchors": [
+          "Exposed",
+          "LegacyNullToEmptyString",
+          "SameObject",
+          "PutForwards",
+          "this"
+        ]
+      }
+    }
+  }
+}

@@ -18,34 +18,42 @@
         "url": "https://infra.spec.whatwg.org/"
       },
       {
+        "name": "TRUSTED-TYPES",
+        "url": "https://w3c.github.io/trusted-types/dist/spec/"
+      },
+      {
+        "name": "URL",
+        "url": "https://url.spec.whatwg.org/"
+      },
+      {
         "name": "WEBIDL",
         "url": "https://webidl.spec.whatwg.org/"
       }
     ],
     "informative": [
       {
-        "name": "DEFAULTS",
-        "url": "https://github.com/WICG/sanitizer-api/blob/main/resources/defaults-derivation.html"
-      },
-      {
         "name": "DOMPURIFY",
         "url": "https://github.com/cure53/DOMPurify"
+      },
+      {
+        "name": "HTMLSanitizer",
+        "url": "https://www.bucksch.org/1/projects/mozilla/108153/"
+      },
+      {
+        "name": "MathML",
+        "url": "https://www.w3.org/TR/REC-MathML/"
       },
       {
         "name": "MXSS",
         "url": "https://cure53.de/fp170.pdf"
       },
       {
-        "name": "MXSS1",
-        "url": "https://research.securitum.com/mutation-xss-via-mathml-mutation-dompurify-2-0-17-bypass/"
+        "name": "SafeMathML",
+        "url": "https://w3c.github.io/mathml-docs/mathml-safe-list"
       },
       {
-        "name": "MXSS2",
-        "url": "https://www.checkmarx.com/blog/technical-blog/vulnerabilities-discovered-in-mozilla-bleach/"
-      },
-      {
-        "name": "URL",
-        "url": "https://url.spec.whatwg.org/"
+        "name": "SVG11",
+        "url": "https://www.w3.org/TR/SVG11/"
       }
     ]
   }

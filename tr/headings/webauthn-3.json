@@ -5,10 +5,10 @@
   },
   "headings": [
     {
-      "id": "profile-and-date",
-      "href": "https://www.w3.org/TR/webauthn-3/#profile-and-date",
-      "level": 2,
-      "title": "W3C First Public Working Draft, 27 April 2021"
+      "id": "title",
+      "href": "https://www.w3.org/TR/webauthn-3/#title",
+      "level": 1,
+      "title": "Web Authentication:An API for accessing Public Key CredentialsLevel 3"
     },
     {
       "id": "abstract",
@@ -17,8 +17,8 @@
       "title": "Abstract"
     },
     {
-      "id": "status",
-      "href": "https://www.w3.org/TR/webauthn-3/#status",
+      "id": "sotd",
+      "href": "https://www.w3.org/TR/webauthn-3/#sotd",
       "level": 2,
       "title": "Status of this document"
     },
@@ -50,32 +50,53 @@
       "number": "1.2"
     },
     {
-      "id": "sctn-usecase-registration",
-      "href": "https://www.w3.org/TR/webauthn-3/#sctn-usecase-registration",
+      "id": "sctn-usecase-consumer-mdc",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-usecase-consumer-mdc",
       "level": 4,
-      "title": "Registration",
+      "title": "Consumer with Multi-Device Credentials",
       "number": "1.2.1"
     },
     {
-      "id": "sctn-usecase-authentication",
-      "href": "https://www.w3.org/TR/webauthn-3/#sctn-usecase-authentication",
-      "level": 4,
+      "id": "sctn-usecase-consumer-mdc-reg",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-usecase-consumer-mdc-reg",
+      "level": 5,
+      "title": "Registration",
+      "number": "1.2.1.1"
+    },
+    {
+      "id": "sctn-usecase-consumer-mdc-auth",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-usecase-consumer-mdc-auth",
+      "level": 5,
       "title": "Authentication",
+      "number": "1.2.1.2"
+    },
+    {
+      "id": "sctn-usecase-workforce-sdc",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-usecase-workforce-sdc",
+      "level": 4,
+      "title": "Workforce with Single-Device Credentials",
       "number": "1.2.2"
     },
     {
-      "id": "sctn-usecase-new-device-registration",
-      "href": "https://www.w3.org/TR/webauthn-3/#sctn-usecase-new-device-registration",
-      "level": 4,
-      "title": "New Device Registration",
-      "number": "1.2.3"
+      "id": "sctn-usecase-workforce-sdc-reg",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-usecase-workforce-sdc-reg",
+      "level": 5,
+      "title": "Registration",
+      "number": "1.2.2.1"
+    },
+    {
+      "id": "sctn-usecase-workforce-sdc-auth",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-usecase-workforce-sdc-auth",
+      "level": 5,
+      "title": "Authentication",
+      "number": "1.2.2.2"
     },
     {
       "id": "sctn-other-configurations",
       "href": "https://www.w3.org/TR/webauthn-3/#sctn-other-configurations",
       "level": 4,
       "title": "Other Use Cases and Configurations",
-      "number": "1.2.4"
+      "number": "1.2.3"
     },
     {
       "id": "sctn-sample-scenarios",
@@ -221,43 +242,113 @@
       "id": "sctn-createCredential",
       "href": "https://www.w3.org/TR/webauthn-3/#sctn-createCredential",
       "level": 4,
-      "title": "Create a New Credential - PublicKeyCredential’s [[Create]](origin, options, sameOriginWithAncestors) Method",
+      "title": "Create a New Credential - PublicKeyCredential’s [[Create]](origin, options, sameOriginWithAncestors) Internal Method",
       "number": "5.1.3"
+    },
+    {
+      "id": "sctn-create-request-exceptions",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-create-request-exceptions",
+      "level": 5,
+      "title": "Create Request Exceptions",
+      "number": "5.1.3.1"
     },
     {
       "id": "sctn-getAssertion",
       "href": "https://www.w3.org/TR/webauthn-3/#sctn-getAssertion",
       "level": 4,
-      "title": "Use an Existing Credential to Make an Assertion - PublicKeyCredential’s [[Get]](options) Method",
+      "title": "Use an Existing Credential to Make an Assertion",
       "number": "5.1.4"
     },
     {
       "id": "sctn-discover-from-external-source",
       "href": "https://www.w3.org/TR/webauthn-3/#sctn-discover-from-external-source",
       "level": 5,
-      "title": "PublicKeyCredential’s [[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors) Method",
+      "title": "PublicKeyCredential’s [[DiscoverFromExternalSource]](origin, options, sameOriginWithAncestors) Internal Method",
       "number": "5.1.4.1"
+    },
+    {
+      "id": "sctn-issuing-cred-request-to-authenticator",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-issuing-cred-request-to-authenticator",
+      "level": 5,
+      "title": "Issuing a Credential Request to an Authenticator",
+      "number": "5.1.4.2"
+    },
+    {
+      "id": "sctn-get-request-exceptions",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-get-request-exceptions",
+      "level": 5,
+      "title": "Get Request Exceptions",
+      "number": "5.1.4.3"
     },
     {
       "id": "sctn-storeCredential",
       "href": "https://www.w3.org/TR/webauthn-3/#sctn-storeCredential",
       "level": 4,
-      "title": "Store an Existing Credential - PublicKeyCredential’s [[Store]](credential, sameOriginWithAncestors) Method",
+      "title": "Store an Existing Credential - PublicKeyCredential’s [[Store]](credential, sameOriginWithAncestors) Internal Method",
       "number": "5.1.5"
-    },
-    {
-      "id": "sctn-preventSilentAccessCredential",
-      "href": "https://www.w3.org/TR/webauthn-3/#sctn-preventSilentAccessCredential",
-      "level": 4,
-      "title": "Preventing Silent Access to an Existing Credential - PublicKeyCredential’s [[preventSilentAccess]](credential, sameOriginWithAncestors) Method",
-      "number": "5.1.6"
     },
     {
       "id": "sctn-isUserVerifyingPlatformAuthenticatorAvailable",
       "href": "https://www.w3.org/TR/webauthn-3/#sctn-isUserVerifyingPlatformAuthenticatorAvailable",
       "level": 4,
       "title": "Availability of User-Verifying Platform Authenticator - PublicKeyCredential’s isUserVerifyingPlatformAuthenticatorAvailable() Method",
+      "number": "5.1.6"
+    },
+    {
+      "id": "sctn-getClientCapabilities",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-getClientCapabilities",
+      "level": 4,
+      "title": "Availability of client capabilities - PublicKeyCredential’s getClientCapabilities() Method",
       "number": "5.1.7"
+    },
+    {
+      "id": "sctn-parseCreationOptionsFromJSON",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseCreationOptionsFromJSON",
+      "level": 4,
+      "title": "Deserialize Registration ceremony options - PublicKeyCredential’s parseCreationOptionsFromJSON() Method",
+      "number": "5.1.8"
+    },
+    {
+      "id": "sctn-parseRequestOptionsFromJSON",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-parseRequestOptionsFromJSON",
+      "level": 4,
+      "title": "Deserialize Authentication ceremony options - PublicKeyCredential’s parseRequestOptionsFromJSON() Methods",
+      "number": "5.1.9"
+    },
+    {
+      "id": "sctn-signal-methods",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-signal-methods",
+      "level": 4,
+      "title": "Signal Credential Changes to the Authenticator - PublicKeyCredential’s signal methods",
+      "number": "5.1.10"
+    },
+    {
+      "id": "sctn-signal-methods-async-rp-id-validation",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-signal-methods-async-rp-id-validation",
+      "level": 5,
+      "title": "Asynchronous RP ID validation algorithm",
+      "number": "5.1.10.1"
+    },
+    {
+      "id": "sctn-signalUnknownCredential",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-signalUnknownCredential",
+      "level": 5,
+      "title": "signalUnknownCredential(options)",
+      "number": "5.1.10.2"
+    },
+    {
+      "id": "sctn-signalAllAcceptedCredentials",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-signalAllAcceptedCredentials",
+      "level": 5,
+      "title": "signalAllAcceptedCredentials(options)",
+      "number": "5.1.10.3"
+    },
+    {
+      "id": "sctn-signalCurrentUserDetails",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-signalCurrentUserDetails",
+      "level": 5,
+      "title": "signalCurrentUserDetails(options)",
+      "number": "5.1.10.4"
     },
     {
       "id": "iface-authenticatorresponse",
@@ -470,6 +561,20 @@
       "number": "5.8.6"
     },
     {
+      "id": "enum-clientCapability",
+      "href": "https://www.w3.org/TR/webauthn-3/#enum-clientCapability",
+      "level": 4,
+      "title": "Client Capability Enumeration (enum ClientCapability)",
+      "number": "5.8.7"
+    },
+    {
+      "id": "enum-hints",
+      "href": "https://www.w3.org/TR/webauthn-3/#enum-hints",
+      "level": 4,
+      "title": "User-agent Hints Enumeration (enum PublicKeyCredentialHint)",
+      "number": "5.8.8"
+    },
+    {
       "id": "sctn-permissions-policy",
       "href": "https://www.w3.org/TR/webauthn-3/#sctn-permissions-policy",
       "level": 3,
@@ -482,6 +587,20 @@
       "level": 3,
       "title": "Using Web Authentication within iframe elements",
       "number": "5.10"
+    },
+    {
+      "id": "sctn-related-origins",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-related-origins",
+      "level": 3,
+      "title": "Using Web Authentication across related origins",
+      "number": "5.11"
+    },
+    {
+      "id": "sctn-validating-relation-origin",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-validating-relation-origin",
+      "level": 4,
+      "title": "Validating Related Origins",
+      "number": "5.11.1"
     },
     {
       "id": "sctn-authenticator-model",
@@ -510,6 +629,13 @@
       "level": 4,
       "title": "FIDO U2F Signature Format Compatibility",
       "number": "6.1.2"
+    },
+    {
+      "id": "sctn-credential-backup",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-credential-backup",
+      "level": 4,
+      "title": "Credential Backup State",
+      "number": "6.1.3"
     },
     {
       "id": "sctn-authenticator-taxonomy",
@@ -575,6 +701,13 @@
       "number": "6.3.4"
     },
     {
+      "id": "sctn-op-silent-discovery",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-op-silent-discovery",
+      "level": 4,
+      "title": "The silentCredentialDiscovery operation",
+      "number": "6.3.5"
+    },
+    {
       "id": "sctn-strings",
       "href": "https://www.w3.org/TR/webauthn-3/#sctn-strings",
       "level": 3,
@@ -587,6 +720,20 @@
       "level": 4,
       "title": "String Truncation",
       "number": "6.4.1"
+    },
+    {
+      "id": "sctn-strings-truncation-client",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-strings-truncation-client",
+      "level": 5,
+      "title": "String Truncation by Clients",
+      "number": "6.4.1.1"
+    },
+    {
+      "id": "sctn-strings-truncation-authenticator",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-strings-truncation-authenticator",
+      "level": 5,
+      "title": "String Truncation by Authenticators",
+      "number": "6.4.1.2"
     },
     {
       "id": "sctn-strings-langdir",
@@ -690,8 +837,15 @@
       "id": "sctn-packed-attestation-cert-requirements",
       "href": "https://www.w3.org/TR/webauthn-3/#sctn-packed-attestation-cert-requirements",
       "level": 4,
-      "title": "Packed Attestation Statement Certificate Requirements",
+      "title": "Certificate Requirements for Packed Attestation Statements",
       "number": "8.2.1"
+    },
+    {
+      "id": "sctn-enterprise-packed-attestation-cert-requirements",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-enterprise-packed-attestation-cert-requirements",
+      "level": 4,
+      "title": "Certificate Requirements for Enterprise Packed Attestation Statements",
+      "number": "8.2.2"
     },
     {
       "id": "sctn-tpm-attestation",
@@ -750,6 +904,13 @@
       "number": "8.8"
     },
     {
+      "id": "sctn-compound-attestation",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-compound-attestation",
+      "level": 3,
+      "title": "Compound Attestation Statement Format",
+      "number": "8.9"
+    },
+    {
       "id": "sctn-extensions",
       "href": "https://www.w3.org/TR/webauthn-3/#sctn-extensions",
       "level": 2,
@@ -798,39 +959,53 @@
       "title": "10. Defined Extensions"
     },
     {
+      "id": "sctn-defined-client-extensions",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-defined-client-extensions",
+      "level": 3,
+      "title": "Client Extensions",
+      "number": "10.1"
+    },
+    {
       "id": "sctn-appid-extension",
       "href": "https://www.w3.org/TR/webauthn-3/#sctn-appid-extension",
-      "level": 3,
+      "level": 4,
       "title": "FIDO AppID Extension (appid)",
-      "number": "10.1"
+      "number": "10.1.1"
     },
     {
       "id": "sctn-appid-exclude-extension",
       "href": "https://www.w3.org/TR/webauthn-3/#sctn-appid-exclude-extension",
-      "level": 3,
+      "level": 4,
       "title": "FIDO AppID Exclusion Extension (appidExclude)",
-      "number": "10.2"
-    },
-    {
-      "id": "sctn-uvm-extension",
-      "href": "https://www.w3.org/TR/webauthn-3/#sctn-uvm-extension",
-      "level": 3,
-      "title": "User Verification Method Extension (uvm)",
-      "number": "10.3"
+      "number": "10.1.2"
     },
     {
       "id": "sctn-authenticator-credential-properties-extension",
       "href": "https://www.w3.org/TR/webauthn-3/#sctn-authenticator-credential-properties-extension",
-      "level": 3,
+      "level": 4,
       "title": "Credential Properties Extension (credProps)",
-      "number": "10.4"
+      "number": "10.1.3"
+    },
+    {
+      "id": "prf-extension",
+      "href": "https://www.w3.org/TR/webauthn-3/#prf-extension",
+      "level": 4,
+      "title": "Pseudo-random function extension (prf)",
+      "number": "10.1.4"
     },
     {
       "id": "sctn-large-blob-extension",
       "href": "https://www.w3.org/TR/webauthn-3/#sctn-large-blob-extension",
-      "level": 3,
+      "level": 4,
       "title": "Large blob storage extension (largeBlob)",
-      "number": "10.5"
+      "number": "10.1.5"
+    },
+    {
+      "id": "sctn-defined-authenticator-extensions",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-defined-authenticator-extensions",
+      "level": 3,
+      "title": "Authenticator Extensions",
+      "number": "10.2"
     },
     {
       "id": "sctn-automation",
@@ -907,6 +1082,13 @@
       "level": 3,
       "title": "Set User Verified",
       "number": "11.9"
+    },
+    {
+      "id": "sctn-automation-set-credential-properties",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-automation-set-credential-properties",
+      "level": 3,
+      "title": "Set Credential Properties",
+      "number": "11.10"
     },
     {
       "id": "sctn-IANA",
@@ -1040,6 +1222,20 @@
       "number": "13.4.7"
     },
     {
+      "id": "sctn-code-injection",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-code-injection",
+      "level": 4,
+      "title": "Code injection attacks",
+      "number": "13.4.8"
+    },
+    {
+      "id": "sctn-validating-origin",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-validating-origin",
+      "level": 4,
+      "title": "Validating the origin of a credential",
+      "number": "13.4.9"
+    },
+    {
       "id": "sctn-privacy-considerations",
       "href": "https://www.w3.org/TR/webauthn-3/#sctn-privacy-considerations",
       "level": 2,
@@ -1116,6 +1312,13 @@
       "number": "14.5.3"
     },
     {
+      "id": "sctn-disclosing-client-capabilities",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-disclosing-client-capabilities",
+      "level": 4,
+      "title": "Disclosing Client Capabilities",
+      "number": "14.5.4"
+    },
+    {
       "id": "sctn-privacy-considerations-rp",
       "href": "https://www.w3.org/TR/webauthn-3/#sctn-privacy-considerations-rp",
       "level": 3,
@@ -1150,10 +1353,183 @@
       "title": "15. Accessibility Considerations"
     },
     {
+      "id": "sctn-timeout-recommended-range",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-timeout-recommended-range",
+      "level": 3,
+      "title": "Recommended Range for Ceremony Timeouts",
+      "number": "15.1"
+    },
+    {
+      "id": "sctn-test-vectors",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-test-vectors",
+      "level": 2,
+      "title": "16. Test Vectors"
+    },
+    {
+      "id": "sctn-test-vectors-attestation-root-cert",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-test-vectors-attestation-root-cert",
+      "level": 3,
+      "title": "Attestation trust root certificate",
+      "number": "16.1"
+    },
+    {
+      "id": "sctn-test-vectors-none-es256",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-test-vectors-none-es256",
+      "level": 4,
+      "title": "ES256 Credential with No Attestation",
+      "number": "16.1.1"
+    },
+    {
+      "id": "sctn-test-vectors-packed-self-es256",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-test-vectors-packed-self-es256",
+      "level": 4,
+      "title": "ES256 Credential with Self Attestation",
+      "number": "16.1.2"
+    },
+    {
+      "id": "sctn-test-vectors-none-es256-crossOrigin",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-test-vectors-none-es256-crossOrigin",
+      "level": 4,
+      "title": "ES256 Credential with \"crossOrigin\": true in clientDataJSON",
+      "number": "16.1.3"
+    },
+    {
+      "id": "sctn-test-vectors-none-es256-topOrigin",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-test-vectors-none-es256-topOrigin",
+      "level": 4,
+      "title": "ES256 Credential with \"topOrigin\" in clientDataJSON",
+      "number": "16.1.4"
+    },
+    {
+      "id": "sctn-test-vectors-none-es256-long-credential-id",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-test-vectors-none-es256-long-credential-id",
+      "level": 4,
+      "title": "ES256 Credential with very long credential ID",
+      "number": "16.1.5"
+    },
+    {
+      "id": "sctn-test-vectors-packed-es256",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-test-vectors-packed-es256",
+      "level": 4,
+      "title": "Packed Attestation with ES256 Credential",
+      "number": "16.1.6"
+    },
+    {
+      "id": "sctn-test-vectors-packed-es384",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-test-vectors-packed-es384",
+      "level": 4,
+      "title": "Packed Attestation with ES384 Credential",
+      "number": "16.1.7"
+    },
+    {
+      "id": "sctn-test-vectors-packed-es512",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-test-vectors-packed-es512",
+      "level": 4,
+      "title": "Packed Attestation with ES512 Credential",
+      "number": "16.1.8"
+    },
+    {
+      "id": "sctn-test-vectors-packed-rs256",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-test-vectors-packed-rs256",
+      "level": 4,
+      "title": "Packed Attestation with RS256 Credential",
+      "number": "16.1.9"
+    },
+    {
+      "id": "sctn-test-vectors-packed-ed25519",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-test-vectors-packed-ed25519",
+      "level": 4,
+      "title": "Packed Attestation with Ed25519 Credential",
+      "number": "16.1.10"
+    },
+    {
+      "id": "sctn-test-vectors-tpm-es256",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-test-vectors-tpm-es256",
+      "level": 4,
+      "title": "TPM Attestation with ES256 Credential",
+      "number": "16.1.11"
+    },
+    {
+      "id": "sctn-test-vectors-android-key-es256",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-test-vectors-android-key-es256",
+      "level": 4,
+      "title": "Android Key Attestation with ES256 Credential",
+      "number": "16.1.12"
+    },
+    {
+      "id": "sctn-test-vectors-apple-es256",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-test-vectors-apple-es256",
+      "level": 4,
+      "title": "Apple Anonymous Attestation with ES256 Credential",
+      "number": "16.1.13"
+    },
+    {
+      "id": "sctn-test-vectors-fido-u2f-es256",
+      "href": "https://www.w3.org/TR/webauthn-3/#sctn-test-vectors-fido-u2f-es256",
+      "level": 4,
+      "title": "FIDO U2F Attestation with ES256 Credential",
+      "number": "16.1.14"
+    },
+    {
+      "id": "test-vectors-extensions",
+      "href": "https://www.w3.org/TR/webauthn-3/#test-vectors-extensions",
+      "level": 3,
+      "title": "Test Vectors for WebAuthn Extensions",
+      "number": "16.2"
+    },
+    {
+      "id": "test-vectors-extensions-prf",
+      "href": "https://www.w3.org/TR/webauthn-3/#test-vectors-extensions-prf",
+      "level": 4,
+      "title": "Pseudo-random function extension (prf)",
+      "number": "16.2.1"
+    },
+    {
+      "id": "test-vectors-extensions-prf-webauthn",
+      "href": "https://www.w3.org/TR/webauthn-3/#test-vectors-extensions-prf-webauthn",
+      "level": 5,
+      "title": "Web Authentication API",
+      "number": "16.2.1.1"
+    },
+    {
+      "id": "test-vectors-extensions-prf-ctap",
+      "href": "https://www.w3.org/TR/webauthn-3/#test-vectors-extensions-prf-ctap",
+      "level": 5,
+      "title": "CTAP2 hmac-secret extension",
+      "number": "16.2.1.2"
+    },
+    {
       "id": "sctn-acknowledgements",
       "href": "https://www.w3.org/TR/webauthn-3/#sctn-acknowledgements",
       "level": 2,
-      "title": "16. Acknowledgements"
+      "title": "17. Acknowledgements"
+    },
+    {
+      "id": "revision-history",
+      "href": "https://www.w3.org/TR/webauthn-3/#revision-history",
+      "level": 2,
+      "title": "18. Revision History"
+    },
+    {
+      "id": "changes-since-l2",
+      "href": "https://www.w3.org/TR/webauthn-3/#changes-since-l2",
+      "level": 3,
+      "title": "Changes since Web Authentication Level 2 [webauthn-2-20210408]",
+      "number": "18.1"
+    },
+    {
+      "id": "changes-l3-substantive",
+      "href": "https://www.w3.org/TR/webauthn-3/#changes-l3-substantive",
+      "level": 4,
+      "title": "Substantive Changes",
+      "number": "18.1.1"
+    },
+    {
+      "id": "changes-l3-editorial",
+      "href": "https://www.w3.org/TR/webauthn-3/#changes-l3-editorial",
+      "level": 4,
+      "title": "Editorial Changes",
+      "number": "18.1.2"
     },
     {
       "id": "index",
@@ -1196,12 +1572,6 @@
       "href": "https://www.w3.org/TR/webauthn-3/#idl-index",
       "level": 2,
       "title": "IDL Index"
-    },
-    {
-      "id": "issues-index",
-      "href": "https://www.w3.org/TR/webauthn-3/#issues-index",
-      "level": 2,
-      "title": "Issues Index"
     }
   ]
 }

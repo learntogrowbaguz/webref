@@ -1,7 +1,7 @@
-const fs = require("fs");
+import fs from "node:fs";
 
-const ed = require("../ed/index.json");
-const tr = require("../tr/index.json");
+import ed from "../ed/index.json" with { type: 'json' };
+import tr from "../tr/index.json" with { type: 'json' };
 
 const removeExtension = f => {
   const components = f.split(".");
@@ -15,7 +15,11 @@ function checkDir(path, index) {
   const dir = fs.readdirSync(path);
   for (let filename of dir) {
     const subdir = path.split("/")[1];
-    if (!index.results.find(spec => spec[subdir] === subdir + "/" + filename)) {
+    const fullname = subdir + "/" + filename
+    if (!index.results.find(spec =>
+          spec[subdir] === fullname ||
+          (Array.isArray(spec[subdir]) &&
+            spec[subdir].find(extract => extract.file === fullname)))) {
       fs.unlinkSync(path + "/" + filename);
     }
   }

@@ -1,0 +1,151 @@
+{
+  "spec": {
+    "title": "Storage Buckets API",
+    "url": "https://wicg.github.io/storage-buckets/"
+  },
+  "links": {
+    "rawlinks": {
+      "http://www.w3.org/community/": {},
+      "https://datatracker.ietf.org/doc/html/rfc2119": {},
+      "https://fs.spec.whatwg.org/": {
+        "anchors": [
+          "sandboxed-filesystem"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/": {},
+      "https://infra.spec.whatwg.org/": {},
+      "https://storage.spec.whatwg.org/": {
+        "anchors": [
+          "buckets"
+        ]
+      },
+      "https://w3c.github.io/IndexedDB/": {},
+      "https://w3c.github.io/ServiceWorker/": {},
+      "https://w3c.github.io/hr-time/": {},
+      "https://w3c.github.io/permissions/": {},
+      "https://w3c.github.io/webappsec-clear-site-data/": {
+        "anchors": [
+          "header",
+          "parsing",
+          "clear-response"
+        ]
+      },
+      "https://webidl.spec.whatwg.org/": {},
+      "https://www.w3.org/community/about/agreements/cla/": {},
+      "https://www.w3.org/community/wicg/": {}
+    },
+    "autolinks": {
+      "https://fs.spec.whatwg.org/": {
+        "anchors": [
+          "filesystemdirectoryhandle",
+          "dom-storagemanager-getdirectory"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/infrastructure.html": {
+        "anchors": [
+          "starting-a-new-parallel-queue",
+          "enqueue-the-following-steps",
+          "in-parallel"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/system-state.html": {
+        "anchors": [
+          "navigator"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/webappapis.html": {
+        "anchors": [
+          "environment-settings-object",
+          "relevant-settings-object",
+          "concept-settings-object-origin"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/workers.html": {
+        "anchors": [
+          "workernavigator"
+        ]
+      },
+      "https://infra.spec.whatwg.org/": {
+        "anchors": [
+          "code-point",
+          "ascii-lower-alpha",
+          "ascii-digit",
+          "string-code-point-length",
+          "map-key",
+          "list",
+          "list-append",
+          "implementation-defined",
+          "string-starts-with",
+          "code-unit-substring-by-positions",
+          "tuple"
+        ]
+      },
+      "https://storage.spec.whatwg.org/": {
+        "anchors": [
+          "obtain-a-local-storage-shelf",
+          "queue-a-storage-task",
+          "storage-bucket",
+          "bucket-map",
+          "bucket-mode",
+          "dictdef-storageestimate",
+          "storage-bottle",
+          "storage-quota",
+          "dom-storageestimate-usage",
+          "dom-storageestimate-quota",
+          "storage-shelf",
+          "obtain-a-local-storage-bottle-map",
+          "storage-bottle-map"
+        ]
+      },
+      "https://w3c.github.io/IndexedDB/": {
+        "anchors": [
+          "idbfactory"
+        ]
+      },
+      "https://w3c.github.io/ServiceWorker/": {
+        "anchors": [
+          "cachestorage",
+          "dfn-relevant-name-to-cache-map"
+        ]
+      },
+      "https://w3c.github.io/hr-time/": {
+        "anchors": [
+          "dom-domhighrestimestamp",
+          "dfn-unix-epoch",
+          "dfn-eso-current-wall-time",
+          "dfn-moment",
+          "dfn-wall-clock"
+        ]
+      },
+      "https://w3c.github.io/permissions/": {
+        "anchors": [
+          "dfn-request-permission-to-use",
+          "dom-permissionstate-granted",
+          "dfn-getting-the-current-permission-state"
+        ]
+      },
+      "https://webidl.spec.whatwg.org/": {
+        "anchors": [
+          "SecureContext",
+          "SameObject",
+          "this",
+          "Exposed",
+          "idl-promise",
+          "idl-DOMString",
+          "idl-sequence",
+          "idl-undefined",
+          "idl-boolean",
+          "idl-unsigned-long-long",
+          "a-promise-rejected-with",
+          "exceptiondef-typeerror",
+          "a-new-promise",
+          "reject",
+          "resolve",
+          "invalidcharactererror",
+          "invalidstateerror",
+          "dfn-throw"
+        ]
+      }
+    }
+  }
+}

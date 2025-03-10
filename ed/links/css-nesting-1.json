@@ -4,185 +4,163 @@
     "url": "https://drafts.csswg.org/css-nesting-1/"
   },
   "links": {
-    "http://lists.w3.org/Archives/Public/public-css-testsuite": {},
-    "http://www.w3.org/Style/CSS/Test/": {},
-    "http://www.w3.org/TR/CSS/": {
-      "anchors": [
-        "future-proofing",
-        "unstable",
-        "proprietary-extension"
-      ],
-      "specShortname": "CSS22"
+    "rawlinks": {
+      "http://lists.w3.org/Archives/Public/public-css-testsuite": {},
+      "http://www.w3.org/Style/CSS/Test/": {},
+      "http://www.w3.org/TR/CSS/": {
+        "anchors": [
+          "future-proofing",
+          "unstable",
+          "proprietary-extension"
+        ]
+      },
+      "http://www.w3.org/TR/CSS21/conform.html": {
+        "anchors": [
+          "style-sheet",
+          "user-agent",
+          "ignore"
+        ]
+      },
+      "https://datatracker.ietf.org/doc/html/rfc2119": {},
+      "https://drafts.csswg.org/css-backgrounds/": {},
+      "https://drafts.csswg.org/css-cascade-4/": {
+        "anchors": [
+          "cascade-sort"
+        ]
+      },
+      "https://drafts.csswg.org/css-cascade-5/": {},
+      "https://drafts.csswg.org/css-cascade-6/": {},
+      "https://drafts.csswg.org/css-color-4/": {},
+      "https://drafts.csswg.org/css-conditional-3/": {},
+      "https://drafts.csswg.org/css-conditional-5/": {},
+      "https://drafts.csswg.org/css-pseudo-4/": {},
+      "https://drafts.csswg.org/css-syntax/": {},
+      "https://drafts.csswg.org/css-ui-4/": {},
+      "https://drafts.csswg.org/css2/": {},
+      "https://drafts.csswg.org/cssom/": {},
+      "https://drafts.csswg.org/selectors/": {},
+      "https://en.wikipedia.org/wiki/CSS": {
+        "anchors": [
+          ":~:text=bem%20(block%2C%20element%2C%20modifier)"
+        ]
+      },
+      "https://github.com/w3c/csswg-drafts/issues": {},
+      "https://github.com/w3c/csswg-drafts/issues/10234": {},
+      "https://github.com/w3c/csswg-drafts/issues/7433": {},
+      "https://github.com/w3c/csswg-drafts/issues/8662": {},
+      "https://github.com/w3c/csswg-drafts/issues/8738": {},
+      "https://github.com/w3c/csswg-drafts/issues/8940": {},
+      "https://github.com/w3c/csswg-drafts/issues/9069": {},
+      "https://lists.w3.org/Archives/Public/public-css-archive/": {},
+      "https://lists.w3.org/Archives/Public/www-style/": {},
+      "https://sass-lang.com/": {},
+      "https://webidl.spec.whatwg.org/": {},
+      "https://www.w3.org/TR/2023/WD-css-nesting-1-20230214/": {},
+      "https://www.w3.org/TR/CSS/": {},
+      "https://www.w3.org/policies/process/20231103/": {}
     },
-    "http://www.w3.org/TR/CSS21/conform.html": {
-      "anchors": [
-        "style-sheet",
-        "user-agent",
-        "ignore"
-      ],
-      "specShortname": "CSS21"
-    },
-    "https://datatracker.ietf.org/doc/html/rfc2119": {},
-    "https://drafts.csswg.org/css-cascade-4/": {
-      "anchors": [
-        "cascade-sort"
-      ],
-      "specShortname": "css-cascade-4"
-    },
-    "https://drafts.csswg.org/css-cascade-5/": {
-      "anchors": [
-        "at-ruledef-layer"
-      ],
-      "specShortname": "css-cascade-5"
-    },
-    "https://drafts.csswg.org/css-cascade-6/": {
-      "anchors": [
-        "at-ruledef-scope",
-        "typedef-scope-start",
-        "typedef-scope-end"
-      ],
-      "specShortname": "css-cascade-6"
-    },
-    "https://drafts.csswg.org/css-color-3/": {
-      "specShortname": "css-color-3"
-    },
-    "https://drafts.csswg.org/css-color-4/": {
-      "anchors": [
-        "propdef-color"
-      ],
-      "specShortname": "css-color-4"
-    },
-    "https://drafts.csswg.org/css-color/": {
-      "specShortname": "css-color-4"
-    },
-    "https://drafts.csswg.org/css-conditional-3/": {
-      "anchors": [
-        "conditional-group-rule",
-        "at-ruledef-media",
-        "at-ruledef-supports",
-        "cssmediarule"
-      ],
-      "specShortname": "css-conditional-3"
-    },
-    "https://drafts.csswg.org/css-contain-3/": {
-      "anchors": [
-        "at-ruledef-container"
-      ],
-      "specShortname": "css-contain-3"
-    },
-    "https://drafts.csswg.org/css-grid-2/": {
-      "anchors": [
-        "propdef-grid-auto-flow"
-      ],
-      "specShortname": "css-grid-2"
-    },
-    "https://drafts.csswg.org/css-nesting/": {
-      "specShortname": "css-nesting-1"
-    },
-    "https://drafts.csswg.org/css-syntax-3/": {
-      "anchors": [
-        "declaration",
-        "style-rule",
-        "at-rule",
-        "typedef-style-block",
-        "typedef-stylesheet"
-      ],
-      "specShortname": "css-syntax-3"
-    },
-    "https://drafts.csswg.org/css-syntax/": {
-      "specShortname": "css-syntax-3"
-    },
-    "https://drafts.csswg.org/css-ui-4/": {
-      "anchors": [
-        "valdef-caret-shape-bar"
-      ],
-      "specShortname": "css-ui-4"
-    },
-    "https://drafts.csswg.org/css-values-4/": {
-      "anchors": [
-        "css-css-identifier",
-        "functional-notation"
-      ],
-      "specShortname": "css-values-4"
-    },
-    "https://drafts.csswg.org/css2/": {
-      "specShortname": "CSS21"
-    },
-    "https://drafts.csswg.org/cssom-1/": {
-      "anchors": [
-        "cssstyledeclaration-declarations",
-        "cssstylerule",
-        "cssrulelist",
-        "cssomstring",
-        "concept-css-rule-child-css-rules",
-        "insert-a-css-rule",
-        "remove-a-css-rule",
-        "serialize-a-css-rule"
-      ],
-      "specShortname": "cssom-1"
-    },
-    "https://drafts.csswg.org/cssom/": {
-      "specShortname": "cssom-1"
-    },
-    "https://drafts.csswg.org/selectors-4/": {
-      "anchors": [
-        "selector",
-        "relative-selector",
-        "type-selector",
-        "typedef-relative-selector-list",
-        "typedef-selector-list",
-        "selector-combinator",
-        "simple",
-        "where-pseudo",
-        "scope-pseudo",
-        "matches-pseudo",
-        "specificity",
-        "compound"
-      ],
-      "specShortname": "selectors-4"
-    },
-    "https://drafts.csswg.org/selectors/": {
-      "specShortname": "selectors-4"
-    },
-    "https://en.wikipedia.org/wiki/CSS": {
-      "anchors": [
-        ":~:text=bem%20(block%2C%20element%2C%20modifier)"
-      ]
-    },
-    "https://github.com/w3c/csswg-drafts/issues": {},
-    "https://github.com/w3c/csswg-drafts/issues/7433": {},
-    "https://github.com/w3c/csswg-drafts/issues/7850": {
-      "anchors": [
-        "issuecomment-1288883780"
-      ]
-    },
-    "https://html.spec.whatwg.org/multipage/": {},
-    "https://html.spec.whatwg.org/multipage/custom-elements.html": {},
-    "https://html.spec.whatwg.org/multipage/grouping-content.html": {
-      "anchors": [
-        "the-div-element"
-      ]
-    },
-    "https://lists.w3.org/Archives/Public/public-css-archive/": {},
-    "https://lists.w3.org/Archives/Public/www-style/": {},
-    "https://sass-lang.com/": {},
-    "https://webidl.spec.whatwg.org/": {
-      "anchors": [
-        "SameObject",
-        "idl-unsigned-long",
-        "idl-undefined"
-      ],
-      "specShortname": "webidl"
-    },
-    "https://www.w3.org/2021/Process-20211102/": {},
-    "https://www.w3.org/TR/CSS/": {
-      "specShortname": "CSS22"
-    },
-    "https://www.w3.org/TR/css-nesting-1/": {
-      "anchors": [
-        "nested-conditional-group-rules"
-      ],
-      "specShortname": "css-nesting-1"
+    "autolinks": {
+      "https://drafts.csswg.org/css-backgrounds-3/": {
+        "anchors": [
+          "propdef-background"
+        ]
+      },
+      "https://drafts.csswg.org/css-cascade-5/": {
+        "anchors": [
+          "at-ruledef-layer"
+        ]
+      },
+      "https://drafts.csswg.org/css-cascade-6/": {
+        "anchors": [
+          "at-ruledef-scope",
+          "typedef-scope-start",
+          "typedef-scope-end"
+        ]
+      },
+      "https://drafts.csswg.org/css-color-4/": {
+        "anchors": [
+          "propdef-color"
+        ]
+      },
+      "https://drafts.csswg.org/css-conditional-3/": {
+        "anchors": [
+          "conditional-group-rule",
+          "at-ruledef-media",
+          "at-ruledef-supports"
+        ]
+      },
+      "https://drafts.csswg.org/css-conditional-5/": {
+        "anchors": [
+          "at-ruledef-container"
+        ]
+      },
+      "https://drafts.csswg.org/css-pseudo-4/": {
+        "anchors": [
+          "selectordef-before",
+          "selectordef-after"
+        ]
+      },
+      "https://drafts.csswg.org/css-syntax-3/": {
+        "anchors": [
+          "style-rule",
+          "at-rule",
+          "css-parse-something-according-to-a-css-grammar",
+          "typedef-delim-token",
+          "typedef-block-contents",
+          "typedef-rule-list",
+          "css-rule"
+        ]
+      },
+      "https://drafts.csswg.org/css-ui-4/": {
+        "anchors": [
+          "valdef-caret-shape-bar"
+        ]
+      },
+      "https://drafts.csswg.org/cssom-1/": {
+        "anchors": [
+          "cssstyledeclaration-declarations",
+          "dom-cssstylerule-style",
+          "dom-cssgroupingrule-cssrules",
+          "cssstylerule",
+          "cssrule",
+          "cssstyleproperties",
+          "cssstyledeclaration-computed-flag",
+          "cssstyledeclaration-readonly-flag",
+          "concept-declarations-specified-order",
+          "cssstyledeclaration-parent-css-rule",
+          "cssstyledeclaration-owner-node",
+          "serialize-a-css-rule",
+          "css-declaration-block",
+          "serialize-a-css-declaration-block",
+          "dom-cssgroupingrule-insertrule"
+        ]
+      },
+      "https://drafts.csswg.org/selectors-4/": {
+        "anchors": [
+          "descendant-combinator",
+          "relative-selector",
+          "typedef-relative-selector-list",
+          "typedef-selector-list",
+          "selector-combinator",
+          "simple",
+          "typedef-forgiving-selector-list",
+          "where-pseudo",
+          "scope-pseudo",
+          "matches-pseudo",
+          "specificity",
+          "featureless",
+          "compound",
+          "type-selector"
+        ]
+      },
+      "https://webidl.spec.whatwg.org/": {
+        "anchors": [
+          "Exposed",
+          "SameObject",
+          "PutForwards",
+          "this"
+        ]
+      }
     }
   }
 }

@@ -1,0 +1,89 @@
+{
+  "spec": {
+    "title": "SPARQL 1.2 Update",
+    "url": "https://www.w3.org/TR/sparql12-update/"
+  },
+  "links": {
+    "rawlinks": {
+      "https://datatracker.ietf.org/doc/html/bcp14": {},
+      "https://w3c.github.io/sparql-concepts/spec/": {},
+      "https://w3c.github.io/sparql-new/spec/": {},
+      "https://www.rfc-editor.org/rfc/rfc2119": {},
+      "https://www.rfc-editor.org/rfc/rfc3629": {},
+      "https://www.rfc-editor.org/rfc/rfc8174": {},
+      "https://www.unicode.org/versions/latest/": {},
+      "https://www.w3.org/TR/": {},
+      "https://www.w3.org/TR/json-ld11/": {},
+      "https://www.w3.org/TR/rdf12-concepts/": {
+        "anchors": [
+          "dfn-reifying-triple",
+          "dfn-asserted-triple",
+          "dfn-rdf-graph",
+          "dfn-rdf-dataset",
+          "dfn-rdf-triple"
+        ]
+      },
+      "https://www.w3.org/TR/rdf12-n-quads/": {},
+      "https://www.w3.org/TR/rdf12-semantics/": {
+        "anchors": [
+          "dfn-merging",
+          "dfn-rdf-dataset-merge"
+        ]
+      },
+      "https://www.w3.org/TR/sparql12-entailment/": {},
+      "https://www.w3.org/TR/sparql12-federated-query/": {
+        "anchors": [
+          "service"
+        ]
+      },
+      "https://www.w3.org/TR/sparql12-graph-store-protocol/": {},
+      "https://www.w3.org/TR/sparql12-protocol/": {},
+      "https://www.w3.org/TR/sparql12-query/": {
+        "anchors": [
+          "introduction",
+          "sparqlGrammar",
+          "rIRIREF",
+          "rDeleteClause",
+          "rInsertClause",
+          "rGroupGraphPattern",
+          "QSynIRI",
+          "rQuadPattern",
+          "rConstructTriples",
+          "rQuadData",
+          "sparqlDataset",
+          "rTriplesTemplate",
+          "rVarOrIri",
+          "rdfDataset",
+          "specifyingDataset",
+          "templatesWithBNodes",
+          "sparqlSolutions",
+          "grammarBNodes",
+          "sparqlAlgebraEval",
+          "BGPsparqlBNodes",
+          "rUsingClause",
+          "dfn-sparql-update-string",
+          "grammar"
+        ]
+      },
+      "https://www.w3.org/TR/sparql12-results-csv-tsv/": {},
+      "https://www.w3.org/TR/sparql12-results-json/": {},
+      "https://www.w3.org/TR/sparql12-results-xml/": {},
+      "https://www.w3.org/TR/sparql12-service-description/": {},
+      "https://www.w3.org/groups/wg/rdf-star": {},
+      "https://www.w3.org/groups/wg/rdf-star/ipr": {},
+      "https://www.w3.org/policies/patent-policy/": {
+        "anchors": [
+          "def-essential",
+          "sec-Disclosure"
+        ]
+      },
+      "https://www.w3.org/policies/process/20231103/": {
+        "anchors": [
+          "recs-and-notes",
+          "allow-new-features"
+        ]
+      }
+    },
+    "autolinks": {}
+  }
+}

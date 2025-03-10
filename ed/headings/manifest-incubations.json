@@ -24,291 +24,447 @@
       "number": "1"
     },
     {
+      "id": "concepts",
+      "href": "https://wicg.github.io/manifest-incubations/#concepts",
+      "level": 3,
+      "title": "Concepts",
+      "number": "1.1"
+    },
+    {
+      "id": "display-mode-extensions",
+      "href": "https://wicg.github.io/manifest-incubations/#display-mode-extensions",
+      "level": 3,
+      "title": "Display mode extensions",
+      "number": "1.2"
+    },
+    {
+      "id": "display_override-usage-example",
+      "href": "https://wicg.github.io/manifest-incubations/#display_override-usage-example",
+      "level": 4,
+      "title": "display_override usage example",
+      "number": "1.2.1"
+    },
+    {
+      "id": "defining-draggable-regions",
+      "href": "https://wicg.github.io/manifest-incubations/#defining-draggable-regions",
+      "level": 3,
+      "title": "Defining draggable regions",
+      "number": "1.3"
+    },
+    {
+      "id": "extensions-to-processing-the-manifest",
+      "href": "https://wicg.github.io/manifest-incubations/#extensions-to-processing-the-manifest",
+      "level": 2,
+      "title": "Extensions to processing the manifest",
+      "number": "2"
+    },
+    {
+      "id": "tab_strip-member",
+      "href": "https://wicg.github.io/manifest-incubations/#tab_strip-member",
+      "level": 2,
+      "title": "tab_strip member",
+      "number": "3"
+    },
+    {
+      "id": "home_tab-member",
+      "href": "https://wicg.github.io/manifest-incubations/#home_tab-member",
+      "level": 3,
+      "title": "home_tab member",
+      "number": "3.1"
+    },
+    {
+      "id": "every-window-has-a-home-tab",
+      "href": "https://wicg.github.io/manifest-incubations/#every-window-has-a-home-tab",
+      "level": 4,
+      "title": "Every window has a home tab",
+      "number": "3.1.1"
+    },
+    {
+      "id": "navigations-concerning-the-home-tab-scope",
+      "href": "https://wicg.github.io/manifest-incubations/#navigations-concerning-the-home-tab-scope",
+      "level": 4,
+      "title": "Navigations concerning the home tab scope",
+      "number": "3.1.2"
+    },
+    {
+      "id": "home-tab-invariants",
+      "href": "https://wicg.github.io/manifest-incubations/#home-tab-invariants",
+      "level": 4,
+      "title": "Home tab invariants",
+      "number": "3.1.3"
+    },
+    {
+      "id": "new_tab_button-member",
+      "href": "https://wicg.github.io/manifest-incubations/#new_tab_button-member",
+      "level": 3,
+      "title": "new_tab_button member",
+      "number": "3.2"
+    },
+    {
+      "id": "processing-the-tab_strip-member",
+      "href": "https://wicg.github.io/manifest-incubations/#processing-the-tab_strip-member",
+      "level": 3,
+      "title": "Processing the tab_strip member",
+      "number": "3.3"
+    },
+    {
+      "id": "processing-the-home_tab-member",
+      "href": "https://wicg.github.io/manifest-incubations/#processing-the-home_tab-member",
+      "level": 4,
+      "title": "Processing the home_tab member",
+      "number": "3.3.1"
+    },
+    {
+      "id": "processing-the-new_tab_button-member",
+      "href": "https://wicg.github.io/manifest-incubations/#processing-the-new_tab_button-member",
+      "level": 4,
+      "title": "Processing the new_tab_button member",
+      "number": "3.3.2"
+    },
+    {
+      "id": "processing-the-scope_patterns-member",
+      "href": "https://wicg.github.io/manifest-incubations/#processing-the-scope_patterns-member",
+      "level": 4,
+      "title": "Processing the scope_patterns member",
+      "number": "3.3.3"
+    },
+    {
       "id": "usage-example",
       "href": "https://wicg.github.io/manifest-incubations/#usage-example",
       "level": 3,
       "title": "Usage Example",
-      "number": "1.1"
+      "number": "3.4"
     },
     {
       "id": "share_target-member",
       "href": "https://wicg.github.io/manifest-incubations/#share_target-member",
       "level": 2,
       "title": "share_target member",
-      "number": "2"
+      "number": "4"
     },
     {
       "id": "note_taking-member",
       "href": "https://wicg.github.io/manifest-incubations/#note_taking-member",
       "level": 2,
       "title": "note_taking member",
-      "number": "3"
+      "number": "5"
     },
     {
       "id": "new_note_url-member",
       "href": "https://wicg.github.io/manifest-incubations/#new_note_url-member",
       "level": 3,
       "title": "new_note_url member",
-      "number": "3.1"
+      "number": "5.1"
     },
     {
       "id": "usage-example-0",
       "href": "https://wicg.github.io/manifest-incubations/#usage-example-0",
       "level": 3,
       "title": "Usage Example",
-      "number": "3.2"
+      "number": "5.2"
     },
     {
       "id": "processing-the-note_taking-member",
       "href": "https://wicg.github.io/manifest-incubations/#processing-the-note_taking-member",
       "level": 3,
       "title": "Processing the note_taking member",
-      "number": "3.3"
+      "number": "5.3"
     },
     {
       "id": "processing-the-new_note_url-member",
       "href": "https://wicg.github.io/manifest-incubations/#processing-the-new_note_url-member",
       "level": 3,
       "title": "Processing the new_note_url member",
-      "number": "3.4"
+      "number": "5.4"
     },
     {
       "id": "launching-the-new_note_url",
       "href": "https://wicg.github.io/manifest-incubations/#launching-the-new_note_url",
       "level": 3,
       "title": "Launching the new_note_url",
-      "number": "3.5"
+      "number": "5.5"
     },
     {
       "id": "protocol_handlers-member",
       "href": "https://wicg.github.io/manifest-incubations/#protocol_handlers-member",
       "level": 2,
       "title": "protocol_handlers member",
-      "number": "4"
+      "number": "6"
     },
     {
       "id": "processing-the-protocol_handlers-member",
       "href": "https://wicg.github.io/manifest-incubations/#processing-the-protocol_handlers-member",
       "level": 3,
       "title": "Processing the protocol_handlers member",
-      "number": "4.1"
+      "number": "6.1"
     },
     {
-      "id": "protocolhandler-items",
-      "href": "https://wicg.github.io/manifest-incubations/#protocolhandler-items",
+      "id": "protocol-handler-items",
+      "href": "https://wicg.github.io/manifest-incubations/#protocol-handler-items",
       "level": 3,
-      "title": "ProtocolHandler items",
-      "number": "4.2"
+      "title": "Protocol handler items",
+      "number": "6.2"
     },
     {
       "id": "protocol-member",
       "href": "https://wicg.github.io/manifest-incubations/#protocol-member",
       "level": 4,
       "title": "protocol member",
-      "number": "4.2.1"
+      "number": "6.2.1"
     },
     {
       "id": "url-member",
       "href": "https://wicg.github.io/manifest-incubations/#url-member",
       "level": 4,
       "title": "url member",
-      "number": "4.2.2"
+      "number": "6.2.2"
     },
     {
       "id": "handling-a-protocol-launch",
       "href": "https://wicg.github.io/manifest-incubations/#handling-a-protocol-launch",
       "level": 4,
       "title": "Handling a protocol launch",
-      "number": "4.2.3"
+      "number": "6.2.3"
     },
     {
       "id": "privacy-consideration-default-protocol-handler",
       "href": "https://wicg.github.io/manifest-incubations/#privacy-consideration-default-protocol-handler",
       "level": 3,
       "title": "Privacy consideration: Default protocol handler",
-      "number": "4.3"
+      "number": "6.3"
     },
     {
       "id": "file_handlers-member",
       "href": "https://wicg.github.io/manifest-incubations/#file_handlers-member",
       "level": 2,
       "title": "file_handlers member",
-      "number": "5"
+      "number": "7"
     },
     {
       "id": "file-handler-items",
       "href": "https://wicg.github.io/manifest-incubations/#file-handler-items",
       "level": 3,
       "title": "File Handler Items",
-      "number": "5.1"
+      "number": "7.1"
     },
     {
       "id": "action-member",
       "href": "https://wicg.github.io/manifest-incubations/#action-member",
       "level": 4,
       "title": "action member",
-      "number": "5.1.1"
+      "number": "7.1.1"
     },
     {
       "id": "name-member",
       "href": "https://wicg.github.io/manifest-incubations/#name-member",
       "level": 4,
       "title": "name member",
-      "number": "5.1.2"
+      "number": "7.1.2"
     },
     {
       "id": "icons-member",
       "href": "https://wicg.github.io/manifest-incubations/#icons-member",
       "level": 4,
       "title": "icons member",
-      "number": "5.1.3"
+      "number": "7.1.3"
     },
     {
       "id": "accept-member",
       "href": "https://wicg.github.io/manifest-incubations/#accept-member",
       "level": 4,
       "title": "accept member",
-      "number": "5.1.4"
+      "number": "7.1.4"
     },
     {
       "id": "launch_type-member",
       "href": "https://wicg.github.io/manifest-incubations/#launch_type-member",
       "level": 4,
       "title": "launch_type member",
-      "number": "5.1.5"
+      "number": "7.1.5"
     },
     {
       "id": "processing-file-handler-items",
       "href": "https://wicg.github.io/manifest-incubations/#processing-file-handler-items",
       "level": 3,
       "title": "Processing file handler items",
-      "number": "5.2"
+      "number": "7.2"
     },
     {
       "id": "execute-a-file-handler-launch",
       "href": "https://wicg.github.io/manifest-incubations/#execute-a-file-handler-launch",
       "level": 3,
       "title": "Execute a file handler launch",
-      "number": "5.3"
+      "number": "7.3"
     },
     {
       "id": "registering-file-handlers",
       "href": "https://wicg.github.io/manifest-incubations/#registering-file-handlers",
       "level": 3,
       "title": "Registering file handlers",
-      "number": "5.4"
+      "number": "7.4"
     },
     {
       "id": "privacy-consideration-default-file-handler",
       "href": "https://wicg.github.io/manifest-incubations/#privacy-consideration-default-file-handler",
       "level": 3,
       "title": "Privacy consideration: Default file handler.",
-      "number": "5.5"
+      "number": "7.5"
     },
     {
       "id": "privacy-consideration-name-and-icon",
       "href": "https://wicg.github.io/manifest-incubations/#privacy-consideration-name-and-icon",
       "level": 3,
       "title": "Privacy consideration: Name and icon.",
-      "number": "5.6"
+      "number": "7.6"
     },
     {
       "id": "example-manifest-with-file-handlers",
       "href": "https://wicg.github.io/manifest-incubations/#example-manifest-with-file-handlers",
       "level": 3,
       "title": "Example manifest with file handlers",
-      "number": "5.7"
+      "number": "7.7"
+    },
+    {
+      "id": "related_applications-member",
+      "href": "https://wicg.github.io/manifest-incubations/#related_applications-member",
+      "level": 2,
+      "title": "related_applications member",
+      "number": "8"
+    },
+    {
+      "id": "prefer_related_applications-member",
+      "href": "https://wicg.github.io/manifest-incubations/#prefer_related_applications-member",
+      "level": 2,
+      "title": "prefer_related_applications member",
+      "number": "9"
+    },
+    {
+      "id": "external-application-resource",
+      "href": "https://wicg.github.io/manifest-incubations/#external-application-resource",
+      "level": 2,
+      "title": "10. External application resource"
+    },
+    {
+      "id": "platform-member",
+      "href": "https://wicg.github.io/manifest-incubations/#platform-member",
+      "level": 3,
+      "title": "platform member",
+      "number": "10.1"
+    },
+    {
+      "id": "url-member-0",
+      "href": "https://wicg.github.io/manifest-incubations/#url-member-0",
+      "level": 3,
+      "title": "url member",
+      "number": "10.2"
+    },
+    {
+      "id": "id-member",
+      "href": "https://wicg.github.io/manifest-incubations/#id-member",
+      "level": 3,
+      "title": "id member",
+      "number": "10.3"
+    },
+    {
+      "id": "min_version-member",
+      "href": "https://wicg.github.io/manifest-incubations/#min_version-member",
+      "level": 3,
+      "title": "min_version member",
+      "number": "10.4"
+    },
+    {
+      "id": "fingerprints-member",
+      "href": "https://wicg.github.io/manifest-incubations/#fingerprints-member",
+      "level": 3,
+      "title": "fingerprints member",
+      "number": "10.5"
     },
     {
       "id": "installation-prompts",
       "href": "https://wicg.github.io/manifest-incubations/#installation-prompts",
       "level": 2,
-      "title": "Installation prompts",
-      "number": "6"
+      "title": "11. Installation prompts"
     },
     {
       "id": "installable-web-applications",
       "href": "https://wicg.github.io/manifest-incubations/#installable-web-applications",
       "level": 2,
-      "title": "Installable web applications",
-      "number": "7"
+      "title": "12. Installable web applications"
     },
     {
       "id": "installation-process",
       "href": "https://wicg.github.io/manifest-incubations/#installation-process",
       "level": 3,
       "title": "Installation process",
-      "number": "7.1"
+      "number": "12.1"
     },
     {
       "id": "installability-signals-0",
       "href": "https://wicg.github.io/manifest-incubations/#installability-signals-0",
       "level": 3,
       "title": "Installability signals",
-      "number": "7.2"
+      "number": "12.2"
     },
     {
       "id": "installation-events",
       "href": "https://wicg.github.io/manifest-incubations/#installation-events",
       "level": 2,
-      "title": "Installation Events",
-      "number": "8"
+      "title": "13. Installation Events"
     },
     {
       "id": "beforeinstallpromptevent-interface",
       "href": "https://wicg.github.io/manifest-incubations/#beforeinstallpromptevent-interface",
       "level": 3,
       "title": "BeforeInstallPromptEvent Interface",
-      "number": "8.1"
+      "number": "13.1"
     },
     {
       "id": "prompt-method",
       "href": "https://wicg.github.io/manifest-incubations/#prompt-method",
       "level": 4,
       "title": "prompt() method",
-      "number": "8.1.1"
+      "number": "13.1.1"
     },
     {
       "id": "usage-example-1",
       "href": "https://wicg.github.io/manifest-incubations/#usage-example-1",
       "level": 4,
       "title": "Usage example",
-      "number": "8.1.2"
+      "number": "13.1.2"
     },
     {
       "id": "appbannerpromptoutcome-enum",
       "href": "https://wicg.github.io/manifest-incubations/#appbannerpromptoutcome-enum",
       "level": 4,
       "title": "AppBannerPromptOutcome enum",
-      "number": "8.1.3"
+      "number": "13.1.3"
     },
     {
       "id": "extensions-to-the-window-object",
       "href": "https://wicg.github.io/manifest-incubations/#extensions-to-the-window-object",
       "level": 3,
       "title": "Extensions to the Window object",
-      "number": "8.2"
+      "number": "13.2"
     },
     {
       "id": "onappinstalled-attribute",
       "href": "https://wicg.github.io/manifest-incubations/#onappinstalled-attribute",
       "level": 4,
       "title": "onappinstalled attribute",
-      "number": "8.2.1"
+      "number": "13.2.1"
     },
     {
       "id": "onbeforeinstallprompt-attribute",
       "href": "https://wicg.github.io/manifest-incubations/#onbeforeinstallprompt-attribute",
       "level": 4,
       "title": "onbeforeinstallprompt attribute",
-      "number": "8.2.2"
+      "number": "13.2.2"
     },
     {
       "id": "conformance",
       "href": "https://wicg.github.io/manifest-incubations/#conformance",
       "level": 2,
-      "title": "Conformance",
-      "number": "9"
+      "title": "14. Conformance"
     },
     {
       "id": "references",

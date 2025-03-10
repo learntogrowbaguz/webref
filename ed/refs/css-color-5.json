@@ -11,7 +11,11 @@
       },
       {
         "name": "CSS-COLOR-4",
-        "url": "https://drafts.csswg.org/css-color/"
+        "url": "https://drafts.csswg.org/css-color-4/"
+      },
+      {
+        "name": "CSS-COLOR-ADJUST-1",
+        "url": "https://drafts.csswg.org/css-color-adjust-1/"
       },
       {
         "name": "CSS-SYNTAX-3",
@@ -31,7 +35,11 @@
       },
       {
         "name": "ICC",
-        "url": "http://www.color.org/specification/ICC1v43_2010-12.pdf"
+        "url": "http://www.color.org/specification/ICC.1-2022-05.pdf"
+      },
+      {
+        "name": "INFRA",
+        "url": "https://infra.spec.whatwg.org/"
       },
       {
         "name": "RFC2119",
@@ -42,6 +50,19 @@
         "url": "https://webidl.spec.whatwg.org/"
       }
     ],
-    "informative": []
+    "informative": [
+      {
+        "name": "FOGRA39",
+        "url": "https://www.color.org/chardata/FOGRA39.xalter"
+      },
+      {
+        "name": "FOGRA51",
+        "url": "https://www.color.org/chardata/fogra51.xalter"
+      },
+      {
+        "name": "FOGRA55",
+        "url": "https://fogra.org/en/research/prepress-technology/multiprimary-printing-13003"
+      }
+    ]
   }
 }

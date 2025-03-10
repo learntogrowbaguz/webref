@@ -43,25 +43,46 @@
       "number": "2"
     },
     {
+      "id": "navigation-timing-patches",
+      "href": "https://wicg.github.io/nav-speculation/prefetch.html#navigation-timing-patches",
+      "level": 2,
+      "title": "Navigation Timing Patches",
+      "number": "3"
+    },
+    {
       "id": "prefetch-algorithms",
       "href": "https://wicg.github.io/nav-speculation/prefetch.html#prefetch-algorithms",
       "level": 2,
       "title": "Prefetch algorithms",
-      "number": "3"
+      "number": "4"
     },
     {
       "id": "cookies",
       "href": "https://wicg.github.io/nav-speculation/prefetch.html#cookies",
       "level": 2,
       "title": "Cookies",
-      "number": "4"
+      "number": "5"
     },
     {
       "id": "sec-purpose-header",
       "href": "https://wicg.github.io/nav-speculation/prefetch.html#sec-purpose-header",
       "level": 2,
-      "title": "The Sec-Purpose HTTP request header",
-      "number": "5"
+      "title": "The `Sec-Purpose` HTTP request header",
+      "number": "6"
+    },
+    {
+      "id": "security-considerations",
+      "href": "https://wicg.github.io/nav-speculation/prefetch.html#security-considerations",
+      "level": 2,
+      "title": "Security considerations",
+      "number": "7"
+    },
+    {
+      "id": "privacy-considerations",
+      "href": "https://wicg.github.io/nav-speculation/prefetch.html#privacy-considerations",
+      "level": 2,
+      "title": "Privacy considerations",
+      "number": "8"
     },
     {
       "id": "index",
@@ -92,6 +113,12 @@
       "href": "https://wicg.github.io/nav-speculation/prefetch.html#normative",
       "level": 3,
       "title": "Normative References"
+    },
+    {
+      "id": "informative",
+      "href": "https://wicg.github.io/nav-speculation/prefetch.html#informative",
+      "level": 3,
+      "title": "Informative References"
     },
     {
       "id": "issues-index",

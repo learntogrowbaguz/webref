@@ -26,7 +26,7 @@
         "url": "https://fetch.spec.whatwg.org/"
       },
       {
-        "name": "HR-TIME-2",
+        "name": "HR-TIME-3",
         "url": "https://w3c.github.io/hr-time/"
       },
       {
@@ -38,12 +38,16 @@
         "url": "https://infra.spec.whatwg.org/"
       },
       {
+        "name": "PRIVACY-PRINCIPLES",
+        "url": "https://w3ctag.github.io/privacy-principles/"
+      },
+      {
         "name": "QUIC",
-        "url": "https://tools.ietf.org/html/draft-ietf-quic-transport"
+        "url": "https://www.rfc-editor.org/rfc/rfc9000"
       },
       {
         "name": "QUIC-DATAGRAM",
-        "url": "https://datatracker.ietf.org/doc/html/draft-ietf-quic-datagram/"
+        "url": "https://www.rfc-editor.org/rfc/rfc9221"
       },
       {
         "name": "RFC2119",
@@ -58,8 +62,8 @@
         "url": "https://www.rfc-editor.org/rfc/rfc5280"
       },
       {
-        "name": "RFC6125",
-        "url": "https://www.rfc-editor.org/rfc/rfc6125"
+        "name": "RFC8174",
+        "url": "https://www.rfc-editor.org/rfc/rfc8174"
       },
       {
         "name": "RFC8422",
@@ -70,12 +74,20 @@
         "url": "https://www.rfc-editor.org/rfc/rfc9002"
       },
       {
+        "name": "RFC9525",
+        "url": "https://www.rfc-editor.org/rfc/rfc9525"
+      },
+      {
         "name": "STREAMS",
         "url": "https://streams.spec.whatwg.org/"
       },
       {
         "name": "URL",
         "url": "https://url.spec.whatwg.org/"
+      },
+      {
+        "name": "WEB-TRANSPORT-HTTP2",
+        "url": "https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-http2/"
       },
       {
         "name": "WEB-TRANSPORT-HTTP3",
@@ -98,6 +110,18 @@
       {
         "name": "RFC8446",
         "url": "https://www.rfc-editor.org/rfc/rfc8446"
+      },
+      {
+        "name": "RFC9308",
+        "url": "https://www.rfc-editor.org/rfc/rfc9308"
+      },
+      {
+        "name": "UNSANCTIONED-TRACKING",
+        "url": "http://www.w3.org/2001/tag/doc/unsanctioned-tracking/"
+      },
+      {
+        "name": "WEBRTC",
+        "url": "https://w3c.github.io/webrtc-pc/"
       }
     ]
   }

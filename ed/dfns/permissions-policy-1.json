@@ -24,6 +24,27 @@
       "definedIn": "prose"
     },
     {
+      "id": "policy-controlled-feature-tokens",
+      "href": "https://w3c.github.io/webappsec-permissions-policy/#policy-controlled-feature-tokens",
+      "linkingText": [
+        "tokens"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "policy-controlled-feature"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "features",
+        "href": "https://w3c.github.io/webappsec-permissions-policy/#features",
+        "title": "Policy-controlled Features",
+        "number": "4.1"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "supported-features",
       "href": "https://w3c.github.io/webappsec-permissions-policy/#supported-features",
       "linkingText": [
@@ -41,6 +62,67 @@
         "number": "4.1"
       },
       "definedIn": "prose"
+    },
+    {
+      "id": "declared-policy",
+      "href": "https://w3c.github.io/webappsec-permissions-policy/#declared-policy",
+      "linkingText": [
+        "declared policy"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "policies",
+        "href": "https://w3c.github.io/webappsec-permissions-policy/#policies",
+        "title": "Policies",
+        "number": "4.2"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "declared-policy-declarations",
+      "href": "https://w3c.github.io/webappsec-permissions-policy/#declared-policy-declarations",
+      "linkingText": [
+        "declarations"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "declared policy"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "policies",
+        "href": "https://w3c.github.io/webappsec-permissions-policy/#policies",
+        "title": "Policies",
+        "number": "4.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "declared-policy-reporting-configuration",
+      "href": "https://w3c.github.io/webappsec-permissions-policy/#declared-policy-reporting-configuration",
+      "linkingText": [
+        "reporting configuration"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "declared policy"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "policies",
+        "href": "https://w3c.github.io/webappsec-permissions-policy/#policies",
+        "title": "Policies",
+        "number": "4.2"
+      },
+      "definedIn": "dt"
     },
     {
       "id": "permissions-policy",
@@ -62,6 +144,48 @@
       "definedIn": "prose"
     },
     {
+      "id": "permissions-policy-inherited-policy",
+      "href": "https://w3c.github.io/webappsec-permissions-policy/#permissions-policy-inherited-policy",
+      "linkingText": [
+        "inherited policy"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "permissions policy"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "policies",
+        "href": "https://w3c.github.io/webappsec-permissions-policy/#policies",
+        "title": "Policies",
+        "number": "4.2"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "permissions-policy-declared-policy",
+      "href": "https://w3c.github.io/webappsec-permissions-policy/#permissions-policy-declared-policy",
+      "linkingText": [
+        "declared policy"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "permissions policy"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "policies",
+        "href": "https://w3c.github.io/webappsec-permissions-policy/#policies",
+        "title": "Policies",
+        "number": "4.2"
+      },
+      "definedIn": "dt"
+    },
+    {
       "id": "empty-permissions-policy",
       "href": "https://w3c.github.io/webappsec-permissions-policy/#empty-permissions-policy",
       "linkingText": [
@@ -77,26 +201,6 @@
         "href": "https://w3c.github.io/webappsec-permissions-policy/#policies",
         "title": "Policies",
         "number": "4.2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "inherited-policy",
-      "href": "https://w3c.github.io/webappsec-permissions-policy/#inherited-policy",
-      "linkingText": [
-        "inherited policy",
-        "inherited policies"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "inherited-policies",
-        "href": "https://w3c.github.io/webappsec-permissions-policy/#inherited-policies",
-        "title": "Inherited policies",
-        "number": "4.3"
       },
       "definedIn": "prose"
     },
@@ -120,26 +224,6 @@
       "definedIn": "prose"
     },
     {
-      "id": "declared-policy",
-      "href": "https://w3c.github.io/webappsec-permissions-policy/#declared-policy",
-      "linkingText": [
-        "declared policy",
-        "declared permissions policy"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "declared-policies",
-        "href": "https://w3c.github.io/webappsec-permissions-policy/#declared-policies",
-        "title": "Declared policies",
-        "number": "4.4"
-      },
-      "definedIn": "prose"
-    },
-    {
       "id": "header-policy",
       "href": "https://w3c.github.io/webappsec-permissions-policy/#header-policy",
       "linkingText": [
@@ -154,7 +238,7 @@
         "id": "header-policies",
         "href": "https://w3c.github.io/webappsec-permissions-policy/#header-policies",
         "title": "Header policies",
-        "number": "4.5"
+        "number": "4.4"
       },
       "definedIn": "prose"
     },
@@ -173,7 +257,7 @@
         "id": "container-policies",
         "href": "https://w3c.github.io/webappsec-permissions-policy/#container-policies",
         "title": "Container policies",
-        "number": "4.6"
+        "number": "4.5"
       },
       "definedIn": "prose"
     },
@@ -193,7 +277,7 @@
         "id": "policy-directives",
         "href": "https://w3c.github.io/webappsec-permissions-policy/#policy-directives",
         "title": "Policy directives",
-        "number": "4.7"
+        "number": "4.6"
       },
       "definedIn": "prose"
     },
@@ -213,7 +297,7 @@
         "id": "allowlists",
         "href": "https://w3c.github.io/webappsec-permissions-policy/#allowlists",
         "title": "Allowlists",
-        "number": "4.8"
+        "number": "4.7"
       },
       "definedIn": "prose"
     },
@@ -232,7 +316,64 @@
         "id": "allowlists",
         "href": "https://w3c.github.io/webappsec-permissions-policy/#allowlists",
         "title": "Allowlists",
-        "number": "4.8"
+        "number": "4.7"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "expressions",
+      "href": "https://w3c.github.io/webappsec-permissions-policy/#expressions",
+      "linkingText": [
+        "expressions"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "allowlists",
+        "href": "https://w3c.github.io/webappsec-permissions-policy/#allowlists",
+        "title": "Allowlists",
+        "number": "4.7"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "self-origin",
+      "href": "https://w3c.github.io/webappsec-permissions-policy/#self-origin",
+      "linkingText": [
+        "self-origin"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "allowlists",
+        "href": "https://w3c.github.io/webappsec-permissions-policy/#allowlists",
+        "title": "Allowlists",
+        "number": "4.7"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "src-origin",
+      "href": "https://w3c.github.io/webappsec-permissions-policy/#src-origin",
+      "linkingText": [
+        "src-origin"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "allowlists",
+        "href": "https://w3c.github.io/webappsec-permissions-policy/#allowlists",
+        "title": "Allowlists",
+        "number": "4.7"
       },
       "definedIn": "prose"
     },
@@ -251,7 +392,7 @@
         "id": "allowlists",
         "href": "https://w3c.github.io/webappsec-permissions-policy/#allowlists",
         "title": "Allowlists",
-        "number": "4.8"
+        "number": "4.7"
       },
       "definedIn": "prose"
     },
@@ -273,7 +414,7 @@
         "id": "default-allowlists",
         "href": "https://w3c.github.io/webappsec-permissions-policy/#default-allowlists",
         "title": "Default Allowlists",
-        "number": "4.9"
+        "number": "4.8"
       },
       "definedIn": "prose"
     },
@@ -294,7 +435,7 @@
         "id": "default-allowlists",
         "href": "https://w3c.github.io/webappsec-permissions-policy/#default-allowlists",
         "title": "Default Allowlists",
-        "number": "4.9"
+        "number": "4.8"
       },
       "definedIn": "dt"
     },
@@ -315,7 +456,7 @@
         "id": "default-allowlists",
         "href": "https://w3c.github.io/webappsec-permissions-policy/#default-allowlists",
         "title": "Default Allowlists",
-        "number": "4.9"
+        "number": "4.8"
       },
       "definedIn": "dt"
     },
@@ -415,10 +556,10 @@
       "definedIn": "pre"
     },
     {
-      "id": "serialized-origin",
-      "href": "https://w3c.github.io/webappsec-permissions-policy/#serialized-origin",
+      "id": "permissions-source-expression",
+      "href": "https://w3c.github.io/webappsec-permissions-policy/#permissions-source-expression",
       "linkingText": [
-        "serialized-origin"
+        "permissions-source-expression"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -431,7 +572,7 @@
         "title": "HTML attribute serialization",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "pre"
     },
     {
       "id": "permissions-policy-header",
@@ -447,7 +588,7 @@
       "heading": {
         "id": "permissions-policy-http-header-field",
         "href": "https://w3c.github.io/webappsec-permissions-policy/#permissions-policy-http-header-field",
-        "title": "Permissions-Policy HTTP Header Field",
+        "title": "`Permissions-Policy` HTTP Header Field",
         "number": "6.1"
       },
       "definedIn": "prose"
@@ -841,6 +982,27 @@
       "definedIn": "pre"
     },
     {
+      "id": "dom-permissionspolicyviolationreportbody-tojson",
+      "href": "https://w3c.github.io/webappsec-permissions-policy/#dom-permissionspolicyviolationreportbody-tojson",
+      "linkingText": [
+        "toJSON()"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "PermissionsPolicyViolationReportBody"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "reporting",
+        "href": "https://w3c.github.io/webappsec-permissions-policy/#reporting",
+        "title": "Reporting",
+        "number": "8"
+      },
+      "definedIn": "pre"
+    },
+    {
       "id": "dom-permissionspolicyviolationreportbody-featureid",
       "href": "https://w3c.github.io/webappsec-permissions-policy/#dom-permissionspolicyviolationreportbody-featureid",
       "linkingText": [
@@ -929,6 +1091,48 @@
       "href": "https://w3c.github.io/webappsec-permissions-policy/#dom-permissionspolicyviolationreportbody-disposition",
       "linkingText": [
         "disposition"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "PermissionsPolicyViolationReportBody"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "reporting",
+        "href": "https://w3c.github.io/webappsec-permissions-policy/#reporting",
+        "title": "Reporting",
+        "number": "8"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-permissionspolicyviolationreportbody-allowattribute",
+      "href": "https://w3c.github.io/webappsec-permissions-policy/#dom-permissionspolicyviolationreportbody-allowattribute",
+      "linkingText": [
+        "allowAttribute"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "PermissionsPolicyViolationReportBody"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "reporting",
+        "href": "https://w3c.github.io/webappsec-permissions-policy/#reporting",
+        "title": "Reporting",
+        "number": "8"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-permissionspolicyviolationreportbody-srcattribute",
+      "href": "https://w3c.github.io/webappsec-permissions-policy/#dom-permissionspolicyviolationreportbody-srcattribute",
+      "linkingText": [
+        "srcAttribute"
       ],
       "localLinkingText": [],
       "type": "attribute",
@@ -1051,6 +1255,67 @@
       "definedIn": "prose"
     },
     {
+      "id": "permissionspolicyviolationreportbody-allowattribute",
+      "href": "https://w3c.github.io/webappsec-permissions-policy/#permissionspolicyviolationreportbody-allowattribute",
+      "linkingText": [
+        "allowAttribute"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "PermissionsPolicyViolationReportBody"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "reporting",
+        "href": "https://w3c.github.io/webappsec-permissions-policy/#reporting",
+        "title": "Reporting",
+        "number": "8"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "permissionspolicyviolationreportbody-srcattribute",
+      "href": "https://w3c.github.io/webappsec-permissions-policy/#permissionspolicyviolationreportbody-srcattribute",
+      "linkingText": [
+        "srcAttribute"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "PermissionsPolicyViolationReportBody"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "reporting",
+        "href": "https://w3c.github.io/webappsec-permissions-policy/#reporting",
+        "title": "Reporting",
+        "number": "8"
+      },
+      "definedIn": "prose"
+    },
+    {
+      "id": "permissions-policy-report-only-header",
+      "href": "https://w3c.github.io/webappsec-permissions-policy/#permissions-policy-report-only-header",
+      "linkingText": [
+        "Permissions-Policy-Report-Only"
+      ],
+      "localLinkingText": [],
+      "type": "http-header",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "permissions-policy-report-only-http-header-field",
+        "href": "https://w3c.github.io/webappsec-permissions-policy/#permissions-policy-report-only-http-header-field",
+        "title": "`Permissions-Policy-Report-Only` HTTP Header Field",
+        "number": "8.1"
+      },
+      "definedIn": "prose"
+    },
+    {
       "id": "process-response-policy",
       "href": "https://w3c.github.io/webappsec-permissions-policy/#process-response-policy",
       "linkingText": [
@@ -1127,10 +1392,10 @@
       "definedIn": "heading"
     },
     {
-      "id": "create-for-browsingcontext",
-      "href": "https://w3c.github.io/webappsec-permissions-policy/#create-for-browsingcontext",
+      "id": "create-for-navigable",
+      "href": "https://w3c.github.io/webappsec-permissions-policy/#create-for-navigable",
       "linkingText": [
-        "Create a Permissions Policy for a browsing context"
+        "Create a Permissions Policy for a navigable"
       ],
       "localLinkingText": [],
       "type": "abstract-op",
@@ -1138,9 +1403,9 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "algo-create-for-browsingcontext",
-        "href": "https://w3c.github.io/webappsec-permissions-policy/#algo-create-for-browsingcontext",
-        "title": "Create a Permissions Policy for a browsing context",
+        "id": "algo-create-for-navigable",
+        "href": "https://w3c.github.io/webappsec-permissions-policy/#algo-create-for-navigable",
+        "title": "Create a Permissions Policy for a navigable",
         "number": "9.5"
       },
       "definedIn": "heading"
@@ -1149,7 +1414,7 @@
       "id": "create-from-response",
       "href": "https://w3c.github.io/webappsec-permissions-policy/#create-from-response",
       "linkingText": [
-        "Create a Permissions Policy for a browsing context from response"
+        "Create a Permissions Policy for a navigable from response"
       ],
       "localLinkingText": [],
       "type": "abstract-op",
@@ -1159,27 +1424,8 @@
       "heading": {
         "id": "algo-create-from-response",
         "href": "https://w3c.github.io/webappsec-permissions-policy/#algo-create-from-response",
-        "title": "Create a Permissions Policy for a browsing context from response",
+        "title": "Create a Permissions Policy for a navigable from response",
         "number": "9.6"
-      },
-      "definedIn": "heading"
-    },
-    {
-      "id": "define-inherited-policy",
-      "href": "https://w3c.github.io/webappsec-permissions-policy/#define-inherited-policy",
-      "linkingText": [
-        "Define an inherited policy for feature in browsing context"
-      ],
-      "localLinkingText": [],
-      "type": "abstract-op",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "algo-define-inherited-policy",
-        "href": "https://w3c.github.io/webappsec-permissions-policy/#algo-define-inherited-policy",
-        "title": "Define an inherited policy for feature in browsing context",
-        "number": "9.7"
       },
       "definedIn": "heading"
     },
@@ -1198,7 +1444,45 @@
         "id": "algo-define-inherited-policy-in-container",
         "href": "https://w3c.github.io/webappsec-permissions-policy/#algo-define-inherited-policy-in-container",
         "title": "Define an inherited policy for feature in container at origin",
+        "number": "9.7"
+      },
+      "definedIn": "heading"
+    },
+    {
+      "id": "get-feature-value-for-origin",
+      "href": "https://w3c.github.io/webappsec-permissions-policy/#get-feature-value-for-origin",
+      "linkingText": [
+        "Get feature value for origin"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "algo-get-feature-value-for-origin",
+        "href": "https://w3c.github.io/webappsec-permissions-policy/#algo-get-feature-value-for-origin",
+        "title": "Get feature value for origin",
         "number": "9.8"
+      },
+      "definedIn": "heading"
+    },
+    {
+      "id": "check-permissions-policy",
+      "href": "https://w3c.github.io/webappsec-permissions-policy/#check-permissions-policy",
+      "linkingText": [
+        "Check permissions policy"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "algo-check-permissions-policy",
+        "href": "https://w3c.github.io/webappsec-permissions-policy/#algo-check-permissions-policy",
+        "title": "Check permissions policy",
+        "number": "9.9"
       },
       "definedIn": "heading"
     },
@@ -1217,7 +1501,45 @@
         "id": "algo-is-feature-enabled",
         "href": "https://w3c.github.io/webappsec-permissions-policy/#algo-is-feature-enabled",
         "title": "Is feature enabled in document for origin?",
-        "number": "9.9"
+        "number": "9.10"
+      },
+      "definedIn": "heading"
+    },
+    {
+      "id": "get-reporting-endpoint",
+      "href": "https://w3c.github.io/webappsec-permissions-policy/#get-reporting-endpoint",
+      "linkingText": [
+        "Get the reporting endpoint for a feature"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "algo-get-reporting-endpoint",
+        "href": "https://w3c.github.io/webappsec-permissions-policy/#algo-get-reporting-endpoint",
+        "title": "Get the reporting endpoint for a feature",
+        "number": "9.11"
+      },
+      "definedIn": "heading"
+    },
+    {
+      "id": "check-potential-violation-in-container",
+      "href": "https://w3c.github.io/webappsec-permissions-policy/#check-potential-violation-in-container",
+      "linkingText": [
+        "Check potential violation of permissions policy in container"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "algo-check-potential-violation-in-container",
+        "href": "https://w3c.github.io/webappsec-permissions-policy/#algo-check-potential-violation-in-container",
+        "title": "Check potential violation of permissions policy in container",
+        "number": "9.12"
       },
       "definedIn": "heading"
     },
@@ -1236,7 +1558,26 @@
         "id": "algo-report-permissions-policy-violation",
         "href": "https://w3c.github.io/webappsec-permissions-policy/#algo-report-permissions-policy-violation",
         "title": "Generate report for violation of permissions policy on settings",
-        "number": "9.10"
+        "number": "9.13"
+      },
+      "definedIn": "heading"
+    },
+    {
+      "id": "report-potential-permissions-policy-violation",
+      "href": "https://w3c.github.io/webappsec-permissions-policy/#report-potential-permissions-policy-violation",
+      "linkingText": [
+        "Generate report for potential violation of permissions policy on settings"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "algo-report-potential-permissions-policy-violation",
+        "href": "https://w3c.github.io/webappsec-permissions-policy/#algo-report-potential-permissions-policy-violation",
+        "title": "Generate report for potential violation of permissions policy on settings",
+        "number": "9.14"
       },
       "definedIn": "heading"
     },
@@ -1255,9 +1596,30 @@
         "id": "algo-should-request-be-allowed-to-use-feature",
         "href": "https://w3c.github.io/webappsec-permissions-policy/#algo-should-request-be-allowed-to-use-feature",
         "title": "Should request be allowed to use feature?",
-        "number": "9.11"
+        "number": "9.15"
       },
       "definedIn": "heading"
+    },
+    {
+      "id": "document-report-only-permissions-policy",
+      "href": "https://w3c.github.io/webappsec-permissions-policy/#document-report-only-permissions-policy",
+      "linkingText": [
+        "report-only permissions policy"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Document"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "changes-to-html",
+        "href": "https://w3c.github.io/webappsec-permissions-policy/#changes-to-html",
+        "title": "Changes to the HTML specification",
+        "number": "10.1"
+      },
+      "definedIn": "prose"
     }
   ]
 }

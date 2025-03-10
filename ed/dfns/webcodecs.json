@@ -196,6 +196,25 @@
       "definedIn": "dt"
     },
     {
+      "id": "display-p3-color-space",
+      "href": "https://w3c.github.io/webcodecs/#display-p3-color-space",
+      "linkingText": [
+        "Display P3 Color Space"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "definitions",
+        "href": "https://w3c.github.io/webcodecs/#definitions",
+        "title": "Definitions",
+        "number": "1"
+      },
+      "definedIn": "dt"
+    },
+    {
       "id": "rec709-color-space",
       "href": "https://w3c.github.io/webcodecs/#rec709-color-space",
       "linkingText": [
@@ -4473,6 +4492,48 @@
       "definedIn": "dt"
     },
     {
+      "id": "dom-videodecoderconfig-rotation",
+      "href": "https://w3c.github.io/webcodecs/#dom-videodecoderconfig-rotation",
+      "linkingText": [
+        "rotation"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "VideoDecoderConfig"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "video-decoder-config",
+        "href": "https://w3c.github.io/webcodecs/#video-decoder-config",
+        "title": "VideoDecoderConfig",
+        "number": "7.6"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-videodecoderconfig-flip",
+      "href": "https://w3c.github.io/webcodecs/#dom-videodecoderconfig-flip",
+      "linkingText": [
+        "flip"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "VideoDecoderConfig"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "video-decoder-config",
+        "href": "https://w3c.github.io/webcodecs/#video-decoder-config",
+        "title": "VideoDecoderConfig",
+        "number": "7.6"
+      },
+      "definedIn": "dt"
+    },
+    {
       "id": "dictdef-audioencoderconfig",
       "href": "https://w3c.github.io/webcodecs/#dictdef-audioencoderconfig",
       "linkingText": [
@@ -4578,6 +4639,27 @@
       "href": "https://w3c.github.io/webcodecs/#dom-audioencoderconfig-bitrate",
       "linkingText": [
         "bitrate"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "AudioEncoderConfig"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "audio-encoder-config",
+        "href": "https://w3c.github.io/webcodecs/#audio-encoder-config",
+        "title": "AudioEncoderConfig",
+        "number": "7.7"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-audioencoderconfig-bitratemode",
+      "href": "https://w3c.github.io/webcodecs/#dom-audioencoderconfig-bitratemode",
+      "linkingText": [
+        "bitrateMode"
       ],
       "localLinkingText": [],
       "type": "dict-member",
@@ -4885,6 +4967,27 @@
       "definedIn": "dt"
     },
     {
+      "id": "dom-videoencoderconfig-contenthint",
+      "href": "https://w3c.github.io/webcodecs/#dom-videoencoderconfig-contenthint",
+      "linkingText": [
+        "contentHint"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "VideoEncoderConfig"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "video-encoder-config",
+        "href": "https://w3c.github.io/webcodecs/#video-encoder-config",
+        "title": "VideoEncoderConfig",
+        "number": "7.8"
+      },
+      "definedIn": "dt"
+    },
+    {
       "id": "enumdef-hardwareacceleration",
       "href": "https://w3c.github.io/webcodecs/#enumdef-hardwareacceleration",
       "linkingText": [
@@ -5155,6 +5258,91 @@
       "definedIn": "dt"
     },
     {
+      "id": "enumdef-videoencoderbitratemode",
+      "href": "https://w3c.github.io/webcodecs/#enumdef-videoencoderbitratemode",
+      "linkingText": [
+        "VideoEncoderBitrateMode"
+      ],
+      "localLinkingText": [],
+      "type": "enum",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "video-encoder-bitrate-mode",
+        "href": "https://w3c.github.io/webcodecs/#video-encoder-bitrate-mode",
+        "title": "VideoEncoderBitrateMode",
+        "number": "7.14"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-videoencoderbitratemode-constant",
+      "href": "https://w3c.github.io/webcodecs/#dom-videoencoderbitratemode-constant",
+      "linkingText": [
+        "\"constant\"",
+        "constant"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "VideoEncoderBitrateMode"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "video-encoder-bitrate-mode",
+        "href": "https://w3c.github.io/webcodecs/#video-encoder-bitrate-mode",
+        "title": "VideoEncoderBitrateMode",
+        "number": "7.14"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-videoencoderbitratemode-variable",
+      "href": "https://w3c.github.io/webcodecs/#dom-videoencoderbitratemode-variable",
+      "linkingText": [
+        "\"variable\"",
+        "variable"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "VideoEncoderBitrateMode"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "video-encoder-bitrate-mode",
+        "href": "https://w3c.github.io/webcodecs/#video-encoder-bitrate-mode",
+        "title": "VideoEncoderBitrateMode",
+        "number": "7.14"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-videoencoderbitratemode-quantizer",
+      "href": "https://w3c.github.io/webcodecs/#dom-videoencoderbitratemode-quantizer",
+      "linkingText": [
+        "\"quantizer\"",
+        "quantizer"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "VideoEncoderBitrateMode"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "video-encoder-bitrate-mode",
+        "href": "https://w3c.github.io/webcodecs/#video-encoder-bitrate-mode",
+        "title": "VideoEncoderBitrateMode",
+        "number": "7.14"
+      },
+      "definedIn": "dt"
+    },
+    {
       "id": "enumdef-codecstate",
       "href": "https://w3c.github.io/webcodecs/#enumdef-codecstate",
       "linkingText": [
@@ -5169,7 +5357,7 @@
         "id": "codec-state",
         "href": "https://w3c.github.io/webcodecs/#codec-state",
         "title": "CodecState",
-        "number": "7.14"
+        "number": "7.15"
       },
       "definedIn": "pre"
     },
@@ -5191,7 +5379,7 @@
         "id": "codec-state",
         "href": "https://w3c.github.io/webcodecs/#codec-state",
         "title": "CodecState",
-        "number": "7.14"
+        "number": "7.15"
       },
       "definedIn": "dt"
     },
@@ -5213,7 +5401,7 @@
         "id": "codec-state",
         "href": "https://w3c.github.io/webcodecs/#codec-state",
         "title": "CodecState",
-        "number": "7.14"
+        "number": "7.15"
       },
       "definedIn": "dt"
     },
@@ -5235,7 +5423,7 @@
         "id": "codec-state",
         "href": "https://w3c.github.io/webcodecs/#codec-state",
         "title": "CodecState",
-        "number": "7.14"
+        "number": "7.15"
       },
       "definedIn": "dt"
     },
@@ -5254,7 +5442,7 @@
         "id": "error-callback",
         "href": "https://w3c.github.io/webcodecs/#error-callback",
         "title": "WebCodecsErrorCallback",
-        "number": "7.15"
+        "number": "7.16"
       },
       "definedIn": "pre"
     },
@@ -5275,7 +5463,7 @@
         "id": "error-callback",
         "href": "https://w3c.github.io/webcodecs/#error-callback",
         "title": "WebCodecsErrorCallback",
-        "number": "7.15"
+        "number": "7.16"
       },
       "definedIn": "pre"
     },
@@ -5428,6 +5616,27 @@
       "href": "https://w3c.github.io/webcodecs/#dom-encodedaudiochunkinit-data",
       "linkingText": [
         "data"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "EncodedAudioChunkInit"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "encodedaudiochunk-interface",
+        "href": "https://w3c.github.io/webcodecs/#encodedaudiochunk-interface",
+        "title": "EncodedAudioChunk Interface",
+        "number": "8.1"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-encodedaudiochunkinit-transfer",
+      "href": "https://w3c.github.io/webcodecs/#dom-encodedaudiochunkinit-transfer",
+      "linkingText": [
+        "transfer"
       ],
       "localLinkingText": [],
       "type": "dict-member",
@@ -5886,6 +6095,27 @@
       "href": "https://w3c.github.io/webcodecs/#dom-encodedvideochunkinit-data",
       "linkingText": [
         "data"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "EncodedVideoChunkInit"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "encodedvideochunk-interface",
+        "href": "https://w3c.github.io/webcodecs/#encodedvideochunk-interface",
+        "title": "EncodedVideoChunk Interface",
+        "number": "8.2"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-encodedvideochunkinit-transfer",
+      "href": "https://w3c.github.io/webcodecs/#dom-encodedvideochunkinit-transfer",
+      "linkingText": [
+        "transfer"
       ],
       "localLinkingText": [],
       "type": "dict-member",
@@ -6447,6 +6677,27 @@
       "href": "https://w3c.github.io/webcodecs/#dom-audiodatainit-data",
       "linkingText": [
         "data"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "AudioDataInit"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "audiodata-interface",
+        "href": "https://w3c.github.io/webcodecs/#audiodata-interface",
+        "title": "AudioData Interface",
+        "number": "9.2"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-audiodatainit-transfer",
+      "href": "https://w3c.github.io/webcodecs/#dom-audiodatainit-transfer",
+      "linkingText": [
+        "transfer"
       ],
       "localLinkingText": [],
       "type": "dict-member",
@@ -7628,6 +7879,48 @@
       "definedIn": "pre"
     },
     {
+      "id": "dom-videoframeinit-rotation",
+      "href": "https://w3c.github.io/webcodecs/#dom-videoframeinit-rotation",
+      "linkingText": [
+        "rotation"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "VideoFrameInit"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "videoframe-interface",
+        "href": "https://w3c.github.io/webcodecs/#videoframe-interface",
+        "title": "VideoFrame Interface",
+        "number": "9.4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-videoframeinit-flip",
+      "href": "https://w3c.github.io/webcodecs/#dom-videoframeinit-flip",
+      "linkingText": [
+        "flip"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "VideoFrameInit"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "videoframe-interface",
+        "href": "https://w3c.github.io/webcodecs/#videoframe-interface",
+        "title": "VideoFrame Interface",
+        "number": "9.4"
+      },
+      "definedIn": "pre"
+    },
+    {
       "id": "dom-videoframeinit-displaywidth",
       "href": "https://w3c.github.io/webcodecs/#dom-videoframeinit-displaywidth",
       "linkingText": [
@@ -7857,6 +8150,48 @@
       "definedIn": "pre"
     },
     {
+      "id": "dom-videoframebufferinit-rotation",
+      "href": "https://w3c.github.io/webcodecs/#dom-videoframebufferinit-rotation",
+      "linkingText": [
+        "rotation"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "VideoFrameBufferInit"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "videoframe-interface",
+        "href": "https://w3c.github.io/webcodecs/#videoframe-interface",
+        "title": "VideoFrame Interface",
+        "number": "9.4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-videoframebufferinit-flip",
+      "href": "https://w3c.github.io/webcodecs/#dom-videoframebufferinit-flip",
+      "linkingText": [
+        "flip"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "VideoFrameBufferInit"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "videoframe-interface",
+        "href": "https://w3c.github.io/webcodecs/#videoframe-interface",
+        "title": "VideoFrame Interface",
+        "number": "9.4"
+      },
+      "definedIn": "pre"
+    },
+    {
       "id": "dom-videoframebufferinit-displaywidth",
       "href": "https://w3c.github.io/webcodecs/#dom-videoframebufferinit-displaywidth",
       "linkingText": [
@@ -7903,6 +8238,48 @@
       "href": "https://w3c.github.io/webcodecs/#dom-videoframebufferinit-colorspace",
       "linkingText": [
         "colorSpace"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "VideoFrameBufferInit"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "videoframe-interface",
+        "href": "https://w3c.github.io/webcodecs/#videoframe-interface",
+        "title": "VideoFrame Interface",
+        "number": "9.4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-videoframebufferinit-transfer",
+      "href": "https://w3c.github.io/webcodecs/#dom-videoframebufferinit-transfer",
+      "linkingText": [
+        "transfer"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "VideoFrameBufferInit"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "videoframe-interface",
+        "href": "https://w3c.github.io/webcodecs/#videoframe-interface",
+        "title": "VideoFrame Interface",
+        "number": "9.4"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-videoframebufferinit-metadata",
+      "href": "https://w3c.github.io/webcodecs/#dom-videoframebufferinit-metadata",
+      "linkingText": [
+        "metadata"
       ],
       "localLinkingText": [],
       "type": "dict-member",
@@ -8090,6 +8467,48 @@
       "href": "https://w3c.github.io/webcodecs/#dom-videoframe-visible-height-slot",
       "linkingText": [
         "[[visible height]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "VideoFrame"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "videoframe-internal-slots",
+        "href": "https://w3c.github.io/webcodecs/#videoframe-internal-slots",
+        "title": "Internal Slots",
+        "number": "9.4.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-videoframe-rotation-slot",
+      "href": "https://w3c.github.io/webcodecs/#dom-videoframe-rotation-slot",
+      "linkingText": [
+        "[[rotation]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "VideoFrame"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "videoframe-internal-slots",
+        "href": "https://w3c.github.io/webcodecs/#videoframe-internal-slots",
+        "title": "Internal Slots",
+        "number": "9.4.1"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-videoframe-flip-slot",
+      "href": "https://w3c.github.io/webcodecs/#dom-videoframe-flip-slot",
+      "linkingText": [
+        "[[flip]]"
       ],
       "localLinkingText": [],
       "type": "attribute",
@@ -8367,6 +8786,48 @@
       "href": "https://w3c.github.io/webcodecs/#dom-videoframe-visiblerect",
       "linkingText": [
         "visibleRect"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "VideoFrame"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "videoframe-attributes",
+        "href": "https://w3c.github.io/webcodecs/#videoframe-attributes",
+        "title": "Attributes",
+        "number": "9.4.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-videoframe-rotation",
+      "href": "https://w3c.github.io/webcodecs/#dom-videoframe-rotation",
+      "linkingText": [
+        "rotation"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "VideoFrame"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "videoframe-attributes",
+        "href": "https://w3c.github.io/webcodecs/#videoframe-attributes",
+        "title": "Attributes",
+        "number": "9.4.3"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-videoframe-flip",
+      "href": "https://w3c.github.io/webcodecs/#dom-videoframe-flip",
+      "linkingText": [
+        "flip"
       ],
       "localLinkingText": [],
       "type": "attribute",
@@ -8901,10 +9362,10 @@
       "definedIn": "dt"
     },
     {
-      "id": "videoframe-initialize-frame-with-resource-and-size",
-      "href": "https://w3c.github.io/webcodecs/#videoframe-initialize-frame-with-resource-and-size",
+      "id": "videoframe-initialize-frame-with-resource",
+      "href": "https://w3c.github.io/webcodecs/#videoframe-initialize-frame-with-resource",
       "linkingText": [
-        "Initialize Frame With Resource and Size"
+        "Initialize Frame With Resource"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -8922,10 +9383,10 @@
       "definedIn": "dt"
     },
     {
-      "id": "videoframe-initialize-visible-rect-and-display-size",
-      "href": "https://w3c.github.io/webcodecs/#videoframe-initialize-visible-rect-and-display-size",
+      "id": "videoframe-initialize-visible-rect-orientation-and-display-size",
+      "href": "https://w3c.github.io/webcodecs/#videoframe-initialize-visible-rect-orientation-and-display-size",
       "linkingText": [
-        "Initialize Visible Rect and Display Size"
+        "Initialize Visible Rect, Orientation, and Display Size"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -8951,7 +9412,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "videoframe-algorithms",
@@ -8970,6 +9431,48 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "videoframe-algorithms",
+        "href": "https://w3c.github.io/webcodecs/#videoframe-algorithms",
+        "title": "Algorithms",
+        "number": "9.4.6"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "videoframe-parse-rotation",
+      "href": "https://w3c.github.io/webcodecs/#videoframe-parse-rotation",
+      "linkingText": [
+        "Parse Rotation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "VideoFrame"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "videoframe-algorithms",
+        "href": "https://w3c.github.io/webcodecs/#videoframe-algorithms",
+        "title": "Algorithms",
+        "number": "9.4.6"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "videoframe-add-rotations",
+      "href": "https://w3c.github.io/webcodecs/#videoframe-add-rotations",
+      "linkingText": [
+        "Add Rotations"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "VideoFrame"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -9023,27 +9526,6 @@
       "definedIn": "dt"
     },
     {
-      "id": "videoframe-verify-rect-size-alignment",
-      "href": "https://w3c.github.io/webcodecs/#videoframe-verify-rect-size-alignment",
-      "linkingText": [
-        "Verify Rect Size Alignment"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "VideoFrame"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "videoframe-algorithms",
-        "href": "https://w3c.github.io/webcodecs/#videoframe-algorithms",
-        "title": "Algorithms",
-        "number": "9.4.6"
-      },
-      "definedIn": "dt"
-    },
-    {
       "id": "videoframe-parse-visible-rect",
       "href": "https://w3c.github.io/webcodecs/#videoframe-parse-visible-rect",
       "linkingText": [
@@ -9069,6 +9551,46 @@
       "href": "https://w3c.github.io/webcodecs/#videoframe-compute-layout-and-allocation-size",
       "linkingText": [
         "Compute Layout and Allocation Size"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "VideoFrame"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "videoframe-algorithms",
+        "href": "https://w3c.github.io/webcodecs/#videoframe-algorithms",
+        "title": "Algorithms",
+        "number": "9.4.6"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "convert-predefinedcolorspace-to-videocolorspace",
+      "href": "https://w3c.github.io/webcodecs/#convert-predefinedcolorspace-to-videocolorspace",
+      "linkingText": [
+        "Convert PredefinedColorSpace to VideoColorSpace"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "videoframe-algorithms",
+        "href": "https://w3c.github.io/webcodecs/#videoframe-algorithms",
+        "title": "Algorithms",
+        "number": "9.4.6"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "videoframe-convert-to-rgb-frame",
+      "href": "https://w3c.github.io/webcodecs/#videoframe-convert-to-rgb-frame",
+      "linkingText": [
+        "Convert to RGB frame"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -9151,6 +9673,48 @@
       "href": "https://w3c.github.io/webcodecs/#dom-videoframecopytooptions-layout",
       "linkingText": [
         "layout"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "VideoFrameCopyToOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "videoframe-copyto-options",
+        "href": "https://w3c.github.io/webcodecs/#videoframe-copyto-options",
+        "title": "VideoFrame CopyTo() Options",
+        "number": "9.5"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-videoframecopytooptions-format",
+      "href": "https://w3c.github.io/webcodecs/#dom-videoframecopytooptions-format",
+      "linkingText": [
+        "format"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "VideoFrameCopyToOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "videoframe-copyto-options",
+        "href": "https://w3c.github.io/webcodecs/#videoframe-copyto-options",
+        "title": "VideoFrame CopyTo() Options",
+        "number": "9.5"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-videoframecopytooptions-colorspace",
+      "href": "https://w3c.github.io/webcodecs/#dom-videoframecopytooptions-colorspace",
+      "linkingText": [
+        "colorSpace"
       ],
       "localLinkingText": [],
       "type": "dict-member",
@@ -9329,11 +9893,99 @@
       "definedIn": "dt"
     },
     {
+      "id": "dom-videopixelformat-i420p10",
+      "href": "https://w3c.github.io/webcodecs/#dom-videopixelformat-i420p10",
+      "linkingText": [
+        "\"I420P10\"",
+        "I420P10"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "VideoPixelFormat"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "pixel-format",
+        "href": "https://w3c.github.io/webcodecs/#pixel-format",
+        "title": "Pixel Format",
+        "number": "9.8"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-videopixelformat-i420p12",
+      "href": "https://w3c.github.io/webcodecs/#dom-videopixelformat-i420p12",
+      "linkingText": [
+        "\"I420P12\"",
+        "I420P12"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "VideoPixelFormat"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "pixel-format",
+        "href": "https://w3c.github.io/webcodecs/#pixel-format",
+        "title": "Pixel Format",
+        "number": "9.8"
+      },
+      "definedIn": "dt"
+    },
+    {
       "id": "dom-videopixelformat-i420a",
       "href": "https://w3c.github.io/webcodecs/#dom-videopixelformat-i420a",
       "linkingText": [
         "\"I420A\"",
         "I420A"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "VideoPixelFormat"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "pixel-format",
+        "href": "https://w3c.github.io/webcodecs/#pixel-format",
+        "title": "Pixel Format",
+        "number": "9.8"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-videopixelformat-i420ap10",
+      "href": "https://w3c.github.io/webcodecs/#dom-videopixelformat-i420ap10",
+      "linkingText": [
+        "\"I420AP10\"",
+        "I420AP10"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "VideoPixelFormat"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "pixel-format",
+        "href": "https://w3c.github.io/webcodecs/#pixel-format",
+        "title": "Pixel Format",
+        "number": "9.8"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-videopixelformat-i420ap12",
+      "href": "https://w3c.github.io/webcodecs/#dom-videopixelformat-i420ap12",
+      "linkingText": [
+        "\"I420AP12\"",
+        "I420AP12"
       ],
       "localLinkingText": [],
       "type": "enum-value",
@@ -9373,11 +10025,231 @@
       "definedIn": "dt"
     },
     {
+      "id": "dom-videopixelformat-i422p10",
+      "href": "https://w3c.github.io/webcodecs/#dom-videopixelformat-i422p10",
+      "linkingText": [
+        "\"I422P10\"",
+        "I422P10"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "VideoPixelFormat"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "pixel-format",
+        "href": "https://w3c.github.io/webcodecs/#pixel-format",
+        "title": "Pixel Format",
+        "number": "9.8"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-videopixelformat-i422p12",
+      "href": "https://w3c.github.io/webcodecs/#dom-videopixelformat-i422p12",
+      "linkingText": [
+        "\"I422P12\"",
+        "I422P12"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "VideoPixelFormat"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "pixel-format",
+        "href": "https://w3c.github.io/webcodecs/#pixel-format",
+        "title": "Pixel Format",
+        "number": "9.8"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-videopixelformat-i422a",
+      "href": "https://w3c.github.io/webcodecs/#dom-videopixelformat-i422a",
+      "linkingText": [
+        "\"I422A\"",
+        "I422A"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "VideoPixelFormat"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "pixel-format",
+        "href": "https://w3c.github.io/webcodecs/#pixel-format",
+        "title": "Pixel Format",
+        "number": "9.8"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-videopixelformat-i422ap10",
+      "href": "https://w3c.github.io/webcodecs/#dom-videopixelformat-i422ap10",
+      "linkingText": [
+        "\"I422AP10\"",
+        "I422AP10"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "VideoPixelFormat"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "pixel-format",
+        "href": "https://w3c.github.io/webcodecs/#pixel-format",
+        "title": "Pixel Format",
+        "number": "9.8"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-videopixelformat-i422ap12",
+      "href": "https://w3c.github.io/webcodecs/#dom-videopixelformat-i422ap12",
+      "linkingText": [
+        "\"I422AP12\"",
+        "I422AP12"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "VideoPixelFormat"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "pixel-format",
+        "href": "https://w3c.github.io/webcodecs/#pixel-format",
+        "title": "Pixel Format",
+        "number": "9.8"
+      },
+      "definedIn": "dt"
+    },
+    {
       "id": "dom-videopixelformat-i444",
       "href": "https://w3c.github.io/webcodecs/#dom-videopixelformat-i444",
       "linkingText": [
         "\"I444\"",
         "I444"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "VideoPixelFormat"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "pixel-format",
+        "href": "https://w3c.github.io/webcodecs/#pixel-format",
+        "title": "Pixel Format",
+        "number": "9.8"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-videopixelformat-i444p10",
+      "href": "https://w3c.github.io/webcodecs/#dom-videopixelformat-i444p10",
+      "linkingText": [
+        "\"I444P10\"",
+        "I444P10"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "VideoPixelFormat"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "pixel-format",
+        "href": "https://w3c.github.io/webcodecs/#pixel-format",
+        "title": "Pixel Format",
+        "number": "9.8"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-videopixelformat-i444p12",
+      "href": "https://w3c.github.io/webcodecs/#dom-videopixelformat-i444p12",
+      "linkingText": [
+        "\"I444P12\"",
+        "I444P12"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "VideoPixelFormat"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "pixel-format",
+        "href": "https://w3c.github.io/webcodecs/#pixel-format",
+        "title": "Pixel Format",
+        "number": "9.8"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-videopixelformat-i444a",
+      "href": "https://w3c.github.io/webcodecs/#dom-videopixelformat-i444a",
+      "linkingText": [
+        "\"I444A\"",
+        "I444A"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "VideoPixelFormat"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "pixel-format",
+        "href": "https://w3c.github.io/webcodecs/#pixel-format",
+        "title": "Pixel Format",
+        "number": "9.8"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-videopixelformat-i444ap10",
+      "href": "https://w3c.github.io/webcodecs/#dom-videopixelformat-i444ap10",
+      "linkingText": [
+        "\"I444AP10\"",
+        "I444AP10"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "VideoPixelFormat"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "pixel-format",
+        "href": "https://w3c.github.io/webcodecs/#pixel-format",
+        "title": "Pixel Format",
+        "number": "9.8"
+      },
+      "definedIn": "dt"
+    },
+    {
+      "id": "dom-videopixelformat-i444ap12",
+      "href": "https://w3c.github.io/webcodecs/#dom-videopixelformat-i444ap12",
+      "linkingText": [
+        "\"I444AP12\"",
+        "I444AP12"
       ],
       "localLinkingText": [],
       "type": "enum-value",
@@ -11241,6 +12113,27 @@
       "localLinkingText": [],
       "type": "dictionary",
       "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "imagedecoderinit-interface",
+        "href": "https://w3c.github.io/webcodecs/#imagedecoderinit-interface",
+        "title": "ImageDecoderInit Interface",
+        "number": "10.3"
+      },
+      "definedIn": "pre"
+    },
+    {
+      "id": "dom-imagedecoderinit-transfer",
+      "href": "https://w3c.github.io/webcodecs/#dom-imagedecoderinit-transfer",
+      "linkingText": [
+        "transfer"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "ImageDecoderInit"
+      ],
       "access": "public",
       "informative": false,
       "heading": {
